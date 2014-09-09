@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IRD" jobname="Reference of arrival/departure notification C" display-name="Reference information of railway arrival notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA2910_1.xml" item_attr_edit="False" />
+  <friday href="VAA2910_1.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Reference type" input_output="-" required="" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="INN" name="Arrival notification No." input_output="-" required="" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ZNC" name="Customs office" input_output="-" required="" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ZNN" name="Customs office name" input_output="-" required="" attribute="A" figure="10" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKK" name="User code of Immigration Bureau" input_output="-" required="" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKN" name="User name of Immigration Bureau" input_output="-" required="" attribute="A" figure="50" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEK" name="User code of Quarantine station" input_output="-" required="" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEN" name="User name of Quarantine station" input_output="-" required="" attribute="A" figure="50" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KUR" name="User code of Railway station authority" input_output="-" required="" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KUN" name="User name of Railway station authority" input_output="-" required="" attribute="A" figure="50" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REG" name="Registrant code" input_output="-" required="" attribute="A" figure="5" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REN" name="Registrant name" input_output="-" required="" attribute="A" figure="50" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DRC" name="Registration date" input_output="-" required="" attribute="A" figure="8" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRC" name="Registration time" input_output="-" required="" attribute="A" figure="4" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CRD" name="Correction date" input_output="-" required="" attribute="A" figure="8" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CRT" name="Correction time" input_output="-" required="" attribute="A" figure="4" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTN" name="Cancellation date" input_output="-" required="" attribute="A" figure="8" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTJ" name="Cancellation time" input_output="-" required="" attribute="A" figure="4" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout UseDefaultSize="True" Size="718, 230">
+    <label Size="125, 19" Location="21, 119" Text="Cảng vụ ga đường sắt" Font="Tahoma, 9pt" />
+    <label Size="119, 19" Location="21, 14" Text="Phân loại tham chiếu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="184" Size="48, 21" Location="166, 118" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="User code of Railway station authority" check_attribute="*" attribute="A" id="KUR" figure="5" required="" />
+    <label Size="73, 19" Location="21, 194" Text="Ngày hủy bỏ" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="20, 21" Location="166, 13" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="MDC" figure="1" required="" />
+    <maskedtextbox Mask="99:99" TabIndex="31" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="48, 21" Location="263, 193" BackColor="Control" Font="Courier New, 9pt" form="" order="18" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Cancellation time" check_attribute="*" attribute="A" id="TTJ" figure="4" AutoComplete="False" required="" />
+    <label Size="9, 19" Location="226, 143" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="29" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="166, 193" BackColor="Control" Font="Courier New, 9pt" form="" order="17" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Cancellation date" check_attribute="*" attribute="A" id="TTN" figure="8" AutoComplete="False" required="" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="362, 13" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Arrival notification No." check_attribute="*" attribute="A" id="INN" figure="12" required="" />
+    <label Size="9, 19" Location="251, 192" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="186" Size="363, 21" Location="239, 118" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="User name of Railway station authority" check_attribute="*" attribute="A" id="KUN" figure="50" required="" />
+    <label Size="80, 19" Location="21, 169" Text="Ngày đăng ký" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99:99" TabIndex="23" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="48, 21" Location="263, 168" BackColor="Control" Font="Courier New, 9pt" form="" order="14" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Registration time" check_attribute="*" attribute="A" id="TRC" figure="4" AutoComplete="False" required="" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="21" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="166, 168" BackColor="Control" Font="Courier New, 9pt" form="" order="13" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Registration date" check_attribute="*" attribute="A" id="DRC" figure="8" AutoComplete="False" required="" />
+    <label Size="9, 19" Location="251, 167" Text="-" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="226, 42" Text="-" Font="Tahoma, 9pt" />
+    <label Size="76, 19" Location="333, 169" Text="Ngày sửa đổi" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="25" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="463, 166" BackColor="Control" Font="Courier New, 9pt" form="" order="15" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Correction date" check_attribute="*" attribute="A" id="CRD" figure="8" AutoComplete="False" required="" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="83, 21" Location="239, 43" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Customs office name" check_attribute="*" attribute="A" id="ZNN" figure="10" required="" />
+    <maskedtextbox Mask="99:99" TabIndex="27" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="48, 21" Location="559, 166" BackColor="Control" Font="Courier New, 9pt" form="" order="16" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Correction time" check_attribute="*" attribute="A" id="CRT" figure="4" AutoComplete="False" required="" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="166, 43" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Customs office" check_attribute="*" attribute="A" id="ZNC" figure="6" required="" />
+    <textbox CharacterCasing="Upper" TabIndex="19" Size="363, 21" Location="239, 143" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Registrant name" check_attribute="*" attribute="A" id="REN" figure="50" required="" />
+    <label Size="84, 19" Location="21, 143" Text="Người đăng ký" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="17" Size="48, 21" Location="166, 143" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Registrant code" check_attribute="*" attribute="A" id="REG" figure="5" required="" />
+    <label Size="102, 19" Location="21, 44" Text="Cơ quan Hải quan" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="15" Size="363, 21" Location="239, 93" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="User name of Quarantine station" check_attribute="*" attribute="A" id="KEN" figure="50" required="" />
+    <textbox CharacterCasing="Upper" TabIndex="13" Size="48, 21" Location="166, 93" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="User code of Quarantine station" check_attribute="*" attribute="A" id="KEK" figure="5" required="" />
+    <label Size="9, 19" Location="547, 165" Text="-" Font="Tahoma, 9pt" />
+    <label Size="106, 19" Location="21, 94" Text="Cơ quan kiểm dịch" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="48, 21" Location="166, 68" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="User code of Immigration Bureau" check_attribute="*" attribute="A" id="KKK" figure="5" required="" />
+    <label Size="9, 19" Location="226, 92" Text="-" Font="Tahoma, 9pt" />
+    <label Size="129, 19" Location="21, 69" Text="Cục quản lý nhập cảnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Size="363, 21" Location="239, 68" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="User name of Immigration Bureau" check_attribute="*" attribute="A" id="KKN" figure="50" required="" />
+    <label Size="138, 19" Location="218, 14" Text="Số thông báo nhập cảnh" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="226, 117" Text="-" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="226, 67" Text="-" Font="Tahoma, 9pt" />
+  </layout>
+</jobform>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ROR" name="Registration of departure notification C">
+  <item no="1" name="Processing type" id="MDC" required="" code="">Lựa chọn chức năng khai báo:
+9: Đăng ký
+5: Sửa  đổi
+1: Hủy bỏ
+</item>
+  <item no="2" name="Departure notification No.&#xA;&#xA;" id="ONN" required="" code="">Hệ thống sẽ tự động cấp khi khai báo.</item>
+  <item no="3" name="Submission to Immigration Bureau" id="NNU" required="" code="">Trường hợp cần khai báo thông tin  tới Cơ quan Biên phòng thì chọn vào ô check-box.</item>
+  <item no="4" name="Submission to Quarantine station" id="KIU" required="" code="">Trường hợp cần khai báo thông tin  tới Cơ quan Kiểm dịch thì chọn vào ô check-box tương ứng</item>
+  <item no="5" name="Submission to Railway station authority" id="HNU" required="" code="">Trường hợp cần khai báo thông tin manifest tới Cơ quan Ga vụ thì chọn vào ô check-box.</item>
+  <item no="6" name="Train registry No.&#xA;&#xA;" id="TRN" required="" code="">Nhập số hiệu đoàn tàu vào mục này. Trường hợp cần thay đổi thông tin khai, thì chỉ tiêu này không thể thay đổi</item>
+  <item no="7" name="Train nationality code&#xA;&#xA;" id="FLG" required="" code="UN/LOCODE&#xA;(2-digits country code)">Nhập mã quốc tịch tàu trong trường hợp là tàu nước ngoài. Nhập mã quốc gia theo danh mục quốc gia (2 ký tự) của UNLOCODE</item>
+  <item no="8" name="Starting station code" id="FDS" required="" code="Station code">Nhập Mã ga nơi mà tầu khởi hành đầu tiên
+
+</item>
+  <item no="9" name="Intermediate station code before departure" id="C__" required="" code="Station code">Nhập các mã ga trung gian trước khi tàu đến ga xuất cảnh. Được nhập tối đa 10 ga.</item>
+  <item no="10" name="Departure station code&#xA;&#xA;" id="ARS" required="" code="Station code">Nhập mã ga xuất phát (xuất cảnh ra nước ngoài).</item>
+  <item no="11" name="Date of departure&#xA;&#xA;" id="ADT" required="" code="">Nhập ngày xuất phát trong trường hợp ngày xuất phát khác ngày của hệ thống. Nhập ngày theo cấu trúc DDMMYYYY</item>
+  <item no="12" name="Intermediate station name after departure" id="A__" required="" code="">Nhập tên các ga trung gian sau khi tàu xuất cảnh khỏi Việt Nam. Được nhập tối đa 10 ga.</item>
+  <item no="13" name="Country code of intermediate station after departure&#xA;" id="B__" required="" code="UN/LOCODE&#xA;(2-digits country code)">Nhập Mã quốc gia của ga trung gian sau ga xuất phát. Nhập mã quốc gia theo bảng mã UNLOCODE (2 ký tự)</item>
+  <item no="14" name="The name of last stop" id="SSN" required="" code="">Nhập mã ga dừng đỗ cuối cùng</item>
+  <item no="15" name="Country code of the last stop " id="CSS" required="" code="UN/LOCODE&#xA;(2-digits country code)">Nhập quốc gia của ga dừng đỗ cuối cùng. Nhập mã quốc gia theo bảng mã UNLOCODE (2 ký tự)</item>
+  <item no="16" name="Crew list processing type" id="NSS" required="" code="">Khai báo hình thức khai báo danh sách tổ lái tàu (theo danh mục từ trình đơn)10_: Hệ thống xử lý38_: Xử lý thủ công* "_" tương ứng với khoảng trắng
+
+</item>
+  <item no="17" name="Crew list No.&#xA;&#xA;" id="NSN" required="" code="">Trường hợp danh sách tổ lái tàu được khai báo bằng hệ thống (lựa chọn giá trị 10_ tại mục số 16) thì nhập số khai báo danh sách tổ lái tàu vào mục này.</item>
+  <item no="18" name="Total of crew&#xA;&#xA;" id="NOC" required="" code="">Trường hợp danh sách tổ lái tàu được khai báo bằng thủ công (lựa chọn giá trị 38_ tại mục số 16) thì nhập tổng số thành viên tổ lái tàu vào mục này.</item>
+  <item no="19" name="Passenger list processing type" id="RSS" required="" code="">Khai báo hình thức khai báo danh sách hành khách (theo danh mục từ trình đơn)
+10_: Hệ thống xử lý
+38_: Xử lý thủ công
+NOT: Không có thông tin hành khách
+* "_" tương ứng với khoảng trắng
+</item>
+  <item no="20" name="Passenger list No.&#xA;&#xA;" id="RSN" required="" code="">Trường hợp loại xử lý được nhập trong số tham chiếu danh sách hành khách là "10_"(hệ thống xử lý), thì yêu cầu nhập số tham chiếu danh sách hành khách (nghiệp vụ PLR)</item>
+  <item no="21" name="Total sum of passenger&#xA;&#xA;" id="ROC" required="" code="">1. Trường hợp loại xử lý được nhập trong số tham chiếu danh sách hành khách là "38_"(xử lý thủ công), thì yêu cầu nhập tổng số hành khách 2. Trường hợp loại xử lý được nhập trong số tham chiếu danh sách hành khách là :10_"(hệ thống xử lý), thì không cần nhập tổng số hành khách
+
+</item>
+  <item no="22" name="Remarks 1&#xA;&#xA;" id="RM1" required="" code="">
+  </item>
+  <item no="23" name="Freight car No.&#xA;&#xA;" id="CN__" required="" code="">Nhập thông tin của toa tàu vào các chỉ tiêu từ 23 đến 32. Có thể nhập được tối đa 50 toa tàu.</item>
+  <item no="24" name="Container/Transport equipment No.&#xA;&#xA;" id="CO__" required="" code="">1. Trường hợp toa tầu chở container, thì nhập số container
+2. Trường hợp toa tầu chở dụng cụ chuyên chở, thì nhập số dụng cụ chuyên chở
+</item>
+  <item no="25" name="Port to Port indication&#xA;&#xA;" id="PT__" required="" code="">Trường hợp toa xe này thuộc diện chuyển cảng thì nhập số 1 vào mục này</item>
+  <item no="26" name="Customs office at inland transtrainment station port&#xA;(For P2P)&#xA;" id="IN__" required="" code="Customs office code">Nhập mã cơ quan hải quan tại ga chuyển cảng</item>
+  <item no="27" name="Date of handover&#xA;&#xA;" id="DH__" required="" code="">Nhập ngày theo cấu trúc DDMMYYYY</item>
+  <item no="28" name="Time of handover&#xA;&#xA;" id="TH__" required="" code="">Nhập giờ theo cấu trúc HHMM</item>
+  <item no="29" name="Estimated date of arrival&#xA;&#xA;" id="ED__" required="" code="">Nhập ngày theo cấu trúc DDMMYYYY</item>
+  <item no="30" name="Estimated time of arrival&#xA;&#xA;" id="ET__" required="" code="">Nhập giờ theo cấu trúc HHMM</item>
+  <item no="31" name="Number of passengers&#xA;&#xA;" id="NO__" required="" code="">
+  </item>
+  <item no="32" name="Remarks 2&#xA;&#xA;" id="RM__" required="" code="">
+  </item>
+  <item no="33" name="Booking / Reference No.&#xA;&#xA;" id="BO__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="34" name="Marks &amp; Nos.&#xA;Container ID. No(s).&#xA;Vehicle Reg. No(s).&#xA;&#xA;" id="MA__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="35" name="Number of packages" id="NP__" required="" code="">1. Chỉ nhập phần nguyên (không nhập phần thập phân)
+2. Trường hợp hàng hóa không đếm được, thì nhập "1"
+3. Trường hợp nộp cho cơ quan kiểm dịch, việc nhập dữ liệu sẽ bị bỏ qua
+</item>
+  <item no="36" name="Kind of packages" id="KP__" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="37" name="Class&#xA;&#xA;" id="CL__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="38" name="UN No.&#xA;&#xA;" id="UN__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="39" name="Packing group&#xA;&#xA;" id="PG__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="40" name="Subsidiary risk(s)&#xA;&#xA;" id="SR__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="41" name="Flash point (In oC, c.c.)&#xA;&#xA;" id="FP__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="42" name="Flash point unit code&#xA;&#xA;" id="FU__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="43" name="Marine pollutant&#xA;&#xA;" id="MP__" required="" code="">Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua</item>
+  <item no="44" name="Gross weight" id="GR__" required="" code="">1. Nhập tổng trọng lượng (kg) của hàng hóa nguy hiểm.Có thể nhập số dạng thập phân với tối đa 6 ký tự phần nguyên và 3 ký tự sau dấu phẩy.
+2. Trường hợp nộp cho cơ quan kiểm dịch, việc nhập dữ liệu sẽ bị bỏ qua
+</item>
+  <item no="45" name="Net weight" id="NE__" required="" code="">1. Nhập trọng lượng tịnh (kg) của hàng hóa nguy hiểm. Có thể nhập số dạng thập phân với tối đa 6 ký tự phần nguyên và 3 ký tự sau dấu phẩy.
+2. Trường hợp nộp cho cơ quan kiểm dịch, việc nhập dữ liệu sẽ bị bỏ qua
+</item>
+  <item no="46" name="EmS&#xA;&#xA;" id="EM__" required="" code="">In case of submission to Quarantine station, entered data will be ignored.
+Trường hợp nộp cho cơ quan kiểm dịch, nhập dữ liệu sẽ bị bỏ qua
+</item>
+  <item no="47" name="Presence of stowaways" id="MKS" required="" code="">Lựa chọn giá trị từ trình đơn:
+0: absence (không)
+1: presence (có)
+</item>
+  <item no="48" name="Number of stowaways" id="STW" required="" code="">In case there are stowaway, enter number of stowawaysNhập số lượng người đi lậu tàu/vượt biên (nếu có)</item>
+  <item no="49" name="Details of stowaway" id="MKA" required="" code="">Nhập thông tin chi tiết trong trường hợp có người đi lậu/vượt biên</item>
+  <item no="50" name="Presence of non-accidental deceased" id="JUM" required="" code="">Lựa chọn giá trị từ trình đơn:
+0: absence (không)
+1: presence (có)
+</item>
+  <item no="51" name="Total number of deceased" id="TNJ" required="" code="">Nhập tổng số người chết (không phải do tai nạn)</item>
+  <item no="52" name="Presence of person who may be suffering from communicable disease&#xA;" id="SKU" required="" code="">Lựa chọn giá trị từ trình đơn:
+0: absence (không)
+1: presence (có)
+</item>
+  <item no="53" name="Status of the passengers diseases during train operation" id="KBJ" required="" code="">Khai báo (lựa chọn từ trình đơn) trạng thái của những hành khách bị dịch bệnh có vượt quá mức độ dự báo:
+ 0: No (không)
+ 1: Yes (có)
+</item>
+  <item no="54" name="Total number of passengers diseased" id="KBC" required="" code="">Trường hợp trạng thái của những hành khách bị dịch bệnh có vượt quá mức độ dự báo thì nhập tổng số hành khách bị dịch
+
+</item>
+  <item no="55" name="Presence of sick people aboard" id="SBU" required="" code="">Khai báo (lựa chọn từ trình đơn) trên thuyền có người bị bệnh không:
+0: absence (không)
+1: presence (có)
+</item>
+  <item no="56" name="Cause of infectious or spreading diseases&#xA;&#xA;" id="SKG" required="" code="">Khai báo (lựa chọn từ trình đơn) việc có hay không nguyên nhân dẫn đến truyền nhiễm hoặc bệnh lan rộng
+0: not-existed (không)
+1: existed (có)
+</item>
+  <item no="57" name="Doctor's medical examination" id="IRJ" required="" code="">Có sự điều trị, khám của bác sỹ hay chưa:
+0: not-diagnozed (chưa)
+1: diagnozed (có)
+</item>
+  <item no="58" name="Animals or pets infected to disease" id="BDU" required="" code="">Lựa chọn giá trị từ trình đơn:
+0: absence (không)
+1: presence (có)
+</item>
+  <item no="59" name="Health preservation" id="SEJ" required="" code="">Có hay không có biện pháp bảo vệ sức khỏe:0: not-executed (không có)1: executed (có)
+
+</item>
+  <item no="60" name="Details in case of health preservation" id="SEK" required="" code="">Trường hợp có biện pháp bảo vệ sức khỏe thì nhập chi tiết thông tin vào mục này.</item>
+  <item no="61" name="Name" id="SM_" required="" code="">Trường hợp có thông tin liên quan đến kết quả của dịch bệnh thì nhập thông tin của người bị bệnh tại các chỉ tiêu từ 92 đến 73 (được nhập tối đa thông tin của 5 người)</item>
+  <item no="62" name="Official title&#xA;&#xA;" id="SC_" required="" code="Official title code">
+  </item>
+  <item no="63" name="Age&#xA;&#xA;" id="NR_" required="" code="">
+  </item>
+  <item no="64" name="Sex" id="SI_" required="" code="">Lựa chọn các giá trị:
+M: Male (nam)
+F: Female (nữ)
+U: Unknown (không rõ)
+</item>
+  <item no="65" name="Nationality code" id="KK_" required="" code="UN/LOCODE&#xA;(2-digits country code)">Nhập quốc tịch bằng mã quốc gia (2 ký tự) theo mã UNLOCODE</item>
+  <item no="66" name="Entrain station code&#xA;&#xA;" id="JU_" required="" code="Station code">Nhập Mã Ga lên tàu</item>
+  <item no="67" name="Entrain date&#xA;&#xA;" id="JS_" required="" code="">Nhập định dạng ngày theo cấu trúc DDMMYYYY</item>
+  <item no="68" name="Sicken date&#xA;&#xA;" id="BA_" required="" code="">Nhập định dạng ngày theo cấu trúc DDMMYYYY</item>
+  <item no="69" name="Notify/ not notify station medical offices&#xA;" id="MI_" required="" code="">Lựa chọn giá trị từ trình đơn:
+0: Not notified (chưa thông báo)
+1: Notified (đã thông báo)
+</item>
+  <item no="70" name="Condition of disease&#xA;&#xA;" id="BJ_" required="" code="">
+  </item>
+  <item no="71" name="Conditions and outcome of disease&#xA;" id="BR_" required="" code="">
+  </item>
+  <item no="72" name="Details of given medicines or other treatments&#xA;&#xA;" id="KT_" required="" code="">
+  </item>
+  <item no="73" name="Remarks&#xA;&#xA;" id="BK_" required="" code="">
+  </item>
+  <item no="74" name="Station type (for plants)&#xA;&#xA;" id="PA__" required="" code="">Lựa chọn loại cảng trong danh mục (đối với hàng thực vật):
+F: First port (ga đầu tiên)
+M: Intermediate  port (ga trung gian)
+A: Arrival port (To be discharged at this port) (ga đến)
+</item>
+  <item no="75" name="Station code (for plants)&#xA;&#xA;" id="PB__" required="" code="Station code">Trường hợp ga trung gian thì nhập tên ga vào mục này</item>
+  <item no="76" name="Description of plant goods&#xA;&#xA;" id="PE__" required="" code="">Nhập mô tả hàng hóa, các loại hàng thực vật</item>
+  <item no="77" name="Quantity of plants&#xA;" id="PF__" required="" code="">Nhấp số lượng hàng hóa, chỉ nhập số nguyên</item>
+  <item no="78" name="Quantity unit code of plants&#xA;&#xA;" id="PH__" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;">Nhập đơn vị tính theo danh mục loại kiện </item>
+  <item no="79" name="Weight of plants&#xA;&#xA;" id="PI__" required="" code="">Nhập trong lượng hàng hóa bằng số thập phân với tối đa 6 ký tự phần nguyên và 3 ký tự phần thập phân sau dấu phẩy</item>
+  <item no="80" name="Weight unit code of plants" id="PJ__" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">Lựa chọn đơn vị tính của khối lượng:
+KGM: Kilogram
+TNE: Metric Ton
+LBR: Pound
+</item>
+  <item no="81" name="Station type (for animals)&#xA;&#xA;" id="AA__" required="" code="">Lựa chọn loại cảng trong danh mục (đối với hàng động vật):
+F: First port (ga đầu tiên)
+M: Intermediate  port (ga trung gian)
+A: Arrival port (To be discharged at this port) (ga đến)
+</item>
+  <item no="82" name="Station code (for animals)&#xA;" id="AB__" required="" code="Station code">Trường hợp ga trung gian thì nhập tên ga vào mục này</item>
+  <item no="83" name="Kind of animals&#xA;&#xA;" id="AC__" required="" code="">In case of not submission to Quarantine station, entered data will be ignored.</item>
+  <item no="84" name="Kind of animal products&#xA;&#xA;" id="AD__" required="" code="">In case of not submission to Quarantine station, entered data will be ignored.</item>
+  <item no="85" name="Train's stores code&#xA;&#xA;" id="SHC" required="" code="Train's stores code">Nhập mã hàng sử dụng trên tàu theo danh mục hướng dẫn.</item>
+  <item no="86" name="Goods description of train's stores&#xA;" id="SHN" required="" code="">Trường hợp thông tin liên quan đến hàng hóa dự trữ trên tàu chưa được đăng ký  trong hệ thống thì phải nhập thông tin vào mục này.</item>
+  <item no="87" name="Number of packages/quantity of train's stores&#xA;" id="SHK" required="" code="">Chỉ nhập số nguyên vào mục này.</item>
+  <item no="88" name="Number of packages/quantity unit code of train's stores&#xA;" id="SHT" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;(UN/ECE 20/alphabetic letter)&#xA;&#xA;">Nhập mã loại đơn vị hàng hóa (đơn vị kiện) theo danh mục tại khuyến nghị 21 UN/ECE</item>
+</guide>

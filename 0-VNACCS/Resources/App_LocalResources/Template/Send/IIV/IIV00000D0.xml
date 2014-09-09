@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM30_IIV" jobname="CAM30_IIV" display-name="Reference of invoice/packing list information">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM30_IIV.xml" item_attr_edit="False" />
+  <friday href="CAM30_IIV.xml" revision="0000" />
+  <iteminfo>
+    <item id="NIV" name="Electronic invoice receipt No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="175, 19" Location="169, 201" Text="Số tiếp nhận hóa đơn điện tử *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="360, 200" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Electronic invoice receipt No." check_attribute="*" attribute="I" id="NIV" figure="12" required="M" />
+  </layout>
+</jobform>

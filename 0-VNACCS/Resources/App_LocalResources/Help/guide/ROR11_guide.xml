@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ROR11" name="Correction of departure notification C (Call up)">
+  <item no="1" name="Departure notification No.&#xA;" id="ONN" required="" code="">Nhập số thông báo tàu hỏa đi do hệ thống cấp</item>
+</guide>

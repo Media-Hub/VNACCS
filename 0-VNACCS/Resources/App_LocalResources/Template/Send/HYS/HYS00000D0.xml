@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM83_HYS" jobname="汎用申請" display-name="Registration of application attached by electronic file">
+<meta_info format_Version="1.0" revision="0000" friday="CAM83_HYS.xml" item_attr_edit="False" />
+  <friday href="CAM83_HYS.xml" revision="0000" />
+  <iteminfo>
+    <item id="CH" name="Customs Office" input_output="+" required="M" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CHB" name="Customs Sub-section" input_output="+" required="C" attribute="A" figure="2" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TSB" name="Application procedure type" input_output="+" required="M" attribute="A" figure="3" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="STL" name="Applicant telephone number" input_output="+" required="C" attribute="A" figure="20" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="REF" name="Enterprise internal control number" input_output="+" required="C" attribute="A" figure="20" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KIJ" name="Remarks" input_output="+" required="C" attribute="W" figure="996" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="111, 19" Location="71, 116" Text="Cơ quan Hải quan *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="55, 21" Location="238, 115" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Customs Office" check_attribute="*" attribute="A" id="CH" figure="6" required="M" />
+    <label Size="105, 19" Location="349, 116" Text="Nhóm xử lý hồ sơ " Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="27, 21" Location="460, 115" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Customs Sub-section" check_attribute="*" attribute="A" id="CHB" figure="2" required="C" />
+    <label Size="157, 19" Location="71, 156" Text="Phân loại thủ tục khai báo *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="34, 21" Location="238, 155" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Application procedure type" check_attribute="*" attribute="A" id="TSB" figure="3" required="M" />
+    <label Size="161, 19" Location="71, 196" Text="Số điện thoại người khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="153, 21" Location="238, 195" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Applicant telephone number" check_attribute="*" attribute="A" id="STL" figure="20" required="C" />
+    <label Size="79, 19" Location="71, 258" Text="doanh nghiệp" Font="Tahoma, 9pt" />
+    <label Size="132, 19" Location="71, 239" Text="Số quản lý trong nội bộ" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="153, 21" Location="238, 242" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Enterprise internal control number" check_attribute="*" attribute="A" id="REF" figure="20" required="C" />
+    <label Size="46, 19" Location="71, 302" Text="Ghi chú" Font="Tahoma, 9pt" />
+    <textbox TabIndex="11" Multiline="True" Size="433, 96" Location="238, 302" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Remarks" check_attribute="*" attribute="W" id="KIJ" figure="996" required="C" />
+  </layout>
+</jobform>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TOR11" name="Correction of departure declaration D (Call up)">
+  <item no="1" name="Processing type&#xA;&#xA;" id="KBN" required="" code="">Người dùng lựa chọn chỉ số do hệ thống cung cáp đê thực hiện các tác vụ tiếp theo. Cụ thể:
+9: Đăng ký tờ khai
+5: Sửa chữa tờ khai
+1: Huỷ bỏ tờ khai
+</item>
+  <item no="2" name="Departure declaration No.&#xA;&#xA;" id="AND" required="" code="">
+  </item>
+  <item no="3" name="Arrival declaration No. on temporary import" id="RDN" required="" code="">Trường hợp đăng ký để tái xuất phương tiện, người khai phải nhập số tờ khai tại thời điểm tạm nhập</item>
+</guide>

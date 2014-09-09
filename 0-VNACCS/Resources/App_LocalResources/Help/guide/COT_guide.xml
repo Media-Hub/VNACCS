@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="COT" name="Correction of declared information on transportation">
+  <item no="1" name="Processing type code" id="KND" required="" code="">Người khai lựa chọn 1 trong 2 hình thức xử lý hiển thị trên màn hình hệ thống đối với tờ khai vận chuyển đã đăng ký gồm:
+- 5: Sửa thông tin của tờ khai vận chuyển
+- 1: Hủy tờ khai vận chuyển đã đăng ký</item>
+  <item no="2" name="Bonded transportation declaration No.&#xA;" id="OLT" required="" code="">Người khai nhập số tờ khai vận chuyển cần sửa hoặc hủy vào mục này. Đây là mục bắt buộc phải nhập. </item>
+  <item no="3" name="Import/Export indication" id="IEI" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="4" name="Customs office" id="CHC" required="" code="Customs office code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo. Không thể thực hiện được việc sửa thông tin tại mục này trong trường hợp Người khai thực hiện việc sửa thông tin của tờ khai vận chuyển. </item>
+  <item no="5" name="Transporter code" id="TRC" required="" code="Importer/Exporter code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="6" name="Transporter name" id="TRN" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="7" name="Transporter address&#xA;&#xA;" id="TRA" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="8" name="Transport contract No. / Equivalent document No." id="TCN" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="9" name="Date of transport contract/Date of equivalent document" id="TCD" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="10" name="Expiry date of transport contract or of equivalent document" id="EDC" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="11" name="Means of transportation code" id="BYA" required="" code="UN/EDIFACT(8179)">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="12" name="Transportation purpose code" id="OBJ" required="" code="Transportation purpose code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo</item>
+  <item no="13" name="Transportation type" id="USS" required="" code="Transportation type code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="14" name="Estimated start date of transportation " id="SDT" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="15" name="Estimated start time of transportation " id="SDH" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="16" name="Estimated finish date of transportation " id="EDT" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="17" name="Estimated finish time of transportation " id="EDH" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="18" name="Date of departure from departure location&#xA;(Scheduled)&#xA;" id="DPD" required="" code="">Hệ thống tự động hiển thị thông tin này. Trường hợp đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế thì không thể sửa được thông tin này.</item>
+  <item no="19" name="Transit location for bonded transport (Simultaneous declaration)&#xA;" id="TR_" required="" code="Bonded area code">Hệ thống tự động hiển thị thông tin này (nếu có). Trường hợp đã sử dụng nghiệp vụ BIA để đăng ký ngày thực tế hàng hóa được vận chuyển đến địa điểm này thì thông tin này không thể sửa được.</item>
+  <item no="20" name="Date of arrival into transit location&#xA;(Scheduled)&#xA;" id="AR_" required="" code="">Hệ thống tự động hiển thị thông tin này (nếu có). Trường hợp đã sử dụng nghiệp vụ BIA để đăng ký ngày thực tế hàng hóa được vận chuyển đến địa điểm này thì thông tin này không thể sửa được.</item>
+  <item no="21" name="Date of departure from transit location&#xA;(Scheduled)&#xA;" id="DP_" required="" code="">Hệ thống tự động hiển thị thông tin này. Trường hợp đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế từ nơi này thì không thể sửa được thông tin này.</item>
+  <item no="22" name="Arrival location of bonded transportation&#xA;(Bonded area)&#xA;" id="ARR" required="" code="Bonded area code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="23" name="Arrival location of bonded transportation&#xA;(Berth code)&#xA;" id="ARB" required="" code="Berth code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="24" name="Arrival location of bonded transportation&#xA;(Port of discharge)" id="ARP" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="25" name="Arrival location name of bonded transportation" id="ARN" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="26" name="Date of arrival into arrival location&#xA;(Scheduled)&#xA;" id="ARA" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo. Trường hợp đã sử dụng nghiệp vụ BIA để đăng ký tại địa điểm dỡ hàng thực tế thì thông tin này không thể sửa được.</item>
+  <item no="27" name="Route" id="ROU" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="28" name="Type of security&#xA;&#xA;" id="TOS" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="29" name="Security supplier Bank code&#xA;" id="SBC" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="30" name="Issued year&#xA;&#xA;" id="RYA" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="31" name="Security bank sign&#xA;&#xA;" id="SCM" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="32" name="Security No.&#xA;&#xA;" id="SCN" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="33" name="Amount of security&#xA;&#xA;" id="SEP" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="34" name="Remarks 1" id="NTA" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo...</item>
+  <item no="35" name="Correction type" id="TES_" required="" code="">Thông tin này được phép khai báo tối đa 5 lần. Để khai báo, người khai lựa chọn:
+- 2: Bổ sung thông tin
+- 3: Hủy thông tin
+- 5: Sửa hoặc không được sửa thông tin
+Riêng đối với khai báo hủy thông tin (3), không được phép khai báo loại hình này cho tất cả các lần khai báo (tối đa 5 lần khai báo)</item>
+  <item no="36" name="Cargo No. (B/L No., AWB No. etc....)" id="CG_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo....</item>
+  <item no="37" name="Issued date of B/L" id="DB_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo....</item>
+  <item no="38" name="Goods description" id="CM_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="39" name="HS code (First 4 digits)" id="HS_" required="" code="HS code (4-digits)">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo....</item>
+  <item no="40" name="Marks and Nos." id="MR_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="41" name="Date of first stock-in bonded warehouse" id="IS_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="42" name="Product of bonded factory identifier" id="RM_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="43" name="Place of origin/manufacture" id="OR_" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="44" name="Departure location of cargo" id="LP_" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="45" name="Arrival location of cargo" id="PA_" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="46" name="Type of manifest(cargo)" id="TM_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.
+Trường hợp sửa thông tin tờ khai vận chuyển sau khi đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế hoặc trường hợp Người khai xin hủy tờ khai vận chuyển thì thông tin này không thể sửa được.</item>
+  <item no="47" name="Transportation equipment code&#xA;(Vessel call sign, Flight No. etc....)" id="TE_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="48" name="Vessel name&#xA;&#xA;" id="SN_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="49" name="Arrival date of cargo / Estimated departure date of cargo&#xA;" id="DD_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="50" name="Importer code&#xA;&#xA;" id="IM_" required="" code="Importer/exporter code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="51" name="Importer name&#xA;&#xA;" id="IN_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="52" name="Importer address  " id="IA_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="53" name="Exporter code&#xA;&#xA;" id="EM_" required="" code="Importer/exporter code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="54" name="Exporter name&#xA;&#xA;" id="EN_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="55" name="Exporter address" id="EA_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="56" name="Trustor code" id="KM_" required="" code="Importer/exporter code">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="57" name="Trustor name" id="KN_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="58" name="Trustor address" id="KA_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="59" name="Other law code&#xA;" id="OA_" required="" code="Other law code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="60" name="Other law code&#xA;" id="OB_" required="" code="Other law code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="61" name="Other law code&#xA;" id="OC_" required="" code="Other law code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="62" name="Other law code&#xA;" id="OD_" required="" code="Other law code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="63" name="Other law code&#xA;" id="OE_" required="" code="Other law code&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="64" name="Quantity" id="PC_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.
+Trường hợp sửa thông tin tờ khai vận chuyển sau khi đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế hoặc trường hợp Người khai xin hủy tờ khai vận chuyển thì thông tin này không thể sửa.</item>
+  <item no="65" name="Code for units of measure" id="PU_" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;">Hệ thống tự động hiển thị thông tin này.</item>
+  <item no="66" name="Gross weight" id="GW_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.
+Trường hợp sửa thông tin tờ khai vận chuyển sau khi đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế hoặc trường hợp Người khai xin hủy tờ khai vận chuyển thì thông tin này không thể sửa.
+</item>
+  <item no="67" name="Weight unit code" id="WU_" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">Hệ thống tự động hiển thị thông tin này.</item>
+  <item no="68" name="Capacity" id="VO_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.
+Trường hợp sửa thông tin tờ khai vận chuyển sau khi đã sử dụng nghiệp vụ BOA để đăng ký ngày khởi hành thực tế hoặc trường hợp Người khai xin hủy tờ khai vận chuyển thì thông tin này không thể sửa.</item>
+  <item no="69" name="Capacity unit code" id="VU_" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="70" name="Price" id="PR_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo..</item>
+  <item no="71" name="Currency type code" id="RT_" required="" code="Currency code (ISO4217/alphabet)">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="72" name="Remarks code for damaged cargo at departure place&#xA;&#xA;" id="RA_" required="" code="Remarks code for damaged cargo">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="73" name="Remarks code for damaged cargo at departure place&#xA;&#xA;" id="RB_" required="" code="Remarks code for damaged cargo">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="74" name="Remarks code for damaged cargo at departure place&#xA;&#xA;" id="RC_" required="" code="Remarks code for damaged cargo">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="75" name="Remarks code for damaged cargo at departure place&#xA;&#xA;" id="RD_" required="" code="Remarks code for damaged cargo">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="76" name="Remarks code for damaged cargo at departure place&#xA;&#xA;" id="RE_" required="" code="Remarks code for damaged cargo">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="77" name="Permit No." id="PM_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="78" name="Permit date" id="PD_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="79" name="Expiry date of permit" id="EP_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="80" name="Remarks 2" id="NT_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="81" name="Export declaration No." id="E__" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="82" name="Container/Freight Car/Package No." id="CNO" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="83" name="Line No. on declaration" id="RNO" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+  <item no="84" name="Seal No." id="SE_" required="" code="">Hệ thống tự động hiển thị thông tin này để Người khai thực hiện việc sửa thông tin đã khai báo.</item>
+</guide>

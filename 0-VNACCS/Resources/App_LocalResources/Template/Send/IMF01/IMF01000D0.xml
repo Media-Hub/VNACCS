@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IMF01" jobname="Reference of manifest information B" display-name="Reference of manifest information B">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_IMF01.xml" item_attr_edit="False" />
+  <friday href="CAM20_IMF01.xml" revision="0000" />
+  <iteminfo>
+    <item id="REF" name="Reference No. (照会番号)" input_output="+" required="C" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="FL1" name="Flight No. 1 (flight number) (便名１)" input_output="+" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FL2" name="Flight No. 2 (date) (便名２)" input_output="+" required="C" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DPR" name="Port of discharge code/Port of loading code (船卸港／船積港)" input_output="+" required="C" attribute="A" figure="3" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="57, 19" Location="207, 260" Text="Flight No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="55, 21" Location="325, 259" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Flight No. 1 (flight number) (便名１)" check_attribute="*" attribute="A" id="FL1" figure="6" required="C" />
+    <label Size="9, 19" Location="383, 260" Text="/" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="48, 21" Location="395, 259" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="*" check_time="" check_date="" name="Flight No. 2 (date) (便名２)" check_attribute="*" attribute="A" id="FL2" figure="5" required="C" />
+    <label Size="112, 34" Location="207, 286" Text="Port of discharge /&#xD;&#xA;loading" Font="Tahoma, 9pt" />
+    <label Size="89, 19" Location="207, 232" Text="Import / Export" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="93" TabIndex="2" Size="40, 22" Location="325, 231" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <label Size="82, 19" Location="207, 205" Text="Reference No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="0" Size="97, 21" Location="325, 204" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference No. (照会番号)" check_attribute="*" attribute="I" id="REF" figure="12" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="29, 21" Location="325, 286" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Port of discharge code/Port of loading code (船卸港／船積港)" check_attribute="*" attribute="A" id="DPR" figure="3" required="C" />
+  </layout>
+</jobform>

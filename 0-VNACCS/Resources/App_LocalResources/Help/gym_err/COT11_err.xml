@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="COT11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của số tờ khai.</disposition>
+  </response>
+  <response code="S0001" name="Bonded transportation declaration No." id="OLT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tờ khai vận chuyển.</disposition>
+  </response>
+  <response code="S0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này không hợp lệ hoặc chưa được khai báo.</description>
+    <disposition>Kiểm tra thông tin tờ khai.</disposition>
+  </response>
+</help>

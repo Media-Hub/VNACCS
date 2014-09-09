@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TIR11" name="Correction of arrival declaration D (Call up)">
+  <item no="1" name="Processing type&#xA;&#xA;" id="KBN" required="" code="">Người dùng lựa chọn chỉ số do hệ thống cung cấp như sau:
+9: Đăng ký
+5: Sửa chữa
+1: Huỷ
+</item>
+  <item no="2" name="Arrival declaration No.&#xA;&#xA;" id="AND" required="" code="">
+  </item>
+  <item no="3" name="Departure declaration No. on temporary export" id="RDN" required="" code="">Trường hợp loại đăng ký để tái nhập, hệ thống yêu cầu nhập số số tờ khai đi tại thời điểm tạm xuất</item>
+</guide>

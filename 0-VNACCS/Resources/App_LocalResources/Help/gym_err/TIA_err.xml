@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="TIA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Tờ khai tạm nhập tái xuất này đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="U0005" name="None" id="0000">
+    <description>Tờ khai tạm nhập tái xuất này thuộc về cơ quan Hải quan khác. 
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="ECN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0003" name="User code of first declarant" id="CFD">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0004" name="Importer/Exporter code" id="IEC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0005" name="Time limit of re-import/re-export" id="TED">
+    <description>Giá trị nhập không phù hợp. 
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Time limit of re-import/re-export" id="TED">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0019" name="None" id="0000">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0021" name="HS code" id="CMD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0022" name="HS code" id="CMD">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0023" name="Original quantity" id="QT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0025" name="Original quantity unit code" id="QTU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0026" name="Original quantity unit code" id="QTU">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Re-imported/re-exported quantity" id="UT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0029" name="Re-imported/re-exported  quantity unit" id="UTU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0030" name="Re-imported/re-exported  quantity unit" id="UTU">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0033" name="Time limit of re-import/re-export" id="TED">
+    <description>Thời hạn tái xuất nhập phải sau thời gian hiện tại.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0246" name="None" id="0000">
+    <description>Cán bộ Hải quan do hệ thống quyết định không thể sử dụng nghiệp vụ này.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0901" name="Declaration No." id="ECN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0902" name="User name of first declarant" id="NFD">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0903" name="Importer/Exporter code" id="IEC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0904" name="Importer/Exporter name" id="IEN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0905" name="Time limit of re-import/re-export" id="TED">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0923" name="HS code" id="CMD">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0924" name="Original quantity" id="QT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0925" name="Original quantity unit code" id="QTU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0927" name="Re-imported/re-exported  quantity unit" id="UTU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0928" name="Re-imported/re-exported quantity" id="UT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0933" name="User code of first declarant" id="CFD">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0999" name="Importer/Exporter name" id="IEN">
+    <description>Nhập liệu quá độ dài cho phép.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0003" name="Original quantity(in)&#xA;Re-imported/re-exported quantity(in)" id="QT&#xA;UT">
+    <description>Số lượng đã tái nhập/tái xuất lớn hơn số lượng ban đầu.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0004" name="Original quantity unit code(in)&#xA;Re-imported/re-exported  quantity unit(in)" id="QTU&#xA;UTU">
+    <description>Đơn vị (của số lượng đã tái nhập/tái xuất) và Đơn vị (của số lượng ban đầu) phải giống nhau.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="User code of first declarant" id="CFD">
+    <description>Tờ khai tạm nhập tái xuất này đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0005" name="Importer/Exporter code" id="IEC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0006" name="User code of first declarant" id="CFD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0007" name="Declaration No." id="ECN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0008" name="Declaration No." id="ECN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0011" name="Declaration No." id="ECN">
+    <description>Tờ khai tạm này đang được sử dụng cho tờ khai tạm nhập tái xuất khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0012" name="User code of first declarant" id="CFD">
+    <description>Người khai đầu tiên không được là người sử dụng Hải quan.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0013" name="HS code" id="CMD">
+    <description>Có một (nhiều) phần chi tiết bị trống.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0020" name="None" id="0000">
+    <description>Đã vượt quá 50 cột nhập.  
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0007" name="None" id="0000">
+    <description>Người tiếp nhận không phải là người sử dụng thích hợp.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0008" name="None" id="0000">
+    <description>Mã người sử dụng là Hải quan chưa được đăng ký trong hệ thống. 
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0009" name="None" id="0000">
+    <description>Tên người xuất nhập khẩu chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IGD" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Kết thúc bình thường</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</disposition>
+  </response>
+  <response code="U0002" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảnh.</disposition>
+  </response>
+  <response code="U0003" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảnh.</disposition>
+  </response>
+  <response code="U0004" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảnh.</disposition>
+  </response>
+  <response code="U0005" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảnh.</disposition>
+  </response>
+  <response code="S0001" name="Reference type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xem dữ liệu.</disposition>
+  </response>
+  <response code="S0002" name="Reference type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xem dữ liệu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="Arrival notification number / Departure notification number&#xA;Flight number 1 (flight number)" id="AND&#xA;FL1">
+    <description>Yêu cầu nhập một trong những giá trị.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo và số hiệu chuyến bay.</disposition>
+  </response>
+  <response code="R0002" name="Arrival notification number / Departure notification number&#xA;Flight number 1 (flight number)" id="AND&#xA;FL1">
+    <description>Số thông báo và số hiệu chuyến bay 1 được nhập đồng thời.</description>
+    <disposition>Xóa một trong hai giá trị này</disposition>
+  </response>
+  <response code="R0003" name="Arrival notification number / Departure notification number&#xA;Flight number 2 (date)" id="AND&#xA;FL2">
+    <description>Số thông báo và số hiệu chuyến bay 2 được nhập đồng thời.</description>
+    <disposition>Xóa một trong hai giá trị này</disposition>
+  </response>
+  <response code="R0004" name="Arrival notification number / Departure notification number&#xA;Airport" id="AND&#xA;APT">
+    <description>Số thông báo và sân bay được nhập đồng thời.</description>
+    <disposition>Xóa một trong hai giá trị này</disposition>
+  </response>
+  <response code="R0005" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)" id="FL1&#xA;FL2">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.</description>
+    <disposition>Nhập cả hai giá trị hoặc hủy nội dung nhập.</disposition>
+  </response>
+  <response code="R0006" name="Flight number 1 (flight number)" id="FL1">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="R0007" name="Flight number 2 (date)" id="FL2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="R0008" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)" id="FL1&#xA;FL2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1,2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)&#xA;Airport" id="FL1&#xA;FL2&#xA;APT">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)" id="FL1&#xA;FL2">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0004" name="Airport" id="APT">
+    <description>Yêu cầu nhập sân bay hạ cánh.</description>
+    <disposition>Nhập sân bay hạ cánh.</disposition>
+  </response>
+  <response code="E0005" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)&#xA;Airport" id="FL1&#xA;FL2&#xA;APT">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0006" name="Flight number 1 (flight number)&#xA;Flight number 2 (date)" id="FL1&#xA;FL2">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0007" name="Airport" id="APT">
+    <description>Yêu cầu nhập sân bay cất cánh.</description>
+    <disposition>Nhập sân bay cất cánh.</disposition>
+  </response>
+  <response code="E0008" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0009" name="Arrival notification number / Departure notification number" id="AND">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+</help>

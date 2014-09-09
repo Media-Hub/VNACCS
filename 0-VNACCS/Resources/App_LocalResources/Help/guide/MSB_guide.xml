@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="MSB" name="Attached document files registration">
+  <item no="1" name="Customs Office" id="CHN" required="" code="Customs office　code">
+  </item>
+  <item no="2" name="Customs Sub-section" id="CHB" required="" code="Customs Sub-Section&#xA;">
+</item>
+  <item no="3" name="Subject" id="SUB" required="" code="">
+  </item>
+  <item no="4" name="Declaration No" id="ICN" required="" code="">
+  </item>
+  <item no="5" name="Remarks" id="TUS" required="" code="">
+  </item>
+</guide>

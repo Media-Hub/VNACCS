@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="TIB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Tờ khai tạm nhập tái xuất này đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="U0005" name="None" id="0000">
+    <description>Tờ khai tạm nhập tái xuất này thuộc về cơ quan Hải quan khác. 
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="ECN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0002" name="Declaration No." id="ECN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Declaration No." id="ECN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+</help>

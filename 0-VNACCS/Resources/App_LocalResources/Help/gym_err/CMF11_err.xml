@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="CMF11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng không có quyền thêm/chỉnh sửa/hủy thông tin.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KND">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KND">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu.</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Vessel call sign" id="SEN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="S0006" name="Vessel call sign" id="SEN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0007" name="Voyage No." id="VOY">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số chuyến đi biển</disposition>
+  </response>
+  <response code="S0008" name="Voyage No." id="VOY">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0009" name="Carrier code " id="SCA">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã nhà vận chuyển.</disposition>
+  </response>
+  <response code="S0010" name="Carrier code " id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0011" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã cảng dỡ hàng.</disposition>
+  </response>
+  <response code="S0012" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Mã cảng dỡ hàng.đã nhập không phải là cảng nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập mã cảng dỡ hàng nội địa.</disposition>
+  </response>
+  <response code="S0013" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0014" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Mã cảng dỡ hàng.đã nhập không phải là cảng nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập mã cảng dỡ hàng nội địa.</disposition>
+  </response>
+  <response code="S0015" name="Port of discharge suffix/Port of loading suffix" id="EDA">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Hãy nhập số nhánh của cảng dỡ hàng.</disposition>
+  </response>
+  <response code="S0016" name="Port of discharge suffix/Port of loading suffix" id="EDA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0017" name="B/L No. " id="BLN">
+    <description>Trường hợp bổ sung, Số vận đơn (B/L) nên để trống.</description>
+    <disposition>Kiểm tra nội dung nhập của phân loại xử lý, nếu cần, hủy nhập liệu của Số vận đơn (B/L).</disposition>
+  </response>
+  <response code="S0018" name="B/L No. " id="BLN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0019" name="Container No." id="CNO">
+    <description>Trường hợp bổ sung, Số container nên để trống.</description>
+    <disposition>Kiểm tra nội dung nhập của phân loại xử lý, nếu cần, hủy nhập liệu của Số container.</disposition>
+  </response>
+  <response code="S0020" name="Container No." id="CNO">
+    <description>Số container đã nhập chứa ký tự trắng.</description>
+    <disposition>Nhập Số container với định dạng căn trái.</disposition>
+  </response>
+  <response code="S0021" name="Container No." id="CNO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="B/L No. &#xA;Container No." id="BLN&#xA;CNO">
+    <description>Phải nhập ít nhất Số vận đơn (B/L) hoặc Số container.</description>
+    <disposition>Nhập Số vận đơn (B/L) hoặc Số container</disposition>
+  </response>
+  <response code="R0002" name="B/L No. &#xA;Container No." id="BLN&#xA;CNO">
+    <description>Số vận đơn (B/L) và Số container không thể nhập đồng thời.</description>
+    <disposition>Nhập Số vận đơn (B/L) hoặc Số container</disposition>
+  </response>
+  <response code="R0003" name="Container No." id="CNO">
+    <description>Giá trị đã nhập bị trùng lặp.</description>
+    <disposition>Nhập Số container khác.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="B/L No. " id="BLN">
+    <description>Số vận đơn (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0003" name="B/L No. " id="BLN">
+    <description>Số vận đơn (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0004" name="B/L No. " id="BLN">
+    <description>Số vận đơn (B/L) được nhập đã được đăng ký vào hệ thống như một House Manifest.</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0005" name="B/L No. " id="BLN">
+    <description>Nghiệp vụ CMF không thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0006" name="B/L No. " id="BLN">
+    <description>Nghiệp vụ CMF không thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0007" name="Vessel call sign" id="SEN">
+    <description>Không thể chỉnh sửa Hô hiệu của tầu.</description>
+    <disposition>Kiểm tra nhập liệu Hô hiệu của tầu và nhập mã giống mã đăng ký.</disposition>
+  </response>
+  <response code="E0008" name="Voyage No." id="VOY">
+    <description>Không thể chỉnh sửa Số chuyến đi biển.</description>
+    <disposition>Kiểm tra nội dung nhập của Số chuyến đi biển và nhập số giống số đăng ký.</disposition>
+  </response>
+  <response code="E0009" name="Carrier code " id="SCA">
+    <description>Không thể chỉnh sửa Mã nhà vận chuyển.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã nhà vận chuyển và nhập mã giống mã đăng ký.</disposition>
+  </response>
+  <response code="E0010" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Không thể chỉnh sửa Mã cảng dỡ hàng/mã cảng xếp hàng lên tầu.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cảng dỡ hàng/mã cảng xếp hàng lên tầu và nhập mã giống mã đăng ký.</disposition>
+  </response>
+  <response code="E0011" name="Port of discharge suffix/Port of loading suffix" id="EDA">
+    <description>Không thể chỉnh sửa Số nhánh của Mã cảng dỡ hàng/mã cảng xếp hàng lên tầu.</description>
+    <disposition>Kiểm tra nội dung nhập của số nhánh Mã cảng dỡ hàng/mã cảng xếp hàng lên tầu và nhập số giống số đăng ký.</disposition>
+  </response>
+  <response code="E0012" name="B/L No. " id="BLN">
+    <description>Nghiệp vụ CMF không thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L)</disposition>
+  </response>
+  <response code="E0013" name="Vessel call sign&#xA;Voyage No.&#xA;Carrier code &#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix" id="SEN&#xA;VOY&#xA;SCA&#xA;DPR&#xA;EDA">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.</disposition>
+  </response>
+  <response code="E0014" name="Vessel call sign&#xA;Voyage No.&#xA;Carrier code &#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix" id="SEN&#xA;VOY&#xA;SCA&#xA;DPR&#xA;EDA">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.</disposition>
+  </response>
+  <response code="E0015" name="Vessel call sign&#xA;Voyage No.&#xA;Carrier code &#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix" id="SEN&#xA;VOY&#xA;SCA&#xA;DPR&#xA;EDA">
+    <description>Thông tin Manifest đã nhập chưa được nộp cho cơ quan Hải quan.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.</disposition>
+  </response>
+  <response code="E0016" name="Container No." id="CNO">
+    <description>Số container đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Số container</disposition>
+  </response>
+  <response code="E0017" name="Container No." id="CNO">
+    <description>Số container đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Số container</disposition>
+  </response>
+  <response code="E0018" name="Container No." id="CNO">
+    <description>Số container đã nhập được đăng ký vào hệ thống như là một container có hàng</description>
+    <disposition>Kiểm tra nội dung nhập của Số container</disposition>
+  </response>
+  <response code="L0001" name="B/L No. " id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="B/L No. " id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="B/L No. " id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

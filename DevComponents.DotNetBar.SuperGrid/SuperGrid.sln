@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperGrid", "SuperGrid.csproj", "{A344305F-D2E2-4350-B61E-D7277959A5B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseTrial|Any CPU = ReleaseTrial|Any CPU
+		ReleaseTrialSG|Any CPU = ReleaseTrialSG|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.ReleaseTrial|Any CPU.ActiveCfg = ReleaseTrial|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.ReleaseTrial|Any CPU.Build.0 = ReleaseTrial|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.ReleaseTrialSG|Any CPU.ActiveCfg = ReleaseTrialSG|Any CPU
+		{A344305F-D2E2-4350-B61E-D7277959A5B4}.ReleaseTrialSG|Any CPU.Build.0 = ReleaseTrialSG|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

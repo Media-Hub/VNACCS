@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="PLR11" name="Report of passenger list(Call up)">
+  <item no="1" name="Processing type" id="KBN" required="" code="">
+  </item>
+  <item no="2" name="Passenger list No." id="NUM" required="" code="">Người dùng nhập số tham chiếu hành khách để gọi thông tin hành khách đã khai báo. 
+Số tham chiếu tối đa 12 ký tự</item>
+  <item no="3" name="Volume No.&#xA;&#xA;" id="VOL" required="" code="">1. In case of calling up for correction
+- It is required to enter Volume No. (1 or 2) to be called up.
+- It is required to call up the first volume at first. After correct the first volume, call up the second volume.
+2. In case of calling up for cancellation
+- It is not available to enter Volume No. 
+- Both the first volume and the second volume will be cancelled in PLR service regardless of entered-Volume No.
+
+</item>
+</guide>

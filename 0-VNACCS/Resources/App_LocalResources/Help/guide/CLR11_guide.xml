@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CLR11" name="Registration of cargo loaded confirmation (call up)">
+  <item no="1" name="Transship/Transit management No." id="KKN" required="" code="">Người dùng nhập số quản lý chuyển tải/quá cảnh tối đa 12 ký tự để gọi thông tin hàng hoá đã xếp lên phương tiện vận tải thuộc đối tượng chuyển tải/quá cảnh.</item>
+</guide>

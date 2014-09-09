@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_TOR11" jobname="Correction of departure declaration D (Call up)" display-name="Correction of departure declaration D (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="TOR11.xml" item_attr_edit="False" />
+  <friday href="TOR11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Processing type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="9,Registration,5,Correction,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="AND" name="Departure declaration number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="RDN" name="Arrival declaration No. on temporary import" input_output="+" required="C" attribute="A" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="164, 34" Location="420, 268" Text="(on temporary import)&#xD;&#xA;(trong trường hợp tạm nhập)" Font="Tahoma, 9pt" />
+    <label Size="107, 34" Location="150, 200" Text="Processing type *&#xD;&#xA;(Phân loại xử lý)" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="35, 22" Location="317, 207" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="9,Registration&#xD;&#xA;5,Correction&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <label Size="152, 34" Location="150, 234" Text="Departure declaration No.&#xD;&#xA;(Số tờ khai xuất khẩu)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="317, 241" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Departure declaration number" check_attribute="*" attribute="A" id="AND" figure="12" required="C" />
+    <label Size="132, 34" Location="150, 268" Text="Arrival declaration No.&#xD;&#xA;(Số tờ khai xe đến)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="97, 21" Location="317, 275" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Arrival declaration No. on temporary import" check_attribute="*" attribute="A" id="RDN" figure="12" required="C" />
+  </layout>
+</jobform>

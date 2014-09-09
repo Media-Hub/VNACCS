@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="OLC" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần.
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Bonded transportation declaration No." id="OLT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số tờ khai vận chuyển
+</disposition>
+  </response>
+  <response code="S0003" name="Confirmation of declaration using the same cargo No." id="SCG">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Xác nhận khai báo vận chuyển cùng số quản lý hàng hóa.
+</disposition>
+  </response>
+  <response code="S0004" name="Confirmation of declaration using the same cargo No." id="SCG">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Xác nhận khai báo vận chuyển cùng số quản lý hàng hóa với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0003" name="Bonded transportation declaration No." id="OLT">
+    <description>Đã được khai báo bởi nghiệp vụ OLC.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0004" name="Bonded transportation declaration No." id="OLT">
+    <description>Cùng số quản lý hàng hóa tại cùng địa điểm khởi hành đã được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai. Nếu không có vấn đề gì trong tờ khai này, chọn hộp chọn (checkbox) và gửi lại.
+</disposition>
+  </response>
+  <response code="E0005" name="Bonded transportation declaration No." id="OLT">
+    <description>Bảo lãnh liên quan đến tờ khai này chưa được đăng ký vào hệ thống hoặc không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và thông tin Bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0006" name="Bonded transportation declaration No." id="OLT">
+    <description>Người dùng hiện tại không thể sử dụng Bảo lãnh liên quan đến tờ khai này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và thông tin Bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0007" name="Bonded transportation declaration No." id="OLT">
+    <description>Chưa có Bảo lãnh liên quan đến tờ khai này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và thông tin Bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0008" name="Bonded transportation declaration No." id="OLT">
+    <description>Bảo lãnh liên quan đến tờ khai này hiện không còn nữa.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và thông tin Bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0009" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai.
+</disposition>
+  </response>
+  <response code="E0010" name="Bonded transportation declaration No." id="OLT">
+    <description>Bảo lãnh liên quan đến tờ khai này không còn hiệu lực sau 10 ngày kể từ ngày dự kiến kết thúc vận chuyển. 
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và thông tin Bảo lãnh.
+</disposition>
+  </response>
+  <response code="E8000" name="None" id="0000">
+    <description>Nợ thuế (quá 90 ngày)
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8001" name="None" id="0000">
+    <description>Doanh nghiệp đã ngưng hoạt động và đóng mã số thuế.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8002" name="None" id="0000">
+    <description>Doanh nghiệp đã ngưng hoạt động nhưng vẫn chưa hoàn thành thủ tục để đóng mã số thuế.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8003" name="None" id="0000">
+    <description>Doanh nghiệp tạm ngưng hoạt động một thời gian.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8004" name="None" id="0000">
+    <description>Mã số thuế bị trùng tại Chi cục thuế.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8005" name="None" id="0000">
+    <description>Mã số thuế bị trùng tại Tổng cục thuế.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8006" name="None" id="0000">
+    <description>Mã thông tin này không tồn tại trong hệ thống
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8007" name="None" id="0000">
+    <description>Mã số thuế của công ty mẹ không tồn tại hoặc đã bị đóng
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8008" name="None" id="0000">
+    <description>Mã số thuế của chi nhánh công ty chưa được đăng ký trong công ty mẹ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8009" name="None" id="0000">
+    <description>Mã số thuế của chi nhánh công ty đã được đăng ký theo đơn vị phụ thuộc
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8010" name="None" id="0000">
+    <description>Đang chờ xác nhận đăng ký mới.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8011" name="None" id="0000">
+    <description>Đang chờ xác nhận đăng ký mới (doanh nghiệp chuyển địa điểm hoạt động)
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8012" name="None" id="0000">
+    <description>Đang chờ xác nhận đóng mã số thuế, hoàn tất thủ tục, đơn vị phụ thuộc
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8013" name="None" id="0000">
+    <description>Đang chờ xác nhận hiện trạng chính thức từ trạng thái tạm thời
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8014" name="None" id="0000">
+    <description>Lỗi khôi phục doanh nghiệp đã ngưng hoạt động và đóng mã số thuế
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8015" name="None" id="0000">
+    <description>Lỗi khôi phục doanh nghiệp đã ngưng hoạt động nhưng chưa đóng mã số thuế
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8016" name="None" id="0000">
+    <description>Lỗi khôi phục đình chỉ hoạt động
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8017" name="None" id="0000">
+    <description>Đang chờ xác nhận đóng mã số thuế, chưa hoàn tất thủ tục, thông tin kiểm tra của đơn vị phụ thuộc.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8018" name="None" id="0000">
+    <description>Đang chờ xác nhận đóng mã số thuế, chưa hoàn tất thủ tục, thông tin chưa kiểm tra của đơn vị phụ thuộc.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8019" name="None" id="0000">
+    <description>Đang chờ xác nhận đóng mã số thuế, hoàn tất thủ tục, không có đơn vị phụ thuộc
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8020" name="None" id="0000">
+    <description>Đang chờ xác nhận tạm ngưng đăng ký hoạt động
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8021" name="None" id="0000">
+    <description>Đang chờ xác nhận đăng ký hoạt động lại/khôi phục đình chỉ hoạt động
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8022" name="None" id="0000">
+    <description>Mã số thuế chưa được đăng ký
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8023" name="None" id="0000">
+    <description>Mã số thuế bị hủy theo Quyết định Số 18140/BTC-TTC ban hành ngày 24/12/2009
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8024" name="None" id="0000">
+    <description>Hệ thống NBRS không chấp nhận mã số thuế
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E8025" name="None" id="0000">
+    <description>Khác
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử .
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0007" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0008" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1510" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1537" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1538" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1555" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

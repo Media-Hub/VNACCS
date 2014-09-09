@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<guide jobcode="IDB" name="Pre-registration of import declaration (Call up)">
+  <item no="1" name="Declaration No." id="ICN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ IDA.</item>
+  <item no="2" name="Type of manifest(cargo)" id="TOM" required="" code="">Trường hợp sử dụng nghiệp vụ này để lấy các thông tin về hàng hóa từ dữ liệu Manifest đã được đăng kí trong hệ thống để thực hiện IDA thì nhập các thông tin sau:
+Ô 1: Loại manifest
+Nhập một trong các mã dưới đây:
+“S”: Manifest đối với hàng hóa vận chuyển bằng đuờng biển
+“A”: Manifest đối với hàng hóa vận chuyển bằng đuờng hàng không
+“R”: Manifest đối với hàng hóa vận chuyển bằng đường sắt
+</item>
+  <item no="3" name="Cargo No. (B/L No., AWB No. etc....)" id="BLN" required="" code="">Nhập số vận đơn (số B/L, số AWB, …).
+Trường hợp số vận đơn chưa bao gồm mã hãng vận chuyển (mã SCAC CODE) thì nhập ô này như sau: “Mã SCAC CODE” + “Số vận đơn”
+(tham khảo bảng mã hãng vận chuyển SCAC CODE trên website Hải quan: 
+www.customs.gov.vn)  </item>
+  <item no="4" name="Electronic Invoice Receipt No.&#xA;" id="IVU" required="" code="">Trường hợp sử dụng nghiệp vụ này để lấy các thông tin về hàng hóa từ dữ liệu hóa đơn đã được đăng kí trong hệ thống để thực hiện IDA thì nhập số tiếp nhận hóa đơn điện tử.
+Lưu ý: Hóa đơn điện tử phải thỏa mãn các điều kiện sau:
+(1) Là hóa đơn nhập khẩu.
+(2) Không được sử dụng trong bất kì hồ sơ nhập khẩu nào khác.
+</item>
+</guide>

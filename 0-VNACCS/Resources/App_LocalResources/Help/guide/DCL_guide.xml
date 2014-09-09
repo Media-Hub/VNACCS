@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="DCL" name="Submission of unloaded containers list">
+  <item no="1" name="Processing type" id="KND" required="" code="">Người dùng lựa chọn chỉ tiêu thông tin do hệ thống cung cấp để thực hiện tác vụ:
+9: Đăng ký
+1: Hủy 
+</item>
+  <item no="2" name="Submission No." id="DNO" required="" code="">
+  </item>
+  <item no="3" name="Manifest type" id="TOM" required="" code="">Người dùng lựa chọn chỉ tiêu thông tin do hệ thống cung cấp để thực hiện tác vụ:
+S: Manifest đường biển
+A: Manifest đường không
+R: Manifest đường sắt
+V: Hàng hóa vận chuyển bằng ô tô
+</item>
+  <item no="4" name="Reference No." id="REF" required="" code="">
+  </item>
+  <item no="5" name="Customs office" id="NZC" required="" code="Customs office code">
+  </item>
+  <item no="6" name="Transportation equipment code" id="EQP" required="" code="">Tuỳ vào phương tiện vận chuyển, mà người dùng nhập thông tin liên quan đến phương tiện vận chuyển. 
+1. Trường hợp manifest nhập là "S", nhập hô hiệu tàu với 9 ký tự
+2. Trường hợp manifest nhập là A, nhập số chuyến bay thứ nhất và số chuyến bay thứ 2 theo định dạng:
+"Chuyến bay thứ nhất: 2 mã hãng không (A214), chuyến bay số 2:DDMMM )
+3.Trường hợp manifest loại R, nhập số hiệu đoàn tàu trong vòng 10 ký tự.
+4. Trường hợp manifest loại V, nhập biển số xe theo định dạng:
+"Mã quốc gia đăng ký (2 ký tự)" + "-" + "Biển số xe (trong vòng 35 ký tự)"
+</item>
+  <item no="7" name="Vessel name" id="SNA" required="" code="">Trường hợp hô hiệu con tàu chưa được đăng ký trên hệ thống, hệ thống sẽ yêu cầu nhập tên con tàu. </item>
+  <item no="8" name="Arrival place code" id="DPR" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code">1. Trường hợp manifest là S nhập cảng dỡ hàng với 5 ký tự2. Trường hợp manifest là A nhập cảng dỡ hàng với 3 ký tự3. Trường hợp manifest là R nhập mã nhà ga với 6 ký tự4.Trường hợp manifest là V, nhập mã cổng  đến với  6 ký tựMã địa điẻm đến được nhập theo mã UN/LOCODE </item>
+  <item no="9" name="Berth code" id="BRT" required="" code="Berth code">Trường hợp các cont đchưa được xếp, hệ thống sẽ yêu cầu nhập mã cầu cảng</item>
+  <item no="10" name="Voyage No." id="VOY" required="" code="">Trường hợp manifest loại S, hệ thống sẽ yêu cầu nhập số hiệu chuyến đi.</item>
+  <item no="11" name="Date of arrival" id="IDT" required="" code="">Trường hợp Manifest loại R, V,  hệ thống sẽ yêu cầu ngày đến</item>
+  <item no="12" name="Carrier code" id="SCA" required="" code="Carrier code">1. Trường hợp Manifest loại S, hệ thống sẽ yêu cầu nhập mã hãng tàu có 4 ký tự
+2. Trường hợp Manifest loại R, hệ thống sẽ yêu cầu mã hãng tàu với 6 ký tự.
+</item>
+  <item no="13" name="Container manager code" id="CMC" required="" code="Importer/exporter code">
+  </item>
+  <item no="14" name="Container manager name" id="CMN" required="" code="">
+  </item>
+  <item no="15" name="Container manager postcode" id="CMP" required="" code="">
+  </item>
+  <item no="16" name="Container manager address 1 (Building name etc.)" id="CMB" required="" code="">Hệ thống yêu cầu nhập thông tin địa chỉ người quản lý container: Tên toà nhà..</item>
+  <item no="17" name="Container manager address 2 (Street and number/P.O. Box)" id="CMS" required="" code="">Hệ thống yêu cầu nhập thông tin địa chỉ người quản lý container: Địa chỉ quản lý cont số 2 ( đường, số ..)</item>
+  <item no="18" name="Container manager address 3 (District/Commune name)" id="CMD" required="" code="">Hệ thống yêu cầu nhập thông tin địa chỉ người quản lý container: Địa chỉ quản lý cont số 3 ( Quận/thành phố)</item>
+  <item no="19" name="Container manager address 4 (City name)" id="CMM" required="" code="">Hệ thống yêu cầu nhập thông tin địa chỉ người quản lý container:
+- Địa chỉ quản lý cont số 4 ( Tên Thành phố)
+</item>
+  <item no="20" name="Container manager address 5 (Country code)" id="CMK" required="" code="UN/LOCODE&#xA;(2-digit country code)">
+  </item>
+  <item no="21" name="Container manager telephone No." id="CMT" required="" code="">
+  </item>
+  <item no="22" name="Container No./ULD No." id="CNO" required="" code="">
+  </item>
+  <item no="23" name="Empty/Full container indication" id="EFS" required="" code="UN/EDIFACT code (8169)">Trường hợp manifest đường biển (S), đường sắt (R) và đường bộ (V) hệ thống yêu cầu nhập tiêu chí thể hiện cont rỗng hoặc có hàng.
+4. Rỗng
+5. Có hàng
+</item>
+  <item no="24" name="Container size" id="SIZ" required="" code="Container size code&#xA;(ISO6346)">1. Trường hợp loại Manifest là S hoặc V, thì nhập cỡ cont theo mã chuẩn với 2 ký tự.
+2. Trường hợp loại Manifest là R nhập cỡ cont theo định dạng sau:
+"Loại cont/thiết bị vận chuyển" + Cỡ cont/dụng cụ vận chuyển"
+</item>
+  <item no="25" name="Container type" id="TYP" required="" code="Container type code&#xA;(ISO6346)">Trường hợp manifest đường biển và đường bộ hệ thống yêu cầu nhập mã loại container</item>
+  <item no="26" name="Stay-allowed duration" id="SAD" required="" code="">
+  </item>
+</guide>

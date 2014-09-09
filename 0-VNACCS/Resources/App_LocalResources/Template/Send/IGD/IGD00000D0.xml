@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IGD" jobname="Reference of arrival/ departure notification B" display-name="IGD Reference of Arrival/ Departure notification B">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_IGD.xml" item_attr_edit="False" />
+  <friday href="CAM10_IGD.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="A,Reference of air arrival notification,B,Reference of air departure notification" out_flg="0" in_flg="1" />
+    <item id="AND" name="Arrival notification number / Departure notification number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FL1" name="Flight number 1 (flight number)" input_output="+" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FL2" name="Flight number 2 (date)" input_output="+" required="C" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="APT" name="Airport" input_output="+" required="C" attribute="A" figure="3" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="57, 19" Location="157, 256" Text="Flight No." Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="418, 256" Text="/" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="48, 21" Location="428, 255" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="*" check_time="" check_date="" name="Flight number 2 (date)" check_attribute="*" attribute="A" id="FL2" figure="5" required="C" />
+    <label Size="41, 19" Location="157, 283" Text="Airport" Font="Tahoma, 9pt" />
+    <label Size="93, 19" Location="157, 201" Text="Reference type*" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="338" TabIndex="1" Size="40, 22" Location="363, 200" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,Reference of air arrival notification&#xD;&#xA;B,Reference of air departure notification&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="34, 21" Location="363, 282" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Airport" check_attribute="*" attribute="A" id="APT" figure="3" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="55, 21" Location="363, 255" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Flight number 1 (flight number)" check_attribute="*" attribute="A" id="FL1" figure="6" required="C" />
+    <label Size="193, 19" Location="157, 229" Text="Arrival / Departure notification No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="363, 228" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number / Departure notification number" check_attribute="*" attribute="A" id="AND" figure="12" required="C" />
+  </layout>
+</jobform>

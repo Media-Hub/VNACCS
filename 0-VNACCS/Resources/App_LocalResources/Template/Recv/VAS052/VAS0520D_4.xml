@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Sea)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0520_4.xml" item_attr_edit="False" />
+  <friday href="VAS0520_4.xml" revision="0000" />
+  <iteminfo>
+    <ranContainer repetition_max="100">
+      <item id="CNO" name="Container No. (コンテナ番号)" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL1" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL2" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL3" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL4" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL5" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL6" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SIZ" name="Container size (コンテナサイズ)" input_output="-" required="" attribute="A" figure="2" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TYP" name="Container type (コンテナタイプ)" input_output="-" required="" attribute="A" figure="2" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DLV" name="Delivery type code (荷渡し形態)" input_output="-" required="" attribute="A" figure="2" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="COW" name="Container ownership type Code (コンテナ所有タイプ)" input_output="-" required="" attribute="A" figure="3" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VAN" name="Vanning type code (バンニングタイプ)" input_output="-" required="" attribute="A" figure="3" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <navigator TabIndex="0" Location="0, 0" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="1" Size="570, 121" Location="1, 27" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="8" RepX="1" repetition_id="R01" repetition_max="100">
+      <ranlabel Size="28, 14" Location="6, 18" Font="Tahoma, 9pt" Value="0" figure="3" repetition_id="R01" PadLeft="True" />
+      <label Size="79, 19" Location="36, 16" Text="Container No." Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="460" Size="97, 21" Location="123, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Container No. (コンテナ番号)" check_attribute="*" attribute="A" id="CNO" figure="12" required="" />
+      <label Size="50, 19" Location="36, 40" Text="Seal No." Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="461" Size="118, 21" Location="123, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL1" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="462" Size="118, 21" Location="244, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL2" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="463" Size="118, 21" Location="365, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL3" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="464" Size="118, 21" Location="123, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL4" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="465" Size="118, 21" Location="244, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL5" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="466" Size="118, 21" Location="365, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (シール番号)" check_attribute="*" attribute="A" id="SL6" figure="15" required="" />
+      <label Size="26, 19" Location="36, 89" Text="Size" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="467" Size="27, 21" Location="68, 88" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Container size (コンテナサイズ)" check_attribute="*" attribute="A" id="SIZ" figure="2" required="" />
+      <label Size="31, 19" Location="101, 89" Text="Type" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="468" Size="27, 21" Location="138, 88" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Container type (コンテナタイプ)" check_attribute="*" attribute="A" id="TYP" figure="2" required="" />
+      <label Size="76, 19" Location="171, 89" Text="Delivery type" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="469" Size="27, 21" Location="258, 88" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Delivery type code (荷渡し形態)" check_attribute="*" attribute="A" id="DLV" figure="2" required="" />
+      <label Size="90, 19" Location="291, 89" Text="Ownership type" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="470" Size="34, 21" Location="387, 88" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Container ownership type Code (コンテナ所有タイプ)" check_attribute="*" attribute="A" id="COW" figure="3" required="" />
+      <label Size="76, 19" Location="427, 89" Text="Vanning type" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="471" Size="34, 21" Location="509, 88" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Vanning type code (バンニングタイプ)" check_attribute="*" attribute="A" id="VAN" figure="3" required="" />
+    </container>
+  </layout>
+</jobform>

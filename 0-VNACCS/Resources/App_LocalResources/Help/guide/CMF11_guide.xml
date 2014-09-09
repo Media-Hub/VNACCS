@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CMF11" name="">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn giá trị từ trình đơn:
+2: Bổ sung
+5: Sửa đổi
+1: Hủy</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn giá trị trong trình đơn:
+I: Import (nhập)
+E:Export (xuất)</item>
+  <item no="3" name="Vessel call sign" id="SEN" required="" code="">
+  </item>
+  <item no="4" name="Voyage No." id="VOY" required="" code="">
+  </item>
+  <item no="5" name="Carrier code" id="SCA" required="" code="Carrier code">
+  </item>
+  <item no="6" name="Port of discharge code/Port of loading code" id="DPR" required="" code="UN/LOCODE">Trường hợp manifest nhập, nhập Mã cảng dỡ hàng.
+Trường hợp manifest xuất, nhập Mã cảng xếp hàng.
+Nhập mã cảng theo bảng mã UNLOCODE</item>
+  <item no="7" name="Port of discharge suffix/Port of loading suffix" id="EDA" required="" code="">Nhập số trong khoảng từ 0 đến 9. Trường hợp manifest nhập, nhập Số lần vào cảng dỡ hàng trong chuyến hành trình. 
+Trường hợp manifest xuất, nhập Số lần vào cảng xếp hàng trong chuyến hành trình.</item>
+  <item no="8" name="B/L No." id="BLN" required="" code="">Trường hợp Số Container đã được nhập thì không nhập được số B/L
+Trường hợp số B/L không chứa Mã hãng vận tải thì nhập thêm Mã hàng vận tải vào trước số B/L.
+</item>
+  <item no="9" name="Container No." id="CNO" required="" code="">Trường hợp sửa đổi hoặc hủy thông tin container thì nhập Số containerTrường hợp số B/L đã được nhập thì không thể nhập Số containerCó thể nhập tối đa 100 container.</item>
+</guide>

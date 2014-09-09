@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="_GTN" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="S0001" name="None" id="0000">
+    <description>Tên tập tin chưa được nhập.</description>
+    <disposition>Nhập tên tập tin phù hợp.</disposition>
+  </response>
+  <response code="S0002" name="None" id="0000">
+    <description>Tên tệp tin có ký tự không hợp lệ.</description>
+    <disposition>Nhập tên tập tin phù hợp.</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có tập tin văn bản quản lý tương ứng cho tên tập tin.</description>
+    <disposition>Nhập tên tập tin phù hợp.</disposition>
+  </response>
+</help>

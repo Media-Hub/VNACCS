@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="RIR11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảnh này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảnh</disposition>
+  </response>
+  <response code="S0001" name="Arrival notification number" id="INN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số thông báo nhập cảnh</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Arrival notification number" id="INN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảnh này đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảnh</disposition>
+  </response>
+  <response code="E0004" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảnh này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảnh</disposition>
+  </response>
+</help>

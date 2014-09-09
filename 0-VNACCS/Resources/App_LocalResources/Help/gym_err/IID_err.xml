@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IID" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Declaration No." id="ICN">
+    <description>Người nhập không phải là người thực hiện dịch vụ IDA hoặc người khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="ICN">
+    <description>Chưa nhập Số tờ khai.
+</description>
+    <disposition>Nhập Số tờ khai.
+</disposition>
+  </response>
+  <response code="S0002" name="Declaration No." id="ICN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0003" name="Declaration No." id="ICN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0900" name="Declaration No." id="ICN">
+    <description>Không thể sử dụng (các) ký tự này. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+</help>

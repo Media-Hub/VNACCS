@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="BIA11" name="Registration of notification on arrival regarding transportation(Call up)">
+  <item no="1" name="Declaration No." id="OLT" required="" code="">1.Trường hợp thông tin vận chuyển được đăng ký bởi nghiệp vụ OLA, nhập số tờ khai vận chuyển bảo thuế.
+2. Trường hợp thông tin vận chuyển được đăng ký bởi nghiệp vụ IDA, nhập số tờ khai nhập khẩu.
+3. Trường hợp thông tin vận chuyển được đăng ký bởi nghiệp vụ EDA, nhập số tờ khai xuất khẩu.
+</item>
+</guide>

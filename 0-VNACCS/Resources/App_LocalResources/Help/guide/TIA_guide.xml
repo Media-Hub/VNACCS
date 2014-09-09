@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TIA" name="Correction of the information of tentative export and import">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai TNTX hoặc số tờ khai TXTN cần khai sửa đổi, bổ sung</item>
+  <item no="2" name="User code of first declarant" id="CFD" required="" code="User code">Nhập mã người sử dụng (nếu là cán bộ Hải quan)</item>
+  <item no="3" name="User name of first declarant" id="NFD" required="" code="">
+  </item>
+  <item no="4" name="Importer/Exporter code" id="IEC" required="" code="Importer/Exporter code">Nhập MST người xuất nhập khẩu</item>
+  <item no="5" name="Importer/Exporter name" id="IEN" required="" code="">Nhập tên người xuất khẩu</item>
+  <item no="6" name="Time limit of re-import/re-export" id="TED" required="" code=""> Nhập thời tái xuất/nhập</item>
+  <item no="7" name="HS code" id="CMD" required="" code="HS code">
+  </item>
+  <item no="8" name="Original quantity" id="QT" required="" code="">Có thể nhập đến 02 ký tự ở phần thập phân.
+
+</item>
+  <item no="9" name="Original quantity unit code" id="QTU" required="" code="Quantity unit code">Nhập vào mã đơn vị của số lượng đã được nhập.
+Mã nhập vào phải giống "Mã đơn vị của số lượng ban đầu" và "Mã đơn vị của lượng hàng đã tái xuất/tái nhập".
+
+</item>
+  <item no="10" name="Re-imported/re-exported quantity" id="UT" required="" code="">Có thể nhập đến 02 ký tự ở phần thập phân</item>
+  <item no="11" name="Re-imported/re-exported  quantity unit" id="UTU" required="" code="Quantity unit code">Nhập vào mã đơn vị của số lượng đã được nhập.
+Mã nhập vào phải giống "Mã đơn vị của số lượng ban đầu" và "Mã đơn vị của lượng hàng đã tái xuất/tái nhập".
+
+</item>
+</guide>

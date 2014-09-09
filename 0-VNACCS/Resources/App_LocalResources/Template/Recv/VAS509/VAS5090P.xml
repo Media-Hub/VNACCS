@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CET" jobname="Registration of completion of examination/inspection (declaration on transportation)" display-name="Provision order of security (Declaration on transportation)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5090.xml" item_attr_edit="False" />
+  <friday href="VAS5090.xml" revision="0000" />
+  <iteminfo>
+    <item id="AA" name="Bonded transportation declaration No." input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AB" name="Output date" input_output="-" required="" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AC" name="Customs office" input_output="-" required="" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AD" name="Customs office name" input_output="-" required="" attribute="A" figure="10" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AE" name="Declarant code" input_output="-" required="" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AF" name="Declarant name" input_output="-" required="" attribute="A" figure="50" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AG" name="Amount of security" input_output="-" required="" attribute="I" figure="11" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AH" name="Term of validity of security(from)" input_output="-" required="" attribute="A" figure="8" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AI" name="Term of validity of security(to)" input_output="-" required="" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="ZSゴシック, 11pt" MinOccurs="1">
+      <label Location="79, 110" Size="102, 19" Font="Tahoma, 9pt" Text="Cơ quan Hải quan" />
+      <label Location="79, 85" Size="101, 19" Font="Tahoma, 9pt" Text="Ngày xuất dữ liệu" />
+      <label Location="299, 134" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <pagelabel Location="0, 11" Size="718, 23" Font="Tahoma, 11.25pt" Text="Yêu cầu bảo lãnh cho khai báo vận chuyển" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label Location="79, 135" Size="63, 19" Font="Tahoma, 9pt" Text="Người khai" />
+      <label Location="79, 60" Size="126, 19" Font="Tahoma, 9pt" Text="Số tờ khai vận chuyển" />
+      <prttextbox Format="" Location="244, 137" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="AE" input_output="-" name="Declarant code" order="5" required="" />
+      <label Location="361, 160" Size="29, 19" Font="Tahoma, 9pt" Text="VND" />
+      <label Location="79, 160" Size="93, 19" Font="Tahoma, 9pt" Text="Số tiền bảo lãnh" />
+      <label Location="79, 185" Size="141, 19" Font="Tahoma, 9pt" Text="Ngày bắt đầu có hiệu lực" />
+      <label Location="79, 210" Size="100, 19" Font="Tahoma, 9pt" Text="Ngày hết hiệu lực" />
+      <label Location="299, 109" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="244, 62" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AA" input_output="-" name="Bonded transportation declaration No." order="1" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="244, 87" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="AB" input_output="-" name="Output date" order="2" required="" />
+      <prttextbox Format="" Location="244, 112" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AC" input_output="-" name="Customs office" order="3" required="" />
+      <prttextbox Format="" Location="311, 112" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="AD" input_output="-" name="Customs office name" order="4" required="" />
+      <prttextbox Format="" Location="311, 137" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="AF" input_output="-" name="Declarant name" order="6" required="" />
+      <prttextbox Format="##,###,###,###" Location="244, 162" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="11" form="" id="AG" input_output="-" name="Amount of security" order="7" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="244, 187" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="AH" input_output="-" name="Term of validity of security(from)" order="8" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="244, 212" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="AI" input_output="-" name="Term of validity of security(to)" order="9" required="" />
+    </page>
+  </layout>
+</jobform>

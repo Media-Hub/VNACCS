@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VIT" jobname="Registration of arrival notification A" display-name="Sea arrival notification (on health)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA0120_1.xml" item_attr_edit="False" />
+  <friday href="VAA0120_1.xml" revision="0000" />
+  <iteminfo>
+    <item id="OUT" name="Output information name" input_output="-" required="C" attribute="W" figure="300" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="INN" name="Arrival notification number" input_output="-" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DRC" name="Date of registration / correction" input_output="-" required="C" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRC" name="Time of registration / correction" input_output="-" required="C" attribute="A" figure="4" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NZC" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NZN" name="Customs office name" input_output="-" required="C" attribute="A" figure="10" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKK" name="User code of Immigration Bureau" input_output="-" required="C" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKN" name="User name of Immigration Bureau" input_output="-" required="C" attribute="A" figure="50" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEK" name="User code of Quarantine station" input_output="-" required="C" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEN" name="User name of Quarantine station" input_output="-" required="C" attribute="A" figure="50" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKR" name="User code of Port authority" input_output="-" required="C" attribute="A" figure="5" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KRN" name="User name of Port authority" input_output="-" required="C" attribute="A" figure="50" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REG" name="Registrant" input_output="-" required="C" attribute="A" figure="5" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REN" name="Registrant name" input_output="-" required="C" attribute="A" figure="50" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VEC" name="Vessel call sign" input_output="-" required="C" attribute="A" figure="9" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VBN" name="Vessel name" input_output="-" required="C" attribute="A" figure="35" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KBF" name="Voyage number(1)" input_output="-" required="C" attribute="A" figure="10" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMC" name="Arrival port code" input_output="-" required="C" attribute="A" figure="5" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMN" name="Arrival port name" input_output="-" required="C" attribute="A" figure="20" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMS" name="Arrival port suffix" input_output="-" required="C" attribute="A" figure="1" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MKS" name="Presence of stowaways" input_output="-" required="C" attribute="A" figure="1" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="STW" name="Number of stowaways" input_output="-" required="C" attribute="I" figure="4" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MKA" name="Details of stowaway" input_output="-" required="C" attribute="A" figure="70" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JUM" name="Presence of non-accidental deceased" input_output="-" required="C" attribute="A" figure="1" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TNJ" name="Total number of deceased" input_output="-" required="C" attribute="I" figure="4" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SKU" name="Presence of person who may be suffering from communicable disease" input_output="-" required="C" attribute="A" figure="1" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KBJ" name="Status of the passengers diseases during the voyage" input_output="-" required="C" attribute="A" figure="1" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KBC" name="Total number of passengers diseased" input_output="-" required="C" attribute="I" figure="4" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SBU" name="Presence of sick people aboard" input_output="-" required="C" attribute="A" figure="1" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SKG" name="Cause of infectious or spreading diseases" input_output="-" required="C" attribute="A" figure="1" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IRJ" name="Doctor's medical examination" input_output="-" required="C" attribute="A" figure="1" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BDU" name="Animals or pets infected to disease" input_output="-" required="C" attribute="A" figure="1" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SEJ" name="Health preservation" input_output="-" required="C" attribute="A" figure="1" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SEK" name="Details in case of health preservation" input_output="-" required="C" attribute="A" figure="70" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SM1" name="Name" input_output="-" required="C" attribute="A" figure="70" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SC1" name="Official title" input_output="-" required="C" attribute="A" figure="3" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NR1" name="Age" input_output="-" required="C" attribute="I" figure="2" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SI1" name="Sex" input_output="-" required="C" attribute="A" figure="1" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KK1" name="Nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="39" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JU1" name="Embarkation port code" input_output="-" required="C" attribute="A" figure="5" form="" order="40" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JS1" name="Embarkation date" input_output="-" required="C" attribute="A" figure="8" form="" order="41" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BJ1" name="Condition of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="42" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BA1" name="Sicken date" input_output="-" required="C" attribute="A" figure="8" form="" order="43" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MI1" name="Notify/ not notify port medical offices" input_output="-" required="C" attribute="A" figure="1" form="" order="44" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BR1" name="Conditions and outcome of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="45" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KT1" name="Details of given medicines or other treatments" input_output="-" required="C" attribute="A" figure="70" form="" order="46" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BK1" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="47" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SM2" name="Name" input_output="-" required="C" attribute="A" figure="70" form="" order="48" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SC2" name="Official title" input_output="-" required="C" attribute="A" figure="3" form="" order="49" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NR2" name="Age" input_output="-" required="C" attribute="I" figure="2" form="" order="50" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SI2" name="Sex" input_output="-" required="C" attribute="A" figure="1" form="" order="51" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KK2" name="Nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="52" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JU2" name="Embarkation port code" input_output="-" required="C" attribute="A" figure="5" form="" order="53" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JS2" name="Embarkation date" input_output="-" required="C" attribute="A" figure="8" form="" order="54" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BJ2" name="Condition of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="55" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BA2" name="Sicken date" input_output="-" required="C" attribute="A" figure="8" form="" order="56" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MI2" name="Notify/ not notify port medical offices" input_output="-" required="C" attribute="A" figure="1" form="" order="57" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BR2" name="Conditions and outcome of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="58" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KT2" name="Details of given medicines or other treatments" input_output="-" required="C" attribute="A" figure="70" form="" order="59" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BK2" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="60" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SM3" name="Name" input_output="-" required="C" attribute="A" figure="70" form="" order="61" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SC3" name="Official title" input_output="-" required="C" attribute="A" figure="3" form="" order="62" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NR3" name="Age" input_output="-" required="C" attribute="I" figure="2" form="" order="63" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SI3" name="Sex" input_output="-" required="C" attribute="A" figure="1" form="" order="64" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KK3" name="Nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="65" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JU3" name="Embarkation port code" input_output="-" required="C" attribute="A" figure="5" form="" order="66" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JS3" name="Embarkation date" input_output="-" required="C" attribute="A" figure="8" form="" order="67" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BJ3" name="Condition of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="68" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BA3" name="Sicken date" input_output="-" required="C" attribute="A" figure="8" form="" order="69" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MI3" name="Notify/ not notify port medical offices" input_output="-" required="C" attribute="A" figure="1" form="" order="70" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BR3" name="Conditions and outcome of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="71" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KT3" name="Details of given medicines or other treatments" input_output="-" required="C" attribute="A" figure="70" form="" order="72" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BK3" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="73" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SM4" name="Name" input_output="-" required="C" attribute="A" figure="70" form="" order="74" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SC4" name="Official title" input_output="-" required="C" attribute="A" figure="3" form="" order="75" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NR4" name="Age" input_output="-" required="C" attribute="I" figure="2" form="" order="76" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SI4" name="Sex" input_output="-" required="C" attribute="A" figure="1" form="" order="77" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KK4" name="Nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="78" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JU4" name="Embarkation port code" input_output="-" required="C" attribute="A" figure="5" form="" order="79" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JS4" name="Embarkation date" input_output="-" required="C" attribute="A" figure="8" form="" order="80" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BJ4" name="Condition of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="81" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BA4" name="Sicken date" input_output="-" required="C" attribute="A" figure="8" form="" order="82" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MI4" name="Notify/ not notify port medical offices" input_output="-" required="C" attribute="A" figure="1" form="" order="83" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BR4" name="Conditions and outcome of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="84" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KT4" name="Details of given medicines or other treatments" input_output="-" required="C" attribute="A" figure="70" form="" order="85" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BK4" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="86" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SM5" name="Name" input_output="-" required="C" attribute="A" figure="70" form="" order="87" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SC5" name="Official title" input_output="-" required="C" attribute="A" figure="3" form="" order="88" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NR5" name="Age" input_output="-" required="C" attribute="I" figure="2" form="" order="89" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SI5" name="Sex" input_output="-" required="C" attribute="A" figure="1" form="" order="90" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KK5" name="Nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="91" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JU5" name="Embarkation port code" input_output="-" required="C" attribute="A" figure="5" form="" order="92" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JS5" name="Embarkation date" input_output="-" required="C" attribute="A" figure="8" form="" order="93" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BJ5" name="Condition of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="94" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BA5" name="Sicken date" input_output="-" required="C" attribute="A" figure="8" form="" order="95" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MI5" name="Notify/ not notify port medical offices" input_output="-" required="C" attribute="A" figure="1" form="" order="96" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BR5" name="Conditions and outcome of disease" input_output="-" required="C" attribute="A" figure="70" form="" order="97" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KT5" name="Details of given medicines or other treatments" input_output="-" required="C" attribute="A" figure="70" form="" order="98" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BK5" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="99" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <fixedContainer repetition_max="50" expand="0" repetition_id="C00">
+      <item id="PA__" name="Port type (for plants)" input_output="-" required="C" attribute="A" figure="1" form="" order="100" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PB__" name="Port code (for plants)" input_output="-" required="C" attribute="A" figure="5" form="" order="101" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PE__" name="Description of plant goods" input_output="-" required="C" attribute="A" figure="70" form="" order="102" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PF__" name="Quantity of plants" input_output="-" required="C" attribute="I" figure="10" form="" order="103" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PH__" name="Quantity unit code of plants" input_output="-" required="C" attribute="A" figure="3" form="" order="104" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PI__" name="Weight of plants" input_output="-" required="C" attribute="F" figure="10" form="" order="105" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PJ__" name="Weight unit code of plants" input_output="-" required="C" attribute="A" figure="3" form="" order="106" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </fixedContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 9pt" MinOccurs="1">
+      <pagelabel Location="618, 0" Size="100, 23" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="15, 871" Size="18, 19" Font="Tahoma, 9pt" Text="05" />
+      <label Location="15, 738" Size="18, 19" Font="Tahoma, 9pt" Text="04" />
+      <label Location="15, 605" Size="18, 19" Font="Tahoma, 9pt" Text="03" />
+      <label Location="15, 472" Size="18, 19" Font="Tahoma, 9pt" Text="02" />
+      <label Location="15, 339" Size="18, 19" Font="Tahoma, 9pt" Text="01" />
+      <prttextbox Format="" Location="431, 208" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MKS" input_output="-" name="Presence of stowaways" order="21" required="C" />
+      <prttextbox Format="#,###" Location="594, 208" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="STW" input_output="-" name="Number of stowaways" order="22" required="C" />
+      <label Location="462, 206" Size="126, 19" Font="Tahoma, 9pt" Text="Number of stowaways" />
+      <label Location="360, 206" Size="65, 19" Font="Tahoma, 9pt" Text="Stowaways" />
+      <prttextbox Format="" Location="151, 227" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="MKA" input_output="-" name="Details of stowaway" order="23" required="C" />
+      <label Location="15, 225" Size="110, 19" Font="Tahoma, 9pt" Text="Details (Stowaway)" />
+      <prttextbox Format="#,###" Location="281, 246" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TNJ" input_output="-" name="Total number of deceased" order="25" required="C" />
+      <prttextbox Format="" Location="246, 246" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="JUM" input_output="-" name="Presence of non-accidental deceased" order="24" required="C" />
+      <prttextbox Format="" Location="542, 246" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SKU" input_output="-" name="Presence of person who may be suffering from communicable disease" order="26" required="C" />
+      <label Location="360, 244" Size="175, 19" Font="Tahoma, 9pt" Text="Person(Communicable disease)" />
+      <label Location="15, 244" Size="140, 19" Font="Tahoma, 9pt" Text="Non-accidental deceased" />
+      <label Location="266, 244" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="#,###" Location="281, 265" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="KBC" input_output="-" name="Total number of passengers diseased" order="28" required="C" />
+      <prttextbox Format="" Location="542, 265" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SBU" input_output="-" name="Presence of sick people aboard" order="29" required="C" />
+      <prttextbox Format="" Location="246, 265" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="KBJ" input_output="-" name="Status of the passengers diseases during the voyage" order="27" required="C" />
+      <label Location="15, 263" Size="225, 19" Font="Tahoma, 9pt" Text="Passengers(Diseases during the voyage)" />
+      <label Location="360, 263" Size="108, 19" Font="Tahoma, 9pt" Text="Sick people aboard" />
+      <label Location="266, 263" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="246, 284" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SKG" input_output="-" name="Cause of infectious or spreading diseases" order="30" required="C" />
+      <prttextbox Format="" Location="542, 284" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="IRJ" input_output="-" name="Doctor's medical examination" order="31" required="C" />
+      <label Location="360, 282" Size="164, 19" Font="Tahoma, 9pt" Text="Doctor's medical examination" />
+      <label Location="15, 282" Size="224, 19" Font="Tahoma, 9pt" Text="Cause of infectious / Spreading diseases" />
+      <prttextbox Format="" Location="246, 303" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="BDU" input_output="-" name="Animals or pets infected to disease" order="32" required="C" />
+      <prttextbox Format="" Location="132, 322" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SEJ" input_output="-" name="Health preservation" order="33" required="C" />
+      <label Location="15, 320" Size="111, 19" Font="Tahoma, 9pt" Text="Health preservation" />
+      <label Location="15, 301" Size="188, 19" Font="Tahoma, 9pt" Text="Animals / Pets infected to disease" />
+      <prttextbox Format="" Location="161, 322" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SEK" input_output="-" name="Details in case of health preservation" order="34" required="C" />
+      <label Location="149, 320" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="15, 25" Size="126, 19" Font="Tahoma, 9pt" Text="Arrival notification No." />
+      <prttextbox Format="" Location="170, 27" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="2" required="C" />
+      <label Location="292, 25" Size="158, 19" Font="Tahoma, 9pt" Text="Registration/Correction date" />
+      <prttextbox Format="dd/MM/yyyy" Location="456, 27" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="3" required="C" />
+      <label Location="543, 25" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="hh:mm" Location="558, 27" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="4" required="C" />
+      <label Location="15, 44" Size="112, 34" Font="Tahoma, 9pt" Text="Customs office&#xD;&#xA;(Cơ quan Hải quan)" />
+      <prttextbox Format="" Location="170, 54" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="NZC" input_output="-" name="Customs office" order="5" required="C" />
+      <label Location="228, 52" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 54" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="NZN" input_output="-" name="Customs office name" order="6" required="C" />
+      <label Location="15, 75" Size="139, 34" Font="Tahoma, 9pt" Text="Immigration Bureau&#xD;&#xA;(Cục quản lý nhập cảnh)" />
+      <prttextbox Format="" Location="170, 85" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KKK" input_output="-" name="User code of Immigration Bureau" order="7" required="C" />
+      <label Location="228, 83" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 85" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KKN" input_output="-" name="User name of Immigration Bureau" order="8" required="C" />
+      <label Location="15, 106" Size="115, 34" Font="Tahoma, 9pt" Text="Quarantine station&#xD;&#xA;(Cơ quan kiểm dịch)" />
+      <prttextbox Format="" Location="170, 116" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KEK" input_output="-" name="User code of Quarantine station" order="9" required="C" />
+      <label Location="228, 114" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 116" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KEN" input_output="-" name="User name of Quarantine station" order="10" required="C" />
+      <label Location="15, 137" Size="106, 34" Font="Tahoma, 9pt" Text="Port authority&#xD;&#xA;(Cơ quan cảng vụ)" />
+      <prttextbox Format="" Location="170, 147" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KKR" input_output="-" name="User code of Port authority" order="11" required="C" />
+      <label Location="228, 145" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 147" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KRN" input_output="-" name="User name of Port authority" order="12" required="C" />
+      <label Location="15, 187" Size="39, 19" Font="Tahoma, 9pt" Text="Vessel" />
+      <prttextbox Format="" Location="86, 190" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="VEC" input_output="-" name="Vessel call sign" order="15" required="C" />
+      <label Location="166, 188" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="181, 190" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="VBN" input_output="-" name="Vessel name" order="16" required="C" />
+      <label Location="461, 187" Size="87, 19" Font="Tahoma, 9pt" Text="Voyage No. (1)" />
+      <prttextbox Format="" Location="557, 189" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="KBF" input_output="-" name="Voyage number(1)" order="17" required="C" />
+      <label Location="15, 206" Size="65, 19" Font="Tahoma, 9pt" Text="Arrival port" />
+      <prttextbox Format="" Location="86, 208" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="NMC" input_output="-" name="Arrival port code" order="18" required="C" />
+      <label Location="136, 206" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="151, 208" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="NMN" input_output="-" name="Arrival port name" order="19" required="C" />
+      <label Location="312, 206" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="327, 208" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="NMS" input_output="-" name="Arrival port suffix" order="20" required="C" />
+      <label Location="15, 169" Size="60, 19" Font="Tahoma, 9pt" Text="Registrant" />
+      <prttextbox Format="" Location="170, 171" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="REG" input_output="-" name="Registrant" order="13" required="C" />
+      <label Location="228, 169" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 171" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="REN" input_output="-" name="Registrant name" order="14" required="C" />
+      <label Location="39, 339" Size="36, 19" Font="Tahoma, 9pt" Text="Name" />
+      <prttextbox Format="" Location="81, 341" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SM1" input_output="-" name="Name" order="35" required="C" />
+      <label Location="39, 359" Size="66, 19" Font="Tahoma, 9pt" Text="Official title" />
+      <prttextbox Format="" Location="112, 361" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SC1" input_output="-" name="Official title" order="36" required="C" />
+      <label Location="149, 359" Size="25, 19" Font="Tahoma, 9pt" Text="Age" />
+      <prttextbox Format="" Location="177, 361" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NR1" input_output="-" name="Age" order="37" required="C" />
+      <label Location="207, 359" Size="24, 19" Font="Tahoma, 9pt" Text="Sex" />
+      <prttextbox Format="" Location="237, 361" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SI1" input_output="-" name="Sex" order="38" required="C" />
+      <label Location="259, 359" Size="62, 19" Font="Tahoma, 9pt" Text="Nationality" />
+      <prttextbox Format="" Location="327, 361" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KK1" input_output="-" name="Nationality code" order="39" required="C" />
+      <label Location="358, 359" Size="108, 19" Font="Tahoma, 9pt" Text="Embarkation (Port)" />
+      <prttextbox Format="" Location="472, 361" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="JU1" input_output="-" name="Embarkation port code" order="40" required="C" />
+      <label Location="522, 359" Size="39, 19" Font="Tahoma, 9pt" Text="(Date)" />
+      <prttextbox Format="dd/MM/yyyy" Location="567, 361" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="JS1" input_output="-" name="Embarkation date" order="41" required="C" />
+      <label Location="39, 377" Size="114, 19" Font="Tahoma, 9pt" Text="Condition of disease" />
+      <prttextbox Format="dd/MM/yyyy" Location="177, 398" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="BA1" input_output="-" name="Sicken date" order="43" required="C" />
+      <label Location="39, 396" Size="67, 19" Font="Tahoma, 9pt" Text="Sicken date" />
+      <prttextbox Format="" Location="434, 397" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MI1" input_output="-" name="Notify/ not notify port medical offices" order="44" required="C" />
+      <label Location="281, 395" Size="147, 19" Font="Tahoma, 9pt" Text="Notify port medical offices" />
+      <prttextbox Format="" Location="177, 379" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BJ1" input_output="-" name="Condition of disease" order="42" required="C" />
+      <label Location="39, 415" Size="112, 19" Font="Tahoma, 9pt" Text="Outcome of disease" />
+      <prttextbox Format="" Location="177, 417" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BR1" input_output="-" name="Conditions and outcome of disease" order="45" required="C" />
+      <label Location="39, 434" Size="132, 19" Font="Tahoma, 9pt" Text="Medicines / Treatments" />
+      <prttextbox Format="" Multiline="True" Location="177, 437" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KT1" input_output="-" name="Details of given medicines or other treatments" order="46" required="C" />
+      <label Location="39, 453" Size="52, 19" Font="Tahoma, 9pt" Text="Remarks" />
+      <prttextbox Format="" Location="177, 455" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BK1" input_output="-" name="Remarks" order="47" required="C" />
+      <label Location="39, 472" Size="36, 19" Font="Tahoma, 9pt" Text="Name" />
+      <prttextbox Format="" Location="81, 474" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SM2" input_output="-" name="Name" order="48" required="C" />
+      <label Location="39, 491" Size="66, 19" Font="Tahoma, 9pt" Text="Official title" />
+      <prttextbox Format="" Location="112, 493" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SC2" input_output="-" name="Official title" order="49" required="C" />
+      <label Location="149, 491" Size="25, 19" Font="Tahoma, 9pt" Text="Age" />
+      <prttextbox Format="" Location="177, 493" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NR2" input_output="-" name="Age" order="50" required="C" />
+      <label Location="207, 491" Size="24, 19" Font="Tahoma, 9pt" Text="Sex" />
+      <prttextbox Format="" Location="237, 493" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SI2" input_output="-" name="Sex" order="51" required="C" />
+      <label Location="259, 491" Size="62, 19" Font="Tahoma, 9pt" Text="Nationality" />
+      <prttextbox Format="" Location="327, 493" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KK2" input_output="-" name="Nationality code" order="52" required="C" />
+      <label Location="358, 491" Size="108, 19" Font="Tahoma, 9pt" Text="Embarkation (Port)" />
+      <prttextbox Format="" Location="472, 493" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="JU2" input_output="-" name="Embarkation port code" order="53" required="C" />
+      <label Location="522, 491" Size="39, 19" Font="Tahoma, 9pt" Text="(Date)" />
+      <prttextbox Format="dd/MM/yyyy" Location="567, 493" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="JS2" input_output="-" name="Embarkation date" order="54" required="C" />
+      <label Location="39, 510" Size="114, 19" Font="Tahoma, 9pt" Text="Condition of disease" />
+      <prttextbox Format="dd/MM/yyyy" Location="177, 531" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="BA2" input_output="-" name="Sicken date" order="56" required="C" />
+      <label Location="39, 529" Size="67, 19" Font="Tahoma, 9pt" Text="Sicken date" />
+      <prttextbox Format="" Location="434, 531" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MI2" input_output="-" name="Notify/ not notify port medical offices" order="57" required="C" />
+      <label Location="281, 529" Size="147, 19" Font="Tahoma, 9pt" Text="Notify port medical offices" />
+      <prttextbox Format="" Location="177, 512" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BJ2" input_output="-" name="Condition of disease" order="55" required="C" />
+      <label Location="39, 548" Size="112, 19" Font="Tahoma, 9pt" Text="Outcome of disease" />
+      <prttextbox Format="" Location="177, 550" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BR2" input_output="-" name="Conditions and outcome of disease" order="58" required="C" />
+      <label Location="39, 567" Size="132, 19" Font="Tahoma, 9pt" Text="Medicines / Treatments" />
+      <prttextbox Format="" Multiline="True" Location="177, 569" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KT2" input_output="-" name="Details of given medicines or other treatments" order="59" required="C" />
+      <label Location="39, 586" Size="52, 19" Font="Tahoma, 9pt" Text="Remarks" />
+      <prttextbox Format="" Location="177, 588" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BK2" input_output="-" name="Remarks" order="60" required="C" />
+      <label Location="39, 605" Size="36, 19" Font="Tahoma, 9pt" Text="Name" />
+      <prttextbox Format="" Location="81, 607" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SM3" input_output="-" name="Name" order="61" required="C" />
+      <label Location="39, 624" Size="66, 19" Font="Tahoma, 9pt" Text="Official title" />
+      <prttextbox Format="" Location="112, 626" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SC3" input_output="-" name="Official title" order="62" required="C" />
+      <label Location="149, 624" Size="25, 19" Font="Tahoma, 9pt" Text="Age" />
+      <prttextbox Format="" Location="177, 626" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NR3" input_output="-" name="Age" order="63" required="C" />
+      <label Location="207, 624" Size="24, 19" Font="Tahoma, 9pt" Text="Sex" />
+      <prttextbox Format="" Location="237, 626" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SI3" input_output="-" name="Sex" order="64" required="C" />
+      <label Location="259, 624" Size="62, 19" Font="Tahoma, 9pt" Text="Nationality" />
+      <prttextbox Format="" Location="327, 626" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KK3" input_output="-" name="Nationality code" order="65" required="C" />
+      <label Location="358, 624" Size="108, 19" Font="Tahoma, 9pt" Text="Embarkation (Port)" />
+      <prttextbox Format="" Location="472, 626" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="JU3" input_output="-" name="Embarkation port code" order="66" required="C" />
+      <label Location="522, 624" Size="39, 19" Font="Tahoma, 9pt" Text="(Date)" />
+      <prttextbox Format="dd/MM/yyyy" Location="567, 626" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="JS3" input_output="-" name="Embarkation date" order="67" required="C" />
+      <label Location="39, 643" Size="114, 19" Font="Tahoma, 9pt" Text="Condition of disease" />
+      <prttextbox Format="dd/MM/yyyy" Location="177, 664" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="BA3" input_output="-" name="Sicken date" order="69" required="C" />
+      <label Location="39, 662" Size="67, 19" Font="Tahoma, 9pt" Text="Sicken date" />
+      <prttextbox Format="" Location="434, 664" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MI3" input_output="-" name="Notify/ not notify port medical offices" order="70" required="C" />
+      <label Location="281, 662" Size="147, 19" Font="Tahoma, 9pt" Text="Notify port medical offices" />
+      <prttextbox Format="" Location="177, 645" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BJ3" input_output="-" name="Condition of disease" order="68" required="C" />
+      <label Location="39, 681" Size="112, 19" Font="Tahoma, 9pt" Text="Outcome of disease" />
+      <prttextbox Format="" Location="177, 683" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BR3" input_output="-" name="Conditions and outcome of disease" order="71" required="C" />
+      <label Location="39, 700" Size="132, 19" Font="Tahoma, 9pt" Text="Medicines / Treatments" />
+      <prttextbox Format="" Multiline="True" Location="177, 702" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KT3" input_output="-" name="Details of given medicines or other treatments" order="72" required="C" />
+      <label Location="39, 719" Size="52, 19" Font="Tahoma, 9pt" Text="Remarks" />
+      <prttextbox Format="" Location="177, 721" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BK3" input_output="-" name="Remarks" order="73" required="C" />
+      <label Location="39, 738" Size="36, 19" Font="Tahoma, 9pt" Text="Name" />
+      <prttextbox Format="" Location="81, 740" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SM4" input_output="-" name="Name" order="74" required="C" />
+      <label Location="39, 757" Size="66, 19" Font="Tahoma, 9pt" Text="Official title" />
+      <prttextbox Format="" Location="112, 759" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SC4" input_output="-" name="Official title" order="75" required="C" />
+      <label Location="149, 757" Size="25, 19" Font="Tahoma, 9pt" Text="Age" />
+      <prttextbox Format="" Location="177, 759" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NR4" input_output="-" name="Age" order="76" required="C" />
+      <label Location="207, 757" Size="24, 19" Font="Tahoma, 9pt" Text="Sex" />
+      <prttextbox Format="" Location="237, 759" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SI4" input_output="-" name="Sex" order="77" required="C" />
+      <label Location="259, 757" Size="62, 19" Font="Tahoma, 9pt" Text="Nationality" />
+      <prttextbox Format="" Location="327, 759" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KK4" input_output="-" name="Nationality code" order="78" required="C" />
+      <label Location="358, 757" Size="108, 19" Font="Tahoma, 9pt" Text="Embarkation (Port)" />
+      <prttextbox Format="" Location="472, 759" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="JU4" input_output="-" name="Embarkation port code" order="79" required="C" />
+      <label Location="522, 757" Size="39, 19" Font="Tahoma, 9pt" Text="(Date)" />
+      <prttextbox Format="dd/MM/yyyy" Location="567, 759" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="JS4" input_output="-" name="Embarkation date" order="80" required="C" />
+      <label Location="39, 776" Size="114, 19" Font="Tahoma, 9pt" Text="Condition of disease" />
+      <prttextbox Format="dd/MM/yyyy" Location="177, 797" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="BA4" input_output="-" name="Sicken date" order="82" required="C" />
+      <label Location="39, 795" Size="67, 19" Font="Tahoma, 9pt" Text="Sicken date" />
+      <prttextbox Format="" Location="434, 797" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MI4" input_output="-" name="Notify/ not notify port medical offices" order="83" required="C" />
+      <label Location="281, 795" Size="147, 19" Font="Tahoma, 9pt" Text="Notify port medical offices" />
+      <prttextbox Format="" Location="177, 778" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BJ4" input_output="-" name="Condition of disease" order="81" required="C" />
+      <label Location="39, 814" Size="112, 19" Font="Tahoma, 9pt" Text="Outcome of disease" />
+      <prttextbox Format="" Location="177, 816" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BR4" input_output="-" name="Conditions and outcome of disease" order="84" required="C" />
+      <label Location="39, 833" Size="132, 19" Font="Tahoma, 9pt" Text="Medicines / Treatments" />
+      <prttextbox Format="" Multiline="True" Location="177, 835" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KT4" input_output="-" name="Details of given medicines or other treatments" order="85" required="C" />
+      <label Location="39, 852" Size="52, 19" Font="Tahoma, 9pt" Text="Remarks" />
+      <prttextbox Format="" Location="177, 854" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BK4" input_output="-" name="Remarks" order="86" required="C" />
+      <label Location="39, 871" Size="36, 19" Font="Tahoma, 9pt" Text="Name" />
+      <prttextbox Format="" Location="81, 873" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SM5" input_output="-" name="Name" order="87" required="C" />
+      <label Location="39, 890" Size="66, 19" Font="Tahoma, 9pt" Text="Official title" />
+      <prttextbox Format="" Location="112, 892" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SC5" input_output="-" name="Official title" order="88" required="C" />
+      <label Location="149, 890" Size="25, 19" Font="Tahoma, 9pt" Text="Age" />
+      <prttextbox Format="" Location="177, 892" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NR5" input_output="-" name="Age" order="89" required="C" />
+      <label Location="207, 890" Size="24, 19" Font="Tahoma, 9pt" Text="Sex" />
+      <prttextbox Format="" Location="237, 892" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="SI5" input_output="-" name="Sex" order="90" required="C" />
+      <label Location="259, 890" Size="62, 19" Font="Tahoma, 9pt" Text="Nationality" />
+      <prttextbox Format="" Location="327, 892" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KK5" input_output="-" name="Nationality code" order="91" required="C" />
+      <label Location="358, 890" Size="108, 19" Font="Tahoma, 9pt" Text="Embarkation (Port)" />
+      <prttextbox Format="" Location="472, 892" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="JU5" input_output="-" name="Embarkation port code" order="92" required="C" />
+      <label Location="522, 890" Size="39, 19" Font="Tahoma, 9pt" Text="(Date)" />
+      <prttextbox Format="dd/MM/yyyy" Location="567, 892" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="JS5" input_output="-" name="Embarkation date" order="93" required="C" />
+      <label Location="39, 909" Size="114, 19" Font="Tahoma, 9pt" Text="Condition of disease" />
+      <prttextbox Format="dd/MM/yyyy" Location="177, 930" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="BA5" input_output="-" name="Sicken date" order="95" required="C" />
+      <label Location="39, 928" Size="67, 19" Font="Tahoma, 9pt" Text="Sicken date" />
+      <prttextbox Format="" Location="434, 930" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MI5" input_output="-" name="Notify/ not notify port medical offices" order="96" required="C" />
+      <label Location="281, 928" Size="147, 19" Font="Tahoma, 9pt" Text="Notify port medical offices" />
+      <prttextbox Format="" Location="177, 911" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BJ5" input_output="-" name="Condition of disease" order="94" required="C" />
+      <label Location="39, 948" Size="112, 19" Font="Tahoma, 9pt" Text="Outcome of disease" />
+      <prttextbox Format="" Location="177, 950" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BR5" input_output="-" name="Conditions and outcome of disease" order="97" required="C" />
+      <label Location="39, 967" Size="132, 19" Font="Tahoma, 9pt" Text="Medicines / Treatments" />
+      <prttextbox Format="" Location="177, 969" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KT5" input_output="-" name="Details of given medicines or other treatments" order="98" required="C" />
+      <label Location="39, 986" Size="52, 19" Font="Tahoma, 9pt" Text="Remarks" />
+      <prttextbox Format="" Location="177, 988" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="BK5" input_output="-" name="Remarks" order="99" required="C" />
+      <prttextbox Format="" Visible="False" Location="3, 1025" Size="1401, 19" BorderStyle="None" Font="Tahoma, 11.25pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="OUT" input_output="-" name="Output information name" order="1" required="C" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="タイトル１" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+    </page>
+    <page Font="Microsoft Sans Serif, 11pt" MaxOccurs="2">
+      <pagelabel Location="618, 0" Size="100, 23" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="7, 55" Size="195, 19" Font="Tahoma, 9pt" Text="Quarantine information(For plants)" />
+      <label Location="31, 83" Size="64, 19" Font="Tahoma, 9pt" Text="Port(Cảng)" />
+      <prttextbox Format="" Location="139, 31" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="2" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="456, 31" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="3" required="C" />
+      <label Location="116, 83" Size="211, 19" Font="Tahoma, 9pt" Text="Goods description(Tên hàng thực vật)" />
+      <prttextbox Format="hh:mm" Location="558, 31" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="4" required="C" />
+      <label Location="429, 83" Size="109, 19" Font="Tahoma, 9pt" Text="Quantity(Số lượng)" TextAlign="MiddleCenter" />
+      <prttextbox Format="" Location="139, 31" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="2" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="456, 31" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="3" required="C" />
+      <label Location="580, 83" Size="119, 19" Font="Tahoma, 9pt" Text="Weight(Trọng lượng)" />
+      <prttextbox Format="hh:mm" Location="558, 31" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="4" required="C" />
+      <label Location="7, 29" Size="126, 19" Font="Tahoma, 9pt" Text="Arrival notification No." />
+      <label Location="292, 29" Size="158, 19" Font="Tahoma, 9pt" Text="Registration/Correction date" />
+      <label Location="543, 29" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Visible="False" Location="208, 55" Size="1401, 19" BorderStyle="None" Font="Tahoma, 11.25pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="OUT" input_output="-" name="Output information name" order="1" required="C" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="タイトル１" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="0, 105" Size="718, 38" Font="Tahoma, 11pt" Count="25" repetition_id="C00" repetition_max="50" RepX="1" RepY="25" SpaceX="0" SpaceY="0">
+        <ranlabel Location="7, 3" Size="21, 14" Font="Tahoma, 9pt" figure="2" repetition_id="C00" Value="0" PadLeft="True" />
+        <label Location="51, 3" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="31, 3" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="PA__" input_output="-" name="Port type (for plants)" order="100" required="C" />
+        <prttextbox Format="" Location="66, 3" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="PB__" input_output="-" name="Port code (for plants)" order="101" required="C" />
+        <prttextbox Format="" Multiline="True" Location="115, 3" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="PE__" input_output="-" name="Description of plant goods" order="102" required="C" />
+        <prttextbox Format="###,###" Location="385, 3" Size="103, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="PF__" input_output="-" name="Quantity of plants" order="103" required="C" />
+        <label Location="494, 3" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="509, 3" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="PH__" input_output="-" name="Quantity unit code of plants" order="104" required="C" />
+        <prttextbox Format="###,###" Location="546, 3" Size="103, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="PI__" input_output="-" name="Weight of plants" order="105" required="C" />
+        <label Location="655, 3" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="670, 3" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="PJ__" input_output="-" name="Weight unit code of plants" order="106" required="C" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

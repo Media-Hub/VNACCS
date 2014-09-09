@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IDD" name="Correction of Pre-registration of import declaration (Call up)">
+  <item no="1" name="Declaration No." id="ICN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ IDA hoặc IDA01.</item>
+</guide>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="OLC" name="Declaration on transportation">
+  <item no="1" name="Bonded transportation declaration No." id="OLT" required="" code="">Người khai nhập số tờ khai vận chuyển đã được hệ thống VNACCS cấp trước đó bởi nghiệp vụ OLA. Đây là chỉ tiêu bắt buộc phải nhập.</item>
+  <item no="2" name="Confirmation of declaration using the same cargo No." id="SCG" required="" code="">Trường hợp trong tờ khai vận chuyển có số hiệu được nhập nêu trên có chung số quản lý hàng hóa và chung địa điểm khởi hành với các tờ khai vận chuyển khác (số quản lý hàng hóa có thể được sử dụng lặp tới 5 lần) thì người khai bắt buộc phải nhập số “1” tại mục này. Các trường hợp khác người khai nhập số “0” tại mục này.</item>
+</guide>

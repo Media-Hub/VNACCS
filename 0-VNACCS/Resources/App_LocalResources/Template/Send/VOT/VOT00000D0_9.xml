@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VOT" jobname="入港届等B" display-name="VOT Registration of departure notification A">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA081_9.xml" item_attr_edit="False" />
+  <friday href="VAA081_9.xml" revision="0000" />
+  <iteminfo>
+    <ranContainer repetition_max="50">
+      <item id="SHC" name="Ship's stores code（船用品コード）" input_output="+" required="C" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="SHN" name="Goods description of ship's stores（船用品品名）" input_output="+" required="C" attribute="A" figure="70" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="SHK" name="Number of packages/quantity of ship's stores（船用品個数・数量）" input_output="+" required="C" attribute="I" figure="10" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="SHT" name="Number of packages/quantity unit code of ship's stores（船用品個数・数量単位コード）" input_output="+" required="C" attribute="A" figure="3" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="296" Size="692, 62" Location="12, 37" Font="ZSゴシック, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="10" RepX="1" repetition_id="R01" repetition_max="50">
+      <ranlabel Size="21, 15" Location="2, 14" Font="Courier New, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="9, 19" Location="301, 34" Text="-" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="165, 12" Text="-" Font="Tahoma, 9pt" />
+      <label Size="73, 19" Location="23, 13" Text="Ship's stores" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="55, 21" Location="108, 12" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Ship's stores code（船用品コード）" check_attribute="*" attribute="A" id="SHC" figure="6" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="2" Size="503, 21" Location="177, 12" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Goods description of ship's stores（船用品品名）" check_attribute="*" attribute="A" id="SHN" figure="70" required="C" />
+      <label Size="173, 19" Location="23, 35" Text="Number of packages / quantity" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="3" Size="83, 21" Location="213, 34" TextAlign="Right" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Number of packages/quantity of ship's stores（船用品個数・数量）" check_attribute="*" attribute="I" id="SHK" figure="10" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="4" Size="34, 21" Location="314, 34" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Number of packages/quantity unit code of ship's stores（船用品個数・数量単位コード）" check_attribute="*" attribute="A" id="SHT" figure="3" required="C" />
+    </container>
+    <navigator TabIndex="295" Location="12, 3" repetition_id="R01" repetition_max="1" />
+  </layout>
+</jobform>

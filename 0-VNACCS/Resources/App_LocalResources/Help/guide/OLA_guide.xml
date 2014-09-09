@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="OLA" name="Pre-registration of declaration on transportation">
+  <item no="1" name="Bonded transportation declaration No.&#xA;" id="OLT" required="" code="">- Trường hợp đăng ký mới, người khai không phải nhập số tờ khai. Số tờ khai sẽ do hệ thống VNACCS tự động cấp và có 12 ký tự
+- Trường hợp sửa tờ khai, người khai bắt buộc phải nhập số tờ khai cần sửa. 
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Là chỉ tiêu khai báo bắt buộc.
+- Trường hợp khai báo tờ khai vận chuyển của hàng hóa nhập khẩu, người khai chọn I.
+- Trường hợp khai báo tờ khai vận chuyển của hàng hóa xuất khẩu, người khai chọn E.
+- Trường hợp khai báo tờ khai vận chuyển khác, người khai chọn C.</item>
+  <item no="3" name="Customs office" id="CHC" required="" code="Customs office code">Là chỉ tiêu khai báo bắt buộc và là Mã chi cục hải quan nơi tờ khai vận chuyển được gửi tới để xử lý. Mã này có tối đa 6 ký tự và được nhập theo 1 trong 2 cơ chế:
+- Hệ thống VNACCS tự động quyết định dựa trên thông tin khai báo về Mã khu vực lưu giữ hàng hóa, hoặc;
+- Người khai nhập khi Mã chi cục hải quan nơi tiếp nhận và xử lý tờ khai vận chuyển khác với Mã do hệ thống VNACCS quyết định.</item>
+  <item no="4" name="Transporter code" id="TRC" required="" code="Importer/Exporter code">Là chỉ tiêu khai báo bắt buộc. Người khai nhập mã của người vận chuyển hàng hóa do cơ quan hải quan cấp. Mã này có 13 ký tự. 
+ Người vận chuyển có thể là người xuất khẩu, người nhập khẩu, hãng vận tải, đại lý hải quan hoặc công ty logistics</item>
+  <item no="5" name="Transporter name" id="TRN" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+- Trường hợp Mã nhà vận chuyển đã được đăng ký trước trên hệ thống VNACSS là người xuất khẩu hoặc nhập khẩu thì không phải khai báo mục này.
+- Các trường hợp khác, Người khai phải khai báo mục này.
+- Độ dài tối đa có thể khai báo tại mục này là 100 ký tự tiếng Việt.</item>
+  <item no="6" name="Transporter address&#xA;&#xA;" id="TRA" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+- Trường hợp Mã nhà vận chuyển đã được đăng ký trước trên hệ thống VNACSS là người xuất khẩu hoặc nhập khẩu thì không phải khai báo mục này. Khi thông tin này thay đổi so với thông tin đã đăng ký trước đó thì Người khai thực hiện việc khai báo mục này.
+- Các trường hợp khác, Người khai phải khai báo mục này.
+- Độ dài tối đa có thể khai báo tại mục này là 100 ký tự tiếng Việt.</item>
+  <item no="7" name="Transport contract No. / Equivalent document No." id="TCN" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+- Trường hợp mục đích vận chuyển của hàng hóa là quá cảnh thì Người khai phải khai báo mục này.  
+- Độ dài tối đa có thể khai báo tại mục này là 11 ký tự không dấu.</item>
+  <item no="8" name="Date of transport contract/Date of equivalent document" id="TCD" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+- Trường hợp mục đích vận chuyển của hàng hóa là quá cảnh thì Người khai phải khai báo mục này. 
+- Độ dài tối đa có thể khai báo tại mục này là 08 ký tự không dấu và được nhập theo dạng DDMMYYYY.</item>
+  <item no="9" name="Expiry date of transport contract or of equivalent document" id="EDC" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+- Trường hợp mục đích vận chuyển của hàng hóa là quá cảnh thì Người khai phải khai báo mục này. 
+- Độ dài tối đa có thể khai báo tại mục này là 08 ký tự không dấu và được nhập theo dạng DDMMYYYY.</item>
+  <item no="10" name="Means of transportation code" id="BYA" required="" code="UN/EDIFACT(8179)">Là chỉ tiêu khai báo bắt buộc.
+Người khai lựa chọn một trong các loại phương tiện vận chuyển hàng hóa do hệ thống  VNACCS đưa ra gồm:
+6: Máy bay
+11: Tàu thủy
+16: Xà lan
+25: Tàu hỏa
+31: Ô tô
+17: Khác</item>
+  <item no="11" name="Transportation purpose code" id="OBJ" required="" code="Transportation purpose code">Là chỉ tiêu khai báo bắt buộc. 
+Người khai nhập mã mục đích vận chuyển hàng hóa theo bảng mã phân loại  dưới đây:
+1. Mã sử dụng cho khai báo tờ khai vận chuyển của hàng hóa nhập khẩu:
+   SHI: Vận chuyển để đưa hàng hóa nhập khẩu, hàng hóa quá cảnh, hàng hóa tạm nhập-tái xuất đưa vào: Kho ngoại quan; Kho hàng không kéo dài; Cửa hàng miễn thuế
+   FAC: Vận chuyển để đưa hàng hóa nhập khẩu, hàng hóa tạm nhập-tái xuất vào: Kho bảo thuế; Kho của nhà máy gia công/SXXK/DN chế xuất (nhà máy bảo thuế).
+   CIS: Vận chuyển để đưa hàng hóa nhập khẩu về: Địa điểm kiểm tra tập trung; Địa điểm tập kết, kiểm tra hàng hóa ở biên giới thuộc khu kinh tế cửa khẩu; Địa điểm kiểm tra là chân/kho công trình, nhà máy; Điểm thu gom hàng lẻ; Địa điểm làm thủ tục hải quan đối với hàng hóa chuyển phát nhanh.
+   FTZ: Vận chuyển để đưa hàng hóa nhập khẩu vào khu vực phi thuế quan
+   SRE: Vận chuyển để đưa hàng hóa nhập khẩu về bảo quản tại địa điểm do cơ quan hải quan quyết định
+   FED: Vận chuyển để đưa hàng hóa nhập khẩu vào: Điểm thông quan nội địa; Về các địa điểm làm thủ tục hải quan ngoài cửa khẩu khác
+2. Mã sử dụng cho khai báo tờ khai vận chuyển của hàng hóa xuất khẩu:
+   EXP: Vận chuyển để đưa hàng hóa xuất khẩu, hàng tái xuất, hàng tạm xuất từ địa điểm tập kết hàng đến cửa khẩu xuất
+   ETB: Vận chuyển để đưa hàng hóa xuất khẩu, hàng tái xuất, hàng tạm xuất từ địa điểm tập kết hàng đến: Kho ngoại quan; Điểm thu gom hàng lẻ; CY
+   BTG: Vận chuyển để đưa hàng hóa xuất khẩu, hàng tái xuất, hàng tạm xuất từ kho ngoại quan, điểm thu gom hàng lẻ, CY đến cửa khẩu xuất
+3. Mã sử dụng cho khai báo tờ khai vận chuyển của hàng hóa khác:
+   BTB: Vận chuyển hàng hóa giữa 2 khu vực lưu giữ hàng hóa chịu sự giám sát hải quan
+   BAG: Vận chuyển hàng hóa là hành lý cá nhân.
+   OTH: Vận chuyển hàng hóa có mục đích vận chuyển khác
+
+* Lưu ý: Việc khai báo mã mục đích vận chuyển sử dụng cho vận chuyển hàng hóa nhập khẩu, xuất khẩu và khác phải tương ứng với việc khai Cờ báo nhập khẩu/xuất khẩu</item>
+  <item no="12" name="Transportation type" id="USS" required="" code="Transportation type code">Là chỉ tiêu khai báo bắt buộc. Để phân loại vận chuyển, Người khai phải nhập mã loại hình vận chuyển hàng hóa theo bảng mã phân loại dưới đây:
+NR: Vận chuyển nói chung
+EA: Vận chuyển nói chung (trường hợp vận chuyển có nhiều điểm xếp/dỡ hàng)
+QU: Vận chuyển hàng phải qua kiểm dịch, hàng XNK có điều kiện
+KR: Vận chuyển hàng hóa quá cảnh
+KS: Vận chuyển hàng hóa có thủ tục đơn giản
+PT: Vận chuyển chuyển cảng
+CT: Vận chuyển có chuyển đổi phương tiện vận tải
+</item>
+  <item no="13" name="Estimated start date of transportation " id="SDT" required="" code="">Là chỉ tiêu khai báo bắt buộc.
+- Ngày dự kiến bắt đầu vận chuyển khai báo phải nằm trong khoảng thời gian  đăng ký tính từ ngày hiện hành theo hệ thống. 
+- Độ dài tối đa có thể khai báo tại mục này là 08 ký tự không dấu và được nhập theo dạng DDMMYYYY.</item>
+  <item no="14" name="Estimated start time of transportation " id="SDH" required="" code=""> Là chỉ tiêu khai báo bắt buộc. Người khai khai báo giờ dự kiến bắt đầu vận chuyển hàng hóa. Giá trị khai báo từ 00 đến 23.</item>
+  <item no="15" name="Estimated finish date of transportation " id="EDT" required="" code="">Là chỉ tiêu khai báo bắt buộc.
+- Ngày dự kiến kết thúc vận chuyển khai báo phải trùng hoặc sau ngày (&gt;=) dự kiến bắt đầu vận chuyển. 
+- Độ dài tối đa có thể khai báo tại mục này là 08 ký tự không dấu và được nhập theo dạng DDMMYYYY</item>
+  <item no="16" name="Estimated finish time of transportation " id="EDH" required="" code="">Là chỉ tiêu khai báo bắt buộc. Người khai khai báo giờ dự kiến kết thúc vận chuyển hàng hóa. Giá trị khai báo từ 00 đến 23.</item>
+  <item no="17" name="Departure location of bonded transportation (Bonded area)&#xA;" id="DPR" required="" code="Bonded area code">Nếu Người khai không khai báo chỉ tiêu thông tin số 18 dưới đây thì bắt buộc phải khai báo mục này. Ngược lại, có khai báo chỉ tiêu thông tin số 18 thì không phải khai báo mục này.
+Người khai phải nhập một trong các thông tin khai báo sau:
+- Mã địa điểm xếp hàng (khu vực chịu sự giám sát hải quan) hoặc Mã vị trí xếp hàng (nơi chất hàng).
+- Trường hợp Mã vị trí xếp hàng (nơi chất hàng) đã được nhập thì sẽ không nhập được Mã địa điểm xếp hàng (khu vực chịu sự giám sát hải quan).
+- Mã địa điểm xếp hàng có độ dài tối đa 07 ký tự. Để biết mã của từng địa điểm xếp hàng (khu vực chịu sự giám sát hải quan), người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="18" name="Departure location of bonded transportation (Berth code)&#xA;" id="BRT" required="" code="Berth code">Người khai phải khai báo một trong các thông tin sau:
+- Mã địa điểm xếp hàng (khu vực chịu sự giám sát hải quan) hoặc Mã vị trí xếp hàng (nơi chất hàng).
+- Trường hợp Mã địa điểm xếp hàng (khu vực chịu sự giám sát hải quan) đã được nhập thì sẽ không nhập được Mã vị trí xếp hàng (nơi chất hàng)
+- Mã vị trí xếp hàng có độ dài 06 ký tự. Để biết mã của từng vị trí xếp hàng (nơi chất hàng), người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="19" name="Departure location of bonded transportation (Port of loading)" id="PRT" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Trong các trường hợp dưới đây, Người khai phải khai báo chỉ tiêu thông tin này: 
+- Trường hợp loại hình vận chuyển khai báo là PT, hoặc;
+- Trường hợp đã khai báo Mã vị trí xếp hàng (nơi chất hàng)
+ Các trường hợp khác, Người khai không bắt buộc phải khai báo chỉ tiêu này.
+- Mã cảng xếp hàng là mã cảng biển, sông theo UN/LOCODE, mã cảng hàng không theo IATA, mã nhà ga, mã cửa khẩu đường bộ.
+- Mã cảng/cửa khẩu/ga xếp hàng có độ dài 06 ký tự. Để biết mã của từng cảng/cửa khẩu/ga xếp hàng, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="20" name="Departure location name of bonded transportation" id="DPN" required="" code="">-  Người khai phải khai báo tên địa điểm xếp hàng trong trường hợp tên địa điểm xếp hàng hoặc tên vị trí xếp hàng tương ứng với mã địa điểm xếp hàng hoặc mã vị trí xếp hàng không được đăng ký trên hệ thống. Tên địa điểm xếp hàng có độ dài tối đa là 35 ký tự bằng tiếng Việt.
+- Trong các trường hợp khác người khai không phải khai tên của địa điểm xếp hàng</item>
+  <item no="21" name="Arrival location of bonded transportation&#xA;(Bonded area)&#xA;" id="ARR" required="" code="Bonded area code">Nếu Người khai không khai báo chỉ tiêu thông tin số 22 dưới đây thì bắt buộc phải khai báo mục này. Ngược lại, có khai báo chỉ tiêu thông tin số 22 thì không phải khai báo mục này.
+Người khai phải nhập một trong các thông tin khai báo sau:
+- Mã địa điểm dỡ hàng (khu vực chịu sự giám sát hải quan) hoặc Mã vị trí dỡ hàng (nơi dỡ hàng).
+- Trường hợp Mã vị trí dỡ hàng (nơi dỡ hàng) đã được nhập thì sẽ không nhập được Mã địa điểm dỡ hàng (khu vực chịu sự giám sát hải quan).
+- Mã địa điểm xếp hàng có độ dài tối đa 07 ký tự. Để biết mã của từng địa điểm xếp hàng (khu vực chịu sự giám sát hải quan), người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="22" name="Arrival location of bonded transportation&#xA;(Berth code)&#xA;" id="ARB" required="" code="Berth code">Người khai phải khai báo một trong các thông tin sau:
+- Mã địa điểm dỡ hàng (khu vực chịu sự giám sát hải quan) hoặc Mã vị trí dỡ hàng (nơi dỡ hàng).
+- Trường hợp Mã địa điểm dỡ hàng (khu vực chịu sự giám sát hải quan) đã được nhập thì sẽ không nhập được Mã vị trí dỡ hàng (nơi dỡ hàng)
+- Mã vị trí xếp hàng có độ dài 06 ký tự. Để biết mã của từng vị trí xếp hàng (nơi chất hàng), người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="23" name="Arrival location of bonded transportation&#xA;(Port of discharge)" id="ARP" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Trong các trường hợp dưới đây, Người khai phải khai báo chỉ tiêu thông tin này: 
+- Trường hợp loại hình vận chuyển khai báo là PT, hoặc;
+- Trường hợp đã khai báo Mã vị trí dỡ hàng (nơi dỡ hàng)
+ Các trường hợp khác, Người khai không bắt buộc phải khai báo chỉ tiêu này.
+- Mã cảng xếp hàng là mã cảng biển, sông theo UN/LOCODE, mã cảng hàng không theo IATA, mã nhà ga, mã cửa khẩu đường bộ.
+- Mã cảng/cửa khẩu/ga xếp hàng có độ dài 06 ký tự. Để biết mã của từng cảng/cửa khẩu/ga xếp hàng, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="24" name="Arrival location name of bonded transportation" id="ARN" required="" code="">-  Người khai phải khai báo tên địa điểm dỡ hàng trong trường hợp tên địa điểm dỡ hàng hoặc tên vị trí dỡ hàng tương ứng với mã địa điểm dỡ hàng hoặc mã vị trí dỡ hàng không được đăng ký trên hệ thống. Tên địa điểm dỡ hàng có độ dài tối đa là 35 ký tự bằng tiếng Việt.
+- Trong các trường hợp khác người khai không phải khai tên của địa điểm dỡ hàng</item>
+  <item no="25" name="Route" id="ROU" required="" code="">Người khai khai tóm tắt thông tin về tuyến đường vận chuyển chính của hàng hóa. Độ dài khai báo tối đa là 35 ký tự không dấu. 
+ Ví dụ hàng hóa vận chuyển từ Hải Phòng về Hà Nội thì khai là HP-HN</item>
+  <item no="26" name="Type of security&#xA;&#xA;" id="TOS" required="" code="">Trường hợp người khai được yêu cầu phải nộp bảo lãnh cho tờ khai vận chuyển hàng hóa thì người khai lựa chọn 1 trong 2 loại hình bảo lãnh do hệ thống đưa ra, gồm:
+- Trường hợp nộp bảo lãnh riêng, người khai chọn A;
+- Trường hợp nộp bảo lãnh chung, người khai chọn B.</item>
+  <item no="27" name="Security supplier Bank code&#xA;" id="SBC" required="" code="">Trường hợp người khai chọn loại hình bảo lãnh là bảo lãnh chung (B) thì phải nhập mã của ngân hàng bảo lãnh. Mã này có độ dài 11 ký tự không dấu.
+Đối với các trường hợp khác, người khai không phải khai báo mã này.</item>
+  <item no="28" name="Issued year&#xA;&#xA;" id="RYA" required="" code="">Trường hợp người khai chọn loại hình bảo lãnh là bảo lãnh chung (B) thì phải nhập thông tin về năm phát hành bảo lãnh. Người khai nhập thông tin này theo dạng YYYY.</item>
+  <item no="29" name="Security bank sign&#xA;&#xA;" id="SCM" required="" code="">Trường hợp người khai chọn loại hình bảo lãnh là bảo lãnh chung (B) thì phải nhập thông tin về ký hiệu của chứng từ bảo lãnh. Ký hiệu này có độ dài tối đa 10 ký tự không dấu.</item>
+  <item no="30" name="Security No.&#xA;&#xA;" id="SCN" required="" code="">Trường hợp người khai chọn loại hình bảo lãnh là bảo lãnh chung (B) thì phải nhập thông tin về số chứng từ bảo lãnh. Ký hiệu này có độ dài tối đa 10 ký tự không dấu.</item>
+  <item no="31" name="Amount of security&#xA;" id="SEP" required="" code="">Người khai có thể nhập số tiền của bảo lãnh do mình tự tính toán khi được yêu cầu phải nộp bảo lãnh cho tờ khai vận chuyển hàng hóa. Số tiền nhập là số nguyên và tối đa có 11 con số.</item>
+  <item no="32" name="Remarks 1" id="NTA" required="" code="">Là chỉ tiêu khai báo không bắt buộc. Người khai khai báo tại mục này các thông tin khác cần làm rõ phục vụ cho mục đích khai báo. 
+Trường hợp loại hình vận chuyển là QU, người khai phải khai báo thông tin về địa điểm kiểm dịch tại mục này.
+Thông tin khai báo tại mục này có độ dài tối đa là 255 ký tự bằng tiếng Việt.
+B. THÔNG TIN KHAI BÁO CHI TIẾT
+Đối với các mục khai báo từ 33 đến 70 dưới đây, người khai có thể khai báo 5 lần cho mỗi mục.</item>
+  <item no="33" name="Cargo No. (B/L No., AWB No. etc....)" id="CG_" required="" code="">Là chỉ tiêu khai báo bắt buộc mà Người khai phải khai báo. Số này có độ dài tối đa 35 ký tự không dấu. Cụ thể:
+- Trường hợp 1: Hàng hóa có bảng lược khai hàng hóa vận chuyển bằng đường biển (sea manifest), nhập số vận đơn (số B/L) (nếu có).
+- Trường hợp 2: Hàng hóa có bảng lược khai hàng hóa vận chuyển bằng đường hàng không (air manifest), nhập số vận đơn (số AWB) (nếu có).
+- Trường hợp 3: Hàng hóa có bảng lược khai hàng hóa vận chuyển bằng đường sắt (railway manifest), nhập số vận đơn (số B/L) (nếu có).
+- Trường hợp khác (4) gồm: (i) Vận chuyển hàng hóa xuất khẩu/nhập khẩu bằng ô tô hoặc (ii) Vận chuyển hàng hóa giữa 2 kho của gia công/SXXK/DN chế xuất (nhà máy bảo thuế), người khai nhập số quản lý hàng hóa theo định dạng dưới đây:
++ Đối với vận chuyển hàng hóa nhập khẩu hoặc vận chuyển hàng hoá giữa 2 nhà máy bảo thuế bằng ô tô: Người khai nhập số quản lý hàng hóa theo cấu trúc AAAAAAAAAAAAA,BBBBBBBBBBBB. Trong đó AAAAAAAAAAAAA là mã số thuế của người nhập khẩu (13 ký tự), BBBBBBBBBBBB là số ký hiệu của hóa đơn (tối đa 12 ký tự).
++ Đối với vận chuyển hàng hóa xuất khẩu bằng ô tô: người khai nhập số quản lý hàng hóa theo cấu trúc CCCCCCCCCCCCC,BBBBBBBBBBBB. Trong đó CCCCCCCCCCCCC là mã số thuế của người xuất khẩu (13 ký tự), BBBBBBBBBBBB là số ký hiệu của hóa đơn (tối đa 12 ký tự).
+* Lưu ý: giữa mã số thuế của người xuất khẩu, nhập khẩu và số ký hiệu của hóa đơn khai báo trong số quản lý hàng hóa được phân cách bằng dấu phẩy (,)</item>
+  <item no="34" name="Issued date of B/L" id="DB_" required="" code="">- Đối với vận chuyển hàng hóa có số quản lý hàng hóa khai báo theo các trường hợp 1, 2, 3 tại chỉ tiêu số 33 nêu trên người khai bắt buộc nhập ngày vận đơn.
+- Đối với vận chuyển hàng hóa có số quản lý hàng hóa khai báo theo trường hợp 4 tại chỉ tiêu số 33 nêu trên, người khai khai báo ngày của hóa đơn. 
+- Ngày khai báo là 08 ký tự không dấu và được nhập theo dạng DDMMYYYY.</item>
+  <item no="35" name="Goods description" id="CM_" required="" code="">Là chỉ tiêu khai báo bắt buộc.
+Người khai khai báo tên hàng hóa vận chuyển. Trường hợp lô hàng có nhiều chủng loại hàng hóa thì Người khai khai báo tên của những hàng hóa có giá trị chiếm tỷ trọng lớn trong tổng giá trị lô hàng.
+Độ dài khai báo tối đa cho mỗi tên hàng là 70 ký tự có dấu.</item>
+  <item no="36" name="HS code (First 4 digits)" id="HS_" required="" code="HS code (4-digits)">Là chỉ tiêu khai báo không bắt buộc. 
+Người khai khai báo mã số HS (ở mức độ 4 số) tương ứng với mỗi tên hàng của hàng hóa vận chuyển đã khai báo</item>
+  <item no="37" name="Marks and Nos." id="MR_" required="" code="">Là chỉ tiêu khai báo không bắt buộc.
+Người khai khai báo ký, số hiệu của hàng hóa. Độ dài khai báo tối đa cho mỗi tên hàng là 140 ký tự có dấu.</item>
+  <item no="38" name="Date of first stock-in bonded warehouse" id="IS_" required="" code="">- Trường hợp hàng hóa được phép đưa vào kho ngoại quan, người khai phải khai báo ngày đưa hàng vào kho lần đầu.
+- Trường hợp hàng hóa được phép đưa vào kho ngoại quan từ 2 lần trở lên, người khai khai báo ngày đưa hàng vào kho của lần đầu tiên.
+- Các trường hợp khác không bắt buộc phải khai báo.
+  Người khai khai báo ngày đưa hàng vào kho theo dạng DDMMYYYY.</item>
+  <item no="39" name="Product of bonded factory identifier" id="RM_" required="" code="">Trường hợp hàng hóa vận chuyển là sản phẩm gia công, hàng hóa xuất khẩu sản xuất từ nguyên liệu, vật tư nhập khẩu hoặc sản phẩm xuất khẩu của doanh nghiệp chế xuất, người khai khai báo mục này bằng cách lựa chọn Y từ hệ thống.</item>
+  <item no="40" name="Place of origin/manufacture" id="OR_" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Người khai khai báo mã nước sản xuất hoặc nơi sản xuất của hàng hóa vận chuyển. Mã nước khai báo ở dạng 02 ký tự theo UN/LOCODE
+Đối với vận chuyển của hàng hóa nhập khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, thông tin này bắt buộc phải khai.</item>
+  <item no="41" name="Departure location of cargo" id="LP_" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Người khai khai báo mã địa điểm xuất phát của hàng hóa vận chuyển. Mã này có độ dài 05 ký tự  không dấu theo UN/LOCODE. Để biết mã của từng địa điểm xuất phát, người khai tra cứu thông tin trên website của cơ quan hải quan.
+- Đối với vận chuyển hàng hóa nhập khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo mã địa điểm xuất phát là mã cảng, mã sân bay xếp hàng ở nước ngoài. Đối với vận chuyển hàng hóa nhập khẩu có loại hình vận chuyển khai báo là KS hoặc PT, người khai có thể khai báo mã này.
+- Đối với vận chuyển hàng hóa xuất khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai phải khai báo mã địa điểm xuất phát là mã cảng, mã sân bay, mã cửa khẩu xếp hàng tại Việt Nam. Đối với vận chuyển hàng hóa xuất khẩu có loại hình vận chuyển khai báo là KS hoặc PT, người khai có thể khai báo mã này.
+- Đối với vận chuyển hàng hóa khác (vận chuyển hàng hóa giữa 2 khu vực lưu giữ hàng hóa chịu sự giám sát hải quan), người khai không phải khai báo mã này.
+- Trường hợp địa điểm xuất phát không có mã UN/LOCODE, Người khai nhập mã nước (02 ký tự) + “ZZZ”</item>
+  <item no="42" name="Arrival location of cargo" id="PA_" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Người khai khai báo mã địa điểm đích của hàng hóa vận chuyển. Mã này có độ dài 05 ký tự  không dấu theo UN/LOCODE. Để biết mã của từng địa điểm đích, người khai tra cứu thông tin trên website của cơ quan hải quan.
+- Đối với vận chuyển hàng hóa nhập khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo mã địa điểm đích là mã cảng, mã sân bay, mã cửa khẩu nơi hàng đến tại Việt Nam. Đối với vận chuyển hàng hóa nhập khẩu có loại hình vận chuyển khai báo là KS hoặc PT, người khai có thể khai báo mã này.
+- Đối với vận chuyển hàng hóa xuất khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai phải khai báo mã địa điểm đích là mã cảng, mã sân bay nơi dỡ hàng tại nước ngoài. Đối với vận chuyển hàng hóa xuất khẩu có loại hình vận chuyển khai báo là KS hoặc PT, người khai có thể khai báo mã này.
+- Đối với vận chuyển hàng hóa khác (vận chuyển hàng hóa giữa 2 khu vực lưu giữ hàng hóa chịu sự giám sát hải quan), người khai không phải khai báo mã này.
+- Trường hợp địa điểm xuất phát không có mã UN/LOCODE, Người khai nhập mã nước (02 ký tự) + “ZZZ”</item>
+  <item no="43" name="Type of manifest(cargo)" id="TM_" required="" code="">- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường sông, đường biển có bảng lược khai hàng hóa (sea manifest), người khai điền S để khai báo cho mục này.
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường không có bảng lược khai hàng hóa (air manifest), người khai điền A để khai báo cho mục này.
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường sắt có bảng lược khai hàng hóa (Railway manifest), người khai điền R để khai báo cho mục này.
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường bộ, người khai điền V để khai báo cho mục này.</item>
+  <item no="44" name="Transportation equipment code&#xA;(Vessel call sign, Flight No. etc....)" id="TE_" required="" code="">Là chỉ tiêu khai báo bắt buộc.
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường sông, đường biển, người khai khai báo số hiệu của tàu (tối đa 35 ký tự)
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường không, người khai báo số hiệu của chuyến bay và ngày tháng của chuyến bay theo định dạng như sau: Số hiệu chuyến bay/Ngày tháng. Trong đó:
+ Số hiệu chuyến bay có 02 ký tự đầu là mã của hãng hàng không, các ký tự còn lại là số chuyến bay;
+ Ngày tháng của chuyến bay được nhập theo định dạng DDMM
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường sắt có bảng lược khai hàng hóa (Railway manifest), người khai khai báo số hiệu chuyến tàu (tối đa 10 ký tự).
+- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường bộ, người khai khai báo biển số phương tiện theo định dạng như sau: Mã quốc gia đăng ký phương tiện (2 ký tự) + "-" +Biển số phương tiện (tối đa 35 ký tự)</item>
+  <item no="45" name="Vessel name&#xA;&#xA;" id="SN_" required="" code="">- Trường hợp hàng hóa xuất khẩu, nhập khẩu vận chuyển bằng đường sông, đường biển mà số hiệu của tàu không được đăng ký sẵn trong hệ thống thì người khai phải báo tên của tàu. Tên khai báo tối đa không quá 35 ký tự không dấu.</item>
+  <item no="46" name="Arrival date of cargo / Estimated departure date of cargo&#xA;" id="DD_" required="" code="">Ngoại trừ loại hình vận chuyển khai báo là KS và PT, Người khai phải khai báo ngày dự kiến đến của phương tiện vận chuyển/Ngày dự kiến xuất phát của phương tiện vận chuyển.
+- Trường hợp vận chuyển hàng hóa nhập khẩu, người khai khai báo ngày dự kiến đến của phương tiện vận chuyển.
+- Trường hợp vận chuyển hàng hóa xuất khẩu, người khai khai báo ngày dự kiến xuất phát của phương tiện vận chuyển.
+ Ngày tháng khai báo được nhập theo định dạng DDMMYYYY.</item>
+  <item no="47" name="Importer code&#xA;&#xA;" id="IM_" required="" code="Importer/exporter code">- Trường hợp vận chuyển hàng hóa nhập khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo mã của người nhập khẩu.
+- Đối với các trường hợp khác, người khai có thể khai báo mã của người nhập khẩu.
+- Mã người nhập khẩu khai báo là mã số thuế của người nhập khẩu và có độ dài tối đa 13 ký tự.</item>
+  <item no="48" name="Importer name&#xA;&#xA;" id="IN_" required="" code="">- Trường hợp vận chuyển hàng hóa nhập khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo tên người nhập khẩu.
+- Đối với các trường hợp khác:
++ Trường hợp mã người nhập khẩu đã khai báo được đăng ký trước trên hệ thống thì không phải khai báo mục này;
++ Trường hợp mã người nhập khẩu đã khai báo chưa được đăng ký trước trên hệ thống thì Người khai phải khai báo mục này.
+- Tên người nhập khẩu khai báo có độ dài tối đa 100 ký tự có dấu (tiếng Việt)</item>
+  <item no="49" name="Importer address  " id="IA_" required="" code="">- Trường hợp mã người nhập khẩu đã được đăng ký trước trên hệ thống và địa chỉ của người nhập khẩu được tự động hiển thị không đúng với địa chỉ thực tế phải khai báo thì người khai thực hiện việc khai báo lại địa chỉ chính xác.
+- Trường hợp mã người nhập khẩu chưa được đăng ký trước trên hệ thống thì người khai bắt buộc phải khai báo địa chỉ của người nhập khẩu.
+- Đối với các trường hợp khác (không phải khai báo mã người nhập khẩu), người khai không phải khai báo mục này.
+- Địa chỉ của người nhập khẩu khai báo có độ dài tối đa 100 ký tự có dấu (tiếng Việt)</item>
+  <item no="50" name="Exporter code&#xA;&#xA;" id="EM_" required="" code="Importer/exporter code">- Trường hợp vận chuyển hàng hóa xuất khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo mã của người xuất khẩu.
+- Đối với các trường hợp khác, người khai có thể khai báo mã của người xuất khẩu.
+ Mã người xuất khẩu khai báo có độ dài tối đa 13 ký tự.</item>
+  <item no="51" name="Exporter name&#xA;&#xA;" id="EN_" required="" code="">- Trường hợp vận chuyển hàng hóa xuất khẩu, ngoại trừ loại hình vận chuyển khai báo là KS hoặc PT, người khai bắt buộc phải khai báo tên người xuất khẩu.
+- Đối với các trường hợp khác:
++ Trường hợp mã người xuất khẩu đã khai báo được đăng ký trước trên hệ thống thì không phải khai báo mục này;
++ Trường hợp mã người xuất khẩu đã khai báo chưa được đăng ký trước trên hệ thống thì Người khai phải khai báo mục này.
+- Tên người xuất khẩu khai báo có độ dài tối đa 100 ký tự có dấu (tiếng Việt)</item>
+  <item no="52" name="Exporter address" id="EA_" required="" code="">- Trường hợp mã người xuất khẩu đã được đăng ký trước trên hệ thống và địa chỉ của người xuất khẩu được tự động hiển thị không đúng với địa chỉ thực tế phải khai báo thì người khai thực hiện việc khai báo lại địa chỉ chính xác.
+- Trường hợp mã người xuất khẩu chưa được đăng ký trước trên hệ thống thì người khai bắt buộc phải khai báo địa chỉ của người xuất khẩu.
+- Đối với các trường hợp khác (không phải khai báo mã người xuất khẩu), người khai không phải khai báo mục này.
+- Địa chỉ của người xuất khẩu khai báo có độ dài tối đa 100 ký tự có dấu (tiếng Việt)</item>
+  <item no="53" name="Trustor code" id="KM_" required="" code="Importer/exporter code">- Người khai khai báo mã của người ủy thác xuất khẩu, ủy thác nhập khẩu trong trường hợp vận chuyển hàng hóa xuất khẩu, nhập khẩu ủy thác.
+- Mã người ủy thác khai báo là mã số thuế có độ dài tối đa 13 ký tự</item>
+  <item no="54" name="Trustor name" id="KN_" required="" code="">- Trường hợp phải khai báo mã người ủy thác và mã này đã được đăng ký trước trên hệ thống thì Người khai không phải khai báo mục này.
+- Trường hợp  phải khai báo mã người ủy thác và mã này chưa được đăng ký trước trên hệ thống thì Người khai phải khai báo mục này.
+- Trường hợp không phải khai báo mã người ủy thác thì Người khai không phải khai báo mục này.</item>
+  <item no="55" name="Trustor address" id="KA_" required="" code="">- Trường hợp mã người ủy thác đã được đăng ký trước trên hệ thống và địa chỉ của người ủy thác được tự động hiển thị không đúng với địa chỉ thực tế phải khai báo thì người khai thực hiện việc khai báo lại địa chỉ chính xác.
+- Trường hợp mã người ủy thác chưa được đăng ký trước trên hệ thống thì người khai bắt buộc phải khai báo địa chỉ của người ủy thác.
+- Đối với các trường hợp khác (không phải khai báo mã người ủy thác), người khai không phải khai báo mục này.
+- Địa chỉ của người ủy thác khai báo có độ dài tối đa 100 ký tự có dấu (tiếng Việt)</item>
+  <item no="56" name="Other law code&#xA;" id="OA_" required="" code="Other law code&#xA;">- Người khai khai báo mã của các văn bản pháp luật khác có liên quan đến vận chuyển hàng hóa (nếu có, ngoại trừ Luật Hải quan). Người khai có thể khai báo tối đa 05 mã văn bản pháp luật khác.
+- Mã văn bản pháp luật khác có độ dài 02 ký tự. Để biết mã của các loại văn bản, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="57" name="Other law code&#xA;" id="OB_" required="" code="Other law code&#xA;">- Người khai khai báo mã của các văn bản pháp luật khác có liên quan đến vận chuyển hàng hóa (nếu có, ngoại trừ Luật Hải quan). Người khai có thể khai báo tối đa 05 mã văn bản pháp luật khác.
+- Mã văn bản pháp luật khác có độ dài 02 ký tự. Để biết mã của các loại văn bản, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="58" name="Other law code&#xA;" id="OC_" required="" code="Other law code&#xA;">- Người khai khai báo mã của các văn bản pháp luật khác có liên quan đến vận chuyển hàng hóa (nếu có, ngoại trừ Luật Hải quan). Người khai có thể khai báo tối đa 05 mã văn bản pháp luật khác.
+- Mã văn bản pháp luật khác có độ dài 02 ký tự. Để biết mã của các loại văn bản, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="59" name="Other law code&#xA;" id="OD_" required="" code="Other law code&#xA;">- Người khai khai báo mã của các văn bản pháp luật khác có liên quan đến vận chuyển hàng hóa (nếu có, ngoại trừ Luật Hải quan). Người khai có thể khai báo tối đa 05 mã văn bản pháp luật khác.
+- Mã văn bản pháp luật khác có độ dài 02 ký tự. Để biết mã của các loại văn bản, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="60" name="Other law code&#xA;" id="OE_" required="" code="Other law code&#xA;">- Người khai khai báo mã của các văn bản pháp luật khác có liên quan đến vận chuyển hàng hóa (nếu có, ngoại trừ Luật Hải quan). Người khai có thể khai báo tối đa 05 mã văn bản pháp luật khác.
+- Mã văn bản pháp luật khác có độ dài 02 ký tự. Để biết mã của các loại văn bản, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="61" name="Quantity" id="PC_" required="" code="">- Ngoại trừ loại hình vận chuyển khai báo là PT, Người khai bắt buộc phải khai báo số lượng của hàng hóa vận chuyển tại mục này. Số lượng khai báo là số nguyên.
+- Trường hợp hàng hóa không có số lượng cụ thể, người khai nhập số “1” vào mục này.</item>
+  <item no="62" name="Code for units of measure" id="PU_" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;">- Người khai phải khai báo mã đơn vị tính (mã loại đóng gói) tương ứng với phần số lượng đã khai báo tại chỉ tiêu số 57 nêu trên.
+- Mã đơn vị tính có độ dài 03 ký tự. Để biết mã của các loại đơn vị tính, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="63" name="Gross weight" id="GW_" required="" code="">- Người khai phải khai báo tổng trọng lượng của hàng hóa vận chuyển tại mục này tương ứng với số lượng và đơn vị tính đã khai báo tại chỉ tiêu số 57 và 58 nêu trên. 
+- Tổng trọng lượng khai báo tối đa có 6 chữ số nguyên và 3 chữ số thập phân.</item>
+  <item no="64" name="Weight unit code" id="WU_" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">- Người khai phải khai báo mã đơn vị trọng lượng tại mục này tương ứng với tổng trọng lượng đã khai báo tại chỉ tiêu số 59 nêu trên (ví dụ:  KGM cho kilogram, TNE cho tấn,  LBR cho pao…)
+- Mã đơn vị trọng lượng có độ dài 03 ký tự. Để biết mã của các loại đơn vị tính, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="65" name="Capacity" id="VO_" required="" code="">Người khai phải khai báo thể tích của hàng hóa vận chuyển tại mục này tương ứng với số lượng đã khai báo tại chỉ tiêu số 57 nêu trên. Thể tích khai báo tối đa có 6 chữ số nguyên và 3 chữ số thập phân.</item>
+  <item no="66" name="Capacity unit code" id="VU_" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">- Người khai phải khai báo mã đơn vị thể tích tại mục này tương ứng với thể tích đã khai báo tại chỉ tiêu số 61 nêu trên (ví dụ:  MTQ cho mét khối, FTQ cho phút khối…)
+- Mã đơn vị thể tích có độ dài 03 ký tự. Để biết mã của các loại đơn vị thể tích, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="67" name="Price" id="PR_" required="" code="">- Người khai phải khai báo trị giá của hàng hóa vận chuyển tại mục này, ngoại trừ hàng hóa vận chuyển có loại hình khai báo là  "KS".
+- Trường hợp đơn vị tiền tệ khai báo là “VND”, người khai chỉ có thể khai báo được trị giá theo số nguyên. Đối với các đơn vị tiền tệ khai báo khác, người khai có thể khai báo trị giá tối đa đến 4 chữ số thập phân.</item>
+  <item no="68" name="Currency type code" id="RT_" required="" code="Currency code (ISO4217/alphabet)">- Người khai phải khai báo mã loại tiền tệ của trị giá hàng hóa đã khai báo tại chỉ tiêu số 63 nêu trên tại mục này. 
+- Mã loại tiền tệ có độ dài 03 ký tự. Để biết mã của các loại tiền tệ, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="69" name="Remarks code for damaged cargo at departure place" id="RA_" required="" code="Remarks code for damaged cargo">- Trường hợp hàng hóa vận chuyển cần có lưu ý riêng, ví dụ như hàng dễ vỡ, hàng chất lỏng… thì người khai khai báo vào mục này. Người khai có thể khai báo tối đa 05 mã đánh dấu hàng hóa cho mỗi mặt hàng khai báo.
+- Mã dánh dấu hàng hóa có độ dài 05 ký tự. Để biết mã của các loại đánh dấu, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="70" name="Remarks code for damaged cargo at departure place" id="RB_" required="" code="Remarks code for damaged cargo">- Trường hợp hàng hóa vận chuyển cần có lưu ý riêng, ví dụ như hàng dễ vỡ, hàng chất lỏng… thì người khai khai báo vào mục này. Người khai có thể khai báo tối đa 05 mã đánh dấu hàng hóa cho mỗi mặt hàng khai báo.
+- Mã dánh dấu hàng hóa có độ dài 05 ký tự. Để biết mã của các loại đánh dấu, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="71" name="Remarks code for damaged cargo at departure place" id="RC_" required="" code="Remarks code for damaged cargo">- Trường hợp hàng hóa vận chuyển cần có lưu ý riêng, ví dụ như hàng dễ vỡ, hàng chất lỏng… thì người khai khai báo vào mục này. Người khai có thể khai báo tối đa 05 mã đánh dấu hàng hóa cho mỗi mặt hàng khai báo.
+- Mã dánh dấu hàng hóa có độ dài 05 ký tự. Để biết mã của các loại đánh dấu, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="72" name="Remarks code for damaged cargo at departure place" id="RD_" required="" code="Remarks code for damaged cargo">- Trường hợp hàng hóa vận chuyển cần có lưu ý riêng, ví dụ như hàng dễ vỡ, hàng chất lỏng… thì người khai khai báo vào mục này. Người khai có thể khai báo tối đa 05 mã đánh dấu hàng hóa cho mỗi mặt hàng khai báo.
+- Mã dánh dấu hàng hóa có độ dài 05 ký tự. Để biết mã của các loại đánh dấu, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="73" name="Remarks code for damaged cargo at departure place" id="RE_" required="" code="Remarks code for damaged cargo">- Trường hợp hàng hóa vận chuyển cần có lưu ý riêng, ví dụ như hàng dễ vỡ, hàng chất lỏng… thì người khai khai báo vào mục này. Người khai có thể khai báo tối đa 05 mã đánh dấu hàng hóa cho mỗi mặt hàng khai báo.
+- Mã dánh dấu hàng hóa có độ dài 05 ký tự. Để biết mã của các loại đánh dấu, người khai tra cứu thông tin trên website của cơ quan hải quan.</item>
+  <item no="74" name="Permit No." id="PM_" required="" code="">- Trường hợp vận chuyển hàng hóa quá cảnh (loại hình vận chuyển KR), Người khai phải khai báo số của giấy phép vận chuyển hàng hóa quá cảnh tại mục này.
+- Trường hợp vận chuyển khác phải có giấy phép theo quy định của pháp luật thì Người khai khai báo số của giấy phép tại mục này.</item>
+  <item no="75" name="Permit date" id="PD_" required="" code="">Người khai phải khai báo ngày bắt đầu có hiệu lực của giấy phép đã khai báo tại chỉ tiêu số 66 nêu trên tại mục này. Ngày khai báo có định dạng DDMMYYYY.</item>
+  <item no="76" name="Expiry date of permit" id="EP_" required="" code="">Người khai phải khai báo ngày hết hạn (ngày hết hiệu lực) của giấy phép đã khai báo tại chỉ tiêu số 66 nêu trên tại mục này. Ngày khai báo có định dạng DDMMYYYY.</item>
+  <item no="77" name="Remarks 2" id="NT_" required="" code="">Người khai khai báo các nội dung khác cần lưu ý đối với từng loại hàng hóa vận chuyển tại mục này. Nội dung khai báo tối đa 255 ký tự có dấu (tiếng Việt)
+Thông tin khai báo chi tiết:</item>
+  <item no="78" name="Export declaration No." id="E__" required="" code="">Người khai khai báo số hiệu tờ khai xuất khẩu hoặc nhập khẩu (nếu có) của hàng hóa vận chuyển tại mục này. Số lượng tờ khai xuất khẩu hoặc nhập khẩu tối đa có thể khai báo là 50 tờ khai.
+Đối với các mục khai báo từ 71 đến 73 dưới đây, người khai có thể khai báo 100 lần cho mỗi mục.</item>
+  <item no="79" name="Container/Freight Car/Package No." id="CNO" required="" code="">Ngoại trừ hàng hóa là hàng rời, hàng lẻ vận chuyển bằng ô tô, người khai khai báo mục này như sau:
+- Trường hợp vận chuyển hàng hóa bằng đường biển, khai báo số hiệu container.
+- Trường hợp vận chuyển hàng hóa bằng đường hàng không, khai báo số hiệu kiện hàng, ví dụ số pa-lét, ULD, thùng…
+- Trường hợp vận chuyển hàng hóa bằng đường sắt, khai báo số hiệu toa tàu.</item>
+  <item no="80" name="Line No. on declaration" id="RNO" required="" code="">- Người khai phải khai báo số cột của vận đơn (B/L) tương ứng với số hiệu container/số hiệu toa/số hiệu kiện đã khai báo nêu trên tại mục này.
+- Trường hợp có nhiều vận đơn tương ứng với số hiệu container/số hiệu toa/số hiệu kiện đã khai báo, người khai khai báo số của các cột của vận đơn theo thứ tự tăng dần, ví dụ "1      ", "12      ", "123    " trong đó "_" là khoảng trống.
+- Số dòng hàng khai báo tối đa có 5 ký tự không dấu.</item>
+  <item no="81" name="Seal No." id="SE_" required="" code="">- Người khai khai báo số niêm phong, kẹp chì (nếu có) của hàng hóa vận chuyển tại mục này. Số niêm phong, kẹp chì có thể khai báo tối đa cho mỗi dòng hàng là 06.
+- Số niêm phong, kẹp chì khai báo có tối đa 15 ký tự không dấu.</item>
+</guide>

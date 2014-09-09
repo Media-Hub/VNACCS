@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="COT11" name="Correction of declared information on transportation (Call up)">
+  <item no="1" name="Bonded transportation declaration No.&#xA;" id="OLT" required="" code="">
+  </item>
+</guide>

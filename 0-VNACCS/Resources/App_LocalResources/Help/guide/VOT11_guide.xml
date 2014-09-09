@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="VOT11" name="Correction of departure notification A (Call up)">
+  <item no="1" name="Departure notification No.&#xA;&#xA;" id="ONN" required="" code="">
+  </item>
+  <item no="2" name="Arrival notification No." id="INN" required="" code="">Trường hợp cần sử dụng thông tin Thông báo tàu đến để khai báo Thông báo tàu đi thì nhập Số thông báo tàu đến vào mục này. Nếu chỉ tiêu số 4 (Hô hiệu tàu) đã được nhập thì không nhập được dữ liệu vào mục này.</item>
+  <item no="3" name="Vessel call sign" id="VEC" required="" code="">Trường hợp cần gọi Thông tin chung của con tàu (đã đăng ký ở nghiệp vụ VBX) để đăng ký thông báo tàu đi thì nhập Hô hiệu của tàu vào mục này. Nếu chỉ tiêu số 3 (Số của Thông báo tàu đến) đã được nhập thì không nhập được dữ liệu vào mục này.</item>
+</guide>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ISA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="OGA Application No./Permit/license No." id="APN">
+    <description>Thông tin này đã được người sử dụng khác đăng ký.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="U0003" name="OGA Application No./Permit/license No." id="APN">
+    <description>Người sử dụng không phải là người phụ trách.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="U0004" name="Office of application code" id="APP">
+    <description>Không cho phép tìm kiếm danh sách.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0101" name="Office of application code&#xA;Status information on examination/inspection&#xA;Reference type&#xA;OGA Application No./Permit/license No." id="APP&#xA;STS&#xA;KBN&#xA;APN">
+    <description>1. Định dạng đã nhập không hợp lệ.
+2. Giá trị đã nhập không tồn tại trong hệ thống.
+</description>
+    <disposition>1. Nhập giá trị với định dạng hợp lệ.
+2. Kiểm tra việc nhập thông tin.</disposition>
+  </response>
+  <response code="S0900" name="Office of application code&#xA;Status information on examination/inspection&#xA;Reference type&#xA;OGA Application No./Permit/license No." id="APP&#xA;STS&#xA;KBN&#xA;APN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0200" name="Office of application code&#xA;OGA Application No./Permit/license No." id="APP&#xA;APN">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="R0201" name="Office of application code&#xA;OGA Application No./Permit/license No.&#xA;Status information on examination/inspection" id="APP&#xA;APN&#xA;STS">
+    <description>Không thể nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="OGA Application No./Permit/license No." id="APN">
+    <description>Số đơn xin cấp phép không tồn tại trong cơ sở dữ liệu đơn xin cấp phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0003" name="OGA Application No./Permit/license No." id="APN">
+    <description>Số của giấy phép không tồn tại trong cơ sở dữ liệu giấy phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.</description>
+    <disposition>Ấn nút "Send" để có được thêm thông tin.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Không tìm thấy mục.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+</help>

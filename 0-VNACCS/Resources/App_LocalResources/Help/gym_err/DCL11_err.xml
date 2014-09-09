@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="DCL11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần.
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Submission No." id="DNO">
+    <description>Danh sách container dỡ hàng đã được gửi bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="S0001" name="Submission No." id="DNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số kê khai với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0002" name="Manifest type" id="TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập loại Manifest với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Reference No." id="REF">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số tham chiếu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0004" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Port of discharge suffix" id="EDA">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số nhánh của cảng dỡ hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Voyage No." id="VOY">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số chuyến đi biển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Date of arrival" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập ngày đến với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="Submission No.&#xA;Manifest type" id="DNO&#xA;TOM">
+    <description>Yêu cầu nhập Số kê khai trong trường hợp hủy.
+</description>
+    <disposition>Nhập Số kê khai.
+</disposition>
+  </response>
+  <response code="R0002" name="Submission No.&#xA;Manifest type" id="DNO&#xA;TOM">
+    <description>Số kê khai nên để trống trong trường hợp đăng ký.
+</description>
+    <disposition>Hủy nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="R0003" name="Transportation equipment code" id="EQP">
+    <description>Phương tiện vận chuyển nên để trống trong trường hợp Số tham chiếu được nhập.
+</description>
+    <disposition>Kiểm tra mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0004" name="Transportation equipment code" id="EQP">
+    <description>Yêu cầu nhập mã phương tiện vận chuyển trong trường hợp Số tham chiếu chưa được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0005" name="Transportation equipment code&#xA;Arrival place code" id="EQP&#xA;DPR">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0006" name="Transportation equipment code" id="EQP">
+    <description>Trường hợp Loại Manifest là "S", nhập Hô hiệu của tầu trong vòng 9 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0007" name="Arrival place code" id="DPR">
+    <description>Trường hợp Loại Manifest là "S", nhập Mã địa điểm đến trong vòng 5 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0008" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0009" name="Port of discharge suffix" id="EDA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Hãy nhập số nhánh của cảng dỡ hàng.
+</disposition>
+  </response>
+  <response code="R0010" name="Voyage No." id="VOY">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số chuyến đi biển.
+</disposition>
+  </response>
+  <response code="R0011" name="Carrier code" id="SCA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0012" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0013" name="Transportation equipment code" id="EQP">
+    <description>Trường hợp Loại Manifest là "R", nhập Số hiệu đoàn tàu trong vòng 10 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0014" name="Arrival place code" id="DPR">
+    <description>Trường hợp Loại Manifest là "R", nhập Mã địa điểm đến trong vòng 6 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0015" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0016" name="Date of arrival" id="IDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập ngày đến.
+</disposition>
+  </response>
+  <response code="R0017" name="Carrier code" id="SCA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0018" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0019" name="Transportation equipment code" id="EQP">
+    <description>Trường hợp Loại Manifest là "V", nhập biển số xe trên 3 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0020" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0021" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0022" name="Arrival place code" id="DPR">
+    <description>Trường hợp Loại Manifest là "V", nhập Mã địa điểm đến trong vòng 6 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại Manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0023" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0024" name="Date of arrival" id="IDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập ngày đến.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Submission No." id="DNO">
+    <description>Số kê khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="E0003" name="Submission No." id="DNO">
+    <description>Số kê khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0006" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0007" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập được đăng ký như là Manifest xuất khẩu.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0008" name="None" id="0000">
+    <description>Không có thông tin container nào đăng ký vào thông tin Manifest đã nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0009" name="None" id="0000">
+    <description>Không có thông tin container nào đăng ký vào thông tin Manifest đã nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0010" name="Manifest type" id="TOM">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0011" name="Manifest type" id="TOM">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0012" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0013" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập được đăng ký như là Manifest xuất khẩu.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0014" name="None" id="0000">
+    <description>Không có thông tin container nào đăng ký vào thông tin Manifest đã nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0015" name="None" id="0000">
+    <description>Không có thông tin container nào đăng ký vào thông tin Manifest đã nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0016" name="None" id="0000">
+    <description>Thông tin tờ khai đến đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Thông tin tờ khai đến.
+</disposition>
+  </response>
+  <response code="E0017" name="None" id="0000">
+    <description>Thông tin tờ khai đến đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Thông tin tờ khai đến.
+</disposition>
+  </response>
+  <response code="E0018" name="None" id="0000">
+    <description>Thông tin tờ khai đến đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Thông tin tờ khai đến.
+</disposition>
+  </response>
+  <response code="E0019" name="None" id="0000">
+    <description>Không có thông tin container nào đăng ký vào thông tin Manifest đã nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+</help>

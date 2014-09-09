@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_OLC" jobname="保税運送申告" display-name="Copy of declaration on transportation information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5010_3.xml" item_attr_edit="False" />
+  <friday href="VAS5010_3.xml" revision="0000" />
+  <iteminfo>
+    <fixedContainer repetition_max="5" expand="0" repetition_id="C00">
+      <item id="TK_" name="訂正区分コード" input_output="-" required="C" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CG_" name="貨物番号（Ｂ／Ｌ番号、ＡＷＢ番号等）" input_output="-" required="C" attribute="A" figure="35" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DB_" name="Ｂ／Ｌ発行年月日" input_output="-" required="C" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CM_" name="品名" input_output="-" required="C" attribute="W" figure="210" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="HS_" name="代表品目番号" input_output="-" required="C" attribute="A" figure="4" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="MR_" name="記号番号" input_output="-" required="C" attribute="A" figure="140" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="IS_" name="最初蔵入年月日" input_output="-" required="C" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RM_" name="保税工場製品識別" input_output="-" required="C" attribute="A" figure="1" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OR_" name="原産地又は製造地コード" input_output="-" required="C" attribute="A" figure="2" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="BX_" name="原産地又は製造地名" input_output="-" required="C" attribute="A" figure="7" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="LP_" name="出発地コード" input_output="-" required="C" attribute="A" figure="6" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="BZ_" name="出発地名" input_output="-" required="C" attribute="A" figure="35" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PA_" name="到着地コード" input_output="-" required="C" attribute="A" figure="6" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CB_" name="到着地名" input_output="-" required="C" attribute="A" figure="35" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TM_" name="マニフェスト（貨物）の種類" input_output="-" required="C" attribute="A" figure="1" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TE_" name="輸出入運送機材コード&#xD;&#xA;（船舶コード、便名等）" input_output="-" required="C" attribute="A" figure="38" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SN_" name="積載船名" input_output="-" required="C" attribute="A" figure="35" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD_" name="到着年月日／出発予定年月日" input_output="-" required="C" attribute="A" figure="8" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="IM_" name="輸入者コード" input_output="-" required="C" attribute="A" figure="13" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="IN_" name="輸入者名" input_output="-" required="C" attribute="W" figure="300" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="IA_" name="輸入者住所" input_output="-" required="C" attribute="W" figure="300" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="EM_" name="輸出者コード" input_output="-" required="C" attribute="A" figure="13" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="EN_" name="輸出者名" input_output="-" required="C" attribute="W" figure="300" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="EA_" name="輸出者住所" input_output="-" required="C" attribute="W" figure="300" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KM_" name="信託する人のコード" input_output="-" required="C" attribute="A" figure="13" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KN_" name="信託する人の名" input_output="-" required="C" attribute="W" figure="300" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KA_" name="信託する人の住所" input_output="-" required="C" attribute="W" figure="300" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OA_" name="Other law code 1(他法令コード)" input_output="-" required="C" attribute="A" figure="2" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OB_" name="Other law code 2(他法令コード)" input_output="-" required="C" attribute="A" figure="2" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OC_" name="Other law code 3(他法令コード)" input_output="-" required="C" attribute="A" figure="2" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OD_" name="Other law code 4(他法令コード)" input_output="-" required="C" attribute="A" figure="2" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OE_" name="Other law code 5(他法令コード)" input_output="-" required="C" attribute="A" figure="2" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RT_" name="通貨種別コード" input_output="-" required="C" attribute="A" figure="3" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PR_" name="価格" input_output="-" required="C" attribute="F" figure="20" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PC_" name="個数" input_output="-" required="C" attribute="I" figure="8" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PU_" name="個数単位コード" input_output="-" required="C" attribute="A" figure="3" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="GW_" name="総重量" input_output="-" required="C" attribute="F" figure="10" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="WU_" name="重量単位コード" input_output="-" required="C" attribute="A" figure="3" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VO_" name="容積" input_output="-" required="C" attribute="F" figure="10" form="" order="39" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VU_" name="容積単位コード" input_output="-" required="C" attribute="A" figure="3" form="" order="40" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RA_" name="Remarks code for damaged cargo at departure place 1 (発送地リマークコード)" input_output="-" required="C" attribute="A" figure="5" form="" order="41" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RB_" name="Remarks code for damaged cargo at departure place 2(発送地リマークコード)" input_output="-" required="C" attribute="A" figure="5" form="" order="42" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RC_" name="Remarks code for damaged cargo at departure place 3(発送地リマークコード)" input_output="-" required="C" attribute="A" figure="5" form="" order="43" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RD_" name="Remarks code for damaged cargo at departure place 4(発送地リマークコード)" input_output="-" required="C" attribute="A" figure="5" form="" order="44" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RE_" name="Remarks code for damaged cargo at departure place 5(発送地リマークコード)" input_output="-" required="C" attribute="A" figure="5" form="" order="45" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PM_" name="許可書番号" input_output="-" required="C" attribute="A" figure="11" form="" order="46" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PD_" name="許可年月日" input_output="-" required="C" attribute="A" figure="8" form="" order="47" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="EP_" name="許可有効満了年月日" input_output="-" required="C" attribute="A" figure="8" form="" order="48" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="NJ_" name="記事２" input_output="-" required="C" attribute="W" figure="765" form="" order="49" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </fixedContainer>
+  </iteminfo>
+  <layout>
+    <navigator TabIndex="0" Location="3, 3" repetition_id="C00" repetition_max="1" />
+    <container type="GroupBox" TabIndex="1" Size="712, 820" Location="3, 29" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="C00" repetition_max="5">
+      <ranlabel Size="21, 14" Location="6, 13" Value="0" figure="2" repetition_id="C00" PadLeft="True" />
+      <textbox CharacterCasing="Upper" Visible="False" TabIndex="1" Size="20, 21" Location="661, 21" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="訂正区分コード" check_attribute="*" attribute="A" id="TK_" figure="1" required="C" />
+      <label Size="160, 19" Location="6, 31" Text="Số hàng hóa (Số B/L / AWB)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="3" Size="260, 21" Location="185, 29" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="貨物番号（Ｂ／Ｌ番号、ＡＷＢ番号等）" check_attribute="*" attribute="A" id="CG_" figure="35" required="C" />
+      <label Size="140, 19" Location="6, 54" Text="Ngày phát hành vận đơn" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="5" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="80, 21" Location="185, 53" BackColor="Control" Font="Courier New, 9pt" form="" order="3" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Ｂ／Ｌ発行年月日" check_attribute="*" attribute="A" id="DB_" figure="8" AutoComplete="False" required="C" />
+      <label Size="56, 19" Location="6, 77" Text="Tên hàng" Font="Tahoma, 9pt" />
+      <textbox TabIndex="7" Size="520, 21" Location="100, 76" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="品名" check_attribute="*" attribute="W" id="CM_" figure="210" required="C" />
+      <label Size="76, 19" Location="6, 101" Text="Mã HS (4 số)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="9" Size="41, 21" Location="100, 100" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="代表品目番号" check_attribute="*" attribute="A" id="HS_" figure="4" required="C" />
+      <label Size="88, 19" Location="6, 125" Text="Ký hiệu số hiệu" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Multiline="True" Size="520, 38" Location="100, 125" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="記号番号" check_attribute="*" attribute="A" id="MR_" figure="140" required="C" />
+      <label Size="196, 19" Location="7, 167" Text="Ngày nhập ngoại quan kho lần đầu" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="13" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="80, 21" Location="216, 166" BackColor="Control" Font="Courier New, 9pt" form="" order="7" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="最初蔵入年月日" check_attribute="*" attribute="A" id="IS_" figure="8" AutoComplete="False" required="C" />
+      <label Size="293, 19" Location="343, 167" Text="Phân loại sản phẩm sản xuất từ hàng hóa nhập khẩu" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="15" Size="20, 21" Location="642, 166" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="保税工場製品識別" check_attribute="*" attribute="A" id="RM_" figure="1" required="C" />
+      <label Size="184, 19" Location="7, 193" Text="Nước sản xuất hoặc nơi sản xuất" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="17" Size="27, 21" Location="216, 190" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="原産地又は製造地コード" check_attribute="*" attribute="A" id="OR_" figure="2" required="C" />
+      <label Size="9, 19" Location="246, 193" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="19" Size="62, 21" Location="261, 190" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="原産地又は製造地名" check_attribute="*" attribute="A" id="BX_" figure="7" required="C" />
+      <label Size="109, 19" Location="7, 214" Text="Địa điểm xuất phát" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="21" Size="55, 21" Location="149, 215" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="出発地コード" check_attribute="*" attribute="A" id="LP_" figure="6" required="C" />
+      <label Size="9, 19" Location="206, 214" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="23" Size="258, 21" Location="216, 215" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="出発地名" check_attribute="*" attribute="A" id="BZ_" figure="35" required="C" />
+      <label Size="79, 19" Location="7, 241" Text="Địa điểm đích" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="25" Size="55, 21" Location="149, 240" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="到着地コード" check_attribute="*" attribute="A" id="PA_" figure="6" required="C" />
+      <label Size="9, 19" Location="206, 238" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="27" Size="258, 21" Location="216, 240" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="到着地名" check_attribute="*" attribute="A" id="CB_" figure="35" required="C" />
+      <label Size="142, 19" Location="494, 241" Text="Loại manifest (hàng hóa)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="29" Size="20, 21" Location="642, 240" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="マニフェスト（貨物）の種類" check_attribute="*" attribute="A" id="TM_" figure="1" required="C" />
+      <label Size="137, 19" Location="7, 266" Text="Phương tiện vận chuyển" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="31" Size="279, 21" Location="149, 265" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="輸出入運送機材コード&#xD;&#xA;（船舶コード、便名等）" check_attribute="*" attribute="A" id="TE_" figure="38" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="33" Size="258, 21" Location="443, 265" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="積載船名" check_attribute="*" attribute="A" id="SN_" figure="35" required="C" />
+      <label Size="123, 19" Location="7, 289" Text="Ngày dự kiến đến / đi" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="35" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="80, 21" Location="149, 289" BackColor="Control" Font="Courier New, 9pt" form="" order="18" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="到着年月日／出発予定年月日" check_attribute="*" attribute="A" id="DD_" figure="8" AutoComplete="False" required="C" />
+      <label Size="98, 19" Location="7, 309" Text="Người nhập khẩu" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="37" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="104, 21" Location="25, 331" BackColor="Control" Font="Courier New, 9pt" form="" order="19" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="輸入者コード" check_attribute="*" attribute="A" id="IM_" figure="13" AutoComplete="False" required="C" />
+      <textbox TabIndex="39" Multiline="True" Size="520, 38" Location="149, 331" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="20" input_output="-" check_full="" check_time="" check_date="" name="輸入者名" check_attribute="*" attribute="W" id="IN_" figure="300" required="C" />
+      <label Size="9, 19" Location="132, 331" Text="-" Font="Tahoma, 9pt" />
+      <textbox TabIndex="41" Multiline="True" Size="520, 38" Location="149, 373" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="-" check_full="" check_time="" check_date="" name="輸入者住所" check_attribute="*" attribute="W" id="IA_" figure="300" required="C" />
+      <label Size="95, 19" Location="7, 408" Text="Người xuất khẩu" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="43" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="104, 21" Location="25, 430" BackColor="Control" Font="Courier New, 9pt" form="" order="22" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="輸出者コード" check_attribute="*" attribute="A" id="EM_" figure="13" AutoComplete="False" required="C" />
+      <label Size="9, 19" Location="431, 266" Text="-" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="132, 430" Text="-" Font="Tahoma, 9pt" />
+      <textbox TabIndex="45" Multiline="True" Size="520, 38" Location="149, 430" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="-" check_full="" check_time="" check_date="" name="輸出者名" check_attribute="*" attribute="W" id="EN_" figure="300" required="C" />
+      <textbox TabIndex="47" Multiline="True" Size="520, 38" Location="149, 472" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="-" check_full="" check_time="" check_date="" name="輸出者住所" check_attribute="*" attribute="W" id="EA_" figure="300" required="C" />
+      <label Size="134, 19" Location="7, 512" Text="Người ủy thác (Trustor)" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="49" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="104, 21" Location="25, 534" BackColor="Control" Font="Courier New, 9pt" form="" order="25" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="信託する人のコード" check_attribute="*" attribute="A" id="KM_" figure="13" AutoComplete="False" required="C" />
+      <label Size="9, 19" Location="134, 534" Text="-" Font="Tahoma, 9pt" />
+      <textbox TabIndex="51" Multiline="True" Size="520, 38" Location="149, 534" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="26" input_output="-" check_full="" check_time="" check_date="" name="信託する人の名" check_attribute="*" attribute="W" id="KN_" figure="300" required="C" />
+      <label Size="42, 19" Location="87, 373" Text="Địa chỉ" Font="Tahoma, 9pt" />
+      <label Size="42, 19" Location="87, 471" Text="Địa chỉ" Font="Tahoma, 9pt" />
+      <label Size="42, 19" Location="87, 576" Text="Địa chỉ" Font="Tahoma, 9pt" />
+      <textbox TabIndex="53" Multiline="True" Size="520, 38" Location="149, 576" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="27" input_output="-" check_full="" check_time="" check_date="" name="信託する人の住所" check_attribute="*" attribute="W" id="KA_" figure="300" required="C" />
+      <label Size="72, 19" Location="7, 621" Text="Luật khác  1" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="55" Size="27, 21" Location="84, 620" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="28" input_output="-" check_full="" check_time="" check_date="" name="Other law code 1(他法令コード)" check_attribute="*" attribute="A" id="OA_" figure="2" required="C" />
+      <label Size="11, 19" Location="120, 621" Text="2" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="57" Size="27, 21" Location="135, 620" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="29" input_output="-" check_full="" check_time="" check_date="" name="Other law code 2(他法令コード)" check_attribute="*" attribute="A" id="OB_" figure="2" required="C" />
+      <label Size="11, 19" Location="169, 621" Text="3" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="59" Size="27, 21" Location="186, 620" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="30" input_output="-" check_full="" check_time="" check_date="" name="Other law code 3(他法令コード)" check_attribute="*" attribute="A" id="OC_" figure="2" required="C" />
+      <label Size="11, 19" Location="220, 621" Text="4" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="61" Size="27, 21" Location="237, 620" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="31" input_output="-" check_full="" check_time="" check_date="" name="Other law code 4(他法令コード)" check_attribute="*" attribute="A" id="OD_" figure="2" required="C" />
+      <label Size="11, 19" Location="271, 621" Text="5" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="63" Size="27, 21" Location="288, 620" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="32" input_output="-" check_full="" check_time="" check_date="" name="Other law code 5(他法令コード)" check_attribute="*" attribute="A" id="OE_" figure="2" required="C" />
+      <label Size="9, 19" Location="224, 646" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="65" Size="34, 21" Location="235, 645" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="33" input_output="-" check_full="" check_time="" check_date="" name="通貨種別コード" check_attribute="*" attribute="A" id="RT_" figure="3" required="C" />
+      <label Size="46, 19" Location="6, 646" Text="Giá tiền" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="67" Size="153, 21" Location="68, 645" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="34" input_output="-" check_full="" check_time="" check_date="" name="価格" check_attribute="*" attribute="F" id="PR_" figure="20" required="C" />
+      <label Size="53, 19" Location="6, 671" Text="Số lượng" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="69" Size="69, 21" Location="68, 670" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="35" input_output="-" check_full="" check_time="" check_date="" name="個数" check_attribute="*" attribute="I" id="PC_" figure="8" required="C" />
+      <label Size="9, 19" Location="141, 671" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="71" Size="34, 21" Location="153, 670" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="36" input_output="-" check_full="" check_time="" check_date="" name="個数単位コード" check_attribute="*" attribute="A" id="PU_" figure="3" required="C" />
+      <label Size="100, 19" Location="190, 671" Text="Tổng trọng lượng" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="73" Size="83, 21" Location="296, 670" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="37" input_output="-" check_full="" check_time="" check_date="" name="総重量" check_attribute="*" attribute="F" id="GW_" figure="10" required="C" />
+      <label Size="9, 19" Location="383, 671" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="75" Size="34, 21" Location="394, 670" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="38" input_output="-" check_full="" check_time="" check_date="" name="重量単位コード" check_attribute="*" attribute="A" id="WU_" figure="3" required="C" />
+      <label Size="49, 19" Location="442, 671" Text="Thể tích" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="77" Size="83, 21" Location="497, 670" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="39" input_output="-" check_full="" check_time="" check_date="" name="容積" check_attribute="*" attribute="F" id="VO_" figure="10" required="C" />
+      <label Size="9, 19" Location="582, 671" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="79" Size="34, 21" Location="593, 670" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="40" input_output="-" check_full="" check_time="" check_date="" name="容積単位コード" check_attribute="*" attribute="A" id="VU_" figure="3" required="C" />
+      <label Size="184, 19" Location="6, 695" Text="Mã đánh dấu địa điểm khởi hành" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="81" Size="48, 21" Location="213, 694" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="41" input_output="-" check_full="" check_time="" check_date="" name="Remarks code for damaged cargo at departure place 1 (発送地リマークコード)" check_attribute="*" attribute="A" id="RA_" figure="5" required="C" />
+      <label Size="11, 19" Location="196, 695" Text="1" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="267, 695" Text="2" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="83" Size="48, 21" Location="284, 694" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="42" input_output="-" check_full="" check_time="" check_date="" name="Remarks code for damaged cargo at departure place 2(発送地リマークコード)" check_attribute="*" attribute="A" id="RB_" figure="5" required="C" />
+      <label Size="11, 19" Location="338, 695" Text="3" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="85" Size="48, 21" Location="355, 694" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="43" input_output="-" check_full="" check_time="" check_date="" name="Remarks code for damaged cargo at departure place 3(発送地リマークコード)" check_attribute="*" attribute="A" id="RC_" figure="5" required="C" />
+      <label Size="11, 19" Location="409, 695" Text="4" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="87" Size="48, 21" Location="426, 694" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="44" input_output="-" check_full="" check_time="" check_date="" name="Remarks code for damaged cargo at departure place 4(発送地リマークコード)" check_attribute="*" attribute="A" id="RD_" figure="5" required="C" />
+      <label Size="11, 19" Location="480, 695" Text="5" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="89" Size="48, 21" Location="497, 694" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="45" input_output="-" check_full="" check_time="" check_date="" name="Remarks code for damaged cargo at departure place 5(発送地リマークコード)" check_attribute="*" attribute="A" id="RE_" figure="5" required="C" />
+      <label Size="86, 19" Location="192, 718" Text="Ngày cấp phép" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="91" Size="90, 21" Location="88, 717" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="46" input_output="-" check_full="" check_time="" check_date="" name="許可書番号" check_attribute="*" attribute="A" id="PM_" figure="11" required="C" />
+      <label Size="75, 19" Location="7, 718" Text="Số giấy phép" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="93" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="80, 21" Location="283, 717" BackColor="Control" Font="Courier New, 9pt" form="" order="47" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="許可年月日" check_attribute="*" attribute="A" id="PD_" figure="8" AutoComplete="False" required="C" />
+      <label Size="78, 19" Location="377, 718" Text="Ngày hết hạn" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="95" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="80, 21" Location="465, 717" BackColor="Control" Font="Courier New, 9pt" form="" order="48" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="許可有効満了年月日" check_attribute="*" attribute="A" id="EP_" figure="8" AutoComplete="False" required="C" />
+      <label Size="56, 19" Location="7, 740" Text="Ghi chú 2" Font="Tahoma, 9pt" />
+      <textbox TabIndex="97" Multiline="True" Size="520, 70" Location="88, 740" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="49" input_output="-" check_full="" check_time="" check_date="" name="記事２" check_attribute="*" attribute="W" id="NJ_" figure="765" required="C" />
+    </container>
+  </layout>
+</jobform>

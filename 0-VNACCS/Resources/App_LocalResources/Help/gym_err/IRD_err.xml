@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IRD" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số thông báo nhập cảnh.</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảnh.</disposition>
+  </response>
+  <response code="U0005" name="None" id="0000">
+    <description>Thông tin thông báo xuất cảnh tương ứng với giá trị đã nhập được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0001" name="Reference type" id="MDC">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xem dữ liệu.</disposition>
+  </response>
+  <response code="S0002" name="Reference type" id="MDC">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xem dữ liệu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="Arrival notification number / &#xA;Departure notification number&#xA;Train registry No." id="INN&#xA;TRN">
+    <description>Phải nhập một giá trị</description>
+    <disposition>Hủy nội dung đã nhập của Số thông báo hoặc Số hiệu đoàn tầu.</disposition>
+  </response>
+  <response code="R0002" name="Train registry No.&#xA;Arrival station /Departure station" id="TRN&#xA;ARS">
+    <description>Yêu cầu nhập Ga khi Số hiệu đoàn tầu được nhập.</description>
+    <disposition>Nhập Mã ga đến/Mã ga xuất phát.</disposition>
+  </response>
+  <response code="R0003" name="Train registry No.&#xA;Date of arrival /Date of departure" id="TRN&#xA;ADT">
+    <description>Yêu cầu nhập Ngày đến/Ngày xuất phát khi Số hiệu đoàn tầu được nhập</description>
+    <disposition>Nhập Ngày đến/Ngày xuất phát</disposition>
+  </response>
+  <response code="R0004" name="Train registry No.&#xA;Arrival notification number / &#xA;Departure notification number" id="TRN&#xA;INN">
+    <description>Yêu cầu nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Số thông báo hoặc Số hiệu đoàn tầu</disposition>
+  </response>
+  <response code="R0005" name="Train registry No.&#xA;Arrival station /Departure station" id="TRN&#xA;ARS">
+    <description>Yêu cầu hủy nhập Ga  khi Mã thông báo đã được nhập.</description>
+    <disposition>Xóa nội dung đã nhập của Mã ga đến/Mã ga xuất phát.</disposition>
+  </response>
+  <response code="R0006" name="Train registry No.&#xA;Date of arrival /Date of departure" id="TRN&#xA;ADT">
+    <description>Yêu cầu hủy nhập Ngày đến/ngày xuất phát khi Mã thông báo đã được nhập.</description>
+    <disposition>Xóa nội dung đã nhập của Ngày đến / Ngày xuất phát.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Arrival notification number / &#xA;Departure notification number" id="INN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Train registry No.&#xA;Arrival station /Departure station&#xA;Date of arrival /Date of departure" id="TRN&#xA;ARS&#xA;ADT">
+    <description>Thông tin thông báo nhập cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0004" name="Arrival notification number / &#xA;Departure notification number" id="INN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0005" name="Train registry No.&#xA;Arrival station /Departure station&#xA;Date of arrival /Date of departure" id="TRN&#xA;ARS&#xA;ADT">
+    <description>Thông tin thông báo xuất cảnh tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+</help>

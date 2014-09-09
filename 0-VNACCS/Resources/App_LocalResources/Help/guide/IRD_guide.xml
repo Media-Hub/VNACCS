@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IRD" name="Reference of arrival/departure notification C">
+  <item no="1" name="Reference type" id="MDC" required="" code="">Lựa chọn loại tham chiếu theo danh mục sau:
+A: Xem số thông báo nhập cảnh
+B: Xem số thông báo xuất cảnh</item>
+  <item no="2" name="Arrival notification No. / &#xA;Departure notification No." id="INN" required="" code="">1. Trường hợp số thông báo nhập cảnh, yêu cầu nhập vào số thông báo nhập cảnh
+2. Trường hợp số thông báo xuất cảnh, yêu cầu nhập vào số thông báo xuất cảnh
+3. Trường hợp số hiệu đoàn tầu (mục 3) đã được nhập, thì không cần nhập mục này.</item>
+  <item no="3" name="Train registry No.&#xA;&#xA;" id="TRN" required="" code="">Nhập số hiệu của đoàn tàu. Trường hợp số thông báo nhập cảnh/số thông báo xuất cảnh (mục 2) đã được nhập, thì không cần nhập số hiệu đoàn tầu</item>
+  <item no="4" name="Arrival station /&#xA;Departure station&#xA;&#xA;" id="ARS" required="" code="Station code">Nhập ga đến/đi tương ứng với loại tham chiếu</item>
+  <item no="5" name="Date of arrival / &#xA;Date of departure&#xA;&#xA;" id="ADT" required="" code="">Nhập ngày tàu khởi hành hoặc xuất phát tương ứng với loại tham chiếu</item>
+</guide>

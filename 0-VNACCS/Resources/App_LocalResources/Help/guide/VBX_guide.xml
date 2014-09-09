@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="VBX" name="Registration of vessel basic information">
+  <item no="1" name="Processing type" id="MDC" required="" code="">Lựa chọn giá trị từ trình đơn.
+9: Đăng ký
+5: Sửa đổi
+1: Hủy</item>
+  <item no="2" name="Submission to Immigration Bureau" id="KNU" required="" code="">Trường hợp cần khai báo thông tin Bản khai chung tới Cơ quan Biên phòng thì chọn vào ô check-box</item>
+  <item no="3" name="Submission to Port authority&#xA;" id="HNU" required="" code="">Trường hợp cần khai báo thông tin Bản khai chung tới Cơ quan Cảng vụ thì chọn vào ô check-box.</item>
+  <item no="4" name="Customs office" id="NZC" required="" code="Customs office code">Trường hợp đăng ký mới thì yêu cầu Nhập mã cơ quan Hải quan nhận bản khai</item>
+  <item no="5" name="User code of Immigration Bureau" id="KKK" required="" code="User code">Trường hợp gửi thông tin tới Cơ quan Biên phòng thì nhập Mã user code của Cơ quan Biên phòng tiếp nhận bản khai.</item>
+  <item no="6" name="User code of Port authority&#xA;&#xA;" id="KKR" required="" code="User code">Trường hợp gửi thông tin tới Cơ quan Cảng vụ thì nhập Mã (user code) của Cơ quan Cảng vụ tiếp nhận bản khai.</item>
+  <item no="7" name="Vessel call sign" id="VEC" required="" code="">Nhập Hô hiệu, Số hiệu của tàu hoặc Số đăng ký thuyền đánh cá. Trường hợp nhập Số đăng ký thuyền đánh cá thì thêm ký tự @ vào trước và loại bỏ ký tự "_".</item>
+  <item no="8" name="Vessel name" id="VNA" required="" code="">
+  </item>
+  <item no="9" name="IMO No." id="IMO" required="" code="Lloyd's code">Nhập số IMO của con tàu</item>
+  <item no="10" name="Fishing boat registration No." id="RCO" required="" code="">Nhập Số đăng ký thuyền đánh cá (loại bỏ ký tự "_")</item>
+  <item no="11" name="Vessel type code" id="VSC" required="" code="Vessel type code">
+  </item>
+  <item no="12" name="Vessel nationality code" id="VNC" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Nhập mã quốc gia (2 ký tự) theo UNLOCODE</item>
+  <item no="13" name="Certificate of registry No." id="CRN" required="" code="">Nhập Số của giấy chứng nhận đăng ký của con tàu</item>
+  <item no="14" name="Date of registry" id="DCR" required="" code="">Ngày đăng ký theo DDMMYYYY</item>
+  <item no="15" name="Port of vessel registry" id="REG" required="" code="UN/LOCODE">Nhập Mã cảng đăng ký con tàu theo UNLOCODE</item>
+  <item no="16" name="Port name of vessel registry" id="SKM" required="" code="">Trường hợp chưa có mã cảng đăng ký (Mã có 3 ký tự cuối là ZZZ) thì yêu cầu phải nhập Tên cảng đăng ký.</item>
+  <item no="17" name="Gross tonnage" id="GTN" required="" code="">Nhập Trọng tải toàn phần theo đăng kiểm quốc tế hoặc theo đăng kiểm quốc gia (trường hợp không có đăng kiểm quốc tế) theo cấu trúc số gồm tối đa 6 ký tự phần nguyên và 2 ký tự sau dấu phây</item>
+  <item no="18" name="Net tonnage" id="NTN" required="" code="">Nhập trọng tải tịnh của con tàu theo cấu trúc ố gồm tối đa 6 ký tự phần nguyên và 2 ký tự sau dấu phây</item>
+  <item no="19" name="Sailing speed" id="NSP" required="" code="">Nhập tốc độ tối đa của tàu theo đơn vị knots theo cấu trúc số gồm tối đa 6 ký tự phần nguyên và 1 ký tự sau dấu phây</item>
+  <item no="20" name="Total length of vessel" id="VLF" required="" code="">Nhập tổng độ dài của tàu tính theo đơn vị mét theo cấu trúc số gồm tối đa 6 ký tự phần nguyên và 2 ký tự sau dấu phây</item>
+  <item no="21" name="Weight tonnage" id="JRT" required="" code="">Nhập trọng tải của con tàu theo cấu trúc số gồm tối đa 6 ký tự phần nguyên và 2 ký tự sau dấu phây</item>
+  <item no="22" name="Vessel owner code" id="VOC" required="" code="Carrier code">Nhập mã người sở hữu tàu (Mã hãng vận tải)</item>
+  <item no="23" name="Vessel owner name" id="VON" required="" code="">Trường hợp Tên người sở hữu tàu chưa được đăng ký trong hệ thống thì phải nhập vào mục này.</item>
+  <item no="24" name="Vessel owner address" id="SSJ" required="" code="">
+  </item>
+  <item no="25" name="Vessel owner country code" id="SSK" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Nhập mã quốc gia (2 ký tự) theo UNLOCODE</item>
+  <item no="26" name="Vessel owner telephone No." id="SSD" required="" code="">
+  </item>
+  <item no="27" name="Vessel owner fax No." id="SSF" required="" code="">
+  </item>
+  <item no="28" name="Vessel operator code" id="OPC" required="" code="Carrier code">Mã đơn vị vận hành con tàu (Mã hãng vận tải)</item>
+  <item no="29" name="Vessel operator address" id="SUJ" required="" code="">
+  </item>
+  <item no="30" name="Vessel operator country code" id="SUK" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Nhập mã quốc gia (2 ký tự) theo UNLOCODE</item>
+  <item no="31" name="Vessel operator telephone No." id="SUD" required="" code="">
+  </item>
+  <item no="32" name="Vessel operator fax No." id="SUF" required="" code="">
+  </item>
+  <item no="33" name="Remarks" id="KRN" required="" code="">
+  </item>
+</guide>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="CRM11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng không có quyền thêm/chỉnh sửa/hủy thông tin.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KND">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập phân loại xử lý.
+</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KND">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập phân loại xử lý với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Train registry No." id="TRN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số hiệu đoàn tàu đăng ký.
+</disposition>
+  </response>
+  <response code="S0006" name="Train registry No." id="TRN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Carrier code" id="SCA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="S0008" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0009" name="Arrival station code/Departure station code" id="ARD">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã ga đến/Mã ga xuất phát.
+</disposition>
+  </response>
+  <response code="S0010" name="Arrival station code/Departure station code" id="ARD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Arrival station code/Departure station code" id="ARD">
+    <description>Ga tầu đến/Ga tầu xuất phát nhập vào không phải là ga trong nước Việt Nam.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã ga trong nước.
+</disposition>
+  </response>
+  <response code="S0012" name="Estimated date of arrival/Estimated date of departure" id="IDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát.
+</disposition>
+  </response>
+  <response code="S0013" name="Estimated date of arrival/Estimated date of departure" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0014" name="B/L No." id="BLN">
+    <description>Trường hợp bổ sung, Số vận đơn (B/L) nên để trống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của phân loại xử lý, nếu cần, hủy nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="S0015" name="B/L No." id="BLN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0016" name="Freight car No." id="FRN">
+    <description>Trường hợp bổ sung, số hiệu toa tầu nên để trống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của phân loại xử lý, nếu cần, hủy nội dung nhập của số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="S0017" name="Freight car No." id="FRN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="B/L No.&#xA;Freight car No." id="BLN&#xA;FRN">
+    <description>Phải nhập ít nhất hoặc Số vận đơn (B/L) hoặc số container.
+</description>
+    <disposition>Nhập Số vận đơn (B/L) hoặc số container.
+</disposition>
+  </response>
+  <response code="R0002" name="B/L No.&#xA;Freight car No." id="BLN&#xA;FRN">
+    <description>Số vận đơn (B/L) và số container đều không thể nhập.
+</description>
+    <disposition>Nhập Số vận đơn (B/L) hoặc số container.
+</disposition>
+  </response>
+  <response code="R0003" name="Freight car No." id="FRN">
+    <description>Giá trị đã nhập bị trùng lặp.
+</description>
+    <disposition>Nhập số Container khác
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="B/L No." id="BLN">
+    <description>Số vận đơn (B/L) đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0003" name="B/L No." id="BLN">
+    <description>Số vận đơn (B/L) đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0004" name="B/L No." id="BLN">
+    <description>Số vận đơn (B/L) đã nhập đã được đăng ký vào hệ thống như một House Manifest.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0005" name="B/L No." id="BLN">
+    <description>Nghiệp vụ CRM không  thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0006" name="B/L No." id="BLN">
+    <description>Nghiệp vụ CRM không  thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0007" name="Train registry No." id="TRN">
+    <description>Không thể chỉnh sửa Số hiệu đoàn tàu .
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số hiệu đoàn tàu đăng ký và nhập mã giống với mã đăng ký.
+</disposition>
+  </response>
+  <response code="E0008" name="Carrier code" id="SCA">
+    <description>Không thể chỉnh sửa mã nhà vận chuyển.
+</description>
+    <disposition>Kiểm tra nội dung nhập của mà nhà vận chuyển và nhập mã giống với mã đăng ký.
+</disposition>
+  </response>
+  <response code="E0009" name="Estimated date of arrival/Estimated date of departure" id="IDT">
+    <description>Không thể chỉnh sửa mã Ga tầu đến/Ga tầu khởi hành.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Ga tầu đến/Ga tầu khởi hành và nhập mã giống với mã đăng ký.
+</disposition>
+  </response>
+  <response code="E0010" name="Arrival station code/Departure station code" id="ARD">
+    <description>Không thể chỉnh sửa Ngày dự kiến đến/Ngày xuất phát.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Ngày dự kiến đến/Ngày xuất phát và nhập ngày giống với ngày đăng ký.
+</disposition>
+  </response>
+  <response code="E0011" name="B/L No." id="BLN">
+    <description>Nghiệp vụ CRM không  thể thêm/sửa/hủy thông tin vận đơn này</description>
+    <disposition>Kiểm tra nội dung nhập của Số vận đơn (B/L).
+</disposition>
+  </response>
+  <response code="E0012" name="Train registry No.&#xA;Carrier code&#xA;Arrival station code/Departure station code&#xA;Estimated date of arrival/Estimated date of departure" id="TRN&#xA;SCA&#xA;ARD&#xA;IDT">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0013" name="Train registry No.&#xA;Carrier code&#xA;Arrival station code/Departure station code&#xA;Estimated date of arrival/Estimated date of departure" id="TRN&#xA;SCA&#xA;ARD&#xA;IDT">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0014" name="Train registry No.&#xA;Carrier code&#xA;Arrival station code/Departure station code&#xA;Estimated date of arrival/Estimated date of departure" id="TRN&#xA;SCA&#xA;ARD&#xA;IDT">
+    <description>Thông tin Manifest đã nhập chưa được nộp cho cơ quan Hải quan.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0015" name="Freight car No." id="FRN">
+    <description>Số hiệu toa tầu đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="E0016" name="Freight car No." id="FRN">
+    <description>Số hiệu toa tầu đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="E0017" name="Freight car No." id="FRN">
+    <description>Số hiệu toa tầu đã nhập đã được đăng ký vào hệ thống như toa tầu có hàng.
+</description>
+    <disposition>Kiểm tra nội dung nhập của số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="L0001" name="B/L No." id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="B/L No." id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="B/L No." id="BLN">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

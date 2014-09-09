@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNACCS", "VNACCS.csproj", "{36546CE3-335C-4AB6-A2F3-40F8C818BC66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release2005|Any CPU = Release2005|Any CPU
+		Release2005|Mixed Platforms = Release2005|Mixed Platforms
+		Release2005|x86 = Release2005|x86
+		ReleaseTrial|Any CPU = ReleaseTrial|Any CPU
+		ReleaseTrial|Mixed Platforms = ReleaseTrial|Mixed Platforms
+		ReleaseTrial|x86 = ReleaseTrial|x86
+		ReleaseTrial2005|Any CPU = ReleaseTrial2005|Any CPU
+		ReleaseTrial2005|Mixed Platforms = ReleaseTrial2005|Mixed Platforms
+		ReleaseTrial2005|x86 = ReleaseTrial2005|x86
+		ReleaseTrial2005Design|Any CPU = ReleaseTrial2005Design|Any CPU
+		ReleaseTrial2005Design|Mixed Platforms = ReleaseTrial2005Design|Mixed Platforms
+		ReleaseTrial2005Design|x86 = ReleaseTrial2005Design|x86
+		ReleaseTrialNoLimit|Any CPU = ReleaseTrialNoLimit|Any CPU
+		ReleaseTrialNoLimit|Mixed Platforms = ReleaseTrialNoLimit|Mixed Platforms
+		ReleaseTrialNoLimit|x86 = ReleaseTrialNoLimit|x86
+		ReleaseTrialSchedule|Any CPU = ReleaseTrialSchedule|Any CPU
+		ReleaseTrialSchedule|Mixed Platforms = ReleaseTrialSchedule|Mixed Platforms
+		ReleaseTrialSchedule|x86 = ReleaseTrialSchedule|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|x86.ActiveCfg = Debug|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Debug|x86.Build.0 = Debug|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|Mixed Platforms.Build.0 = Release|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|x86.ActiveCfg = Release|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release|x86.Build.0 = Release|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|Any CPU.ActiveCfg = Release2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|Any CPU.Build.0 = Release2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|Mixed Platforms.ActiveCfg = Release2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|Mixed Platforms.Build.0 = Release2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|x86.ActiveCfg = Release2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.Release2005|x86.Build.0 = Release2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|Any CPU.ActiveCfg = ReleaseTrial|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|Any CPU.Build.0 = ReleaseTrial|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|Mixed Platforms.ActiveCfg = ReleaseTrial|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|Mixed Platforms.Build.0 = ReleaseTrial|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|x86.ActiveCfg = ReleaseTrial|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial|x86.Build.0 = ReleaseTrial|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|Any CPU.ActiveCfg = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|Any CPU.Build.0 = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|Mixed Platforms.ActiveCfg = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|Mixed Platforms.Build.0 = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|x86.ActiveCfg = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005|x86.Build.0 = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|Any CPU.ActiveCfg = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|Any CPU.Build.0 = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|Mixed Platforms.ActiveCfg = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|Mixed Platforms.Build.0 = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|x86.ActiveCfg = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrial2005Design|x86.Build.0 = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|Any CPU.ActiveCfg = ReleaseTrialNoLimit|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|Any CPU.Build.0 = ReleaseTrialNoLimit|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|Mixed Platforms.ActiveCfg = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|Mixed Platforms.Build.0 = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|x86.ActiveCfg = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialNoLimit|x86.Build.0 = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|Any CPU.ActiveCfg = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|Any CPU.Build.0 = ReleaseTrial2005|Any CPU
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|Mixed Platforms.ActiveCfg = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|Mixed Platforms.Build.0 = ReleaseTrialNoLimit|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|x86.ActiveCfg = ReleaseTrial2005|x86
+		{36546CE3-335C-4AB6-A2F3-40F8C818BC66}.ReleaseTrialSchedule|x86.Build.0 = ReleaseTrial2005|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

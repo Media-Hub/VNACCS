@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="AAM32_MEC" jobname="AAM32_MEC" display-name="Export declaration (Tax exempted small amount clearance)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAE4940.xml" item_attr_edit="True" />
+  <friday href="VAE4940.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="JKN" name="Classification of outputting corrected report" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CH" name="Customs Office" input_output="+" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CHB" name="Customs Sub-section" input_output="+" required="C" attribute="A" figure="2" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="EPC" name="Exporter code" input_output="+" required="C" attribute="A" figure="13" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="EPN" name="Exporter name" input_output="+" required="C" attribute="W" figure="300" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="EPP" name="Postcode" input_output="+" required="C" attribute="A" figure="7" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="EPA" name="Address of Exporter" input_output="+" required="C" attribute="W" figure="300" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="EPT" name="Telephone number of Exporter" input_output="+" required="C" attribute="A" figure="20" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CGC" name="Consignee Code" input_output="+" required="C" attribute="A" figure="13" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CGN" name="Consignee Name" input_output="+" required="C" attribute="A" figure="70" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CGP" name="Postcode identification" input_output="+" required="C" attribute="A" figure="9" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CGA" name="Address 1 (Street and number/P.O.BOX)" input_output="+" required="C" attribute="A" figure="35" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CAT" name="Address 2 (Street and number/P.O.BOX)" input_output="+" required="C" attribute="A" figure="35" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CAC" name="Address 3 (City name)" input_output="+" required="C" attribute="A" figure="35" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CAS" name="Address 4 (Country sub-entity, name)" input_output="+" required="C" attribute="A" figure="35" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CGK" name="Country Code (Country, coded)" input_output="+" required="C" attribute="A" figure="2" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="AWB" name="House AWB No." input_output="+" required="M" attribute="A" figure="20" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NO" name="Cargo Piece" input_output="+" required="M" attribute="I" figure="6" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="GW" name="Cargo Weight (Gross)" input_output="+" required="M" attribute="F" figure="8" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="ST" name="Customs Warehouse Code" input_output="+" required="M" attribute="A" figure="7" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="DSC" name="The final Destination Code" input_output="+" required="M" attribute="A" figure="5" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="PSC" name="Loading Port Code" input_output="+" required="M" attribute="A" figure="3" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="FCD" name="Currency Code of ｔotal of tax value" input_output="+" required="C" attribute="A" figure="3" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="FKK" name="Total of tax value" input_output="+" required="C" attribute="F" figure="20" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="SKK" name="Customs value" input_output="+" required="C" attribute="I" figure="8" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CMN" name="Item Name" input_output="+" required="M" attribute="W" figure="600" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NT" name="Notes" input_output="+" required="C" attribute="W" figure="300" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="REF" name="Enterprise internal control number" input_output="+" required="C" attribute="A" figure="20" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="172, 19" Location="352, 14" Text="Phân loại xuất báo cáo sửa đổi" Font="Tahoma, 9pt" />
+    <textbox TabIndex="28" Multiline="True" Size="363, 36" Location="159, 576" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="28" input_output="+" check_full="" check_time="" check_date="" name="Notes" check_attribute="*" attribute="W" id="NT" figure="300" required="C" />
+    <label Size="120, 19" Location="15, 499" Text="Tổng trị giá tính thuế" Font="Tahoma, 9pt" />
+    <label Size="70, 19" Location="15, 14" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="29" Size="153, 21" Location="222, 613" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="29" input_output="+" check_full="" check_time="" check_date="" name="Enterprise internal control number" check_attribute="*" attribute="A" id="REF" figure="20" required="C" />
+    <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="10" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="118, 21" Location="159, 251" BackColor="Window" Font="Courier New, 9pt" form="" order="10" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Consignee Code" check_attribute="*" attribute="A" id="CGC" figure="13" AutoComplete="False" required="C" />
+    <label Size="79, 19" Location="76, 296" Text="Mã bưu chính" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Size="503, 21" Location="159, 273" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="+" check_full="" check_time="" check_date="" name="Consignee Name" check_attribute="*" attribute="A" id="CGN" figure="70" required="C" />
+    <label Size="201, 19" Location="15, 615" Text="Số quản lý của nội bộ doanh nghiệp" Font="Tahoma, 9pt" />
+    <label Size="98, 19" Location="15, 234" Text="Người nhập khẩu" Font="Tahoma, 9pt" />
+    <label Size="25, 19" Location="76, 274" Text="Tên" Font="Tahoma, 9pt" />
+    <label Size="21, 19" Location="76, 252" Text="Mã" Font="Tahoma, 9pt" />
+    <label Size="75, 19" Location="15, 577" Text="Phần ghi chú" Font="Tahoma, 9pt" />
+    <label Size="42, 19" Location="76, 318" Text="Địa chỉ" Font="Tahoma, 9pt" />
+    <label Size="46, 19" Location="76, 170" Text="Địa chỉ " Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="21" Size="62, 21" Location="311, 431" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="+" check_full="" check_time="" check_date="" name="Customs Warehouse Code" check_attribute="*" attribute="A" id="ST" figure="7" required="M" />
+    <textbox TabIndex="27" Multiline="True" Size="503, 51" Location="159, 521" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="27" input_output="+" check_full="" check_time="" check_date="" name="Item Name" check_attribute="*" attribute="W" id="CMN" figure="600" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="13" Size="258, 21" Location="159, 317" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="+" check_full="" check_time="" check_date="" name="Address 1 (Street and number/P.O.BOX)" check_attribute="*" attribute="A" id="CGA" figure="35" required="C" />
+    <label Size="25, 19" Location="76, 109" Text="Tên" Font="Tahoma, 9pt" />
+    <label Size="292, 19" Location="15, 432" Text="Mã địa điểm lưu kho hàng chờ thông quan dự kiến *" Font="Tahoma, 9pt" />
+    <label Size="21, 19" Location="76, 87" Text="Mã" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="14" Size="258, 21" Location="423, 317" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="+" check_full="" check_time="" check_date="" name="Address 2 (Street and number/P.O.BOX)" check_attribute="*" attribute="A" id="CAT" figure="35" required="C" />
+    <label Size="101, 19" Location="15, 520" Text="Mô tả hàng hóa *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="153, 21" Location="159, 208" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Telephone number of Exporter" check_attribute="*" attribute="A" id="EPT" figure="20" required="C" />
+    <maskedtextbox Mask="&gt;CCC-CCCCCCCCCCCCCCCCC" TabIndex="18" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="160, 21" Location="159, 387" BackColor="LightCyan" Font="Courier New, 9pt" form="" order="18" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="House AWB No." check_attribute="*" attribute="A" id="AWB" figure="20" AutoComplete="False" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="15" Size="258, 21" Location="159, 339" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="+" check_full="" check_time="" check_date="" name="Address 3 (City name)" check_attribute="*" attribute="A" id="CAC" figure="35" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="26" Size="69, 21" Location="488, 498" TextAlign="Right" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="26" input_output="+" check_full="" check_time="" check_date="" name="Customs value" check_attribute="*" attribute="I" id="SKK" figure="8" required="C" />
+    <label Size="76, 19" Location="76, 209" Text="Số điện thoại" Font="Tahoma, 9pt" />
+    <label Size="29, 19" Location="562, 499" Text="VND" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="16" Size="258, 21" Location="423, 339" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="+" check_full="" check_time="" check_date="" name="Address 4 (Country sub-entity, name)" check_attribute="*" attribute="A" id="CAS" figure="35" required="C" />
+    <label Size="72, 19" Location="410, 499" Text="Giá khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="12" Size="76, 21" Location="159, 295" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="+" check_full="" check_time="" check_date="" name="Postcode identification" check_attribute="*" attribute="A" id="CGP" figure="9" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="20, 21" Location="537, 13" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Classification of outputting corrected report" check_attribute="*" attribute="A" id="JKN" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="17" Size="27, 21" Location="159, 361" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="+" check_full="" check_time="" check_date="" name="Country Code (Country, coded)" check_attribute="*" attribute="A" id="CGK" figure="2" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="25" Size="153, 21" Location="200, 498" TextAlign="Right" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="25" input_output="+" check_full="" check_time="" check_date="" name="Total of tax value" check_attribute="*" attribute="F" id="FKK" figure="20" required="C" />
+    <label Size="51, 19" Location="76, 362" Text="Mã nước" Font="Tahoma, 9pt" />
+    <textbox TabIndex="8" Multiline="True" Size="503, 36" Location="159, 169" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Address of Exporter" check_attribute="*" attribute="W" id="EPA" figure="300" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="24" Size="34, 21" Location="159, 498" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="+" check_full="" check_time="" check_date="" name="Currency Code of ｔotal of tax value" check_attribute="*" attribute="A" id="FCD" figure="3" required="C" />
+    <label Size="96, 19" Location="15, 388" Text="Số House AWB *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="159, 13" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+    <label Size="79, 19" Location="76, 147" Text="Mã bưu chính" Font="Tahoma, 9pt" />
+    <label Size="217, 19" Location="15, 42" Text="Mã cơ quan Hải quan tiếp nhận tờ khai" Font="Tahoma, 9pt" />
+    <label Size="64, 19" Location="15, 410" Text="Số lượng *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="23" Size="34, 21" Location="311, 475" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="+" check_full="" check_time="" check_date="" name="Loading Port Code" check_attribute="*" attribute="A" id="PSC" figure="3" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="62, 21" Location="159, 146" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="Postcode" check_attribute="*" attribute="A" id="EPP" figure="7" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="55, 21" Location="236, 41" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Customs Office" check_attribute="*" attribute="A" id="CH" figure="6" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="19" Size="55, 21" Location="159, 409" TextAlign="Right" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="+" check_full="" check_time="" check_date="" name="Cargo Piece" check_attribute="*" attribute="I" id="NO" figure="6" required="M" />
+    <label Size="136, 19" Location="15, 476" Text="Mã địa điểm xếp hàng *" Font="Tahoma, 9pt" />
+    <textbox TabIndex="6" Multiline="True" Size="503, 36" Location="159, 108" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Exporter name" check_attribute="*" attribute="W" id="EPN" figure="300" required="C" />
+    <label Size="140, 19" Location="352, 42" Text="Mã bộ phận xử lý tờ khai" Font="Tahoma, 9pt" />
+    <label Size="185, 19" Location="304, 410" Text="Tổng trọng lượng hàng (Gross) *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="22" Size="48, 21" Location="311, 453" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="22" input_output="+" check_full="" check_time="" check_date="" name="The final Destination Code" check_attribute="*" attribute="A" id="DSC" figure="5" required="M" />
+    <label Size="30, 19" Location="570, 410" Text="KGM" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="27, 21" Location="537, 41" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Customs Sub-section" check_attribute="*" attribute="A" id="CHB" figure="2" required="C" />
+    <label Size="22, 19" Location="218, 410" Text="Gói" Font="Tahoma, 9pt" />
+    <label Size="200, 19" Location="15, 454" Text="Mã địa điểm nhận hàng cuối cùng *" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="5" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="118, 21" Location="159, 86" BackColor="Window" Font="Courier New, 9pt" form="" order="5" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Exporter code" check_attribute="*" attribute="A" id="EPC" figure="13" AutoComplete="False" required="C" />
+    <label Size="95, 19" Location="15, 64" Text="Người xuất khẩu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="20" Size="69, 21" Location="495, 409" TextAlign="Right" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="20" input_output="+" check_full="" check_time="" check_date="" name="Cargo Weight (Gross)" check_attribute="*" attribute="F" id="GW" figure="8" required="M" />
+  </layout>
+</jobform>

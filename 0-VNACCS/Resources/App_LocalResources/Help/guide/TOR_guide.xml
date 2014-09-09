@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TOR" name="Registration of departure declaration D">
+  <item no="1" name="Processing type" id="KBN" required="" code="">Người dùng nhập chỉ số dưới đây để thực hiện các tác vụ tiếp theo. Cụ thể:
+9: Đăng ký
+5: Sửa chữa
+1: Huỷ bỏ
+</item>
+  <item no="2" name="Departure declaration No.&#xA;" id="AND" required="" code="">Mục này cho phép người dùng nhập số tờ khai xuất cảnh trong trường hợp sửa chữa hoặc huỷ.
+Trường hợp đăng ký tờ khai, hệ thống không cho phép nhập số tờ khai
+</item>
+  <item no="3" name="Submission to Immigration Bureau" id="TON" required="" code="">Ô này cho phép người dùng lựa chọn gửi hoặc không gửi cho Cục quản lý nhập cảnh. Cụ thể:
+ 0 (không chọn): Không gửi
+ 1. (Có chọn) Có gửi
+
+- Trường hợp tái xuất và sửa chữa thông tin hệ thống không cho phép thay đổi lựa chọn này.
+
+- Trường hợp huỷ, ngày đã nhập vào hệ thống và các nội dung liên quan sẽ bị bỏ qua.
+</item>
+  <item no="4" name="Submission to Quarantine station" id="TOK" required="" code="">Ô này cho phép người dùng lựa chọn gửi hoặc không gửi cho Cơ quan kiểm dịch. Cụ thể:
+ 0 (không chọn): Không gửi
+ 1. (Có chọn) Có gửi
+</item>
+  <item no="5" name="Departure border gate&#xA;&#xA;" id="ABG" required="" code="Border gate code">Các thông tin này không được thay đổi trong trường hợp khai báo sửa chữa</item>
+  <item no="6" name="Date of departure&#xA;&#xA;" id="EDT" required="" code="">Các thông tin này không được thay đổi trong trường hợp khai báo sửa chữa</item>
+  <item no="7" name="Estimated time of departure&#xA;" id="EMT" required="" code="">
+  </item>
+  <item no="8" name="Documents No. in the system of declarants&#xA;" id="NOD" required="" code="">Trường hợp người dùng có số theo dõi hổ sơ riêng thì ô này dùng để nhập số theo dõi đó</item>
+  <item no="9" name="Arrival declaration No. on temporary import" id="RDN" required="" code="">Ô này dùng để nhập số tờ khai nhập cảnh khi tạm nhập trong trường hợp phương tiện tái xuất sau khi tạm nhập.</item>
+  <item no="10" name="Get on / Get off&#xA;&#xA;" id="DG_" required="" code="">Hệ thống yêu cầu người dùng lựa chọn theo các chỉ số sau;
+ A: Thêm lái xe
+ B: Lái xe không thay đổi nhưng có một số thông tin cần chỉnh sửa.
+ X: Đổi lái xe sau khi tạm nhập (TIR)
+
+- Trường hợp tái xuất và trường hợp các thông tin để trống thì thông tin về lái xe không được cập nhật.
+
+- Đối với phương tiện tạm xuất hoặc có thông tin khai báo về lái xe giống như đã khai báo nghiệp vụ TIR (tại thời điểm tạm nhập) thì hệ thống không cho nhập các thông tin này.
+</item>
+  <item no="11" name="Driver's full name&#xA;&#xA;" id="DF_" required="" code="">
+  </item>
+  <item no="12" name="Driver's nationality&#xA;&#xA;&#xA;" id="DN_" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Nhập theo mã UN/LOCODE</item>
+  <item no="13" name="Driver's personal related documents" id="PR_" required="" code="">Ô này cho phép người dùng lựa chọn chỉ số thể hiện loại giấy tờ tuỳ thân khai báo. Cụ thể:
+P: Hộ chiếu
+V: Thị thực
+A: Đăng ký ngoại kiều
+F: Khác
+</item>
+  <item no="14" name="Driver's passport No.&#xA;&#xA;" id="DP_" required="" code="">1. Nhập những số của các giấy tờ tuỳ thân (ví dụ: Số hộ chiếu)
+2. Hệ thống yêu cầu nhập một trong số các các chỉ tiêu sau:
+- Số hộ chiếu lái xe, số giấy thông hành
+</item>
+  <item no="15" name="Driver's border gate pass No.&#xA;" id="BP_" required="" code="">Ô này dùng để nhập số giấy thông hành
+Số này gồm tối đa 35 ký tự.
+</item>
+  <item no="16" name="Driver's border gate pass issue date&#xA;" id="ID_" required="" code="">
+  </item>
+  <item no="17" name="Driver's border gate pass issue place&#xA;" id="IP_" required="" code="">
+  </item>
+  <item no="18" name="Driver's address&#xA;&#xA;" id="DA_" required="" code="">
+  </item>
+  <item no="19" name="Type of transport means&#xA;&#xA;" id="TTM" required="" code="Transport means code">
+  </item>
+  <item no="20" name="Label of mark&#xA;&#xA;" id="LOM" required="" code="">
+  </item>
+  <item no="21" name="License plate No.&#xA;&#xA;" id="LPN" required="" code="">Trường hợp sửa đổi thông tin khai báo xuất cảnh, thì chỉ tiêu thông tin này không được thay đổi</item>
+  <item no="22" name="Registering Country&#xA;&#xA;&#xA;" id="REC" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Trường hợp sửa đổi thông tin khai báo xuất cảnh, thì chỉ tiêu thông tin này không được thay đổi</item>
+  <item no="23" name="Color of transport means&#xA;&#xA;" id="CTM" required="" code="">
+  </item>
+  <item no="24" name="Number of seats&#xA;&#xA;" id="SEA" required="" code="">
+  </item>
+  <item no="25" name="Chassis serial No.&#xA;&#xA;" id="CSN" required="" code="">
+  </item>
+  <item no="26" name="Engine serial No.&#xA;&#xA;" id="ESN" required="" code="">
+  </item>
+  <item no="27" name="Full name of owner of means of transportation&#xA;" id="OMT" required="" code="">Trường hợp lái xe tải không sở hữu phương tiện, hệ thống sẽ yêu cầu nhập tên đầy đủ của chủ xe.
+Tên chủ phương tiện không tối đa 70 ký tự
+</item>
+  <item no="28" name="Owner's nationality&#xA;&#xA;&#xA;" id="ONT" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">
+  </item>
+  <item no="29" name="Owner's address&#xA;&#xA;" id="ONA" required="" code="">
+  </item>
+  <item no="30" name="Transport means circulated in border area" id="CBA" required="" code="">Người dùng nhập chỉ số do hệ thống cung cấp để chỉ phạm vi hoạt động của phương tiện trong khu vực cửa khẩu. Cụ thể:
+0 : Không giới hạn
+1 : Trong khu vựccửa khẩu
+</item>
+  <item no="31" name="Border pass permission No.&#xA;" id="BPP" required="" code="">Trường hợp phương tiện được hoạt động không chỉ trong phạm vi biên giới, hệ thống sẽ yêu cầu nhập số giấy thông hành.
+Số giấy thông hành tối đa 35 ký tự.
+</item>
+  <item no="32" name="Issue date of border pass permission &#xA;" id="ISD" required="" code="">
+Nhập ngày giấy phép qua biên giới
+</item>
+  <item no="33" name="Issue agencies of border pass permission &#xA;" id="IAG" required="" code="">
+  </item>
+  <item no="34" name="Temporary export indication" id="TIM" required="" code="">Ô này cho phép người dùng cung cấp dấu hiệu khai báo tạm xuất thông qua việc chọn chỉ số do hệ thống cung cấp gồm:
+0: Không (trường hợp phương tiện của nước khác)
+1: Tạm rời (Trường hợp phương tiện của Việt Nam
+</item>
+  <item no="35" name="Allowed duration&#xA;&#xA;" id="ALD" required="" code="">
+1. Trường hợp tạm xuất, hệ thống sẽ yêu cầu nhập ngày cho phép rời Việt Nam
+2. Trường hợp còn lại, không yêu cầu nhập thông tin này
+</item>
+  <item no="36" name="Transportation area&#xA;&#xA;" id="TPA" required="" code="">Hệ thống có thể yêu cầu khu vực phương tiện trong khi rời Việt Nam</item>
+  <item no="37" name="Re-importation / Re-exportation date&#xA;&#xA;" id="REX" required="" code="">1. Trường hợp phương tiện tạm xuất, hệ thống sẽ yêu cầu nhập ngày dự kiến về Việt Nam
+2. Trường hợp khác, không yêu cầu
+</item>
+  <item no="38" name="Intended arrival / departure border gate" id="ROB" required="" code="Border gate code">1. Trường hợp phương tiện tạm xuất, hệ thống yêu cầu nhập nơi sẽ tái nhập 
+2. Trường hợp khác, không yêu cầu
+</item>
+  <item no="39" name="Purpose of entering Vietnam" id="PEV" required="" code="">Entered data will be ignored.
+
+</item>
+  <item no="40" name="Remarks&#xA;&#xA;" id="KIJ" required="" code="">
+  </item>
+  <item no="41" name="Passenger list processing type&#xA;" id="RSS" required="" code="">Mục này yêu cầu người dùng nhập loại xử lý thông tin hành khách theo các chỉ số do hệ thống cung cấp như sau:
+10△: Đã khai báo trên hệ thống 
+38△: Khai báo thủ công
+NOT: Không có thông tin hành khách
+* "△" dùng thể hiện một ký tự trống
+</item>
+  <item no="42" name="Passenger list No.&#xA;&#xA;" id="RSN" required="" code="">Trường hợp người dùng chọn phân loại xử lý thông tin là "10△" thì hệ thống sẽ yêu cầu nhập số danh sách hành khách (được nhập bằng PLR)</item>
+  <item no="43" name="Number of passengers&#xA;&#xA;" id="ROC" required="" code="">1.Trường hợp nhập thông tin hành khách theo mã "38△"khai báo thủ công) tại loại phân tích thông tin hành khách thì hệ thống sẽ yêu cầu nhập tổng số hành khách
+2. Trường hợp nhập mã "10△"(Hệ thống phân tích) được nhập vào loại phân tích hành khách, hệ thống sẽ không cho nhập tổng số hành khách
+</item>
+  <item no="44" name="Additional declaration&#xA;&#xA;" id="ADR" required="" code="">Ô này cho người dùng nhập chỉ số thông tin do hệ thống cung cấp để khai báo bổ sung. 
+Ô này có 1 ký tự.
+</item>
+  <item no="45" name="Extension document No.&#xA;&#xA;" id="EDN" required="" code="">Nhập số tài liệu gia hạn, tối đa 35 ký tự</item>
+  <item no="46" name="Date of circulation to be allowed&#xA;&#xA;" id="DOC" required="" code="">Nhập ngày hết hạn của phương tiện sau khi gia hạn; kiẻu nhập ngày/tháng/năm</item>
+  <item no="47" name="Agencies allowing such extension&#xA;" id="AAE" required="" code="">
+  </item>
+  <item no="48" name="Extended document issue date&#xA;" id="EDD" required="" code="">
+Ngày giấy phép gia hạn cho phương tiện
+</item>
+  <item no="49" name="Reason for extension" id="RFE" required="" code="">Ô này dùng để nhập lý do gia hạn. 
+
+S; Sửa chữa
+T: Tai nạn giao thông
+</item>
+  <item no="50" name="Other reason for extension&#xA;&#xA;" id="ORE" required="" code="">Ô này dùng để nhập lý do gia hạn khác không phải hai lý do đã nêu bên trên.</item>
+  <item no="51" name="Container No.&#xA;&#xA;" id="CNO" required="" code="">Trường hợp có đăng ký cont (cont  đã xếp hàng hoặc cont rỗng) hệ thống yêu cầu nhập số cont, không quá 12 ký tự.</item>
+  <item no="52" name="Seal No.&#xA;&#xA;" id="SL_" required="" code="">
+  </item>
+  <item no="53" name="Empty/Full container indication&#xA;" id="EFS" required="" code="UN/EDIFACT code&#xA;(8169)">Ô này thể hiện tình trạng của container, cụ thể:
+4: Container Rỗng
+5: Container đã có hàng
+</item>
+  <item no="54" name="Container size&#xA;&#xA;" id="SIZ" required="" code="Container size code&#xA;(ISO6346)&#xA;">First digit: Container length code
+Code Length (feet) 
+1: 10' 
+2: 20' 
+4: 40' 
+9: Other
+  
+Second digit: Container height code
+Code Height 
+ (feet)         (inch)
+0: 8' 
+2: 8'            6"
+4: 9' 
+5: 9'            6"
+6: &gt;9'          6"
+8: 4'            3"
+9: =&lt;4'       (Other than above height, use this code)
+
+</item>
+  <item no="55" name="Container type&#xA;&#xA;" id="TYP" required="" code="Container type code&#xA;(ISO6346)&#xA;">GP: General purpose container
+RT: Thermal container - Refrigerated and heated
+UT: Open-top container
+PF: Platform-based containers with incomplete
+       superstructure: Fixed
+TN: Tank container - For nondangerous liquids
+OT: Named cargo container
+</item>
+  <item no="56" name="Delivery type code&#xA;&#xA;" id="DLV" required="" code="">Trường hợp cont đã đầy hàng, hệ thống sẽ yêu cầu nhập mã hình thức giao hàng.</item>
+  <item no="57" name="Container ownership type Code&#xA;" id="COW" required="" code="UN/EDIFACT code&#xA;(8077)">1: Consignor supplied
+2: Carrier supplied
+3: Consolidator supplied
+4: Deconsolidator supplied
+5: Third party supplied
+OT: Other than above
+</item>
+  <item no="58" name="Vanning type code&#xA;&#xA;" id="VAN" required="" code="UN/EDIFACT code&#xA;(7273)">1. In case of full container, it is required to enter the type.
+2. In case of empty container, it is not available to enter in this field.
+
+1: Carrier loads
+4: Consignor loads
+16: Consignee loads
+OT: Other than above
+</item>
+</guide>

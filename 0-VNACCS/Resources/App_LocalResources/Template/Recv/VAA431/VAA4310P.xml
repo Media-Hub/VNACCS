@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_PLR" jobname="Report of crew list" display-name="Cancelled passenger list upon arrival">
+<meta_info format_Version="1.0" revision="0000" friday="VAA4310.xml" item_attr_edit="False" />
+  <friday href="VAA4310.xml" revision="0000" />
+  <iteminfo>
+    <item id="OUT" name="Output information name(帳票名)" input_output="-" required="" attribute="W" figure="300" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NUM" name="Passenger list number(旅客氏名表受理番号)" input_output="-" required="" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAD" name="Cancellation date(取消年月日)" input_output="-" required="" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAT" name="Cancellation time(取消時刻)" input_output="-" required="" attribute="A" figure="4" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IPN" name="Input user code(入力者コード)" input_output="-" required="" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IUN" name="Input user name(入力者名)" input_output="-" required="" attribute="A" figure="50" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OPT" name="Transportation type(運送識別)" input_output="-" required="" attribute="A" figure="1" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IOK" name="Arrival/departure indication(到着出発区分)" input_output="-" required="" attribute="A" figure="1" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OPC" name="Transportation equipment code(Vessel call sign, Flight number etc....)(運送機材コード（船舶コード、便名等）)" input_output="-" required="" attribute="A" figure="38" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="PRT" name="Arrival place code / Departure place code(到着地コード／出発地コード)" input_output="-" required="" attribute="A" figure="6" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="PRN" name="Arrival place name / Departure place name(到着地名／出発地名)" input_output="-" required="" attribute="A" figure="35" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="LPD" name="Arrival place suffix / Departure place suffix(到着地枝番／出発地枝番)" input_output="-" required="" attribute="A" figure="1" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KBF" name="Voyage No.(航海番号)" input_output="-" required="" attribute="A" figure="10" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FDT" name="Estimated date of arrival/Estimated date of departure(到着予定日/出発予定日)" input_output="-" required="" attribute="A" figure="8" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KIJ" name="Remarks(記事欄)" input_output="-" required="" attribute="A" figure="70" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CRM" name="Number of passengers(旅客数)" input_output="-" required="" attribute="I" figure="4" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11.25pt" MinOccurs="1">
+      <label Location="15, 213" Size="150, 19" Font="Tahoma, 9pt" Text="Arrival/Departure (Đến/Đi)" />
+      <prttextbox Format="" Location="225, 215" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="IOK" input_output="-" name="Arrival/departure indication(到着出発区分)" order="8" required="" />
+      <label Location="15, 136" Size="100, 34" Font="Tahoma, 9pt" Text="Input user &#xD;&#xA;(Người nhập liệu)" />
+      <label Location="15, 396" Size="138, 34" Font="Tahoma, 9pt" Text="Number of passengers &#xD;&#xA;(Số lượng hành khách)" />
+      <label Location="15, 362" Size="62, 34" Font="Tahoma, 9pt" Text="Remarks &#xD;&#xA;(Ghi chú)" />
+      <prttextbox Format="#,###" Location="225, 406" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="CRM" input_output="-" name="Number of passengers(旅客数)" order="16" required="" />
+      <prttextbox Format="" Location="120, 372" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KIJ" input_output="-" name="Remarks(記事欄)" order="15" required="" />
+      <label Location="15, 325" Size="203, 34" Font="Tahoma, 9pt" Text="Estimated date of arrival/departure&#xD;&#xA;(Ngày dự kiến đến/đi)" />
+      <prttextbox Format="dd/MM/yyyy" Location="225, 335" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="FDT" input_output="-" name="Estimated date of arrival/Estimated date of departure(到着予定日/出発予定日)" order="14" required="" />
+      <prttextbox Format="" Location="162, 146" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="IPN" input_output="-" name="Input user code(入力者コード)" order="5" required="" />
+      <label Location="15, 89" Size="218, 34" Font="Tahoma, 9pt" Text="Passenger list No.&#xD;&#xA;(Số tham chiếu danh sách hành khách)" />
+      <prttextbox Format="" Location="244, 99" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="NUM" input_output="-" name="Passenger list number(旅客氏名表受理番号)" order="2" required="" />
+      <label Location="15, 176" Size="130, 34" Font="Tahoma, 9pt" Text="Transportation type &#xD;&#xA;(Loại hình vận chuyển)" />
+      <prttextbox Format="" Location="225, 186" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="OPT" input_output="-" name="Transportation type(運送識別)" order="7" required="" />
+      <label Location="15, 230" Size="182, 34" Font="Tahoma, 9pt" Text="Transportation equipment code&#xD;&#xA;(Mã phương tiện vận chuyển)" />
+      <prttextbox Format="" Location="225, 240" Size="289, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="38" form="" id="OPC" input_output="-" name="Transportation equipment code(Vessel call sign, Flight number etc....)(運送機材コード（船舶コード、便名等）)" order="9" required="" />
+      <label Location="15, 267" Size="153, 34" Font="Tahoma, 9pt" Text="Place of arrival/departure &#xD;&#xA;(Nơi đến/đi)" />
+      <prttextbox Format="" Location="225, 277" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="PRT" input_output="-" name="Arrival place code / Departure place code(到着地コード／出発地コード)" order="10" required="" />
+      <label Location="281, 275" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="569, 275" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="584, 277" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="LPD" input_output="-" name="Arrival place suffix / Departure place suffix(到着地枝番／出発地枝番)" order="12" required="" />
+      <label Location="211, 144" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="225, 146" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="IUN" input_output="-" name="Input user name(入力者名)" order="6" required="" />
+      <label Location="346, 97" Size="180, 19" Font="Tahoma, 9pt" Text="Cancellation date (Ngày hủy bỏ)" />
+      <prttextbox Format="dd/MM/yyyy" Location="532, 99" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="CAD" input_output="-" name="Cancellation date(取消年月日)" order="3" required="" />
+      <label Location="619, 97" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="hh:mm" Location="630, 99" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="CAT" input_output="-" name="Cancellation time(取消時刻)" order="4" required="" />
+      <label Location="15, 304" Size="178, 19" Font="Tahoma, 9pt" Text="Voyage No. (Số chuyến đi biển)" />
+      <prttextbox Format="" Location="225, 306" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="KBF" input_output="-" name="Voyage No.(航海番号)" order="13" required="" />
+      <prttextbox Format="" Location="296, 277" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="PRN" input_output="-" name="Arrival place name / Departure place name(到着地名／出発地名)" order="11" required="" />
+      <prttextbox Format="" Location="90, 10" Size="1401, 19" BorderStyle="None" Font="Tahoma, 11pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="OUT" input_output="-" name="Output information name(帳票名)" order="1" required="" />
+    </page>
+  </layout>
+</jobform>

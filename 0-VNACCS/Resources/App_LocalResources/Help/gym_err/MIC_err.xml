@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="MIC" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Declaration No." id="ICN">
+    <description>Người nhập không phải là người phụ trách đăng ký.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0002" name="None" id="0000">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0003" name="Unloading port code" id="DST">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0004" name="Loading location code" id="PSC">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0005" name="Cargo Piece" id="NO">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0006" name="Cargo Weight (Gross)" id="GW">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0007" name="Customs Office" id="CH">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0008" name="None" id="0000">
+    <description>Hải quan đã nhập hoặc Hải quan đã xác định bằng hệ thống không được dùng cho các nghiệp vụ liên quan đến tờ khai nhập khẩu.</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0009" name="Classification of outputting corrected report" id="JYO">
+    <description>Ký tự khác "P" đã được nhập vào Phân loại xuất báo cáo sửa đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0011" name="Customs Office" id="CH">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0015" name="Customs Sub-section" id="CHB">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0016" name="Importer Code" id="IMC">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0017" name="Consignor code" id="EPC">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0018" name="Address 1 (Street and number/P.O.BOX)" id="EPA">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0019" name="Country Code(Country&#xA; coded)" id="EPO">
+    <description>"ZZ" đang được nhập vào Mã nước(Country coded)
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0020" name="Flight No." id="VSN">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0021" name="Flight No." id="VSN">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0022" name="House AWB No." id="HAB">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0024" name="Arrival date" id="ARR">
+    <description>Không phải là ngày thực tế. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0025" name="Loading location code" id="PSC">
+    <description>Đang nhập "VN" vào tên nước của Mã địa điểm xếp hàng (2 ký tự đầu)
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0026" name="Loading location code" id="PSC">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0027" name="Loading location code" id="PSC">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0028" name="Cargo Piece" id="NO">
+    <description>Không phải giá trị phù hợp.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0029" name="Cargo Weight (Gross)" id="GW">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0030" name="Invoice Price Kind Code" id="IP1">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0031" name="Invoice price condition code" id="IP2">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0032" name="Invoice Currency Code" id="IP3">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0033" name="Total Invoice Price" id="IP4">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0034" name="Freight demarcation code" id="FR1">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0035" name="Freight currency code" id="FR2">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0036" name="Freight" id="FR3">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0037" name="Insurance demarcation code" id="IN1">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0038" name="Insurance currency code" id="IN2">
+    <description>Chưa được đăng ký trong hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0039" name="Insurance amount" id="IN3">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0040" name="Place of origin code" id="OR">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0042" name="Place of origin code" id="OR">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0045" name="Country Code(Country&#xA; coded)" id="EPO">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0046" name="Item Name" id="CMN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0047" name="Customs value" id="DPR">
+    <description>Định dạng nhập vào không chính xác.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0050" name="Freight demarcation code" id="FR1">
+    <description>"B", "C", "D", "F" đang được nhập vào Mã phân loại cước vận chuyển.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0051" name="Unloading port code" id="DST">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0052" name="Classification of Individual/Organization" id="SKB">
+    <description>1. Chưa được nhập.
+2. Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0053" name="Customs Warehouse Code" id="ST">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0054" name="Customs Warehouse Code" id="ST">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0058" name="Declaration No." id="ICN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0059" name="Flight No." id="VSN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0060" name="Arrival date" id="ARR">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="S0900" name="Declaration No.&#xA;Classification of outputting corrected report&#xA;Classification of Individual/Organization&#xA;Customs Office&#xA;Customs Sub-section&#xA;Importer Code&#xA;Importer Name&#xA;Postcode&#xA;Address of Importer&#xA;Telephone number of Importer&#xA;Consignor code&#xA;Consignor name&#xA;Address 1 (Street and number/P.O.BOX)&#xA;Address 2 (Street and number/P.O.BOX)&#xA;Address 3(City name)&#xA;Address 4(Country sub-entity&#xA; name)&#xA;Postcode identification&#xA;Country Code(Country&#xA; coded)&#xA;House AWB No.&#xA;Master AWB No.&#xA;Cargo Piece&#xA;Cargo Weight (Gross)&#xA;Customs Warehouse Code&#xA;Flight No.&#xA;Arrival date&#xA;Unloading port code&#xA;Loading location code&#xA;Invoice Price Kind Code&#xA;Invoice price condition code&#xA;Invoice Currency Code&#xA;Total Invoice Price&#xA;Freight demarcation code&#xA;Freight currency code&#xA;Freight&#xA;Insurance demarcation code&#xA;Insurance currency code&#xA;Insurance amount&#xA;Item Name&#xA;Place of origin code&#xA;Customs value&#xA;Notes&#xA;Enterprise internal control number" id="ICN&#xA;JYO&#xA;SKB&#xA;CH&#xA;CHB&#xA;IMC&#xA;IMN&#xA;IMY&#xA;IMA&#xA;IMT&#xA;EPC&#xA;EPN&#xA;EPA&#xA;EP2&#xA;EP3&#xA;EP4&#xA;EPY&#xA;EPO&#xA;HAB&#xA;MAB&#xA;NO&#xA;GW&#xA;ST&#xA;VSN&#xA;ARR&#xA;DST&#xA;PSC&#xA;IP1&#xA;IP2&#xA;IP3&#xA;IP4&#xA;FR1&#xA;FR2&#xA;FR3&#xA;IN1&#xA;IN2&#xA;IN3&#xA;CMN&#xA;OR&#xA;DPR&#xA;NT1&#xA;REF">
+    <description>Không thể sử dụng (các) ký tự này.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0999" name="Importer Name&#xA;Address of Importer&#xA;Item Name&#xA;Notes" id="IMN&#xA;IMA&#xA;CMN&#xA;NT1">
+    <description>Nhập liệu quá độ dài cho phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0012" name="Consignor name" id="EPN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="R0028" name="Invoice price condition code&#xA;Invoice Currency Code&#xA;Total Invoice Price" id="IP2&#xA;IP3&#xA;IP4">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0030" name="Freight currency code&#xA;Freight&#xA;Freight demarcation code" id="FR2&#xA;FR3&#xA;FR1">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0031" name="Insurance currency code&#xA;Insurance amount" id="IN2&#xA;IN3">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0034" name="Invoice Price Kind Code" id="IP1">
+    <description>Trị giá tính thuế và Mã phân loại giá hóa đơn đều chưa được nhập.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0035" name="Invoice price condition code&#xA;Customs value" id="IP2&#xA;DPR">
+    <description>Trị giá tính thuế phải được nhập trong trường hợp Mã điều kiện giá hóa đơn.
+</description>
+    <disposition>Nhập Trị giá tính thuế.
+</disposition>
+  </response>
+  <response code="R0036" name="Invoice price condition code&#xA;Freight demarcation code&#xA;Insurance demarcation code" id="IP2&#xA;FR1&#xA;IN1">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0037" name="Invoice price condition code&#xA;Insurance demarcation code" id="IP2&#xA;IN1">
+    <description>Trong Mã điều kiện giá hóa đơn đã nhập, yêu cầu nhập Mã phân loại bảo hiểm. 
+</description>
+    <disposition>Nhập Mã phân loại bảo hiểm.
+</disposition>
+  </response>
+  <response code="R0038" name="Invoice price condition code&#xA;Insurance demarcation code" id="IP2&#xA;IN1">
+    <description>Trong Mã điều kiện giá hóa đơn đã nhập, không thể nhập Mã phân loại bảo hiểm.
+</description>
+    <disposition>Hủy giá trị nhập.
+</disposition>
+  </response>
+  <response code="R0039" name="Invoice price condition code&#xA;Freight demarcation code" id="IP2&#xA;FR1">
+    <description>Trong Mã điều kiện giá hóa đơn đã nhập, yêu cầu nhập Mã phân loại cước vận chuyển.
+</description>
+    <disposition>Nhập Mã phân loại cước vận chuyển.
+</disposition>
+  </response>
+  <response code="R0040" name="Invoice price condition code&#xA;Insurance demarcation code" id="IP2&#xA;IN1">
+    <description>Trong Mã điều kiện giá hóa đơn đã nhập, yêu cầu nhập Mã phân loại bảo hiểm.
+</description>
+    <disposition>Nhập Mã phân loại bảo hiểm.
+</disposition>
+  </response>
+  <response code="R0041" name="Invoice price condition code&#xA;Insurance demarcation code" id="IP2&#xA;IN1">
+    <description>Trong Mã điều kiện giá hóa đơn đã nhập, không thể nhập Mã phân loại bảo hiểm.
+</description>
+    <disposition>Hủy giá trị nhập.
+</disposition>
+  </response>
+  <response code="R0047" name="House AWB No.&#xA;Master AWB No." id="HAB&#xA;MAB">
+    <description>Số House AWB giống với số Master AWB
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0004" name="Declaration No." id="ICN">
+    <description>Đã được cấp phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0005" name="Declaration No." id="ICN">
+    <description>Dữ liệu không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0006" name="Declaration No." id="ICN">
+    <description>Đã bị thu hồi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0007" name="Declaration No." id="ICN">
+    <description>Đã chuyển sang thao tác bằng tay.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0008" name="Declaration No." id="ICN">
+    <description>Đã thay đổi hơn 9 lần.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0009" name="Classification of Individual/Organization" id="SKB">
+    <description>Phân loại cá nhân/tổ chức đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0010" name="Customs Office" id="CH">
+    <description>Cơ quan Hải quan đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0012" name="Importer Name" id="IMN">
+    <description>Tên người nhập khẩu đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0013" name="Customs Warehouse Code" id="ST">
+    <description>Mã địa điểm lưu kho hàng chờ thông quan dự kiến đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0016" name="Consignor code" id="EPC">
+    <description>Mã người xuất khẩu đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0017" name="Consignor name" id="EPN">
+    <description>Tên người xuất khẩu đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0018" name="Customs Warehouse Code" id="ST">
+    <description>Mã địa điểm lưu kho hàng chờ thông quan dự kiến đã nhập hiện tại không thể sử dụng được.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0024" name="Importer Name" id="IMN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="E0025" name="Telephone number of Importer" id="IMT">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="E0026" name="Address of Importer" id="IMA">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="E0028" name="Declaration No." id="ICN">
+    <description>Đã được nhập.
+</description>
+    <disposition>Hủy giá trị nhập.
+</disposition>
+  </response>
+  <response code="E0033" name="Declaration No." id="ICN">
+    <description>Chưa được khai báo.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0038" name="None" id="0000">
+    <description>Chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0039" name="None" id="0000">
+    <description>Ngày đăng ký chưa được đăng ký trong Mã người xuất nhập khẩu trong nước.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0040" name="None" id="0000">
+    <description>1. Chưa thể sử dụng Mã người nhập khẩu đã nhập.
+2. Nội dung của Mã người nhập khẩu đã bị thay đổi
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0042" name="Freight currency code" id="FR2">
+    <description>Tỷ giá Mã tiền tệ cước vận chuyển chưa hợp lệ.
+</description>
+    <disposition>1. Kiểm tra nội dung đã nhập.
+2. Thay mã tiền tệ cho "VND".</disposition>
+  </response>
+  <response code="E0043" name="Freight currency code&#xA;Freight" id="FR2&#xA;FR3">
+    <description>Phí vận chuyển vượt quá giá trị định mức.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0044" name="Invoice Currency Code&#xA;Total Invoice Price" id="IP3&#xA;IP4">
+    <description>Giá hóa đơn vượt quá giá trị định mức.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0045" name="Invoice Currency Code" id="IP3">
+    <description>Tỷ giá Mã đồng tiền của hóa đơn chưa hợp lệ.
+</description>
+    <disposition>1. Kiểm tra nội dung đã nhập.
+2. Thay mã tiền tệ cho "VND".</disposition>
+  </response>
+  <response code="E0047" name="Insurance currency code&#xA;Insurance amount" id="IN2&#xA;IN3">
+    <description>Chi phí bảo hiểm vượt quá giá trị định mức.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0048" name="Insurance currency code" id="IN2">
+    <description>Tỷ giá Mã tiền tệ của tiền bảo hiểm chưa được hợp lệ.
+</description>
+    <disposition>1. Kiểm tra nội dung đã nhập.
+2. Thay mã tiền tệ cho "VND".</disposition>
+  </response>
+  <response code="E0049" name="Total Invoice Price&#xA;Freight&#xA;Insurance amount&#xA;Customs value" id="IP4&#xA;FR3&#xA;IN3&#xA;DPR">
+    <description>Tổng trị giá tính thuế vượt quá số tiền xác định.
+</description>
+    <disposition>Thực hiện nghiệp vụ IDA
+</disposition>
+  </response>
+  <response code="E0053" name="None" id="0000">
+    <description>Tổng trị giá tính thuế bằng 0.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0055" name="Customs Sub-section" id="CHB">
+    <description>Mã đội thủ tục xử lý tờ khai chưa được đăng ký.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0056" name="Customs Sub-section" id="CHB">
+    <description>Mã đội thủ tục xử lý tờ khai chưa được đăng ký.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0084" name="Importer Code" id="IMC">
+    <description>Mã người nhập khẩu đã bị thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0085" name="None" id="0000">
+    <description>Mã người xuất nhập khẩu bị lỗi
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0086" name="None" id="0000">
+    <description>Người sử dụng phải là "Các công ty liên quan đến hậu cần"
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0087" name="None" id="0000">
+    <description>Người sử dụng phải là "Người xuất nhập khẩu"
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7000" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh riêng và bảo lãnh chung không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7001" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh riêng không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7002" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số tờ khai" đã đăng ký trong bảo lãnh khác với nội dung trong tờ khai. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7003" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Mã loại hình" đã đăng ký trong bảo lãnh khác với nội dung trong tờ khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7004" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Cơ quan Hải quan" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7005" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Ngày đăng ký tờ khai (Dự kiến)" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7006" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Thông tin bảo lãnh mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7007" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Chưa tới "Ngày bắt đầu có hiệu lực" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7008" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đã qua "Ngày hết hạn" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7009" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số tiền khả dụng cho bảo lãnh" quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7010" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Số tiền bảo lãnh được tính từ hệ thống và "mã tiền tệ" đã đăng ký trong bảo lãnh khác nhau. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7021" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh chung không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7022" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7023" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Thông tin bảo lãnh mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7024" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Chưa tới "Ngày bắt đầu có hiệu lực" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7025" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đã qua "Ngày hết hạn" đã đăng ký trong bảo lãnh. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7026" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Số dư khả dụng quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7031" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7032" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7033" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Chưa tới "Ngày bắt đầu có hiệu lực" đã đăng ký trong "Ngân hàng trả thuế thay". 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7034" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Đã qua "Ngày hết hạn" đã đăng ký trong "Ngân hàng trả thuế thay".
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7035" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Số dư khả dụng quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7036" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" đã đạt đến con số tối đa được sử dụng trong hệ thống. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7037" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số I/V" và "Số vận đơn" đã đăng ký trong bảo lãnh đều khác với nội dung của tờ khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7038" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Cơ quan Hải quan" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7039" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã lý do chưa nộp thuế" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7040" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã đối tượng thuế" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7041" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Loại tài khoản kho bạc" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7042" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã nhập phụ tham chiếu thông báo nộp thuế" chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7043" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Thông tin ngân hàng trả thuế thay mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Quản lý giá giới hạn cho cơ sở dữ liệu tờ khai xuất nhập khẩu (hàng trị giá thấp miễn thuế) không tồn tại.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Mã tiền tệ cho Phí vận chuyển, giá hóa đơn, chi phí bảo hiểm không tồn tại trong hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0007" name="None" id="0000">
+    <description>Người tiếp nhận không phải là người sử dụng phù hợp.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0990" name="None" id="0000">
+    <description>Cơ sở dữ liệu xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống (Hải quan Việt Nam).
+</disposition>
+  </response>
+  <response code="L0991" name="None" id="0000">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="L1403" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1409" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1410" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1411" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1412" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1413" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1420" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1421" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1425" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

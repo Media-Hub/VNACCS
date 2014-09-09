@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CLR11" jobname="Registration of cargo loaded confirmation (call up)" display-name="Registration of cargo loaded confirmation (call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_CLR11.xml" item_attr_edit="False" />
+  <friday href="CAM20_CLR11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KKN" name="Transship/Transit management No. (仮陸番号)" input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="150, 34" Location="217, 143" Text="Transship / Transit No. *&#xD;&#xA;(Số chuyến tải / quá cảnh)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="373, 143" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Transship/Transit management No. (仮陸番号)" check_attribute="*" attribute="I" id="KKN" figure="12" required="M" />
+  </layout>
+</jobform>

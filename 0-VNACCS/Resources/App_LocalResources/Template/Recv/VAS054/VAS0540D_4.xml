@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Rail)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0540_4.xml" item_attr_edit="False" />
+  <friday href="VAS0540_4.xml" revision="0000" />
+  <iteminfo>
+    <ranContainer repetition_max="50">
+      <item id="FRN" name="Freight car No. (貨車番号)" input_output="-" required="" attribute="A" figure="17" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CEN" name="Container/Transport equipment No. (コンテナ/運送具番号)" input_output="-" required="" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OWN" name="Container/transport equipment owner name (コンテナ/運送具所有者名)" input_output="-" required="" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TCE" name="Type of container/transport equipment (コンテナ/運送具タイプ)" input_output="-" required="" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SCE" name="Size of container/transport equipment (コンテナ/運送具サイズ)" input_output="-" required="" attribute="I" figure="3" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DOE" name="Description of transport equipment (運送具の詳細)" input_output="-" required="" attribute="A" figure="35" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1S1" name="Seal No. (Customs) (シール番号（税関）)" input_output="-" required="" attribute="A" figure="15" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1S2" name="Seal No. (Customs) (シール番号（税関）)" input_output="-" required="" attribute="A" figure="15" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1S3" name="Seal No. (Customs) (シール番号（税関）)" input_output="-" required="" attribute="A" figure="15" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1S4" name="Seal No. (Customs) (シール番号（税関）)" input_output="-" required="" attribute="A" figure="15" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1S5" name="Seal No. (Customs) (シール番号（税関）)" input_output="-" required="" attribute="A" figure="15" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2S1" name="Seal No. (Carrier) (シール番号（キャリア）)" input_output="-" required="" attribute="A" figure="15" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2S2" name="Seal No. (Carrier) (シール番号（キャリア）)" input_output="-" required="" attribute="A" figure="15" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2S3" name="Seal No. (Carrier) (シール番号（キャリア）)" input_output="-" required="" attribute="A" figure="15" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2S4" name="Seal No. (Carrier) (シール番号（キャリア）)" input_output="-" required="" attribute="A" figure="15" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2S5" name="Seal No. (Carrier) (シール番号（キャリア）)" input_output="-" required="" attribute="A" figure="15" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VAT" name="Vanning type code (バンニングタイプ)" input_output="-" required="" attribute="A" figure="3" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TOL" name="Type of lot (積荷の種類)" input_output="-" required="" attribute="A" figure="1" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CFC" name="Capacity of freight car (貨車の収容可能容積)" input_output="-" required="" attribute="F" figure="10" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="WU3" name="Capacity unit code (容積単位)" input_output="-" required="" attribute="A" figure="3" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DOF" name="Deadweight of freight car (貨車の自重)" input_output="-" required="" attribute="F" figure="10" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="WU4" name="Weight unit code (重量単位)" input_output="-" required="" attribute="A" figure="3" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="GW3" name="Gross weight after move (移動後グロス重量)" input_output="-" required="" attribute="F" figure="10" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="WU5" name="Weight unit code (重量単位)" input_output="-" required="" attribute="A" figure="3" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="NOA" name="Number of axles (車軸数)" input_output="-" required="" attribute="I" figure="1" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <navigator TabIndex="0" Location="2, 2" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="1" Size="668, 250" Location="2, 24" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="4" RepX="1" repetition_id="R01" repetition_max="50">
+      <textbox CharacterCasing="Upper" TabIndex="558" Size="132, 21" Location="133, 11" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Freight car No. (貨車番号)" check_attribute="*" attribute="A" id="FRN" figure="17" required="" />
+      <container type="GroupBox" TabIndex="6" Size="350, 139" Location="28, 35" Text="Container / dụng cụ chuyên chở" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+        <textbox CharacterCasing="Upper" TabIndex="559" Size="97, 21" Location="82, 20" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Container/Transport equipment No. (コンテナ/運送具番号)" check_attribute="*" attribute="A" id="CEN" figure="12" required="" />
+        <textbox CharacterCasing="Upper" TabIndex="563" Size="258, 21" Location="82, 106" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Description of transport equipment (運送具の詳細)" check_attribute="*" attribute="A" id="DOE" figure="35" required="" />
+        <label Size="172, 19" Location="3, 87" Text="Mô tả của dụng cụ chuyên chở" Font="Tahoma, 9pt" />
+        <textbox CharacterCasing="Upper" TabIndex="562" Size="34, 21" Location="141, 65" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Size of container/transport equipment (コンテナ/運送具サイズ)" check_attribute="*" attribute="I" id="SCE" figure="3" required="" />
+        <label Size="27, 19" Location="108, 67" Text="Loại" Font="Tahoma, 9pt" />
+        <textbox WordWrap="False" CharacterCasing="Upper" TabIndex="561" Size="20, 21" Location="82, 64" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Type of container/transport equipment (コンテナ/運送具タイプ)" check_attribute="*" attribute="A" id="TCE" figure="1" required="" />
+        <label Size="59, 19" Location="3, 67" Text="Kiểu dạng" Font="Tahoma, 9pt" />
+        <textbox CharacterCasing="Upper" TabIndex="560" Size="258, 21" Location="82, 42" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Container/transport equipment owner name (コンテナ/運送具所有者名)" check_attribute="*" attribute="A" id="OWN" figure="35" required="" />
+        <label Size="67, 19" Location="3, 40" Text="Chủ sở hữu" Font="Tahoma, 9pt" />
+        <label Size="18, 19" Location="3, 22" Text="Số" Font="Tahoma, 9pt" />
+      </container>
+      <textbox CharacterCasing="Upper" TabIndex="582" Size="20, 21" Location="541, 219" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="25" input_output="-" check_full="" check_time="" check_date="" name="Number of axles (車軸数)" check_attribute="*" attribute="I" id="NOA" figure="1" required="" />
+      <ranlabel Size="21, 14" Location="3, 14" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="88, 19" Location="31, 12" Text="Số hiệu toa tàu" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="389, 141" Text="5" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="389, 119" Text="4" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="389, 97" Text="3" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="389, 75" Text="2" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="389, 54" Text="1" Font="Tahoma, 9pt" />
+      <label Size="87, 19" Location="389, 13" Text="Số niêm phong" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="564" Size="118, 21" Location="408, 53" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Customs) (シール番号（税関）)" check_attribute="*" attribute="A" id="1S1" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="565" Size="118, 21" Location="408, 75" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Customs) (シール番号（税関）)" check_attribute="*" attribute="A" id="1S2" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="566" Size="118, 21" Location="408, 97" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Customs) (シール番号（税関）)" check_attribute="*" attribute="A" id="1S3" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="567" Size="118, 21" Location="408, 119" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Customs) (シール番号（税関）)" check_attribute="*" attribute="A" id="1S4" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="568" Size="118, 21" Location="408, 141" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Customs) (シール番号（税関）)" check_attribute="*" attribute="A" id="1S5" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="569" Size="118, 21" Location="529, 53" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Carrier) (シール番号（キャリア）)" check_attribute="*" attribute="A" id="2S1" figure="15" required="" />
+      <label Size="53, 19" Location="410, 32" Text="Hải quan" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="570" Size="118, 21" Location="529, 75" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Carrier) (シール番号（キャリア）)" check_attribute="*" attribute="A" id="2S2" figure="15" required="" />
+      <label Size="74, 19" Location="529, 32" Text="Hãng vận tải" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="571" Size="118, 21" Location="529, 97" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Carrier) (シール番号（キャリア）)" check_attribute="*" attribute="A" id="2S3" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="572" Size="118, 21" Location="529, 119" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Carrier) (シール番号（キャリア）)" check_attribute="*" attribute="A" id="2S4" figure="15" required="" />
+      <textbox CharacterCasing="Upper" TabIndex="573" Size="118, 21" Location="529, 141" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Seal No. (Carrier) (シール番号（キャリア）)" check_attribute="*" attribute="A" id="2S5" figure="15" required="" />
+      <label Size="71, 19" Location="190, 178" Text="Loại lô hàng" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="575" Size="20, 21" Location="267, 177" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Type of lot (積荷の種類)" check_attribute="*" attribute="A" id="TOL" figure="1" required="" />
+      <label Size="112, 19" Location="32, 177" Text="Hình thức xếp hàng" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="574" Size="34, 21" Location="150, 177" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="Vanning type code (バンニングタイプ)" check_attribute="*" attribute="A" id="VAT" figure="3" required="" />
+      <label Size="92, 19" Location="31, 199" Text="Trọng tải toa xe" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="576" Size="83, 21" Location="32, 219" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Capacity of freight car (貨車の収容可能容積)" check_attribute="*" attribute="F" id="CFC" figure="10" required="" />
+      <label Size="9, 19" Location="121, 220" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="577" Size="34, 21" Location="133, 219" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="20" input_output="-" check_full="" check_time="" check_date="" name="Capacity unit code (容積単位)" check_attribute="*" attribute="A" id="WU3" figure="3" required="" />
+      <label Size="90, 19" Location="175, 199" Text="Tự trọng toa xe" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="578" Size="83, 21" Location="175, 219" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="-" check_full="" check_time="" check_date="" name="Deadweight of freight car (貨車の自重)" check_attribute="*" attribute="F" id="DOF" figure="10" required="" />
+      <label Size="9, 19" Location="264, 220" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="579" Size="34, 21" Location="276, 219" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="22" input_output="-" check_full="" check_time="" check_date="" name="Weight unit code (重量単位)" check_attribute="*" attribute="A" id="WU4" figure="3" required="" />
+      <label Size="205, 19" Location="318, 199" Text="Trọng lượng hàng sau khi chuyển tải" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="580" Size="83, 21" Location="318, 218" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="-" check_full="" check_time="" check_date="" name="Gross weight after move (移動後グロス重量)" check_attribute="*" attribute="F" id="GW3" figure="10" required="" />
+      <label Size="9, 19" Location="407, 220" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="581" Size="34, 21" Location="419, 219" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="-" check_full="" check_time="" check_date="" name="Weight unit code (重量単位)" check_attribute="*" attribute="A" id="WU5" figure="3" required="" />
+      <label Size="43, 19" Location="541, 199" Text="Số trục" Font="Tahoma, 9pt" />
+    </container>
+  </layout>
+</jobform>

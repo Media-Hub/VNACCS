@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM21_COT11" jobname="保税運送申告(一般)" display-name="COT11 Correction of declared information on transportation (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_COT11.xml" item_attr_edit="False" />
+  <friday href="CAM20_COT11.xml" revision="0000" />
+  <iteminfo>
+    <item id="OLT" name="保税運送申告番号（個別運送管理番号）" input_output="+" required="M" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="136, 19" Location="209, 224" Text="Số tờ khai vận chuyển *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="351, 223" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="保税運送申告番号（個別運送管理番号）" check_attribute="*" attribute="A" id="OLT" figure="12" required="M" />
+  </layout>
+</jobform>

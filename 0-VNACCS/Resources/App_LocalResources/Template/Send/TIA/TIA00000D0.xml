@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM33_TIA" jobname="CAM33_TIA" display-name="TIA Correction of the information of tentative export and import">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL8120.xml" item_attr_edit="False" />
+  <friday href="VAL8120.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="-" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CFD" name="User code of first declarant" input_output="+" required="M" attribute="A" figure="5" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NFD" name="User name of first declarant" input_output="+" required="C" attribute="A" figure="50" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IEC" name="Importer/Exporter code" input_output="+" required="M" attribute="A" figure="13" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IEN" name="Importer/Exporter name" input_output="+" required="C" attribute="W" figure="300" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="TED" name="Time limit of re-import/re-export" input_output="+" required="M" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <ranContainer repetition_max="50">
+      <item id="CMD" name="HS code" input_output="+" required="M" attribute="A" figure="12" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="QT" name="Original quantity" input_output="+" required="M" attribute="F" figure="15" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="QTU" name="Original quantity unit code" input_output="+" required="M" attribute="A" figure="4" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="UT" name="Re-imported/re-exported quantity" input_output="+" required="M" attribute="F" figure="15" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="UTU" name="Re-imported/re-exported  quantity unit" input_output="+" required="M" attribute="A" figure="4" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="25, 19" Location="152, 132" Text="Tên" Font="Tahoma, 9pt" />
+    <label Size="25, 19" Location="138, 63" Text="Tên" Font="Tahoma, 9pt" />
+    <label Size="31, 19" Location="152, 104" Text="Mã *" Font="Tahoma, 9pt" />
+    <label Size="31, 19" Location="138, 36" Text="Mã *" Font="Tahoma, 9pt" />
+    <label Size="63, 19" Location="20, 8" Text="Số tờ khai " Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="186, 7" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+    <label Size="112, 19" Location="20, 36" Text="Người khai đầu tiên" Font="Tahoma, 9pt" />
+    <label Size="126, 19" Location="20, 104" Text="Người xuất nhập khẩu" Font="Tahoma, 9pt" />
+    <label Size="140, 19" Location="20, 179" Text="Thời hạn tái xuất/nhập *" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="6" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="186, 178" BackColor="LightCyan" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Time limit of re-import/re-export" check_attribute="*" attribute="A" id="TED" figure="8" AutoComplete="False" required="M" />
+    <navigator TabIndex="14" Location="20, 207" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="15" Size="683, 64" Location="20, 231" Font="Microsoft Sans Serif, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="10" RepX="1" repetition_id="R01" repetition_max="50">
+      <ranlabel Size="21, 15" Location="7, 14" Font="Courier New, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="102, 19" Location="33, 14" Text="Mã số hàng hóa *" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="7" Size="97, 21" Location="162, 13" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="HS code" check_attribute="*" attribute="A" id="CMD" figure="12" required="M" />
+      <label Size="112, 19" Location="368, 14" Text="Số lượng ban đầu *" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="8" Size="118, 21" Location="486, 13" TextAlign="Right" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Original quantity" check_attribute="*" attribute="F" id="QT" figure="15" required="M" />
+      <label Size="9, 19" Location="610, 14" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="9" Size="41, 21" Location="625, 13" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Original quantity unit code" check_attribute="*" attribute="A" id="QTU" figure="4" required="M" />
+      <label Size="175, 19" Location="305, 39" Text="Số lượng đã tái xuất/tái nhập *" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="118, 21" Location="486, 38" TextAlign="Right" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="+" check_full="" check_time="" check_date="" name="Re-imported/re-exported quantity" check_attribute="*" attribute="F" id="UT" figure="15" required="M" />
+      <label Size="9, 19" Location="610, 39" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="41, 21" Location="625, 38" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="+" check_full="" check_time="" check_date="" name="Re-imported/re-exported  quantity unit" check_attribute="*" attribute="A" id="UTU" figure="4" required="M" />
+    </container>
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="48, 21" Location="186, 35" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="User code of first declarant" check_attribute="*" attribute="A" id="CFD" figure="5" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="363, 21" Location="186, 62" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="User name of first declarant" check_attribute="*" attribute="A" id="NFD" figure="50" required="C" />
+    <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="4" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="186, 103" BackColor="LightCyan" Font="Courier New, 9pt" form="" order="4" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Importer/Exporter code" check_attribute="*" attribute="A" id="IEC" figure="13" AutoComplete="False" required="M" />
+    <textbox TabIndex="5" Multiline="True" Size="503, 36" Location="186, 132" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Importer/Exporter name" check_attribute="*" attribute="W" id="IEN" figure="300" required="C" />
+  </layout>
+</jobform>

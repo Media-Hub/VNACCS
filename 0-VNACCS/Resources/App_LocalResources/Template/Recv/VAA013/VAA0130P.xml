@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VIT" jobname="Registration of arrival notification A" display-name="Sea arrival notification (on ship’s stores)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA0130.xml" item_attr_edit="False" />
+  <friday href="VAA0130.xml" revision="0000" />
+  <iteminfo>
+    <item id="OUT" name="Output information name" input_output="-" required="C" attribute="W" figure="300" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="INN" name="Arrival notification number" input_output="-" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DRC" name="Date of registration / correction" input_output="-" required="C" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRC" name="Time of registration / correction" input_output="-" required="C" attribute="A" figure="4" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NZC" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NZN" name="Customs office name" input_output="-" required="C" attribute="A" figure="10" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKK" name="User code of Immigration Bureau" input_output="-" required="C" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKN" name="User name of Immigration Bureau" input_output="-" required="C" attribute="A" figure="50" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEK" name="User code of Quarantine station" input_output="-" required="C" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KEN" name="User name of Quarantine station" input_output="-" required="C" attribute="A" figure="50" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KKR" name="User code of Port authority" input_output="-" required="C" attribute="A" figure="5" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KRN" name="User name of Port authority" input_output="-" required="C" attribute="A" figure="50" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REG" name="Registrant" input_output="-" required="C" attribute="A" figure="5" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REN" name="Registrant name" input_output="-" required="C" attribute="A" figure="50" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VEC" name="Vessel call sign" input_output="-" required="C" attribute="A" figure="9" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VBN" name="Vessel name" input_output="-" required="C" attribute="A" figure="35" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KBF" name="Voyage number(1)" input_output="-" required="C" attribute="A" figure="10" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMC" name="Arrival port code" input_output="-" required="C" attribute="A" figure="5" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMN" name="Arrival port name" input_output="-" required="C" attribute="A" figure="20" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMS" name="Arrival port suffix" input_output="-" required="C" attribute="A" figure="1" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="50">
+      <item id="SHC" name="Ship's stores code" input_output="-" required="C" attribute="A" figure="6" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SHN" name="Goods description of ship's stores" input_output="-" required="C" attribute="A" figure="70" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SHK" name="Number of packages/quantity of ship's stores" input_output="-" required="C" attribute="I" figure="10" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SHT" name="Number of packages/quantity unit code of ship's stores" input_output="-" required="C" attribute="A" figure="3" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 11pt" MinOccurs="1">
+      <pagelabel Location="638, 0" Size="80, 23" Font="Courier New, 11.25pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="39, 246" Size="73, 19" Font="Tahoma, 9pt" Text="Ship's stores" />
+      <prttextbox Format="" Location="170, 27" Size="99, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="2" required="C" />
+      <label Location="544, 246" Size="104, 19" Font="Tahoma, 9pt" Text="Packages/quantity" TextAlign="MiddleRight" />
+      <prttextbox Format="dd/MM/yyyy" Location="456, 27" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="3" required="C" />
+      <label Location="292, 25" Size="158, 19" Font="Tahoma, 9pt" Text="Registration/Correction date" />
+      <label Location="12, 25" Size="126, 19" Font="Tahoma, 9pt" Text="Arrival notification No." />
+      <prttextbox Format="hh:mm" Location="558, 27" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="4" required="C" />
+      <label Location="12, 40" Size="112, 34" Font="Tahoma, 9pt" Text="Customs office&#xD;&#xA;(Cơ quan Hải quan)" />
+      <label Location="543, 25" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="170, 80" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KKK" input_output="-" name="User code of Immigration Bureau" order="7" required="C" />
+      <label Location="228, 50" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="12, 70" Size="139, 34" Font="Tahoma, 9pt" Text="Immigration Bureau&#xD;&#xA;(Cục quản lý nhập cảnh)" />
+      <prttextbox Format="" Location="243, 80" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KKN" input_output="-" name="User name of Immigration Bureau" order="8" required="C" />
+      <label Location="228, 78" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="170, 110" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KEK" input_output="-" name="User code of Quarantine station" order="9" required="C" />
+      <label Location="12, 100" Size="115, 34" Font="Tahoma, 9pt" Text="Quarantine station&#xD;&#xA;(Cơ quan kiểm dịch)" />
+      <prttextbox Format="" Location="243, 110" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KEN" input_output="-" name="User name of Quarantine station" order="10" required="C" />
+      <label Location="228, 108" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="170, 140" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="KKR" input_output="-" name="User code of Port authority" order="11" required="C" />
+      <label Location="12, 130" Size="106, 34" Font="Tahoma, 9pt" Text="Port authority&#xD;&#xA;(Cơ quan cảng vụ)" />
+      <prttextbox Format="" Location="243, 140" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="KRN" input_output="-" name="User name of Port authority" order="12" required="C" />
+      <label Location="228, 138" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="243, 162" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="REN" input_output="-" name="Registrant name" order="14" required="C" />
+      <prttextbox Format="" Location="170, 162" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="REG" input_output="-" name="Registrant" order="13" required="C" />
+      <label Location="12, 160" Size="60, 19" Font="Tahoma, 9pt" Text="Registrant" />
+      <label Location="228, 160" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="170, 184" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="VEC" input_output="-" name="Vessel call sign" order="15" required="C" />
+      <prttextbox Format="" Location="265, 184" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="VBN" input_output="-" name="Vessel name" order="16" required="C" />
+      <label Location="250, 182" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="12, 182" Size="39, 19" Font="Tahoma, 9pt" Text="Vessel" />
+      <prttextbox Format="" Location="170, 227" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="NMC" input_output="-" name="Arrival port code" order="18" required="C" />
+      <prttextbox Format="" Location="170, 206" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="KBF" input_output="-" name="Voyage number(1)" order="17" required="C" />
+      <label Location="12, 204" Size="87, 19" Font="Tahoma, 9pt" Text="Voyage No. (1)" />
+      <label Location="12, 225" Size="65, 19" Font="Tahoma, 9pt" Text="Arrival port" />
+      <prttextbox Format="" Location="235, 227" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="NMN" input_output="-" name="Arrival port name" order="19" required="C" />
+      <prttextbox Format="" Location="411, 227" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="NMS" input_output="-" name="Arrival port suffix" order="20" required="C" />
+      <label Location="220, 225" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="396, 225" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="170, 52" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="NZC" input_output="-" name="Customs office" order="5" required="C" />
+      <prttextbox Format="" Location="243, 52" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="NZN" input_output="-" name="Customs office name" order="6" required="C" />
+      <ran Location="4, 267" Size="714, 35" Font="Tahoma, 11pt" Count="22" repetition_id="R01" repetition_max="50" RepX="1" RepY="22" SpaceX="0" SpaceY="0">
+        <label Location="89, -2" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <ranlabel Location="8, 1" Size="21, 14" Font="Tahoma, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <prttextbox Format="" Location="35, 1" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SHC" input_output="-" name="Ship's stores code" order="21" required="C" />
+        <prttextbox Format="" Multiline="True" Location="104, 1" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SHN" input_output="-" name="Goods description of ship's stores" order="22" required="C" />
+        <prttextbox Format="###,###" Location="495, 1" Size="103, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="SHK" input_output="-" name="Number of packages/quantity of ship's stores" order="23" required="C" />
+        <label Location="604, -2" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="619, 1" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SHT" input_output="-" name="Number of packages/quantity unit code of ship's stores" order="24" required="C" />
+      </ran>
+      <prttextbox Format="" Visible="False" Location="0, 1025" Size="1401, 19" BorderStyle="None" Font="Tahoma, 11.25pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="OUT" input_output="-" name="Output information name" order="1" required="C" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="タイトル１" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+    </page>
+    <page Font="Microsoft Sans Serif, 11pt" MaxOccurs="6">
+      <pagelabel Location="638, 0" Size="80, 23" Font="Courier New, 11.25pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="36, 44" Size="73, 19" Font="Tahoma, 9pt" Text="Ship's stores" />
+      <label Location="544, 44" Size="104, 19" Font="Tahoma, 9pt" Text="Packages/quantity" />
+      <label Location="12, 25" Size="126, 19" Font="Tahoma, 9pt" Text="Arrival notification No." />
+      <prttextbox Format="" Location="144, 27" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="2" required="C" />
+      <label Location="292, 25" Size="158, 19" Font="Tahoma, 9pt" Text="Registration/Correction date" />
+      <prttextbox Format="dd/MM/yyyy" Location="456, 27" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="3" required="C" />
+      <label Location="543, 25" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="hh:mm" Location="558, 27" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="4" required="C" />
+      <prttextbox Format="" Location="196, 2" Size="1401, 19" BorderStyle="None" Font="Tahoma, 11.25pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="OUT" input_output="-" name="Output information name" order="1" required="C" />
+      <ran Location="1, 66" Size="714, 35" Font="Tahoma, 11pt" Count="28" Offset="22" repetition_id="R01" repetition_max="50" RepX="1" RepY="28" SpaceX="0" SpaceY="0">
+        <ranlabel Location="8, 1" Size="21, 14" Font="Tahoma, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <label Location="89, -2" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="35, 1" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SHC" input_output="-" name="Ship's stores code" order="21" required="C" />
+        <prttextbox Format="" Multiline="True" Location="104, 1" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SHN" input_output="-" name="Goods description of ship's stores" order="22" required="C" />
+        <prttextbox Format="###,###" Location="495, 1" Size="103, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="SHK" input_output="-" name="Number of packages/quantity of ship's stores" order="23" required="C" />
+        <label Location="604, -2" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="619, 1" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SHT" input_output="-" name="Number of packages/quantity unit code of ship's stores" order="24" required="C" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

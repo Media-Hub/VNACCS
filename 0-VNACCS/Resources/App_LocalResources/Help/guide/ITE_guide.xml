@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ITE" name="Reference of the list of tax exemption">
+  <item no="1" name="Customs office" id="CH" required="" code="Customs office code">Nhập mã cơ quan Hải quan.
+ (tham khảo bảng mã cơ quan Hải quan trên website Hải quan: www.customs.gov.vn)
+
+</item>
+  <item no="2" name="Import export classification" id="IED" required="" code="">Nhập mã phân loại nhập khẩu/ xuất khẩu như dưới đây:
+“I”: khai báo nhập khẩu
+“E”: khai báo xuất khẩu
+
+</item>
+  <item no="3" name="Declarant code" id="UCD" required="" code="Importer/Exporter code">Nhập Mã người khai.
+
+</item>
+  <item no="4" name="Date of declaration (from)" id="IDF" required="" code="">Nhập Ngày khai báo từ.
+
+</item>
+  <item no="5" name="Date of declaration (to)" id="IDT" required="" code="">Nhập Ngày khai báo đến.
+
+</item>
+  <item no="6" name="Common management code" id="CCN" required="" code="">Nhập Mã số quản lý danh sách miễn thuế chung.</item>
+  <item no="7" name="Investment license or Investment Certificate No." id="ICN" required="" code="">Nhập số Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư.</item>
+  <item no="8" name="Registration classification" id="APC" required="" code="">“A”: Đăng ký
+“N”: Không đăng ký
+“C”: Hủy
+“I”: Chỉ dẫn
+“P”: Tạm dừng
+
+</item>
+  <item no="9" name="Tax exemption list No." id="TEN" required="" code="">Nhập số danh mục miễn thuế.</item>
+</guide>

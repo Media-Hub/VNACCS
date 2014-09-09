@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="GOR11" name="Correction of departure notification B(call up)">
+  <item no="1" name="Departure notification No." id="AND" required="" code="">Nhập số thông báo rời cảng</item>
+</guide>

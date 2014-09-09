@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ISF" name="Reference of Application/Permit for Certificate on satisfaction of food's quality for importation">
+  <item no="1" name="OGA Application No./Permit/license No." id="APN" required="" code="">Trường hợp tham chiếu nội dung đơn xin cấp phép, hãy nhập Số đơn xin cấp phép.
+Trường hợp tham chiếu nội dung giấy phép, hãy nhập Số giấy phép.
+</item>
+  <item no="2" name="Reference type" id="KBN" required="" code="">Sẽ nhận một trong những giá trị sau:
+"A" : Tra cứu nội dung đơn xin cấp phép 
+"B" : Tra cứu nội dung giấy phép</item>
+</guide>

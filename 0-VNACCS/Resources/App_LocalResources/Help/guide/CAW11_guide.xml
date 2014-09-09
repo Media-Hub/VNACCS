@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CAW11" name="Manifest correction B (call up)">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn mã yêu cầu cần thực hiện
+2: Bổ sung
+5:  Sửa
+1:  Xóa/Hủy
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Nhập loại hình
+I: Nhập khẩu
+E: Xuất khẩu
+</item>
+  <item no="3" name="Flight No. 1 (flight number)" id="FL1" required="" code="">Nhập số hiệu chuyến bay dài 6 ký tự
+1.  Nhập 2 ký tự mã hãng hàng không và 3 đến 4 ký tự số hiệu chuyến bay
+2.  Có thể nhập 3 đến 4 ký tự cho số hiệu chuyến bay. Đối với số hiệu chuyến bay có thể dùng chữ cái cho ký tự thứ 4, 3 ký tự còn lại chỉ có thể dùng chữ số.
+</item>
+  <item no="4" name="Flight No. 2 (date)" id="FL2" required="" code="">Nhập ngày chuyến bay theo định dạng DDMMM</item>
+  <item no="5" name="Port of discharge code/Port of loading code" id="DPR" required="" code="IATA airport code and IATA city code">Nhập mã sân bay dỡ hàng/xếp hàng dài 3 ký tự theo bảng mã sân bay, thành phố của IATA
+Mã sân bay xếp hàng/sân bay dỡ hàng phải là sân bay trong nội địa Việt Nam
+</item>
+  <item no="6" name="AWB No." id="AWB" required="" code="">Nhập số không vận đơn dài 20 ký tự (không cần nhập trong trường hợp bổ sung)</item>
+</guide>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VBX" jobname="1" display-name="Cancelled vessel basic information">
+<meta_info format_Version="1.0" revision="0000" friday="VAA0030.xml" item_attr_edit="False" />
+  <friday href="VAA0030.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Vessel call sign
+" input_output="-" required="" attribute="A" figure="9" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Vessel name" input_output="-" required="" attribute="A" figure="35" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Cancellation date" input_output="-" required="" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Cancellation time
+
+" input_output="-" required="" attribute="A" figure="4" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Input user code
+
+" input_output="-" required="" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Input user name
+
+" input_output="-" required="" attribute="A" figure="50" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Vessel operator code" input_output="-" required="" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="Vessel operator name" input_output="-" required="" attribute="A" figure="70" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="ZSゴシック, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 27" Font="Tahoma, 11.25pt" Text="Cancelled vessel basic information" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="dd/MM/yyyy" Location="237, 217" Size="101, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A03" input_output="-" name="Cancellation date" order="3" required="" />
+      <prttextbox Format="" Location="237, 184" Size="91, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="A01" input_output="-" name="Vessel call sign
+" order="1" required="" />
+      <prttextbox Format="" Location="346, 184" Size="333, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A02" input_output="-" name="Vessel name" order="2" required="" />
+      <label Location="44, 213" Size="168, 23" Font="Tahoma, 11.25pt" Text="Cancellation date / time" />
+      <label Location="329, 180" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <label Location="44, 180" Size="48, 23" Font="Tahoma, 11.25pt" Text="Vessel" />
+      <prttextbox Format="" Location="237, 253" Size="54, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A05" input_output="-" name="Input user code
+
+" order="5" required="" />
+      <prttextbox Format="hh:mm" Location="356, 217" Size="54, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="A04" input_output="-" name="Cancellation time
+
+" order="4" required="" />
+      <label Location="339, 213" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <label Location="44, 249" Size="76, 23" Font="Tahoma, 11.25pt" Text="Input user" />
+      <prttextbox Format="" Location="237, 295" Size="64, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A07" input_output="-" name="Vessel operator code" order="7" required="" />
+      <prttextbox Format="" Multiline="True" Location="326, 253" Size="233, 34" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A06" input_output="-" name="Input user name
+
+" order="6" required="" />
+      <label Location="309, 249" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <label Location="44, 291" Size="111, 23" Font="Tahoma, 11.25pt" Text="Vessel operator" />
+      <prttextbox Format="" Multiline="True" Location="326, 295" Size="323, 34" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="A08" input_output="-" name="Vessel operator name" order="8" required="" />
+      <label Location="309, 291" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+    </page>
+  </layout>
+</jobform>

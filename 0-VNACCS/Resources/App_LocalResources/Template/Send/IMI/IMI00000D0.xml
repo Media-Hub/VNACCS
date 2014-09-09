@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IMI" jobname="Reference of manifest information A" display-name="Reference of manifest information A">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_IMI.xml" item_attr_edit="True" />
+  <friday href="CAM20_IMI.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type (照会種別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,A,Manifest summary information,B,Main information on B/L,C,Main information on container,D,Manifest container information" out_flg="0" in_flg="1" />
+    <item id="REF" name="Reference No. (照会番号)" input_output="+" required="C" attribute="I" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="SEN" name="Vessel call sign (船舶コード)" input_output="+" required="C" attribute="A" figure="9" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DPR" name="Port of discharge code/Port of loading code (船卸港／船積港)" input_output="+" required="C" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="EDA" name="Port of discharge suffix/Port of loading suffix (船卸港枝番／船積港枝番)" input_output="+" required="C" attribute="I" figure="1" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="VOY" name="Voyage No. (航海番号)" input_output="+" required="C" attribute="A" figure="10" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCA" name="Carrier code (キャリアコード)" input_output="+" required="C" attribute="A" figure="6" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CNO" name="Container No. (コンテナ番号)" input_output="+" required="C" attribute="A" figure="12" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="89, 19" Location="162, 219" Text="Import / Export" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="93" TabIndex="4" Size="41, 22" Location="319, 218" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="3" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <combobox DropDownWidth="271" TabIndex="0" Size="41, 22" Location="319, 163" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;A,Manifest summary information&#xD;&#xA;B,Main information on B/L&#xD;&#xA;C,Main information on container&#xD;&#xA;D,Manifest container information&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type (照会種別)" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <label Size="97, 19" Location="162, 164" Text="Reference type *" Font="Tahoma, 9pt" />
+    <label Size="39, 19" Location="162, 248" Text="Vessel" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="76, 21" Location="319, 247" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Vessel call sign (船舶コード)" check_attribute="*" attribute="A" id="SEN" figure="9" required="C" />
+    <label Size="149, 19" Location="162, 275" Text="Port of discharge / loading" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="8" Size="48, 21" Location="319, 274" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Port of discharge code/Port of loading code (船卸港／船積港)" check_attribute="*" attribute="A" id="DPR" figure="5" required="C" />
+    <label Size="9, 19" Location="370, 275" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="20, 21" Location="382, 274" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Port of discharge suffix/Port of loading suffix (船卸港枝番／船積港枝番)" check_attribute="*" attribute="I" id="EDA" figure="1" required="C" />
+    <label Size="71, 19" Location="162, 332" Text="Carrier code" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="14" Size="55, 21" Location="319, 331" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Carrier code (キャリアコード)" check_attribute="*" attribute="A" id="SCA" figure="6" required="C" />
+    <label Size="82, 19" Location="162, 191" Text="Reference No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="319, 190" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Reference No. (照会番号)" check_attribute="*" attribute="I" id="REF" figure="12" required="C" />
+    <label Size="67, 19" Location="162, 303" Text="Voyage No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="13" Size="83, 21" Location="319, 303" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="Voyage No. (航海番号)" check_attribute="*" attribute="A" id="VOY" figure="10" required="C" />
+    <label Size="79, 19" Location="162, 361" Text="Container No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="17" Size="97, 21" Location="319, 361" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Container No. (コンテナ番号)" check_attribute="*" attribute="A" id="CNO" figure="12" required="C" />
+  </layout>
+</jobform>

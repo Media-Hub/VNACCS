@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="TEA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Tax exemption list No." id="TEN">
+    <description>Danh mục miễn thuế này đã được người dùng khác đăng ký.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0001" name="Import export classification" id="IEC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0002" name="Import export classification" id="IEC">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Customs office" id="CH">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0005" name="Time limit of tax exemption" id="TED">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Investment project name" id="IPN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0007" name="Place of project construction" id="PPC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0008" name="Project objective" id="PO">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0009" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0012" name="Scope of exemption list registration" id="SEL">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0013" name="Investment licence or Investment Certificate No." id="ICN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0014" name="Date of Certificate" id="DOC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0015" name="Date of Certificate" id="DOC">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0016" name="Issued by" id="IB">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0017" name="Address of Declarant" id="IMA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0018" name="Date of adjustment certificate" id="DA1～DA5">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Telephone number of Declarant" id="IMT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0020" name="Importer/Exporter Code" id="C01～C15">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Commitment to use for right purposes" id="CRP">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0022" name="Item name" id="CMN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0023" name="Registration tax exemption quantity" id="QT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0025" name="Registration tax exemption quantity unit code" id="QTU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0026" name="Registration tax exemption quantity unit code" id="QTU">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Used quantity" id="UT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0029" name="Used quantity unit" id="UTU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0030" name="Used quantity unit" id="UTU">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0033" name="Time limit of tax exemption" id="TED">
+    <description>Thời hạn miễn thuế là thời gian trước thời gian hiện tại
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0035" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0037" name="Planned date of importation/exportation" id="PTI">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0246" name="None" id="0000">
+    <description>Hải quan nhập vào không thể sử dụng cho nghiệp vụ này.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0901" name="Tax exemption list No." id="TEN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0902" name="Customs office" id="CH">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0903" name="Address of Declarant" id="IMA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0904" name="Telephone number of Declarant" id="IMT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0905" name="Time limit of tax exemption" id="TED">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0906" name="Investment project name" id="IPN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0907" name="Place of project construction" id="PPC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0908" name="Project objective" id="PO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0909" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0910" name="Scope of exemption list registration" id="SEL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0911" name="Planned date of importation/exportation" id="PTI">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0912" name="Investment licence or Investment Certificate No." id="ICN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0913" name="Date of Certificate" id="DOC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0914" name="Issued by" id="IB">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0915" name="Licence or certificate adjustment number of times" id="IC1～IC5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0916" name="Adjustment certificate No." id="CA1～CA5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0917" name="Date of adjustment certificate" id="DA1～DA5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0918" name="Adjustment Issued by" id="AI1～AI5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0919" name="Importer/Exporter Code" id="C01～C15">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0920" name="Importer/Exporter Name" id="N01～N15">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0921" name="Remarks (for declarant use)" id="IR">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0922" name="Commitment to use for right purposes" id="CRP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0923" name="Item name" id="CMN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0924" name="Registration tax exemption quantity" id="QT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0925" name="Registration tax exemption quantity unit code" id="QTU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0927" name="Used quantity unit" id="UTU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0928" name="Used quantity" id="UT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0931" name="Value" id="VA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0932" name="Estimated value" id="EVA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0933" name="Import export classification" id="IEC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0999" name="Address of Declarant&#xA;Investment project name&#xA;Place of project construction&#xA;Project objective&#xA;Scope of exemption list registration&#xA;Issued by&#xA;Adjustment Issued by&#xA;Importer/Exporter Name&#xA;Remarks (for declarant use)&#xA;Commitment to use for right purposes&#xA;Item name" id="IMA&#xA;IPN&#xA;PPC&#xA;PO&#xA;SEL&#xA;IB&#xA;AI1～AI5&#xA;N01～N15&#xA;IR&#xA;CRP&#xA;CMN">
+    <description>Nhập liệu quá độ dài cho phép.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0001" name="Licence or certificate adjustment number of times&#xA;Adjustment certificate No.&#xA;Date of adjustment certificate&#xA;Adjustment Issued by" id="IC1～IC5&#xA;CA1～CA5&#xA;DA1～DA5&#xA;AI1～AI5">
+    <description>Yêu cầu nhập lần điều chỉnh của giấy phép.</description>
+    <disposition>Nhập Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư điều chỉnh lần.
+</disposition>
+  </response>
+  <response code="R0002" name="Importer/Exporter Code&#xA;Importer/Exporter Name" id="C01～C15&#xA;N01～N15">
+    <description>Yêu cầu mã người xuất nhập khẩu.
+</description>
+    <disposition>Nhập Mã người xuất nhập khẩu.
+</disposition>
+  </response>
+  <response code="R0003" name="Registration tax exemption quantity&#xA;Used quantity" id="QT&#xA;UT">
+    <description>Số lượng đã sử dụng lớn hơn số lượng gốc.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0004" name="Registration tax exemption quantity unit code&#xA;Used quantity unit" id="QTU&#xA;UTU">
+    <description>Đơn vị (của số lượng đã sử dụng) và Đơn vị tính số lượng gốc phải giống nhau.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0005" name="Importer/Exporter Code" id="C01～C15">
+    <description>Giá trị đã nhập bị trùng lặp.
+</description>
+    <disposition>Nhập giá trị khác
+</disposition>
+  </response>
+  <response code="R0007" name="Licence or certificate adjustment number of times" id="IC1～IC5">
+    <description>Nhập giá trị liên tiếp.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0008" name="Importer/Exporter Code" id="C01～C15">
+    <description>Nhập giá trị liên tiếp.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Customs office" id="CH">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0003" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Mã miễn/Giảm/Không chịu thuế xuất nhập khẩu hiện tại không thể sử dụng.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Mã miễn/Giảm/Không chịu thuế xuất nhập khẩu hiện tại không thể sử dụng.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0006" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Mã miễn/Giảm/Không chịu thuế xuất nhập khẩu hiện tại không thể sử dụng.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0007" name="Tax exemption list No." id="TEN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0008" name="Tax exemption list No." id="TEN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0009" name="Tax exemption list No." id="TEN">
+    <description>Danh mục miễn thuế này trong trạng thái bị hủy
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0010" name="Tax exemption list No." id="TEN">
+    <description>Danh mục miễn thuế này trong trạng thái chưa đăng ký
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0011" name="Tax exemption list No." id="TEN">
+    <description>Danh mục miễn thuế đang được sử dụng cho tờ khai khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0012" name="Exemption/Reduction code for Import/export tax" id="RE">
+    <description>Mã miễn/Giảm/Không chịu thuế xuất nhập khẩu hiện tại không thể sử dụng.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0013" name="Item name" id="CMN">
+    <description>Có một (nhiều) "Mô tả hàng hóa" bị trống.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0020" name="None" id="0000">
+    <description>Đã vượt quá 100 cột nhập.  
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Ngày bắt đầu áp dụng Mã miễn/Giảm/Không chịu thuế chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Ngày kết thúc áp dụng Mã miễn/Giảm/Không chịu thuế chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Ngày bắt đầu hoặc ngày kết thúc áp dụng Mã miễn/Giảm/Không chịu thuế chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="L0007" name="None" id="0000">
+    <description>Người tiếp nhận không phải là người sử dụng thích hợp.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0009" name="None" id="0000">
+    <description>Tên người khai báo chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0010" name="Importer/Exporter Code" id="C01～C15">
+    <description>Tên người xuất nhập khẩu chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0011" name="None" id="0000">
+    <description>Mã người xuất nhập khẩu của người sử dụng đăng nhập chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>
+Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+</help>

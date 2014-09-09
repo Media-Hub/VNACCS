@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="CLR11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Transship/Transit management No." id="KKN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số quản lí chuyển tải/quá cảnh</disposition>
+  </response>
+  <response code="S0002" name="Transship/Transit management No." id="KKN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số quản lí chuyển tải/quá cảnh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Transship/Transit management No." id="KKN">
+    <description>Thông tin chuyển tải/quá cảnh đã nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lí chuyển tải/quá cảnh</disposition>
+  </response>
+  <response code="E0003" name="Transship/Transit management No." id="KKN">
+    <description>Thông tin chuyển tải/quá cảnh đã nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lí chuyển tải/quá cảnh</disposition>
+  </response>
+  <response code="E0004" name="Transship/Transit management No." id="KKN">
+    <description>Thông tin xếp hàng hóa chuyển tải/quá cảnh đã nhập đã được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lí chuyển tải/quá cảnh</disposition>
+  </response>
+  <response code="E0005" name="Transship/Transit management No." id="KKN">
+    <description>Thông tin xếp hàng hóa chuyển tải/quá cảnh đã nhập đã được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lí chuyển tải/quá cảnh</disposition>
+  </response>
+</help>

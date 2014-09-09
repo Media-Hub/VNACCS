@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="IVS (Reference information of vessel basic information)" system="NACCS" jobcode="IVS" autosend="false">
+        <item from="A19" from_source="COM" to="VEC" to_source="COM" />
+    </destination>
+    <destination no="2" text="INP (Reference information of crew list information)" system="NACCS" jobcode="INP" autosend="false">
+        <item from="A36" from_source="COM" to="NUM" to_source="COM" />
+    </destination>
+    <destination no="3" text="INP (Reference information of passenger list information)" system="NACCS" jobcode="INP" autosend="false">
+        <item from="A42" from_source="COM" to="NUM" to_source="COM" />
+    </destination>
+</link>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_GIR" jobname="Registration of arrival notification B" display-name="Air cancelled arrival notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA1310.xml" item_attr_edit="False" />
+  <friday href="VAA1310.xml" revision="0000" />
+  <iteminfo>
+    <item id="AND" name="Arrival notification No.(到着届番号)" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAD" name="Cancellation date(取消年月日)" input_output="-" required="" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAT" name="Cancellation time(取消時刻)" input_output="-" required="" attribute="A" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IPN" name="Input user(入力者コード)" input_output="-" required="" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IUN" name="Input user name(入力者名)" input_output="-" required="" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL1" name="Main arriving flight number 1 (flight number)(便名１)" input_output="-" required="" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL2" name="Main arriving flight number 2 (date)(便名２)" input_output="-" required="" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARP" name="Arrival airport(到着空港コード)" input_output="-" required="" attribute="A" figure="3" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARN" name="Arrival airport name(到着空港名)" input_output="-" required="" attribute="A" figure="20" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="ZSゴシック, 11pt" MinOccurs="1">
+      <label Location="327, 208" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <pagelabel Location="0, 0" Size="718, 21" Font="Tahoma, 12pt" Text="Air cancelled arrival notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="dd/MM/yyyy" Location="225, 212" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="CAD" input_output="-" name="Cancellation date(取消年月日)" order="2" required="" />
+      <prttextbox Format="" Location="225, 183" Size="117, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AND" input_output="-" name="Arrival notification No.(到着届番号)" order="1" required="" />
+      <prttextbox Format="hh:mm" Location="342, 212" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="CAT" input_output="-" name="Cancellation time(取消時刻)" order="3" required="" />
+      <label Location="33, 238" Size="75, 23" Font="Tahoma, 11pt" Text="Input user" />
+      <label Location="33, 180" Size="153, 23" Font="Tahoma, 11pt" Text="Arrival notification No." />
+      <label Location="33, 208" Size="164, 23" Font="Tahoma, 11pt" Text="Cancellation date / time" />
+      <prttextbox Format="" Location="225, 264" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="IUN" input_output="-" name="Input user name(入力者名)" order="5" required="" />
+      <prttextbox Format="" Location="225, 241" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="IPN" input_output="-" name="Input user(入力者コード)" order="4" required="" />
+      <prttextbox Format="" Location="225, 296" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="FL1" input_output="-" name="Main arriving flight number 1 (flight number)(便名１)" order="6" required="" />
+      <label Location="33, 292" Size="157, 23" Font="Tahoma, 11pt" Text="Main arriving flight No." />
+      <prttextbox Format="" Location="304, 296" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="FL2" input_output="-" name="Main arriving flight number 2 (date)(便名２)" order="7" required="" />
+      <prttextbox Format="" Location="225, 324" Size="35, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="ARP" input_output="-" name="Arrival airport(到着空港コード)" order="8" required="" />
+      <label Location="33, 320" Size="96, 23" Font="Tahoma, 11pt" Text="Arrival airport" />
+      <label Location="290, 293" Size="11, 23" Font="Tahoma, 11pt" Text="/" />
+      <prttextbox Format="" Location="279, 325" Size="189, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="ARN" input_output="-" name="Arrival airport name(到着空港名)" order="9" required="" />
+      <label Location="264, 321" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+    </page>
+  </layout>
+</jobform>

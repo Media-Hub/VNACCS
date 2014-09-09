@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SFA" name="Application for Certificate on satisfaction of food's quality for importation">
+  <item no="1" name="Submitter code" id="SMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="2" name="Office of application code" id="APP" required="" code="OGA's Office Code">
+  </item>
+  <item no="3" name="OGA Application No." id="APN" required="" code="">Số đơn xin cấp phép là số được hệ thống cấp để xác định cho một đơn xin cấp phép</item>
+  <item no="4" name="Function code" id="FNC" required="" code="Function code list">Sẽ nhận một trong những giá trị sau:
+1: Đăng ký
+2: Chỉnh sửa
+3: Hủy</item>
+  <item no="5" name="Permit type" id="APT" required="" code="Permit type">
+  </item>
+  <item no="6" name="Exporter name" id="EXN" required="" code="">
+  </item>
+  <item no="7" name="Exporter address (Post code)" id="EPC" required="" code="">
+  </item>
+  <item no="8" name="Exporter address (Building name etc. …)" id="EXA" required="" code="">
+  </item>
+  <item no="9" name="Exporter address (Street and number/P.O.Box)" id="EXS" required="" code="">
+  </item>
+  <item no="10" name="Exporter address (District/Commune name)" id="EXD" required="" code="">
+  </item>
+  <item no="11" name="Exporter address (City name)" id="EXC" required="" code="">
+  </item>
+  <item no="12" name="Exporter address (Country code)" id="ECC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="13" name="Exporter address (Phone number)" id="EPN" required="" code="">
+  </item>
+  <item no="14" name="Exporter address (Facsimile)" id="EXF" required="" code="">
+  </item>
+  <item no="15" name="Exporter address (Email)" id="EXE" required="" code="">
+  </item>
+  <item no="16" name="Contract No." id="CNN" required="" code="">
+  </item>
+  <item no="17" name="B/L No." id="BLN" required="" code="">
+  </item>
+  <item no="18" name="Departure port code" id="DPC" required="" code="UN/LOCODE">
+  </item>
+  <item no="19" name="Departure port name" id="DPN" required="" code="">
+  </item>
+  <item no="20" name="Importer code" id="IMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="21" name="Importer name" id="IMN" required="" code="">Nhập "Tên thương nhân nhập khẩu" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="22" name="Importer address (Post code)" id="IPC" required="" code="">
+  </item>
+  <item no="23" name="Importer address (Building name etc. …)" id="IMA" required="" code="">Nhập "Địa chỉ của thương nhân nhập khẩu (Số nhà, tên đường)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="24" name="Importer address (Country code)" id="ICC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="25" name="Importer address (Phone number)" id="IPN" required="" code="">Nhập "Địa chỉ của thương nhân nhập khẩu (Số điện thoại)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="26" name="Importer address (Facsimile)" id="IMF" required="" code="">
+  </item>
+  <item no="27" name="Importer address (Email)" id="IME" required="" code="">
+  </item>
+  <item no="28" name="Arrival port code" id="APC" required="" code="UN/LOCODEUN/LOCODE(3 digits without 2 digits of country code)&#xA;Station code&#xA;Border gate code">Kiểm tra cơ sở dữ liệu theo thứ tự:
+1. UN/LOCODEUN/LOCODE(chỉ gồm 3 chữ số không có 2 chữ số của mã quốc gia)
+2. Mã nhà ga
+3. Mã cửa khẩu</item>
+  <item no="29" name="Arrival port name" id="ARN" required="" code="">Nhập "Tên bến đến" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="30" name="Estimated date of importation" id="EDI" required="" code="">
+  </item>
+  <item no="31" name="Total value" id="TLV" required="" code="">Có thể nhập tối đa 16 chữ số trong phần nguyên và tối đa 2 chữ số sau dấu thập phân.</item>
+  <item no="32" name="Currency unit" id="CU" required="" code="Currency code (ISO4217/alphabet)">
+  </item>
+  <item no="33" name="Place of consolidation" id="PC" required="" code="">
+  </item>
+  <item no="34" name="Date of inspection" id="DI" required="" code="">
+  </item>
+  <item no="35" name="Place of inspection" id="PI" required="" code="">
+  </item>
+  <item no="36" name="Enclosed documents" id="AD" required="" code="">
+  </item>
+  <item no="37" name="Remarks" id="RMK" required="" code="">
+  </item>
+  <item no="38" name="Person in charge name" id="PIC" required="" code="">
+  </item>
+  <item no="39" name="Goods description" id="GDS" required="" code="">
+  </item>
+  <item no="40" name="HS code" id="HSC" required="" code="HS code">
+  </item>
+  <item no="41" name="Country of origin" id="CO" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="42" name="Quantity" id="QT" required="" code="">Không thể nhập phần thập phân.</item>
+  <item no="43" name="Quantity unit" id="QTU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="44" name="Weight" id="WG" required="" code="">Có thể nhập tối đa 6 chữ số trong phần nguyên và tối đa 3 chữ số sau dấu thập phân.</item>
+  <item no="45" name="Weight unit" id="WGU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"</item>
+</guide>

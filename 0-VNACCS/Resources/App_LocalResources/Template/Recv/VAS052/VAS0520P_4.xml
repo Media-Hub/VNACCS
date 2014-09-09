@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Sea)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0520_4.xml" item_attr_edit="False" />
+  <friday href="VAS0520_4.xml" revision="0000" />
+  <iteminfo>
+    <ranContainer repetition_max="100">
+      <item id="CNO" name="Container No. (コンテナ番号)" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL1" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL2" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL3" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL4" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL5" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SL6" name="Seal No. (シール番号)" input_output="-" required="" attribute="A" figure="15" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SIZ" name="Container size (コンテナサイズ)" input_output="-" required="" attribute="A" figure="2" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TYP" name="Container type (コンテナタイプ)" input_output="-" required="" attribute="A" figure="2" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DLV" name="Delivery type code (荷渡し形態)" input_output="-" required="" attribute="A" figure="2" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="COW" name="Container ownership type Code (コンテナ所有タイプ)" input_output="-" required="" attribute="A" figure="3" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VAN" name="Vanning type code (バンニングタイプ)" input_output="-" required="" attribute="A" figure="3" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MaxOccurs="13">
+      <pagelabel Location="653, 1024" Size="65, 23" Font="Tahoma, 9pt" Text="HH:mm:ss" TextAlign="BottomRight" PageFormat="PrintTime" />
+      <pagelabel Location="550, 1024" Size="100, 23" Font="Tahoma, 9pt" Text="yyyy/MM/dd" TextAlign="BottomRight" PageFormat="PrintDate" />
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 12pt" Text="Reference information on cargo (Sea)" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="6, 23" Size="570, 121" Font="Tahoma, 9pt" Count="8" repetition_id="R01" repetition_max="100" RepX="1" RepY="8" SpaceX="0" SpaceY="0">
+        <ranlabel Location="6, 18" Size="28, 14" Font="Tahoma, 9pt" figure="3" repetition_id="R01" Value="0" PadLeft="True" />
+        <label Location="36, 16" Size="79, 19" Font="Tahoma, 9pt" Text="Container No." />
+        <prttextbox Format="" Location="123, 18" Size="97, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="CNO" input_output="-" name="Container No. (コンテナ番号)" order="1" required="" />
+        <label Location="36, 40" Size="50, 19" Font="Tahoma, 9pt" Text="Seal No." />
+        <prttextbox Format="" Location="123, 42" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL1" input_output="-" name="Seal No. (シール番号)" order="2" required="" />
+        <prttextbox Format="" Location="244, 42" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL2" input_output="-" name="Seal No. (シール番号)" order="3" required="" />
+        <prttextbox Format="" Location="365, 42" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL3" input_output="-" name="Seal No. (シール番号)" order="4" required="" />
+        <prttextbox Format="" Location="123, 66" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL4" input_output="-" name="Seal No. (シール番号)" order="5" required="" />
+        <prttextbox Format="" Location="244, 66" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL5" input_output="-" name="Seal No. (シール番号)" order="6" required="" />
+        <prttextbox Format="" Location="365, 66" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="SL6" input_output="-" name="Seal No. (シール番号)" order="7" required="" />
+        <label Location="36, 89" Size="26, 19" Font="Tahoma, 9pt" Text="Size" />
+        <prttextbox Format="" Location="68, 91" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="SIZ" input_output="-" name="Container size (コンテナサイズ)" order="8" required="" />
+        <label Location="101, 89" Size="31, 19" Font="Tahoma, 9pt" Text="Type" />
+        <prttextbox Format="" Location="138, 91" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="TYP" input_output="-" name="Container type (コンテナタイプ)" order="9" required="" />
+        <label Location="171, 89" Size="76, 19" Font="Tahoma, 9pt" Text="Delivery type" />
+        <prttextbox Format="" Location="258, 91" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="DLV" input_output="-" name="Delivery type code (荷渡し形態)" order="10" required="" />
+        <label Location="291, 89" Size="90, 19" Font="Tahoma, 9pt" Text="Ownership type" />
+        <prttextbox Format="" Location="387, 91" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="COW" input_output="-" name="Container ownership type Code (コンテナ所有タイプ)" order="11" required="" />
+        <label Location="427, 89" Size="76, 19" Font="Tahoma, 9pt" Text="Vanning type" />
+        <prttextbox Format="" Location="509, 91" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="VAN" input_output="-" name="Vanning type code (バンニングタイプ)" order="12" required="" />
+        <rectangle Location="0, 0" Size="570, 121" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

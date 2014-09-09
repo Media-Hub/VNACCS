@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="IRM (Reference information of main information on B/L (Rail))" system="NACCS" jobcode="IRM" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="TRN" from_source="COM" to="TRN" to_source="COM" />
+        <item from="ARD" from_source="COM" to="ARD" to_source="COM" />
+        <item from="IDT" from_source="COM" to="IDT" to_source="COM" />
+        <item from="SCA" from_source="COM" to="SCA" to_source="COM" />
+    </destination>
+    <destination no="2" text="IRM (Reference information of Freight car information on manifest (Rail)))" system="NACCS" jobcode="IRM" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="TRN" from_source="COM" to="TRN" to_source="COM" />
+        <item from="ARD" from_source="COM" to="ARD" to_source="COM" />
+        <item from="IDT" from_source="COM" to="IDT" to_source="COM" />
+        <item from="SCA" from_source="COM" to="SCA" to_source="COM" />
+        <item from="FRN" from_source="R01" to="FRN" to_source="COM" />
+        <item from="CGN" from_source="R01" to="CGN" to_source="COM" />
+    </destination>
+    <destination no="3" text="ICG (Reference of cargo information(Sea,Air,Rail))" system="NACCS" jobcode="ICG" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="C01" from_source="R01" to="CGN" to_source="COM" />
+    </destination>
+</link>

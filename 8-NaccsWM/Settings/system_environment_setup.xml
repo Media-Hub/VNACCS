@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<SystemEnvironment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TerminalInfo>
+    <Protocol>netNACCS</Protocol>
+    <SendTimeOut>180</SendTimeOut>
+    <A2MinimamDelay>3</A2MinimamDelay>
+    <A2MaximamDelay>15</A2MaximamDelay>
+    <A2TimeOut>180</A2TimeOut>
+    <UserKind>1</UserKind>
+    <UseInternet>true</UseInternet>
+    <URL></URL>
+    <SupportURL></SupportURL>
+  </TerminalInfo>
+  <InteractiveInfo>
+    <Server name="Main" display="Main">
+      <ServerName>intrctv.vnaccs.customs.gov.vn</ServerName>
+      <ObjectName></ObjectName>
+      <ServerPort>443</ServerPort>
+    </Server>
+    <TraceFileName>netNACCS.trc</TraceFileName>
+    <TraceFileSize>1000</TraceFileSize>
+  </InteractiveInfo>
+  <LogFileLength>
+    <NACCS_ComLog1>VNacCom1.log</NACCS_ComLog1>
+    <NACCS_ComLog2>VNacCom2.log</NACCS_ComLog2>
+  </LogFileLength>
+</SystemEnvironment>

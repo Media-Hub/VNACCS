@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TCC" name="Establishment of communication channel check">
+  <item no="1" name="Input field 1" id="I01" required="" code="">
+  </item>
+  <item no="2" name="Input field 2" id="I02" required="" code="">
+  </item>
+  <item no="3" name="Output report indication" id="PRT" required="" code="">Trường hợp xuất báo cáo, nhập "Y".</item>
+</guide>

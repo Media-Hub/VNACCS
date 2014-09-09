@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IMS" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Manifest type" id="TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập loại Manifest.
+</disposition>
+  </response>
+  <response code="S0002" name="Manifest type" id="TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập loại Manifest với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Port of discharge code" id="DPR">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã cảng dỡ hàng.
+</disposition>
+  </response>
+  <response code="S0004" name="Port of discharge code" id="DPR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã cảng dỡ hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Port of discharge code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Port of discharge code" id="DPR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã cảng dỡ hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Port of discharge code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0008" name="Port of discharge code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0009" name="Country of loading/Country of shipment" id="CDP">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập nước nơi xếp hàng/nước nơi gửi hàng.
+</disposition>
+  </response>
+  <response code="S0010" name="Country of loading/Country of shipment" id="CDP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Country of loading/Country of shipment" id="CDP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0012" name="Port of loading code/Departure station code" id="LPR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã cảng xếp hàng lên tầu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0013" name="Port of loading code/Departure station code" id="LPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0014" name="Port of loading code/Departure station code" id="LPR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã cảng xếp hàng lên tầu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Port of loading code/Departure station code" id="LPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0016" name="Port of loading code/Departure station code" id="LPR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã ga xuất phát với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0017" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0018" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Hô hiệu của tầu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0020" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0021" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 và 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0022" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0023" name="Transportation equipment " id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu đoàn tàu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0024" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0025" name="Carrier code" id="SCA">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã nhà vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0026" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0028" name="Consignor name" id="SHS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập tên người gửi hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0029" name="Consignee name" id="CNS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập tên người nhận hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0030" name="Notify party name" id="NSP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập tên bên nhận thông báo hàng đến với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0031" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0032" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0033" name="Container No./Freight car No." id="CNO">
+    <description>Trường hợp Manifest hàng không, số hiệu container nên để trống.
+</description>
+    <disposition>Kiểm tra loại Manifest, nếu cần, hủy nhập liệu của số hiệu container.
+</disposition>
+  </response>
+  <response code="S0034" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tàu/số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0035" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tàu/số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0036" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tàu/số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0037" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tàu/số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0038" name="Container No./Freight car No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tàu/số hiệu container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.
+</description>
+    <disposition>Nhấn nút "Send" để lấy thêm thông tin.
+</disposition>
+  </response>
+</help>

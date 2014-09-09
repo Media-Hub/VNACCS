@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_OLC" jobname="Declaration on transportation" display-name="OLC Declaration on transportation">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5010_2.xml" item_attr_edit="False" />
+  <friday href="VAS5010_2.xml" revision="0000" />
+  <iteminfo>
+    <item id="AB" name="Output information name" input_output="-" required="C" attribute="W" figure="144" form="" order="1" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD" name="Selected screening criteria" input_output="-" required="C" attribute="A" figure="2" form="" order="2" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AC" name="Customs office name" input_output="-" required="C" attribute="A" figure="10" form="" order="3" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="IEI" name="Import/Export indication" input_output="-" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AF" name="Date of declaration" input_output="-" required="C" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="DEC" name="Declarant code" input_output="-" required="C" attribute="A" figure="5" form="" order="6" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="DNM" name="Declarant name" input_output="-" required="C" attribute="A" figure="50" form="" order="7" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="DAD" name="Declarant address" input_output="-" required="C" attribute="W" figure="300" form="" order="8" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TRC" name="Transporter code" input_output="-" required="C" attribute="A" figure="13" form="" order="9" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TRN" name="Transporter name" input_output="-" required="C" attribute="W" figure="300" form="" order="10" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TRA" name="Transporter address" input_output="-" required="C" attribute="W" figure="300" form="" order="11" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TCN" name="Transport contract No. / Equivalent document No." input_output="-" required="C" attribute="A" figure="11" form="" order="12" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TCD" name="Date of transport contract/Date of equivalent document" input_output="-" required="C" attribute="A" figure="8" form="" order="13" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="EDC" name="Expiry date of transport contract or of equivalent document" input_output="-" required="C" attribute="A" figure="8" form="" order="14" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BYA" name="Means of transportation code" input_output="-" required="C" attribute="A" figure="2" form="" order="15" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AS" name="Means of transportation name" input_output="-" required="C" attribute="A" figure="12" form="" order="16" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="OBJ" name="Transportation purpose code" input_output="-" required="C" attribute="A" figure="3" form="" order="17" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AU" name="Transportation purpose name" input_output="-" required="C" attribute="W" figure="210" form="" order="18" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="USS" name="Transportation type" input_output="-" required="C" attribute="A" figure="2" form="" order="19" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AW" name="Transportation type name" input_output="-" required="C" attribute="W" figure="210" form="" order="20" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="DPR" name="Departure location of bonded transportation (Bonded area)" input_output="-" required="C" attribute="A" figure="7" form="" order="21" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BRT" name="Departure location of bonded transportation (Berth code)" input_output="-" required="C" attribute="A" figure="6" form="" order="22" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="PRT" name="Departure location of bonded transportation (Port of loading)" input_output="-" required="C" attribute="A" figure="6" form="" order="23" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BA" name="Nonparticipation in system identifier" input_output="-" required="C" attribute="A" figure="1" form="" order="24" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="DPN" name="Departure location name of bonded transportation" input_output="-" required="C" attribute="W" figure="105" form="" order="25" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="ARR" name="Arrival location of bonded transportation&#xD;&#xA;(Bonded area)" input_output="-" required="C" attribute="A" figure="7" form="" order="26" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="ARB" name="Arrival location of bonded transportation&#xD;&#xA;(Berth code)" input_output="-" required="C" attribute="A" figure="6" form="" order="27" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="ARP" name="Arrival location of bonded transportation&#xD;&#xA;(Port of discharge)" input_output="-" required="C" attribute="A" figure="6" form="" order="28" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BF" name="Nonparticipation in system identifier" input_output="-" required="C" attribute="A" figure="1" form="" order="29" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="ARN" name="Arrival location name of bonded transportation" input_output="-" required="C" attribute="W" figure="105" form="" order="30" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="ROU" name="Route" input_output="-" required="C" attribute="A" figure="35" form="" order="31" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="TOS" name="Type of security" input_output="-" required="C" attribute="A" figure="1" form="" order="32" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="SEP" name="Amount of security" input_output="-" required="C" attribute="I" figure="11" form="" order="33" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BI" name="Number of columns on declaration" input_output="-" required="C" attribute="I" figure="1" form="" order="34" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="BJ" name="Number of containers" input_output="-" required="C" attribute="I" figure="3" form="" order="35" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="NT1" name="Remarks 1" input_output="-" required="C" attribute="W" figure="765" form="" order="36" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="SDT" name="Estimated start date of transportation " input_output="-" required="C" attribute="A" figure="8" form="" order="37" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="SDH" name="Estimated start time of transportation " input_output="-" required="C" attribute="A" figure="2" form="" order="38" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="EDT" name="Estimated finish date of transportation" input_output="-" required="C" attribute="A" figure="8" form="" order="39" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="EDH" name="Estimated finish time of transportation" input_output="-" required="C" attribute="A" figure="2" form="" order="40" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <label Size="125, 19" Location="7, 16" Text="Tên cơ quan Hải quan" Font="Tahoma, 9pt" />
+    <label Size="32, 19" Location="307, 508" Text=" VND" Font="Tahoma, 9pt" />
+    <label Size="208, 19" Location="338, 459" Text="Cờ báo không tham gia vào hệ thống" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" Visible="False" TabIndex="494" Size="69, 21" Location="638, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Date of declaration" check_attribute="*" attribute="A" id="AF" figure="8" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="510" Size="20, 21" Location="550, 458" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="29" input_output="-" check_full="" check_time="" check_date="" name="Nonparticipation in system identifier" check_attribute="*" attribute="A" id="BF" figure="1" required="C" />
+    <label Size="170, 19" Location="316, 16" Text="Cờ báo nhập khẩu / xuất khẩu" Font="Tahoma, 9pt" />
+    <label Size="147, 19" Location="348, 508" Text="Số lượng cột trong tờ khai" Font="Tahoma, 9pt" />
+    <label Size="63, 19" Location="7, 42" Text="Người khai" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="512" Size="20, 21" Location="501, 507" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="34" input_output="-" check_full="" check_time="" check_date="" name="Number of columns on declaration" check_attribute="*" attribute="I" id="BI" figure="1" required="C" />
+    <label Size="107, 19" Location="7, 345" Text="Địa điểm xếp hàng" Font="Tahoma, 9pt" />
+    <label Size="107, 19" Location="529, 508" Text="Số lượng container" Font="Tahoma, 9pt" />
+    <label Size="0, 17" Location="253, 12" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="514" Size="34, 21" Location="641, 507" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="35" input_output="-" check_full="" check_time="" check_date="" name="Number of containers" check_attribute="*" attribute="I" id="BJ" figure="3" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="27" Size="27, 21" Location="155, 296" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Transportation type" check_attribute="*" attribute="A" id="USS" figure="2" required="C" />
+    <label Size="78, 19" Location="7, 508" Text="Loại bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="496" Size="48, 21" Location="82, 41" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Declarant code" check_attribute="*" attribute="A" id="DEC" figure="5" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="486" Size="20, 21" Location="92, 507" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="32" input_output="-" check_full="" check_time="" check_date="" name="Type of security" check_attribute="*" attribute="A" id="TOS" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="35" Size="62, 21" Location="267, 362" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="-" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Bonded area)" check_attribute="*" attribute="A" id="DPR" figure="7" required="C" />
+    <label Size="93, 19" Location="118, 508" Text="Số tiền bảo lãnh" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="134, 42" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="496" Size="90, 21" Location="215, 507" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="33" input_output="-" check_full="" check_time="" check_date="" name="Amount of security" check_attribute="*" attribute="I" id="SEP" figure="11" required="C" />
+    <label Size="95, 19" Location="7, 297" Text="Loại hình vận tải" Font="Tahoma, 9pt" />
+    <label Size="21, 19" Location="20, 433" Text="Mã" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="498" Size="363, 21" Location="148, 41" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Declarant name" check_attribute="*" attribute="A" id="DNM" figure="50" required="C" />
+    <label Size="9, 19" Location="642, 320" Text="-" Font="Tahoma, 9pt" />
+    <label Size="94, 19" Location="338, 361" Text="(Vị trí xếp hàng)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="494" Size="27, 21" Location="655, 319" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="40" input_output="-" check_full="" check_time="" check_date="" name="Estimated finish time of transportation" check_attribute="*" attribute="A" id="EDH" figure="2" required="C" />
+    <label Size="42, 19" Location="78, 69" Text="Địa chỉ" Font="Tahoma, 9pt" />
+    <label Size="56, 19" Location="7, 531" Text="Ghi chú 1" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="25" Size="34, 21" Location="155, 273" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="Transportation purpose code" check_attribute="*" attribute="A" id="OBJ" figure="3" required="C" />
+    <textbox TabIndex="53" Multiline="True" Size="503, 66" Location="92, 530" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="36" input_output="-" check_full="" check_time="" check_date="" name="Remarks 1" check_attribute="*" attribute="W" id="NT1" figure="765" required="C" />
+    <textbox TabIndex="500" Multiline="True" Size="503, 36" Location="148, 68" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Declarant address" check_attribute="*" attribute="W" id="DAD" figure="300" required="C" />
+    <label Size="204, 19" Location="55, 433" Text="(Khu vực chịu sự giám sát Hải quan)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="51" Size="258, 21" Location="92, 483" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="31" input_output="-" check_full="" check_time="" check_date="" name="Route" check_attribute="*" attribute="A" id="ROU" figure="35" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="37" Size="55, 21" Location="433, 362" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="22" input_output="-" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Berth code)" check_attribute="*" attribute="A" id="BRT" figure="6" required="C" />
+    <label Size="77, 19" Location="7, 484" Text="Tuyến đường" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="191, 251" Text="-" Font="Tahoma, 9pt" />
+    <textbox TabIndex="49" Size="258, 21" Location="55, 458" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="30" input_output="-" check_full="" check_time="" check_date="" name="Arrival location name of bonded transportation" check_attribute="*" attribute="W" id="ARN" figure="105" required="C" />
+    <label Size="119, 19" Location="7, 274" Text="Mục đích vận chuyển" Font="Tahoma, 9pt" />
+    <label Size="25, 19" Location="20, 459" Text="Tên" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="502" Size="97, 21" Location="203, 250" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Means of transportation name" check_attribute="*" attribute="A" id="AS" figure="12" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="47" Size="55, 21" Location="618, 431" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="28" input_output="-" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Port of discharge)" check_attribute="*" attribute="A" id="ARP" figure="6" required="C" />
+    <label Size="115, 34" Location="497, 355" Text="(Cảng / cửa khẩu /&#xD;&#xA; ga xếp hàng)" Font="Tahoma, 9pt" />
+    <label Size="115, 34" Location="497, 425" Text="(Cảng / cửa khẩu /&#xD;&#xA; ga dỡ hàng)" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="191, 274" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="45" Size="55, 21" Location="433, 431" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="27" input_output="-" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Berth code)" check_attribute="*" attribute="A" id="ARB" figure="6" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="23" Size="27, 21" Location="155, 250" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="Means of transportation code" check_attribute="*" attribute="A" id="BYA" figure="2" required="C" />
+    <label Size="88, 19" Location="338, 431" Text="(Vị trí dỡ hàng)" Font="Tahoma, 9pt" />
+    <textbox TabIndex="504" Size="503, 21" Location="203, 273" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Transportation purpose name" check_attribute="*" attribute="W" id="AU" figure="210" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="43" Size="62, 21" Location="267, 432" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="26" input_output="-" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Bonded area)" check_attribute="*" attribute="A" id="ARR" figure="7" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="39" Size="55, 21" Location="618, 362" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="-" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Port of loading)" check_attribute="*" attribute="A" id="PRT" figure="6" required="C" />
+    <label Size="189, 19" Location="7, 320" Text="Ngày dự kiến bắt đầu vận chuyển" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="191, 297" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="33" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="553, 319" BackColor="Control" Font="Courier New, 9pt" form="" order="39" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Estimated finish date of transportation" check_attribute="*" attribute="A" id="EDT" figure="8" AutoComplete="False" required="C" />
+    <label Size="137, 19" Location="7, 251" Text="Phương tiện vận chuyển" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="29" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="203, 319" BackColor="Control" Font="Courier New, 9pt" form="" order="37" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Estimated start date of transportation " check_attribute="*" attribute="A" id="SDT" figure="8" AutoComplete="False" required="C" />
+    <textbox TabIndex="506" Size="503, 21" Location="203, 296" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="20" input_output="-" check_full="" check_time="" check_date="" name="Transportation type name" check_attribute="*" attribute="W" id="AW" figure="210" required="C" />
+    <label Size="191, 19" Location="351, 320" Text="Ngày dự kiến kết thúc vận chuyển" Font="Tahoma, 9pt" />
+    <label Size="25, 19" Location="20, 390" Text="Tên" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="291, 320" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="21" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="572, 227" BackColor="Control" Font="Courier New, 9pt" form="" order="14" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Expiry date of transport contract or of equivalent document" check_attribute="*" attribute="A" id="EDC" figure="8" AutoComplete="False" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="31" Size="27, 21" Location="304, 319" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="38" input_output="-" check_full="" check_time="" check_date="" name="Estimated start time of transportation " check_attribute="*" attribute="A" id="SDH" figure="2" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="508" Size="20, 21" Location="550, 389" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="-" check_full="" check_time="" check_date="" name="Nonparticipation in system identifier" check_attribute="*" attribute="A" id="BA" figure="1" required="C" />
+    <textbox TabIndex="41" Size="258, 21" Location="55, 389" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="25" input_output="-" check_full="" check_time="" check_date="" name="Departure location name of bonded transportation" check_attribute="*" attribute="W" id="DPN" figure="105" required="C" />
+    <label Size="208, 19" Location="338, 390" Text="Cờ báo không tham gia vào hệ thống" Font="Tahoma, 9pt" />
+    <label Size="250, 19" Location="319, 228" Text="Ngày hết hạn hợp đồng vận chuyển / giấy tờ" Font="Tahoma, 9pt" />
+    <label Size="102, 19" Location="7, 414" Text="Địa điểm dỡ hàng" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="19" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="217, 227" BackColor="Control" Font="Courier New, 9pt" form="" order="13" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of transport contract/Date of equivalent document" check_attribute="*" attribute="A" id="TCD" figure="8" AutoComplete="False" required="C" />
+    <label Size="204, 19" Location="7, 228" Text="Ngày hợp đồng vận chuyển / giấy tờ" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="17" Size="90, 21" Location="281, 204" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Transport contract No. / Equivalent document No." check_attribute="*" attribute="A" id="TCN" figure="11" required="C" />
+    <label Size="265, 19" Location="7, 205" Text="Số hợp đồng vận chuyển / giấy tờ tương đương" Font="Tahoma, 9pt" />
+    <textbox TabIndex="15" Multiline="True" Size="503, 36" Location="148, 166" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Transporter address" check_attribute="*" attribute="W" id="TRA" figure="300" required="C" />
+    <label Size="42, 19" Location="77, 163" Text="Địa chỉ" Font="Tahoma, 9pt" />
+    <textbox TabIndex="13" Multiline="True" Size="503, 36" Location="148, 124" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Transporter name" check_attribute="*" attribute="W" id="TRN" figure="300" required="C" />
+    <label Size="9, 19" Location="133, 125" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="AAAAAAAAAA-AAA" TabIndex="11" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="19, 124" BackColor="Control" Font="Courier New, 9pt" form="" order="9" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Transporter code" check_attribute="*" attribute="A" id="TRC" figure="13" AutoComplete="False" required="C" />
+    <label Size="21, 19" Location="20, 363" Text="Mã" Font="Tahoma, 9pt" />
+    <label Size="92, 19" Location="7, 105" Text="Nhà vận chuyển" Font="Tahoma, 9pt" />
+    <label Size="204, 19" Location="55, 363" Text="(Khu vực chịu sự giám sát Hải quan)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="486" Size="20, 21" Location="491, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Import/Export indication" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="556" Size="85, 21" Location="148, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Customs office name" check_attribute="*" attribute="A" id="AC" figure="10" required="C" />
+    <label Visible="False" Size="142, 19" Location="20, 556" Text="Output information name" Font="Tahoma, 9pt" />
+    <textbox TabIndex="558" Size="349, 21" Location="172, 556" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Output information name" check_attribute="*" attribute="W" id="AB" figure="144" required="C" />
+    <label Visible="False" Size="148, 19" Location="527, 556" Text="Selected screening criteria" Font="Tahoma, 9pt" />
+    <radio Visible="False" TabIndex="560" Size="214, 19" AutoSize="True" Location="684, 556" Text="Selected screening criteria" Font="Courier New, 9pt" form="" choice_keyvalue="" order="2" input_output="-" check_full="" figure="2" check_time="" name="Selected screening criteria" check_attribute="*" check_date="" attribute="A" id="AD" required="C" />
+  </layout>
+</jobform>

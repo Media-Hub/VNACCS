@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM40_IAS" jobname="CAM40_IAS" display-name="IAS Reference of individual security for bonded transportation information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAF8070.xml" item_attr_edit="False" />
+  <friday href="VAF8070.xml" revision="0000" />
+  <iteminfo>
+    <item id="TYS" name="Type of security" input_output="-" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A01" name="Security supplier Bank code" input_output="-" required="C" attribute="A" figure="11" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Security supplier Bank name" input_output="-" required="C" attribute="W" figure="210" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Issued year" input_output="-" required="C" attribute="I" figure="4" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Security bank sign" input_output="-" required="C" attribute="A" figure="10" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Security No." input_output="-" required="C" attribute="A" figure="10" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Declaration No." input_output="-" required="C" attribute="I" figure="12" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="Customs province name" input_output="-" required="C" attribute="W" figure="210" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Code of declarant who uses security" input_output="-" required="C" attribute="A" figure="13" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Name of declarant who uses security" input_output="-" required="C" attribute="W" figure="300" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Start date" input_output="-" required="C" attribute="A" figure="8" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Expired date" input_output="-" required="C" attribute="A" figure="8" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A13" name="Amount available for Security" input_output="-" required="C" attribute="F" figure="13" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <label Size="168, 19" Location="12, 42" Text="Ngân hàng cung cấp bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="90, 21" Location="93, 68" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Security supplier Bank code" check_attribute="*" attribute="A" id="A01" figure="11" required="C" />
+    <label Size="9, 19" Location="189, 69" Text="-" Font="Tahoma, 9pt" />
+    <textbox TabIndex="3" Size="503, 21" Location="204, 68" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Security supplier Bank name" check_attribute="*" attribute="W" id="A02" figure="210" required="C" />
+    <label Size="89, 19" Location="12, 99" Text="Năm phát hành" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="41, 21" Location="142, 98" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Issued year" check_attribute="*" attribute="I" id="A03" figure="4" required="C" />
+    <label Size="149, 19" Location="217, 99" Text="Ký hiệu chứng từ bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="83, 21" Location="378, 98" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Security bank sign" check_attribute="*" attribute="A" id="A04" figure="10" required="C" />
+    <label Size="122, 19" Location="482, 99" Text="Số chứng từ bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="83, 21" Location="624, 98" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Security No." check_attribute="*" attribute="A" id="A05" figure="10" required="C" />
+    <label Size="59, 19" Location="12, 129" Text="Số tờ khai" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Size="97, 21" Location="86, 128" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="A06" figure="12" required="C" />
+    <label Size="102, 19" Location="12, 161" Text="Cơ quan Hải quan" Font="Tahoma, 9pt" />
+    <textbox TabIndex="13" Size="503, 21" Location="204, 160" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Customs province name" check_attribute="*" attribute="W" id="A08" figure="210" required="C" />
+    <label Size="9, 19" Location="189, 161" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="15" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="104, 21" Location="79, 215" BackColor="Control" Font="Courier New, 9pt" form="" order="11" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Code of declarant who uses security" check_attribute="*" attribute="A" id="A09" figure="13" AutoComplete="False" required="C" />
+    <label Size="139, 19" Location="12, 194" Text="Đơn vị sử dụng bảo lãnh" Font="Tahoma, 9pt" />
+    <commatext WordWrap="False" TabIndex="17" Size="132, 21" Location="204, 292" TextAlign="Right" Font="Courier New, 9pt" BackColor="Control" form="" choice_keyvalue="" IsComma="True" order="15" input_output="-" check_full="" check_time="" check_date="" name="Amount available for Security" check_attribute="*" attribute="F" id="A13" figure="13" required="C" />
+    <label Size="9, 19" Location="189, 215" Text="-" Font="Tahoma, 9pt" />
+    <label Size="176, 19" Location="12, 263" Text="Ngày bắt đầu hiệu lực bảo lãnh" Font="Tahoma, 9pt" />
+    <label Size="151, 19" Location="376, 263" Text="Ngày hết hiệu lực bảo lãnh" Font="Tahoma, 9pt" />
+    <label Size="140, 19" Location="12, 294" Text="Số tiền đăng ký bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="23" Size="55, 21" Location="128, 160" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Customs office" check_attribute="*" attribute="A" id="A07" figure="6" required="C" />
+    <textbox TabIndex="25" Multiline="True" Size="503, 36" Location="204, 217" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Name of declarant who uses security" check_attribute="*" attribute="W" id="A10" figure="300" required="C" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="27" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="204, 262" BackColor="Control" Font="Courier New, 9pt" form="" order="13" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Start date" check_attribute="*" attribute="A" id="A11" figure="8" AutoComplete="False" required="C" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="29" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="535, 262" BackColor="Control" Font="Courier New, 9pt" form="" order="14" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Expired date" check_attribute="*" attribute="A" id="A12" figure="8" AutoComplete="False" required="C" />
+    <label Size="105, 19" Location="12, 13" Text="Loại hình bảo lãnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="31" Size="20, 21" Location="163, 13" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Type of security" check_attribute="*" attribute="A" id="TYS" figure="1" required="C" />
+  </layout>
+</jobform>

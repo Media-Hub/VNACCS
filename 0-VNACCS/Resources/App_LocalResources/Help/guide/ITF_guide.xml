@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ITF" name="Reference of declaration on transportation">
+  <item no="1" name="Bonded transportation declaration No." id="OLT" required="" code="">Người sử dụng nhập một trong các số sau:
+- Số tờ khai vận chuyển, hoặc;
+- Số tờ khai nhập khẩu *, hoặc;
+- Số tờ khai xuất khẩu *
+* Trường hợp khai báo đồng thời
+</item>
+  <item no="2" name="Finish date of transportation " id="EDT" required="" code="">(1) Nhập ngày kết thúc vận chuyển
+(2) Trường hợp mục này không được nhập, ngày trước ngày hệ thống được xem là ngày kết thúc vận chuyển được nhập.
+(3) Có thể xem thông tin khai báo vận chuyển thỏa mãn điều kiện sau;
+Ngày kết thúc vận chuyển (Tại tờ khai vận chuyển) ≦ Ngày kết thúc vận chuyển (Ngày được nhập)
+</item>
+  <item no="3" name="Submitting Customs office " id="DEC" required="" code="Customs office code">Người sử dụng phải nhập một trong các thông tin sau;
+(1) Mã chi cục hải quan nơi đăng ký tờ khai vận chuyển (nơi lưu giữ hàng hóa đi), hoặc;
+(2) Mã chi cục hải quan quản lý khu vực lưu giữ hàng hóa nơi đến.
+</item>
+  <item no="4" name="Customs office at arrival place" id="ARV" required="" code="Customs office code">Người sử dụng phải nhập một trong các thông tin sau;
+(1) Mã chi cục hải quan nơi đăng ký tờ khai vận chuyển (nơi lưu giữ hàng hóa đi), hoặc;
+(2) Mã chi cục hải quan quản lý khu vực lưu giữ hàng hóa nơi đến.
+Trường hợp khai báo đồng thời, nhập mã của chi cục hải quan giám sát địa điểm đến tiếp theo (địa điểm trung chuyển hoặc địa điểm đích)
+</item>
+</guide>

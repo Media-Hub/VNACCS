@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="INP (Reference information of crew list information)" system="NACCS" jobcode="INP" autosend="false">
+        <item from="NSN" from_source="COM" to="NUM" to_source="COM" />
+    </destination>
+    <destination no="2" text="INP (Reference information of passenger list information)" system="NACCS" jobcode="INP" autosend="false">
+        <item from="RSN" from_source="COM" to="NUM" to_source="COM" />
+    </destination>
+</link>

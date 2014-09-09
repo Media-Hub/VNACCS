@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="AMC" name="Declaration of Amended tax">
+  <item no="1" name="Amendment Declaration No." id="SYN" required="" code="">Nhập số tờ khai bổ sung.</item>
+</guide>

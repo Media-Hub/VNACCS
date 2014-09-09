@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="BOA (Registration of notification on departure regarding transportation)" system="NACCS" jobcode="BOA" autosend="false">
+        <item from="OLT" from_source="COM" to="CGO" to_source="COM" />
+    </destination>
+    <destination no="2" text="BIA11 (Registration of notification on arrival regarding transportation (Call up))" system="NACCS" jobcode="BIA11" autosend="false">
+        <item from="OLT" from_source="COM" to="OLT" to_source="COM" />
+    </destination>
+    <destination no="3" text="COT11 (Correction of declared information on transportation (Call up))" system="NACCS" jobcode="COT11" autosend="false">
+        <item from="OLT" from_source="COM" to="OLT" to_source="COM" />
+    </destination>
+    <destination no="4" text="IAS (Reference of security information)" system="NACCS" jobcode="IAS" autosend="false">
+        <item from="SSB" from_source="COM" to="SBC" to_source="COM" />
+        <item from="ISY" from_source="COM" to="RYA" to_source="COM" />
+        <item from="SBS" from_source="COM" to="SCM" to_source="COM" />
+        <item from="SNN" from_source="COM" to="SCN" to_source="COM" />
+    </destination>
+</link>

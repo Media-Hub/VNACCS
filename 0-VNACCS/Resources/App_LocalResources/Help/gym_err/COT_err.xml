@@ -1,0 +1,1749 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="COT" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã Người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Processing type code" id="KND">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã phân loại xử lý.
+</disposition>
+  </response>
+  <response code="S0002" name="Processing type code" id="KND">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập mã phân loại xử lý với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Bonded transportation declaration No." id="OLT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số tờ khai vận chuyển
+</disposition>
+  </response>
+  <response code="S0004" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này đã được đăng ký bởi Người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai.
+</disposition>
+  </response>
+  <response code="S0007" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai.
+</disposition>
+  </response>
+  <response code="S0008" name="Remarks 1" id="NTA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0009" name="Remarks 2" id="NT1～NT5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0010" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này đã được đăng ký bởi Người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai.
+</disposition>
+  </response>
+  <response code="S0012" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai.
+</disposition>
+  </response>
+  <response code="S0013" name="Estimated finish date of transportation " id="EDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày dự kiến kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="S0014" name="Estimated finish date of transportation " id="EDT">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến kết thúc vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Estimated finish time of transportation " id="EDH">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Thời gian dự kiến kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="S0016" name="Estimated start time of transportation " id="SDH">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Thời gian dự kiến bắt đầu vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0017" name="Arrival location of bonded transportation" id="ARR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0018" name="Arrival location of bonded transportation" id="ARB">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Arrival location of bonded transportation" id="ARP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0020" name="Arrival location name of bonded transportation" id="ARN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Security supplier Bank code" id="SBC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0022" name="Issued year" id="RYA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0023" name="Security bank sign" id="SCM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0024" name="Security No." id="SCN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0025" name="Amount of security" id="SEP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0026" name="Remarks 1" id="NTA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Remarks 2" id="NT1～NT5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0028" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0029" name="Import/Export indication" id="IEI">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0030" name="Customs office" id="CHC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0031" name="Customs office" id="CHC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0032" name="Transporter code" id="TRC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="S0033" name="Transporter code" id="TRC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0034" name="Transporter name" id="TRN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0035" name="Transporter address" id="TRA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0036" name="Transport contract No. / Equivalent document No." id="TCN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0037" name="Date of transport contract/Date of equivalent document" id="TCD">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày hợp đồng vận chuyển/Ngày của giấy tờ tương đương với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0038" name="Expiry date of transport contract or of equivalent document" id="EDC">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày hết hạn hợp đồng vận chuyển/Ngày hết hạn của giấy tờ tương đương với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0039" name="Means of transportation code" id="BYA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="S0040" name="Means of transportation code" id="BYA">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0041" name="Transportation purpose code" id="OBJ">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã mục đích vận chuyển.
+</disposition>
+  </response>
+  <response code="S0042" name="Transportation purpose code" id="OBJ">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0043" name="Transportation type" id="USS">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Loại hình vận tải.
+</disposition>
+  </response>
+  <response code="S0044" name="Transportation type" id="USS">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0045" name="Estimated start date of transportation " id="SDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày dự kiến bắt đầu vận chuyển.
+</disposition>
+  </response>
+  <response code="S0046" name="Estimated start date of transportation " id="SDT">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến bắt đầu vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0047" name="Estimated start date of transportation " id="SDT">
+    <description>Ngày nhập phải bằng hoặc lớn hơn ngày hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0048" name="Estimated start time of transportation " id="SDH">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Thời gian dự kiến bắt đầu vận chuyển.
+</disposition>
+  </response>
+  <response code="S0049" name="Estimated start time of transportation " id="SDH">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Thời gian dự kiến bắt đầu vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0050" name="Estimated finish date of transportation " id="EDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày dự kiến kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="S0051" name="Estimated finish date of transportation " id="EDT">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến kết thúc vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0052" name="Estimated finish time of transportation " id="EDH">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Thời gian dự kiến kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="S0053" name="Estimated finish time of transportation " id="EDH">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Thời gian dự kiến kết thúc vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0054" name="Arrival location of bonded transportation" id="ARR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0055" name="Arrival location of bonded transportation" id="ARB">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0056" name="Arrival location of bonded transportation" id="ARP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0057" name="Arrival location name of bonded transportation" id="ARN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0058" name="Route" id="ROU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0059" name="Security supplier Bank code" id="SBC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0060" name="Issued year" id="RYA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0061" name="Security bank sign" id="SCM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0062" name="Security No." id="SCN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0063" name="Amount of security" id="SEP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0064" name="Remarks 1" id="NTA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0065" name="Correction type" id="TES1～TES5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập loại Chỉnh sửa với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0066" name="Cargo No. " id="CG1～CG5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0067" name="Issued date of B/L" id="DB1～DB5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập ngày phát hành vận đơn với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0068" name="Goods description" id="CM1～CM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0069" name="HS code " id="HS1～HS5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0070" name="Marks and Nos." id="MR1～MR5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0071" name="Date of first stock-in bonded warehouse" id="IS1～IS5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày nhập kho lần đầu, nhập kho ngoại quan với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0072" name="Product of bonded factory identifier" id="RM1～RM5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Phân loại sản phẩm sản xuất từ hàng hóa nhập khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0073" name="Place of origin/manufacture" id="OR1～OR5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0074" name="Type of manifest" id="TM1～TM5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập kiểu của manifest (hàng hóa) với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0075" name="Transportation equipment code" id="TE1～TE5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0076" name="Transportation equipment code" id="TE1～TE5">
+    <description>Độ dài nhập vào vượt quá quy định.
+</description>
+    <disposition>Nhập hô hiệu của tầu với độ dài hợp lệ.
+</disposition>
+  </response>
+  <response code="S0077" name="Transportation equipment code" id="TE1～TE5">
+    <description>Độ dài nhập vào vượt quá quy định.
+</description>
+    <disposition>Nhập số hiệu chuyến bay với độ dài hợp lệ.
+</disposition>
+  </response>
+  <response code="S0078" name="Transportation equipment code" id="TE1～TE5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0079" name="Transportation equipment code" id="TE1～TE5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0080" name="Transportation equipment code" id="TE1～TE5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0081" name="Transportation equipment code" id="TE1～TE5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 và 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0082" name="Transportation equipment code" id="TE1～TE5">
+    <description>Độ dài nhập vào vượt quá quy định.
+</description>
+    <disposition>Nhập Số hiệu đoàn tàu với độ dài hợp lệ.
+</disposition>
+  </response>
+  <response code="S0083" name="Transportation equipment code" id="TE1～TE5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe và Mã quốc gia đăng ký xe với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0084" name="Transportation equipment code" id="TE1～TE5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe và mã quốc gia đăng ký với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0085" name="Vessel name" id="SN1～SN5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0086" name="Arrival date of cargo / Estimated departure date of cargo" id="DD1～DD5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến đến / Ngày dự kiến xuất phát với định dạng hợp lệ.
+ 
+</disposition>
+  </response>
+  <response code="S0087" name="Importer code" id="IM1～IM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0088" name="Importer name" id="IN1～IN5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0089" name="Importer address  " id="IA1～IA5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0090" name="Exporter code" id="EM1～EM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0091" name="Exporter name" id="EN1～EN5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0092" name="Exporter address" id="EA1～EA5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0093" name="Trustor code" id="KM1～KM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0094" name="Trustor name" id="KN1～KN5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0095" name="Trustor address" id="KA1～KA5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0096" name="Other law code1" id="OA1～OA5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0097" name="Other law code2" id="OB1～OB5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0098" name="Other law code3" id="OC1～OC5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0099" name="Other law code4" id="OD1～OD5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0100" name="Other law code5" id="OE1～OE5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0101" name="Quantity" id="PC1～PC5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0102" name="Code for units of measure" id="PU1～PU5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0103" name="Gross weight" id="GW1～GW5">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập dữ liệu theo định dạng sau: 6 chữ số phần nguyên, 3 chữ số phần thập phân</disposition>
+  </response>
+  <response code="S0104" name="Weight unit code" id="WU1～WU5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Mã đơn vị trọng lượng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0105" name="Capacity" id="VO1～VO5">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập dữ liệu theo định dạng sau: 6 chữ số phần nguyên, 3 chữ số phần thập phân</disposition>
+  </response>
+  <response code="S0106" name="Capacity unit code" id="VU1～VU5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập mã đơn vị thể tích với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0107" name="Price" id="PR1～PR5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0108" name="Currency type code" id="RT1～RT5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0109" name="Remarks code for damaged cargo at departure place1" id="RA1～RA5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0110" name="Remarks code for damaged cargo at departure place2" id="RB1～RB5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0111" name="Remarks code for damaged cargo at departure place3" id="RC1～RC5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0112" name="Remarks code for damaged cargo at departure place4" id="RD1～RD5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0113" name="Remarks code for damaged cargo at departure place5" id="RE1～RE5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0114" name="Permit No." id="PM1～PM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0115" name="Permit date" id="PD1～PD5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập ngày cấp phép với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0116" name="Expiry date of permit" id="EP1～EP5">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày hết hạn của giấy phép với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0117" name="Remarks 2" id="NT1～NT5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0118" name="Correction type" id="TES1～TES5">
+    <description>1. Loại chỉnh sửa cần phải được nhập.
+2. Không cho phép hủy tất cả các B/L đồng thời.</description>
+    <disposition>1. Nhập Loại chỉnh sửa.
+2. Kiểm tra nếu trong trường hợp hủy tất cả các B/L đồng thời thì nhập "1" vào Mã phân loại xử lý</disposition>
+  </response>
+  <response code="S0119" name="Export declaration No." id="E01～E50">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0120" name="Container/Freight Car/Package No." id="CNO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0121" name="Line No. on declaration" id="RNO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0122" name="Seal No." id="SE1～SE6">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0123" name="Date of departure from departure location" id="DPD">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày xuất phát từ nơi xuất phát  (dự kiến) với định dạng hợp lệ.
+
+ 
+</disposition>
+  </response>
+  <response code="S0124" name="Transit location for bonded transport " id="TR1～TR3">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0125" name="Date of arrival into transit location" id="AR1～AR3">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày đến nơi trung chuyển (dự kiến) với định dạng hợp lệ.
+
+ 
+</disposition>
+  </response>
+  <response code="S0126" name="Date of departure from transit location" id="DP1～DP3">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày đi từ nơi trung chuyển (dự kiến) với định dạng hợp lệ.
+
+ 
+</disposition>
+  </response>
+  <response code="S0127" name="Arrival location of bonded transportation" id="ARR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0128" name="Arrival location of bonded transportation" id="ARB">
+    <description>Mục này không thể nhập được.
+</description>
+    <disposition>Xóa nhập liệu.
+</disposition>
+  </response>
+  <response code="S0129" name="Arrival location of bonded transportation" id="ARP">
+    <description>Mục này không thể nhập được.
+</description>
+    <disposition>Xóa nhập liệu.
+</disposition>
+  </response>
+  <response code="S0130" name="Arrival location name of bonded transportation" id="ARN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0131" name="Date of arrival into arrival location" id="ARA">
+    <description>Định dạng nhập vào không hợp lệ.
+</description>
+    <disposition>Nhập Ngày đến đích (dự kiến) với định dạng hợp lệ.
+
+ 
+</disposition>
+  </response>
+  <response code="S0132" name="Security supplier Bank code" id="SBC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0133" name="Issued year" id="RYA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0134" name="Security bank sign" id="SCM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0135" name="Security No." id="SCN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0136" name="Amount of security" id="SEP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0137" name="Remarks 1" id="NTA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0138" name="Remarks 2" id="NT1～NT5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0140" name="Type of security" id="TOS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Loại bảo lãnh với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0999" name="Remarks 1&#xA;Remarks 2&#xA;Arrival location name of bonded transportation&#xA;Transporter name&#xA;Transporter address&#xA;Goods description&#xA;Importer name&#xA;Importer address  &#xA;Exporter name&#xA;Exporter address&#xA;Trustor name&#xA;Trustor address" id="NTA&#xA;NT1～NT5&#xA;ARN&#xA;TRN&#xA;TRA&#xA;CM1～CM5&#xA;IN1～IN5&#xA;IA1～IA5&#xA;EN1～EN5&#xA;EA1～EA5&#xA;KN1～KN5&#xA;KA1～KA5">
+    <description>Nhập liệu quá độ dài cho phép</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0001" name="Estimated finish date of transportation &#xA;Estimated finish time of transportation " id="EDT&#xA;EDH">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0002" name="Transportation type&#xA;Arrival location of bonded transportation" id="USS&#xA;ARP">
+    <description>Cảng dỡ hàng phải được nhập do Loại hình vận tải là "PT".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Mã cảng/cửa khẩu/ga dỡ hàng (Mã cảng dỡ hàng).
+</disposition>
+  </response>
+  <response code="R0003" name="Arrival location of bonded transportation&#xA;Arrival location of bonded transportation" id="ARR&#xA;ARB">
+    <description>Yêu cầu nhập 1 trong 2.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm dỡ hàng (Khu vực chịu sự giám sát Hải quan) và Mã vị trí dỡ hàng (Nơi dỡ hàng)
+</disposition>
+  </response>
+  <response code="R0004" name="Type of security&#xA;Security supplier Bank code" id="TOS&#xA;SBC">
+    <description>Kí hiệu chứng từ bảo lãnh cần được nhập do loại bảo lãnh là "B".
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại bảo lãnh và Kí hiệu chứng từ bảo lãnh.
+</disposition>
+  </response>
+  <response code="R0005" name="Security supplier Bank code&#xA;Issued year" id="SBC&#xA;RYA">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0006" name="Security supplier Bank code&#xA;Security bank sign" id="SBC&#xA;SCM">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0007" name="Security supplier Bank code&#xA;Security No." id="SBC&#xA;SCN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0008" name="Transportation type&#xA;Remarks 1" id="USS&#xA;NTA">
+    <description>Ghi chú 1 cần được nhập do Loại hình vận tải là "QU".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Ghi chú 1.
+</disposition>
+  </response>
+  <response code="R0009" name="Transporter code&#xA;Transporter name" id="TRC&#xA;TRN">
+    <description>Yêu cầu nhập Tên nhà vận chuyển trong trường hợp Mã nhà vận chuyển chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của mã nhà vận chuyển và tên nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0010" name="Transporter code&#xA;Transporter address" id="TRC&#xA;TRA">
+    <description>Yêu cầu nhập Địa chỉ nhà vận chuyển trong trường hợp Mã nhà vận chuyển chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của mã nhà vận chuyển và địa chỉ của nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0011" name="Transport contract No. / Equivalent document No.&#xA;Date of transport contract/Date of equivalent document" id="TCN&#xA;TCD">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0012" name="Transport contract No. / Equivalent document No.&#xA;Expiry date of transport contract or of equivalent document" id="TCN&#xA;EDC">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0013" name="Import/Export indication&#xA;Transportation purpose code" id="IEI&#xA;OBJ">
+    <description>Mã mục đích vận chuyển này chưa thể sử dụng cho cờ báo nhập khẩu/xuất khẩu này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu và mục đích vận chuyển.
+</disposition>
+  </response>
+  <response code="R0014" name="Estimated start date of transportation &#xA;Estimated finish date of transportation " id="SDT&#xA;EDT">
+    <description>Ngày kết thúc đang trước ngày bắt đầu.
+</description>
+    <disposition>Kiểm tra nội dung nhập của ngày dự định bắt đầu vận chuyển và ngày dự định kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="R0015" name="Transportation type&#xA;Arrival location of bonded transportation" id="USS&#xA;ARP">
+    <description>Mã cảng dỡ hàng cần được nhập do Loại hình vận tải là "PT".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Mã cảng/cửa khẩu/ga dỡ hàng (Mã cảng dỡ hàng).
+</disposition>
+  </response>
+  <response code="R0016" name="Arrival location of bonded transportation&#xA;Arrival location of bonded transportation" id="ARR&#xA;ARB">
+    <description>Yêu cầu nhập 1 trong 2.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm dỡ hàng (Khu vực chịu sự giám sát Hải quan) và Mã vị trí dỡ hàng (Nơi dỡ hàng).
+</disposition>
+  </response>
+  <response code="R0017" name="Type of security&#xA;Security supplier Bank code" id="TOS&#xA;SBC">
+    <description>Kí hiệu chứng từ bảo lãnh cần được nhập do loại bảo lãnh là "B".
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại bảo lãnh và Kí hiệu chứng từ bảo lãnh.
+</disposition>
+  </response>
+  <response code="R0018" name="Security supplier Bank code&#xA;Issued year" id="SBC&#xA;RYA">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0019" name="Security supplier Bank code&#xA;Security bank sign" id="SBC&#xA;SCM">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0020" name="Security supplier Bank code&#xA;Security No." id="SBC&#xA;SCN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0021" name="Transportation type&#xA;Remarks 1" id="USS&#xA;NTA">
+    <description>Ghi chú 1 cần được nhập do Loại hình vận tải là "QU".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Ghi chú 1.
+</disposition>
+  </response>
+  <response code="R0022" name="Correction type" id="TES1～TES5">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập loại chỉnh sửa.
+</disposition>
+  </response>
+  <response code="R0023" name="Cargo No. " id="CG1～CG5">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập Số hàng hóa (Số B/L, số AWB v.v. …)
+</disposition>
+  </response>
+  <response code="R0024" name="Cargo No. " id="CG1～CG5">
+    <description>Giá trị nhập phải theo thứ tự liên tục.
+</description>
+    <disposition>Kiểm tra giá trị và nhập theo thứ tự liên tục.
+</disposition>
+  </response>
+  <response code="R0025" name="Cargo No. " id="CG1～CG5">
+    <description>Giá trị nhập đã bị trùng lặp.
+</description>
+    <disposition>Nhập mã hàng hóa. (số vận đơn, mã số không vận đơn AWB...)
+khác
+</disposition>
+  </response>
+  <response code="R0026" name="Correction type&#xA;Cargo No. " id="TES1～TES5&#xA;CG1～CG5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0027" name="Cargo No. &#xA;Goods description" id="CG1～CG5&#xA;CM1～CM5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0028" name="Cargo No. &#xA;Price" id="CG1～CG5&#xA;PR1～PR5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0029" name="Cargo No. &#xA;Currency type code" id="CG1～CG5&#xA;RT1～RT5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0030" name="Quantity&#xA;Code for units of measure" id="PC1～PC5&#xA;PU1～PU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0031" name="Gross weight&#xA;Weight unit code" id="GW1～GW5&#xA;WU1～WU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0032" name="Capacity&#xA;Capacity unit code" id="VO1～VO5&#xA;VU1～VU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0033" name="Cargo No. &#xA;Quantity" id="CG1～CG5&#xA;PC1～PC5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0034" name="Cargo No. &#xA;Code for units of measure" id="CG1～CG5&#xA;PU1～PU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0035" name="Cargo No. &#xA;Gross weight" id="CG1～CG5&#xA;GW1～GW5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0036" name="Cargo No. &#xA;Weight unit code" id="CG1～CG5&#xA;WU1～WU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0037" name="Cargo No. &#xA;Capacity" id="CG1～CG5&#xA;VO1～VO5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0038" name="Cargo No. &#xA;Capacity unit code" id="CG1～CG5&#xA;VU1～VU5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0039" name="Cargo No. &#xA;Marks and Nos." id="CG1～CG5&#xA;MR1～MR5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0040" name="Cargo No. &#xA;Type of manifest" id="CG1～CG5&#xA;TM1～TM5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0041" name="Cargo No. &#xA;Transportation equipment code" id="CG1～CG5&#xA;TE1～TE5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0042" name="Cargo No. &#xA;Arrival date of cargo / Estimated departure date of cargo" id="CG1～CG5&#xA;DD1～DD5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0043" name="Cargo No. &#xA;Price" id="CG1～CG5&#xA;PR1～PR5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0044" name="Cargo No. &#xA;Currency type code" id="CG1～CG5&#xA;RT1～RT5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0045" name="Price&#xA;Currency type code" id="PR1～PR5&#xA;RT1～RT5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0046" name="Permit No.&#xA;Permit date" id="PM1～PM5&#xA;PD1～PD5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0047" name="Permit No.&#xA;Expiry date of permit" id="PM1～PM5&#xA;EP1～EP5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0048" name="Import/Export indication&#xA;Issued date of B/L" id="IEI&#xA;DB1～DB5">
+    <description>Ngày phát hành vận đơn phải được nhập do khai báo hàng nhập khẩu.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu và Ngày phát hành vận đơn.
+</disposition>
+  </response>
+  <response code="R0049" name="Cargo No. &#xA;Issued date of B/L" id="CG1～CG5&#xA;DB1～DB5">
+    <description>Yêu cầu nhập Ngày phát hành hóa đơn khi có mã số hóa đơn.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số hàng hóa và Ngày phát hành vận đơn.
+</disposition>
+  </response>
+  <response code="R0050" name="Cargo No. &#xA;Type of manifest" id="CG1～CG5&#xA;TM1～TM5">
+    <description>Do là manifest hàng không nên Số hàng hóa phải nhỏ hơn hoặc bằng 20 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của số hàng hóa và loại manifest.
+</disposition>
+  </response>
+  <response code="R0051" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest biển, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0052" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest biển, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0053" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào phải là 3 ký tự.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0054" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0055" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0056" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào phải là 3 ký tự.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0057" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0058" name="Arrival location of cargo" id="PA1～PA5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0059" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest đường sắt, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0060" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest đường sắt, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0061" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest đường sắt, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0062" name="Arrival location of cargo" id="PA1～PA5">
+    <description>Đối với trường hợp manifest đường sắt, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0063" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0064" name="Departure location of cargo" id="LP1～LP5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0065" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0066" name="Arrival location of cargo" id="PA1～PA5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0067" name="Departure location of cargo" id="LP1～LP5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0068" name="Arrival location of cargo" id="PA1～PA5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0069" name="Import/Export indication&#xA;Transportation type&#xA;Place of origin/manufacture" id="IEI&#xA;USS&#xA;OR1～OR5">
+    <description>Mã nước sản xuất hoặc nơi sản xuất cần được nhập do là hàng hóa nhập khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nước sản xuất hoặc nơi sản xuất.
+</disposition>
+  </response>
+  <response code="R0070" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Nơi xuất phát cần được nhập do là hàng hóa nhập khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0071" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Cảng/sân bay/ga nước ngoài cần phải được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0072" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Địa điểm đích cần được nhập do là hàng hóa nhập khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0073" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Cảng/sân bay/ga/cửa khẩu trong nước cần phải được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0074" name="Import/Export indication&#xA;Transportation type&#xA;Importer code" id="IEI&#xA;USS&#xA;IM1～IM5">
+    <description>Mã người nhập khẩu cần được nhập do là hàng hóa nhập khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã người nhập khẩu.
+</disposition>
+  </response>
+  <response code="R0075" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Cảng/sân bay/ga nước ngoài cần phải được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0076" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Cảng/sân bay/ga/cửa khẩu trong nước cần phải được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0077" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Nơi xuất phát cần được nhập do là hàng hóa xuất khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0078" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Cảng/sân bay/ga/cửa khẩu trong nước cần phải được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0079" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Địa điểm đến cần được nhập do là hàng hóa xuất khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0080" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Cảng/sân bay/ga nước ngoài cần được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0081" name="Import/Export indication&#xA;Transportation type&#xA;Exporter code" id="IEI&#xA;USS&#xA;EM1～EM5">
+    <description>Mã người xuất nhập khẩu cần được nhập do là hàng hóa xuất khẩu (ngoại trừ "KS" và "PT").
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã người xuất khẩu.
+</disposition>
+  </response>
+  <response code="R0082" name="Import/Export indication&#xA;Transportation type&#xA;Departure location of cargo" id="IEI&#xA;USS&#xA;LP1～LP5">
+    <description>Cảng/sân bay/ga/cửa khẩu trong nước cần được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã nơi xuất cảng.
+</disposition>
+  </response>
+  <response code="R0083" name="Import/Export indication&#xA;Transportation type&#xA;Arrival location of cargo" id="IEI&#xA;USS&#xA;PA1～PA5">
+    <description>Cảng/sân bay/ga nước ngoài cần được nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của cờ báo Nhập khẩu/Xuất khẩu, Loại hình vận tải và Mã địa điểm đích.
+</disposition>
+  </response>
+  <response code="R0084" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest biển, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0085" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest biển, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0086" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0087" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest hàng không, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0088" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp manifest tầu hỏa, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0089" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp manifest tầu hỏa, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0090" name="Type of manifest&#xA;Departure location of cargo" id="TM1～TM5&#xA;LP1～LP5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0091" name="Type of manifest&#xA;Arrival location of cargo" id="TM1～TM5&#xA;PA1～PA5">
+    <description>Đối với trường hợp hàng hóa vận chuyển bằng xe, giá trị nhập vào (mã giả lập) chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0092" name="Type of manifest&#xA;Vessel name" id="TM1～TM5&#xA;SN1～SN5">
+    <description>Yêu cầu nhập Tên tầu chở hàng trong trường hợp Hô hiệu của tầu chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Hô hiệu của tầu và tên tầu.
+</disposition>
+  </response>
+  <response code="R0093" name="Importer code&#xA;Importer name" id="IM1～IM5&#xA;IN1～IN5">
+    <description>Yêu cầu nhập Tên người nhập khẩu trong trường hợp Mã người nhập khẩu chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người nhập khẩu và Tên người nhập khẩu.
+</disposition>
+  </response>
+  <response code="R0094" name="Importer code&#xA;Importer address  " id="IM1～IM5&#xA;IA1～IA5">
+    <description>Yêu cầu nhập Địa chỉ người nhập khẩu trong trường hợp Mã người nhập khẩu chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người nhập khẩu và Địa chỉ của người nhập khẩu.
+</disposition>
+  </response>
+  <response code="R0095" name="Exporter code&#xA;Exporter name" id="EM1～EM5&#xA;EN1～EN5">
+    <description>Yêu cầu nhập Tên người xuất khẩu trong trường hợp Mã người xuất khẩu chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người xuất khẩu và Tên người xuất khẩu.
+</disposition>
+  </response>
+  <response code="R0096" name="Exporter code&#xA;Exporter address" id="EM1～EM5&#xA;EA1～EA5">
+    <description>Yêu cầu nhập Địa chỉ người xuất khẩu trong trường hợp Mã người xuất khẩu chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người xuất nhập khẩu và Địa chỉ của người xuất khẩu.
+</disposition>
+  </response>
+  <response code="R0097" name="Trustor code&#xA;Trustor name" id="KM1～KM5&#xA;KN1～KN5">
+    <description>Yêu cầu nhập Tên người ủy thác trong trường hợp Mã người ủy thác chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người ủy thác (Trustor) và tên người ủy thác (Trustor).
+</disposition>
+  </response>
+  <response code="R0098" name="Trustor code&#xA;Trustor address" id="KM1～KM5&#xA;KA1～KA5">
+    <description>Yêu cầu nhập Địa chỉ người ủy thác trong trường hợp Mã người ủy thác chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người ủy thác (Trustor) và địa chỉ của người ủy thác.
+</disposition>
+  </response>
+  <response code="R0099" name="Other law code1&#xA;Other law code2&#xA;Other law code3&#xA;Other law code4&#xA;Other law code5" id="OA1～OA5&#xA;OB1～OB5&#xA;OC1～OC5&#xA;OD1～OD5&#xA;OE1～OE5">
+    <description>Giá trị nhập đã bị lặp.
+</description>
+    <disposition>Nhập Mã văn bản pháp luật khác.
+</disposition>
+  </response>
+  <response code="R0100" name="Price&#xA;Currency type code" id="PR1～PR5&#xA;RT1～RT5">
+    <description>Trường hợp loại tiền tệ là "VND", giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0101" name="Price&#xA;Currency type code" id="PR1～PR5&#xA;RT1～RT5">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Trường hợp sử dụng có sử dụng ngoại tệ, nhập dữ liệu theo định dạng: 15 chữ số phần nguyên, 4 chữ số phần thập phân</disposition>
+  </response>
+  <response code="R0102" name="Remarks code for damaged cargo at departure place1&#xA;Remarks code for damaged cargo at departure place2&#xA;Remarks code for damaged cargo at departure place3&#xA;Remarks code for damaged cargo at departure place4&#xA;Remarks code for damaged cargo at departure place5" id="RA1～RA5&#xA;RB1～RB5&#xA;RC1～RC5&#xA;RD1～RD5&#xA;RE1～RE5">
+    <description>Giá trị nhập đã bị trùng lặp.
+</description>
+    <disposition>Nhập giá trị khác của Mã đánh dấu hàng hóa.
+</disposition>
+  </response>
+  <response code="R0103" name="Export declaration No." id="E01～E50">
+    <description>Giá trị nhập đã bị lặp.
+</description>
+    <disposition>Nhập giá trị khác của Số tờ khai xuất khẩu.</disposition>
+  </response>
+  <response code="R0104" name="Container/Freight Car/Package No." id="CNO">
+    <description>Giá trị nhập đã bị lặp.
+</description>
+    <disposition>Nhập giá trị khác của Số hiệu container/số hiệu toa/số hiệu kiện.</disposition>
+  </response>
+  <response code="R0105" name="Container/Freight Car/Package No.&#xA;Line No. on declaration" id="CNO&#xA;RNO">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0106" name="Transit location for bonded transport &#xA;Date of arrival into transit location" id="TR1～TR3&#xA;AR1～AR3">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0107" name="Transit location for bonded transport &#xA;Date of departure from transit location" id="TR1～TR3&#xA;DP1～DP3">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0108" name="Type of security&#xA;Security supplier Bank code" id="TOS&#xA;SBC">
+    <description>Kí hiệu chứng từ bảo lãnh cần được nhập do loại bảo lãnh là "B".
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại bảo lãnh và Kí hiệu chứng từ bảo lãnh.
+</disposition>
+  </response>
+  <response code="R0109" name="Security supplier Bank code&#xA;Issued year" id="SBC&#xA;RYA">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0110" name="Security supplier Bank code&#xA;Security bank sign" id="SBC&#xA;SCM">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0111" name="Security supplier Bank code&#xA;Security No." id="SBC&#xA;SCN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc bỏ trống.
+</disposition>
+  </response>
+  <response code="R0112" name="Transportation type&#xA;Remarks 1" id="USS&#xA;NTA">
+    <description>Ghi chú 1 cần được nhập do Loại hình vận tải là "QU".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Ghi chú 1.
+</disposition>
+  </response>
+  <response code="R0113" name="Arrival location of bonded transportation&#xA;Arrival location of bonded transportation" id="ARR&#xA;ARB">
+    <description>Cả hai đều không thể nhập.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm dỡ hàng (Khu vực chịu sự giám sát Hải quan) và Mã vị trí dỡ hàng (Nơi dỡ hàng).
+</disposition>
+  </response>
+  <response code="R0114" name="Arrival location of bonded transportation&#xA;Arrival location name of bonded transportation" id="ARR&#xA;ARN">
+    <description>Cần nhập tên cho Khu vực chịu sự giám sát Hải quan này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm dỡ hàng (Khu vực chịu sự giám sát Hải quan) và Tên địa điểm dỡ hàng.
+</disposition>
+  </response>
+  <response code="R0115" name="Arrival location of bonded transportation&#xA;Arrival location of bonded transportation" id="ARB&#xA;ARP">
+    <description>Mã cảng dỡ hàng cần được nhập do là nơi dỡ hàng.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã vị trí dỡ hàng (Nơi dỡ hàng) và Mã cảng/cửa khẩu/ga dỡ hàng (Mã cảng dỡ hàng).
+</disposition>
+  </response>
+  <response code="R0116" name="Container/Freight Car/Package No." id="CNO">
+    <description>Yêu cầu nhập tối thiểu một dòng thông tin trong trường hợp khai báo vận chuyển bằng đường hàng không, đường biển hoặc đường sắt.</description>
+    <disposition>Nhập Số hiệu container/số hiệu toa/số hiệu kiện.
+</disposition>
+  </response>
+  <response code="R0117" name="Transportation type&#xA;Arrival location of cargo" id="USS&#xA;PA1～PA5">
+    <description>Yêu cầu nhập Mã địa điểm đích trong trường hợp vận chuyển hàng chuyển tải/quá cảnh.</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Mã địa điểm đích.</disposition>
+  </response>
+  <response code="R0118" name="Transportation type&#xA;Arrival location of cargo" id="USS&#xA;PA1～PA5">
+    <description>Yêu cầu nhập Cảng/sân bay/ga/cửa khẩu nội địa.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Loại hình vận tải và Mã địa điểm đích.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Khai báo này đã được sửa 9 lần.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0003" name="Customs office" id="CHC">
+    <description>Không được thay đổi Cơ quan hải quan.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0004" name="Cargo No. " id="CG1～CG5">
+    <description>Số vận đơn được nhập khác với số vận đơn đã được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai và nhập tất cả các Số vận đơn đã được đăng ký.</disposition>
+  </response>
+  <response code="E0005" name="Correction type" id="TES1～TES5">
+    <description>Loại chỉnh sửa phải là "3" hoặc "5".
+</description>
+    <disposition>Nhập Loại chỉnh sửa với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="E0006" name="Cargo No. " id="CG1～CG5">
+    <description>Không thể khai báo thêm Số hàng hóa do đã được chấp nhận.
+</description>
+    <disposition>Xóa nhập liệu.
+</disposition>
+  </response>
+  <response code="E0007" name="Correction type" id="TES1～TES5">
+    <description>Loại chỉnh sửa phải là "2" do thêm mới Số hàng hóa.
+</description>
+    <disposition>Nhập Loại chỉnh sửa với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="E0008" name="Date of departure from departure location" id="DPD">
+    <description>Không được thay đổi ngày này do đã khởi hành khỏi địa điểm này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0009" name="Transit location for bonded transport " id="TR1～TR3">
+    <description>Không được thay đổi địa điểm này do đã đến địa điểm này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0010" name="Date of arrival into transit location" id="AR1～AR3">
+    <description>Không được thay đổi ngày đến nơi trung chuyển này do đã đến địa điểm này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0011" name="Date of departure from transit location" id="DP1～DP3">
+    <description>Không được thay đổi ngày này do đã khởi hành khỏi địa điểm này.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0012" name="Type of security" id="TOS">
+    <description>1. Không được thay đổi loại bảo lãnh do đã khởi hành vận chuyển.
+2. Loại bảo lãnh được nhập không đúng với giá trị đã được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.
+</disposition>
+  </response>
+  <response code="E0013" name="Type of security" id="TOS">
+    <description>Yêu cầu có bảo lãnh.
+</description>
+    <disposition>Nhập loại bảo lãnh.
+
+
+</disposition>
+  </response>
+  <response code="E0014" name="Type of security" id="TOS">
+    <description>Mục này không thể nhập.
+</description>
+    <disposition>Xóa nhập liệu.
+</disposition>
+  </response>
+  <response code="E0015" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh riêng đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0016" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này không sử dụng cho tờ khai này.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0017" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0018" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Người dùng hiện tại không thể sử dụng Bảo lãnh này.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0019" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này chưa có hiệu lực.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0020" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này đã hết hiệu lực.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0021" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Tiền gửi đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0022" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0023" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Người dùng hiện tại không thể sử dụng Bảo lãnh này.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0024" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này chưa có hiệu lực.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0025" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Bảo lãnh này đã hết hiệu lực.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin bảo lãnh.
+</disposition>
+  </response>
+  <response code="E0026" name="Type of security" id="TOS">
+    <description>Người dùng hiện tại không thể sử dụng Bảo lãnh chung.
+</description>
+    <disposition>Sử dụng Bảo lãnh riêng.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1510" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1537" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1538" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1555" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

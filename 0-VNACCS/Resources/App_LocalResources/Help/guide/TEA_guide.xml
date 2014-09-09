@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TEA" name="Registration of the list of tax exemption">
+  <item no="1" name="Tax exemption list No." id="TEN" required="" code="">Hệ thống tự động cấp số danh mục miễn thuế đăng ký lần đầu.
+Hệ thống tự động hiển thị trên màn hình (nhưng chỉ đọc được) trong trường hợp đăng ký sửa đổi danh mục.
+
+</item>
+  <item no="2" name="Import export classification" id="IEC" required="" code="">Nhập mã phân loại nhập khẩu/ xuất khẩu:
+“I”: khai báo nhập khẩu
+“E”: khai báo xuất khẩu
+
+</item>
+  <item no="3" name="Customs office" id="CH" required="" code="Customs office code">Nhập mã cơ quan Hải quan nơi đăng kí danh mục miễn thuế.
+(tham khảo bảng mã cơ quan Hải quan trên website Hải quan: www.customs.gov.vn)
+
+</item>
+  <item no="4" name="Address of Declarant" id="IMA" required="" code="">Nhập tên, địa chỉ của người khai Danh mục. </item>
+  <item no="5" name="Telephone number of Declarant" id="IMT" required="" code="">Nhập số điện thoại của người khai Danh mục. </item>
+  <item no="6" name="Time limit of tax exemption" id="TED" required="" code="">Nhập thời hạn miễn thuế được quy định (nếu có).
+ 
+Thời hạn không được trước ngày khai danh mục
+Trong trường hợp không có thông tin về thời hạn miễn thuế, hệ thống mặc định xuất ra thời hạn miễn thuế là '99/99/9999".
+
+</item>
+  <item no="7" name="Investment project name" id="IPN" required="" code="">Nhập tên dự án đầu tư.
+
+</item>
+  <item no="8" name="Place of project construction" id="PPC" required="" code="">Nhập địa điểm xây dựng dự án đầu tư.</item>
+  <item no="9" name="Project objective" id="PO" required="" code="">Nhập mục tiêu của dự án.
+
+</item>
+  <item no="10" name="Exemption/Reduction code for Import /export tax" id="RE" required="" code="Exemption/Reduction code for Import export tax&#xA;">Nhập Mã miễn/giảm/không chịu thuế xuất khẩu, thuế nhập khẩu.</item>
+  <item no="11" name="Scope of exemption list registration" id="SEL" required="" code="">Nhập phạm vi đăng ký DMMT.</item>
+  <item no="12" name="Planned date of importation/exportation" id="PTI" required="" code="">Nhập ngày dự kiến xuất/nhập khẩu.</item>
+  <item no="13" name="Investment license or Investment Certificate No." id="ICN" required="" code="">Nhập số Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư.</item>
+  <item no="14" name="Date of Certificate" id="DOC" required="" code="">Nhập Ngày cấp Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư.
+
+</item>
+  <item no="15" name="Issued by" id="IB" required="" code="">Nhập cơ quan cấp Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư.
+
+</item>
+  <item no="16" name="License or certificate adjustment number of times" id="IC_" required="" code="">Nhập lần cấp Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư điều chỉnh. </item>
+  <item no="17" name="Adjustment certificate No." id="CA_" required="" code="">Nhập số Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư điều chỉnh.
+
+</item>
+  <item no="18" name="Date of adjustment certificate" id="DA_" required="" code="">Nhập Ngày cấp Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư điều chỉnh.
+
+</item>
+  <item no="19" name="Adjustment Issued by" id="AI_" required="" code="">Nhập cơ quan cấp Giấy phép đầu tư hoặc Giấy chứng nhận đầu tư điều chỉnh.
+
+</item>
+  <item no="20" name="Importer/Exporter Code" id="C__" required="" code="Importer/Exporter Code">Nhập mã người xuất khẩu/ nhập khẩu.</item>
+  <item no="21" name="Importer/Exporter Name" id="N__" required="" code="">Nhập tên người xuất nhập khẩu.</item>
+  <item no="22" name="Remarks (for declarant use)" id="IR" required="" code="">Nhập nội dung liên quan trong trường hợp nội dung này không phù hợp để nhập vào các ô khác.
+
+</item>
+  <item no="23" name="Commitment to use for right purposes" id="CRP" required="" code="">Nhập nội dung cam kết sử dụng đúng mục đích.</item>
+  <item no="24" name="Item name" id="CMN" required="" code="">Mô tả hàng hóa.
+
+</item>
+  <item no="25" name="Registration tax exemption quantity" id="QT" required="" code="">Nhập số lượng đăng ký miễn thuế.
+Lưu ý: Có thể nhập đến 02 số thập phân.
+
+</item>
+  <item no="26" name="Registration tax exemption quantity unit code" id="QTU" required="" code="Quantity unit code">Nhập mã đơn vị tính của số lượng.
+Lưu ý: Phải nhập cùng mã đơn vị tính như chỉ tiêu thông tin "Số lượng đã sử dụng".
+
+</item>
+  <item no="27" name="Used quantity" id="UT" required="" code="">Nhập số lượng đã sử dụng.
+Lưu ý: Có thể nhập đến 02 số thập phân.
+
+</item>
+  <item no="28" name="Used quantity unit" id="UTU" required="" code="Quantity unit code">Nhập mã đơn vị tính của số lượng đã sử dụng.
+Lưu ý: Phải nhập cùng mã đơn vị tính như chỉ tiêu thông tin "Số lượng đăng ký miễn thuế".
+
+</item>
+  <item no="29" name="Value" id="VA" required="" code="">Nhập trị giá.
+
+</item>
+  <item no="30" name="Estimated value" id="EVA" required="" code="">Nhập trị giá dự kiến.
+
+</item>
+</guide>

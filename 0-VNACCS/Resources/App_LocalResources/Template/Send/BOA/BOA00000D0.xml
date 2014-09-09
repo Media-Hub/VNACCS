@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_BOA" jobname="Registration of notification on departure regarding transportation" display-name="BOA Registration of notification on departure regarding transportation">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_BOA.xml" item_attr_edit="False" />
+  <friday href="CAM20_BOA.xml" revision="0000" />
+  <iteminfo>
+    <item id="KND" name="Processing type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="9,Registration,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="CGO" name="Declaration No." input_output="+" required="M" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DPR" name="Departure location of bonded transportation (Bonded area)" input_output="+" required="C" attribute="A" figure="7" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BRT" name="Departure location of bonded transportation (Berth code)" input_output="+" required="C" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="PRT" name="Departure location of bonded transportation (Port of loading)" input_output="+" required="C" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="APR" name="Arrival location of bonded transportation&#xD;&#xA;(Bonded area)" input_output="+" required="C" attribute="A" figure="7" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ART" name="Arrival location of bonded transportation&#xD;&#xA;(Berth code)" input_output="+" required="C" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="APT" name="Arrival location of bonded transportation&#xD;&#xA;(Port of discharge)" input_output="+" required="C" attribute="A" figure="6" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DTM" name="Start date of transport" input_output="+" required="C" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TIM" name="Start time of transport" input_output="+" required="C" attribute="A" figure="4" form="" order="10" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="100, 19" Location="162, 316" Text="Mã điểm dỡ hàng" Font="Tahoma, 9pt" />
+    <label Size="105, 19" Location="162, 206" Text="Mã điểm xếp hàng" Font="Tahoma, 9pt" />
+    <label Size="115, 19" Location="162, 147" Text="Mã phân loại xử lý *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="41, 22" Location="393, 146" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="9,Registration&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type" check_attribute="*" attribute="A" id="KND" figure="1" required="M" />
+    <label Size="156, 19" Location="162, 426" Text="Ngày khởi hành vận chuyển" Font="Tahoma, 9pt" />
+    <label Size="9, 19" Location="478, 426" Text="-" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="9" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="393, 425" BackColor="Window" Font="Courier New, 9pt" form="" order="9" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Start date of transport" check_attribute="*" attribute="A" id="DTM" figure="8" AutoComplete="False" required="C" />
+    <maskedtextbox Mask="99:99" TabIndex="10" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="48, 21" Location="489, 425" BackColor="Window" Font="Courier New, 9pt" form="" order="10" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Start time of transport" check_attribute="*" attribute="A" id="TIM" figure="4" AutoComplete="False" required="C" />
+    <label Size="70, 19" Location="162, 177" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="393, 176" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="A" id="CGO" figure="12" required="M" />
+    <label Size="204, 19" Location="181, 225" Text="(Khu vực chịu sự giám sát Hải quan)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="62, 21" Location="393, 224" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Bonded area)" check_attribute="*" attribute="A" id="DPR" figure="7" required="C" />
+    <label Size="94, 19" Location="181, 254" Text="(Vị trí xếp hàng)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="55, 21" Location="393, 253" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Berth code)" check_attribute="*" attribute="A" id="BRT" figure="6" required="C" />
+    <label Size="184, 19" Location="181, 283" Text="(Cảng / cửa khẩu / ga xếp hàng)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="393, 282" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Departure location of bonded transportation (Port of loading)" check_attribute="*" attribute="A" id="PRT" figure="6" required="C" />
+    <label Size="204, 19" Location="181, 335" Text="(Khu vực chịu sự giám sát Hải quan)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="62, 21" Location="393, 334" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Bonded area)" check_attribute="*" attribute="A" id="APR" figure="7" required="C" />
+    <label Size="88, 19" Location="181, 365" Text="(Vị trí dỡ hàng)" Font="Tahoma, 9pt" />
+    <label Size="178, 19" Location="181, 394" Text="(Cảng / cửa khẩu / ga dỡ hàng)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="8" Size="55, 21" Location="393, 393" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Port of discharge)" check_attribute="*" attribute="A" id="APT" figure="6" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="55, 21" Location="393, 363" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="Arrival location of bonded transportation&#xD;&#xA;(Berth code)" check_attribute="*" attribute="A" id="ART" figure="6" required="C" />
+  </layout>
+</jobform>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_SAZ" jobname="CAM38_SAZ" display-name="Direction notification of application for Quarantine certificate of import animals/ animal products">
+  <meta_info format_Version="1.0" revision="0000" friday="VAJP060.xml" item_attr_edit="False" />
+  <friday href="VAJP060.xml" revision="0000" />
+  <iteminfo>
+    <item id="APN" name="OGA Application No." input_output="-" required="" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D01" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T01" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C01" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D02" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T02" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C02" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D03" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T03" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C03" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D04" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T04" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C04" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D05" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T05" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C05" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D06" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T06" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C06" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D07" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T07" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C07" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D08" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T08" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C08" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D09" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T09" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C09" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="D10" name="Date of instruction" input_output="-" required="" attribute="A" figure="8" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="T10" name="Case title of instruction" input_output="-" required="" attribute="W" figure="120" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C10" name="Content of instruction&#xD;&#xA;" input_output="-" required="" attribute="W" figure="420" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <label Location="274, 75" Size="178, 19" Font="Tahoma, 9pt, style=Bold" Text="Độc lập - Tự do - Hạnh phúc" />
+      <label Location="234, 60" Size="264, 19" Font="Tahoma, 9pt, style=Bold" Text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" />
+      <line LineStyle="Center, Black, Solid, 1" Location="280, 94" Size="157, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="23, 241" Size="680, 0" />
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 148" Size="718, 17" Font="Tahoma, 9pt, style=Bold" Text="THÔNG BÁO HƯỚNG DẪN CẤP PHÉP KIỂM DỊCH ĐỘNG VẬT HOẶC CÁC SẢN PHẨM TỪ ĐỘNG VẬT CHO NHẬP KHẨU" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="146, 225" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="APN" input_output="-" name="OGA Application No." order="1" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 311" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D01" input_output="-" name="Date of instruction" order="2" required="" />
+      <label Location="23, 223" Size="121, 19" Font="Tahoma, 9pt" Text="Số đơn xin cấp phép:" />
+      <label Location="5, 591" Size="23, 19" Font="Tahoma, 9pt" Text="7.  " />
+      <label Location="5, 638" Size="23, 19" Font="Tahoma, 9pt" Text="8.  " />
+      <label Location="5, 732" Size="26, 19" Font="Tahoma, 9pt" Text="10. " />
+      <label Location="5, 685" Size="23, 19" Font="Tahoma, 9pt" Text="9.  " />
+      <label Location="7, 544" Size="23, 19" Font="Tahoma, 9pt" Text="6.  " />
+      <label Location="7, 497" Size="23, 19" Font="Tahoma, 9pt" Text="5.  " />
+      <label Location="5, 450" Size="23, 19" Font="Tahoma, 9pt" Text="4.  " />
+      <label Location="7, 403" Size="23, 19" Font="Tahoma, 9pt" Text="3.  " />
+      <label Location="7, 356" Size="23, 19" Font="Tahoma, 9pt" Text="2.  " />
+      <label Location="5, 309" Size="23, 19" Font="Tahoma, 9pt" Text="1.  " />
+      <label Location="55, 284" Size="36, 19" Font="Tahoma, 9pt, style=Bold" Text="Ngày chỉ thị" />
+      <prttextbox Format="" Multiline="True" Location="117, 311" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T01" input_output="-" name="Case title of instruction" order="3" required="" />
+      <label Location="23, 251" Size="135, 19" Font="Tahoma, 9pt, style=Bold" Text="Danh sách các chỉ thị" />
+      <prttextbox Format="" Multiline="True" Location="269, 311" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C01" input_output="-" name="Content of instruction&#xD;&#xA;" order="4" required="" />
+      <label Location="452, 283" Size="60, 19" Font="Tahoma, 9pt, style=Bold" Text="Nội dung chỉ thị" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 358" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D02" input_output="-" name="Date of instruction" order="5" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 358" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T02" input_output="-" name="Case title of instruction" order="6" required="" />
+      <label Location="177, 283" Size="27, 19" Font="Tahoma, 9pt, style=Bold" Text="Tên chỉ thị" />
+      <prttextbox Format="" Multiline="True" Location="269, 358" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C02" input_output="-" name="Content of instruction&#xD;&#xA;" order="7" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="34, 405" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D03" input_output="-" name="Date of instruction" order="8" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 405" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T03" input_output="-" name="Case title of instruction" order="9" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 405" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C03" input_output="-" name="Content of instruction&#xD;&#xA;" order="10" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 452" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D04" input_output="-" name="Date of instruction" order="11" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 452" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T04" input_output="-" name="Case title of instruction" order="12" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 452" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C04" input_output="-" name="Content of instruction&#xD;&#xA;" order="13" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 499" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D05" input_output="-" name="Date of instruction" order="14" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 499" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T05" input_output="-" name="Case title of instruction" order="15" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 499" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C05" input_output="-" name="Content of instruction&#xD;&#xA;" order="16" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 546" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D06" input_output="-" name="Date of instruction" order="17" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 546" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T06" input_output="-" name="Case title of instruction" order="18" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 546" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C06" input_output="-" name="Content of instruction&#xD;&#xA;" order="19" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 593" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D07" input_output="-" name="Date of instruction" order="20" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 593" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T07" input_output="-" name="Case title of instruction" order="21" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 593" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C07" input_output="-" name="Content of instruction&#xD;&#xA;" order="22" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="34, 640" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D08" input_output="-" name="Date of instruction" order="23" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 640" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T08" input_output="-" name="Case title of instruction" order="24" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 640" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C08" input_output="-" name="Content of instruction&#xD;&#xA;" order="25" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 687" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D09" input_output="-" name="Date of instruction" order="26" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 687" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T09" input_output="-" name="Case title of instruction" order="27" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 687" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C09" input_output="-" name="Content of instruction&#xD;&#xA;" order="28" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="33, 734" Size="80, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="D10" input_output="-" name="Date of instruction" order="29" required="" />
+      <prttextbox Format="" Multiline="True" Location="117, 734" Size="147, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="120" form="" id="T10" input_output="-" name="Case title of instruction" order="30" required="" />
+      <prttextbox Format="" Multiline="True" Location="269, 734" Size="427, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="C10" input_output="-" name="Content of instruction&#xD;&#xA;" order="31" required="" />
+    </page>
+  </layout>
+</jobform>

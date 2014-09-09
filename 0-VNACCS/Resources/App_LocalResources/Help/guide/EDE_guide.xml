@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="EDE" name="Correction of export declaration">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ EDA hoặc EDA01.</item>
+  <item no="2" name="Classification of outputting corrected report" id="JKN" required="" code="">In case output Receipt of correction of export declaration , enter "P"</item>
+</guide>

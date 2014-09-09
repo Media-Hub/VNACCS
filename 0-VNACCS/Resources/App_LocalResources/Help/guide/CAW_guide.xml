@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CAW" name="Manifest correction B">
+  <item no="1" name="Processing type" id="KND" required="" code="">Nhập mã yêu cầu cần thực hiện
+2: Bổ sung
+5:  Sửa
+1:  Xóa/Hủy
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Nhập loại hình thực hiện
+Trong trường hợp sửa, cờ báo nhập khẩu/xuất khẩu không được phép sửa.
+I: Nhập khẩu
+E: Xuất khẩu
+</item>
+  <item no="3" name="Flight No. 1 (flight number)" id="FL1" required="" code="">Nhập số hiệu chuyến bay dài 6 ký tự
+1. Trường hợp sửa, số hiệu chuyến bay không được phép sửa.
+2.  Nhập 2 ký tự mã hãng hàng không và 3 đến 4 ký tự số hiệu chuyến bay
+3.  Có thể nhập 3 đến 4 ký tự cho số hiệu chuyến bay. Đối với số hiệu chuyến bay có thể dùng chữ cái cho ký tự thứ 4, 3 ký tự còn lại chỉ có thể dùng chữ số.
+</item>
+  <item no="4" name="Flight No. 2 (date)" id="FL2" required="" code="">Nhập ngày chuyến bay theo định dạng DDMMM
+Trường hợp sửa, ngày chuyến bay không được phép sửa.
+</item>
+  <item no="5" name="Port of discharge code/Port of loading code" id="DPR" required="" code="IATA airport code and IATA city code">Nhập mã sân bay dỡ hàng/xếp hàng dài 3 ký tự theo bảng mã sân bay, thành phố của IATA
+1.Trường hợp sửa, mã sân bay dỡ/ xếp hàng không được phép sửa.
+2. Đối với manifest nhập khẩu, nhập mã sân bay dỡ hàng
+3. Đối với manifest xuất khẩu, nhập mã sân bay xếp hàng
+4. Mã sân bay xếp hàng/sân bay dỡ hàng phải là sân bay trong nội địa Việt Nam
+</item>
+  <item no="6" name="Estimated date of arrival/Estimated date of departure" id="IDT" required="" code="">Nhập ngày dự kiến đến/xuất phát theo định dạng DDMMYYYY
+1. Đối vớ manifest nhập khẩu, ngày dự kiến đến phải &gt;= 4 ngày trước ngày hệ thống
+2. Đối với manifest xuất khẩu, Ngày đi phải &gt;= 4 ngày trước ngày hệ thống
+</item>
+  <item no="7" name="AWB No." id="AWB" required="" code="">Nhập số không vận đơn dài 20 ký tự</item>
+  <item no="8" name="Split indication" id="SPT" required="" code="">Trường hợp hàng hóa đưa vào Việt Nam trên nhiều chuyến bay khác nhau, điền "S".</item>
+  <item no="9" name="Place of shipment code" id="ORG" required="" code="IATA airport code and IATA city code">Nhập mã địa điểm chất hàng lên tàu dài 3 ký tự theo bảng mã sân bay, thành phố của IATA
+1. Đối với manifest nhập khẩu, điền mã thành phố nước ngoài.
+2. Trường hợp mã nước, địa điểm chưa được đăng ký trên hệ thống, điền "ZZZ".
+</item>
+  <item no="10" name="Place of destination code" id="DST" required="" code="IATA airport code and IATA city code">1. Nhập mã điểm đích của hàng hóa dài 3 ký tự theo bảng mã sân bay, thành phố của IATA.
+2. Trường hợp mã nước, địa điểm chưa được đăng ký trên hệ thống, điền "ZZZ".
+</item>
+  <item no="11" name="Transship/Transit" id="KRR" required="" code="UN/EDIFACT code (7365)">Nhập 28: trong trường hợp thực hiện Chuyển tải/quá cảnh</item>
+  <item no="12" name="Transship/Transit reason" id="KRS" required="" code="Transship/Transit reason code">Nhập mã lý do chuyển tải/quá cảnh
+TRS: Chuyển tải
+TRT: Quá cảnh
+POS: Di chuyển hàng hóa trên cùng một phương tiện
+</item>
+  <item no="13" name="Transship/Transit duration" id="PRD" required="" code="">1. Nhập số ngày kể từ ngày dỡ hàng hóa từ máy bay.
+2. Số ngày phải trong phạm vi ngày định nghĩa cho hàng hóa chuyển tải quá cảnh trong hệ thống (bảng A311).
+3. Không thể điền 0.
+</item>
+  <item no="14" name="Code of verification based on other laws and regulations (other than Customs laws)" id="OC_" required="" code="Code of verification based on other laws and regulations (other than Customs laws)">Nhập mã các văn bản pháp quy khác (ngoài luật hải quan) có liên quan trong trường hợp cần thiết (theo bảng mã các văn bản quy phạm pháp luật A519). </item>
+  <item no="15" name="Total number of packages" id="GPS" required="" code="">1. Trường hợp hàng vận chuyển trên nhiều chuyến bay, có thể điền Tổng số kiện hàng hóa nếu cần thiết.2. Tổng số kiện hàng hóa phải theo quy tắc;   Số kiện hàng hóa &lt; Tổng số kiện3. Trường hợp Tổng số kiện hàng hóa chuyến bay đầu tiên khác so với chuyến sau, giá trị của Tổng số kiện hàng hóa sẽ được cập nhật theo thông tin chuyến bay sau.
+
+</item>
+  <item no="16" name="Total cargo weight" id="GWT" required="" code="">Nhập tổng trọng lượng theo định dạng: 6 số phần nguyên, 1 số phần thập phân
+1. Trường hợp hàng vận chuyển trên nhiều chuyến bay, có thể điền Tổng trọng lượng hàng hóa nếu cần thiết.
+2. Tổng trọng lượng hàng hóa phải theo quy tắc;
+    Trọng lượng hàng hóa &lt; Tổng trọng lượng
+3. Trường hợp Tổng trọng lượng hàng hóa chuyến bay đầu tiên khác so với chuyến sau, giá trị của Tổng trọng lượng hàng hóa sẽ được cập nhật theo thông tin chuyến bay sau.
+</item>
+  <item no="17" name="Weight unit code" id="GTI" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Nhập mã đơn vị trọng lượng
+KGM: Kilogram
+LBR: Pound
+</item>
+  <item no="18" name="Consignor code" id="SHS" required="" code="Importer/exporter code">Nhập mã người gửi hàng dài 13 ký tự theo bảng mã người nhập khẩu/xuất khẩu(nếu có)</item>
+  <item no="19" name="Consignor name" id="SHN" required="" code="">Cấn phải điền một trong các trường sau:- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)- Địa chỉ người gửi hàng 4(Tên thành phố)
+
+</item>
+  <item no="20" name="Consignor postcode" id="SHP" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người gửi hàng 4(Tên thành phố)
+</item>
+  <item no="21" name="Consignor address 1 (Building name etc.)" id="SN1" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người gửi hàng 4(Tên thành phố)
+</item>
+  <item no="22" name="Consignor address 2 (Street and number/P.O. Box)" id="SN2" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người gửi hàng 4(Tên thành phố)
+</item>
+  <item no="23" name="Consignor address 3 (District/Commune name)" id="SN3" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người gửi hàng 4(Tên thành phố)
+</item>
+  <item no="24" name="Consignor address 4 (City name)" id="SN4" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người gửi hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người gửi hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người gửi hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người gửi hàng 4(Tên thành phố)
+</item>
+  <item no="25" name="Consignor address 5 (Country code)" id="SN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia theo bảng mã UN/LOCODE (2 ký tự)</item>
+  <item no="26" name="Consignor telephone No." id="SHT" required="" code="">
+  </item>
+  <item no="27" name="Consignee code" id="CNS" required="" code="Importer/exporter code">Nhập mã người nhận hàng theo bảng mã người nhập khẩu/người xuất khẩu (nếu có)</item>
+  <item no="28" name="Consignee name" id="CNN" required="" code="">
+  </item>
+  <item no="29" name="Consignee postcode" id="CNP" required="" code="">
+  </item>
+  <item no="30" name="Consignee address 1 (Building name etc.)" id="CN1" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người nhận hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người nhận hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người nhận hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người nhận hàng 4(Tên thành phố)
+</item>
+  <item no="31" name="Consignee address 2 (Street and number/P.O.Box)" id="CN2" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người nhận hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người nhận hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người nhận hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người nhận hàng 4(Tên thành phố)
+</item>
+  <item no="32" name="Consignee address 3 (District/Commune name)" id="CN3" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người nhận hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người nhận hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người nhận hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người nhận hàng 4(Tên thành phố)
+</item>
+  <item no="33" name="Consignee address 4 (City name)" id="CN4" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người nhận hàng 1 (Tên toàn nhà, ...)
+- Địa chỉ người nhận hàng 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người nhận hàng 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người nhận hàng 4(Tên thành phố)
+</item>
+  <item no="34" name="Consignee address 5 (Country code)" id="CN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia theo bảng mã UN/LOCODE (2 ký tự)</item>
+  <item no="35" name="Consignee telephone No." id="CTL" required="" code="">
+  </item>
+  <item no="36" name="Notify party code" id="NS_" required="" code="Importer/exporter code">Nhập mã người nhận thông báo theo bảng mã người nhập khẩu/người xuất khẩu (nếu có)</item>
+  <item no="37" name="Notify party name" id="NN_" required="" code="">Cần phải điền ít nhất một tên người được thông báo.</item>
+  <item no="38" name="Notify party postcode" id="NP_" required="" code="">
+  </item>
+  <item no="39" name="Notify party address 1 (Building name etc.)" id="NE_" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người được thông báo 1 (Tên toàn nhà, ...)
+- Địa chỉ người được thông báo 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người được thông báo 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người được thông báo 4(Tên thành phố)
+</item>
+  <item no="40" name="Notify party address 2 (Street and number/P.O.Box)" id="NF_" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người được thông báo 1 (Tên toàn nhà, ...)
+- Địa chỉ người được thông báo 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người được thông báo 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người được thông báo 4(Tên thành phố)
+</item>
+  <item no="41" name="Notify party address 3 (District/Commune name)" id="NG_" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người được thông báo 1 (Tên toàn nhà, ...)
+- Địa chỉ người được thông báo 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người được thông báo 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người được thông báo 4(Tên thành phố)
+</item>
+  <item no="42" name="Notify party address 4 (City name)" id="NH_" required="" code="">Cấn phải điền một trong các trường sau:
+- Địa chỉ người được thông báo 1 (Tên toàn nhà, ...)
+- Địa chỉ người được thông báo 2 (Tên đường/ Số hòm thư bưu điện)
+- Địa chỉ người được thông báo 3 (Tên quận huyện/phường/xã)
+- Địa chỉ người được thông báo 4(Tên thành phố)
+</item>
+  <item no="43" name="Notify party address 5 (Country code)" id="NC_" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia theo bảng mã UN/LOCODE (2 ký tự)</item>
+  <item no="44" name="Notify party telephone No." id="NL_" required="" code="">
+  </item>
+  <item no="45" name="Goods description" id="CM__" required="" code="">Cần phải điền ít nhất một Mô tả hàng hóa.</item>
+  <item no="46" name="HS code (First 4 digits)" id="HS__" required="" code="HS code (4-digit)">Nhập mã HS 4 số</item>
+  <item no="47" name="Number of packages" id="PC__" required="" code="">
+  </item>
+  <item no="48" name="Cargo weight" id="WG__" required="" code="">Nhập trọng lượng hàng hóa theo định dạng 6 số phần nguyên, 1 số phần thập phân</item>
+  <item no="49" name="Weight unit code" id="JT__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Nhập mã dơn vị trọng lượng
+KGM: Kilogram
+LBR: Pound
+</item>
+  <item no="50" name="Special cargo sign" id="SP__" required="" code="Special cargo code">Nhập mã hàng hóa đặc biệt trong trường hợp cần thiết (Theo bảng mã hàng hóa đặc biệt A205)</item>
+</guide>

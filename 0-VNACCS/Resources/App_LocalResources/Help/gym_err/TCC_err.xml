@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="TCC" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Input field 1" id="I01">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Trường nhập liệu 1 với định dạng hợp lệ</disposition>
+  </response>
+  <response code="S0002" name="Input field 2" id="I02">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Trường nhập liệu 2 với định dạng hợp lệ</disposition>
+  </response>
+  <response code="S0003" name="Output report indication" id="PRT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Chỉ dẫn xuất báo cáo với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+</help>

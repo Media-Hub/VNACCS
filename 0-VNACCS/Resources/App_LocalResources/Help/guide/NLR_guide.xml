@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="NLR" name="Report of crew list">
+  <item no="1" name="Processing type" id="KBN" required="" code="">Người dùng lựa chọn các chỉ tiêu thông tin để thực hiện  khai báo danh sách hành khách theo các ký hiệu sau: 
+9:Đăng ký
+5:Sửa đổi
+1:Hủy bỏ</item>
+  <item no="2" name="Crew list No." id="NUM" required="" code="">
+  </item>
+  <item no="3" name="Submission to Immigration Bureau&#xA;" id="TON" required="" code="">Ô này để người dùng lựa chọn gửi hoặc không gửi thông tin khai báo đến Cục quản lý nhập cảnh
+0 (Không đánh dấu) : Không gửi
+1 (Đánh dấu) : Gửi</item>
+  <item no="4" name="Submission to Quarantine station&#xA;" id="TOK" required="" code="">Ô này để người dùng lựa chọn gửi hoặc không gửi thông tin khai báo đến Cơ quan kiểm dịch
+0 (Không đánh dấu) : Không gửi
+1 (Đánh dấu) : Gửi</item>
+  <item no="5" name="Submission to Port authority&#xA;(Airport authority / Railway station authority)" id="TOP" required="" code="">Ô này để người dùng lựa chọn gửi hoặc không gửi thông tin khai báo đến Cơ quan cảng vụ
+
+1. Trường hợp vận chuyển đường biển, nhập danh sách thuyền viên có thể được gửi tới cảng vụ
+2. Trường hợp vận chuyển đường không, nhập danh sách phi hành đoàn có thể được gửi tới cảng vụ
+3. Trường hợp vận chuyển đường sắt, nhập danh sách nhân viên có thể được gửi tới Cơ quan quản lý ga
+0 (Không đánh dấu) : Không gửi
+1 (Đánh dấu) : Gửi</item>
+  <item no="6" name="Customs office" id="NZC" required="" code="Customs office code">Trường hợp đăng ký và vận chuyển đường biển, hệ thống có thể yêu cầu nhập mã công chức</item>
+  <item no="7" name="User code of Immigration Bureau" id="KKK" required="" code="User code">Trường hợp đăng ký và vận chuyển đường biển, hệ thống yêu cầu nhập mã người sử dụng tại cơ quan biên phòng</item>
+  <item no="8" name="User code of Quarantine station&#xA;&#xA;" id="KEK" required="" code="User code">Trường hợp đăng ký và vận chuyển đường biển, hệ thống yêu cầu nhập mã người sử dụng tại cơ quan kiểm dịch</item>
+  <item no="9" name="User code of Port authority&#xA;&#xA;" id="KEP" required="" code="User code">Trường hợp đăng ký và vận chuyển đường biển, hệ thống yêu cầu nhập mã người sử dụng tại cảng vụ</item>
+  <item no="10" name="Transportation type" id="OPT" required="" code="">Người dùng nhập loại vận chuyển theo các ký hiệu do hệ thống cung cấp sau:
+ S: Vận chuyển đường biển
+ A:  Vận chuyển đường không
+ R:  Vận chuyển đường sắt
+Trường hợp sửa đổi thông tin thì chỉ tiêu này không được thay đổi</item>
+  <item no="11" name="Arrival/departure indication&#xA;" id="IOK" required="" code="">Hệ thống yêu cầu người khai nhập thông báo đến đi theo các dấu hiệu sau:
+A; Danh sách thủy thủ đến
+D; Danh sách thủy thủ đi
+Trường hợp khai báo thay đổi, nội dung này không được thay đổi</item>
+  <item no="12" name="Transportation equipment code(Vessel call sign, Flight No. etc....)" id="OPC" required="" code="">Ô này cho người dùng nhập mã phương tiện vận chuyển tuỳ thuộc vào từng loại hình vận tải như sau:
+1. Trường hợp vận chuyển đường biển, nhập hô hiệu tàu với 9 ký tự
+2. Trường hợp vận chuyển đường hàng không, nhập chuyến bay số 1 và 2 theo định dạng sau:
+"Chuyến số 1 (6 ký tự)"+ "/" + "Chuyến số 2 (5 ký tự)"
+* Chuyến số 1 chứa 2 ký tự "mã hãng hàng không (A214)" và 3 đến 4 ký tự "số chuyến bay"
+* Chuyến số 2: DDMMM
+3. Trường hợp vận chuyển đường sắt, nhập số tàu đăng ký với 10 ký tự
+4. Trường hợp sửa đổi, các nội dung trên không thể thay đổi</item>
+  <item no="13" name="Arrival place code / Departure place code" id="PRT" required="" code="(Sea)&#xA;UN/LOCODE&#xA;(Air)&#xA;IATA airport code&#xA;(Railway)&#xA;Station code">Người khai được yêu cầu nhập mã địa điểm đến/đi như sau:
+1. Trường hợp vận chuyển đường biển (đến), Nhập mã cảng đến
+2. Trường hợp vận chuyển đường biển (đi), Nhập mã cảng đi.
+3. Trường hợp vận chuyển đường không (đến), Nhập mã sân bay đến
+4. Trường hợp vận chuyển đường không (đi), Nhập mã sân bay đi
+5. Trường hợp vận chuyển đường sắt (đến), Nhập mã nhà ga đến.
+6. Trường hợp vận chuyển đường sắt (đi), Nhập mã nhà ga đi.
+7.Trường hợp sửa đổi, các nội dung trên không thể thay đổi</item>
+  <item no="14" name="Arrival place suffix / Departure place suffix&#xA;&#xA;" id="LPD" required="" code="">Ô này dành cho người khai khai báo số lần vào cảng của một hành trình như sau:
+1. Nếu vận chuyển đường biển (đến), nhập vào ô này là số lần tàu vào cảng đến.
+2. Nếu vận chuyển đường biển (đi), nhập vào ô này số lần tàu rời cảng đi
+Ô này cho phép người khai nhập từ 0 đến 9
+Trường hợp vận chuyển đường biển và sửa chữa thông tin thì thông tin tại ô này không được thay đổi.
+Yêu cầu nhập số lần vào cảng không áp dụng đối với vận chuyển đường không và đường sắt
+</item>
+  <item no="15" name="Voyage No." id="KBF" required="" code="">Ô này dành cho người khai nhập số hiệu chuyến đi, số hiệu chuyến đi không được thay đổi trong trường hợp khai báo sửa đổi thông tin.
+Ô này chỉ yêu cầu nhập dữ liệu trong trường hợp vận chuyển đường biển, không yêu cầu đối với đường sắt và đường bộ</item>
+  <item no="16" name="Estimated date of arrival /Estimated date of departure&#xA;" id="FDT" required="" code="">Ô này dùng đế người khai nhập thời gian dự kiến đến và đi của phương tiện. Thông tin dự kiến đến đi không được thay đổi trong trường hợp khai báo sửa đổi
+Riếng đối với đường biển và đường không, người khai không phải nhập thông tin ở ô này.</item>
+  <item no="17" name="Remarks" id="KIJ" required="" code="">
+  </item>
+  <item no="18" name="Summarized application identifier" id="SUK" required="" code="">Trường hợp người khai khai báo thông tin chung cho tất cả các thuyền viên thì nhập vào ô này với giá trị do hệ thống cung cấp như sau:
+0: Đăng ký nhập cảnh
+9: Chỉ tại khu vực cảng đi
+</item>
+  <item no="19" name="Cancellation indication" id="CAN" required="" code="">Ô này dùng để khai báo thuyền viên bị xoá tên, người khai nhập ký hiệu"X"</item>
+  <item no="20" name="Application type" id="SUB" required="" code="">Trường hợp danh sách thuỷ thủ khai báo trước khi đến, hệ thống yêu cầu nhập loại khai báo như sau:
+Chọn 0: Đăng ký nhập cảnh
+Chọn 9: Chỉ hoạt động tại khu vực cảng đi   
+Ô này sẽ bị bỏ qua nếu người khai đã nhập thông tin tại mục khai báo chung</item>
+  <item no="21" name="Crew members type" id="CPK" required="" code="">Ô này để người khai nhâp thông tin nhập cảnh của thuỷ thuỷ theo ký hiệu sau:
+FM: Thuyền viên
+DDT: Thuyền viên quá cảnh</item>
+  <item no="22" name="Crew member name &#xA;(Last name)" id="LNM" required="" code="">
+  </item>
+  <item no="23" name="Crew member name &#xA;(First name)" id="FNM" required="" code="">
+  </item>
+  <item no="24" name="Crew member name (Middle name)" id="MNM" required="" code="">
+  </item>
+  <item no="25" name="Nationality of crew member" id="NAT" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">
+  </item>
+  <item no="26" name="Date of birth (crew)&#xA;&#xA;" id="BRT" required="" code="">Người khai phải nhập ngày sinh thuyền viên nhỏ hơn ngày hệ thống</item>
+  <item no="27" name="Crew member's sex" id="SEX" required="" code="">M:Male
+F:Female
+U:Unknown
+M:Nam
+F:Nữ
+U:Không biết
+</item>
+  <item no="28" name="Type of crew member's identifiation document " id="IDK" required="" code="">Ô này dành cho người khai nhập loại giấy tờ tuỳ thân của thuỷ thủ theo các ký hiệu sau:
+P:Hộ chiếu
+V:Visa
+A:Hộ chiếu ngoại kiều
+S: Seaman’s pocket ledger 
+F:Khác
+</item>
+  <item no="29" name="Crew member's identification document No.&#xA;" id="IDN" required="" code="">
+  </item>
+  <item no="30" name="First departure location code" id="ORG" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;">Ô này dành cho người khai nhập mã nơi đi đầu tiên theo bảng mã UNLOCODE hoặc IATA</item>
+  <item no="31" name="First departure location name&#xA;" id="ORN" required="" code="">In case there is no code for first departure location, enter name of first departure location.</item>
+  <item no="32" name="Final destination code" id="DST" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;">Ô này dành cho người khai nhập nơi đến cuối cùng theo bảng mã UNLOCODE và IATA</item>
+  <item no="33" name="Final destination name&#xA;&#xA;" id="DSN" required="" code="">Trường hợp không có mã cảng cuối cùng thì người khai nhập tên nơi đến cuối cùng.</item>
+  <item no="34" name="Passport expiry date" id="PDT" required="" code="">
+  </item>
+  <item no="35" name="Place of issue of passport/visa" id="PIC" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Ô này dành cho người khai nhập tên nước cấp hộ chiếu, vi sa</item>
+  <item no="36" name="Official title&#xA;&#xA;" id="RAN" required="" code="Official title code">
+  </item>
+  <item no="37" name="Remarks" id="KIZ" required="" code="">
+  </item>
+  <item no="38" name="Number of alcoholic beverages" id="ALC" required="" code="">Trường hợp thủy thủ có bia, rượu mang theo thì nhập số lượng tính theo lít vào ô này</item>
+  <item no="39" name="Number of tobacco products" id="TBC" required="" code="">Trường hợp thủy thủ có thuốc lá thì nhập số lượng thuốc lá vào ô này</item>
+  <item no="40" name="Unit of tobacco products" id="UNT" required="" code="">Ô này dành cho người khai khai báo đơn vị tính của thuốc lá:
+P: Điếu
+G: Gram</item>
+  <item no="41" name="Number of firearms or swords" id="FIR" required="" code="">Ô này dành cho người khai khai báo khi thuyền viên có súng hoặc dao, nhập số lượng cụ thể.</item>
+  <item no="42" name="Others" id="OTH" required="" code="">Ô này dành cho người khai khai báo hành lý của thuyền viên ngoài những thuốc lá, rượu, súng và dao.
+Ô này không được vượt quá 140 ký tự</item>
+</guide>

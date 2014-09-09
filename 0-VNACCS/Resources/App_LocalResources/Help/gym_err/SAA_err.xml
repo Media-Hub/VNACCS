@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="SAA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Thông tin này đã được người sử dụng khác đăng ký.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0101" name="Ship's Nationality&#xA;Quantity of Goods description in the first departure port unit&#xA;Weight of Goods description in the first departure port unit&#xA;Quantity of Goods description in port of call unit&#xA;Weight of Goods description in port of call unit&#xA;Discharge goods quantity unit&#xA;Discharge goods weight unit" id="NAT&#xA;FQU&#xA;FWU&#xA;U01～U10&#xA;X01～X10&#xA;DQU&#xA;DWU">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0102" name="Date of vaccination&#xA;Date of departure" id="DVC&#xA;DOD">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0301" name="Goods description in port of call&#xA;Goods description(Kind of animals/animal products)" id="D01～D10&#xA;GDA">
+    <description>Phải nhập giá trị liên tục.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0501" name="Submitter code&#xA;Address of Submitter&#xA;Submitter Phone number&#xA;Permit type&#xA;Office of application code&#xA;Exporter&#xA;Importer code&#xA;Address of Importer&#xA;Business Phone number&#xA;Import border gate code&#xA;Import border gate" id="SMC&#xA;ADS&#xA;SPN&#xA;APT&#xA;APP&#xA;EXN&#xA;IMC&#xA;IMA&#xA;BPN&#xA;IBC&#xA;IBN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0502" name="Submitter code&#xA;Submitter Country code&#xA;Permit type&#xA;Office of application code&#xA;Exporter Country code&#xA;Export country code&#xA;Importer code&#xA;Business Country code&#xA;Transit country code&#xA;Means of transport type&#xA;Import border gate code&#xA;HS code&#xA;Sex&#xA;Total import quantity unit&#xA;Net weight unit&#xA;Gross weight unit&#xA;Quarantine quantity unit" id="SMC&#xA;SCC&#xA;APT&#xA;APP&#xA;ECC&#xA;EOC&#xA;IMC&#xA;BCC&#xA;TCC&#xA;MTT&#xA;IBC&#xA;HSC&#xA;SEX&#xA;TQU&#xA;NWU&#xA;GWU&#xA;QQU">
+    <description>1. Định dạng đã nhập không hợp lệ.
+2. Giá trị đã nhập không tồn tại trong hệ thống.
+</description>
+    <disposition>1. Nhập giá trị với định dạng hợp lệ.
+2. Kiểm tra việc nhập thông tin.</disposition>
+  </response>
+  <response code="S0503" name="Quarantine date&#xA;Control date" id="QRT&#xA;CLT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0504" name="Permit type" id="APT">
+    <description>Loại giấy phép đã nhập không thích hợp đối với nghiệp vụ này.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0600" name="Submitter code&#xA;Submitter Post code&#xA;Address of Submitter&#xA;Submitter Country code&#xA;Submitter Phone number&#xA;Submitter Facsimile&#xA;Submitter Email&#xA;OGA Application No.&#xA;Permit type&#xA;Office of application code&#xA;Importer code&#xA;Importer name&#xA;Business registration certificate No.&#xA;Business Post code&#xA;Address of Importer&#xA;Business Country code&#xA;Business Phone number&#xA;Business Facsimile&#xA;Business Email&#xA;Contract No.&#xA;Exporter&#xA;Exporter Post code&#xA;Exporter Building name etc&#xA;Exporter Street and number/P.O.Box&#xA;Exporter District/Commune name&#xA;Exporter City name&#xA;Exporter Country code&#xA;Exporter Phone number&#xA;Exporter Facsimile&#xA;Exporter Email&#xA;Export country code&#xA;Transit country code&#xA;Means of transport type&#xA;Import border gate code&#xA;Import border gate&#xA;Permit number&#xA;Quarantine location&#xA;Quarantine date&#xA;Quarantine time&#xA;Control location&#xA;Control date&#xA;Control time&#xA;Number of copy&#xA;Arrival location&#xA;Ship's name&#xA;Goods description(Kind of animals/animal products)&#xA;HS code&#xA;Sex&#xA;Age&#xA;Production company&#xA;Packing method&#xA;Total import quantity&#xA;Total import quantity unit&#xA;Size of goods&#xA;Net weight&#xA;Net weight unit&#xA;Gross weight&#xA;Gross weight unit&#xA;Quarantine quantity&#xA;Quarantine quantity unit&#xA;Kind of packages&#xA;Using purpose" id="SMC&#xA;SPC&#xA;ADS&#xA;SCC&#xA;SPN&#xA;SFN&#xA;SBE&#xA;APN&#xA;APT&#xA;APP&#xA;IMC&#xA;IMN&#xA;RCN&#xA;BPC&#xA;IMA&#xA;BCC&#xA;BPN&#xA;PFX&#xA;BEM&#xA;CON&#xA;EXN&#xA;EPC&#xA;EXA&#xA;EXS&#xA;EXD&#xA;EXC&#xA;ECC&#xA;EPN&#xA;EXF&#xA;EXE&#xA;EOC&#xA;TCC&#xA;MTT&#xA;IBC&#xA;IBN&#xA;PMN&#xA;QLN&#xA;QRT&#xA;QRH&#xA;CTL&#xA;CLT&#xA;CLH&#xA;NMC&#xA;ALC&#xA;SHN&#xA;GDA&#xA;HSC&#xA;SEX&#xA;AGE&#xA;PRC&#xA;PCM&#xA;TQ&#xA;TQU&#xA;SOG&#xA;NW&#xA;NWU&#xA;GW&#xA;GWU&#xA;QQ&#xA;QQU&#xA;KPG&#xA;UP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0900" name="Function code&#xA;OGA Application No.&#xA;Vaccinated disease(Name of disease)&#xA;Date of vaccination&#xA;Antiseptic treatment &#xA;Concentration&#xA;Production company&#xA;Other equipments&#xA;Enclosed documents&#xA;Tester&#xA;Test result&#xA;Ship's Nationality&#xA;Captain's name&#xA;Doctor's name&#xA;Crew number&#xA;Passenger number&#xA;The last departure port&#xA;Next arrival port&#xA;Discharge port&#xA;Date of departure&#xA;Goods description in the first departure port&#xA;Quantity of Goods description in the first departure port&#xA;Quantity of Goods description in the first departure port unit&#xA;Weight of Goods description in the first departure port&#xA;Weight of Goods description in the first departure port unit&#xA;Goods description in port of call&#xA;Quantity of Goods description in port of call&#xA;Quantity of Goods description in port of call unit&#xA;Weight of Goods description in port of call&#xA;Weight of Goods description in port of call unit&#xA;Port of call&#xA;Discharge goods description&#xA;Discharge goods quantity&#xA;Discharge goods quantity unit&#xA;Discharge goods weight&#xA;Discharge goods weight unit" id="FNC&#xA;APN&#xA;VCD&#xA;DVC&#xA;ATT&#xA;CCT&#xA;PDC&#xA;OEQ&#xA;AD&#xA;TES&#xA;TER&#xA;NAT&#xA;CTN&#xA;DTN&#xA;CRN&#xA;PGN&#xA;LDP&#xA;NAP&#xA;DCP&#xA;DOD&#xA;GDC&#xA;FQ&#xA;FQU&#xA;FW&#xA;FWU&#xA;D01～D10&#xA;Q01～Q10&#xA;U01～U10&#xA;W01～W10&#xA;X01～X10&#xA;P01～P10&#xA;DGD&#xA;DQ&#xA;DQU&#xA;DW&#xA;DWU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0990" name="Enclosed documents&#xA;Test result" id="AD&#xA;TER">
+    <description>Nhập liệu quá độ dài cho phép</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0999" name="Address of Submitter&#xA;Submitter Email&#xA;Importer name&#xA;Address of Importer&#xA;Business Email&#xA;Exporter Email&#xA;Goods description(Kind of animals/animal products)&#xA;Using purpose" id="ADS&#xA;SBE&#xA;IMN&#xA;IMA&#xA;BEM&#xA;EXE&#xA;GDA&#xA;UP">
+    <description>Nhập liệu quá độ dài cho phép</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0202" name="Goods description in the first departure port&#xA;Quantity of Goods description in the first departure port&#xA;Quantity of Goods description in the first departure port unit&#xA;Weight of Goods description in the first departure port&#xA;Weight of Goods description in the first departure port unit&#xA;Goods description in port of call&#xA;Quantity of Goods description in port of call&#xA;Quantity of Goods description in port of call unit&#xA;Weight of Goods description in port of call&#xA;Weight of Goods description in port of call unit&#xA;Port of call&#xA;Discharge goods description&#xA;Discharge goods quantity&#xA;Discharge goods quantity unit&#xA;Discharge goods weight&#xA;Discharge goods weight unit" id="GDC&#xA;FQ&#xA;FQU&#xA;FW&#xA;FWU&#xA;D01～D10&#xA;Q01～Q10&#xA;U01～U10&#xA;W01～W10&#xA;X01～X10&#xA;P01～P10&#xA;DGD&#xA;DQ&#xA;DQU&#xA;DW&#xA;DWU">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0701" name="Quarantine date&#xA;Quarantine time&#xA;Control date&#xA;Control time&#xA;Goods description(Kind of animals/animal products)&#xA;HS code&#xA;Total import quantity&#xA;Total import quantity unit&#xA;Net weight&#xA;Net weight unit&#xA;Gross weight&#xA;Gross weight unit&#xA;Quarantine quantity&#xA;Quarantine quantity unit" id="QRT&#xA;QRH&#xA;CLT&#xA;CLH&#xA;GDA&#xA;HSC&#xA;TQ&#xA;TQU&#xA;NW&#xA;NWU&#xA;GW&#xA;GWU&#xA;QQ&#xA;QQU">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0702" name="Goods description(Kind of animals/animal products)" id="GDA">
+    <description>Phải nhập mô tả hàng hóa trước.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="OGA Application No." id="APN">
+    <description>Mục này không được nhập.
+</description>
+    <disposition>Xóa giá trị.
+</disposition>
+  </response>
+  <response code="E0003" name="OGA Application No." id="APN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="E0004" name="Function code" id="FNC">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="E0005" name="OGA Application No." id="APN">
+    <description>Số đơn xin cấp phép không tồn tại trong cơ sở dữ liệu đơn xin cấp phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0006" name="Office of application code" id="APP">
+    <description>Mã đơn vị cấp phép không tồn tại trong cơ sở dữ liệu
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0301" name="OGA Application No." id="APN">
+    <description>Không thể cập nhật nhiều hơn 9 lần.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+Liên lạc với đơn vị cấp phép.
+</disposition>
+  </response>
+  <response code="E0302" name="OGA Application No." id="APN">
+    <description>Không thể cập nhật vì khai báo này đã được xử lý.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0304" name="None" id="0000">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0305" name="None" id="0000">
+    <description>Không thể nhập nhiều hơn 50 mục.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0501" name="None" id="0000">
+    <description>Tên người khai không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="L0502" name="None" id="0000">
+    <description>Tên đơn vị cấp phép không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="L0503" name="None" id="0000">
+    <description>Tên tổ chức/cá nhân nhập khẩu của Mã tổ chức/cá nhân nhập khẩu đã nhập không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+</help>

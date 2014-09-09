@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IVS" jobname="1" display-name="Reference of arrival/departure notification A">
+  <meta_info format_Version="1.0" revision="0000" friday="IVS.xml" item_attr_edit="False" />
+  <friday href="IVS.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="A,Vessel basic information,B,Information of sea arrival notification,C,Information of sea departure notification" out_flg="0" in_flg="1" />
+    <item id="INN" name="Arrival notification number / &#xD;&#xA;Departure notification number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="VEC" name="Vessel call sign" input_output="+" required="C" attribute="A" figure="9" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="NMC" name="Arrival port code / Departure port code&#xD;&#xA;" input_output="+" required="C" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="NMS" name="Arrival port suffix / Departure port suffix&#xD;&#xA;" input_output="+" required="C" attribute="A" figure="1" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBF" name="Voyage No." input_output="+" required="C" attribute="A" figure="10" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="97, 19" Location="211, 208" Text="Reference type *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="353" TabIndex="1" Size="44, 22" Location="410, 208" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,Vessel basic information&#xD;&#xA;B,Information of sea arrival notification&#xD;&#xA;C,Information of sea departure notification&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="MDC" figure="1" required="M" />
+    <label Size="193, 19" Location="211, 249" Text="Arrival / Departure notification No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="410, 248" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number / &#xD;&#xA;Departure notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="C" />
+    <label Size="86, 19" Location="211, 290" Text="Vessel call sign" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="76, 21" Location="410, 290" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Vessel call sign" check_attribute="*" attribute="A" id="VEC" figure="9" required="C" />
+    <label Size="132, 19" Location="211, 331" Text="Arrival / Departure port" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="48, 21" Location="410, 331" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Arrival port code / Departure port code&#xD;&#xA;" check_attribute="*" attribute="A" id="NMC" figure="5" required="C" />
+    <label Size="9, 19" Location="462, 331" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="20, 21" Location="477, 331" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Arrival port suffix / Departure port suffix&#xD;&#xA;" check_attribute="*" attribute="A" id="NMS" figure="1" required="C" />
+    <label Size="67, 19" Location="211, 372" Text="Voyage No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="83, 21" Location="410, 372" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Voyage No." check_attribute="*" attribute="A" id="KBF" figure="10" required="C" />
+  </layout>
+</jobform>

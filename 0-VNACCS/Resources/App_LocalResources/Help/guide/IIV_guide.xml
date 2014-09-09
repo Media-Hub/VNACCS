@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IIV" name="Reference of invoice/packing list information">
+  <item no="1" name="Electronic invoice receipt No." id="NIV" required="" code="">
+  </item>
+</guide>

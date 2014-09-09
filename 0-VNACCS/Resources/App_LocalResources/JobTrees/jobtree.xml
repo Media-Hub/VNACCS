@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobtree>
+  <category name="e-Declaration (Customs Clearance)">
+    <item code="IDA" name="IDA Pre-registration of import declaration" num="1001" />
+    <item code="IDB" name="IDB Pre-registration of import declaration (Call up)" num="1002" />
+    <item code="IDC" name="IDC Import declaration" num="1003" />
+    <item code="IDA01" name="IDA01 Correction of Pre-registration of import declaration " num="1004" />
+    <item code="IDD" name="IDD Correction of Pre-registration of import declaration (Call up)" num="1005" />
+    <item code="IDE" name="IDE Correction of import declaration" num="1006" />
+    <item code="MIC" name="MIC Import declaration(Tax exempted small amount clearance)" num="1007" />
+    <item code="MID" name="MID Correction of import declaration(Tax exempted small amount clearance) (Call up)" num="1008" />
+    <item code="MIE" name="MIE Correction of import declaration(Tax exempted small amount clearance)" num="1009" />
+    <item code="IID" name="IID Reference of import declaration" num="1012" />
+    <item code="EDA" name="EDA Pre-registration of export declaration " num="1013" />
+    <item code="EDB" name="EDB Pre-registration of export declaration (Call up)" num="1014" />
+    <item code="EDC" name="EDC Export declaration" num="1015" />
+    <item code="EDA01" name="EDA01 Correction of Pre-registration of export declaration " num="1016" />
+    <item code="EDD" name="EDD Correction of Pre-registration of export declaration (Call up)" num="1017" />
+    <item code="EDE" name="EDE Correction of export declaration" num="1018" />
+    <item code="MEC" name="MEC Export declaration (Tax exempted small amount clearance) " num="1019" />
+    <item code="MED" name="MED Correction of export declaration (Tax exempted small amount clearance)  (Call up)" num="1020" />
+    <item code="MEE" name="MEE Correction of export declaration (Tax exempted small amount clearance) " num="1021" />
+    <item code="IEX" name="IEX Reference of export declaration" num="1024" />
+    <item code="AMA" name="AMA Pre-registration of amended tax information" num="1028" />
+    <item code="AMB" name="AMB Amended tax information (Call up)" num="1029" />
+    <item code="AMC" name="AMC Declaration of Amended tax" num="1030" />
+    <item code="IAD" name="IAD Reference of amended tax information" num="1032" />
+    <item code="TEA" name="TEA Registration of the list of tax exemption" num="1036" />
+    <item code="TEB" name="TEB Registration of the list of tax exemption (Call up)" num="1037" />
+    <item code="ITE" name="ITE Reference of the list of tax exemption" num="1039" />
+    <item code="TIB" name="TIB Correction of the information of  tentative export and import (Call up)" num="1041" />
+    <item code="ITI" name="ITI Reference of declaration status information on tentative export and import" num="1043" />
+  </category>
+  <category name="e-Invoice">
+    <item code="IVA" name="IVA Registration of invoice/packing list information" num="1044" />
+    <item code="IVA01" name="IVA01 Alteration of invoice/packing list information (Call up)" num="1045" />
+    <item code="IIV" name="IIV Reference of invoice/packing list information" num="1046" />
+  </category>
+  <category name="e-Payment">
+    <item code="IAS" name="IAS Reference of security information" num="1035" />
+    <item code="IBA" name="IBA Reference of Bank Payment information" num="1049" />
+  </category>
+  <category name="e-Declaration (OGA's Procedure)">
+    <item code="SAA" name="SAA Application for Quarantine certificate of import animals/ animal products" num="1070" />
+    <item code="SAB" name="SAB Application for Quarantine certificate of import animals/ animal products (Call up)" num="1071" />
+    <item code="SAZ" name="SAZ Registration of examination/inspection (Application for Quarantine certificate of import animals/ animal products)" num="1073" />
+    <item code="ISA" name="ISA Reference of Application / Permit for Quarantine certificate of import animals/ animal products" num="1074" />
+    <item code="SAS" name="SAS Assignment of examiner/inspector (Application for Quarantine certificate of import animals/ animal products)" num="1072" />
+    <item code="SEA" name="SEA Application for Permission to export/import industrial explosives." num="1060" />
+    <item code="SEB" name="SEB Application for Permission to export/import industrial explosives (Call up)" num="1061" />
+    <item code="ISE" name="ISE Reference of Application / Permit for Permission to export/import industrial explosives" num="1064" />
+    <item code="SFA" name="SFA Application for Certificate on satisfaction of food's quality for importation" num="1080" />
+    <item code="SFB" name="SFB Application for Certificate on satisfaction of food's quality for importation (Call up)" num="1081" />
+    <item code="ISF" name="ISF Reference of Application / Permit for Certificate on satisfaction of food's quality for importation" num="1084" />
+    <item code="SMA" name="SMA Application for Permission for importation of medicine product" num="1090" />
+    <item code="SMB" name="SMB Application for Permission for importation of medicine product  (Call up)" num="1091" />
+    <item code="ISM" name="ISM Reference of Application/Permit for importation of medicine product" num="1094" />
+  </category>
+  <category name="e-manifest">
+    <category name="Sea">
+      <item code="MFR" name="MFR Manifest registration A" />
+      <item code="CMF11" name="CMF11 Manifest correction A (call up)" />
+      <item code="DMF" name="DMF Manifest submission A" />
+      <item code="IMI" name="IMI Reference of manifest information A" />
+      <item code="NVC" name="NVC House manifest registration A" />
+      <item code="NVC11" name="NVC11 House manifest registration A (call up)" />
+      <item code="INV" name="INV Reference of house manifest information A" />
+    </category>
+    <category name="Air">
+      <item code="ACH" name="ACH Manifest registration B" />
+      <item code="CAW11" name="CAW11 Manifest correction B (call up)" />
+      <item code="EAW" name="EAW Manifest submission B" />
+      <item code="IMF01" name="IMF01 Reference of manifest information B" />
+      <item code="HCH" name="HCH House manifest registration B" />
+      <item code="HCH11" name="HCH11 House manifest registration B (call up)" />
+      <item code="IMF02" name="IMF02 Reference of house manifest information B" />
+    </category>
+    <category name="Railway">
+      <item code="RMR" name="RMR Manifest registration C" />
+      <item code="CRM11" name="CRM11 Manifest correction C (call up)" />
+      <item code="DRM" name="DRM Manifest submission C" />
+      <item code="IRM" name="IRM Reference of manifest information C" />
+      <item code="HRM" name="HRM House manifest registration C" />
+      <item code="HRM11" name="HRM11 House manifest registration C (call up)" />
+      <item code="IHR" name="IHR Reference of house manifest information C" />
+    </category>
+    <category name="Common">
+      <item code="CLR11" name="CLR11 Registration of cargo loaded confirmation (call up)" />
+      <item code="ICG" name="ICG Reference of cargo information" />
+      <item code="DCL" name="DCL Submission of unloaded containers list" />
+      <item code="DCL11" name="DCL11 Submission of unloaded containers list (call up)" />
+    </category>
+  </category>
+  <category name="Declaration on transportation">
+    <item code="OLA" name="OLA Pre-registration of declaration on transportation" num="3001" />
+    <item code="OLB" name="OLB Pre-registration of declaration on transportation (Call up)" num="3002" />
+    <item code="OLC" name="OLC Declaration on transportation" num="3003" />
+    <item code="COT11" name="COT11 Correction of declared information on transportation (Call up)" num="3006" />
+    <item code="BOA" name="BOA Registration of notification on departure regarding transportation" num="3007" />
+    <item code="BIA11" name="BIA11 Registration of notification on arrival regarding transportation (Call up)" num="3009" />
+    <item code="ITF" name="ITF Reference of declaration on transportation" num="3010" />
+  </category>
+  <category name="Seaports and Airports related Single Window">
+    <category name="Sea">
+      <item code="VBX" name="VBX Registration of vessel basic information" />
+      <item code="VBX11" name="VBX11 Correction of vessel basic information (Call up)" />
+      <item code="VIT" name="VIT Registration of arrival notification A" />
+      <item code="VIT11" name="VIT11 Correction of arrival notification A (Call up)" />
+      <item code="VOT" name="VOT Registration of departure notification A" />
+      <item code="VOT11" name="VOT11 Correction of departure notification A (Call up)" />
+      <item code="IVS" name="IVS Reference of arrival/departure notification A" />
+    </category>
+    <category name="Air">
+      <item code="GIR" name="GIR Registration of arrival notification B" />
+      <item code="GIR11" name="GIR11 Correction of arrival notification B (Call up)" />
+      <item code="GOR" name="GOR Registration of departure notification B" />
+      <item code="GOR11" name="GOR11 Correction of departure notification B (Call up)" />
+      <item code="IGD" name="IGD Reference of arrival/ departure notification B" />
+    </category>
+    <category name="Rail">
+      <item code="RIR" name="RIR Registration of arrival notification C" />
+      <item code="RIR11" name="RIR11 Correction of arrival notification C (Call up)" />
+      <item code="ROR" name="ROR Registration of departure notification C" />
+      <item code="ROR11" name="ROR11 Correction of departure notification C (Call up)" />
+      <item code="IRD" name="IRD Reference of arrival/departure notification C" />
+    </category>
+    <category name="Vehicle">
+      <item code="TIR" name="TIR Registration of arrival declaration D" />
+      <item code="TIR11" name="TIR11 Correction of arrival declaration D (Call up)" />
+      <item code="TOR" name="TOR Registration of departure declaration D" />
+      <item code="TOR11" name="TOR11 Correction of departure declaration D (Call up)" />
+      <item code="ILD" name="ILD Reference of Arrival/ Departure declaration D" />
+    </category>
+    <category name="Common">
+      <item code="PLR01" name="PLR01 Report of passenger list" />
+      <item code="PLR02" name="PLR02 Report of passenger list" />
+      <item code="PLR11" name="PLR11 Report of passenger list (Call up)" />
+      <item code="NLR" name="NLR Report of crew list" />
+      <item code="NLR11" name="NLR11 Report of crew list (Call up)" />
+      <item code="INP" name="INP Reference of passengers/crew information" />
+    </category>
+  </category>
+  <category name="Others">
+    <item code="TCC" name="TCC Establishment of communication channel check" num="6008" />
+    <item code="MSB" name="MSB Attached document files registration" num="1033" />
+    <item code="HYS" name="HYS Registration of application attached by electronic file" num="6001" />
+    <item code="HYE" name="HYE Modification of application attached by electronic file" num="6002" />
+    <item code="IHY" name="IHY Reference of application attached by electronic file" num="6004" />
+    <item code="ROT" name="ROT Re-output" num="6007" />
+  </category>
+</jobtree>

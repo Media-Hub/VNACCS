@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="HRM11" name="House manifest registration C (call up)">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn phương thức xử lý
+5: Thay đổi
+1: Hủy bỏ</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E: Xuất khẩu</item>
+  <item no="3" name="Master B/L No." id="OBL" required="" code="">Trường hợp số B/L không bao gồm mã nhà vận chuyển, thì thêm mã nhà vận chuyển vào trước số B/L</item>
+  <item no="4" name="House B/L No." id="CBL" required="" code="">Trường hợp số B/L không bao gồm mã nhà vận chuyển, thì thêm mã nhà vận chuyển vào trước số B/L</item>
+</guide>

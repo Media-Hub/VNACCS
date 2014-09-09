@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM32_EDC" jobname="CAM32_EDC" display-name="EDC Export declaration">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM32_EDC.xml" item_attr_edit="False" />
+  <friday href="CAM32_EDC.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="JKN" name="Classification of outputting corrected report" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="257, 168" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="349, 167" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+    <label Visible="False" Size="241, 19" Location="83, 193" Text="Classification of outputting corrected report" Font="Tahoma, 9pt" />
+    <textbox Enabled="False" CharacterCasing="Upper" Visible="False" TabIndex="2" Size="20, 21" Location="349, 193" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Classification of outputting corrected report" check_attribute="*" attribute="A" id="JKN" figure="1" required="C" />
+  </layout>
+</jobform>

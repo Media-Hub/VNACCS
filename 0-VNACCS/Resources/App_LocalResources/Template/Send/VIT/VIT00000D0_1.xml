@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VIT" jobname="Registration of arrival notification A" display-name="VIT Registration of arrival notification A">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA0410_1.xml" item_attr_edit="False" />
+  <friday href="VAA0410_1.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Processing type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="9,Registration,5,Correction,1,Cancellation" out_flg="1" in_flg="1" />
+    <item id="INN" name="Arrival notification number" input_output="-" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NNU" name="Submission to Immigration Bureau" input_output="+" required="C" attribute="A" figure="1" form="0" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="KIU" name="Submission to Quarantine station" input_output="+" required="C" attribute="A" figure="1" form="0" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="HNU" name="Submission to Port authority" input_output="+" required="C" attribute="A" figure="1" form="0" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NZC" name="Customs office" input_output="+" required="C" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="KKK" name="User code of Immigration Bureau" input_output="+" required="C" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="KEK" name="User code of Quarantine station" input_output="+" required="C" attribute="A" figure="5" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="KKR" name="User code of Port authority" input_output="+" required="C" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+  </iteminfo>
+  <layout UseDefaultSize="True" Size="718, 214">
+    <container type="GroupBox" TabIndex="8" Size="678, 82" Location="20, 122" Text="Office (Cơ quan)" Font="Tahoma, 9pt" ForeColor="WindowText" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="113, 19" Location="32, 18" Text="Customs (Hải quan)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="9" Size="55, 21" Location="206, 18" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Customs office" check_attribute="*" attribute="A" id="NZC" figure="6" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="12" Size="48, 21" Location="512, 48" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="User code of Port authority" check_attribute="*" attribute="A" id="KKR" figure="5" required="C" />
+      <label Size="139, 34" Location="338, 11" Text="Immigration Bureau &#xD;&#xA;(Cục quản lý nhập cảnh)" Font="Tahoma, 9pt" />
+      <label Size="90, 34" Location="338, 41" Text="Port authority &#xD;&#xA;(Cảng vụ)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="48, 21" Location="206, 48" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="User code of Quarantine station" check_attribute="*" attribute="A" id="KEK" figure="5" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="48, 21" Location="512, 18" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="User code of Immigration Bureau" check_attribute="*" attribute="A" id="KKK" figure="5" required="C" />
+      <label Size="115, 34" Location="32, 41" Text="Quarantine station&#xD;&#xA;(Cơ quan kiểm dịch)" Font="Tahoma, 9pt" />
+    </container>
+    <container type="GroupBox" TabIndex="4" Size="678, 67" Location="20, 52" Text="Submission to (Nộp cho)" Font="Tahoma, 9pt" ForeColor="WindowText" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="59, 19" Location="435, 37" Text="(Cảng vụ)" Font="Tahoma, 9pt" />
+      <label Size="115, 19" Location="248, 37" Text="(Cơ quan kiểm dịch)" Font="Tahoma, 9pt" />
+      <label Size="139, 19" Location="49, 37" Text="(Cục quản lý nhập cảnh)" Font="Tahoma, 9pt" />
+      <checkbox TabIndex="5" Size="132, 18" AutoSize="True" Location="32, 21" Text="Immigration Bureau" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" name="Submission to Immigration Bureau" check_attribute="*" check_date="" id="NNU" figure="1" required="C" />
+      <checkbox TabIndex="7" Size="102, 18" AutoSize="True" Location="416, 21" Text="Port authority" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" name="Submission to Port authority" check_attribute="*" check_date="" id="HNU" figure="1" required="C" />
+      <checkbox TabIndex="6" Size="120, 18" AutoSize="True" Location="230, 21" Text="Quarantine office" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" name="Submission to Quarantine station" check_attribute="*" check_date="" id="KIU" figure="1" required="C" />
+    </container>
+    <label Size="100, 19" Location="20, 20" Text="Processing type *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="50, 22" Location="134, 17" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="9,Registration&#xD;&#xA;5,Correction&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type" check_attribute="*" attribute="A" id="MDC" figure="1" required="M" />
+    <label Size="126, 19" Location="435, 20" Text="Arrival notification No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="567, 19" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Arrival notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="C" />
+    <label Size="97, 48" Location="202, 7" Text="(9:Registration)&#xD;&#xA;(5:Correction)&#xD;&#xA;(1:Cancellation)" Font="Tahoma, 9pt" />
+  </layout>
+</jobform>

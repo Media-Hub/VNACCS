@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="IIV (Reference of invoice/packing list information)" system="NACCS" jobcode="IIV" autosend="true">
+        <item from="A74" from_source="COM" to="NIV" to_source="COM" />
+    </destination>
+    <destination no="2" text="ITE (Reference of the list of tax exemption(Detail information))" system="NACCS" jobcode="ITE" autosend="true">
+        <item from="TXN" from_source="R01" to="TEN" to_source="COM" />
+    </destination>
+    <destination no="3" text="ITI (Reference of declaration status information on temporary import/export(Detail information))" system="NACCS" jobcode="ITI" autosend="true">
+        <item from="TDN" from_source="COM" to="ICN" to_source="COM" />
+    </destination>
+    <destination no="4" text="IAS (Reference of security information)" system="NACCS" jobcode="IAS" autosend="false">
+        <item from="ADJ" from_source="COM" to="SBC" to_source="COM" />
+        <item from="ADK" from_source="COM" to="RYA" to_source="COM" />
+        <item from="ADL" from_source="COM" to="SCM" to_source="COM" />
+        <item from="ADM" from_source="COM" to="SCN" to_source="COM" />
+    </destination>
+    <destination no="5" text="IBA (Reference of Bank Payment information)" system="NACCS" jobcode="IBA" autosend="false">
+        <item from="ADH" from_source="COM" to="BRC" to_source="COM" />
+        <item from="ADO" from_source="COM" to="RYA" to_source="COM" />
+        <item from="ADP" from_source="COM" to="BPS" to_source="COM" />
+        <item from="ADQ" from_source="COM" to="BPN" to_source="COM" />
+    </destination>
+</link>

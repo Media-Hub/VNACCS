@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_RIR11" jobname="Correction of arrival notification C (Call up)" display-name="RIR11 Correction of arrival notification C (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="RIR11.xml" item_attr_edit="False" />
+  <friday href="RIR11.xml" revision="0000" />
+  <iteminfo>
+    <item id="INN" name="Arrival notification number" input_output="+" required="M" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="149, 19" Location="228, 200" Text="Số thông báo nhập cảnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="383, 199" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="M" />
+  </layout>
+</jobform>

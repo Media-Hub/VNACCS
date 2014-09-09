@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="DRM" name="Manifest submission C">
+  <item no="1" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E: Xuất khẩu</item>
+  <item no="2" name="Train registry No." id="TRN" required="" code="">
+  </item>
+  <item no="3" name="Arrival station code/Departure station code" id="ARD" required="" code="Station code">1. Trường hợp manifest nhập, nhập vào mã ga đến
+2. Trường hợp manifest xuất, nhập vào mã ga khởi hành</item>
+  <item no="4" name="Carrier code" id="SCA" required="" code="Carrier code">Nhập mã nhà vận chuyển (công ty đường sắt)</item>
+  <item no="5" name="Date of arrival/Date of departure" id="IDT" required="" code="">Nhập ngày đến theo định dạng DDMMYYYY
+1. Trường hợp manifest nhập, có thể nhập ngày đến theo khoảng sau;
+6 ngày trước ngày trong hệ thống&lt;= ngày đến &lt;= 10 ngày đầu trong ngày hệ thống
+2. Trường hợp manifest xuất, có thể nhập ngày khởi hành theo khoảng sau:
+6 ngày trước ngày trong hệ thống &lt;= ngày khởi hành &lt;= 10 ngày đầu của ngày hệ thống</item>
+  <item no="6" name="Submission to Immigration Bureau" id="SIM" required="" code="">0: Không nộp cho cục quản lý nhập cảnh (trong trường hợp người sử dụng phần mềm đầu cuối: không tích chọn)
+1: Nộp cho cục quản lý nhập cảnh (trong trường hợp người sử dụng phần mềm đầu cuối: tích chọn)</item>
+  <item no="7" name="Submission to Quarantine station" id="SQU" required="" code="">0: Không nộp ( trong trường hợp người sử dụng phần mềm đầu cuối: Không chọn 
+1: Nộp ( trong trường hợp người sử dụng phần mềm đầu cuối: chọn )</item>
+  <item no="8" name="Submission to Railway station authority" id="SPO" required="" code="">0: Không nộp ( trong trường hợp người sử dụng phần mềm đầu cuối: Không chọn 1: Nộp ( trong trường hợp người sử dụng phần mềm đầu cuối: chọn )</item>
+  <item no="9" name="Remarks" id="NTE" required="" code="">
+  </item>
+</guide>

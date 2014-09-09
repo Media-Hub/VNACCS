@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="VIT11" name="Correction of arrival notification A (Call up)">
+  <item no="1" name="Arrival notification No.&#xA;&#xA;" id="INN" required="" code="">
+  </item>
+  <item no="2" name="Vessel call sign&#xA;&#xA;" id="VEC" required="" code="">Nhập số hô hiệu của con tàu để dùng thông tin chung trong bản khai chung (đã khai báo tại nghiệp vụ VBX) để khai báo Thông báo tàu đến thì.</item>
+</guide>

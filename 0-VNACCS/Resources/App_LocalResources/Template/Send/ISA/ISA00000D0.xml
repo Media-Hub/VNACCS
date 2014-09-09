@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_ISA" jobname="CAM38_ISA" display-name="ISA Reference of Apprication/Permit for Quarantine certificate of import animals/ animal products">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM38_ISA.xml" item_attr_edit="False" />
+  <friday href="CAM38_ISA.xml" revision="0000" />
+  <iteminfo>
+    <item id="APP" name="Office of application code" input_output="+" required="C" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="STS" name="Status information on examination/inspection&#xD;&#xA;" input_output="+" required="C" attribute="A" figure="2" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",&#xD;&#xA;01,&#xD;&#xA;02,&#xD;&#xA;03,&#xD;&#xA;04," out_flg="0" in_flg="1" />
+    <item id="APN" name="OGA Application No./Permit/license No." input_output="+" required="C" attribute="A" figure="20" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBN" name="Reference type" input_output="+" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_keyvalue=",&#xD;&#xA;A,&#xD;&#xA;B," out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="10" Size="663, 70" Location="30, 84" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <combobox DropDownWidth="49" TabIndex="5" Size="35, 22" Location="294, 40" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;A,&#xD;&#xA;B,&#xD;&#xA;" order="4" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="KBN" figure="1" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="4" Size="153, 21" Location="294, 15" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="OGA Application No./Permit/license No." check_attribute="*" attribute="A" id="APN" figure="20" required="C" />
+      <label Size="196, 19" Location="30, 19" Text="Số đơn xin cấp phép/ Số giấy phép" Font="Tahoma, 9pt" />
+      <label Size="97, 19" Location="30, 44" Text="Phân loại tra cứu" Font="Tahoma, 9pt" />
+    </container>
+    <container type="GroupBox" TabIndex="9" Size="663, 67" Location="30, 16" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="112, 19" Location="24, 15" Text="Mã đơn vị cấp phép" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="55, 21" Location="294, 14" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Office of application code" check_attribute="*" attribute="A" id="APP" figure="6" required="C" />
+      <label Size="165, 19" Location="24, 42" Text="Trạng thái thẩm tra/ kiểm tra" Font="Tahoma, 9pt" />
+      <combobox DropDownWidth="56" TabIndex="2" Size="45, 22" Location="294, 40" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;01,&#xD;&#xA;02,&#xD;&#xA;03,&#xD;&#xA;04,&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Status information on examination/inspection&#xD;&#xA;" check_attribute="*" attribute="A" id="STS" figure="2" required="C" />
+    </container>
+  </layout>
+</jobform>

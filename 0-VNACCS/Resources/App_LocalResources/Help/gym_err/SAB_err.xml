@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="SAB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Thông tin này đã được người sử dụng khác đăng ký.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Người sử dụng không phải là người phụ trách thông tin.
+</description>
+    <disposition>Kiểm tra ID người sử dụng. 
+</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Mã đơn vị không giống với Mã đơn vị cấp phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="U0005" name="Call up type" id="KBN">
+    <description>Truy cập bị từ chối. Bạn không được phép sử dụng chức năng này.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0101" name="OGA Application No./Permit/license No." id="APN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0102" name="Call up type&#xA;OGA Application No./Permit/license No." id="KBN&#xA;APN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0900" name="Call up type&#xA;OGA Application No./Permit/license No." id="KBN&#xA;APN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="OGA Application No./Permit/license No." id="APN">
+    <description>Số đơn xin cấp phép không tồn tại trong cơ sở dữ liệu đơn xin cấp phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0003" name="OGA Application No./Permit/license No." id="APN">
+    <description>Số của giấy phép không tồn tại trong cơ sở dữ liệu giấy phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0004" name="OGA Application No./Permit/license No." id="APN">
+    <description>Không thể tham chiếu vì khai báo này đã được xử lý.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+</help>

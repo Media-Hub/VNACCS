@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="VOT11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể xử lý nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Departure notification number" id="ONN">
+    <description>Số thông báo xuất cảng này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảng</disposition>
+  </response>
+  <response code="U0003" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảng này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảng</disposition>
+  </response>
+  <response code="R0001" name="Departure notification number&#xA;Arrival notification number&#xA;Vessel call sign" id="ONN&#xA;INN&#xA;VEC">
+    <description>Chỉ nhập 1 trong những giá trị </description>
+    <disposition>Nhập Số thông báo xuất cảng, Số thông báo nhập cảng hoặc Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="R0002" name="Departure notification number&#xA;Arrival notification number" id="ONN&#xA;INN">
+    <description>Chỉ nhập 1 trong những giá trị </description>
+    <disposition>Xóa nội dung đã nhập của Số thông báo xuất cảng hoặc Số thông báo nhập cảng</disposition>
+  </response>
+  <response code="R0003" name="Departure notification number&#xA;Vessel call sign" id="ONN&#xA;VEC">
+    <description>Chỉ nhập 1 trong những giá trị </description>
+    <disposition>Xóa nội dung đã nhập của Số thông báo xuất cảng hoặc Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="R0004" name="Arrival notification number&#xA;Vessel call sign" id="INN&#xA;VEC">
+    <description>Chỉ nhập 1 trong những giá trị </description>
+    <disposition>Xóa nội dung đã nhập của Số thông báo nhập cảng hoặc Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Departure notification number" id="ONN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Departure notification number" id="ONN">
+    <description>Số thông báo xuất cảng này đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảng</disposition>
+  </response>
+  <response code="E0004" name="Departure notification number" id="ONN">
+    <description>Số thông báo xuất cảng này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo xuất cảng</disposition>
+  </response>
+  <response code="E0005" name="Arrival notification number" id="INN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0006" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảng này đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảng</disposition>
+  </response>
+  <response code="E0007" name="Arrival notification number" id="INN">
+    <description>Số thông báo nhập cảng này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số thông báo nhập cảng</disposition>
+  </response>
+  <response code="E0008" name="Vessel call sign" id="VEC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0009" name="Vessel call sign" id="VEC">
+    <description>Hô hiệu của tầu này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Hô hiệu của tầu.</disposition>
+  </response>
+</help>

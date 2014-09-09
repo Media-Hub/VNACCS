@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="OLB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Cargo No. (B/L No.&#xA; AWB No. etc....)" id="CG1～CG5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0004" name="Type of manifest(cargo)" id="TM1～TM5">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Loại Manifest với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="Bonded transportation declaration No.&#xA;Type of manifest(cargo)" id="OLT&#xA;TM1～TM5">
+    <description>Mặc dù đã nhập số tờ khai, nhưng vẫn nhập cả loại Manifest.</description>
+    <disposition>Xóa số tờ khai đã nhập hoặc Loại Manifest.</disposition>
+  </response>
+  <response code="R0002" name="Bonded transportation declaration No.&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="OLT&#xA;CG1～CG5">
+    <description>Mặc dù đã nhập số tờ khai, nhưng vẫn nhập cả số hàng hóa.</description>
+    <disposition>Xóa số tờ khai đã nhập hoặc số hàng hóa.</disposition>
+  </response>
+  <response code="R0003" name="Bonded transportation declaration No.&#xA;Type of manifest(cargo)" id="OLT&#xA;TM1～TM5">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Loại Manifest.</disposition>
+  </response>
+  <response code="R0004" name="Bonded transportation declaration No.&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="OLT&#xA;CG1～CG5">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập số hàng hóa.</disposition>
+  </response>
+  <response code="R0005" name="Type of manifest(cargo)&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="TM1～TM5&#xA;CG1～CG5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nhập liệu.</disposition>
+  </response>
+  <response code="R0006" name="Type of manifest(cargo)&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="TM1～TM5&#xA;CG1～CG5">
+    <description>Số quản lý hàng hóa đã nhập (Đường biển) chưa được đăng ký vào hệ thống hoặc là dữ liệu không hợp lệ.</description>
+    <disposition>Kiểm tra thông tin hàng hóa.</disposition>
+  </response>
+  <response code="R0007" name="Type of manifest(cargo)&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="TM1～TM5&#xA;CG1～CG5">
+    <description>Số quản lý hàng hóa đã nhập (Hàng không) chưa được đăng ký vào hệ thống hoặc là dữ liệu không hợp lệ.</description>
+    <disposition>Kiểm tra thông tin hàng hóa.</disposition>
+  </response>
+  <response code="R0008" name="Type of manifest(cargo)&#xA;Cargo No. (B/L No.&#xA; AWB No. etc....)" id="TM1～TM5&#xA;CG1～CG5">
+    <description>Số quản lý hàng hóa đã nhập (Đường sắt) chưa được đăng ký vào hệ thống hoặc là dữ liệu không hợp lệ.</description>
+    <disposition>Kiểm tra thông tin hàng hóa.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Đã được khai báo bởi nghiệp vụ OLC.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai.</disposition>
+  </response>
+  <response code="E0003" name="Bonded transportation declaration No." id="OLT">
+    <description>Số tờ khai này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của số tờ khai.</disposition>
+  </response>
+</help>

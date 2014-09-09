@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="HYE" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Thủ tục hải quan tương ứng với Số tờ khai đã nhập được thực hiện bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nhập liệu của Số tờ khai.</disposition>
+  </response>
+  <response code="S0001" name="Declaration No" id="ICN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tờ khai.</disposition>
+  </response>
+  <response code="S0002" name="Declaration No" id="ICN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nhập liệu của Số tờ khai.</disposition>
+  </response>
+  <response code="S0003" name="Declaration No" id="ICN">
+    <description>Thủ tục hải quan tương ứng với Số tờ khai đã nhập này đã được kiểm tra.</description>
+    <disposition>Kiểm tra nhập liệu của Số tờ khai.</disposition>
+  </response>
+  <response code="S0004" name="Applicant telephone number" id="STL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Enterprise internal control number" id="REF">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Remarks " id="KIJ">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0999" name="Remarks " id="KIJ">
+    <description>Nhập liệu quá độ dài cho phép.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0005" name="Declaration No" id="ICN">
+    <description>Thủ tục khai báo tương ứng với Số tờ khai đã nhập đã bị hủy bỏ.</description>
+    <disposition>Khai báo lại với Phân loại thủ tục khai báo khác.</disposition>
+  </response>
+  <response code="E0006" name="Declaration No" id="ICN">
+    <description>Số tờ khai đã nhập đã được thay đổi 9 lần.</description>
+    <disposition>Áp dụng thủ tục hải quan này như là một khai báo mới.</disposition>
+  </response>
+  <response code="E0007" name="None" id="0000">
+    <description>Xảy ra lỗi trong quá trình đăng ký các tập tin đính kèm trong hệ thống.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="E0008" name="None" id="0000">
+    <description>Xảy ra lỗi trong quá trình đăng ký các tập tin đính kèm trong hệ thống.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

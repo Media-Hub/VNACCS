@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="MED" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Declaration number" id="ECN">
+    <description>Người nhập không phải là người phụ trách đăng ký. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="ECN">
+    <description>Không thể sử dụng (các) ký tự này.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0003" name="Declaration No." id="ECN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+
+</disposition>
+  </response>
+  <response code="S0005" name="Declaration No." id="ECN">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Declaration number" id="ECN">
+    <description>Đã được cho phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0003" name="Declaration number" id="ECN">
+    <description>Do số nhánh của số tờ khai là "9", nên không thể thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0004" name="Declaration number" id="ECN">
+    <description>Đã chuyển sang thao tác bằng tay.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0005" name="Declaration number" id="ECN">
+    <description>Đã bị thu hồi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0006" name="Declaration number" id="ECN">
+    <description>Không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+</help>

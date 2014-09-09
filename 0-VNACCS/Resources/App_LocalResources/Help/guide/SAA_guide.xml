@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SAA" name="Application for Quarantine certificate of import animals/ animal products">
+  <item no="1" name="Submitter code" id="SMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="2" name="Submitter Post code" id="SPC" required="" code="">
+  </item>
+  <item no="3" name="Address of Submitter" id="ADS" required="" code="">Nhập "Địa chỉ của người khai" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="4" name="Submitter Country code" id="SCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="5" name="Submitter Phone number" id="SPN" required="" code="">Nhập "Số điện thoại của người khai" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="6" name="Submitter Facsimile" id="SFN" required="" code="">
+  </item>
+  <item no="7" name="Submitter Email" id="SBE" required="" code="">
+  </item>
+  <item no="8" name="OGA Application No." id="APN" required="" code="">Số đơn xin cấp phép được phát hành bởi hệ thống để xác định một tờ khai.
+Trường hợp chỉnh sửa, phải nhập Số đơn xin cấp phép.</item>
+  <item no="9" name="Function code" id="FNC" required="" code="Function code list">Sẽ nhận một trong những giá trị sau:
+1 : Đăng ký
+2 : Chỉnh sửa
+3 : Hủy</item>
+  <item no="10" name="Permit type" id="APT" required="" code="Permit type">
+  </item>
+  <item no="11" name="Office of application code" id="APP" required="" code="OGA's Office Code">
+  </item>
+  <item no="12" name="Contract No." id="CON" required="" code="">
+  </item>
+  <item no="13" name="Exporter" id="EXN" required="" code="">
+  </item>
+  <item no="14" name="Exporter Post code" id="EPC" required="" code="">
+  </item>
+  <item no="15" name="Exporter Building name etc" id="EXA" required="" code="">
+  </item>
+  <item no="16" name="Exporter Street and number/P.O.Box&#xA;" id="EXS" required="" code="">
+  </item>
+  <item no="17" name="Exporter District/Commune name" id="EXD" required="" code="">
+  </item>
+  <item no="18" name="Exporter City name" id="EXC" required="" code="">
+  </item>
+  <item no="19" name="Exporter Country code" id="ECC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="20" name="Exporter Phone number" id="EPN" required="" code="">
+  </item>
+  <item no="21" name="Exporter Facsimile" id="EXF" required="" code="">
+  </item>
+  <item no="22" name="Exporter Email" id="EXE" required="" code="">
+  </item>
+  <item no="23" name="Export country code" id="EOC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="24" name="Importer code" id="IMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="25" name="Importer name" id="IMN" required="" code="">Nhập "Tên tổ chức/cá nhân nhập khẩu" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="26" name="Business registration certificate No." id="RCN" required="" code="">
+  </item>
+  <item no="27" name="Business Post code" id="BPC" required="" code="">
+  </item>
+  <item no="28" name="Address of Importer" id="IMA" required="" code="">Nhập "Địa chỉ tổ chức/cá nhân nhập khẩu" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="29" name="Business Country code&#xA;" id="BCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="30" name="Business Phone number" id="BPN" required="" code="">Nhập "Địa chỉ của tổ chức/cá nhân nhập khẩu (Số điện thoại)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="31" name="Business Facsimile" id="PFX" required="" code="">
+  </item>
+  <item no="32" name="Business Email" id="BEM" required="" code="">
+  </item>
+  <item no="33" name="Transit country code" id="TCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="34" name="Means of transport type" id="MTT" required="" code="">Sẽ nhận một trong những giá trị sau:
+01 : Đường biển
+02 : Đường hàng không
+03 : Đường sắt
+04 : Đường bộ
+05 : Vận chuyển đa phương thức
+06 : Khác</item>
+  <item no="35" name="Import border gate code" id="IBC" required="" code="UN/LOCODEUN/LOCODE(3 digits without 2 digits of country code)&#xA;Station code&#xA;Border gate code">Nếu người dùng không nhập tiêu chí "Phương tiện vận chuyển", kiểm tra cơ sở dữ liệu (DB) trên lệnh này.
+1. UN/LOCODEUN/LOCODE (3 chữ số không có 2 chữ số của mã quốc gia)
+2. Mã quốc gia
+3. Mã cửa khẩu nhập</item>
+  <item no="36" name="Import border gate" id="IBN" required="" code="">Nhập "Cửa khẩu nhập" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="37" name="Permit number" id="PMN" required="" code="">
+  </item>
+  <item no="38" name="Quarantine location" id="QLN" required="" code="">
+  </item>
+  <item no="39" name="Vaccinated disease(Name of disease)" id="VCD" required="" code="">
+  </item>
+  <item no="40" name="Date of vaccination" id="DVC" required="" code="">
+  </item>
+  <item no="41" name="Antiseptic treatment " id="ATT" required="" code="">
+  </item>
+  <item no="42" name="Concentration" id="CCT" required="" code="">
+  </item>
+  <item no="43" name="Production company" id="PDC" required="" code="">
+  </item>
+  <item no="44" name="Quarantine date" id="QRT" required="" code="">
+  </item>
+  <item no="45" name="Quarantine time" id="QRH" required="" code="">
+  </item>
+  <item no="46" name="Control location" id="CTL" required="" code="">
+  </item>
+  <item no="47" name="Control date" id="CLT" required="" code="">
+  </item>
+  <item no="48" name="Control time" id="CLH" required="" code="">
+  </item>
+  <item no="49" name="Number of copy" id="NMC" required="" code="">
+  </item>
+  <item no="50" name="Other equipments" id="OEQ" required="" code="">
+  </item>
+  <item no="51" name="Enclosed documents" id="AD" required="" code="">
+  </item>
+  <item no="52" name="Arrival location" id="ALC" required="" code="">
+  </item>
+  <item no="53" name="Tester" id="TES" required="" code="">
+  </item>
+  <item no="54" name="Test result" id="TER" required="" code="">
+  </item>
+  <item no="55" name="Ship's name" id="SHN" required="" code="">
+  </item>
+  <item no="56" name="Ship's Nationality" id="NAT" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="57" name="Captain's name" id="CTN" required="" code="">
+  </item>
+  <item no="58" name="Doctor's name" id="DTN" required="" code="">
+  </item>
+  <item no="59" name="Crew number" id="CRN" required="" code="">
+  </item>
+  <item no="60" name="Passenger number" id="PGN" required="" code="">
+  </item>
+  <item no="61" name="The last departure port" id="LDP" required="" code="">
+  </item>
+  <item no="62" name="Next arrival port" id="NAP" required="" code="">
+  </item>
+  <item no="63" name="Discharge port" id="DCP" required="" code="">
+  </item>
+  <item no="64" name="Date of departure" id="DOD" required="" code="">
+  </item>
+  <item no="65" name="Goods description in the first departure port" id="GDC" required="" code="">
+  </item>
+  <item no="66" name="Quantity of Goods description in the first departure port" id="FQ" required="" code="">Không thể nhập vào bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="67" name="Quantity of Goods description in the first departure port unit" id="FQU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="68" name="Weight of Goods description in the first departure port" id="FW" required="" code="">Có thể nhập đến 6 chữ số cho phần nguyên, và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="69" name="Weight of Goods description in the first departure port unit" id="FWU" required="" code="Quantity unit code　(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+  <item no="70" name="Goods description in port of call" id="D__" required="" code="">
+  </item>
+  <item no="71" name="Quantity of Goods description in port of call" id="Q__" required="" code="">Không thể nhập vào bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="72" name="Quantity of Goods description in port of call unit" id="U__" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="73" name="Weight of Goods description in port of call" id="W__" required="" code="">Có thể nhập đến 6 chữ số cho phần số nguyên, và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="74" name="Weight of Goods description in port of call unit" id="X__" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+  <item no="75" name="Port of call" id="P__" required="" code="">
+  </item>
+  <item no="76" name="Discharge goods description" id="DGD" required="" code="">
+  </item>
+  <item no="77" name="Discharge goods quantity" id="DQ" required="" code="">Không thể nhập vào bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="78" name="Discharge goods quantity unit" id="DQU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="79" name="Discharge goods weight" id="DW" required="" code="">Có thể nhập lên đến 6 chữ số cho phần số nguyên, và lên đến 3 chữ số sau dấu thập phân.</item>
+  <item no="80" name="Discharge goods weight unit" id="DWU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+  <item no="81" name="Goods description(Kind of animals/animal products)" id="GDA" required="" code="">
+  </item>
+  <item no="82" name="HS code" id="HSC" required="" code="HS code ">
+  </item>
+  <item no="83" name="Sex" id="SEX" required="" code="">Sẽ nhận một trong những giá trị sau:
+F : Nữ
+M : Nam
+U : Không xác định</item>
+  <item no="84" name="Age" id="AGE" required="" code="">
+  </item>
+  <item no="85" name="Production company" id="PRC" required="" code="">
+  </item>
+  <item no="86" name="Packing method" id="PCM" required="" code="">
+  </item>
+  <item no="87" name="Total import quantity" id="TQ" required="" code="">Không thể nhập vào bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="88" name="Total import quantity unit" id="TQU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="89" name="Size of goods" id="SOG" required="" code="">
+  </item>
+  <item no="90" name="Net weight" id="NW" required="" code="">Có thể nhập đến 6 chữ số cho phần nguyên, và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="91" name="Net weight unit" id="NWU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+  <item no="92" name="Gross weight" id="GW" required="" code="">Có thể nhập đến 6 chữ số cho phần nguyên, và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="93" name="Gross weight unit" id="GWU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">"KGM" hoặc "TNE" hoặc "LBR"</item>
+  <item no="94" name="Quarantine quantity" id="QQ" required="" code="">Không thể nhập vào bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="95" name="Quarantine quantity unit" id="QQU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="96" name="Kind of packages" id="KPG" required="" code="">
+  </item>
+  <item no="97" name="Using purpose" id="UP" required="" code="">
+  </item>
+</guide>

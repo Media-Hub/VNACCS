@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_HRM11" jobname="House manifest registration C (call up)" display-name="House manifest registration C (call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_HRM11.xml" item_attr_edit="True" />
+  <friday href="CAM20_HRM11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KND" name="Processing type (処理区分)" input_output="+" required="M" attribute="I" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,5,Alteration,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="OBL" name="Master B/L No. (マスターB/L番号)" input_output="+" required="M" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <ranContainer repetition_max="20">
+      <item id="CBL" name="House B/L No. (ハウスB/L番号)" input_output="+" required="C" attribute="A" figure="35" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="91, 19" Location="30, 82" Text="Số Master B/L *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="258, 21" Location="177, 80" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Master B/L No. (マスターB/L番号)" check_attribute="*" attribute="A" id="OBL" figure="35" required="M" />
+    <label Size="89, 19" Location="30, 139" Text="Số House B/L *" Font="Tahoma, 9pt" />
+    <label Size="95, 19" Location="30, 28" Text="Phân loại xử lý *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="37, 22" Location="177, 26" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;5,Alteration&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type (処理区分)" check_attribute="*" attribute="I" id="KND" figure="1" required="M" />
+    <combobox DropDownWidth="93" TabIndex="2" Size="37, 22" Location="177, 53" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="141, 19" Location="30, 55" Text="Nhập khẩu / Xuất khẩu *" Font="Tahoma, 9pt" />
+    <navigator Visible="False" TabIndex="43" Location="534, 3" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="44" Size="312, 39" Location="30, 157" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="10" RepX="2" repetition_id="R01" repetition_max="20">
+      <ranlabel Size="21, 14" Location="6, 15" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <textbox CharacterCasing="Upper" TabIndex="4" Size="258, 21" Location="33, 12" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="House B/L No. (ハウスB/L番号)" check_attribute="*" attribute="A" id="CBL" figure="35" required="C" />
+    </container>
+  </layout>
+</jobform>

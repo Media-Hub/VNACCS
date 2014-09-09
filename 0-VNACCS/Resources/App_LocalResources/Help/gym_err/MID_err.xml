@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="MID" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Declaration No." id="ICN">
+    <description>Người nhập không phải là người phụ trách đăng ký.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="ICN">
+    <description>Không thể sử dụng (các) ký tự này. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0002" name="House AWB No." id="HAB">
+    <description>Không thể sử dụng (các) ký tự này.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0003" name="Declaration No." id="ICN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+
+</disposition>
+  </response>
+  <response code="S0004" name="House AWB No." id="HAB">
+    <description>"Số vận đơn" đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+
+</disposition>
+  </response>
+  <response code="R0001" name="Declaration No.&#xA;House AWB No." id="ICN&#xA;HAB">
+    <description>Không thể nhập cả hai giá trị.
+</description>
+    <disposition>Chỉ nhập một giá trị.
+</disposition>
+  </response>
+  <response code="R0002" name="Declaration No.&#xA;House AWB No." id="ICN&#xA;HAB">
+    <description>Chỉ  nhập một trong hai giá trị.
+</description>
+    <disposition>Nhập một trong hai giá trị.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Declaration No." id="ICN">
+    <description>Đã được cho phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0003" name="Declaration No." id="ICN">
+    <description>Do số nhánh của số tờ khai là "9", nên không thể thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0004" name="Declaration No." id="ICN">
+    <description>Đã chuyển sang thao tác bằng tay.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0005" name="Declaration No." id="ICN">
+    <description>Đã bị thu hồi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0006" name="Declaration No." id="ICN">
+    <description>Không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+</help>

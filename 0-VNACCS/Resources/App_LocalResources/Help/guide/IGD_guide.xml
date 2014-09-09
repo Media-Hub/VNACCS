@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IGD" name="Reference of Arrival/ Departure notification B">
+  <item no="1" name="Reference type" id="KBN" required="" code="">Lựa chọn thông tin cần tham chiếu
+A : Tham chiếu thông tin máy bay đến
+B : Tham chiếu thông tin máy bay đi
+</item>
+  <item no="2" name="Arrival notification No. / &#xA;Departure notification No.&#xA;" id="AND" required="" code="">1. Trường hợp tham chiếu dạng "A", nhập số thông báo máy bay đến.
+2. Trường hợp tham chiếu dạng "B", nhập số thông báo máy bay đi..
+3. Trường hợp đã điền số hiệu chuyến bay 1 (Số hiệu chuyến bay) thì không cần nhập số thông báo.
+
+</item>
+  <item no="3" name="Flight No. 1 (flight No.)" id="FL1" required="" code="">Nhập số hiệu chuyến bay gồm 6 ký tự
+1.  Nhập 2 ký tự mã hãng hàng không và 3 đến 4 ký tự số hiệu chuyến bay
+2.  Có thể nhập 3 đến 4 ký tự cho số hiệu chuyến bay. Đối với số hiệu chuyến bay có thể dùng chữ cái cho ký tự thứ 4, 3 ký tự còn lại chỉ có thể dùng chữ số.
+3. Trường hợp tham chiếu dạng "A",  Nhập số hiệu chuyến bay đến.
+4. Trường hợp tham chiếu dạng "B",  Nhập số hiệu chuyến bay đi.
+5. Trường hợp đã nhập số thông báo đến/đi, không cần nhập số hiệu chuyến bay.
+</item>
+  <item no="4" name="Flight No. 2 (date)" id="FL2" required="" code="">Nhập ngày chuyến bay theo định dạng DDMMM</item>
+  <item no="5" name="Airport" id="APT" required="" code="IATA airport code">Nhập mã sân bay đến/đi theo bảng mã sân bay của IATA (3 ký tự)
+1. Trường hợp tham chiếu dạng "A", nhập sân bay đến
+2. Trường hợp tham chiếu dạng "B", nhập sân bay đi.
+3. Nhập mã sân bay mà thông báo đến/đi được khai báo đến.
+</item>
+</guide>

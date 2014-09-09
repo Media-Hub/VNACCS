@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IHY" name="Reference of application attached by electronic file">
+  <item no="1" name="Declaration No" id="ICN" required="" code="">
+  </item>
+</guide>

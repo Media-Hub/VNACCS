@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="MED" name="Correction of export declaration (Tax exempted small amount clearance)  (Call up)">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ MEC.</item>
+</guide>

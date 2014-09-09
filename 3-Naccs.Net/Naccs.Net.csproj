@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B0F2FD6-174D-4034-82B9-74ADE9F8243F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Naccs.Net</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Security" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Naccs\Net\MailExceptionEx.cs" />
+    <Compile Include="Naccs\Net\HttpStatus.cs" />
+    <Compile Include="Naccs\Net\HttpCause.cs" />
+    <Compile Include="Naccs\Net\HttpResult.cs" />
+    <Compile Include="Naccs\Net\SentEventHandler.cs" />
+    <Compile Include="Naccs\Net\ReceivedEventHandler.cs" />
+    <Compile Include="Naccs\Net\NetworkErrorEventHandler.cs" />
+    <Compile Include="Naccs\Net\IHttpClient.cs" />
+    <Compile Include="Naccs\Net\ClientCert.cs" />
+    <Compile Include="Naccs\Net\NetTrace.cs" />
+    <Compile Include="Naccs\Net\MimeFormat.cs" />
+    <Compile Include="Naccs\Net\SignParameter.cs" />
+    <Compile Include="Naccs\Net\ComParameter.cs" />
+    <Compile Include="Naccs\Net\HttpExceptionEx.cs" />
+    <Compile Include="Naccs\Net\SignaturesCert.cs" />
+    <Compile Include="Naccs\Net\SMimeFormat.cs" />
+    <Compile Include="Naccs\Net\ComParamBuilder.cs" />
+    <Compile Include="Naccs\Net\MailStatus.cs" />
+    <Compile Include="Naccs\Net\MailCause.cs" />
+    <Compile Include="Naccs\Net\MailResult.cs" />
+    <Compile Include="Naccs\Net\MailOpenEventHandler.cs" />
+    <Compile Include="Naccs\Net\MailSentEventHandler.cs" />
+    <Compile Include="Naccs\Net\MailReceivedEventHandler.cs" />
+    <Compile Include="Naccs\Net\MailListEventHandler.cs" />
+    <Compile Include="Naccs\Net\MailDeleteEventHandler.cs" />
+    <Compile Include="Naccs\Net\MailNetworkErrorEventHandler.cs" />
+    <Compile Include="Naccs\Net\IMailClient.cs" />
+  </ItemGroup>
+</Project>

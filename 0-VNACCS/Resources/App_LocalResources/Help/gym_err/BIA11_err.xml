@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="BIA11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể xử lý nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã đăng ký được quản lý bởi cơ quan hải quan khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số tờ khai.</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã đăng ký được quản lý bởi người dùng khác</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số tờ khai.</disposition>
+  </response>
+  <response code="U0005" name="None" id="0000">
+    <description>Cầu cảng dỡ hàng đã đăng ký được quản lý bởi Cơ quan hải quan khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số tờ khai.</disposition>
+  </response>
+  <response code="U0006" name="None" id="0000">
+    <description>Chỉ hải quan mới có thể sử dụng nghiệp vụ BIA trong trường hợp vị trí dỡ hàng là cầu cảng.</description>
+    <disposition>Kiểm tra thông tin tờ khai. Liên lạc với hải quan nếu vị trí dỡ hàng là cầu cảng.</disposition>
+  </response>
+  <response code="U0007" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã đăng ký được quản lý bởi cơ quan hải quan khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số tờ khai.</disposition>
+  </response>
+  <response code="U0008" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã đăng ký được quản lý bởi người dùng khác</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số tờ khai.</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="OLT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tờ khai.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Nhập thông điệp có độ dài lớn hơn độ dài tối đa cho phép trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Declaration No." id="OLT">
+    <description>Trạng thái (trong hệ thống) của tờ khai này là không phải là đang được vận chuyển.</description>
+    <disposition>Kiểm tra thông tin tờ khai.</disposition>
+  </response>
+  <response code="E0004" name="Declaration No." id="OLT">
+    <description>Khu vực dỡ hàng tương ứng với tờ khai này chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và sửa vị trí dỡ hàng bằng nghiệp vụ COT khi cần thiết.</disposition>
+  </response>
+  <response code="E0005" name="Declaration No." id="OLT">
+    <description>Mã cầu cảng dỡ hàng tương ứng với tờ khai này chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và sửa vị trí dỡ hàng bằng nghiệp vụ COT khi cần thiết.</disposition>
+  </response>
+  <response code="E0006" name="Declaration No." id="OLT">
+    <description>Khu vực dỡ hàng tương ứng với tờ khai này chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và sửa vị trí dỡ hàng bằng nghiệp vụ COT khi cần thiết.</disposition>
+  </response>
+</help>

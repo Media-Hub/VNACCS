@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB8DE6DC-4C70-4F32-8F72-73B71A4F6BEB}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>NaccsWM</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\NaccsDeCompile\Application\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Naccs.Interactive">
+      <HintPath>..\Naccs.Interactive\bin\Debug\Naccs.Interactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Naccs.Core">
+      <HintPath>..\Naccs.Core\obj\x86\Debug\Naccs.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NaccsNetHttp">
+      <HintPath>..\NaccsNetHttp\bin\Debug\NaccsNetHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Naccs.Net">
+      <HintPath>..\Naccs.Net\bin\Debug\Naccs.Net.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="NaccsWM\Properties\Resources.cs" />
+    <Compile Include="NaccsWM\NaccsWMMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaccsWM\Properties\Settings.cs" />
+    <Compile Include="NaccsWM\Program.cs" />
+    <EmbeddedResource Include="NaccsWM.NaccsWMMain.resources" />
+    <EmbeddedResource Include="NaccsWM.Properties.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Settings\system_environment_setup.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NaccsCommon\NaccsCommon.csproj">
+      <Project>{F1D5201E-E622-41CA-BCAA-CEF613E350DD}</Project>
+      <Name>NaccsCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

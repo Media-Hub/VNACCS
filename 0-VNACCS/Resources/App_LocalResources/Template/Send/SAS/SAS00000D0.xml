@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_SAS" jobname="CAM38_SAS" display-name="SAS Assignment of examiner/inspector (Application for Quarantine certificate of import animals/ animal products)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM38_SAS.xml" item_attr_edit="False" />
+  <friday href="CAM38_SAS.xml" revision="0000" />
+  <iteminfo>
+    <item id="APN" name="OGA Application No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBN" name="Function code" input_output="+" required="M" attribute="I" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue="1,&#xD;&#xA;2," out_flg="0" in_flg="1" />
+    <item id="EXM" name="Examiner/inspector code" input_output="+" required="M" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="RMK" name="Contents of indication" input_output="+" required="C" attribute="W" figure="765" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="150, 19" Location="46, 45" Text="Chức năng của chứng từ *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="49" TabIndex="2" Size="35, 22" Location="205, 44" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="1,&#xD;&#xA;2,&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Function code" check_attribute="*" attribute="I" id="KBN" figure="1" required="M" />
+    <label Size="127, 19" Location="46, 18" Text="Số đơn xin cấp phép *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="205, 17" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="OGA Application No." check_attribute="*" attribute="I" id="APN" figure="12" required="M" />
+    <label Size="137, 19" Location="46, 72" Text="Mã nhân viên kiểm tra *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="69, 21" Location="205, 71" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Examiner/inspector code" check_attribute="*" attribute="A" id="EXM" figure="8" required="M" />
+    <label Size="105, 19" Location="46, 98" Text="Nội dung giao việc" Font="Tahoma, 9pt" />
+    <textbox TabIndex="4" Multiline="True" Size="503, 66" Location="205, 98" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Contents of indication" check_attribute="*" attribute="W" id="RMK" figure="765" required="C" />
+  </layout>
+</jobform>

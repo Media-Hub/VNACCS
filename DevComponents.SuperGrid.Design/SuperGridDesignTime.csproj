@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D06A8233-416A-4547-BFF6-7A26345B7396}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevComponents.SuperGrid.Design</RootNamespace>
+    <AssemblyName>DevComponents.SuperGrid.Design</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SuperGridDesignTime.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;SUPERGRID</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTrial|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;SUPERGRID;TRIAL</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="BoolValueTypeDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColumnListTypeEditor.cs" />
+    <Compile Include="ImageIndexTypeDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageIndexTypeDropDown.Designer.cs">
+      <DependentUpon>ImageIndexTypeDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageIndexEditor.cs">
+    </Compile>
+    <Compile Include="ImageListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGridActionList.cs" />
+    <Compile Include="SuperGridDesigner.cs" />
+    <Compile Include="ValueTypeDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ValueTypeDropDown.Designer.cs">
+      <DependentUpon>ValueTypeDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueTypeEditor.cs" />
+    <Compile Include="GridCellCollectionEditor.cs" />
+    <Compile Include="GridRowCollectionEditor.cs" />
+    <Compile Include="GridColumnCollectionEditor.cs" />
+    <Compile Include="EditTypeDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditTypeDropDown.Designer.cs">
+      <DependentUpon>EditTypeDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTypeEditor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevComponents.DotNetBar.SuperGrid\SuperGrid.csproj">
+      <Project>{A344305F-D2E2-4350-B61E-D7277959A5B4}</Project>
+      <Name>SuperGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetBar.csproj">
+      <Project>{36546CE3-335C-4AB6-A2F3-40F8C818BC66}</Project>
+      <Name>DotNetBar</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SuperGridDesignTime.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ImageIndexTypeDropDown.resx">
+      <DependentUpon>ImageIndexTypeDropDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValueTypeDropDown.resx">
+      <DependentUpon>ValueTypeDropDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTypeDropDown.resx">
+      <DependentUpon>EditTypeDropDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

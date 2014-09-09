@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_PLR11" jobname="Report of passenger list (Call up)" display-name="Report of passenger list(Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_PLR11.xml" item_attr_edit="True" />
+  <friday href="CAM10_PLR11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Processing type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="5,Correction,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="NUM" name="Passenger list number" input_output="+" required="M" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="VOL" name="Volume No." input_output="+" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="134, 42" AutoSize="False" Location="241, 177" Text="Passenger list No. *&#xD;&#xA;(Số tham chiếu danh&#xD;&#xA; sách hành khách)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="381, 188" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Passenger list number" check_attribute="*" attribute="A" id="NUM" figure="12" required="M" />
+    <label Size="108, 31" AutoSize="False" Location="241, 130" Text="Processing type *&#xD;&#xA;(Phân loại xử lý)" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="38, 22" Location="381, 134" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="5,Correction&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <label Size="82, 28" AutoSize="False" Location="241, 235" Text="Volume No. &#xD;&#xA;(Khối lượng)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="20, 21" Location="381, 239" TextAlign="Right" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Volume No." check_attribute="*" attribute="A" id="VOL" figure="1" required="C" />
+  </layout>
+</jobform>

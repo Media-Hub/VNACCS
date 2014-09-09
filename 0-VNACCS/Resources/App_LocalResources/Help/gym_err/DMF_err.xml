@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="DMF" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0002" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Vessel call sign" id="SEN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Hô hiệu của tầu
+</disposition>
+  </response>
+  <response code="S0004" name="Vessel call sign" id="SEN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã cảng dỡ hàng hàng/Mã cảng xếp hàng lên tầu.
+</disposition>
+  </response>
+  <response code="S0006" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Mã cảng dỡ hàng đã nhập không phải là cảng trong nước Việt Nam.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã cảng trong nước.
+</disposition>
+  </response>
+  <response code="S0008" name="Port of discharge suffix/Port of loading suffix" id="EDA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Hãy nhập số nhánh của cảng dỡ hàng.
+</disposition>
+  </response>
+  <response code="S0009" name="Port of discharge suffix/Port of loading suffix" id="EDA">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0010" name="Voyage No." id="VOY">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập số chuyến đi biển.
+</disposition>
+  </response>
+  <response code="S0011" name="Voyage No." id="VOY">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0012" name="Carrier code" id="SCA">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="S0013" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0014" name="Share slot (Joint-operation)" id="JOI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Share slot (Joint-operation) với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Date of arrival/Date of departure" id="IDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày đến/Ngày xuất phát.
+</disposition>
+  </response>
+  <response code="S0016" name="Date of arrival/Date of departure" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0017" name="Date of arrival/Date of departure" id="IDT">
+    <description>Ngày được nhập không nằm trong phạm vi quy định.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ngày trong phạm vi quy định.
+</disposition>
+  </response>
+  <response code="S0018" name="Date of arrival/Date of departure" id="IDT">
+    <description>Ngày được nhập không nằm trong phạm vi quy định.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ngày trong phạm vi quy định.
+</disposition>
+  </response>
+  <response code="S0019" name="Submission to Immigration Bureau" id="SIM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="S0020" name="Submission to Immigration Bureau" id="SIM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Submission to Quarantine station" id="SQU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho Cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="S0022" name="Submission to Quarantine station" id="SQU">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho Cơ quan kiểm dịch với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0023" name="Submission to Port authority" id="SPO">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho Cảng vụ.
+</disposition>
+  </response>
+  <response code="S0024" name="Submission to Port authority" id="SPO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho Cảng vụ với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0025" name="Customs office" id="CHC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0026" name="Customs office" id="CHC">
+    <description>Mã cơ quan hải quan đã nhập chưa được đăng ký như là Mã Nộp cho cơ quan hải quan đối với các thông tin liên quan đến Manifest.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0027" name="Customs office" id="CHC">
+    <description>Mã cơ quan hải quan đã nhập chưa được đăng ký như là Mã Nộp cho cơ quan hải quan đối với các thông tin liên quan đến Manifest.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0028" name="Customs office" id="CHC">
+    <description>Mã cơ quan hải quan đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0029" name="User code of Immigration Bureau" id="IMG">
+    <description>Mã người dùng của cục quản lý nhập cảnh đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người dùng của cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="S0030" name="User code of Immigration Bureau" id="IMG">
+    <description>Mã người dùng của cục quản lý nhập cảnh đã nhập không phải là người sử dụng của Cục quản lý nhập cảnh.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người dùng của cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="S0031" name="User code of Quarantine station" id="QUA">
+    <description>Mã người dùng của Cơ quan kiểm dịch đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người dùng của Cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="S0032" name="User code of Quarantine station" id="QUA">
+    <description>Mã người dùng của Cơ quan kiểm dịch đã nhập không phải là người dùng của Cơ quan kiểm dịch.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người dùng của Cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="S0033" name="User code of Port authority" id="POA">
+    <description>Mã người dùng của Cảng vụ đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người sử dụng của Cảng vụ.
+</disposition>
+  </response>
+  <response code="S0034" name="User code of Port authority" id="POA">
+    <description>Mã người dùng của Cảng vụ đã nhập không phải là người dùng của cảng vụ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã người dùng của cảng vụ.
+</disposition>
+  </response>
+  <response code="S0035" name="Remarks" id="NTE">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="User code of Immigration Bureau" id="IMG">
+    <description>Mặc dù Mã người dùng của cục quản lý nhập cảnh được nhập, nhưng Nộp cho cục quản lý nhập cảnh hiện đang thiết lập là "Không nộp".
+</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cục quản lý nhập cảnh và Mã người dùng của cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="R0002" name="User code of Immigration Bureau" id="IMG">
+    <description>Bộ phận Xuất nhập cảnh của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cục quản lý nhập cảnh và Mã người dùng của cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="R0003" name="User code of Quarantine station" id="QUA">
+    <description>Mặc dù Mã người dùng của Cơ quan kiểm dịch được nhập, nhưng Nộp cho cơ quan kiểm dịch hiện đang thiết lập là "Không nộp"
+</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cơ quan kiểm dịch và Mã người dùng của Cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="R0004" name="User code of Quarantine station" id="QUA">
+    <description>Bộ phận Kiểm dịch của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cơ quan kiểm dịch và Mã người dùng của Cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="R0005" name="User code of Port authority" id="POA">
+    <description>Mặc dù Mã người dùng của Cảng vụ được nhập, nhưng Nộp cho cảng vụ hiện đang thiết lập là "Không nộp"
+</description>
+    <disposition>Kiểm tra dấu chọn gửi tin tới Cảng vụ và Mã người dùng của cảng vụ.</disposition>
+  </response>
+  <response code="R0006" name="User code of Port authority" id="POA">
+    <description>Bộ phận Cảng vụ của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra dấu chọn gửi tin tới Cảng vụ và Mã người dùng của cảng vụ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Vessel call sign&#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix&#xA;Voyage No.&#xA;Carrier code" id="SEN&#xA;DPR&#xA;EDA&#xA;VOY&#xA;SCA">
+    <description>Thông tin manifest đã chỉ định chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin manifest.
+</disposition>
+  </response>
+  <response code="E0003" name="Vessel call sign&#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix&#xA;Voyage No.&#xA;Carrier code" id="SEN&#xA;DPR&#xA;EDA&#xA;VOY&#xA;SCA">
+    <description>Thông tin manifest đã chỉ định chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin manifest.
+</disposition>
+  </response>
+  <response code="E0004" name="Vessel call sign&#xA;Port of discharge code/Port of loading code&#xA;Port of discharge suffix/Port of loading suffix&#xA;Voyage No.&#xA;Carrier code" id="SEN&#xA;DPR&#xA;EDA&#xA;VOY&#xA;SCA">
+    <description>Thông tin manifest chỉ định đã được gửi.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin manifest.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="W1000" name="None" id="0000">
+    <description>Sau khi hệ thống trả về "Hoàn tất", xử lý nội bộ vẫn tiếp tục thực hiện.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="L0001" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="Customs office" id="CHC">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="Customs office" id="CHC">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0004" name="Customs office" id="CHC">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0005" name="User code of Immigration Bureau" id="IMG">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="User code of Quarantine station" id="QUA">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0007" name="User code of Port authority" id="POA">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0008" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

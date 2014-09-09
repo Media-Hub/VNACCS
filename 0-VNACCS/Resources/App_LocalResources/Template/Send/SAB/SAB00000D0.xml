@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_SAB" jobname="CAM38_SAB" display-name="SAB Application for Quarantine certificate of import animals/ animal products (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM38_SAB.xml" item_attr_edit="False" />
+  <friday href="CAM38_SAB.xml" revision="0000" />
+  <iteminfo>
+    <item id="APN" name="OGA Application No./Permit/license No." input_output="+" required="M" attribute="A" figure="20" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBN" name="Call up type" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue="A,&#xD;&#xA;B," out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="206, 19" Location="70, 81" Text="Số đơn xin cấp phép/ Số giấy phép *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="153, 21" Location="282, 80" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="OGA Application No./Permit/license No." check_attribute="*" attribute="A" id="APN" figure="20" required="M" />
+    <label Size="129, 19" Location="70, 107" Text="Phân loại tham chiếu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="49" TabIndex="3" Size="34, 22" Location="282, 105" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,&#xD;&#xA;B,&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Call up type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+  </layout>
+</jobform>

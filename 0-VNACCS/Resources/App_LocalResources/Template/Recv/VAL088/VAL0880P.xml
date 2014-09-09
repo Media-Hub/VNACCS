@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM30_IVA" jobname="CAM30_IVA" display-name="Notification information on receipt number of electronic invoice">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL0880.xml" item_attr_edit="False" />
+  <friday href="VAL0880.xml" revision="0000" />
+  <iteminfo>
+    <item id="NIV" name="Electronic invoice receipt No." input_output="-" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NYD" name="Date" input_output="-" required="C" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NID" name="User" input_output="-" required="C" attribute="A" figure="8" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IMC" name="Importer/Exporter Code" input_output="-" required="C" attribute="A" figure="13" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IMN" name="Importer/Exporter Name" input_output="-" required="C" attribute="W" figure="300" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTP" name="Transportation classification" input_output="-" required="C" attribute="A" figure="4" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="YNK" name="Import export classification" input_output="-" required="C" attribute="A" figure="1" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="INO" name="Invoice No." input_output="-" required="C" attribute="A" figure="35" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="PLO" name="P/L number" input_output="-" required="C" attribute="A" figure="10" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 9pt" MinOccurs="1">
+      <label Location="76, 162" Size="25, 19" Font="Tahoma, 9pt" Text="Tên" />
+      <label Location="76, 136" Size="21, 19" Font="Tahoma, 9pt" Text="Mã" />
+      <pagelabel Location="0, 0" Size="718, 28" Font="Tahoma, 12pt, style=Bold" Text="Thông tin thông báo số hiệu tiếp nhận hóa đơn điện tử" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label Location="12, 41" Size="165, 19" Font="Tahoma, 9pt" Text="Số tiếp nhận hóa đơn điện tử" />
+      <prttextbox Format="" Location="193, 43" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="NIV" input_output="-" name="Electronic invoice receipt No." order="1" required="M" />
+      <label Location="12, 66" Size="95, 19" Font="Tahoma, 9pt" Text="Ngày tháng năm" />
+      <prttextbox Format="dd/MM/yyyy" Location="193, 68" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="NYD" input_output="-" name="Date" order="2" required="C" />
+      <label Location="12, 91" Size="85, 19" Font="Tahoma, 9pt" Text="Người sử dụng" />
+      <prttextbox Format="" Location="193, 93" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="NID" input_output="-" name="User" order="3" required="C" />
+      <label Location="12, 115" Size="95, 19" Font="Tahoma, 9pt" Text="Người xuất khẩu" />
+      <prttextbox Format="AAAAAAAAAA-AAA" Multiline="True" Location="193, 138" Size="111, 15" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="IMC" input_output="-" name="Importer/Exporter Code" order="4" required="C" />
+      <label Location="12, 250" Size="67, 19" Font="Tahoma, 9pt" Text="Số hóa đơn" />
+      <prttextbox Format="" Location="193, 252" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="INO" input_output="-" name="Invoice No." order="8" required="C" />
+      <label Location="12, 272" Size="40, 19" Font="Tahoma, 9pt" Text="Số P/L" />
+      <prttextbox Format="" Location="193, 274" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="PLO" input_output="-" name="P/L number" order="9" required="C" />
+      <label Location="12, 226" Size="143, 19" Font="Tahoma, 9pt" Text="Phân loại xuất nhập khẩu" />
+      <prttextbox Format="" Location="193, 228" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="YNK" input_output="-" name="Import export classification" order="7" required="C" />
+      <label Location="12, 201" Size="121, 19" Font="Tahoma, 9pt" Text="Phân loại vận chuyển" />
+      <prttextbox Format="" Location="193, 203" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TTP" input_output="-" name="Transportation classification" order="6" required="C" />
+      <prttextbox Format="" Multiline="True" Location="193, 162" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="IMN" input_output="-" name="Importer/Exporter Name" order="5" required="C" />
+    </page>
+  </layout>
+</jobform>

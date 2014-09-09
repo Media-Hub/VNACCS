@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="ILD (Reference information of Vehicle arrival declaration)" system="NACCS" jobcode="ILD" autosend="false">
+        <item from="RDN" from_source="COM" to="NTN" to_source="COM" />
+    </destination>
+    <destination no="2" text="INP (Reference information of passenger list information)" system="NACCS" jobcode="INP" autosend="false">
+        <item from="PLN" from_source="COM" to="NUM" to_source="COM" />
+    </destination>
+</link>

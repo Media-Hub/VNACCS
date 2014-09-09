@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM83_HYS" jobname="Registration of application attached by electronic file" display-name="Copy of general application information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL0020.xml" item_attr_edit="False" />
+  <friday href="VAL0020.xml" revision="0000" />
+  <iteminfo>
+    <item id="JNO" name="Declaration No" input_output="-" required="M" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TSB" name="Application procedure type" input_output="-" required="M" attribute="A" figure="3" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TNM" name="Application procedure name" input_output="-" required="M" attribute="W" figure="210" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CH" name="Customs Office" input_output="-" required="M" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CHB" name="Customs Sub-section" input_output="-" required="C" attribute="A" figure="2" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="YMD" name="Application date" input_output="-" required="M" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SNM" name="Applicant name" input_output="-" required="M" attribute="W" figure="300" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SAD" name="Applicant address" input_output="-" required="M" attribute="W" figure="300" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="STL" name="Applicant telephone number" input_output="-" required="C" attribute="A" figure="20" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REF" name="Enterprise internal control number" input_output="-" required="C" attribute="A" figure="20" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KIJ" name="Remarks" input_output="-" required="C" attribute="W" figure="996" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 9pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 28" Font="Tahoma, 12pt" Text="Bản lưu thông tin tờ khai phổ thông " TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="236, 77" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="JNO" input_output="-" name="Declaration No" order="1" required="M" />
+      <prttextbox Format="" Location="236, 107" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="TSB" input_output="-" name="Application procedure type" order="2" required="M" />
+      <label Location="65, 105" Size="104, 19" Font="Tahoma, 9pt" Text="Phân loại khai báo" />
+      <label Location="65, 75" Size="59, 19" Font="Tahoma, 9pt" Text="Số tờ khai" />
+      <prttextbox Format="" Multiline="True" Location="236, 137" Size="427, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="TNM" input_output="-" name="Application procedure name" order="3" required="M" />
+      <label Location="65, 135" Size="118, 19" Font="Tahoma, 9pt" Text="Tên thủ tục khai báo" />
+      <prttextbox Format="" Location="510, 183" Size="23, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="CHB" input_output="-" name="Customs Sub-section" order="5" required="C" />
+      <prttextbox Format="" Location="236, 183" Size="53, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="CH" input_output="-" name="Customs Office" order="4" required="M" />
+      <label Location="65, 181" Size="102, 19" Font="Tahoma, 9pt" Text="Cơ quan Hải quan" />
+      <label Location="399, 181" Size="105, 19" Font="Tahoma, 9pt" Text="Nhóm xử lý hồ sơ " />
+      <prttextbox Format="dd/MM/yyyy" Location="236, 214" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="YMD" input_output="-" name="Application date" order="6" required="M" />
+      <label Location="65, 212" Size="82, 19" Font="Tahoma, 9pt" Text="Ngày khai báo" />
+      <prttextbox Format="" Multiline="True" Location="236, 244" Size="427, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="SNM" input_output="-" name="Applicant name" order="7" required="M" />
+      <label Location="65, 242" Size="110, 19" Font="Tahoma, 9pt" Text="Tên người khai báo" />
+      <prttextbox Format="" Multiline="True" Location="236, 290" Size="427, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="SAD" input_output="-" name="Applicant address" order="8" required="M" />
+      <label Location="65, 288" Size="127, 19" Font="Tahoma, 9pt" Text="Địa chỉ người khai báo" />
+      <prttextbox Format="" Location="236, 336" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="STL" input_output="-" name="Applicant telephone number" order="9" required="C" />
+      <label Location="65, 334" Size="161, 19" Font="Tahoma, 9pt" Text="Số điện thoại người khai báo" />
+      <prttextbox Format="" Location="236, 366" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="REF" input_output="-" name="Enterprise internal control number" order="10" required="C" />
+      <label Location="65, 364" Size="139, 34" Font="Tahoma, 9pt" Text="Số quản lý trong nội bộ&#xD;&#xA;doanh nghiệp" />
+      <prttextbox Format="" Multiline="True" Location="236, 411" Size="427, 90" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="996" form="" id="KIJ" input_output="-" name="Remarks" order="11" required="C" />
+      <label Location="65, 409" Size="46, 19" Font="Tahoma, 9pt" Text="Ghi chú" />
+    </page>
+  </layout>
+</jobform>

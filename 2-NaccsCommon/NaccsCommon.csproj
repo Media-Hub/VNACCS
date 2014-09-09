@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1D5201E-E622-41CA-BCAA-CEF613E350DD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>NaccsCommon</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Design" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="DotNetBarcode">
+      <HintPath>..\DLL\DotNetBarcode.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\IRepetition.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBNavigatorDesign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\IContainerAttributes.cs" />
+    <Compile Include="Naccs\Common\CustomControls\IRepContainerAttributes.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\IItemAttributes.cs" />
+    <Compile Include="Naccs\Common\CustomControls\IItemAttributesEx.cs" />
+    <Compile Include="Naccs\Common\CustomControls\ComboBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Common\ImportFont.cs" />
+    <Compile Include="Naccs\Common\Function\Size.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBPrtTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBBarcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Common\ChangeFont.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\AutoCompleteTrigger.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\ShortCutTrigger.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\AutoCompleteEntryCollection.cs" />
+    <Compile Include="Naccs\Common\Properties\Resources.cs" />
+    <Compile Include="Naccs\Common\Function\XmlFunc.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\AutoComplete\TextLengthTrigger.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\AutoCompleteTriggerCollection.cs" />
+    <Compile Include="Naccs\Common\Print\PrintXml.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBRan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBRanDesigner.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\JobErrInfo.cs" />
+    <Compile Include="Naccs\Common\MessageKind.cs" />
+    <Compile Include="Naccs\Common\NaccsException.cs" />
+    <Compile Include="Naccs\Common\Function\PropertiesCollection.cs" />
+    <Compile Include="Naccs\Common\Function\PrtProperties.cs" />
+    <Compile Include="Naccs\Common\Function\CrtProperties.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\PaperSizeConverter.cs" />
+    <Compile Include="Naccs\Common\CustomControls\PrintPageDesigner.cs" />
+    <Compile Include="Naccs\Common\CustomControls\BindingSourceEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Generator\ICreateComponent.cs" />
+    <Compile Include="Naccs\Common\Function\Normalize.cs" />
+    <Compile Include="Naccs\Common\Function\ControlFunc.cs" />
+    <Compile Include="Naccs\Common\Function\CommaText.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBTitlePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\AutoComplete\TriggerState.cs" />
+    <Compile Include="Naccs\Common\Function\GetLength.cs" />
+    <Compile Include="Naccs\Common\Function\StrFunc.cs" />
+    <Compile Include="Naccs\Common\Function\Validation.cs" />
+    <Compile Include="Naccs\Common\Function\CharsWidth.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LineStyle.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LineStyleConverter.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBCompOcr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\IAutoComplete.cs" />
+    <Compile Include="Naccs\Common\Constant\XmlDef.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBPanelDesigner.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\IAutoCompleteEntry.cs" />
+    <Compile Include="Naccs\Common\AutoComplete\AutoCompleteEntry.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBTextBoxColumn.cs" />
+    <Compile Include="Naccs\Common\CustomControls\JobPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\JobPanelDesigner.cs" />
+    <Compile Include="Naccs\Common\CustomControls\ExTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Constant\SizeDef.cs" />
+    <Compile Include="Naccs\Common\Print\OnPrintEndEventHandler.cs" />
+    <Compile Include="Naccs\Common\Print\Print.cs" />
+    <Compile Include="Naccs\Common\Function\Location.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBHandOcr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Constant\DllResource.cs" />
+    <Compile Include="Naccs\Common\JobConfig\JobConfigDef.cs" />
+    <Compile Include="Naccs\Common\Function\ComponentProperty.cs" />
+    <Compile Include="Naccs\Common\CustomControls\RanLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Generator\ItemInfo.cs" />
+    <Compile Include="Naccs\Common\Generator\ItemInfoRec.cs" />
+    <Compile Include="Naccs\Common\Generator\NaccsDataItem.cs" />
+    <Compile Include="Naccs\Common\Generator\LastPageInfo.cs" />
+    <Compile Include="Naccs\Common\Generator\CreateComponentJob.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBPageLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\PageFormatConverter.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\MaskFormatConverter.cs" />
+    <Compile Include="Naccs\Common\CustomControls\ComboExItem.cs" />
+    <Compile Include="Naccs\Common\Constant\BasePropertyDefault.cs" />
+    <Compile Include="Naccs\Common\Print\HrdCopy.cs" />
+    <Compile Include="Naccs\Common\Generator\LayoutGenerator.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBCommaTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Print\ConvertTemplate.cs" />
+    <Compile Include="Naccs\Common\JobConfig\JobConfigFactory.cs" />
+    <Compile Include="Naccs\Common\JobConfig\AbstractJobConfig.cs" />
+    <Compile Include="Naccs\Common\JobConfig\CombiConfig.cs" />
+    <Compile Include="Naccs\Common\JobConfig\SubConfig.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBInputComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\DesignControls.cs" />
+    <Compile Include="Naccs\Common\Constant\FontDef.cs" />
+    <Compile Include="Naccs\Common\JobConfig\NormalConfig.cs" />
+    <Compile Include="Naccs\Common\JobConfig\DivideConfig.cs" />
+    <Compile Include="Naccs\Common\JobConfig\Division.cs" />
+    <Compile Include="Naccs\Common\JobConfig\TemplateItem.cs" />
+    <Compile Include="Naccs\Common\JobConfig\JobStyle.cs" />
+    <Compile Include="Naccs\Common\JobConfig\TemplateStyle.cs" />
+    <Compile Include="Naccs\Common\JobConfig\ConfirmType.cs" />
+    <Compile Include="Naccs\Common\JobConfig\RecordAttribute.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBRectangle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBGStamp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\CustomControls\LBDivTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Common\Function\Logging.cs" />
+    <Compile Include="Naccs\Common\Function\LogEventArgs.cs" />
+    <Compile Include="Naccs\Common\Function\DosCommand.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBTextBoxCell.cs" />
+    <Compile Include="Naccs\Common\CustomControls\LBDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Naccs.Common.CustomControls.JobPanel.resources" />
+    <EmbeddedResource Include="Naccs.Common.CustomControls.LBDivTextBox.resources" />
+    <EmbeddedResource Include="Naccs.Common.CustomControls.LBNavigatorDesign.resources" />
+    <EmbeddedResource Include="Naccs.Common.CustomControls.LBPage.resources" />
+    <EmbeddedResource Include="Naccs.Common.Properties.Resources.resources" />
+  </ItemGroup>
+</Project>

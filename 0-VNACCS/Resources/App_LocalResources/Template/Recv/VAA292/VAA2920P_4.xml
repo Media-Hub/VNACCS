@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IRD" jobname="Reference of arrival/departure notification C" display-name="Reference information of railway departure notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA2920_4.xml" item_attr_edit="False" />
+  <friday href="VAA2920_4.xml" revision="0000" />
+  <iteminfo>
+    <item id="ONN" name="Departure notification No." input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <fixedContainer repetition_max="50" expand="0" repetition_id="C03">
+      <item id="AA__" name="Station type (for animals)" input_output="-" required="" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="AB__" name="Station code (for animals)" input_output="-" required="" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="AN__" name="Station name (for animals)" input_output="-" required="" attribute="A" figure="35" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="AC__" name="Kind of animals" input_output="-" required="" attribute="A" figure="70" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="AD__" name="Kind of animal products" input_output="-" required="" attribute="A" figure="70" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </fixedContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MaxOccurs="5">
+      <pagelabel Location="663, 1037" Size="55, 17" Font="Tahoma, 9pt" Text="HH:mm:ss" TextAlign="MiddleLeft" PageFormat="PrintTime" />
+      <pagelabel Location="586, 1037" Size="77, 17" Font="Tahoma, 9pt" Text="dd/MM/yyyy" TextAlign="BottomRight" PageFormat="PrintDate" />
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 9pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="Reference information of railway departure notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="143, 39" Size="123, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="ONN" input_output="-" name="Departure notification No." order="1" required="" />
+      <label Location="2, 37" Size="135, 19" Font="Tahoma, 9pt" Text="Số thông báo xuất cảnh" />
+      <ran Location="2, 68" Size="714, 84" Font="Tahoma, 11pt" Count="10" repetition_id="C03" repetition_max="50" RepX="1" RepY="10" SpaceX="0" SpaceY="0">
+        <ranlabel Location="2, 1" Size="21, 15" Font="Courier New, 9pt" figure="2" repetition_id="C03" Value="0" PadLeft="True" />
+        <label Location="31, 0" Size="19, 19" Font="Tahoma, 9pt" Text="Ga" />
+        <prttextbox Format="" Location="168, 3" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="AA__" input_output="-" name="Station type (for animals)" order="2" required="" />
+        <label Location="255, 1" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="199, 3" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AB__" input_output="-" name="Station code (for animals)" order="3" required="" />
+        <label Location="186, 1" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="268, 3" Size="331, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="AN__" input_output="-" name="Station name (for animals)" order="4" required="" />
+        <label Location="30, 22" Size="79, 19" Font="Tahoma, 9pt" Text="Loại động vật" />
+        <prttextbox Format="" Multiline="True" Location="168, 24" Size="526, 17" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="AC__" input_output="-" name="Kind of animals" order="5" required="" />
+        <label Location="30, 45" Size="136, 19" Font="Tahoma, 9pt" Text="Loại sản phẩm động vật" />
+        <prttextbox Format="" Multiline="True" Location="168, 48" Size="526, 17" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="AD__" input_output="-" name="Kind of animal products" order="6" required="" />
+      </ran>
+    </page>
+    <page Font="Tahoma, 11pt" MaxOccurs="6">
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="タイトル１" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+    </page>
+  </layout>
+</jobform>

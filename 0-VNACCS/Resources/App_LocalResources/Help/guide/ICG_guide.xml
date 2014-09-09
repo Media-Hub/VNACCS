@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ICG" name="Reference of cargo information">
+  <item no="1" name="Reference type" id="KBN" required="" code="">Người dùng lựa chọn chỉ số thông tin do hệ thống cung cấp tìm kiếm thông tin. Cụ thể:
+S: Thông tin vận tải đơn đường biển
+A: Thông tin vận tải đơn đường không
+R: Thông tin vận tải đơn đường sắt
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Người dùng lựa chọn chỉ số thông tin do hệ thống cung cấp tìm kiếm thông tin. Cụ thể:
+I: Nhập khẩu
+E: Xuất khẩu
+</item>
+  <item no="3" name="(House) B/L No./(House) AWB No." id="CGN" required="" code="">Người dùng lựa chọn chỉ số thông tin do hệ thống cung cấp tìm kiếm thông tin. Cụ thể:
+- Trường hợp manifest đường biển "S" hoặc đường sắt "R" có số vận tải đơn không thể hiện mã người vận tải/mã người giao nhận, thì phải nhập mã người vận tải/mã người giao nhận và số vận đơn chặng.
+- Trường hợp manifest đường không "A"
+Nếu là vận đơn chủ đường không thì người dùng nhập số vận đơn chủ đường không; nếu só vận đơn chặng đường không không có mã người giao nhận thì người dùng phải nhập mã người giao nhận và số vận đơn chặng đường không.
+</item>
+</guide>

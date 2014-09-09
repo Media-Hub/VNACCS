@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_GOR" jobname="Registration of departure notification B" display-name="Air cancelled departure notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA1710.xml" item_attr_edit="False" />
+  <friday href="VAA1710.xml" revision="0000" />
+  <iteminfo>
+    <item id="AND" name="Departure notification number" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAD" name="Cancellation date" input_output="-" required="" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CAT" name="Cancellation time" input_output="-" required="" attribute="A" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IPN" name="Input user" input_output="-" required="" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IUN" name="Input user name" input_output="-" required="" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL1" name="Main departing flight number 1 (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL2" name="Main departing flight number 2 (date)" input_output="-" required="" attribute="A" figure="5" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARP" name="Departure airport" input_output="-" required="" attribute="A" figure="3" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARN" name="Departure airport name" input_output="-" required="" attribute="A" figure="20" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="ZSゴシック, 11pt" MinOccurs="1">
+      <label Location="333, 208" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <pagelabel Location="0, 0" Size="718, 21" Font="Tahoma, 12pt" Text="Air cancelled departure notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="dd/MM/yyyy" Location="231, 212" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="CAD" input_output="-" name="Cancellation date" order="2" required="" />
+      <prttextbox Format="" Location="231, 183" Size="117, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AND" input_output="-" name="Departure notification number" order="1" required="" />
+      <prttextbox Format="hh:mm" Location="348, 212" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="CAT" input_output="-" name="Cancellation time" order="3" required="" />
+      <label Location="26, 238" Size="75, 23" Font="Tahoma, 11pt" Text="Input user" />
+      <label Location="26, 180" Size="178, 23" Font="Tahoma, 11pt" Text="Departure notification No." />
+      <label Location="26, 208" Size="164, 23" Font="Tahoma, 11pt" Text="Cancellation date / time" />
+      <prttextbox Format="" Location="231, 264" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="IUN" input_output="-" name="Input user name" order="5" required="" />
+      <prttextbox Format="" Location="231, 241" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="IPN" input_output="-" name="Input user" order="4" required="" />
+      <prttextbox Format="" Location="231, 296" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="FL1" input_output="-" name="Main departing flight number 1 (flight number)" order="6" required="" />
+      <label Location="26, 292" Size="171, 23" Font="Tahoma, 11pt" Text="Main departing flight No." />
+      <prttextbox Format="" Location="310, 296" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="FL2" input_output="-" name="Main departing flight number 2 (date)" order="7" required="" />
+      <prttextbox Format="" Location="231, 324" Size="35, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="ARP" input_output="-" name="Departure airport" order="8" required="" />
+      <label Location="26, 320" Size="121, 23" Font="Tahoma, 11pt" Text="Departure airport" />
+      <label Location="296, 293" Size="11, 23" Font="Tahoma, 11pt" Text="/" />
+      <prttextbox Format="" Location="284, 325" Size="189, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="ARN" input_output="-" name="Departure airport name" order="9" required="" />
+      <label Location="269, 321" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+    </page>
+  </layout>
+</jobform>

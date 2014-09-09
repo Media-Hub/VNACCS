@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IAD" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Amendment declaration number" id="SYN">
+    <description>Chưa nhập "Số tờ khai bổ sung".
+
+</description>
+    <disposition>Nhập "Số tờ khai bổ sung".
+
+</disposition>
+  </response>
+  <response code="S0002" name="Amendment declaration number" id="SYN">
+    <description>"Số tờ khai bổ sung" đã nhập chưa được đăng ký vào hệ thống. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0900" name="Amendment declaration number" id="SYN">
+    <description>Không thể sử dụng (các) ký tự này. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Amendment declaration number" id="SYN">
+    <description>Người nhập không phải là người thực hiện nghiệp vụ AMA. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+</help>

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="EAW" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0002" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Flight No. 1 (flight number)" id="FL1">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 1.
+</disposition>
+  </response>
+  <response code="S0004" name="Flight No. 1 (flight number)" id="FL1">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 
+</disposition>
+  </response>
+  <response code="S0005" name="Flight No. 2 (date)" id="FL2">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 2.
+</disposition>
+  </response>
+  <response code="S0006" name="Flight No. 1 (flight number)" id="FL1">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 với định dạng hợp lệ
+</disposition>
+  </response>
+  <response code="S0007" name="Flight No. 2 (date)" id="FL2">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0008" name="Flight No. 1 (flight number)&#xA;Flight No. 2 (date)" id="FL1&#xA;FL2">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 và 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="S0009" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Hãy nhập Mã cảng dỡ hàng/Mã cảng xếp hàng lên tầu.
+</disposition>
+  </response>
+  <response code="S0010" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Mã cảng dỡ hàng/Mã cảng xếp hàng đã nhập không phải là cảng hàng không trong nước Việt Nam.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã cảng hàng không trong nước.
+</disposition>
+  </response>
+  <response code="S0012" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Mã cảng dỡ hàng/Mã cảng xếp hàng đã nhập không phải là cảng hàng không trong nước Việt Nam.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã cảng hàng không trong nước.
+</disposition>
+  </response>
+  <response code="S0013" name="Date of arrival/Date of departure" id="IDT">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát.
+</disposition>
+  </response>
+  <response code="S0014" name="Date of arrival/Date of departure" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Date of arrival/Date of departure" id="IDT">
+    <description>Ngày được nhập không nằm trong phạm vi quy định.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ngày trong phạm vi quy định.
+</disposition>
+  </response>
+  <response code="S0016" name="Date of arrival/Date of departure" id="IDT">
+    <description>Ngày được nhập không nằm trong phạm vi quy định.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ngày trong phạm vi quy định.
+</disposition>
+  </response>
+  <response code="S0017" name="Submission to Immigration Bureau" id="SIM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="S0018" name="Submission to Immigration Bureau" id="SIM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Submission to Quarantine station" id="SQU">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="S0020" name="Submission to Quarantine station" id="SQU">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Submission to Airport authority" id="SPO">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Nộp cho cảng vụ hàng không.
+</disposition>
+  </response>
+  <response code="S0022" name="Submission to Airport authority" id="SPO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Nộp cho cảng vụ hàng không với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0023" name="Remarks" id="NTE">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="Submission to Immigration Bureau" id="SIM">
+    <description>Bộ phận Xuất nhập cảnh của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cục quản lý nhập cảnh.
+</disposition>
+  </response>
+  <response code="R0002" name="Submission to Quarantine station" id="SQU">
+    <description>Bộ phận Kiểm dịch của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cơ quan kiểm dịch.
+</disposition>
+  </response>
+  <response code="R0003" name="Submission to Airport authority" id="SPO">
+    <description>Bộ phận Cảng vụ của cảng xếp/dỡ hàng này không nhận thông tin manifest</description>
+    <disposition>Kiểm tra nội dung nhập của Nộp cho cảng vụ hàng không và Mã người dùng của Cảng vụ hàng không.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Flight No. 1 (flight number)&#xA;Flight No. 2 (date)&#xA;Port of discharge code/Port of loading code" id="FL1&#xA;FL2&#xA;DPR">
+    <description>Thông tin Manifest chỉ định chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0003" name="Flight No. 1 (flight number)&#xA;Flight No. 2 (date)&#xA;Port of discharge code/Port of loading code" id="FL1&#xA;FL2&#xA;DPR">
+    <description>Thông tin Manifest chỉ định chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0004" name="Flight No. 1 (flight number)&#xA;Flight No. 2 (date)&#xA;Port of discharge code/Port of loading code" id="FL1&#xA;FL2&#xA;DPR">
+    <description>Thông tin Manifest chỉ định đã được gửi.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ này.
+</disposition>
+  </response>
+  <response code="W1000" name="None" id="0000">
+    <description>Sau khi hệ thống trả về "Hoàn tất", xử lý nội bộ vẫn tiếp tục thực hiện.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="L0001" name="Port of discharge code/Port of loading code" id="DPR">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0005" name="Submission to Immigration Bureau" id="SIM">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="Submission to Quarantine station" id="SQU">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0007" name="Submission to Airport authority" id="SPO">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0008" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

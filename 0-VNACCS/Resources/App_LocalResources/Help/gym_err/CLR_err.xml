@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="CLR" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần
+
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể xử lý nghiệp vụ do mã người sử dụng không hợp lệ.
+
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+
+</disposition>
+  </response>
+  <response code="S0001" name="Transship/Transit management No." id="CTP">
+    <description>Yêu cầu nhập liệu.
+
+</description>
+    <disposition>Nhập Số quản lí chuyển tải/quá cảnh.
+
+</disposition>
+  </response>
+  <response code="S0002" name="Transship/Transit management No." id="CTP">
+    <description>Định dạng nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập Số quản lí chuyển tải/quá cảnh với định dạng hợp lệ.
+
+</disposition>
+  </response>
+  <response code="S0003" name="Select containers/transport equipment" id="SCT">
+    <description>Yêu cầu nhập liệu.
+
+</description>
+    <disposition>Nhập Container/dụng cụ chuyên chở được chọn.
+
+</disposition>
+  </response>
+  <response code="S0004" name="Select containers/transport equipment" id="SCT">
+    <description>Định dạng nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập Container/dụng cụ chuyên chở được chọn với định dạng hợp lệ.
+
+</disposition>
+  </response>
+  <response code="S0005" name="Container No./Transport equipment No." id="CON">
+    <description>Định dạng nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập Số container/số hiệu dụng cụ chuyên chở với định dạng hợp lệ.
+
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống
+
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+
+</disposition>
+  </response>
+  <response code="E0002" name="Transship/Transit management No." id="CTP">
+    <description>Thông tin chuyển tải/quá cảnh đã nhập chưa được đăng ký trong hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lý chuyển tải/quá cảnh.
+
+</disposition>
+  </response>
+  <response code="E0003" name="Transship/Transit management No." id="CTP">
+    <description>Thông tin chuyển tải/quá cảnh đã nhập chưa được đăng ký trong hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lý chuyển tải/quá cảnh.
+
+</disposition>
+  </response>
+  <response code="E0004" name="Transship/Transit management No." id="CTP">
+    <description>Thông tin xếp hàng của thông tin chuyển tải/quá cảnh đã nhập đã được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lý chuyển tải/quá cảnh.
+
+</disposition>
+  </response>
+  <response code="E0005" name="Container No./Transport equipment No." id="CON">
+    <description>Thông tin xếp hàng của Số container/số hiệu dụng cụ chuyên chở đã nhập đã được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số container/số hiệu dụng cụ chuyên chở.
+
+</disposition>
+  </response>
+  <response code="E0006" name="Container No./Transport equipment No." id="CON">
+    <description>Số container/số hiệu dụng cụ chuyên chở đã nhập chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số container/số hiệu dụng cụ chuyên chở.
+
+</disposition>
+  </response>
+  <response code="E0007" name="Select containers/transport equipment" id="SCT">
+    <description>Yêu cầu chỉ định tối thiểu 1 container cho Thông tin chất hàng.
+
+</description>
+    <disposition>Kiểm tra nội dung nhập của Container/dụng cụ chuyên chở được chọn, và Số container/số hiệu dụng cụ chuyên chở.
+
+</disposition>
+  </response>
+  <response code="E0008" name="Transship/Transit management No." id="CTP">
+    <description>Thông tin xếp  hàng của thông tin chuyển tải/quá cảnh đã nhập đã được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số quản lý chuyển tải/quá cảnh.
+
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+
+</disposition>
+  </response>
+  <response code="W0002" name="None" id="0000">
+    <description>Không tìm thấy mã Cơ quan hải quan nơi nhận thông báo chuyển tải/quá cảnh.
+
+</description>
+    <disposition>Thông tin xuất ra chưa được gửi cho cơ quan Hải quan. Vui lòng liên hệ với các bên liên quan.
+
+</disposition>
+  </response>
+</help>

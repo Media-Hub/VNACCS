@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SMA" name="Application for Permission for importation of medicine product">
+  <item no="1" name="Submitter code" id="SMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="2" name="OGA Application No." id="APN" required="" code="">Số đơn xin cấp phép là số được hệ thống cấp để xác định cho một đơn xin cấp phép</item>
+  <item no="3" name="Function code" id="FNC" required="" code="Function code list">Sẽ nhận một trong những giá trị sau:
+1 : Đăng ký
+2 : Sửa đổi
+3 : Hủy bỏ</item>
+  <item no="4" name="Permit type" id="APT" required="" code="Permit type">
+  </item>
+  <item no="5" name="Office of application code" id="APP" required="" code="OGA's Office Code">
+  </item>
+  <item no="6" name="Importer code" id="IMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="7" name="Importer name" id="IMN" required="" code="">Nhập "Tên doanh nghiệp nhập khẩu" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="8" name="Importer address (Post code)" id="IPC" required="" code="">
+  </item>
+  <item no="9" name="Importer address (Building name etc. …)" id="IMA" required="" code="">Nhập "Địa chỉ của doanh nghiệp nhập khẩu (Số nhà, tên đường)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="10" name="Importer address (Country code)" id="ICC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="11" name="Importer address (Phone number)" id="IPN" required="" code="">Nhập "Địa chỉ của doanh nghiệp nhập khẩu (Số điện thoại)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="12" name="Importer address (Facsimile)" id="IMF" required="" code="">
+  </item>
+  <item no="13" name="Importer address (Email)" id="IME" required="" code="">
+  </item>
+  <item no="14" name="FSC No." id="FSC" required="" code="">
+  </item>
+  <item no="15" name="GMP/CPP No." id="GMP" required="" code="">
+  </item>
+  <item no="16" name="Estimated port of importation code" id="EPC" required="" code="UN/LOCODEUN/LOCODE(3 digits without 2 digits of country code)&#xA;Station code&#xA;Border gate code">Kiểm tra cơ sở dữ liệu theo thứ tự sau:
+1. UN/LOCODEUN/LOCODE(3 chữ số không có 2 chữ số mã nước)
+2. Mã nhà ga
+3. Mã cửa khẩu</item>
+  <item no="17" name="Estimated port of importation name" id="EPN" required="" code="">Nhập "Tên cửa khẩu nhập dự kiến " (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="18" name="Enclosed documents" id="AD" required="" code="">
+  </item>
+  <item no="19" name="Remarks" id="RMK" required="" code="">
+  </item>
+  <item no="20" name="Stock until date" id="SUD" required="" code="">
+  </item>
+  <item no="21" name="Person in charge name" id="PIC" required="" code="">
+  </item>
+  <item no="22" name="Medicine description (Name, Medicine content, Type of pharmacy, Packing method)" id="MDC" required="" code="">
+  </item>
+  <item no="23" name="HS code" id="HSC" required="" code="HS code">
+  </item>
+  <item no="24" name="Active element" id="AET" required="" code="">
+  </item>
+  <item no="25" name="Quality standard" id="QST" required="" code="">
+  </item>
+  <item no="26" name="Registration No." id="RGN" required="" code="">
+  </item>
+  <item no="27" name="Expiry date of medicine" id="EOM" required="" code="">
+  </item>
+  <item no="28" name="Quantity" id="QT" required="" code="">Không thể nhập bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="29" name="Quantity unit" id="QTU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="30" name="Active element cause addiction" id="QEA" required="" code="">
+  </item>
+  <item no="31" name="Effective" id="EFE" required="" code="">
+  </item>
+  <item no="32" name="Total weight" id="TW" required="" code="">Có thể nhập tới 6 chữ số cho phần nguyên và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="33" name="Total weight unit" id="TWU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+  <item no="34" name="Import price (VND)" id="IMP" required="" code="">
+  </item>
+  <item no="35" name="Sell wholesale price (VND)" id="SWP" required="" code="">
+  </item>
+  <item no="36" name="Estimated selling price (VND)" id="ESP" required="" code="">
+  </item>
+  <item no="37" name="Exporter name" id="EFN" required="" code="">
+  </item>
+  <item no="38" name="Exporter address (Post code)" id="EXC" required="" code="">
+  </item>
+  <item no="39" name="Exporter address (Building name etc. …)" id="EFA" required="" code="">
+  </item>
+  <item no="40" name="Exporter address (Street and number/P.O.Box)" id="EFS" required="" code="">
+  </item>
+  <item no="41" name="Exporter address (District/Commune name)" id="EFD" required="" code="">
+  </item>
+  <item no="42" name="Exporter address (City name)" id="EFC" required="" code="">
+  </item>
+  <item no="43" name="Exporter address (Country code)" id="ECC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="44" name="Manufacturer name" id="MFN" required="" code="">
+  </item>
+  <item no="45" name="Manufacturer address (Post code)" id="MPC" required="" code="">
+  </item>
+  <item no="46" name="Manufacturer address (Building name etc. …)" id="MFA" required="" code="">
+  </item>
+  <item no="47" name="Manufacturer address (Street and number/P.O.Box)" id="MFS" required="" code="">
+  </item>
+  <item no="48" name="Manufacturer address (District/Commune name)" id="MFD" required="" code="">
+  </item>
+  <item no="49" name="Manufacturer address (City name)" id="MFC" required="" code="">
+  </item>
+  <item no="50" name="Manufacturer address (Country code)" id="MCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="51" name="Distributor name" id="DBN" required="" code="">
+  </item>
+  <item no="52" name="Distributor address (Post code)" id="DPC" required="" code="">
+  </item>
+  <item no="53" name="Distributor address (Building name etc. …)" id="DAB" required="" code="">
+  </item>
+  <item no="54" name="Distributor address (Street and number/P.O.Box)" id="DAS" required="" code="">
+  </item>
+  <item no="55" name="Distributor address (District/Commune name)" id="DAD" required="" code="">
+  </item>
+  <item no="56" name="Distributor address (City name)" id="DAN" required="" code="">
+  </item>
+  <item no="57" name="Distributor address (Country code)" id="DCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="58" name="Trust party name" id="TPN" required="" code="">Trong trường hợp thành phần dữ liệu này là trống, thì "KINH DOANH TRUC TIEP" sẽ được đưa ra.</item>
+  <item no="59" name="Trust party (Post code)" id="PPC" required="" code="">
+  </item>
+  <item no="60" name="Trust party (Building name etc. …)" id="TPB" required="" code="">
+  </item>
+  <item no="61" name="Trust party (Street and number/P.O.Box)" id="TPS" required="" code="">
+  </item>
+  <item no="62" name="Trust party (District/Commune name)" id="TPD" required="" code="">
+  </item>
+  <item no="63" name="Trust party (City name)" id="TPC" required="" code="">
+  </item>
+  <item no="64" name="Trust party (Country code)" id="TCC" required="" code="">
+  </item>
+  <item no="65" name="Quantity/amount in stock (Last year)" id="QS" required="" code="">Không thể nhập bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="66" name="Quantity/amount in stock unit" id="QSU" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)">
+  </item>
+  <item no="67" name="Quantity/amount imported (in this year)" id="QI" required="" code="">Không thể nhập bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="68" name="Total quantity/amount" id="TQ" required="" code="">Không thể nhập bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="69" name="Total exported (in this year)" id="TE" required="" code="">Không thể nhập bất kỳ chữ số nào sau dấu thập phân.</item>
+  <item no="70" name="Quantity/amount in stock" id="ISD" required="" code="">
+  </item>
+  <item no="71" name="Damaged" id="DMD" required="" code="">
+  </item>
+  <item no="72" name="Remarks (for detail)" id="REM" required="" code="">
+  </item>
+</guide>

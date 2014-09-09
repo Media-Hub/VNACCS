@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VIT" jobname="入港届等B" display-name="Sea cancelled arrival notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA0310.xml" item_attr_edit="False" />
+  <friday href="VAA0310.xml" revision="0000" />
+  <iteminfo>
+    <item id="INN" name="Arrival notification number(到着届番号)" input_output="-" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTN" name="Cancellation date(取消年月日)" input_output="-" required="C" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTJ" name="Cancellation time(取消時刻)" input_output="-" required="C" attribute="A" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NCD" name="Input user code(入力者コード)" input_output="-" required="C" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NRM" name="Input user name(入力者名)" input_output="-" required="C" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VEC" name="Vessel call sign(船舶コード)" input_output="-" required="C" attribute="A" figure="9" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VNA" name="Vessel name(船舶名)" input_output="-" required="C" attribute="A" figure="35" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMC" name="Arrival port code(到着港コード)" input_output="-" required="C" attribute="A" figure="5" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NMN" name="Arrival port name(到着港名)" input_output="-" required="C" attribute="A" figure="20" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="ZSゴシック, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 23" Font="Tahoma, 12pt" Text="Sea cancelled arrival notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="214, 183" Size="117, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number(到着届番号)" order="1" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="214, 211" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="TTN" input_output="-" name="Cancellation date(取消年月日)" order="2" required="C" />
+      <label Location="44, 180" Size="153, 23" Font="Tahoma, 11pt" Text="Arrival notification No." />
+      <label Location="44, 208" Size="164, 23" Font="Tahoma, 11pt" Text="Cancellation date / time" />
+      <prttextbox Format="" Location="214, 241" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="NCD" input_output="-" name="Input user code(入力者コード)" order="4" required="C" />
+      <prttextbox Format="hh:mm" Location="332, 211" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TTJ" input_output="-" name="Cancellation time(取消時刻)" order="3" required="C" />
+      <label Location="316, 208" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="44, 238" Size="75, 23" Font="Tahoma, 11pt" Text="Input user" />
+      <prttextbox Format="" Location="214, 264" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="NRM" input_output="-" name="Input user name(入力者名)" order="5" required="C" />
+      <prttextbox Format="" Location="320, 295" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="VNA" input_output="-" name="Vessel name(船舶名)" order="7" required="C" />
+      <prttextbox Format="" Location="214, 323" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="NMC" input_output="-" name="Arrival port code(到着港コード)" order="8" required="C" />
+      <prttextbox Format="" Location="214, 295" Size="89, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="VEC" input_output="-" name="Vessel call sign(船舶コード)" order="6" required="C" />
+      <label Location="44, 292" Size="47, 23" Font="Tahoma, 11pt" Text="Vessel" />
+      <label Location="44, 320" Size="79, 23" Font="Tahoma, 11pt" Text="Arrival port" />
+      <label Location="305, 292" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="270, 320" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="287, 324" Size="193, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="NMN" input_output="-" name="Arrival port name(到着港名)" order="9" required="C" />
+    </page>
+  </layout>
+</jobform>

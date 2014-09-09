@@ -1,0 +1,200 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C25DFA40-9897-47FA-A525-7528C5BE7724}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevComponents.DotNetBar.Schedule</RootNamespace>
+    <AssemblyName>DevComponents.DotNetBar.Schedule</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Core2Duo_bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;FRAMEWORK20</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;FRAMEWORK20</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\DevComponents.DotNetBar.Schedule.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTrialSchedule|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>FRAMEWORK20;TRIAL</DefineConstants>
+    <DocumentationFile>bin\Release\DevComponents.DotNetBar.Schedule.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppointmentView\AppointmentHView.cs">
+    </Compile>
+    <Compile Include="AppointmentView\AppointmentMonthView.cs">
+    </Compile>
+    <Compile Include="AppointmentView\AppointmentTimeLineView.cs">
+    </Compile>
+    <Compile Include="AppointmentView\AppointmentView.cs">
+    </Compile>
+    <Compile Include="AppointmentView\AppointmentWeekDayView.cs">
+    </Compile>
+    <Compile Include="BaseView.cs">
+    </Compile>
+    <Compile Include="CalendarItem.cs">
+    </Compile>
+    <Compile Include="CalendarView\CalendarPanel.cs">
+    </Compile>
+    <Compile Include="CalendarView\CalendarView.cs">
+    </Compile>
+    <Compile Include="CalendarView\CalendarViewCollection.cs" />
+    <Compile Include="CalendarView\DisplayedOwnerCollection.cs" />
+    <Compile Include="CalendarView\ViewDisplayCustomizations.cs" />
+    <Compile Include="Color\AppointmentCategoryColor.cs" />
+    <Compile Include="Color\AppointmentCategoryColorCollection.cs" />
+    <Compile Include="Color\AppointmentColor.cs" />
+    <Compile Include="Color\CalendarColor.cs" />
+    <Compile Include="Color\CalendarMonthColor.cs" />
+    <Compile Include="Color\CalendarViewColor.cs" />
+    <Compile Include="Color\CalendarWeekDayColor.cs" />
+    <Compile Include="Color\TimeRulerColor.cs" />
+    <Compile Include="CustomCalendarItem.cs">
+    </Compile>
+    <Compile Include="CustomCalendarItemCollection.cs" />
+    <Compile Include="DateHelper.cs" />
+    <Compile Include="DateNavigator.cs">
+    </Compile>
+    <Compile Include="DateNavigator.Designer.cs">
+      <DependentUpon>DateNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DaysOfTheWeek.cs" />
+    <Compile Include="ItemRect.cs" />
+    <Compile Include="ModelViewConnector.cs" />
+    <Compile Include="Model\Appointment.cs" />
+    <Compile Include="Model\AppointmentCollection.cs" />
+    <Compile Include="Model\AppointmentRecurrence.cs" />
+    <Compile Include="Model\AppointmentSubsetCollection.cs" />
+    <Compile Include="Model\BaseWorkDay.cs" />
+    <Compile Include="Model\CalendarModel.cs" />
+    <Compile Include="Model\CalendarWorkDay.cs" />
+    <Compile Include="Model\CalendarWorkDayCollection.cs" />
+    <Compile Include="Model\DailyRecurrenceSettings.cs" />
+    <Compile Include="Model\DateTimeHelper.cs" />
+    <Compile Include="Model\Day.cs" />
+    <Compile Include="Model\Enums.cs" />
+    <Compile Include="Model\HolidaysCollection.cs" />
+    <Compile Include="Model\ImportExport\CalendarEntry.cs" />
+    <Compile Include="Model\ImportExport\ICS\IcsExporter.cs" />
+    <Compile Include="Model\ImportExport\ICS\IcsImporter.cs" />
+    <Compile Include="Model\INotifySubPropertyChanged.cs" />
+    <Compile Include="Model\Month.cs" />
+    <Compile Include="Model\MonthlyRecurrenceSettings.cs" />
+    <Compile Include="Model\NotificationRequest.cs" />
+    <Compile Include="Model\NotificationServer.cs" />
+    <Compile Include="Model\NotificationServerEventArgs.cs" />
+    <Compile Include="Model\Owner.cs" />
+    <Compile Include="Model\OwnerCollection.cs" />
+    <Compile Include="Model\Primitives\CustomCollectionBase.cs" />
+    <Compile Include="Model\RecurrenceGenerator.cs" />
+    <Compile Include="Model\Reminder.cs" />
+    <Compile Include="Model\ReminderCollection.cs" />
+    <Compile Include="Model\WeeklyRecurrenceSettings.cs" />
+    <Compile Include="Model\WorkDay.cs" />
+    <Compile Include="Model\WorkDayCollection.cs" />
+    <Compile Include="Model\WorkTime.cs" />
+    <Compile Include="Model\Year.cs" />
+    <Compile Include="Model\YearlyRecurrenceSettings.cs" />
+    <Compile Include="MonthView\ModelMonthViewConnector.cs" />
+    <Compile Include="MonthView\MonthView.cs">
+    </Compile>
+    <Compile Include="MonthView\MonthWeek.cs" />
+    <Compile Include="NativeFunctions.cs" />
+    <Compile Include="PosWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PosWin.Designer.cs">
+      <DependentUpon>PosWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleSettings.cs" />
+    <Compile Include="TimeIndicator\TimeIndicator.cs" />
+    <Compile Include="TimeIndicator\TimeIndicatorCollection.cs" />
+    <Compile Include="TimeLineView\DayInfo.cs" />
+    <Compile Include="TimeLineView\ModelTimeLineViewConnector.cs" />
+    <Compile Include="TimeLineView\TimeLineHeaderPanel.cs">
+    </Compile>
+    <Compile Include="TimeLineView\TimeLineHScrollPanel.cs">
+    </Compile>
+    <Compile Include="TimeLineView\TimeLineView.cs">
+    </Compile>
+    <Compile Include="TimeLineView\TimeLineVScrollPanel.cs">
+    </Compile>
+    <Compile Include="VScrollPanel.cs">
+    </Compile>
+    <Compile Include="WeekView\AllDayPanel.cs">
+    </Compile>
+    <Compile Include="WeekView\ColumnList.cs" />
+    <Compile Include="WeekView\DayColumn.cs" />
+    <Compile Include="WeekView\DayView.cs">
+    </Compile>
+    <Compile Include="WeekView\ModelWeekDayViewConnector.cs" />
+    <Compile Include="WeekView\TimeRulerPanel.cs">
+    </Compile>
+    <Compile Include="WeekView\WeekDayView.cs">
+    </Compile>
+    <Compile Include="WeekView\WeekDayVScrollPanel.cs">
+    </Compile>
+    <Compile Include="WeekView\WeekView.cs">
+    </Compile>
+    <Compile Include="WinApi.cs" />
+    <Compile Include="YearView\ModelYearViewConnector.cs" />
+    <Compile Include="YearView\YearMonth.cs" />
+    <Compile Include="YearView\YearView.cs">
+    </Compile>
+    <Compile Include="YearView\YearViewVScrollPanel.cs">
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalendarView.ico" />
+    <EmbeddedResource Include="DateNavigator.resx">
+      <DependentUpon>DateNavigator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DateNavigator.ico" />
+    <EmbeddedResource Include="PosWin.resx">
+      <DependentUpon>PosWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetBarBuild.csproj">
+      <Project>{36546CE3-335C-4AB6-A2F3-40F8C818BC66}</Project>
+      <Name>DotNetBarBuild</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

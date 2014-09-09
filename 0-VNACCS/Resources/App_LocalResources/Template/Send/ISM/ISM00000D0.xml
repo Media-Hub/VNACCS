@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_ISM" jobname="CAM38_ISM" display-name="ISM Reference of Application/Permit for importation of medicine product">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM38_ISM.xml" item_attr_edit="False" />
+  <friday href="CAM38_ISM.xml" revision="0000" />
+  <iteminfo>
+    <item id="APN" name="OGA Application No./Permit/license No." input_output="+" required="M" attribute="A" figure="20" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBN" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue="A,&#xD;&#xA;B," out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="202, 19" Location="141, 50" Text="Số đơn xin cấp phép/Số giấy phép *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="153, 21" Location="358, 49" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="OGA Application No./Permit/license No." check_attribute="*" attribute="A" id="APN" figure="20" required="M" />
+    <label Size="108, 19" Location="141, 79" Text="Phân loại tra cứu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="49" TabIndex="2" Size="35, 22" Location="358, 78" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,&#xD;&#xA;B,&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+  </layout>
+</jobform>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM83_IHY" jobname="Reference of application attached by electronic file" display-name="Reference information of general application B">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL0120.xml" item_attr_edit="False" />
+  <friday href="VAL0120.xml" revision="0000" />
+  <iteminfo>
+    <item id="JNO" name="Declaration No" input_output="-" required="" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TSB" name="Application procedure type " input_output="-" required="" attribute="A" figure="3" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TNM" name="Application procedure name" input_output="-" required="" attribute="W" figure="210" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CH" name="Customs Office" input_output="-" required="" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CHB" name="Customs Sub-section" input_output="-" required="" attribute="A" figure="2" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="YMD" name="Application date" input_output="-" required="" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TST" name="Application status" input_output="-" required="" attribute="A" figure="30" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NDT" name="Latest update date" input_output="-" required="" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SNM" name="Applicant name" input_output="-" required="" attribute="W" figure="300" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SAD" name="Applicant address" input_output="-" required="" attribute="W" figure="300" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="STL" name="Applicant telephone number" input_output="-" required="" attribute="A" figure="20" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REF" name="Enterprise internal control number" input_output="-" required="" attribute="A" figure="20" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KIJ" name="Remark " input_output="-" required="" attribute="W" figure="996" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JDJ" name="Inspection completion date" input_output="-" required="" attribute="A" figure="8" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ZTS" name="Remarks&#xD;&#xA;(Customs)" input_output="-" required="" attribute="W" figure="996" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <label Size="59, 19" Location="48, 25" Text="Số tờ khai" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="215, 24" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Declaration No" check_attribute="*" attribute="A" id="JNO" figure="12" required="" />
+    <label Size="147, 19" Location="48, 65" Text="Phân loại thủ tục khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="34, 21" Location="215, 64" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Application procedure type " check_attribute="*" attribute="A" id="TSB" figure="3" required="" />
+    <label Size="9, 19" Location="254, 65" Text="-" Font="Tahoma, 9pt" />
+    <textbox TabIndex="5" Multiline="True" Size="433, 36" Location="270, 64" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Application procedure name" check_attribute="*" attribute="W" id="TNM" figure="210" required="" />
+    <label Size="102, 19" Location="48, 107" Text="Cơ quan Hải quan" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="55, 21" Location="215, 106" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Customs Office" check_attribute="*" attribute="A" id="CH" figure="6" required="" />
+    <label Size="82, 19" Location="48, 134" Text="Ngày khai báo" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="9" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="215, 133" BackColor="Control" Font="Courier New, 9pt" form="" order="7" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Application date" check_attribute="*" attribute="A" id="YMD" figure="8" AutoComplete="False" required="" />
+    <label Size="111, 19" Location="48, 161" Text="Trạng thái khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Size="223, 21" Location="215, 160" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Application status" check_attribute="*" attribute="A" id="TST" figure="30" required="" />
+    <label Size="112, 19" Location="444, 161" Text="Ngày sửa cuối cùng" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="13" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="567, 160" BackColor="Control" Font="Courier New, 9pt" form="" order="9" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Latest update date" check_attribute="*" attribute="A" id="NDT" figure="8" AutoComplete="False" required="" />
+    <label Size="110, 19" Location="48, 188" Text="Tên người khai báo" Font="Tahoma, 9pt" />
+    <textbox TabIndex="15" Multiline="True" Size="433, 36" Location="215, 187" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Applicant name" check_attribute="*" attribute="W" id="SNM" figure="300" required="" />
+    <label Size="127, 19" Location="48, 230" Text="Địa chỉ người khai báo" Font="Tahoma, 9pt" />
+    <textbox TabIndex="17" Multiline="True" Size="433, 36" Location="215, 229" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Applicant address" check_attribute="*" attribute="W" id="SAD" figure="300" required="" />
+    <label Size="161, 19" Location="48, 272" Text="Số điện thoại người khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="19" Size="153, 21" Location="215, 271" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Applicant telephone number" check_attribute="*" attribute="A" id="STL" figure="20" required="" />
+    <label Size="211, 19" Location="48, 299" Text="Số quản lý trong nội bộ doanh nghiệp" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="23" Size="153, 21" Location="274, 298" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="Enterprise internal control number" check_attribute="*" attribute="A" id="REF" figure="20" required="" />
+    <label Size="46, 19" Location="48, 326" Text="Ghi chú" Font="Tahoma, 9pt" />
+    <textbox TabIndex="25" Multiline="True" Size="433, 96" Location="215, 325" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Remark " check_attribute="*" attribute="W" id="KIJ" figure="996" required="" />
+    <label Size="181, 19" Location="48, 428" Text="Ngày hoàn thành kiếm tra hồ sơ" Font="Tahoma, 9pt" />
+    <label Size="63, 34" Location="48, 455" Text="Ghi chú&#xD;&#xA;(Hải quan)" Font="Tahoma, 9pt" />
+    <textbox TabIndex="29" Multiline="True" Size="433, 96" Location="215, 454" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Remarks&#xD;&#xA;(Customs)" check_attribute="*" attribute="W" id="ZTS" figure="996" required="" />
+    <label Size="105, 19" Location="385, 107" Text="Nhóm xử lý hồ sơ " Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="31" Size="27, 21" Location="496, 106" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Customs Sub-section" check_attribute="*" attribute="A" id="CHB" figure="2" required="" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="33" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="274, 427" BackColor="Control" Font="Courier New, 9pt" form="" order="15" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Inspection completion date" check_attribute="*" attribute="A" id="JDJ" figure="8" AutoComplete="False" required="" />
+  </layout>
+</jobform>

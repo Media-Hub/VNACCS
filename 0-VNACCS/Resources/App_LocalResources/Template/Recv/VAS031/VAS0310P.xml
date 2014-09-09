@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_DRM" jobname="Manifest submission C" display-name="Rail manifest information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0310.xml" item_attr_edit="False" />
+  <friday href="VAS0310.xml" revision="0000" />
+  <iteminfo>
+    <item id="A00" name="Reference No." input_output="-" required="" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A01" name="Import/Export indication" input_output="-" required="" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Carrier code" input_output="-" required="" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Carrier name" input_output="-" required="" attribute="A" figure="70" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Train registry No." input_output="-" required="" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Arrival station code/Departure station code" input_output="-" required="" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Date of arrival/Date of departure" input_output="-" required="" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Submitter code" input_output="-" required="" attribute="A" figure="5" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Submitter name" input_output="" required="" attribute="A" figure="50" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Remarks" input_output="-" required="" attribute="A" figure="140" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 30" Font="Tahoma, 11pt" Text="Thông tin manifest đường sắt" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="517, 46" Size="17, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A01" input_output="-" name="Import/Export indication" order="2" required="" />
+      <label Location="351, 42" Size="160, 23" Font="Tahoma, 11pt" Text="Nhập khẩu / Xuất khẩu" />
+      <prttextbox Format="" Location="212, 132" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="A04" input_output="-" name="Train registry No." order="5" required="" />
+      <label Location="17, 128" Size="119, 23" Font="Tahoma, 11pt" Text="Số hiệu đoàn tàu" />
+      <prttextbox Format="" Location="212, 155" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A06" input_output="-" name="Arrival station code/Departure station code" order="6" required="" />
+      <label Location="17, 151" Size="124, 23" Font="Tahoma, 11pt" Text="Mã ga đến / ga đi" />
+      <prttextbox Format="dd/MM/yyyy" Location="212, 178" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A09" input_output="-" name="Date of arrival/Date of departure" order="7" required="" />
+      <label Location="17, 174" Size="96, 23" Font="Tahoma, 11pt" Text="Ngày đến / đi" />
+      <prttextbox Format="" Location="212, 201" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A10" input_output="-" name="Submitter code" order="8" required="" />
+      <label Location="17, 197" Size="75, 23" Font="Tahoma, 11pt" Text="Người nộp" />
+      <prttextbox Format="" Location="212, 222" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A11" input_output="" name="Submitter name" order="9" required="" />
+      <prttextbox Format="" Multiline="True" Location="212, 247" Size="323, 68" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="140" form="" id="A12" input_output="-" name="Remarks" order="10" required="" />
+      <label Location="17, 243" Size="56, 23" Font="Tahoma, 11pt" Text="Ghi chú" />
+      <label Location="17, 42" Size="101, 23" Font="Tahoma, 11pt" Text="Số tham chiếu" />
+      <prttextbox Format="" Location="212, 46" Size="119, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="A00" input_output="-" name="Reference No." order="1" required="" />
+      <label Location="17, 65" Size="135, 23" Font="Tahoma, 11pt" Text="Mã nhà vận chuyển" />
+      <prttextbox Format="" Location="212, 69" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Carrier code" order="3" required="" />
+      <prttextbox Format="" Multiline="True" Location="212, 92" Size="323, 34" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="A03" input_output="-" name="Carrier name" order="4" required="" />
+    </page>
+  </layout>
+</jobform>

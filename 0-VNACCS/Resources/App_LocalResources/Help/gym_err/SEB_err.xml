@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="SEB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Thông tin này đã được người sử dụng khác đăng ký.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0101" name="OGA Application No." id="APN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0900" name="OGA Application No." id="APN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="OGA Application No." id="APN">
+    <description>Số đơn xin cấp phép không tồn tại trong cơ sở dữ liệu đơn xin cấp phép.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="E0003" name="OGA Application No." id="APN">
+    <description>Không thể tham chiếu vì khai báo này đã được xử lý.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+</help>

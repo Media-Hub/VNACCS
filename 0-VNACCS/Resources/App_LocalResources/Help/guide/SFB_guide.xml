@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SFB" name="Application for Certificate on satisfaction of food's quality for importation (Call up)">
+  <item no="1" name="OGA Application No." id="APN" required="" code="">
+  </item>
+</guide>

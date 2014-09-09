@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_SEA" jobname="CAM38_SEA" display-name="Receipt of application for Permission to export/import industrial explosives">
+  <meta_info format_Version="1.0" revision="0000" friday="VAHP010.xml" item_attr_edit="False" />
+  <friday href="VAHP010.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Submitter code" input_output="-" required="" attribute="A" figure="13" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Submitter name" input_output="-" required="" attribute="W" figure="300" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="OGA Application No." input_output="-" required="" attribute="I" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Function code" input_output="-" required="" attribute="I" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Permit type" input_output="-" required="" attribute="A" figure="4" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Import/Export classification" input_output="-" required="" attribute="A" figure="1" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Date of submission" input_output="-" required="" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Office of application code" input_output="-" required="" attribute="A" figure="6" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Office of application name" input_output="-" required="" attribute="W" figure="300" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Importer/Exporter code " input_output="-" required="" attribute="A" figure="13" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Importer/Exporter name" input_output="-" required="" attribute="W" figure="300" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A13" name="Established decision No." input_output="-" required="" attribute="A" figure="17" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A14" name="Business registration certificate No." input_output="-" required="" attribute="A" figure="17" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A15" name="Issued place" input_output="-" required="" attribute="A" figure="35" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A16" name="Issued date" input_output="-" required="" attribute="A" figure="8" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A18" name="Business address (Post code)" input_output="-" required="" attribute="A" figure="7" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Business address (Building name etc. ...)" input_output="-" required="" attribute="W" figure="300" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A17" name="Business address (Country code)" input_output="-" required="" attribute="A" figure="2" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A19" name="Business address (Phone number)" input_output="-" required="" attribute="A" figure="20" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A20" name="Business address (Facsimile)" input_output="-" required="" attribute="A" figure="20" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A21" name="Business address (Email)" input_output="-" required="" attribute="W" figure="210" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A22" name="Purchase contract No." input_output="-" required="" attribute="A" figure="17" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A23" name="Purchase contract date" input_output="-" required="" attribute="A" figure="8" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A24" name="Sales contract No." input_output="-" required="" attribute="A" figure="17" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A25" name="Sales contract date" input_output="-" required="" attribute="A" figure="8" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A26" name="Means of transport type" input_output="-" required="" attribute="A" figure="2" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="MTN" name="Means of transport name" input_output="-" required="" attribute="W" figure="75" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B05" name="Port of importation/exportation code" input_output="-" required="" attribute="A" figure="6" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B06" name="Port of importation/exportation name" input_output="-" required="" attribute="A" figure="35" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A27" name="Estimate start date of importation/exportation" input_output="-" required="" attribute="A" figure="8" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A28" name="Estimate end date of importation/exportation" input_output="-" required="" attribute="A" figure="8" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AD" name="Enclosed documents" input_output="-" required="" attribute="W" figure="750" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A30" name="Remarks" input_output="-" required="" attribute="W" figure="996" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A29" name="Person in charge name" input_output="-" required="" attribute="W" figure="300" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="50">
+      <item id="B01" name="Goods description" input_output="-" required="" attribute="W" figure="768" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B02" name="HS code" input_output="-" required="" attribute="A" figure="12" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B03" name="Gross weight/volume" input_output="-" required="" attribute="F" figure="10" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B04" name="Gross weight/volume unit" input_output="-" required="" attribute="A" figure="3" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <label Location="33, 607" Size="211, 19" Font="Tahoma, 9pt" Text="bao gồm các nội dung chính như sau:" />
+      <label Location="33, 503" Size="267, 19" Font="Tahoma, 9pt" Text="nhập khẩu vật liệu nổ công nghiệp của Công ty:" />
+      <label Location="33, 461" Size="373, 19" Font="Tahoma, 9pt" Text="vật liệu nổ công nghiệp và nhập khẩu Nitrat Amôn hàm lượng cao; " />
+      <label Location="437, 920" Size="121, 19" Font="Tahoma, 9pt" Text="(Ký tên và đóng dấu)" />
+      <label Location="213, 881" Size="248, 19" Font="Tahoma, 9pt" Text="(Có hồ sơ và danh sách hàng hóa kèm theo)" />
+      <label Location="38, 863" Size="651, 19" Font="Tahoma, 9pt" Text="Doanh nghiệp cam kết thực hiện đầy đủ các quy định hiện hành của Nhà nước về kinh doanh vật liệu nổ công nghiệp." />
+      <label Location="50, 557" Size="425, 19" Font="Tahoma, 9pt" Text="Đề nghị Bộ Công nghiệp xét cấp Giấy phép xuất khẩu hàng hóa của Công ty:" />
+      <label Location="50, 482" Size="638, 19" Font="Tahoma, 9pt" Text="Căn cứ Quyết định số ....../QĐ-BCN ngày....tháng....năm 2006 của Bộ Công nghiệp phê duyệt hạn ngạch xuất khẩu," />
+      <label Location="50, 442" Size="662, 19" Font="Tahoma, 9pt" Text="Căn cứ Thông tư số ....../2006/TT-BCN ngày....tháng....năm 2006 của Bộ Công nghiệp hướng dẫn xuất khẩu, nhập khẩu" />
+      <label Location="74, 340" Size="83, 19" Font="Tahoma, 9pt" Text="Mã bưu chính:" />
+      <label Location="74, 279" Size="29, 19" Font="Tahoma, 9pt" Text="Tên:" />
+      <label Location="74, 259" Size="25, 19" Font="Tahoma, 9pt" Text="Mã:" />
+      <label Location="75, 387" Size="75, 19" Font="Tahoma, 9pt" Text="Mã quốc gia:" />
+      <label Location="68, 201" Size="54, 19" Font="Tahoma, 9pt" Text="Kính gửi:" />
+      <line LineStyle="Center, Black, Solid, 1" Location="497, 75" Size="120, 0" />
+      <label Location="478, 52" Size="178, 19" Font="Tahoma, 9pt, style=Bold" Text="Độc lập - Tự do - Hạnh phúc" />
+      <label Location="436, 29" Size="264, 19" Font="Tahoma, 9pt, style=Bold" Text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" />
+      <label Location="33, 27" Size="60, 19" Font="Tahoma, 9pt" Text="CÔNG TY:" />
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="1, 177" Size="718, 17" Font="Tahoma, 11pt, style=Bold" Text="ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP XUẤT NHẬP KHẨU VẬT LIỆU NỔ CÔNG NGHIỆP" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="AAAAAAAAAA-AAA" Location="94, 29" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A01" input_output="-" name="Submitter code" order="1" required="" />
+      <label Location="50, 238" Size="174, 19" Font="Tahoma, 9pt" Text="Doanh nghiệp xuất nhập khẩu:" />
+      <prttextbox Format="" Multiline="True" Location="33, 43" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A02" input_output="-" name="Submitter name" order="2" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="560, 133" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A03" input_output="-" name="Date of submission" order="7" required="" />
+      <prttextbox Format="" Location="123, 204" Size="62, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A04" input_output="-" name="Office of application code" order="8" required="" />
+      <label Location="468, 131" Size="87, 19" Font="Tahoma, 9pt" Text="Ngày khai báo:" />
+      <prttextbox Format="" Location="119, 106" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="A07" input_output="-" name="Permit type" order="5" required="" />
+      <prttextbox Format="" Location="181, 90" Size="17, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A06" input_output="-" name="Function code" order="4" required="" />
+      <prttextbox Format="" Location="103, 75" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="A08" input_output="-" name="OGA Application No." order="3" required="" />
+      <label Location="95, 72" Size="9, 19" Font="Tahoma, 9pt" Text="/" />
+      <label Location="33, 73" Size="22, 19" Font="Tahoma, 9pt" Text="Số:" />
+      <label Location="33, 88" Size="143, 19" Font="Tahoma, 9pt" Text="Chức năng của chứng từ:" />
+      <label Location="33, 104" Size="88, 19" Font="Tahoma, 9pt" Text="Loại giấy phép:" />
+      <prttextbox Format="AAAAAAAAAA-AAA" Location="159, 264" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A10" input_output="-" name="Importer/Exporter code " order="10" required="" />
+      <prttextbox Format="" Location="181, 122" Size="17, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A09" input_output="-" name="Import/Export classification" order="6" required="" />
+      <label Location="33, 120" Size="147, 19" Font="Tahoma, 9pt" Text="Phân loại xuất nhập khẩu:" />
+      <label Location="74, 309" Size="85, 19" Font="Tahoma, 9pt" Text="Quyết định số:" />
+      <prttextbox Format="" Multiline="True" Location="33, 576" Size="643, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A11" input_output="-" name="Importer/Exporter name" order="11" required="" />
+      <prttextbox Format="" Multiline="True" Location="33, 525" Size="643, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A11" input_output="-" name="Importer/Exporter name" order="11" required="" />
+      <prttextbox Format="" Multiline="True" Location="159, 279" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A11" input_output="-" name="Importer/Exporter name" order="11" required="" />
+      <prttextbox Format="" Multiline="True" Location="159, 358" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A12" input_output="-" name="Business address (Building name etc. ...)" order="17" required="" />
+      <label Location="74, 356" Size="77, 19" Font="Tahoma, 9pt" Text="Trụ sở chính:" />
+      <prttextbox Format="" Location="159, 312" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="17" form="" id="A13" input_output="-" name="Established decision No." order="12" required="" />
+      <prttextbox Format="" Location="443, 311" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="17" form="" id="A14" input_output="-" name="Business registration certificate No." order="13" required="" />
+      <label Location="297, 309" Size="144, 19" Font="Tahoma, 9pt" Text="Giấy phép kinh doanh số:" />
+      <prttextbox Format="dd/MM/yyyy" Location="424, 327" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A16" input_output="-" name="Issued date" order="15" required="" />
+      <prttextbox Format="" Location="95, 327" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A15" input_output="-" name="Issued place" order="14" required="" />
+      <label Location="74, 325" Size="22, 19" Font="Tahoma, 9pt" Text="do:" />
+      <label Location="364, 325" Size="58, 19" Font="Tahoma, 9pt" Text="cấp ngày:" />
+      <prttextbox Format="" Multiline="True" Location="159, 389" Size="21, 15" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A17" input_output="-" name="Business address (Country code)" order="18" required="" />
+      <prttextbox Format="" Location="159, 342" Size="59, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="A18" input_output="-" name="Business address (Post code)" order="16" required="" />
+      <prttextbox Format="" Location="159, 407" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A19" input_output="-" name="Business address (Phone number)" order="19" required="" />
+      <prttextbox Format="" Location="159, 424" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="A21" input_output="-" name="Business address (Email)" order="21" required="" />
+      <prttextbox Format="" Location="364, 406" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A20" input_output="-" name="Business address (Facsimile)" order="20" required="" />
+      <prttextbox Format="" Location="191, 630" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="17" form="" id="A22" input_output="-" name="Purchase contract No." order="22" required="" />
+      <label Location="75, 404" Size="65, 19" Font="Tahoma, 9pt" Text="Điện thoại:" />
+      <prttextbox Format="dd/MM/yyyy" Location="369, 630" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A23" input_output="-" name="Purchase contract date" order="23" required="" />
+      <label Location="336, 404" Size="28, 19" Font="Tahoma, 9pt" Text="Fax:" />
+      <prttextbox Format="" Location="191, 649" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="17" form="" id="A24" input_output="-" name="Sales contract No." order="24" required="" />
+      <label Location="75, 421" Size="43, 19" Font="Tahoma, 9pt" Text="E-mail:" />
+      <prttextbox Format="" Location="203, 668" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A26" input_output="-" name="Means of transport type" order="26" required="" />
+      <prttextbox Format="" Location="234, 668" Size="192, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="75" form="" id="MTN" input_output="-" name="Means of transport name" order="27" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="369, 649" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A25" input_output="-" name="Sales contract date" order="25" required="" />
+      <label Location="50, 628" Size="137, 19" Font="Tahoma, 9pt" Text="Hợp đồng mua hàng số:" />
+      <label Location="330, 628" Size="37, 19" Font="Tahoma, 9pt" Text="Ngày:" />
+      <prttextbox Format="dd/MM/yyyy" Location="391, 706" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A28" input_output="-" name="Estimate end date of importation/exportation" order="31" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="244, 706" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A27" input_output="-" name="Estimate start date of importation/exportation" order="30" required="" />
+      <label Location="50, 647" Size="133, 19" Font="Tahoma, 9pt" Text="Hợp đồng bán hàng số:" />
+      <label Location="330, 647" Size="37, 19" Font="Tahoma, 9pt" Text="Ngày:" />
+      <prttextbox Format="" Multiline="True" Location="320, 1008" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Center" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A29" input_output="-" name="Person in charge name" order="34" required="" />
+      <prttextbox Format="" Multiline="True" Location="103, 787" Size="570, 75" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="996" form="" id="A30" input_output="-" name="Remarks" order="33" required="" />
+      <label Location="50, 704" Size="194, 19" Font="Tahoma, 9pt" Text="Thời gian xuất nhập khẩu từ ngày:" />
+      <label Location="50, 685" Size="150, 19" Font="Tahoma, 9pt" Text="Cửa khẩu xuất nhập hàng:" />
+      <label Location="50, 666" Size="141, 19" Font="Tahoma, 9pt" Text="Phương tiện vận chuyển:" />
+      <label Location="330, 704" Size="60, 19" Font="Tahoma, 9pt" Text="đến ngày:" />
+      <label Location="33, 940" Size="55, 18" Font="Tahoma, 8.25pt" Text="- Lưu: VT." />
+      <label Location="33, 922" Size="60, 18" Font="Tahoma, 8.25pt" Text="- Như trên," />
+      <label Location="50, 720" Size="94, 19" Font="Tahoma, 9pt" Text="Hồ sơ liên quan:" />
+      <label Location="33, 903" Size="65, 19" Font="Tahoma, 9pt, style=Bold, Italic" Text="Nơi nhận:" />
+      <label Location="467, 903" Size="62, 19" Font="Tahoma, 9pt, style=Bold" Text="Giám đốc" />
+      <label Location="50, 785" Size="50, 19" Font="Tahoma, 9pt" Text="Ghi chú:" />
+      <prttextbox Format="" Multiline="True" Location="192, 204" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A05" input_output="-" name="Office of application name" order="9" required="" />
+      <prttextbox Format="" Location="203, 687" Size="51, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="B05" input_output="-" name="Port of importation/exportation code" order="28" required="" />
+      <prttextbox Format="" Location="261, 687" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="B06" input_output="-" name="Port of importation/exportation name" order="29" required="" />
+      <prttextbox Format="" Multiline="True" Location="151, 723" Size="497, 60" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="750" form="" id="AD" input_output="-" name="Enclosed documents" order="32" required="" />
+    </page>
+    <page Font="Tahoma, 11pt" MaxOccurs="5" MinOccurs="1">
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="-3, 18" Size="718, 17" Font="Tahoma, 11pt, style=Bold" Text="ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP XUẤT NHẬP KHẨU VẬT LIỆU NỔ CÔNG NGHIỆP" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="4, 41" Size="714, 100" Font="Tahoma, 11pt" Count="10" repetition_id="R01" repetition_max="50" RepX="1" RepY="10" SpaceX="0" SpaceY="0">
+        <ranlabel Location="3, 7" Size="21, 14" Font="Tahoma, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <label Location="25, 5" Size="84, 19" Font="Tahoma, 9pt" Text="Tên hàng hóa:" />
+        <prttextbox Format="" Multiline="True" Location="118, 8" Size="567, 60" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="768" form="" id="B01" input_output="-" name="Goods description" order="35" required="" />
+        <label Location="24, 74" Size="96, 19" Font="Tahoma, 9pt" Text="Mã số hàng hóa:" />
+        <prttextbox Format="9999.99.99.9999" Location="120, 76" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="B02" input_output="-" name="HS code" order="36" required="" />
+        <label Location="245, 74" Size="57, 19" Font="Tahoma, 9pt" Text="Số lượng:" />
+        <prttextbox Format="#,###,###,###" Location="300, 76" Size="103, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="B03" input_output="-" name="Gross weight/volume" order="37" required="" />
+        <prttextbox Format="" Location="408, 76" Size="35, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="B04" input_output="-" name="Gross weight/volume unit" order="38" required="" />
+        <rectangle Location="0, 0" Size="714, 100" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

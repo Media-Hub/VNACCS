@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="VBX11" name="Correction of vessel basic information (Call up)">
+  <item no="1" name="Vessel call sign" id="VEC" required="" code="">
+  </item>
+</guide>

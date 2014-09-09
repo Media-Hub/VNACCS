@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CAW" jobname="Manifest correction B" display-name="Air cancelled transship/transit notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0240.xml" item_attr_edit="False" />
+  <friday href="VAS0240.xml" revision="0000" />
+  <iteminfo>
+    <item id="00A" name="Flight No. 1 (flight number) (便名１)" input_output="-" required="" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="01A" name="Flight No. 2 (date) (便名２)" input_output="-" required="" attribute="A" figure="5" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="02A" name="Port of discharge code (船卸港)" input_output="-" required="" attribute="A" figure="3" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="03A" name="Submitter code of transship/transit notification (提出者)" input_output="-" required="" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="04A" name="Submitter name of transship/transit notification (提出者名)" input_output="-" required="" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="05A" name="Master AWB No. (MAWB番号)" input_output="-" required="" attribute="A" figure="20" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="20">
+      <item id="06A" name="AWB No. (AWB番号)" input_output="-" required="" attribute="A" figure="20" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <label Location="20, 151" Size="65, 23" Font="Tahoma, 11pt" Text="AWB No." />
+      <pagelabel Location="0, 0" Size="718, 22" Font="Tahoma, 11pt" Text="Air cancelled transship/transit notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="147, 36" Size="64, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="00A" input_output="-" name="Flight No. 1 (flight number) (便名１)" order="1" required="" />
+      <prttextbox Format="" Location="228, 36" Size="54, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="01A" input_output="-" name="Flight No. 2 (date) (便名２)" order="2" required="" />
+      <label Location="20, 79" Size="70, 23" Font="Tahoma, 11pt" Text="Submitter" />
+      <prttextbox Format="" Location="147, 82" Size="54, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="03A" input_output="-" name="Submitter code of transship/transit notification (提出者)" order="4" required="" />
+      <prttextbox Format="" Location="218, 82" Size="472, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="04A" input_output="-" name="Submitter name of transship/transit notification (提出者名)" order="5" required="" />
+      <prttextbox Format="" Location="147, 59" Size="36, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="02A" input_output="-" name="Port of discharge code (船卸港)" order="3" required="" />
+      <label Location="20, 33" Size="70, 23" Font="Tahoma, 11pt" Text="Flight No." />
+      <label Location="20, 56" Size="118, 23" Font="Tahoma, 11pt" Text="Port of discharge" />
+      <label Location="203, 78" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="214, 34" Size="11, 23" Font="Tahoma, 11pt" Text="/" />
+      <prttextbox Format="" Location="147, 105" Size="193, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="05A" input_output="-" name="Master AWB No. (MAWB番号)" order="6" required="" />
+      <label Location="20, 102" Size="114, 23" Font="Tahoma, 11pt" Text="Master AWB No." />
+      <ran Location="20, 177" Size="205, 25" Font="Tahoma, 11pt" Count="15" repetition_id="R01" repetition_max="20" RepX="2" RepY="10" SpaceX="0" SpaceY="0">
+        <prttextbox Format="" Location="0, 5" Size="189, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="06A" input_output="-" name="AWB No. (AWB番号)" order="7" required="" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

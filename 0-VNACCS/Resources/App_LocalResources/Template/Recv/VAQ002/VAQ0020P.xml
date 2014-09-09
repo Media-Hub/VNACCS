@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM00_TCC" jobname="Establishment of communication channel check" display-name="Form message to confirm establishment of communication channel">
+  <meta_info format_Version="1.0" revision="0000" friday="VAQ0020.xml" item_attr_edit="False" />
+  <friday href="VAQ0020.xml" revision="0000" />
+  <iteminfo>
+    <item id="O11" name="Output field 1" input_output="-" required="C" attribute="A" figure="50" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="O12" name="Output field 2" input_output="-" required="C" attribute="A" figure="50" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 3" Size="717, 20" Font="Tahoma, 12pt" Text="Thông điệp điện tử cho báo cáo xác nhận kết nối TCL" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label Location="170, 135" Size="227, 19" Font="Tahoma, 9pt" Text="&lt;Nội dung dữ liệu thông điệp gửi nhận&gt;" />
+      <label Location="150, 100" Size="290, 19" Font="Tahoma, 9pt" Text="Gửi nhận thông điệp với VNACCS Center thành công" />
+      <prttextbox Format="" Location="170, 161" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="O11" input_output="-" name="Output field 1" order="1" required="C" />
+      <label Location="450, 212" Size="79, 19" Font="Tahoma, 9pt" Text="COMPLETION" />
+      <prttextbox Format="" Location="170, 182" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="O12" input_output="-" name="Output field 2" order="2" required="C" />
+    </page>
+  </layout>
+</jobform>

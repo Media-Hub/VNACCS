@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="EDB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0004" name="Declaration No." id="ECN">
+    <description>Người nhập không phải là người phụ trách đăng ký. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="U0100" name="Declaration No." id="ECN">
+    <description>Người nhập không phải là người thực hiện EDA hoặc người dự kiến khai báo.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0006" name="Declaration No." id="ECN">
+    <description>Số tờ khai đã nhập chưa được đăng ký vào hệ thống. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0900" name="Declaration No.&#xA;Electronic Invoice Receipt No." id="ECN&#xA;IVU">
+    <description>Không thể sử dụng (các) ký tự này. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0001" name="Declaration No.&#xA;Electronic Invoice Receipt No." id="ECN&#xA;IVU">
+    <description>Chưa được nhập.
+</description>
+    <disposition>Nhập một trong hai giá trị.
+</disposition>
+  </response>
+  <response code="R0003" name="Declaration No.&#xA;Electronic Invoice Receipt No." id="ECN&#xA;IVU">
+    <description>Không thể nhập cả hai giá trị. 
+</description>
+    <disposition>Chỉ nhập một giá trị.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0103" name="Declaration No." id="ECN">
+    <description>Tờ khai xuất khẩu (nghiệp vụ EDC) đã được thực hiện.
+</description>
+    <disposition>1. Kiểm tra nội dung đã nhập.
+2. Thực hiện nghiệp vụ EDD
+</disposition>
+  </response>
+  <response code="E0104" name="Declaration No." id="ECN">
+    <description>Không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0206" name="Declaration No." id="ECN">
+    <description>Tờ khai xuất khẩu (nghiệp vụ EDC) chưa được thực hiện.
+</description>
+    <disposition>Thực hiện nghiệp vụ EDB.
+</disposition>
+  </response>
+  <response code="E0208" name="Declaration No." id="ECN">
+    <description>Do số nhánh của số tờ khai là "9", nên không thể thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0210" name="Declaration No." id="ECN">
+    <description>Đã chuyển sang thủ tục bằng tay. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0211" name="Declaration No." id="ECN">
+    <description>Đã bị thu hồi. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0214" name="Declaration No." id="ECN">
+    <description>Không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1036" name="Declaration No." id="ECN">
+    <description>Người sử dụng khác đang đăng ký vấn đề thay đổi.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1037" name="Declaration No." id="ECN">
+    <description>Người nhập không phải là người sử dụng của Hải quan quản lý tờ khai liên quan.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1200" name="Electronic Invoice Receipt No." id="IVU">
+    <description>Thông tin danh sách hóa đơn/kiện hàng chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1203" name="Electronic Invoice Receipt No." id="IVU">
+    <description>Đây là Thông tin danh sách hóa đơn/kiện hàng mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1204" name="Electronic Invoice Receipt No." id="IVU">
+    <description>Thông tin danh sách hóa đơn/kiện hàng liên quan đang được sử dụng cho tờ khai khác. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E1206" name="Electronic Invoice Receipt No." id="IVU">
+    <description>Đây là hóa đơn nhập khẩu.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E4026" name="Declaration No." id="ECN">
+    <description>Thẩm tra/kiểm tra đã hoàn tất.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E4027" name="Electronic Invoice Receipt No." id="IVU">
+    <description>Tất cả Thông tin danh sách hóa đơn/kiện hàng đã được sử dụng.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="L1100" name="None" id="0000">
+    <description>"Cơ quan Hải quan" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L1101" name="None" id="0000">
+    <description>"Cơ quan Hải quan" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

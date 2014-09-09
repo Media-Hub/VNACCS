@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{797B7E65-5496-4982-BBAE-DEAF3DF00ADE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Naccs.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="NaccsCommon">
+      <HintPath>..\NaccsCommon\bin\Debug\NaccsCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Naccs.Net">
+      <HintPath>..\Naccs.Net\bin\Debug\Naccs.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Web" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Naccs\Core\Job\CommonJobPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\DivJobPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\DeleteRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\Arrange\SerchFromGridView.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RemoveWorkerResult.cs" />
+    <Compile Include="Naccs\Core\Classes\NetworkTestDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\BatchDoc\OutcodeTbl.cs" />
+    <Compile Include="Naccs\Core\BatchDoc\BatchDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Properties\Resources.cs" />
+    <Compile Include="Naccs\Core\Print\OnThPrintEndHandler.cs" />
+    <Compile Include="Naccs\Core\Print\OnThPrintErrorHandler.cs" />
+    <Compile Include="Naccs\Core\Print\PrintThread.cs" />
+    <Compile Include="Naccs\Core\Main\IUserCode.cs" />
+    <Compile Include="Naccs\Core\Main\UUserCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\UOpeningDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\MainBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\JobPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\OnUpdateDataViewItemsHandler.cs" />
+    <Compile Include="Naccs\Core\DataView\OnJobFormOpenHandler.cs" />
+    <Compile Include="Naccs\Core\DataView\OnPrintJobHandler.cs" />
+    <Compile Include="Naccs\Core\DataView\IDataView.cs" />
+    <Compile Include="Naccs\Core\Classes\frmReceiveNoticeDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\Arrange\ArrangeDataTable.cs" />
+    <Compile Include="Naccs\Core\Classes\IMessageDialog.cs" />
+    <Compile Include="Naccs\Core\Classes\MessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Classes\HttpErrorDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Settings\AbstractSettings.cs" />
+    <Compile Include="Naccs\Core\Settings\AbstractConfig.cs" />
+    <Compile Include="Naccs\Core\Settings\UserPathNames.cs" />
+    <Compile Include="Naccs\Core\Settings\CommonPathClass.cs" />
+    <Compile Include="Naccs\Core\Settings\PrinterInfoListClass.cs" />
+    <Compile Include="Naccs\Core\Classes\UserKeySet.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\EventHandler!1.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RevertEventArgs.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RevertDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Settings\GStampSettings.cs" />
+    <Compile Include="Naccs\Core\Settings\GStampInfoClass.cs" />
+    <Compile Include="Naccs\Core\Print\OnPrintEndHandler.cs" />
+    <Compile Include="Naccs\Core\Print\OnPrintErrorHandler.cs" />
+    <Compile Include="Naccs\Core\Print\IPrint.cs" />
+    <Compile Include="Naccs\Core\Print\PrintStatus.cs" />
+    <Compile Include="Naccs\Core\Option\dlgFolderSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\UJobInputDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\CommonJobForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\DivideJobForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\CombiJobForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\USaveFolderDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Option\PrinterTrayDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\ComboManager.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RemoveWorkerArgs.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\ArrangeManager.cs" />
+    <Compile Include="Naccs\Core\Classes\IHeader.cs" />
+    <Compile Include="Naccs\Core\Settings\JobKeyListClass.cs" />
+    <Compile Include="Naccs\Core\Option\OnCellErrorHandler.cs" />
+    <Compile Include="Naccs\Core\Option\GridErrDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\IInteractiveUserCode.cs" />
+    <Compile Include="Naccs\Core\Main\IInteractiveUserCodeEx.cs" />
+    <Compile Include="Naccs\Core\Main\UUserCodeDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Classes\ULogClass.cs" />
+    <Compile Include="Naccs\Core\Settings\UserEnvironment.cs" />
+    <Compile Include="Naccs\Core\Settings\TerminalInfoClass.cs" />
+    <Compile Include="Naccs\Core\Settings\DebugFunctionClass.cs" />
+    <Compile Include="Naccs\Core\Settings\InteractiveInfoClass.cs" />
+    <Compile Include="Naccs\Core\Settings\MailInfoClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HttpOptionClass.cs" />
+    <Compile Include="Naccs\Core\Settings\LogFileLengthClass.cs" />
+    <Compile Include="Naccs\Core\Settings\TermMessage.cs" />
+    <Compile Include="Naccs\Core\Settings\ListItem.cs" />
+    <Compile Include="Naccs\Core\Settings\TermMessageSetClass.cs" />
+    <Compile Include="Naccs\Core\Settings\KeyListClass.cs" />
+    <Compile Include="Naccs\Core\Main\OnAbortHandler.cs" />
+    <Compile Include="Naccs\Core\Main\USendRecvDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\URecvTextDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Settings\ReceiveInformListClass.cs" />
+    <Compile Include="Naccs\Core\Settings\PrintSetups.cs" />
+    <Compile Include="Naccs\Core\Settings\DefaultInfoClass.cs" />
+    <Compile Include="Naccs\Core\Settings\PrinterInfoClass.cs" />
+    <Compile Include="Naccs\Core\Settings\BinClass.cs" />
+    <Compile Include="Naccs\Core\Settings\FormsClass.cs" />
+    <Compile Include="Naccs\Core\Settings\OutCodeClass.cs" />
+    <Compile Include="Naccs\Core\Settings\BinListClass.cs" />
+    <Compile Include="Naccs\Core\Main\JobOpenHandler.cs" />
+    <Compile Include="Naccs\Core\Main\UJobInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\UAboutDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\JobForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\Arrange\DatasetRevert.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\ArrangeProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Main\JobOpenMenuHandler.cs" />
+    <Compile Include="Naccs\Core\Main\UJobMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\JobHandler.cs" />
+    <Compile Include="Naccs\Core\Job\JobDemHandler.cs" />
+    <Compile Include="Naccs\Core\Job\JobLinkHandler.cs" />
+    <Compile Include="Naccs\Core\Job\ModeFont.cs" />
+    <Compile Include="Naccs\Core\Job\JobPanelStatus.cs" />
+    <Compile Include="Naccs\Core\Job\JobFormDef.cs" />
+    <Compile Include="Naccs\Core\Job\JPRec.cs" />
+    <Compile Include="Naccs\Core\Job\AuCtrlInfo.cs" />
+    <Compile Include="Naccs\Core\Job\CmbJPRec.cs" />
+    <Compile Include="Naccs\Core\Classes\NaccsHeader.cs" />
+    <Compile Include="Naccs\Core\Classes\DispCodeList.cs" />
+    <Compile Include="Naccs\Core\Classes\DataControl.cs" />
+    <Compile Include="Naccs\Core\BatchDoc\ConditionChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Settings\TermListClass.cs" />
+    <Compile Include="Naccs\Core\Settings\OutCodeListClass.cs" />
+    <Compile Include="Naccs\Core\Settings\EnvConstDef.cs" />
+    <Compile Include="Naccs\Core\Option\OptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\UDataView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\DataCompress.cs" />
+    <Compile Include="Naccs\Core\Settings\User.cs" />
+    <Compile Include="Naccs\Core\Settings\ApplicationClass.cs" />
+    <Compile Include="Naccs\Core\Settings\ToolBarClass.cs" />
+    <Compile Include="Naccs\Core\Settings\WindowClass.cs" />
+    <Compile Include="Naccs\Core\Settings\LastLogonClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HistoryJobsClass.cs" />
+    <Compile Include="Naccs\Core\Settings\ColumnWidthClass.cs" />
+    <Compile Include="Naccs\Core\Settings\DataViewFormClass.cs" />
+    <Compile Include="Naccs\Core\Settings\ResultCodeColorClass.cs" />
+    <Compile Include="Naccs\Core\Settings\JobOptionClass.cs" />
+    <Compile Include="Naccs\Core\Settings\BatchSendClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HistoryUserClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HistoryAddressClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HistorySearchClass.cs" />
+    <Compile Include="Naccs\Core\Settings\TypeListClass.cs" />
+    <Compile Include="Naccs\Core\Settings\FileSave.cs" />
+    <Compile Include="Naccs\Core\Settings\AllFileSaveClass.cs" />
+    <Compile Include="Naccs\Core\Settings\TypeClass.cs" />
+    <Compile Include="Naccs\Core\Settings\FileNameClass.cs" />
+    <Compile Include="Naccs\Core\Settings\SendFileClass.cs" />
+    <Compile Include="Naccs\Core\Settings\DetailsClass.cs" />
+    <Compile Include="Naccs\Core\Option\GatewaySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Option\GatewaySettingClass.cs" />
+    <Compile Include="Naccs\Core\DataView\USendReportDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\DataView\Arrange\WriterLog.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\DatasetRemove.cs" />
+    <Compile Include="Naccs\Core\Classes\TestServer.cs" />
+    <Compile Include="Naccs\Core\Classes\NetTestMode.cs" />
+    <Compile Include="Naccs\Core\Classes\MessageDialogSimpleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Settings\SystemEnvironment.cs" />
+    <Compile Include="Naccs\Core\Settings\TerminalInfoSysClass.cs" />
+    <Compile Include="Naccs\Core\Settings\InteractiveServerClass.cs" />
+    <Compile Include="Naccs\Core\Settings\InteractiveInfoSysClass.cs" />
+    <Compile Include="Naccs\Core\Settings\MailServerClass.cs" />
+    <Compile Include="Naccs\Core\Settings\MailInfoSysClass.cs" />
+    <Compile Include="Naccs\Core\Settings\BatchdocInfoSysClass.cs" />
+    <Compile Include="Naccs\Core\Settings\LogFileLengthSysClass.cs" />
+    <Compile Include="Naccs\Core\Option\dlgPrinterSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Job\JobSettings.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RevertWorkerArgs.cs" />
+    <Compile Include="Naccs\Core\Classes\IData.cs" />
+    <Compile Include="Naccs\Core\Classes\NaccsData.cs" />
+    <Compile Include="Naccs\Core\Classes\CustomizeMenu.cs" />
+    <Compile Include="Naccs\Core\BatchDoc\BatchDocReceivedHandler.cs" />
+    <Compile Include="Naccs\Core\Settings\PathInfo.cs" />
+    <Compile Include="Naccs\Core\Settings\PathItem.cs" />
+    <Compile Include="Naccs\Core\Settings\PathType.cs" />
+    <Compile Include="Naccs\Core\Settings\ProtocolType.cs" />
+    <Compile Include="Naccs\Core\Settings\SettingDivType.cs" />
+    <Compile Include="Naccs\Core\Settings\UserKindType.cs" />
+    <Compile Include="Naccs\Core\Settings\DetailsListClass.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\RevertWorkerResult.cs" />
+    <Compile Include="Naccs\Core\DataView\Arrange\DatasetStorage.cs" />
+    <Compile Include="Naccs\Core\Main\OnButtonHandler.cs" />
+    <Compile Include="Naccs\Core\Main\OnDeleteEventHandler.cs" />
+    <Compile Include="Naccs\Core\Main\ListType.cs" />
+    <Compile Include="Naccs\Core\Classes\ButtonPatern.cs" />
+    <Compile Include="Naccs\Core\Classes\MessageKind.cs" />
+    <Compile Include="Naccs\Core\Settings\ReceiveNotice.cs" />
+    <Compile Include="Naccs\Core\Settings\ReceiveInformClass.cs" />
+    <Compile Include="Naccs\Core\Settings\SoundClass.cs" />
+    <Compile Include="Naccs\Core\Settings\WarningInformClass.cs" />
+    <Compile Include="Naccs\Core\Settings\InformClass.cs" />
+    <Compile Include="Naccs\Core\Settings\HelpSettings.cs" />
+    <Compile Include="Naccs\Core\Settings\HelpPathClass.cs" />
+    <Compile Include="Naccs\Core\Settings\ConfigFiles.cs" />
+    <Compile Include="Naccs\Core\Main\SWCheckTbl.cs" />
+    <Compile Include="Naccs\Core\Classes\ResourceManager.cs" />
+    <Compile Include="Naccs\Core\Settings\VersionSettings.cs" />
+    <Compile Include="Naccs\Core\Settings\UserKey.cs" />
+    <Compile Include="Naccs\Core\Settings\JobKeyClass.cs" />
+    <Compile Include="Naccs\Core\Settings\KeyClass.cs" />
+    <Compile Include="Naccs\Core\Classes\DataFactory.cs" />
+    <Compile Include="Naccs\Core\Settings\OptionCertification.cs" />
+    <Compile Include="Naccs\Core\Settings\AllCertificationClass.cs" />
+    <Compile Include="Naccs\Core\Main\ComSt.cs" />
+    <Compile Include="Naccs\Core\Job\JobFormFactory.cs" />
+    <Compile Include="Naccs\Core\Classes\MailErrorDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Core\Classes\DataStatus.cs" />
+    <Compile Include="Naccs\Core\Classes\Signflg.cs" />
+    <Compile Include="Naccs\Core\Classes\ContainedType.cs" />
+    <Compile Include="Naccs\Core\Classes\RecvData.cs" />
+    <Compile Include="Naccs\Core\Settings\TermMessageSetListClass.cs" />
+    <Compile Include="Naccs\Core\Settings\MessageClassify.cs" />
+    <Compile Include="Naccs\Core\Settings\TermClass.cs" />
+    <Compile Include="Naccs\Core\Settings\DataViewClass.cs" />
+    <Compile Include="Naccs\Core\Settings\StringList.cs" />
+    <Compile Include="Naccs\Core\Print\PrintManager.cs" />
+    <Compile Include="Naccs\Core\Main\VersionuptoolUpdater.cs" />
+    <EmbeddedResource Include="Naccs.Core.Job.DivideJobForm.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.USendReportDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.PrinterTrayDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UUserCode.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UJobInput.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.URecvTextDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.DeleteRestore.resources" />
+    <EmbeddedResource Include="Naccs.Core.Classes.NetworkTestDialog.resources" />
+    <EmbeddedResource Include="Naccs.Core.Classes.MessageDialogSimpleForm.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UUserCodeDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Job.CommonJobPanel.resources" />
+    <EmbeddedResource Include="Naccs.Core.Job.CommonJobForm.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.Arrange.ArrangeProgress.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.GatewaySetting.resources" />
+    <EmbeddedResource Include="Naccs.Core.Properties.Resources.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UOpeningDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Job.JobForm.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.dlgPrinterSetting.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.dlgFolderSetting.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UAboutDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.BatchDoc.BatchDoc.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.UDataView.resources" />
+    <EmbeddedResource Include="Naccs.Core.BatchDoc.ConditionChange.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UJobInputDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.OptionDialog.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.USaveFolderDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Option.GridErrDialog.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.USendRecvDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.MainBase.resources" />
+    <EmbeddedResource Include="Naccs.Core.Classes.frmReceiveNoticeDlg.resources" />
+    <EmbeddedResource Include="Naccs.Core.Classes.MessageDialog.resources" />
+    <EmbeddedResource Include="Naccs.Core.Job.CombiJobForm.resources" />
+    <EmbeddedResource Include="Naccs.Core.DataView.Arrange.RevertDialog.resources" />
+    <EmbeddedResource Include="Naccs.Core.Main.UJobMenu.resources" />
+  </ItemGroup>
+</Project>

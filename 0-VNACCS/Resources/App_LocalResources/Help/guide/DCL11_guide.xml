@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="DCL11" name="Submission of unloaded containers list (call up)">
+  <item no="1" name="Submission No." id="DNO" required="" code="">
+  </item>
+  <item no="2" name="Manifest type" id="TOM" required="" code="">Người dùng chọn chỉ tiêu thông tin do hệ thống cung cấp để thực hiện tìm kiếm theo các ký hiệu sau: 
+S: Manifest đường biển
+R: Manifest đường sắt
+V: Vận chuyển bằng ô tô
+</item>
+  <item no="3" name="Reference No." id="REF" required="" code="">Người sử dụng có thể sử dụng số tham chiếu để thực hiện tìm kiếm, nếu
+đã nhập mã phương tiện vận chuyển không cần nhập số tham chiếu.
+- Nếu tìm manifest đường biển hoặc đường sắt thì người dùng nhập số tham chiếu.
+- Đối với manifest đường bộ thì nhập số tờ khai nhập cảnh
+</item>
+  <item no="4" name="Transportation equipment code" id="EQP" required="" code=""> -Nếu tìm kiếm Manifest đường biển "S", nhập hô hiệu tàu với 9 ký tự.
+- Nếu tìm kiếm manifest đường sắt "R" nhập số hiệu đoàn tàu tối đa 10 ký tự.
+- Nếu tìm kiếm manifest đường bộ "V", nhập biển số xe theo định dạng sau:
+"Mã nước đăng ký (2 ký tự)" + "-" + "Biển số xe (tối đa 35ký tự)"
+</item>
+  <item no="5" name="Arrival place code" id="DPR" required="" code="UN/LOCODE&#xA;Station code&#xA;Border gate code">1. Trường hợp Manifest loại S, nhập  cảng dỡ hàng với 5 ký tự
+2.Trường hợp Manifest loại R, nhập  mã nhà ga đến với 6 ký tự
+3. Trường hợp Manifest loại V, nhập  mã cửa khẩu đến với 6 ký tự
+</item>
+  <item no="6" name="Port of discharge suffix" id="EDA" required="" code="">Trường hợp manifest đường biển(S), hệ thống yêu cầu nhập số nhánh của cảng dỡ hàng</item>
+  <item no="7" name="Voyage No." id="VOY" required="" code="">Trường hợp Manifest đường biển (S), hệ thống yêu cầu nhập số hiệu chuyến đi (tối đa 10 ký tự)</item>
+  <item no="8" name="Date of arrival" id="IDT" required="" code="">Trường hợp Manifest đường sắt (R) và đường bộ (V) hệ thống yêu cầu nhập ngày đến</item>
+  <item no="9" name="Carrier code" id="SCA" required="" code="Carrier code">Trường hợp Manifest đường sắt (R) và đường bộ (V) hệ thống yêu cầu nhập ngày đến
+Trường hợp Manifest đường biển (S) và đường sắt (R) hệ thống yêu cầu nhập mã nhà vận chuyển
+</item>
+</guide>

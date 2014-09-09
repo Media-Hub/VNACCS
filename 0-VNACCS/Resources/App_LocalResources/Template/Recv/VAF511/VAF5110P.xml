@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM40_IBA" jobname="CAM40_IBA" display-name="IBA Reference of bank payment information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAF5110.xml" item_attr_edit="False" />
+  <friday href="VAF5110.xml" revision="0000" />
+  <iteminfo>
+    <item id="BRC" name="Bank payment code" input_output="-" required="M" attribute="A" figure="11" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="A02" name="Bank payment name" input_output="-" required="C" attribute="W" figure="210" form="" order="3" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="UBP" name="Code of user who uses Bank Payment" input_output="-" required="C" attribute="A" figure="13" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="A04" name="Name of user who uses Bank Payment" input_output="-" required="C" attribute="W" figure="300" form="" order="5" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="RYA" name="Issued year" input_output="-" required="M" attribute="I" figure="4" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="BPS" name="Bank Payment sign" input_output="-" required="M" attribute="A" figure="10" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="BPN" name="Bank Payment No." input_output="-" required="M" attribute="A" figure="10" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="A08" name="Invalid flag" input_output="-" required="C" attribute="A" figure="1" form="" order="9" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Start date" input_output="-" required="C" attribute="A" figure="8" form="" order="10" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Expired date" input_output="-" required="C" attribute="A" figure="8" form="" order="11" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Amount available for Bank Payment" input_output="-" required="C" attribute="F" figure="13" form="" order="12" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Available Balance" input_output="-" required="C" attribute="F" figure="13" form="" order="13" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="CCC" name="Currency Code" input_output="-" required="M" attribute="A" figure="3" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="A14" name="Bank Payment sequence number" input_output="-" required="C" attribute="A" figure="10" form="" order="15" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="100">
+      <item id="B01" name="Suffix No." input_output="-" required="C" attribute="A" figure="4" form="" order="16" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B02" name="Registered date" input_output="-" required="C" attribute="A" figure="8" form="" order="17" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B03" name="Registered time" input_output="-" required="C" attribute="A" figure="6" form="" order="18" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B04" name="Withdraw Amount" input_output="-" required="C" attribute="F" figure="13" form="" order="19" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B05" name="Increase Amount" input_output="-" required="C" attribute="F" figure="13" form="" order="20" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B06" name="Declaration No." input_output="-" required="C" attribute="I" figure="12" form="" order="21" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B07" name="Import/export declaration registered date" input_output="-" required="C" attribute="A" figure="8" form="" order="22" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B08" name="Declaration kind code" input_output="-" required="C" attribute="A" figure="3" form="" order="23" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B09" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="24" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B10" name="Customs province name" input_output="-" required="C" attribute="W" figure="210" form="" order="25" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 17" Size="718, 17" Font="Tahoma, 11pt" Text="Reference of Bank Payment information" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="55, 59" Size="89, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="11" form="" id="BRC" input_output="-" name="Bank payment code" order="2" required="M" />
+      <label Location="2, 37" Size="110, 19" Font="Tahoma, 9pt" Text="Ngân hàng trả thay" />
+      <prttextbox Format="" Location="158, 59" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="A02" input_output="-" name="Bank payment name" order="3" required="C" />
+      <label Location="148, 57" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="33, 106" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="UBP" input_output="-" name="Code of user who uses Bank Payment" order="4" required="C" />
+      <label Location="2, 81" Size="140, 19" Font="Tahoma, 9pt" Text="Đơn vị sử dụng hạn mức" />
+      <prttextbox Format="" Multiline="True" Location="158, 106" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A04" input_output="-" name="Name of user who uses Bank Payment" order="5" required="C" />
+      <label Location="148, 101" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="349, 144" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="BPS" input_output="-" name="Bank Payment sign" order="7" required="M" />
+      <prttextbox Format="" Location="574, 144" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="BPN" input_output="-" name="Bank Payment No." order="8" required="M" />
+      <prttextbox Format="" Location="107, 144" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="RYA" input_output="-" name="Issued year" order="6" required="M" />
+      <label Location="2, 142" Size="89, 19" Font="Tahoma, 9pt" Text="Năm phát hành" />
+      <label Location="471, 142" Size="97, 19" Font="Tahoma, 9pt" Text="Số hiệu hạn mức" />
+      <label Location="191, 142" Size="146, 19" Font="Tahoma, 9pt" Text="Kí hiệu chứng từ hạn mức" />
+      <prttextbox Format="dd/MM/yyyy" Location="158, 190" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A09" input_output="-" name="Start date" order="10" required="C" />
+      <prttextbox Format="" Location="107, 167" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A08" input_output="-" name="Invalid flag" order="9" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="513, 190" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A10" input_output="-" name="Expired date" order="11" required="C" />
+      <label Location="406, 188" Size="100, 19" Font="Tahoma, 9pt" Text="Ngày hết hiệu lực" />
+      <label Location="2, 165" Size="70, 19" Font="Tahoma, 9pt" Text="Hết hiệu lực" />
+      <label Location="2, 188" Size="125, 19" Font="Tahoma, 9pt" Text="Ngày bắt đầu hiệu lực" />
+      <prttextbox Format="#,###,###,###,###" Location="158, 213" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A11" input_output="-" name="Amount available for Bank Payment" order="12" required="C" />
+      <prttextbox Format="#,###,###,###,###" Location="158, 236" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A12" input_output="-" name="Available Balance" order="13" required="C" />
+      <label Location="2, 234" Size="88, 19" Font="Tahoma, 9pt" Text="Số dư hạn mức" />
+      <label Location="2, 211" Size="138, 19" Font="Tahoma, 9pt" Text="Số tiền hạn mức đăng kí" />
+      <prttextbox Format="" Location="158, 259" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="A14" input_output="-" name="Bank Payment sequence number" order="15" required="C" />
+      <prttextbox Format="" Location="513, 213" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="CCC" input_output="-" name="Currency Code" order="14" required="M" />
+      <label Location="406, 211" Size="59, 19" Font="Tahoma, 9pt" Text="Mã tiền tệ" />
+      <label Location="2, 257" Size="108, 19" Font="Tahoma, 9pt" Text="Số thứ tự hạn mức" />
+    </page>
+    <page Font="Tahoma, 11pt" MaxOccurs="16">
+      <label Location="8, 47" Size="109, 19" Font="Tahoma, 9pt" Text="Số thứ tự giao dịch" />
+      <pagelabel Location="643, 0" Size="75, 17" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="163, 47" Size="95, 19" Font="Tahoma, 9pt" Text="Ngày tạo dữ liệu" />
+      <label Location="295, 47" Size="118, 19" Font="Tahoma, 9pt" Text="Thời gian tạo dữ liệu" />
+      <label Location="475, 47" Size="79, 19" Font="Tahoma, 9pt" Text="Số tiền trừ lùi" />
+      <label Location="616, 47" Size="91, 19" Font="Tahoma, 9pt" Text="Số tiền tăng lên" />
+      <label Location="36, 73" Size="59, 19" Font="Tahoma, 9pt" Text="Số tờ khai" />
+      <label Location="163, 73" Size="121, 19" Font="Tahoma, 9pt" Text="Ngày đăng ký tờ khai" />
+      <label Location="295, 73" Size="71, 19" Font="Tahoma, 9pt" Text="Mã loại hình" />
+      <pagelabel Location="-2, 17" Size="718, 17" Font="Tahoma, 11pt" Text="Reference of Bank Payment information" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="2, 124" Size="714, 87" Font="Tahoma, 11pt" Count="6" Offset="5" repetition_id="R01" repetition_max="100" RepX="1" RepY="10" SpaceX="0" SpaceY="0">
+        <ranlabel Location="4, 11" Size="28, 14" Font="Tahoma, 9pt" figure="3" repetition_id="R01" Value="0" PadLeft="True" />
+        <prttextbox Format="" Location="36, 11" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="B01" input_output="-" name="Suffix No." order="16" required="C" />
+        <prttextbox Format="dd/MM/yyyy" Location="163, 11" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="B02" input_output="-" name="Registered date" order="17" required="C" />
+        <prttextbox Format="hh:mm:ss" Location="295, 11" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="B03" input_output="-" name="Registered time" order="18" required="C" />
+        <prttextbox Format="#,###,###,###,###" Location="421, 11" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="B04" input_output="-" name="Withdraw Amount" order="19" required="C" />
+        <prttextbox Format="#,###,###,###,###" Location="574, 11" Size="133, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="B05" input_output="-" name="Increase Amount" order="20" required="C" />
+        <prttextbox Format="" Location="36, 37" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="B06" input_output="-" name="Declaration No." order="21" required="C" />
+        <prttextbox Format="dd/MM/yyyy" Location="163, 37" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="B07" input_output="-" name="Import/export declaration registered date" order="22" required="C" />
+        <prttextbox Format="" Location="295, 37" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="B08" input_output="-" name="Declaration kind code" order="23" required="C" />
+        <prttextbox Format="" Location="36, 63" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="B09" input_output="-" name="Customs office" order="24" required="C" />
+        <label Location="92, 61" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="103, 63" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="B10" input_output="-" name="Customs province name" order="25" required="C" />
+        <rectangle Location="0, 0" Size="714, 87" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+      <label Location="36, 99" Size="102, 19" Font="Tahoma, 9pt" Text="Cơ quan Hải quan" />
+    </page>
+  </layout>
+</jobform>

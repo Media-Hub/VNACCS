@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_RIR" jobname="Registration of arrival notification C" display-name="Railway cancelled arrival notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA2310.xml" item_attr_edit="False" />
+  <friday href="VAA2310.xml" revision="0000" />
+  <iteminfo>
+    <item id="INN" name="Arrival notification number" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTN" name="Cancellation date" input_output="-" required="" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TTJ" name="Cancellation time" input_output="-" required="" attribute="A" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NCD" name="Input user code" input_output="-" required="" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NRM" name="Input user name" input_output="-" required="" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRN" name="Train registry No." input_output="-" required="" attribute="A" figure="10" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARS" name="Arrival station code" input_output="-" required="" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARN" name="Arrival station name" input_output="-" required="" attribute="A" figure="35" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ADT" name="Date of arrival" input_output="-" required="" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="Title 1" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label Location="44, 304" Size="53, 23" Font="Tahoma, 11pt" Text="Ga đến" />
+      <label Location="287, 305" Size="10, 21" Font="Tahoma, 10pt" Text="-" />
+      <label Location="44, 273" Size="119, 23" Font="Tahoma, 11pt" Text="Số hiệu đoàn tầu" />
+      <label Location="44, 220" Size="111, 23" Font="Tahoma, 11pt" Text="Người nhập liệu" />
+      <label Location="325, 190" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="219, 164" Size="117, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="INN" input_output="-" name="Arrival notification number" order="1" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="219, 193" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="TTN" input_output="-" name="Cancellation date" order="2" required="" />
+      <label Location="44, 189" Size="90, 23" Font="Tahoma, 11pt" Text="Ngày hủy bỏ" />
+      <label Location="44, 160" Size="169, 23" Font="Tahoma, 11pt" Text="Số thông báo nhập cảnh" />
+      <prttextbox Format="" Location="219, 224" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="NCD" input_output="-" name="Input user code" order="4" required="" />
+      <prttextbox Format="hh:mm" Location="342, 193" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TTJ" input_output="-" name="Cancellation time" order="3" required="" />
+      <prttextbox Format="" Location="219, 247" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="NRM" input_output="-" name="Input user name" order="5" required="" />
+      <prttextbox Format="" Location="219, 277" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="TRN" input_output="-" name="Train registry No." order="6" required="" />
+      <prttextbox Format="" Location="219, 307" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="ARS" input_output="-" name="Arrival station code" order="7" required="" />
+      <prttextbox Format="" Location="303, 307" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="ARN" input_output="-" name="Arrival station name" order="8" required="" />
+      <label Location="44, 331" Size="69, 23" Font="Tahoma, 11pt" Text="Ngày đến" />
+      <prttextbox Format="dd/MM/yyyy" Location="219, 336" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="ADT" input_output="-" name="Date of arrival" order="9" required="" />
+    </page>
+  </layout>
+</jobform>

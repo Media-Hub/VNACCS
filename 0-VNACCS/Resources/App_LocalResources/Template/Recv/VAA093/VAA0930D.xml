@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IVS" jobname="1" display-name="Reference information of vessel basic information">
+<meta_info format_Version="1.0" revision="0000" friday="VAA0930.xml" item_attr_edit="False" />
+  <friday href="VAA0930.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Reference type" input_output="-" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Vessel call sign" input_output="-" required="C" attribute="A" figure="9" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Vessel name" input_output="-" required="C" attribute="A" figure="35" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Registration date" input_output="-" required="C" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Updated date" input_output="-" required="C" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Customs office name" input_output="-" required="C" attribute="A" figure="10" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="User code of Immigration Bureau" input_output="-" required="C" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="User name of Immigration Bureau" input_output="-" required="C" attribute="A" figure="50" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="User code of Port authority" input_output="-" required="C" attribute="A" figure="5" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A11" name="User name of Port authority" input_output="-" required="C" attribute="A" figure="50" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Registrant" input_output="-" required="C" attribute="A" figure="5" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A13" name="Registrant name" input_output="-" required="C" attribute="A" figure="50" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A14" name="IMO number" input_output="-" required="C" attribute="A" figure="7" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A15" name="Fishing boat registration No." input_output="-" required="C" attribute="A" figure="9" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A16" name="Vessel type code" input_output="-" required="C" attribute="A" figure="5" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A17" name="Vessel type name" input_output="-" required="C" attribute="A" figure="35" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A18" name="Vessel nationality code" input_output="-" required="C" attribute="A" figure="2" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A19" name="Vessel nationality name" input_output="-" required="C" attribute="A" figure="7" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A20" name="Certificate of registry No." input_output="-" required="C" attribute="A" figure="35" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A21" name="Date of registry" input_output="-" required="C" attribute="A" figure="8" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A22" name="Port of vessel registry" input_output="-" required="C" attribute="A" figure="5" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A23" name="Port name of vessel registry" input_output="-" required="C" attribute="A" figure="20" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A24" name="Gross tonnage" input_output="-" required="C" attribute="F" figure="9" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A25" name="Net tonnage" input_output="-" required="C" attribute="F" figure="9" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A26" name="Sailing speed" input_output="-" required="C" attribute="F" figure="4" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A27" name="Total length of vessel" input_output="-" required="C" attribute="F" figure="6" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A28" name="Weight tonnage" input_output="-" required="C" attribute="F" figure="9" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A29" name="Vessel owner code" input_output="-" required="C" attribute="A" figure="6" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A30" name="Vessel owner name" input_output="-" required="C" attribute="A" figure="70" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A31" name="Vessel owner address" input_output="-" required="C" attribute="A" figure="105" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A32" name="Vessel owner country code" input_output="-" required="C" attribute="A" figure="2" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A33" name="Vessel owner country name" input_output="-" required="C" attribute="A" figure="7" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A34" name="Vessel owner telephone number" input_output="-" required="C" attribute="A" figure="20" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A35" name="Vessel owner fax number" input_output="-" required="C" attribute="A" figure="20" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A36" name="Vessel operator code" input_output="-" required="C" attribute="A" figure="6" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A37" name="Vessel operator name" input_output="-" required="C" attribute="A" figure="70" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A38" name="Vessel operator address" input_output="-" required="C" attribute="A" figure="105" form="" order="39" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A39" name="Vessel operator country code" input_output="-" required="C" attribute="A" figure="2" form="" order="40" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A40" name="Vessel operator country name" input_output="-" required="C" attribute="A" figure="7" form="" order="41" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A41" name="Vessel operator telephone number" input_output="-" required="C" attribute="A" figure="20" form="" order="42" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A42" name="Vessel operator fax number" input_output="-" required="C" attribute="A" figure="20" form="" order="43" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A43" name="Remarks" input_output="-" required="C" attribute="A" figure="70" form="" order="44" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="7" Size="703, 38" Location="8, 776" Font="ZSゴシック, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="52, 19" Location="10, 13" Text="Remarks" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="0" Size="503, 21" Location="110, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="44" input_output="-" check_full="" check_time="" check_date="" name="Remarks" check_attribute="*" attribute="A" id="A43" figure="70" required="C" />
+    </container>
+    <container type="GroupBox" TabIndex="6" Size="703, 130" Location="8, 640" Font="ZSゴシック, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="89, 19" Location="10, 13" Text="Vessel operator" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="0" Size="55, 21" Location="110, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="37" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator code" check_attribute="*" attribute="A" id="A36" figure="6" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="503, 21" Location="186, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="38" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator name" check_attribute="*" attribute="A" id="A37" figure="70" required="C" />
+      <label Size="9, 19" Location="173, 13" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="4" Multiline="True" Size="503, 36" Location="110, 37" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="39" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator address" check_attribute="*" attribute="A" id="A38" figure="105" required="C" />
+      <label Size="48, 19" Location="22, 38" Text="Address" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="6" Size="27, 21" Location="110, 78" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="40" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator country code" check_attribute="*" attribute="A" id="A39" figure="2" required="C" />
+      <label Size="46, 19" Location="278, 105" Text="Fax No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <label Size="84, 19" Location="21, 105" Text="Telephone No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <textbox CharacterCasing="Upper" TabIndex="8" Size="153, 21" Location="330, 104" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="43" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator fax number" check_attribute="*" attribute="A" id="A42" figure="20" required="C" />
+      <label Size="47, 19" Location="22, 79" Text="Country" Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <textbox CharacterCasing="Upper" TabIndex="7" Size="153, 21" Location="111, 104" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="42" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator telephone number" check_attribute="*" attribute="A" id="A41" figure="20" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="64" Size="62, 21" Location="149, 79" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="41" input_output="-" check_full="" check_time="" check_date="" name="Vessel operator country name" check_attribute="*" attribute="A" id="A40" figure="7" required="C" />
+      <label Size="9, 19" Location="139, 79" Text="-" Font="Tahoma, 9pt" />
+    </container>
+    <container type="GroupBox" TabIndex="5" Size="703, 132" Location="8, 502" Font="ZSゴシック, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="76, 19" Location="10, 13" Text="Vessel owner" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="0" Size="55, 21" Location="110, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="30" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner code" check_attribute="*" attribute="A" id="A29" figure="6" required="C" />
+      <label Size="9, 19" Location="173, 13" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="503, 21" Location="186, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="31" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner name" check_attribute="*" attribute="A" id="A30" figure="70" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="4" Multiline="True" Size="503, 36" Location="110, 37" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="32" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner address" check_attribute="*" attribute="A" id="A31" figure="105" required="C" />
+      <label Size="48, 19" Location="17, 38" Text="Address" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="8" Size="153, 21" Location="330, 104" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="36" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner fax number" check_attribute="*" attribute="A" id="A35" figure="20" required="C" />
+      <label Size="46, 19" Location="278, 105" Text="Fax No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <textbox CharacterCasing="Upper" TabIndex="7" Size="153, 21" Location="110, 104" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="35" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner telephone number" check_attribute="*" attribute="A" id="A34" figure="20" required="C" />
+      <label Size="84, 19" Location="18, 105" Text="Telephone No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <label Size="47, 19" Location="17, 79" Text="Country" Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <label Size="9, 19" Location="139, 79" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="22" Size="62, 21" Location="149, 78" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="34" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner country name" check_attribute="*" attribute="A" id="A33" figure="7" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="6" Size="27, 21" Location="110, 78" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="33" input_output="-" check_full="" check_time="" check_date="" name="Vessel owner country code" check_attribute="*" attribute="A" id="A32" figure="2" required="C" />
+    </container>
+    <container type="GroupBox" TabIndex="4" Size="703, 454" Location="8, 43" Font="ZSゴシック, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="39, 19" Location="10, 15" Text="Vessel" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="247, 15" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="258, 21" Location="262, 14" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Vessel name" check_attribute="*" attribute="A" id="A03" figure="35" required="C" />
+      <label Size="9, 19" Location="261, 421" Text="t" Font="Tahoma, 9pt" />
+      <label Size="91, 19" Location="10, 421" Text="Weight tonnage" Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <label Size="15, 19" Location="483, 394" Text="m" Font="Tahoma, 9pt" />
+      <commatext TabIndex="38" Size="90, 21" Location="165, 420" TextAlign="Right" Font="Courier New, 9pt" BackColor="Control" form="" choice_keyvalue="" IsComma="True" order="29" input_output="-" check_full="" check_time="" check_date="" name="Weight tonnage" check_attribute="*" attribute="F" id="A28" figure="9" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="16" Size="76, 21" Location="165, 14" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Vessel call sign" check_attribute="*" attribute="A" id="A02" figure="9" required="C" />
+      <label Size="121, 19" Location="295, 394" Text="Total length of vessel" Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <label Size="97, 19" Location="10, 39" Text="Registration date" Font="Tahoma, 9pt" />
+      <label Size="76, 19" Location="10, 394" Text="Sailing speed" Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="18" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="165, 38" BackColor="Control" Font="Courier New, 9pt" form="" order="5" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Registration date" check_attribute="*" attribute="A" id="A04" figure="8" AutoComplete="False" required="C" />
+      <label Size="9, 19" Location="198, 232" Text="-" Font="Tahoma, 9pt" />
+      <label Size="78, 19" Location="277, 39" Text="Updated date" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="16" Size="258, 21" Location="233, 204" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Vessel type name" check_attribute="*" attribute="A" id="A17" figure="35" required="C" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="20" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="361, 38" BackColor="Control" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Updated date" check_attribute="*" attribute="A" id="A05" figure="8" AutoComplete="False" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="18" Size="62, 21" Location="213, 231" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="20" input_output="-" check_full="" check_time="" check_date="" name="Vessel nationality name" check_attribute="*" attribute="A" id="A19" figure="7" required="C" />
+      <label Size="112, 28" AutoSize="False" Location="10, 60" Text="Customs office&#xD;&#xA;(Cơ quan Hải quan)" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="218, 205" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="22" Size="55, 21" Location="165, 64" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Customs office" check_attribute="*" attribute="A" id="A06" figure="6" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="33" Size="55, 21" Location="422, 393" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="28" input_output="-" check_full="" check_time="" check_date="" name="Total length of vessel" check_attribute="*" attribute="F" id="A27" figure="6" required="C" />
+      <label Size="9, 19" Location="226, 65" Text="-" Font="Tahoma, 9pt" />
+      <label Size="72, 19" Location="10, 367" Text="Net tonnage" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="24" Size="83, 21" Location="241, 64" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Customs office name" check_attribute="*" attribute="A" id="A07" figure="10" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="32" Size="41, 21" Location="165, 393" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="27" input_output="-" check_full="" check_time="" check_date="" name="Sailing speed" check_attribute="*" attribute="F" id="A26" figure="4" required="C" />
+      <label Size="139, 28" AutoSize="False" Location="10, 88" Text="Immigration Bureau&#xD;&#xA;(Cục quản lý nhập cảnh)" Font="Tahoma, 9pt" />
+      <label Size="28, 19" Location="211, 394" Text="knot" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="26" Size="48, 21" Location="165, 92" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="User code of Immigration Bureau" check_attribute="*" attribute="A" id="A08" figure="5" required="C" />
+      <label Size="9, 19" Location="261, 367" Text="t" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="226, 93" Text="-" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="261, 340" Text="t" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="28" Size="363, 21" Location="241, 92" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="User name of Immigration Bureau" check_attribute="*" attribute="A" id="A09" figure="50" required="C" />
+      <label Size="83, 19" Location="10, 340" Text="Gross tonnage" Font="Tahoma, 9pt" />
+      <label Size="86, 28" AutoSize="False" Location="10, 116" Text="Port authority&#xD;&#xA;(Của cảng vụ)" Font="Tahoma, 9pt" />
+      <commatext TabIndex="29" Size="90, 21" Location="165, 366" TextAlign="Right" Font="Courier New, 9pt" BackColor="Control" form="" choice_keyvalue="" IsComma="True" order="26" input_output="-" check_full="" check_time="" check_date="" name="Net tonnage" check_attribute="*" attribute="F" id="A25" figure="9" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="30" Size="48, 21" Location="165, 120" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="User code of Port authority" check_attribute="*" attribute="A" id="A10" figure="5" required="C" />
+      <commatext TabIndex="26" Size="90, 21" Location="165, 339" TextAlign="Right" Font="Courier New, 9pt" BackColor="Control" form="" choice_keyvalue="" IsComma="True" order="25" input_output="-" check_full="" check_time="" check_date="" name="Gross tonnage" check_attribute="*" attribute="F" id="A24" figure="9" required="C" />
+      <label Size="9, 19" Location="226, 121" Text="-" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="14" Size="153, 21" Location="233, 312" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="-" check_full="" check_time="" check_date="" name="Port name of vessel registry" check_attribute="*" attribute="A" id="A23" figure="20" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="32" Size="363, 21" Location="241, 120" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="User name of Port authority" check_attribute="*" attribute="A" id="A11" figure="50" required="C" />
+      <label Size="9, 19" Location="218, 312" Text="-" Font="Tahoma, 9pt" />
+      <label Size="60, 19" Location="10, 149" Text="Registrant" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="13" Size="48, 21" Location="165, 312" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="-" check_full="" check_time="" check_date="" name="Port of vessel registry" check_attribute="*" attribute="A" id="A22" figure="5" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="34" Size="48, 21" Location="165, 148" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="Registrant" check_attribute="*" attribute="A" id="A12" figure="5" required="C" />
+      <label Size="123, 19" Location="10, 313" Text="Port of vessel registry" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="226, 149" Text="-" Font="Tahoma, 9pt" />
+      <label Size="62, 19" Location="10, 232" Text="Nationality" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="36" Size="363, 21" Location="241, 148" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Registrant name" check_attribute="*" attribute="A" id="A13" figure="50" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="48, 21" Location="165, 204" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="Vessel type code" check_attribute="*" attribute="A" id="A16" figure="5" required="C" />
+      <label Size="141, 19" Location="10, 260" Text="Certificate of registry No." Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="12" Size="27, 21" Location="165, 231" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Vessel nationality code" check_attribute="*" attribute="A" id="A18" figure="2" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="38" Size="258, 21" Location="165, 258" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="-" check_full="" check_time="" check_date="" name="Certificate of registry No." check_attribute="*" attribute="A" id="A20" figure="35" required="C" />
+      <label Size="31, 19" Location="10, 205" Text="Type" Font="Tahoma, 9pt" />
+      <label Size="89, 19" Location="10, 285" Text="Date of registry" Font="Tahoma, 9pt" />
+      <label Size="159, 19" Location="277, 178" Text="Fishing boat registration No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="40" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="165, 285" BackColor="Control" Font="Courier New, 9pt" form="" order="22" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of registry" check_attribute="*" attribute="A" id="A21" figure="8" AutoComplete="False" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="7" Size="76, 21" Location="442, 177" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Fishing boat registration No." check_attribute="*" attribute="A" id="A15" figure="9" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="6" Size="62, 21" Location="165, 177" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="IMO number" check_attribute="*" attribute="A" id="A14" figure="7" required="C" />
+      <label Size="50, 19" Location="10, 178" Text="IMO No." Font="Tahoma, 9pt" ForeColor="ControlText" />
+    </container>
+    <label Size="87, 19" Location="11, 19" Text="Reference type" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="14" Size="27, 21" Location="115, 18" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="A01" figure="1" required="C" />
+  </layout>
+</jobform>

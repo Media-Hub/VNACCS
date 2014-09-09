@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_EAW" jobname="Manifest submission B" display-name="Air manifest information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0210.xml" item_attr_edit="False" />
+  <friday href="VAS0210.xml" revision="0000" />
+  <iteminfo>
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="-" required="" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BN1" name="Flight No. 1 (flight number) (便名１)" input_output="-" required="" attribute="A" figure="6" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BN2" name="Flight No. 2 (date) (便名２)" input_output="-" required="" attribute="A" figure="5" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHP" name="Port of discharge code/Port of loading code (船卸港／船積港)" input_output="-" required="" attribute="A" figure="3" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DAT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="-" required="" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SBC" name="Submitter code (提出者)" input_output="-" required="" attribute="A" figure="5" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SBN" name="Submitter name (提出者名)" input_output="-" required="" attribute="A" figure="50" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NOT" name="Remarks (記事)" input_output="-" required="" attribute="A" figure="140" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 0" Size="718, 25" Font="Tahoma, 11pt" Text="Air manifest information" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="287, 76" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="BN2" input_output="-" name="Flight No. 2 (date) (便名２)" order="3" required="" />
+      <prttextbox Format="" Location="208, 76" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="BN1" input_output="-" name="Flight No. 1 (flight number) (便名１)" order="2" required="" />
+      <prttextbox Format="" Location="208, 99" Size="35, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SHP" input_output="-" name="Port of discharge code/Port of loading code (船卸港／船積港)" order="4" required="" />
+      <prttextbox Format="" Location="208, 53" Size="17, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="IEI" input_output="-" name="Import/Export indication (輸出入識別)" order="1" required="" />
+      <label Location="20, 50" Size="109, 23" Font="Tahoma, 11pt" Text="Import / Export" />
+      <label Location="20, 96" Size="182, 23" Font="Tahoma, 11pt" Text="Port of discharge / loading" />
+      <label Location="20, 73" Size="70, 23" Font="Tahoma, 11pt" Text="Flight No." />
+      <label Location="273, 72" Size="11, 23" Font="Tahoma, 11pt" Text="/" />
+      <prttextbox Format="dd/MM/yyyy" Location="208, 122" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DAT" input_output="-" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" order="5" required="" />
+      <prttextbox Format="" Location="208, 145" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="SBC" input_output="-" name="Submitter code (提出者)" order="6" required="" />
+      <label Location="20, 142" Size="70, 23" Font="Tahoma, 11pt" Text="Submitter" />
+      <label Location="20, 119" Size="180, 23" Font="Tahoma, 11pt" Text="Date of arrival / departure" />
+      <prttextbox Format="" Multiline="True" Location="287, 145" Size="233, 34" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="SBN" input_output="-" name="Submitter name (提出者名)" order="7" required="" />
+      <label Location="270, 142" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Multiline="True" Location="208, 188" Size="323, 68" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="140" form="" id="NOT" input_output="-" name="Remarks (記事)" order="8" required="" />
+      <label Location="20, 185" Size="63, 23" Font="Tahoma, 11pt" Text="Remarks" />
+    </page>
+  </layout>
+</jobform>

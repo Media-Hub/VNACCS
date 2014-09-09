@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Rail)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0540_3.xml" item_attr_edit="False" />
+  <friday href="VAS0540_3.xml" revision="0000" />
+  <iteminfo>
+    <fixedContainer repetition_max="30" expand="0" repetition_id="C00">
+      <item id="CM__" name="Goods description (品名)" input_output="-" required="" attribute="A" figure="70" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="HS__" name="HS code (First 4 digits) (HS)" input_output="-" required="" attribute="A" figure="4" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="TO__" name="Type of packing (包装の種類)" input_output="-" required="" attribute="A" figure="25" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="MR__" name="Marks and Nos. (記号番号)" input_output="-" required="" attribute="A" figure="140" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PC__" name="Number of packages (個数)" input_output="-" required="" attribute="I" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PU__" name="Number of packages unit code (個数単位)" input_output="-" required="" attribute="A" figure="3" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CG__" name="Gross weight (Consignor) (グロス重量（荷送人）)" input_output="-" required="" attribute="F" figure="10" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="1W__" name="Weight unit code (重量単位)" input_output="-" required="" attribute="A" figure="3" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RG__" name="Gross weight (Railway company) (グロス重量（鉄道会社）)" input_output="-" required="" attribute="F" figure="10" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="2W__" name="Weight unit code (重量単位)" input_output="-" required="" attribute="A" figure="3" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="NW__" name="Net weight (ネット重量)" input_output="-" required="" attribute="F" figure="10" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="3W__" name="Weight unit code (重量単位)" input_output="-" required="" attribute="A" figure="3" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VO__" name="Capacity (容積)" input_output="-" required="" attribute="F" figure="10" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="VU__" name="Capacity unit code (容積単位)" input_output="-" required="" attribute="A" figure="3" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="OR__" name="Country of origin code (原産国)" input_output="-" required="" attribute="A" figure="2" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SP__" name="Special cargo sign (危険貨物)" input_output="-" required="" attribute="A" figure="3" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </fixedContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MaxOccurs="6">
+      <pagelabel Location="653, 1024" Size="65, 23" Font="Tahoma, 9pt" Text="HH:mm:ss" TextAlign="BottomRight" PageFormat="PrintTime" />
+      <pagelabel Location="550, 1024" Size="100, 23" Font="Tahoma, 9pt" Text="yyyy/MM/dd" TextAlign="BottomRight" PageFormat="PrintDate" />
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 12pt" Text="Reference information on cargo (Rail)" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="2, 23" Size="692, 173" Font="Tahoma, 9pt" Count="5" repetition_id="C00" repetition_max="30" RepX="1" RepY="5" SpaceX="0" SpaceY="0">
+        <ranlabel Location="4, 14" Size="14, 14" Font="Tahoma, 9pt" figure="2" repetition_id="C00" Value="0" PadLeft="False" />
+        <label Location="27, 13" Size="56, 19" Font="Tahoma, 9pt" Text="Tên hàng" />
+        <prttextbox Format="" Multiline="True" Location="121, 16" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="CM__" input_output="-" name="Goods description (品名)" order="1" required="" />
+        <label Location="27, 54" Size="20, 19" Font="Tahoma, 9pt" Text="HS" />
+        <prttextbox Format="" Location="121, 54" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="HS__" input_output="-" name="HS code (First 4 digits) (HS)" order="2" required="" />
+        <label Location="27, 76" Size="64, 19" Font="Tahoma, 9pt" Text="Loại bao bì" />
+        <prttextbox Format="" Location="121, 77" Size="192, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="25" form="" id="TO__" input_output="-" name="Type of packing (包装の種類)" order="3" required="" />
+        <label Location="27, 96" Size="88, 19" Font="Tahoma, 9pt" Text="Ký hiệu số hiệu" />
+        <prttextbox Format="" Multiline="True" Location="121, 100" Size="252, 60" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="140" form="" id="MR__" input_output="-" name="Marks and Nos. (記号番号)" order="4" required="" />
+        <label Location="396, 13" Size="79, 19" Font="Tahoma, 9pt" Text="Số lượng kiện" />
+        <prttextbox Format="" Location="526, 14" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="PC__" input_output="-" name="Number of packages (個数)" order="5" required="" />
+        <label Location="598, 13" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="613, 14" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="PU__" input_output="-" name="Number of packages unit code (個数単位)" order="6" required="" />
+        <label Location="396, 31" Size="100, 19" Font="Tahoma, 9pt" Text="Tổng trọng lượng" />
+        <label Location="402, 50" Size="94, 19" Font="Tahoma, 9pt" Text="(Người gửi khai)" />
+        <prttextbox Format="" Location="526, 51" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="CG__" input_output="-" name="Gross weight (Consignor) (グロス重量（荷送人）)" order="7" required="" />
+        <label Location="609, 48" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="618, 51" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="1W__" input_output="-" name="Weight unit code (重量単位)" order="8" required="" />
+        <label Location="402, 71" Size="120, 19" Font="Tahoma, 9pt" Text="(Đường sắt xác định)" />
+        <prttextbox Format="" Location="526, 74" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="RG__" input_output="-" name="Gross weight (Railway company) (グロス重量（鉄道会社）)" order="9" required="" />
+        <label Location="609, 71" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="618, 74" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="2W__" input_output="-" name="Weight unit code (重量単位)" order="10" required="" />
+        <label Location="396, 94" Size="96, 19" Font="Tahoma, 9pt" Text="Trọng lượng tịnh" />
+        <prttextbox Format="" Location="526, 97" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="NW__" input_output="-" name="Net weight (ネット重量)" order="11" required="" />
+        <label Location="609, 94" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="618, 97" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="3W__" input_output="-" name="Weight unit code (重量単位)" order="12" required="" />
+        <label Location="396, 118" Size="49, 19" Font="Tahoma, 9pt" Text="Thể tích" />
+        <prttextbox Format="" Location="526, 121" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="VO__" input_output="-" name="Capacity (容積)" order="13" required="" />
+        <label Location="609, 118" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="618, 121" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="VU__" input_output="-" name="Capacity unit code (容積単位)" order="14" required="" />
+        <label Location="396, 144" Size="47, 19" Font="Tahoma, 9pt" Text="Xuất xứ" />
+        <prttextbox Format="" Location="449, 145" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR__" input_output="-" name="Country of origin code (原産国)" order="15" required="" />
+        <label Location="494, 144" Size="147, 19" Font="Tahoma, 9pt" Text="Ký hiệu hàng hóa đặc biệt" />
+        <prttextbox Format="" Location="647, 145" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SP__" input_output="-" name="Special cargo sign (危険貨物)" order="16" required="" />
+        <rectangle Location="0, 0" Size="692, 173" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

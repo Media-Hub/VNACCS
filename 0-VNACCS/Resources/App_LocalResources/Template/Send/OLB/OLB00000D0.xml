@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM21_OLB" jobname="保税運送申告(一般)" display-name="OLB Pre-registration of declaration on transportation (call up)">
+<meta_info format_Version="1.0" revision="0000" friday="OLB.xml" item_attr_edit="False" />
+  <friday href="OLB.xml" revision="0000" />
+  <iteminfo>
+    <item id="OLT" name="運送申告番号" input_output="+" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TM1" name="処理種別" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea manifest(cargo),A,Air manifest(cargo),R,Railway manifest(cargo)" out_flg="0" in_flg="1" />
+    <item id="CG1" name="運送期間終了予定年月日" input_output="+" required="C" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TM2" name="処理種別" input_output="+" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea manifest(cargo),A,Air manifest(cargo),R,Railway manifest(cargo)" out_flg="0" in_flg="1" />
+    <item id="CG2" name="運送期間終了予定年月日" input_output="+" required="C" attribute="A" figure="35" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TM3" name="処理種別" input_output="+" required="C" attribute="A" figure="1" form="" order="6" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea manifest(cargo),A,Air manifest(cargo),R,Railway manifest(cargo)" out_flg="0" in_flg="1" />
+    <item id="CG3" name="運送期間終了予定年月日" input_output="+" required="C" attribute="A" figure="35" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TM4" name="処理種別" input_output="+" required="C" attribute="A" figure="1" form="" order="8" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea manifest(cargo),A,Air manifest(cargo),R,Railway manifest(cargo)" out_flg="0" in_flg="1" />
+    <item id="CG4" name="運送期間終了予定年月日" input_output="+" required="C" attribute="A" figure="35" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TM5" name="処理種別" input_output="+" required="C" attribute="A" figure="1" form="" order="10" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea manifest(cargo),A,Air manifest(cargo),R,Railway manifest(cargo)" out_flg="0" in_flg="1" />
+    <item id="CG5" name="運送期間終了予定年月日" input_output="+" required="C" attribute="A" figure="35" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="11, 19" Location="164, 229" Text="1" Font="Tahoma, 9pt" />
+    <label Size="126, 19" Location="143, 121" Text="Số tờ khai vận chuyển" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="275, 120"  BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="運送申告番号" check_attribute="*" attribute="A" id="OLT" figure="12" required="C" />
+    <label Size="81, 19" Location="143, 183" Text="Loại manifest " Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="219" TabIndex="3" Size="40, 22" Location="189, 228" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea manifest(cargo)&#xD;&#xA;A,Air manifest(cargo)&#xD;&#xA;R,Railway manifest(cargo)&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="処理種別" check_attribute="*" attribute="A" id="TM1" figure="1" required="C" />
+    <combobox DropDownWidth="219" TabIndex="7" Size="40, 22" Location="189, 259" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea manifest(cargo)&#xD;&#xA;A,Air manifest(cargo)&#xD;&#xA;R,Railway manifest(cargo)&#xD;&#xA;" order="4" input_output="+" check_full="" check_time="" check_date="" name="処理種別" check_attribute="*" attribute="A" id="TM2" figure="1" required="C" />
+    <combobox DropDownWidth="219" TabIndex="11" Size="40, 22" Location="189, 289" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea manifest(cargo)&#xD;&#xA;A,Air manifest(cargo)&#xD;&#xA;R,Railway manifest(cargo)&#xD;&#xA;" order="6" input_output="+" check_full="" check_time="" check_date="" name="処理種別" check_attribute="*" attribute="A" id="TM3" figure="1" required="C" />
+    <combobox DropDownWidth="219" TabIndex="15" Size="40, 22" Location="189, 318" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea manifest(cargo)&#xD;&#xA;A,Air manifest(cargo)&#xD;&#xA;R,Railway manifest(cargo)&#xD;&#xA;" order="8" input_output="+" check_full="" check_time="" check_date="" name="処理種別" check_attribute="*" attribute="A" id="TM4" figure="1" required="C" />
+    <combobox DropDownWidth="219" TabIndex="19" Size="40, 22" Location="189, 347" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea manifest(cargo)&#xD;&#xA;A,Air manifest(cargo)&#xD;&#xA;R,Railway manifest(cargo)&#xD;&#xA;" order="10" input_output="+" check_full="" check_time="" check_date="" name="処理種別" check_attribute="*" attribute="A" id="TM5" figure="1" required="C" />
+    <label Size="73, 19" Location="238, 183" Text="Số hàng hóa" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="258, 21" Location="235, 228" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="運送期間終了予定年月日" check_attribute="*" attribute="A" id="CG1" figure="35" required="C" />
+    <label Size="65, 19" Location="159, 202" Text="(hàng hóa)" Font="Tahoma, 9pt" />
+    <label Size="11, 19" Location="164, 264" Text="2" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="258, 21" Location="235, 259" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="運送期間終了予定年月日" check_attribute="*" attribute="A" id="CG2" figure="35" required="C" />
+    <label Size="83, 19" Location="238, 202" Text="(Số B/L, AWB)" Font="Tahoma, 9pt" />
+    <label Size="11, 19" Location="164, 294" Text="3" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="13" Size="258, 21" Location="235, 289" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="運送期間終了予定年月日" check_attribute="*" attribute="A" id="CG3" figure="35" required="C" />
+    <label Size="11, 19" Location="164, 323" Text="4" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="17" Size="258, 21" Location="235, 318" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="運送期間終了予定年月日" check_attribute="*" attribute="A" id="CG4" figure="35" required="C" />
+    <label Size="11, 19" Location="164, 352" Text="5" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="21" Size="258, 21" Location="235, 347" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="+" check_full="" check_time="" check_date="" name="運送期間終了予定年月日" check_attribute="*" attribute="A" id="CG5" figure="35" required="C" />
+  </layout>
+</jobform>

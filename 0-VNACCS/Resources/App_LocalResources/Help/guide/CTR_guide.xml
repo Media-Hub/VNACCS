@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CTR" name="">
+  <item no="1" name="Arrival / Departure declaration No.&#xA;&#xA;" id="AND" required="" code="">
+  </item>
+  <item no="2" name="Examination result" id="EXR" required="" code="">Enter the result of examination / inspection about the declaration.
+A: Permission
+X: Disapproval
+
+</item>
+  <item no="3" name="Additional requirements" id="ADD" required="" code="">In case Customs officials required more documents for verification, enter the information of the documents
+(e.g.)
+- Through traffic permits/grant (valid)
+- Transport means registration license
+- Driving license
+- List of passenger
+- Other
+</item>
+  <item no="4" name="Remarks&#xA;(for examination)&#xA;" id="RME" required="" code="">This field is used for following purpose;
+- Examiner's comments for additional declaration to changing driver
+- Examiner's comments for additional declaration to extension to stay
+- Examiner's comments for the other issue.
+
+</item>
+  <item no="5" name="Existence of violation minutes&#xA;" id="VIO" required="" code="">In case there is violation minutes, enter "1"</item>
+  <item no="6" name="Violation minute No.&#xA;&#xA;" id="VIN" required="" code="">
+  </item>
+  <item no="7" name="Date of violation minute&#xA;&#xA;" id="VID" required="" code="">
+  </item>
+  <item no="8" name="Remarks&#xA;(for inspection)&#xA;" id="RMI" required="" code="">This field is used for following purpose;
+- Inspector's comments for inspection
+- Inspector's comments for violation minutes
+- Inspector's comments for the other issue.
+
+</item>
+</guide>

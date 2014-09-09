@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IVS" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Vessel call sign" id="VEC">
+    <description>Người nhập không phải là người đăng ký và không có Mã nhà vận chuyển đã được đăng ký là người điều hành tàu hoặc người sở hữu của tàu này.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Tầu.</disposition>
+  </response>
+  <response code="U0003" name="Arrival notification number/Departure notification number" id="INN">
+    <description>Số thông báo này đã được đăng ký bởi người dùng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của thông tin thông báo nhập cảng.</disposition>
+  </response>
+  <response code="U0004" name="Vessel call sign&#xA;Arrival port code/Departure port code&#xA;Arrival port suffix/Departure port suffix&#xA;Voyage No." id="VEC&#xA;NMC&#xA;NMS&#xA;KBF">
+    <description>Thông tin thông báo nhập cảng tương ứng với giá trị đã nhập được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của thông tin thông báo nhập cảng.</disposition>
+  </response>
+  <response code="U0005" name="Arrival notification number/Departure notification number" id="INN">
+    <description>Số thông báo này đã được đăng ký bởi người dùng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của thông tin thông báo xuất cảng.</disposition>
+  </response>
+  <response code="U0006" name="Vessel call sign&#xA;Arrival port code/Departure port code&#xA;Arrival port suffix/Departure port suffix&#xA;Voyage No." id="VEC&#xA;NMC&#xA;NMS&#xA;KBF">
+    <description>Thông tin thông báo xuất cảng tương ứng với giá trị đã nhập được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung đã nhập của thông tin thông báo xuất cảng.</disposition>
+  </response>
+  <response code="S0001" name="Reference type" id="MDC">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xem dữ liệu.</disposition>
+  </response>
+  <response code="S0002" name="Reference type" id="MDC">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xem dữ liệu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Arrival notification number/Departure notification number" id="INN">
+    <description>Chưa thể nhập vào mục này do Phân loại xem dữ liệu là "A".</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0004" name="Vessel call sign" id="VEC">
+    <description>Yêu cầu nhập liệu theo Phân loại xem dữ liệu là "A".</description>
+    <disposition>Nhập Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="S0005" name="Arrival port code/Departure port code" id="NMC">
+    <description>Không thể nhập vào mục này do Phân loại xem dữ liệu là "A".</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0006" name="Arrival port suffix/Departure port suffix" id="NMS">
+    <description>Không thể nhập vào mục này do Phân loại xem dữ liệu là "A".</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0007" name="Voyage No." id="KBF">
+    <description>Không thể nhập vào mục này do Phân loại xem dữ liệu là "A".</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0001" name="Arrival notification number/Departure notification number&#xA;Vessel call sign" id="INN&#xA;VEC">
+    <description>Chỉ được nhập một trong những giá trị.</description>
+    <disposition>Xóa một trong những nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0002" name="Arrival notification number/Departure notification number&#xA;Arrival port code/Departure port code" id="INN&#xA;NMC">
+    <description>Không thể nhập vào cảng đến/cảng đi khi Số thông báo được nhập.</description>
+    <disposition>Xóa nội dung đã nhập của Cảng đến/ cảng đi.</disposition>
+  </response>
+  <response code="R0003" name="Arrival notification number/Departure notification number&#xA;Arrival port suffix/Departure port suffix" id="INN&#xA;NMS">
+    <description>Không thể nhập vào Số nhánh của cảng đến/Số nhánh của cảng đi khi Số thông báo được nhập.</description>
+    <disposition>Xóa nội dung đã nhập của Số nhánh của Cảng đến / Số nhánh của cảng đi.</disposition>
+  </response>
+  <response code="R0004" name="Arrival notification number/Departure notification number&#xA;Voyage No." id="INN&#xA;KBF">
+    <description>Không thể nhập vào Số chuyến đi biển khi Số thông báo được nhập.</description>
+    <disposition>Xóa nội dung đã nhập của Số chuyến đi biển.</disposition>
+  </response>
+  <response code="R0005" name="Vessel call sign&#xA;Arrival port code/Departure port code" id="VEC&#xA;NMC">
+    <description>Yêu cầu nhập Cảng đến/cảng đi khi Hô hiệu của tầu được nhập.</description>
+    <disposition>Nhập Cảng đến/cảng đi.</disposition>
+  </response>
+  <response code="R0006" name="Vessel call sign&#xA;Arrival port suffix/Departure port suffix" id="VEC&#xA;NMS">
+    <description>Yêu cầu nhập Số nhánh cảng đến/Số nhánh của cảng đi khi Hô hiệu của tầu được nhập.</description>
+    <disposition>Nhập Số nhánh cảng đến / Số nhánh của cảng đi.</disposition>
+  </response>
+  <response code="R0007" name="Vessel call sign&#xA;Voyage No." id="VEC&#xA;KBF">
+    <description>Yêu cầu nhập Số chuyến đi biển khi Hô hiệu của tầu được nhập.</description>
+    <disposition>Nhập Số chuyến đi biển</disposition>
+  </response>
+  <response code="R0008" name="Vessel call sign&#xA;Arrival notification number/Departure notification number" id="VEC&#xA;INN">
+    <description>Yêu cầu nhập một trong những giá trị.</description>
+    <disposition>Nhập Số thông báo hoặc Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Vessel call sign" id="VEC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Vessel call sign" id="VEC">
+    <description>Hô hiệu của tầu này đã bị hủy.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0004" name="Arrival notification number/Departure notification number" id="INN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0005" name="Vessel call sign&#xA;Arrival port code/Departure port code&#xA;Arrival port suffix/Departure port suffix&#xA;Voyage No." id="VEC&#xA;NMC&#xA;NMS&#xA;KBF">
+    <description>Thông tin thông báo nhập cảng liên quan đến giá trị nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0006" name="Arrival notification number/Departure notification number" id="INN">
+    <description>Giá trị nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0007" name="Vessel call sign&#xA;Arrival port code/Departure port code&#xA;Arrival port suffix/Departure port suffix&#xA;Voyage No." id="VEC&#xA;NMC&#xA;NMS&#xA;KBF">
+    <description>Thông tin thông báo nhập cảng tương ứng với giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+</help>

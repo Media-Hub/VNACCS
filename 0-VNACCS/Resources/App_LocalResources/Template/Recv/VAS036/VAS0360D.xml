@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IRM" jobname="Reference of manifest information C" display-name="Reference information of manifest summary (Rail)">
+<meta_info format_Version="1.0" revision="0000" friday="VAS0360.xml" item_attr_edit="False" />
+  <friday href="VAS0360.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type (照会種別)" input_output="-" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REF" name="Reference No. (照会番号)" input_output="-" required="C" attribute="I" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="-" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRN" name="Train registry No. (鉄道登録番号)" input_output="-" required="C" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARD" name="Arrival station code/Departure station code (到着駅／出発駅)" input_output="-" required="C" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Arrival station name/Departure station name (到着駅名／出発駅名)" input_output="-" required="C" attribute="A" figure="35" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IDT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="-" required="C" attribute="A" figure="8" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="Status indication (状況識別)" input_output="-" required="C" attribute="A" figure="3" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="5">
+      <item id="SCA" name="Carrier code (キャリアコード)" input_output="-" required="C" attribute="A" figure="6" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B03" name="Registrant code of manifest information (マニフェスト登録者)" input_output="-" required="C" attribute="A" figure="5" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B06" name="Registrant name of manifest information (マニフェスト登録者名)" input_output="-" required="C" attribute="A" figure="50" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B07" name="Submitter code of manifest information (提出者)" input_output="-" required="C" attribute="A" figure="5" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B08" name="Submitter name of manifest information (提出者名)" input_output="-" required="C" attribute="A" figure="50" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B09" name="Number of B/Ls (B/L件数)" input_output="-" required="C" attribute="I" figure="3" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B10" name="Number of freight cars (空貨車数)" input_output="-" required="C" attribute="I" figure="2" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B11" name="Number of containers (コンテナ本数)" input_output="-" required="C" attribute="I" figure="2" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B12" name="Number of empty freight cars (空貨車数)" input_output="-" required="C" attribute="I" figure="2" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B13" name="Number of empty containers (空コンテナ本数)" input_output="-" required="C" attribute="I" figure="2" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="122, 19" Location="21, 20" Text="Phân loại xem dữ liệu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="20, 21" Location="150, 18" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Reference type (照会種別)" check_attribute="*" attribute="A" id="KBN" figure="1" required="C" />
+    <label Size="83, 19" Location="176, 19" Text="Số tham chiếu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="264, 18" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Reference No. (照会番号)" check_attribute="*" attribute="I" id="REF" figure="12" required="C" />
+    <label Size="131, 19" Location="367, 20" Text="Nhập khẩu / Xuất khẩu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="20, 21" Location="504, 20" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <label Size="97, 19" Location="21, 48" Text="Số hiệu đoàn tàu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="83, 21" Location="150, 47" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="Train registry No. (鉄道登録番号)" check_attribute="*" attribute="A" id="TRN" figure="10" required="C" />
+    <label Size="9, 19" Location="207, 75" Text="-" Font="Tahoma, 9pt" />
+    <label Size="83, 19" Location="21, 75" Text="Ga đến / ga đi" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="55, 21" Location="150, 74" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Arrival station code/Departure station code (到着駅／出発駅)" check_attribute="*" attribute="A" id="ARD" figure="6" required="C" />
+    <label Size="123, 19" Location="21, 103" Text="Ngày dự kiến đến / đi" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="8" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="78, 21" Location="150, 101" BackColor="Control" Font="Courier New, 9pt" form="" order="8" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="C" />
+    <label Size="76, 19" Location="238, 103" Text="Cờ trạng thái" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="34, 21" Location="320, 101" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Status indication (状況識別)" check_attribute="*" attribute="A" id="A08" figure="3" required="C" />
+    <navigator Visible="False" TabIndex="22" Location="537, 3" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="23" Size="636, 159" Location="21, 128" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="5" RepX="1" repetition_id="R01" repetition_max="5">
+      <ranlabel Size="21, 14" Location="8, 18" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="9, 19" Location="229, 64" Text="-" Font="Tahoma, 9pt" />
+      <label Size="111, 19" Location="35, 16" Text="Mã nhà vận chuyển" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="55, 21" Location="178, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Carrier code (キャリアコード)" check_attribute="*" attribute="A" id="SCA" figure="6" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="48, 21" Location="178, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Registrant code of manifest information (マニフェスト登録者)" check_attribute="*" attribute="A" id="B03" figure="5" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="12" Size="363, 21" Location="241, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Registrant name of manifest information (マニフェスト登録者名)" check_attribute="*" attribute="A" id="B06" figure="50" required="C" />
+      <label Size="111, 19" Location="35, 65" Text="Người nộp Manifest" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="13" Size="48, 21" Location="178, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="Submitter code of manifest information (提出者)" check_attribute="*" attribute="A" id="B07" figure="5" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="14" Size="363, 21" Location="241, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Submitter name of manifest information (提出者名)" check_attribute="*" attribute="A" id="B08" figure="50" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="15" Size="34, 21" Location="178, 87" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="Number of B/Ls (B/L件数)" check_attribute="*" attribute="I" id="B09" figure="3" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="16" Size="27, 21" Location="178, 110" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Number of freight cars (空貨車数)" check_attribute="*" attribute="I" id="B10" figure="2" required="C" />
+      <label Size="57, 19" Location="35, 133" Text="Container" Font="Tahoma, 9pt" />
+      <label Size="137, 19" Location="35, 41" Text="Người khai báo Manifest" Font="Tahoma, 9pt" />
+      <label Size="9, 19" Location="229, 40" Text="-" Font="Tahoma, 9pt" />
+      <label Size="75, 19" Location="35, 87" Text="Số lượng B/L" Font="Tahoma, 9pt" />
+      <label Size="59, 19" Location="110, 133" Text="(Có hàng)" Font="Tahoma, 9pt" />
+      <label Size="59, 19" Location="110, 110" Text="(Có hàng)" Font="Tahoma, 9pt" />
+      <label Size="46, 19" Location="35, 110" Text="Toa tàu" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="17" Size="27, 21" Location="178, 133" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="Number of containers (コンテナ本数)" check_attribute="*" attribute="I" id="B11" figure="2" required="C" />
+      <label Size="42, 19" Location="215, 110" Text="(Rỗng)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="18" Size="27, 21" Location="263, 110" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Number of empty freight cars (空貨車数)" check_attribute="*" attribute="I" id="B12" figure="2" required="C" />
+      <label Size="42, 19" Location="215, 133" Text="(Rỗng)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="19" Size="27, 21" Location="263, 133" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Number of empty containers (空コンテナ本数)" check_attribute="*" attribute="I" id="B13" figure="2" required="C" />
+    </container>
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="258, 21" Location="219, 74" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Arrival station name/Departure station name (到着駅名／出発駅名)" check_attribute="*" attribute="A" id="A06" figure="35" required="C" />
+  </layout>
+</jobform>

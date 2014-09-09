@@ -1,0 +1,369 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A344305F-D2E2-4350-B61E-D7277959A5B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevComponents.DotNetBar.SuperGrid</RootNamespace>
+    <AssemblyName>DevComponents.DotNetBar.SuperGrid</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SuperGrid.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SUPERGRID</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\DevComponents.DotNetBar.SuperGrid.XML</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;SUPERGRID</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\DevComponents.DotNetBar.SuperGrid.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTrialSG|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>SUPERGRID;TRIAL</DefineConstants>
+    <DocumentationFile>bin\Release\DevComponents.DotNetBar.SuperGrid.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseTrial|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;SUPERGRID;TRIAL</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>bin\Release\DevComponents.DotNetBar.SuperGrid.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContentManager\BlockLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentManager\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentManager\IBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentManager\IBlockExtended.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentManager\IContentLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentManager\SerialContentLayoutManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\ColorHelpers.cs" />
+    <Compile Include="Helpers\ConvertValue.cs" />
+    <Compile Include="Helpers\DragDrop.cs" />
+    <Compile Include="Helpers\TextHelpers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperGrid\FloatWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="SampleExpr.rtf" />
+    <None Include="SuperGrid.snk" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridComboTreeEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridRatingStarEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridImageEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridComboBoxExEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridBubbleBarEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridTextBoxDropDownEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridMaskedTextBoxEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridIpAddressInputEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridLabelXEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridProgressBarXEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridCheckBoxEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridTrackBarEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridNumericUpDownEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridLabelEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridDateTimePickerEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridSwitchButtonEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridGaugeEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridButtonXEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridButtonEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridMicroChartEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\IGridCellEditControl.cs" />
+    <Compile Include="SuperGrid\CellEditors\GridDateTimeInputEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridSliderEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridDoubleInputEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridIntegerInputEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridCheckBoxXEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\GridTextBoxXEditControl.cs">
+    </Compile>
+    <Compile Include="SuperGrid\CellEditors\EditorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellInfoWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\CellInfoWindow.Designer.cs">
+      <DependentUpon>CellInfoWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\DataBinder.cs" />
+    <Compile Include="SuperGrid\EEval.cs" />
+    <Compile Include="SuperGrid\FloatWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\FloatWindow.Designer.cs">
+      <DependentUpon>FloatWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridCaption.cs" />
+    <Compile Include="SuperGrid\GridColumn.cs" />
+    <Compile Include="SuperGrid\GridColumnCollection.cs" />
+    <Compile Include="SuperGrid\GridColumnHeader.cs" />
+    <Compile Include="SuperGrid\GridFilter\CustomFilter.cs">
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\CustomFilter.Designer.cs">
+      <DependentUpon>CustomFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\CustomFilterEx.cs">
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\CustomFilterEx.Designer.cs">
+      <DependentUpon>CustomFilterEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\DataFilter.cs" />
+    <Compile Include="SuperGrid\GridFilter\FilterDateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterDateTimePicker.Designer.cs">
+      <DependentUpon>FilterDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterEval.cs" />
+    <Compile Include="SuperGrid\GridFilter\FilterExprEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterExprEdit.Designer.cs">
+      <DependentUpon>FilterExprEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterPopup.cs">
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\FilterScan.cs" />
+    <Compile Include="SuperGrid\GridFilter\FilterUserData.cs" />
+    <Compile Include="SuperGrid\GridFilter\GridFilter.cs" />
+    <Compile Include="SuperGrid\GridFilter\PopupControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\Rtf.cs" />
+    <Compile Include="SuperGrid\GridFilter\SampleExpr.cs">
+    </Compile>
+    <Compile Include="SuperGrid\GridFilter\SampleExpr.Designer.cs">
+      <DependentUpon>SampleExpr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperGrid\GridFooter.cs" />
+    <Compile Include="SuperGrid\GridGroupBy.cs" />
+    <Compile Include="SuperGrid\GridHeader.cs" />
+    <Compile Include="SuperGrid\GridTextRow.cs" />
+    <Compile Include="SuperGrid\GridTitle.cs" />
+    <Compile Include="SuperGrid\Licensing.cs" />
+    <Compile Include="SuperGrid\SelectedElementCollection.cs" />
+    <Compile Include="SuperGrid\SelectedElements.cs" />
+    <Compile Include="SuperGrid\SortableBindingList.cs" />
+    <Compile Include="SuperGrid\Style\BackColorBlend.cs" />
+    <Compile Include="SuperGrid\Style\BaseRowHeaderVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\BaseVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\BorderPattern.cs" />
+    <Compile Include="SuperGrid\Style\ColumnHeaderRowStyle.cs" />
+    <Compile Include="SuperGrid\Style\ColumnHeaderVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\FilterColumnHeaderVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\FilterRowVisualStyles.cs" />
+    <Compile Include="SuperGrid\Style\GroupByVisualStyles.cs" />
+    <Compile Include="SuperGrid\Style\GroupHeaderVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\GridPanelVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\RowHeaderVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\RowVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\TextRowVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\TreeButtonVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\VisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\VisualStyles.cs" />
+    <Compile Include="SuperGrid\Style\DefaultVisualStyles.cs" />
+    <Compile Include="SuperGrid\GridCell.cs" />
+    <Compile Include="SuperGrid\GridCellCollection.cs" />
+    <Compile Include="SuperGrid\GridContainer.cs" />
+    <Compile Include="SuperGrid\GridGroup.cs" />
+    <Compile Include="SuperGrid\GridLayoutInfo.cs" />
+    <Compile Include="SuperGrid\GridPanel.cs" />
+    <Compile Include="SuperGrid\GridRenderInfo.cs" />
+    <Compile Include="SuperGrid\GridRow.cs" />
+    <Compile Include="SuperGrid\GridVirtualRowCollection.cs" />
+    <Compile Include="SuperGrid\Primitives\CustomCollection.cs" />
+    <Compile Include="SuperGrid\Style\Background.cs" />
+    <Compile Include="SuperGrid\Style\BorderColor.cs" />
+    <Compile Include="SuperGrid\CheckDisplay.cs" />
+    <Compile Include="SuperGrid\ExpandDisplay.cs" />
+    <Compile Include="SuperGrid\Style\Padding.cs" />
+    <Compile Include="SuperGrid\Style\CellVisualStyle.cs" />
+    <Compile Include="SuperGrid\Style\Thickness.cs" />
+    <Compile Include="SuperGrid\SuperGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperGrid\GridElement.cs">
+    </Compile>
+    <Compile Include="SuperGrid\GridItemsCollection.cs" />
+    <Compile Include="SuperGrid\TextDrawing.cs" />
+    <Compile Include="SuperGrid\TreeDisplay.cs" />
+    <Compile Include="TextMarkup\BodyElement.cs" />
+    <Compile Include="TextMarkup\ContainerElement.cs" />
+    <Compile Include="TextMarkup\Div.cs" />
+    <Compile Include="TextMarkup\EndMarkupElement.cs" />
+    <Compile Include="TextMarkup\ExpandElement.cs" />
+    <Compile Include="TextMarkup\FontChangeElement.cs" />
+    <Compile Include="TextMarkup\FontElement.cs" />
+    <Compile Include="TextMarkup\Heading.cs" />
+    <Compile Include="TextMarkup\HyperLink.cs" />
+    <Compile Include="TextMarkup\IActiveMarkupElement.cs" />
+    <Compile Include="TextMarkup\ImageElement.cs" />
+    <Compile Include="TextMarkup\Italic.cs" />
+    <Compile Include="TextMarkup\MarkupDrawContext.cs" />
+    <Compile Include="TextMarkup\MarkupElement.cs" />
+    <Compile Include="TextMarkup\MarkupElementCollection.cs" />
+    <Compile Include="TextMarkup\MarkupLayoutManager.cs" />
+    <Compile Include="TextMarkup\MarkupParser.cs" />
+    <Compile Include="TextMarkup\MarkupSettings.cs" />
+    <Compile Include="TextMarkup\NewLine.cs" />
+    <Compile Include="TextMarkup\Paragraph.cs" />
+    <Compile Include="TextMarkup\Span.cs" />
+    <Compile Include="TextMarkup\Strike.cs" />
+    <Compile Include="TextMarkup\Strong.cs" />
+    <Compile Include="TextMarkup\TextElement.cs" />
+    <Compile Include="TextMarkup\Underline.cs" />
+    <Compile Include="VisualStyles\MetroStyleFactory.cs" />
+    <Compile Include="VisualStyles\Office2010BlackStyleFactory.cs" />
+    <Compile Include="VisualStyles\Office2010BlueStyleFactory.cs" />
+    <Compile Include="VisualStyles\Office2010SilverStyleFactory.cs" />
+    <Compile Include="VisualStyles\VisualStyleFactory.cs" />
+    <Compile Include="VisualStyles\VisualStylesTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pencil3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InsertRow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InfoImage.png" />
+    <EmbeddedResource Include="SuperGrid\CellInfoWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CellInfoWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SuperGridControl.png" />
+    <EmbeddedResource Include="SuperGrid\GridFilter\CustomFilter.resx">
+      <DependentUpon>CustomFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperGrid\GridFilter\CustomFilterEx.resx">
+      <DependentUpon>CustomFilterEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperGrid\GridFilter\FilterDateTimePicker.resx">
+      <DependentUpon>FilterDateTimePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperGrid\GridFilter\FilterExprEdit.resx">
+      <DependentUpon>FilterExprEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperGrid\GridFilter\SampleExpr.resx">
+      <DependentUpon>SampleExpr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetBar.csproj">
+      <Project>{36546CE3-335C-4AB6-A2F3-40F8C818BC66}</Project>
+      <Name>DotNetBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InstrumentationControls\DevComponents.Instrumentation.csproj">
+      <Project>{3084E369-3D7B-4918-958F-2776DA03E6BC}</Project>
+      <Name>DevComponents.Instrumentation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

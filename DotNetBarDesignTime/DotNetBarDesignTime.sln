@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBarDesignTime", "DotNetBarDesignTime.csproj", "{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseTrial2005Design|Any CPU = ReleaseTrial2005Design|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.ReleaseTrial2005Design|Any CPU.ActiveCfg = ReleaseTrial2005Design|Any CPU
+		{BDA04B2C-CE5A-4264-8266-EF8ED4A6837D}.ReleaseTrial2005Design|Any CPU.Build.0 = ReleaseTrial2005Design|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

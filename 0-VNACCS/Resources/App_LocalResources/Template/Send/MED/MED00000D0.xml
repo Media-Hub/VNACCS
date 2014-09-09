@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="AAM32_MED" jobname="AAM32_MED" display-name="Correction of export declaration (Tax exempted small amount clearance) (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="AAM32_MED.xml" item_attr_edit="True" />
+  <friday href="AAM32_MED.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="239, 181" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="315, 179" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+  </layout>
+</jobform>

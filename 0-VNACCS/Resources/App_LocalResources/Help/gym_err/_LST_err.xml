@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="_LST" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="S0001" name="None" id="0000">
+    <description>Mã thông tin đầu ra có ký tự không chính xác.</description>
+    <disposition>Nhập Mã thông tin đầu ra phù hợp.</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có tập tin văn bản quản lý tương ứng với Mã thông tin đầu ra.</description>
+    <disposition>Nhập Mã thông tin đầu ra phù hợp.</disposition>
+  </response>
+</help>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="VBX11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Vessel call sign" id="VEC">
+    <description>Người nhập không phải là người đăng ký và không có Mã nhà vận chuyển đã được đăng ký là người vận hành tàu hoặc người sở hữu của tầu chở hàng này.</description>
+    <disposition>Kiểm tra nội dung nhập của Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="S0001" name="Vessel call sign" id="VEC">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Hô hiệu của tầu.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Vessel call sign" id="VEC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ</disposition>
+  </response>
+  <response code="E0003" name="Vessel call sign" id="VEC">
+    <description>Hô hiệu của tầu này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Hô hiệu của tầu.</disposition>
+  </response>
+</help>

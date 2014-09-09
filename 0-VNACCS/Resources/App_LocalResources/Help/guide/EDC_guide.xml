@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="EDC" name="Export declaration">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ EDA</item>
+  <item no="2" name="Classification of outputting corrected report" id="JKN" required="" code="">
+  </item>
+</guide>

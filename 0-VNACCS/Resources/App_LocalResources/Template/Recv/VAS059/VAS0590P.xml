@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CET" jobname="Registration of completion of examination/inspection (declaration on transportation)" display-name="Vehicle cancelled transship/transit notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0590.xml" item_attr_edit="False" />
+  <friday href="VAS0590.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Transportation equipment code" input_output="-" required="" attribute="A" figure="38" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Arrival location of bonded transportation" input_output="-" required="" attribute="A" figure="6" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Submitter code" input_output="-" required="" attribute="A" figure="5" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Submitter name" input_output="-" required="" attribute="A" figure="50" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Cargo No. " input_output="-" required="" attribute="A" figure="35" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <label Location="162, 203" Size="101, 41" Font="Tahoma, 11pt" Text="Cargo No.&#xD;&#xA;(Số hàng hóa)" />
+      <pagelabel Location="0, 0" Size="718, 30" Font="Tahoma, 11pt" Text="Vehicle cancelled transship/transit notification / Thông báo hủy chuyển tải/quá cảnh đường bộ" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="239, 64" Size="360, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="38" form="" id="A01" input_output="-" name="Transportation equipment code" order="1" required="" />
+      <label Location="25, 50" Size="186, 41" Font="Tahoma, 11pt" Text="Transportation equipment&#xD;&#xA;(Phương tiện chuyên chở)" />
+      <prttextbox Format="" Location="162, 154" Size="54, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A03" input_output="-" name="Submitter code" order="3" required="" />
+      <prttextbox Format="" Location="239, 109" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Arrival location of bonded transportation" order="2" required="" />
+      <label Location="25, 95" Size="112, 41" Font="Tahoma, 11pt" Text="Arrival location&#xD;&#xA;(Địa điểm đích)" />
+      <label Location="25, 140" Size="86, 41" Font="Tahoma, 11pt" Text="Submitter&#xD;&#xA;(Người nộp)" />
+      <prttextbox Format="" Location="239, 154" Size="472, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A04" input_output="-" name="Submitter name" order="4" required="" />
+      <label Location="222, 151" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="162, 247" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A05" input_output="-" name="Cargo No. " order="5" required="" />
+    </page>
+  </layout>
+</jobform>

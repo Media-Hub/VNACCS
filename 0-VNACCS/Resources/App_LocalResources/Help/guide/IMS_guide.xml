@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IMS" name="Reference of cargo information for manifest screening">
+  <item no="1" name="Manifest type" id="TOM" required="" code="">Người dùng lựa chọn chỉ số thông tin do hệ thống cung cấp để thực hiện tìm kiếm. Cụ thể:
+S: Manifest đường biển
+A: Manifest đường không
+R: Manifest đường sắt
+</item>
+  <item no="2" name="Port of discharge code" id="DPR" required="" code="UN/LOCODE&#xA;IATA airport code and IATA city code&#xA;Station code">Tuỳ theo từng loại manifest đã nhập theo các hình thức chuyên chở, người dùng phải thực hiện như sau:
+1. Manifest đường biển (S), người dùng phải nhập mã cảng dỡ hàng theo mã UN/LOCODE với 5 ký tự.
+2. Manifest đường không (A) người dùng phải nhập mã sân bay theo bảng mã IATA /mã thành phố với 3 ký tự.
+3. Manifest đường sắt (R), nhập mã nhà ga với 6 ký tự
+Các tiêu chí này là bắt buộc phải nhập
+</item>
+  <item no="3" name="Country of loading/Country of shipment" id="CDP" required="" code="UN/LOCODE&#xA;(2-digit country code)">
+  </item>
+  <item no="4" name="Port of loading code/Departure station code" id="LPR" required="" code="UN/LOCODE&#xA;IATA airport code and IATA city code&#xA;Station code">1. Trong trường hợp loại Manifest được nhập là S, nhập UN/LOCODE với 5 ký tự.
+2. Trong trường hợp loại Manifest được nhập là A, nhập mã sân bay IATA /mã thành phố với 3 ký tự.
+3. Trong trờng hợp Manifest nhập là R, nhập mã nhà ga với 6 ký tự.
+Các tiêu chí này là không bắt buộc phải nhập
+</item>
+  <item no="5" name="Transportation equipment code" id="EQP" required="" code="">1. Trong trường hợp loại Manifest được nhập là "S", nhập hô hiệu của tàu với 6 ký tự.
+2. Trong trường hợp loại Manifest được nhập là A, nhập Số chuyến bay với định dạng như sau:
+"Chuyến bay số 1: (6 ký tự)" + "/" + "Chuyến bay số 2 (5 ký tự)"
+("Chuyến bay số 1: 2 ký tự với mã hãng hàng không (A214), Chuyến bay số 2: DDMMM)
+3. Trường hợp loại manifest là "R", nhập số chuyến tàu đăng ký. Trong vòng 10 ký tự. 
+Các tiêu chí này là không bắt buộc phải nhập
+</item>
+  <item no="6" name="Carrier code" id="SCA" required="" code="Carrier code">1. Trong trường hợp loại Manifest được nhập là S, nhập mã người vận tải 6 ký tự.
+2. Trong trường hợp loại Manifest được nhập là A, nhập mã máy bay 2 ký tự.
+3. Trong trờng hợp Manifest nhập là R, nhập mã người vận tải với 6 ký tự.
+</item>
+  <item no="7" name="Consignor name" id="SHS" required="" code="">
+  </item>
+  <item no="8" name="Consignee name" id="CNS" required="" code="">
+  </item>
+  <item no="9" name="Notify party name" id="NSP" required="" code="">Trường hợp có 2 thông tin về người thông báo đã được đăng ký trên manifest,  thì chỉ người được thông báo đầu tiên mới có thể tìm kiếm được.</item>
+  <item no="10" name="Container No./Freight car No." id="CNO" required="" code="">1. Trường hợp loại manifest được nhập là "S", nhập số cont với 12 ký tự.
+2. Trường hợp loại manifest được nhập là "R", nhập các định dạng khác như sau:
+- "Số ô tô vận chuyển" trong vòng 17 ký tự.
+- "Số ô tô vận chuyển"+"/"+ số Cont/dụng cụ vận chuyển" trong vòng 30 ký tự.
+3. Trường hợp loại manifest được nhập là A, thì sẽ ô này sẽ không được nhập thông tin
+</item>
+</guide>

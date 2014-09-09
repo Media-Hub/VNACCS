@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM83_MSB" jobname="Attached document files registration" display-name="Attached document files registration">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM83_MSB.xml" item_attr_edit="False" />
+  <friday href="CAM83_MSB.xml" revision="0000" />
+  <iteminfo>
+    <item id="CHN" name="Customs Office" input_output="+" required="M" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CHB" name="Customs Sub-section" input_output="+" required="M" attribute="A" figure="2" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SUB" name="Subject" input_output="+" required="C" attribute="W" figure="210" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ICN" name="Declaration No" input_output="+" required="C" attribute="I" figure="12" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TUS" name="Remarks" input_output="+" required="C" attribute="W" figure="996" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="0" Size="445, 48" Location="24, 24" Text="Kiểm soát nơi đến" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="113, 19" Location="20, 19" Text="Cơ quan Hải quan *" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="2" Size="27, 21" Location="354, 18" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Customs Sub-section" check_attribute="*" attribute="A" id="CHB" figure="2" required="M" />
+      <label Size="115, 19" Location="233, 19" Text="Nhóm xử lý hồ sơ  *" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="55, 21" Location="137, 18" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Customs Office" check_attribute="*" attribute="A" id="CHN" figure="6" required="M" />
+    </container>
+    <label Size="45, 19" Location="30, 83" Text="Tiêu đề" Font="Tahoma, 9pt" />
+    <textbox TabIndex="3" Multiline="True" Size="433, 36" Location="146, 82" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Subject" check_attribute="*" attribute="W" id="SUB" figure="210" required="C" />
+    <label Size="59, 19" Location="30, 125" Text="Số tờ khai" Font="Tahoma, 9pt" />
+    <label Size="46, 19" Location="30, 152" Text="Ghi chú" Font="Tahoma, 9pt" />
+    <textbox TabIndex="5" Multiline="True" Size="433, 96" Location="146, 151" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Remarks" check_attribute="*" attribute="W" id="TUS" figure="996" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="97, 21" Location="146, 124" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Declaration No" check_attribute="*" attribute="I" id="ICN" figure="12" required="C" />
+  </layout>
+</jobform>

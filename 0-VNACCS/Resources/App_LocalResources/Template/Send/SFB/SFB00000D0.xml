@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM38_SFB" jobname="CAM38_SFB" display-name="SFB Application for Certificate on satisfaction of food's quality for importation (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM38_SFB.xml" item_attr_edit="False" />
+  <friday href="CAM38_SFB.xml" revision="0000" />
+  <iteminfo>
+    <item id="APN" name="OGA Application No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="127, 19" Location="193, 107" Text="Số đơn xin cấp phép *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="341, 107" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="OGA Application No." check_attribute="*" attribute="I" id="APN" figure="12" required="M" />
+  </layout>
+</jobform>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="RIR11" name="Correction of arrival notification C (Call up)">
+  <item no="1" name="Arrival notification No.&#xA;" id="INN" required="" code="">Nhập số thông báo tàu hỏa đến do hệ thống cấp</item>
+</guide>

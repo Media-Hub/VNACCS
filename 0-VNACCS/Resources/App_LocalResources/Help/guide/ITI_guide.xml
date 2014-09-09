@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ITI" name="Reference of declaration status information on tentative export and import">
+  <item no="1" name="Import/Export indication" id="IEI" required="" code="">Nhập Cờ báo nhập khẩu/xuất khẩu trong trường hợp xem thông tin danh sách 
+I:  Tạm nhập
+E: Tạm xuất</item>
+  <item no="2" name="Customs office" id="CH" required="" code="Customs office code">
+  </item>
+  <item no="3" name="Time limit of re-import/re-export" id="TED" required="" code="">
+  </item>
+  <item no="4" name="Importer/Exporter code" id="UCD" required="" code="Importer/Exporter code">
+  </item>
+  <item no="5" name="Declaration No." id="ICN" required="" code="">Trường hợp người dùng muốn xem thông tin chi tiết thì hãy nhập số tờ khai tạm nhập/tạm xuất.
+</item>
+</guide>

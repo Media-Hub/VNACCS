@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM33_ITE" jobname="CAM33_ITE" display-name="ITE Reference of the list of tax exemption">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL8090.xml" item_attr_edit="False" />
+  <friday href="VAL8090.xml" revision="0000" />
+  <iteminfo>
+    <item id="CH" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IED" name="Import export classification" input_output="-" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="UCD" name="Declarant code (Search Condition)" input_output="-" required="C" attribute="A" figure="13" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IDF" name="Date of declaration (from)" input_output="-" required="C" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IDT" name="Date of declaration (to)" input_output="-" required="C" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="CCN" name="Common management code" input_output="-" required="C" attribute="A" figure="14" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="ICN" name="Investment licence or Investment Certificate No." input_output="-" required="C" attribute="A" figure="20" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="APC" name="Registration classification (Search Condition)" input_output="-" required="C" attribute="A" figure="1" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="TEN" name="Tax exemption list No." input_output="-" required="C" attribute="I" figure="12" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <ranContainer repetition_max="100">
+      <item id="B01" name="Tax exemption list No." input_output="-" required="C" attribute="I" figure="12" form="" order="11" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B02" name="Date of declaration" input_output="-" required="C" attribute="A" figure="8" form="" order="12" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B03" name="Date of completion of  inspection " input_output="-" required="C" attribute="A" figure="8" form="" order="13" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B04" name="Exemption/Reduction code for Import export tax" input_output="-" required="C" attribute="A" figure="5" form="" order="14" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B05" name="Display in case time limit over" input_output="-" required="C" attribute="A" figure="1" form="" order="15" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B06" name="Registration classification " input_output="-" required="C" attribute="A" figure="1" form="" order="16" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B07" name="Declarant code" input_output="-" required="C" attribute="A" figure="13" form="" order="17" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B08" name="Declarant name" input_output="-" required="C" attribute="W" figure="300" form="" order="18" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="B09" name="Investment project name" input_output="-" required="C" attribute="W" figure="210" form="" order="19" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="135, 19" Location="43, 130" Text="Số danh mục miễn thuế" Font="Tahoma, 9pt" />
+    <label Size="82, 19" Location="210, 130" Text="Ngày khai báo" Font="Tahoma, 9pt" />
+    <label Size="105, 34" Location="333, 130" Text="Ngày hoàn thành&#xD;&#xA;kiểm tra" Font="Tahoma, 9pt" TextAlign="MiddleCenter" />
+    <label Size="89, 34" Location="454, 130" Text="Mã miễn thuế&#xD;&#xA;xuất nhập khẩu" Font="Tahoma, 9pt" TextAlign="MiddleCenter" />
+    <label Size="68, 19" Location="557, 130" Text="Hết hạn (*)" Font="Tahoma, 9pt" />
+    <label Size="61, 34" Location="644, 130" Text="Phân loại&#xD;&#xA;cấp phép" Font="Tahoma, 9pt" />
+    <label Size="82, 19" Location="41, 161" Text="Mã người khai" Font="Tahoma, 9pt" />
+    <label Size="86, 19" Location="135, 161" Text="Tên người khai" Font="Tahoma, 9pt" />
+    <label Size="100, 19" Location="245, 161" Text="Tên dự án đầu tư" Font="Tahoma, 9pt" />
+    <label Size="217, 19" Location="19, 11" Text="Mã cơ quan Hải quan tiếp nhận tờ khai" Font="Tahoma, 9pt" />
+    <label Size="143, 19" Location="313, 11" Text="Phân loại xuất nhập khẩu" Font="Tahoma, 9pt" />
+    <label Size="98, 19" Location="19, 38" Text="Ngày khai báo từ" Font="Tahoma, 9pt" />
+    <label Size="107, 19" Location="266, 38" Text="Ngày khai báo đến" Font="Tahoma, 9pt" />
+    <label Size="115, 19" Location="266, 64" Text="Giấy phép đầu tư số" Font="Tahoma, 9pt" />
+    <label Visible="False" Size="127, 19" Location="471, 37" Text="Tax exemption list No." Font="Tahoma, 9pt" />
+    <label Size="82, 19" Location="509, 11" Text="Mã người khai" Font="Tahoma, 9pt" />
+    <label Size="117, 19" Location="19, 64" Text="Mã số quản lý chung" Font="Tahoma, 9pt" />
+    <label Size="108, 19" Location="563, 64" Text="Phân loại cấp phép" Font="Tahoma, 9pt" />
+    <navigator TabIndex="16" Location="21, 92" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="17" Size="692, 100" Location="20, 179" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="10" RepX="1" repetition_id="R01" repetition_max="100">
+      <label Size="9, 19" Location="157, 37" Text="-" Font="Microsoft Sans Serif, 9pt" />
+      <ranlabel Size="28, 15" Location="7, 15" Font="Courier New, 9pt" Value="0" figure="3" repetition_id="R01" PadLeft="True" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="97, 21" Location="40, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Tax exemption list No." check_attribute="*" attribute="I" id="B01" figure="12" required="C" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="11" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="187, 12" BackColor="Control" Font="Courier New, 9pt" form="" order="12" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of declaration" check_attribute="*" attribute="A" id="B02" figure="8" AutoComplete="False" required="C" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="12" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="317, 12" BackColor="Control" Font="Courier New, 9pt" form="" order="13" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of completion of  inspection " check_attribute="*" attribute="A" id="B03" figure="8" AutoComplete="False" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="13" Size="48, 21" Location="449, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Exemption/Reduction code for Import export tax" check_attribute="*" attribute="A" id="B04" figure="5" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="14" Size="20, 21" Location="560, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="Display in case time limit over" check_attribute="*" attribute="A" id="B05" figure="1" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="15" Size="20, 21" Location="642, 12" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Registration classification " check_attribute="*" attribute="A" id="B06" figure="1" required="C" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="16" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="40, 35" BackColor="Control" Font="Courier New, 9pt" form="" order="17" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Declarant code" check_attribute="*" attribute="A" id="B07" figure="13" AutoComplete="False" required="C" />
+      <textbox TabIndex="17" Multiline="True" Size="503, 36" Location="173, 35" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Declarant name" check_attribute="*" attribute="W" id="B08" figure="300" required="C" />
+      <textbox TabIndex="18" Size="503, 21" Location="40, 73" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Investment project name" check_attribute="*" attribute="W" id="B09" figure="210" required="C" />
+    </container>
+    <textbox CharacterCasing="Upper" TabIndex="19" Size="55, 21" Location="239, 10" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Customs office" check_attribute="*" attribute="A" id="CH" figure="6" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="21" Size="20, 21" Location="457, 10" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Import export classification" check_attribute="*" attribute="A" id="IED" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="23" Size="104, 21" Location="591, 10" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Declarant code (Search Condition)" check_attribute="*" attribute="A" id="UCD" figure="13" required="C" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="25" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="139, 37" BackColor="Control" Font="Courier New, 9pt" form="" order="5" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of declaration (from)" check_attribute="*" attribute="A" id="IDF" figure="8" AutoComplete="False" required="C" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="27" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="382, 37" BackColor="Control" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Date of declaration (to)" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="29" Size="111, 21" Location="139, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Common management code" check_attribute="*" attribute="A" id="CCN" figure="14" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="31" Size="153, 21" Location="382, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="Investment licence or Investment Certificate No." check_attribute="*" attribute="A" id="ICN" figure="20" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="33" Size="20, 21" Location="675, 63" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Registration classification (Search Condition)" check_attribute="*" attribute="A" id="APC" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" Visible="False" TabIndex="35" Size="97, 21" Location="598, 35" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="Tax exemption list No." check_attribute="*" attribute="I" id="TEN" figure="12" required="C" />
+  </layout>
+</jobform>

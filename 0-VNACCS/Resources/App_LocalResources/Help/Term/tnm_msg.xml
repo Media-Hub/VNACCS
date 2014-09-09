@@ -1,0 +1,1203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- saved from url=(0014)about:internet -->
+<?xml-stylesheet type='text/xsl' href='Tnm_MsgList.xslt'?>
+<TermMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TermMessageSetList>
+    <TermMessageSet Code="C101">
+      <Message>Bạn có chắc chắn muốn thoát ra không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Thoát ra
+[No]Giữ lại, không thoát ra
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C102">
+      <Message>Bạn chưa đăng nhập,  và không được phép tiếp tục gửi. Bạn có muốn chỉ đăng ký gửi dữ liệu</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Chỉ đăng ký gửi thông điệp
+[No]Tạm ngưng quá trình
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C301">
+      <Message>File #s đã có. 
+ Bạn có muốn thay thế nó không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Ghi đè lên file
+[No]Không ghi đè lên file
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C401">
+      <Message>Bạn có chắc chắn muốn xóa tất cả thông điệp trong Trash can không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Xóa tất cả thông điệp trong Trash can. Khi đã xóa, thông điệp không thể phục hồi
+[No]Thông điệp trong Trash can không bị xóa mà vẫn còn </Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C402">
+      <Message>Bạn có chắc chắn muốn xóa các thông điệp quá thời hạn lưu trữ (#s ngày)?
+Nếu bạn tiếp tục giữ mà không xóa, hiệu quả thực hiện của phần mềm đầu cuối sẽ bị giảm</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Tất cả thông điệp tương đương sẽ được chuyển đến Trash can
+[No]Những thông điệp tương đương không bị di chuyển 
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C403">
+      <Message>Bạn có chắc chắn muốn dừng quá trình  back-up không (lưu trữ những thông điệp cũ) không? Qúa trình được tạm ngưng sẽ tiếp tục thực hiện khi bạn khởi động lần sau</Message>
+      <Button>YES_NO_CANCEL</Button>
+      <Description>[Yes]Tất cả các thông điệp trong Trash can sẽ bị xóa. Khi bị xóa, các thông điệp đó không thể được khôi phục
+[No]Các thông điệp trong Trash can sẽ không bị xóa
+[Cancel] Tạm dừng quá trình 
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C404">
+      <Message>Bạn có chắc chắn muốn dừng quá trình  back-up không (lưu trữ những thông điệp cũ) không? Qúa trình được tạm ngưng sẽ tiếp tục thực hiện khi bạn khởi động lần sau</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Ngừng Back-up (lưu trữ các thông điệp cũ) .
+[No]Tiếp tục Back-up (lưu trữ những thông điệp cũ) 
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C405">
+      <Message>Bạn có muốn xóa những thông điệp cũ (ngày gửi/nhận =#s) thể hiện trên danh sách không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Xóa những thông điệp cũ hiển thị trên danh sách
+[No]Hủy việc xóa những thông điệp cũ hiển thị trên danh sách.
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C406">
+      <Message>Các điều kiện phân công đã được cài đặt cho thư mục. Nếu bạn  xóa thư mục, các điều kiện này cũng sẽ bị xóa? Bạn có chắc chắn muốn xóa thư mục không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Xóa thư mục
+[No]Không xóa thư mục
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C407">
+      <Message>Bạn có muốn khôi phục lại danh sách thông điệp không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Thực hiện khôi mục danh sách thông điệp
+[No]Không thực hiện khôi phục danh sách thông điệp 
+
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C408">
+      <Message>Bạn có muốn khôi phục lại danh sách thông điệp từ file back up không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Thông điệp hiện tại sẽ bị xóa, dữ liệu sẽ được khôi phục từ file back up.
+[No]giữ danh sách thông điệp hiện tại (nếu muốn lưu nội dung của danh sách thông điệp hiện tại ) </Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C409">
+      <Message>Không có back up file. Nếu bạn tiếp tục thực hiện thì sẽ mất hết danh sách thông điệp? Bạn có chắc chắn muốn tiếp tục không?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Làm mới danh sách thông điệp
+[No]Giữ danh sách thông điệp hiện tại
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C501">
+      <Message>Bạn có muốn lưu nội dung đang hiển thị hay chuyển đến file chung? (YES) Chuyển với nội dung setup  (NO) chuyển không có nội dung setup (CANCEL) Hủy việc chuyển</Message>
+      <Button>YES_NO_CANCEL</Button>
+      <Description>
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C502">
+      <Message>Bạn có muốn xóa tất cài đặt khóa người dùng?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Xóa tất cả việc phân bổ phím tắt 
+[No]Không thay đổi phân bổ phím tắt</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C503">
+      <Message>Bạn có muốn đưa việc cài đặt khóa người sử dụng vào trạng thái mặc định</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes]Sự phân bổ phím tăt đưa  về cài đặt ban đầu
+[NO]sự phân bổ phím tắt không thay đổi</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C504">
+      <Message>Đích chuyển bị khóa do có mật khẩu. Bạn có chắc chắc muốn chuyển? Sau khi chuyển bạn không thể quay trở lại màn hình trừ khi bạn bỏ mật khẩu</Message>
+      <Button>YES_NO</Button>
+      <Description>
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="C505">
+      <Message>Di chuyển thư mục cài đặt môi trường (thông thường)</Message>
+      <Button>OK_CANCEL</Button>
+      <Description>
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E001">
+      <Message>Phần mềm đầu cuối doanh nghiệp đã được bật. Đề nghị đóng phần mềm đầu cuối doanh nghiệp và khởi động lại</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phần mềm đầu cuối doanh nghiệp đã được cài đặt do vậy không thể cài đặt phần mềm đầu cuối khác</Description>
+      <Disposition>Đề nghị đóng vận hành phần mềm đầu cuối doanh nghiệp và khởi động lại</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E002">
+      <Message>Phát hiện lỗi trong phần mềm đầu cuối doanh nghiệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Sai số tiền định</Description>
+      <Disposition>Đề nghị khởi động lại phần mềm đầu cuối doanh nghiệp
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E101">
+      <Message>Đích nối URL không chính xác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thông tin về server không chính xác, và không thể sửa kết nối URL</Description>
+      <Disposition>Thiếu thông tin cần thiết cho giao tiếp
+Đề nghị cài đặt lại hoặc liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E102">
+      <Message>Cài đặt thông tin proxy không chính xác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Cài đặt thông tin proxy trong mục option không đúng</Description>
+      <Disposition>Đề nghị xác nhận cài đặt thông tin proxy trong thông tin máy chủ của cài đặt tùy chọn</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E105">
+      <Message>Yêu cầu gửi không hợp lệ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Trạng thái liên lạc không phải "idle". Không thể chấp nhận đề nghị gửi</Description>
+      <Disposition>Đề nghị gửi lại
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E109">
+      <Message>Phát hiện lỗi  trong khi yêu cầu gửi thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi không dự tính được trước trong khi yêu cầu gửi thông điệp</Description>
+      <Disposition>Đề nghị gửi lại
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E111">
+      <Message>Phát hiện không có mạng
+
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện không có network trong khi giao tiếp</Description>
+      <Disposition>Đề nghị xác nhận môi trường network. 
+Nếu vấn đề lại xảy ra nhiều lần, hãy xác nhận mã thông điệp và nội dung thông điệp và liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E112">
+      <Message>Phát hiện lỗi trong quá trình trao đổi thông tin
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện ngoại lệ bên trong trong quá trình giao tiếp</Description>
+      <Disposition>Đề nghị gửi lại
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E113">
+      <Message>Phát hiện hết thời gian gửi/nhận</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có phản hồi đối với thông điệp đã gửi</Description>
+      <Disposition>Đề nghị xác nhận môi trường network. 
+Nếu vấn đề lại xảy ra nhiều lần, hãy xác nhận mã thông điệp và nội dung thông điệp và liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E114">
+      <Message>Dừng gửi/nhận</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Giao tiếp bị dừng do hủy thao tác</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E119">
+      <Message>Phát hiện lỗi  trong khi gửi</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi không dự tính được trước trong khi gửi</Description>
+      <Disposition>Đề nghị gửi lại
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E121">
+      <Message>Không gửi được thông điệp hoàn thành việc nhận rong 1 phạm vi thời gian</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thông điệp hoàn thành việc nhận đáp lại 1 thông điệp từ server trung tâm không thể gửi được trong một thang thời gian</Description>
+      <Disposition>Hãy lấy thông điệp hiện tại bằng thủ công hoặc tự động</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E122">
+      <Message>Không truy cập được</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi không dự tính trước được trong khi yêu cầu đăng nhập. Phải đăng nhập lại trước khi hoàn thiện yêu cầu ngừng dừng việc lấy ra</Description>
+      <Disposition>Hãy đăng nhập lại
+Nếu vấn đề lại xảy ra nhiều lần, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E123">
+      <Message>File đính kèm không chính xác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không chấp nhận yêu cầu. Phát hiện virus trong file đính kèm hoặc đuôi file không chính xác</Description>
+      <Disposition>Hãy xác nhận không có virus trong file đính kèm và đuôi file chính xác trước khi gửi/nhận thông điệp lại với file đính kèm</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E124">
+      <Message>Qúa trình gửi sẽ bị dừng vì không có được thông tin cho phép</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Giâý phép đã lựa chọn có thể đã bị hủy hoặc không thể có giấy phép mặc dù có sẵn giấy phép</Description>
+      <Disposition>Hãy lựa chọn giấy phép có sẵn</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E125">
+      <Message>Qúa trình xác nhận chữ ký hoàn thành cho tất cả các thông điệp. Lỗi phát hiện trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Các thông điệp lựa chọn có những thông điệp bị lỗi xác thực chữ ký</Description>
+      <Disposition>Hãy xác nhận thông tin lỗi chi tiết, hãy chọn thông điệp lỗi xác thực chữ ký và thực hiện xác thực chữ ký lại </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E126">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Sự tin cậy về những thông tin của thông điệp tiếp nhận không được đảm bảo. Nội dung có thể đã bị tạo dựng</Description>
+      <Disposition> đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E127">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>giấy phép nhập khẩu gốc có thể có vấn đề</Description>
+      <Disposition>Đề nghị nhập giấy phép gốc lại. Nếu vấn đề trên không giải quyết được,  đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E128">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Sự tin cậy về những thông tin của thông điệp tiếp nhận không được đảm bảo. Nội dung có thể đã bị tạo dựng</Description>
+      <Disposition> đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E129">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Sự tin cậy về những thông tin của thông điệp tiếp nhận không được đảm bảo. Lỗi xảy ra trong khi xác thực chữ ký</Description>
+      <Disposition> đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E130">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Giấy phép nhập khẩu có thể bị hết hạn</Description>
+      <Disposition>Hãy nhập giấy phép gốc mới</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E131">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Giấy phép gốc có thể đã không được nhập</Description>
+      <Disposition>Đề nghị nhập giấy phép gốc lại. Nếu vấn đề trên không giải quyết được,  đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E132">
+      <Message>Hoàn thành xác nhận chữ ký cho tất cả các thông điệp.Phát hiện lỗi trong #s thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Các file để xác thực chữ ký đã bị di chuyển hoặc xóa</Description>
+      <Disposition>Nếu file để xác thực chữ ký được duy chuyển, đề nghị chuyển nó về vị trí ban đầu</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E133">
+      <Message>Thông điệp có chữ ký không được chọn</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không lựa chọn thông điệp nào để xác thực chữ ký do vậy không thực hiện được xác thực chữ ký</Description>
+      <Disposition>Đề nghị chọn các thông điệp đã ký</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E134">
+      <Message>Không thể xác nhận được hiệu lực của giấy phép điện tử được sử dụng cho chữ ký điện tử </Message>
+      <Button>OK_ONLY</Button>
+      <Description>giấy phép điện tử sử dụng tài thời điểm gửi không có giá trị</Description>
+      <Disposition>Đề nghị xác nhận tính hợp lệ và thời hạn của giấy phép điện tử
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E135">
+      <Message>Dạng thông điệp không hợp lệ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>định dạng thông điệp đã ký gửi không có hiệu lực</Description>
+      <Disposition>Đề nghị thực hiện nghiệp vụ lại
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E136">
+      <Message>Hoàn thành  tất cả xác nhận chữ ký   #s thông điệp có lỗi</Message>
+      <Button>OK_ONLY</Button>
+      <Description>giấy phép được sử dụng cho chữ ký thông điệp đã hết hạn</Description>
+      <Disposition>đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E301">
+      <Message>Không thể mở file
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể mở file</Description>
+      <Disposition>Đề nghị xác nhận tên file
+Nếu tên file không chính xác, file hoặc đĩa có thể có vấn đề
+Hãy kiểm tra xem có vấn đề trong file và đĩa không</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E302">
+      <Message>Không thể đọc file
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>File xác định không đọc được. File đã chọn không tồn tại hoặc file có thể bị hỏng</Description>
+      <Disposition>Đề nghị xác nhận tên file
+Nếu tên file không chính xác, file hoặc đĩa có thể có vấn đề
+Hãy kiểm tra xem có vấn đề trong file và đĩa không</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E303">
+      <Message>Không thể lưu file
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Dữ liệu không thể viết được trong file xác định. Phương tiện truyền thông có thể thiếu dung lượng hoặc bạn đang viết trong thư mục không được phép viết</Description>
+      <Disposition>Hãy xác nhận thư mục được phép viết
+Hãy lưu trong thư mục được phép viết</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E304">
+      <Message>Không thể lưu file set up
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Lỗi khi lưu file setup. ổ gốc có thể bị thiếu chỗ hoặc thư mục có thể không cho phép viết</Description>
+      <Disposition>Đề nghị xác nhận quyền viết đối với thư mục thiết lập môi trường
+Hãy lưu trữ trong thư mục được quyền viết hoặc tăng khoảng trống trong đĩa gốc</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E402">
+      <Message>Không thể đọc file thông điệp
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không đọc được file thông điệp. File thông điệp có thể không được phép đọc hoặc có vấn đề trong khi đọc</Description>
+      <Disposition>Đề nghị xác nhận nếu file thông điệp lưu trữ trong thư mục được quyền đọc, Nếu thư mục được quyền, hãy xác nhận xem file thông điệp có đúng định dạng không
+Nếu không có tác dụng, hãy xóa thư mục và thực hiện khôi phục danh mục thông điệp gửi/nhận</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E403">
+      <Message>Không thể đọc file chỉ số thông điệp
+
+#s
+
+
+Thực hiện lưu trữ những thông điệp gửi/nhận</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không đọc được file chỉ số thông điệp</Description>
+      <Disposition>Bằng việc click nút [OK] , việc phục hồi danh mục thông điệp gửi/nhận sẽ được thực hiện
+
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E404">
+      <Message>Không thể lưu file thông điệp
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không viết được file thông điệp
+File thông điệp lưu trữ thư mục không được phép viết hoặc có vấn đề trong khi lưu trữ</Description>
+      <Disposition>Đề nghị xác nhận nếu file thông điệp lưu trữ trong thư mục được quyền viết, Nếu thư mục được quyền, hãy xác nhận khoảng trống còn trong ổ mà thư mục thông điệp được lưu trữ
+Nếu không giải quyết được vấn đề, hãy thực hiện kiểm tra lỗi trông ổ và khởi động lại máy tính</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E405">
+      <Message>Không thể lưu file chỉ  số thông điệp
+
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không viết được file chỉ số thông điệp
+File thông điệp lưu trữ thư mục không được phép viết hoặc có vấn đề trong khi lưu trữ </Description>
+      <Disposition>Đề nghị xác nhận nếu file chỉ số thông điệp lưu trữ trong thư mục được quyền viết, Nếu thư mục được quyền, hãy xác nhận khoảng trống còn trong ổ mà thư mục chỉ số thông điệp được lưu trữ
+Nếu không giải quyết được vấn đề, hãy thực hiện khôi phục danh mục thông điệp gửi/nhận</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E406">
+      <Message>Không thể xử lý nhập thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Lỗi xuất hiện trong quá trình nhập thông điệp</Description>
+      <Disposition>Nếu vấn đề lại xảy ra, đề nghị  liên hệ với hỗ trợ kỹ thuật hệ thống</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E501">
+      <Message>Không tồn tại nghiệp vụ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể triển khai màn hình nghiệp vụ vì không tìm thấy thư mục nơi lưu trữ file thông tin cấu trúc và file template </Description>
+      <Disposition>Đề nghị nhập mã nghiệp vụ và mã màn hình chính xác. Hoặc xác nhận template là bản mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E502">
+      <Message>Không thấy template</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vì không tìm thấy file thông tin cấu trúc và file template, màn hình nghiệp vụ không triển khai được
+Nếu lựa chọn thông điệp kết xuất ra để báo cáo và thông điệp xuất hiện khi  ấn vào [File|mở màn hình dịch vụ], điều đó có nghĩa là không đang triển khai màn hình dịch vụ. Không thể triển khai dữ liệu trong màn hình dịch vụ</Description>
+      <Disposition>Không có biện pháp nào được thực hiện nếu vấn đề xảy ra sau menu [File|Open to a service screen].
+Nếu không, đề nghị xác nhận template là bản mới nhất
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E504">
+      <Message>Xảy ra ngoại lệ trong template</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Trường hợp ngoại lệ diễn ra từ XML khi triển khai template. Template không triển khai được do có ngoại lệ</Description>
+      <Disposition>Hãy xác nhận template là bản mới nhất 
+Hãy kiểm tra xem có vấn đề gì trong file hay đĩa không</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E505">
+      <Message>Thông tin lưu giữ trong file thông tin cấu trúc</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thiếu thông tin cần thiết trong file thông tin cấu trúc</Description>
+      <Disposition>Hãy xác nhận template là mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E506">
+      <Message>Định dạng template lỗi</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Có lỗi trong định dạng template của file thông tin cấu trúc</Description>
+      <Disposition>Hãy xác nhận template là mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E507">
+      <Message>Không phát sinh trong lỗi file cấu trúc</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Có phát sinh không xác định được trong file thông tin cấu trúc</Description>
+      <Disposition>Hãy xác nhận template là mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E508">
+      <Message>Không thực hiện được nghiệp vụ này</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người dùng không được quyền sử dụng dịch vụ. Hoặc dịch vụ đã bị xóa</Description>
+      <Disposition>Hãy nhập mã nghiệp vụ và mã màn hình chính xác
+Hoặc Hãy xác nhận template là mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E509">
+      <Message>Nghiệp vụ không được phép gọi ra</Message>
+      <Button>OK_ONLY</Button>
+      <Description>đây là màn hình chỉ tiếp nhận</Description>
+      <Disposition>Hãy nhập mã nghiệp vụ và mã màn hình chính xác
+Hoặc Hãy xác nhận template là mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E510">
+      <Message>Phát hiện lỗi triển khai màn hình nghiệp vụ (khác)</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi không dự đoán được trước trong khi triển khai màn hình</Description>
+      <Disposition>Hãy xác nhận template là mới nhất
+Hãy kiểm tra xem file hoặc đĩa có vấn đề gì không?
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E511">
+      <Message>Phát hiện lỗi trong khi triển khai kết quả xử lý</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện các lỗi sau trong khi triển khai kết quả quá trình
+- Số ký tự của mã kết quả không chính xác
+- Định dạng của mã kết quả không chính xác</Description>
+      <Disposition>Hãy xác nhận template là mới nhất
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E512">
+      <Message>Phát hiện lỗi trong khi triển khai dữ liệu thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi trong khi triển khai dữ liệu thông điệp</Description>
+      <Disposition>Hãy khởi động lại phần mềm đầu cuối doanh nghiệp và thực hiện lại
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống 
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E515">
+      <Message>Không thể gửi lại dữ liệu này</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người sử dụng đang cố gắng đăng ký thông tin khi gửi dữ liệu trong màn hình nghiệp vụ mà không cho phép gửi lại</Description>
+      <Disposition>Hãy mở màn hình nghiệp vụ mới bằng cách chọn nghiệp vụ mới. Hoặc thực hiện ngăn cản việc gửi lại bằng menu màn hình nghiệp vụ  [Edit|Re-send prevented OFF], hoặc click bên trái  "Re-send prevented OFF" trong trình duyệt pop-up mà được hiển thị bằng click phải  "Re-send prevented" ở góc phải thấp hơn của màn hình
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E516">
+      <Message>Lỗi kiểm tra nhập liệu
+
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người sử dụng đang đăng ký gửi dữ liệu không chính xác</Description>
+      <Disposition>Hãy làm theo thông điệp lỗi và dữ liệu nhập lại </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E517">
+      <Message>Nghiệp vụ không cho phép gửi</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Nghiệp vụ không cho phép gửi hoặc đăng ký</Description>
+      <Disposition>N/A
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E520">
+      <Message>Không thể mở file đính kèm</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có ứng dụng liên quan đến đuôi file đã định</Description>
+      <Disposition>Hãy phân ứng dụng phù hợp với đuôi file</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E521">
+      <Message>Không thể xóa file đính kèm</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có vấn đề gì trong file hoặc đĩa. Hoặc file đang được dùng bởi người dùng khác</Description>
+      <Disposition>Trường hợp file đang được mở bởi ứng dụng khác, hãy đóng file và lặp lại thao tác. Nếu không, hãy kiểm tra xem có vấn đề gì trong file và đĩa không</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E522">
+      <Message>Vượt quá số lượng file đính kèm tối đa</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người sử dụng đang đính kèm file với số lượng nhiều hơn số lượng file tối đa (10 file) được phép đính kèm</Description>
+      <Disposition>Đề nghị đảm bảo số lượng file trong phạm vi số lượng tối đa cho phép</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E523">
+      <Message>Vượt quá kích thước file tối đa</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người sử dụng đang đính kèm file vượt quá 10M</Description>
+      <Disposition>Đề nghị thêm file đính kèm sao cho tổng số file trong phạm vi số lượng cho phép</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E524">
+      <Message>Không thể thêm file đính kèm</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể thêm file đính kèm</Description>
+      <Disposition>Có thể không tồn tại file
+Hãy thêm file lại lần nữa</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E525">
+      <Message>Các tệp mà có đuôi không phải các đuôi sau không thể đính kèm
+Đuôi mà có thể đính kèm:
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Đã lựa chọn đuôi file không thể đính kèm</Description>
+      <Disposition>Đề nghị chọn một file mà có đuôi file có thể đính kèm</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E530">
+      <Message>Không thể di chuyển. Đây là lỗi trong tab bị ẩn</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vì khu vực bị lỗi bao gồm tab bị ẩn nên không được phép chuyển tới khu vực này</Description>
+      <Disposition>Hãy chuyển tabs để hiển thị phạm vi lỗi</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E531">
+      <Message>Không có phạm vi lỗi tương ứng</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thông tin lỗi đã đăng ký không tồn tại trong thông điệp thông tin kết quả</Description>
+      <Disposition>Hãy xác nhận template là mới nhất
+Nếu không giải quyết được vấn đề, đề nghị liên hệ với hỗ trợ kỹ thuật hệ thống
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E532">
+      <Message>Để #s digits ở dạng 1 ký tự/ số lượng ID phần mềm đầu cuối </Message>
+      <Button>OK_ONLY</Button>
+      <Description>Người dùng đầu cuối không được thiết lập với một số lượng ký tự trong bảng chữ cái đơn </Description>
+      <Disposition>Đề nghị thiết lập ID đầu cuối với số lượng ký tự đơn trong bảng chữ cái/số theo quy định</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E533">
+      <Message>Đề nghị xác định #s hoặc ít ký tự đơn trong bảng chữ cái/số hơn</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E540">
+      <Message>Đề nghị thiết lập  #s ký tự đơn</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không cài đặt được một giá trị hoặc 1 giá trị vượt quá phạm vi được lựa chọn</Description>
+      <Disposition>Đề nghị thiết lập các số ký tự đơn trong phạm vi quy định</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E544">
+      <Message>Đề nghị thực hiện xác nhận mật khẩu</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E545">
+      <Message>Không thể lưu file setup. Người sử dụng có quyền quản trị phải đăng nhập </Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E546">
+      <Message>Đối với cảng, đề nghị xác định 1-99999.</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E547">
+      <Message>Không có thư mục template</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E548">
+      <Message>Vượt quá số lượng máy in có thể đăng ký</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E549">
+      <Message>Máy in đã được đăng ký </Message>
+      <Button>OK_ONLY</Button>
+      <Description>Máy in đã được đăng ký. Không thể đăng ký máy in đó nhiều lần</Description>
+      <Disposition>Đề nghị xác định một máy in mà chưa được đăng ký</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E550">
+      <Message>Hãy thiết lập các phím tắt</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Các phím tăt không được cài đặt</Description>
+      <Disposition>Đề nghị thiết lập các phím tắt để phân bổ</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E551">
+      <Message>Không thể xóa 1 máy in mà được đặt làm máy in ban đầu </Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể xóa một máy in mà máy in đó được cài đặt như là máy in ban đầu</Description>
+      <Disposition>Đề nghị đổi máy in ban đầu sang máy in khác và xóa</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E552">
+      <Message>Không thể xóa máy in sử dụng để in tự động.
+Mã thông tin đầu ra : #s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể xóa một máy in mà máy in đó được sử dụng in tự động</Description>
+      <Disposition>Đề nghị thay đổi máy in đầu ra của mã thông tin đầu ra tương ứng bằng tab [auto print], và xóa máy in</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E553">
+      <Message>Đề nghị đăng ký máy in bằng tab [Printer] </Message>
+      <Button>OK_ONLY</Button>
+      <Description>Một máy in không được đăng ký không thể xác định như một máy in đích để in tự động</Description>
+      <Disposition>Hãy đăng ký máy in bằng tab [Printer]  và xác định một máy in đầu ra</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E554">
+      <Message>Đề nghị thiết lập 1 ~ 99 single-byte numbers for the number of parts.</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Các ký tụ đơn từ 1~99 không được cài đặt cho một số phần</Description>
+      <Disposition>Hãy đặt các ký tụ đơn từ 1~99 cho một số phần</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E555">
+      <Message>Đề nghị nhấn nút Refer và lựa chọn 1 máy in </Message>
+      <Button>OK_ONLY</Button>
+      <Description>Máy in đích ra không được cài</Description>
+      <Disposition>Hãy ấn nút Refer, và lựa chọn máy in đầu ra</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E556">
+      <Message>Đề nghị thiết lập các điều kiện phân bổ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thậm chí 1 điều kiện định vị/cấp phát không được cài</Description>
+      <Disposition>Đề nghị thiết lập 1 hoặc hơn điều kiền phân bổ</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E557">
+      <Message>Chưa thiết lập thư mục để phân bổ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thư mục để định vị/cấp phát không được cài</Description>
+      <Disposition>Hãy ấn nút Refer, và thiết lập một thư mục để phân bổ</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E558">
+      <Message>Đề nghị thiết lập mã nghiệp vụ với 3 hoặc 5 ký tự đơn trong bảng chữ cái/số</Message>
+      <Button>OK_ONLY</Button>
+      <Description>3 hoặc 5 ký tự không được cài đặt cho mã nghiệp vụ</Description>
+      <Disposition>Hãy thiết lập mã nghiệp vụ với 3 hoặc 5 ký tự đơn trong bảng chữ cái/số</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E559">
+      <Message>Đã được phân công bởi #s. Đề nghị thiết lập khóa khác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể cài một phím tắt mà đã được phân công trong tab tương ứng</Description>
+      <Disposition>Hãy thiết lập phím tắt khác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E560">
+      <Message>Đã được phân công trong tab riêng của nó. Hãy thiết lập khóa khác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể cài một phím tắt mà đã được phân công trong chính tab của nó</Description>
+      <Disposition>Hãy thiết lập phím tắt khác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E562">
+      <Message>Đề nghị nhập mật khẩu giống với "mật khẩu mới" và "mật khẩu mới lại"</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E563">
+      <Message>Đã tồn tại điều kiện phân bổ giống vậy. Đề nghị thiết lập cái khác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể cài điều kiện cấp phát giống nhau nhiều lần</Description>
+      <Disposition>Hãy thiết lập điều kiện phân bổ khác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E564">
+      <Message>Thư mục đã phần nằm trong lớp thứ 3</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E565">
+      <Message>Đã phân mã thông tin đầu ra</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Mã thông tin đầu ra đã được phân công. Mã thông tin đầu ra giống nhau không được đăng ký nhiều lần</Description>
+      <Disposition>Hãy thiết lập mã thông tin đầu ra khác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E567">
+      <Message>Đề nghị thiết lập 4 hoặc 6 ký tự trong bảng chữ cái đơn/số đối với mã thông tin đầu ra</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Mã thông tin đầu ra không được thiết lập với 4 hoặc 6 ký tự đơn trong bảng chữ cái/số</Description>
+      <Disposition>Hãy thiết lập mã thông tin đầu ra với 4 hoặc 6 ký tự đơn trong bảng chữ cái/số</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E569">
+      <Message>Đối với các quy định về tên file mà chưa được thiết lập hoặc không liên kết trùng lặp phải được thiết lập</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Các quy định về tên file không cho phép thiết lập các mục trùng giống nhau</Description>
+      <Disposition>Quy ước về tên file chưa được thiết lập vì vậy hãy thiết lập sự liên kết mà không bị trùng lặp</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E570">
+      <Message>Mật khẩu không phù hợp</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E571">
+      <Message>Mã thông tin đầu ra khác với 4 ký tự động nhất. Đề xác định mã thông tin đầu ra khác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể đăng ký cả mã thông tin đầu ra với 4 ký tự và mã thông tin đầu ra với 6 ký tự trong khi 4 ký tự đầu tiên đồng nhất</Description>
+      <Disposition>Đối với mã thông tin đầu ra mà có 4 ký tự đồng nhất, hãy thiết lập chỉ 4 ký tự hoặc chỉ 6 ký tự</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E572">
+      <Message>Không thể chuyển đổi các thiết lập chung. Chỉ những người sử dụng có quyền quản trị mới có thể chuyển </Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E573">
+      <Message>Truy cập vào tệp tin cài đặt đã bị từ chối</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E574">
+      <Message>Mã người sử dụng cho phép 5 ký tự đơn trong bảng chữ cái/số</Message>
+      <Button>OK_ONLY</Button>
+      <Description>ID người sử dụng không được cài đặt với số lượng quy định ký tự đơn trong bảng chữ cái/số</Description>
+      <Disposition>Hãy thiết lập số ký tự  đơn trong bảng chữ cái/số</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E575">
+      <Message>Nơi lưu giữ bạn xác định đã được sử dụng bởi người dùng khác. Đề nghị xác định nơi khác</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E576">
+      <Message>Không thể lưu file cài đặt
+Đề nghị đảm bảo quyền truy cập đối với thư mục (chung) cài đặt môi trường
+Thư mục: #s</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E577">
+      <Message>Không thể gọi/tham chiếu nơi mà thông tin nguồn được lưu giữ, vì vậy không thể di chuyển thư mục (chung) cài đặt môi trường
+Thư mục:#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E578">
+      <Message>Không thể di chuyển (sao chép) thư mục thiết lập môi trường
+Đề nghị đảm bảo quyền truy cập đối với thư mục đích
+Thư mục: #s</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E579">
+      <Message>Không thể xóa thực mục nguồn di chuyển, thư mục cài đặt môi trường
+Đề nghị mở file bằng explorer … hoặc xóa
+Thư mục: #s</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E580">
+      <Message>Đề nghị thiết lập #s ký tự đơn</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E581">
+      <Message>Không thể lưu tệp tin cài đặt
+Người sử dụng có quyền quản trị phải đăng nhập </Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E582">
+      <Message>Đề nghị nhập hoặc lựa chọn một mã nghiệp vụ</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Chưa nhập mã thông tin đầu ra</Description>
+      <Disposition>Đề nghị nhập một mã nghiệp vụ hoặc lựa chọn một mã nghiệp vụ từ lịch sử</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E601">
+      <Message>Lỗi trong khi in
+
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Lỗi xuất hiện trong khi in</Description>
+      <Disposition>Hãy kiểm tra xem có vấn đề gi trong cài đặt máy in để in không?</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E602">
+      <Message>Không tìm thấy máy in</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không tìm thấy máy in đầu ra trong thông in đầu ra máy in </Description>
+      <Disposition>Hãy tiến tới tab [Printer]  [Option setups] để cài đặt máy in</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E603">
+      <Message>Định dạng dữ liệu thông tin cấu trúc không chính xác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể in vì nội dung thông tin cấu trúc không chính xác</Description>
+      <Disposition>Đề nghị xác nhận template là bản mới nhất
+Nếu template là bản mới nhất, file có thể bị hỏng. Hãy kiểm tra ổ cứng</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E604">
+      <Message>Không thể đọc trong file thông tin cấu trúc</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể in vì phát hiện lỗi trong khi đọc file thông tin cấu trúc</Description>
+      <Disposition>Đề nghị xác nhận template là bản mới nhất
+Nếu template là bản mới nhất, file có thể bị hỏng. Hãy kiểm tra ổ cứng</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E605">
+      <Message>Không có dữ liệu để in</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có dữ liệu hoặc template không chính xác</Description>
+      <Disposition>Đề nghị xác nhận template là bản mới nhất
+Nếu template là bản mới nhất, file có thể bị hỏng. Hãy kiểm tra ổ cứng</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E606">
+      <Message>Không thể đọc trong file template</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể in vì phát hiện lỗi trong khi đọc file template</Description>
+      <Disposition>Đề nghị xác nhận template là bản mới nhất
+Nếu template là bản mới nhất, file có thể bị hỏng. Hãy kiểm tra ổ cứng</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E607">
+      <Message>Không có máy in hoặc máy in mặc định không có hiệu lực</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có máy in nào được thiết lập trong Windows. Hoặc ổ "máy in mặc định" có thể trong trạng thái không đúng</Description>
+      <Disposition>Please revise the Pinter drive to the latest version.
+If there is no printer installed, please go to Windows menu [Start]-[Setting]-[Printer] to setup the printer.
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E608">
+      <Message>Định dạng dữ liệu template không chính xác</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể in vì thông tin cấu trúc hoặc nội dung Template không chính xác</Description>
+      <Disposition>Đề nghị xác nhận template là bản mới nhất
+Nếu template là bản mới nhất, file có thể bị hỏng. Hãy kiểm tra ổ cứng</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E609">
+      <Message>Không in được</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Phát hiện lỗi không mong muốn trong khi chuẩn bị in hoặc in</Description>
+      <Disposition>Nếu vấn đề lại xảy ra, hãy liên hệ với hỗ trợ kỹ thuật hệ thống</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E611">
+      <Message>Tên máy in = #s is không hợp lệ
+</Message>
+      <Button>OK_ONLY</Button>
+      <Description>ổ máy in trong tình trạng không hợp lệ</Description>
+      <Disposition>Hãy đổi máy đường dẫn máy in thành phiên bản mới nhất</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="E702">
+      <Message>Không thể cập nhật công cụ nâng cấp phiên bản</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Công cụ nâng cấp phiên bản có thể đã được khởi động hoặc người sử dụng có thể không được phép viết trong thư mục công cụ nâng cấp phiên bản</Description>
+      <Disposition>Hãy xác nhận quyền viết trong thư mục </Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W001">
+      <Message>Server và PC chỉ thời gian khác nhau
+#s</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Server và PC chênh nhau khoảng 5 phút</Description>
+      <Disposition>Please adjust the date/time of the PC.
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W002">
+      <Message>Bạn có muốn kiểm tra bản nâng cấp? Bạn nhấn vào nút [Yes] , phần mền đầu cuối sẽ đóng 
+Màn hình nghiệp vụ dang sửa chữa sẽ được xử lý. Nếu bạn không muốn xử lý, đề nghị click nút [No] và lưu màn hình nghiệp vụ
+Sau đó, hãy chọn menu nâng cấp phiên bản lại</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] Thực hiện nâng cấp phiên bản
+[No] Dừng nâng cấp phiên bản
+
+
+</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W122">
+      <Message>Thông điệp đang được lấy ra</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thông điệp thời gian thực, thông điệp kết thúc khác, hoặc thông điệp tích lũy đang được lấy ra</Description>
+      <Disposition>Hãy lặp lại thao tác sau khi hoàn thành quá trình lấy ra hiện tại</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W123">
+      <Message>Không thể đăng nhập vì thông điệp đang được lẫy ra</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Đã thực hiện đăng nhập trước khi việc ngừng lấy thông điệp ra hoàn thành</Description>
+      <Disposition>Hãy đăng nhập lại
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W124">
+      <Message>Không thể gửi thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vi giao tiếp đang trong trạng thái idle nên yêu cầu gửi không được chấp nhận</Description>
+      <Disposition>Hãy gửi lại</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W301">
+      <Message>It chỗ trống hơn trong đĩa
+
+Kích cỡ khoảng trống = #s </Message>
+      <Button>OK_ONLY</Button>
+      <Description>(1) Khoảng trống còn lại trên ổ cứng đã nhỏ hơn giá trị thiết lập. Ít khoảng trống hơn có thể ảnh hưởng đến phản hồi hoặc gây tình trạng vận hành không ổn định
+(2) Khoảng trống còn lại trên ổ cứng đã nhỏ hơn số lượng các thông điệp đã đăng ký . Ít khoảng trống hơn có thể ngăn cản việc vận hành bình thường
+
+</Description>
+      <Disposition>(1) Hãy xóa những file không cần thiết và tăng khoảng trống của ổ cứng
+(2) Hãy xóa những thông điệp không cần thiết từ nhận/đối tượng đến thư mục gửi/nhận của danh sách gửi/nhận. Sau đó, xóa thư mục đã xóa
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W302">
+      <Message>Không thể xác định được trang in</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không thể tìm thấy các tệp tin HTML </Description>
+      <Disposition>Hãy kiểm tra xem phần mềm đầu cuối doanh nghiệp và trợ giúp có phải là bản mới nhất không</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W304">
+      <Message>Nhập ID đầu cuối với số ký tự không chính xác
+Đề nghị nhập 6 ký tự</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Việc thiết lập ID đầu cuối cho phần mềm này không hợp lệ</Description>
+      <Disposition>Hãy mở màn hình lựa chọn và thiết lập ID đầu cuối chính xác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W305">
+      <Message>Nhập ID đầu cuối không đúng định dạng</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Việc thiết lập ID đầu cuối cho phần mềm này không hợp lệ</Description>
+      <Disposition>Hãy mở màn hình lựa chọn và thiết lập ID đầu cuối chính xác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W306">
+      <Message>Nhập mã truy cập với số ký tự không đúng
+Đề nghị nhập 16 hoặc ít hơn 16 ký tự</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thiết lập khóa truy cập cho phần mềm này không hợp lệ</Description>
+      <Disposition>Hãy mở màn hình lựa chọn và thiết lập mã truy cập chính xác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W307">
+      <Message>Nhập khóa truy cập với định dạng không đúng
+Đề nghị nhập ký tự đơn trong bảng chữ cái/số</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thiết lập khóa truy cập cho phần mềm này không hợp lệ</Description>
+      <Disposition>Hãy mở màn hình lựa chọn và thiết lập mã truy cập chính xác</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W401">
+      <Message>Các thông điệp không được gửi trong thư mục thông điệp gửi</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Không có thông điệp nào được gửi tồn tại trong các thư mục áp dụng để gửi</Description>
+      <Disposition>Hãy đăng ký các thư mục phải gửi trước khi gửi thông điệp từ danh mục thông điệp gửi/nhận</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W402">
+      <Message>Không thể lưu trữ một số thông điệp (#s thông điệp).</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Có các thư mục có thể lưu trữ trong danh mục thông tin gửi/nhận. Tất cả các thông điệp trừ những thông điệp mà không thể khôi phục đã được khôi phục</Description>
+      <Disposition>Nếu những thông điệp không thể khôi phục cần xác định, hãy liên hệ với hỗ trợ kỹ thuật hệ thống</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W403">
+      <Message>Có lỗi giữa danh mục thông điệp và dữ liệu thông điệp
+Bạn có muốn khôi phục danh mục thông điệp</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] Thực hiện phục hồi danh mục thông điệp
+[No] Không thực hiện phục hồi danh mục thông điệp. Hãy phục hồi danh mục thông điệp bằng thủ công nếu danh mục thông điệp có vấn đề
+</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W404">
+      <Message>Có lỗi giữa danh mục thông điệp và dữ liệu thông điệp
+Hệ thống sẽ khôi phục danh mục thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Hãy xác nhận danh mục thông điệp</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W405">
+      <Message>Không thể xóa thư mục</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vì có các thư mục người sử dụng tồn tại trong thư mục đã được lựa chọn nên không thể xóa các thư mục đã lựa chọn</Description>
+      <Disposition>Please delete user folders included in the user folder you want to delete, then delete the subject folder itself
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W406">
+      <Message>Không thể xử lý thêm thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vì nó không phải là tệp tin ngoài của thông điệp nhận nên không thể đăng ký nó như là thư mục nhận</Description>
+      <Disposition>Vì chỉ thông điệp nhận được đăng ký trong danh mục thông điệp gửi/nhận, hãy chọn một file bên ngoài của thông điệp nhận</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W501">
+      <Message>Không thể xác định dữ liệu các phần gửi lặp lại</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Vì phần gửi lặp lại không thể xác định nên không thể thực hiện thao tác</Description>
+      <Disposition>After selecting data of the sending repetition part, please execute again.
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W502">
+      <Message>Mã thông tin đầu ra không tồn tại. Bạn có đang đăng ký mã mới</Message>
+      <Button>YES_NO</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W503">
+      <Message>Đề nghị xác nhận cái này chỉ trong trường hợp cần các nghiệp vụ
+Hãy xác định nơi có thể truy cập bởi bất cứ ai để lưu trữ cài đặt môi trường (chung)
+Nếu người không có quyền cố gắng truy cập, có thể làm hỏng thông điệp gửi/nhận</Message>
+      <Button>OK_CANCEL</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W504">
+      <Message>Mã nghiệp vụ khác với màn hình hiện tại</Message>
+      <Button>YES_NO_CANCEL</Button>
+      <Description>[Yes]Triển khai màn hình mới
+[No]Triển khai màn hình hiện tại
+[Cancel]Không triển khai</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W505">
+      <Message>Tồn tại thư mục người sử dụng trùng tên</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Thư mục có cùng tên tồn tại trong lớp cùng thư mục</Description>
+      <Disposition>Đề nghị lựa chọn tên mà khác với thư mục người sử dụng tồn tại trong cùng tầng thư mục</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W601">
+      <Message>Kích cỡ thông điệp vượt quá cảnh báo #s [KB].
+Hãy chọn [Yes] để tiếp tục in.</Message>
+      <Button>YES_NO</Button>
+      <Description>Người sử dụng đang in một số lượng báo cáo rất lớn</Description>
+      <Disposition>Trong trường hợp tiếp tục, đề nghị giảm khối lượng in bằng việc xác định các trang in</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="W602">
+      <Message>Kích cỡ thông điệp vượt quá cảnh báo #s [KB].
+Hãy chọn [Yes] để tiếp tục quá trình.</Message>
+      <Button>YES_NO</Button>
+      <Description>Thực hiện xem trước khi in khối lượng dữ liệu lớn. Qúa trình này đòi hỏi nhiều thời gian</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I001">
+      <Message>#s hồ sơ đã đăng ký
+ Bạn có muốn hiển thị các báo cáo gửi đi
+
+Vì người sử dụng chưa đăng nhập, dữ liệu được đăng ký nhưng các báo cáo bị hủy trong khi đăng ký gửi liên tục. Các báo cáo sẽ được hiển thị bằng cách lựa chọn các nút</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] Hiển thị các báo cáo gửi đi
+[No] Không hiển thị các báo cáo gửi đi
+
+</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I002">
+      <Message>#s hồ sơ đã đăng ký
+ Bạn có muốn hiển thị các báo cáo gửi đi
+
+Vì chưa thực hiện đăng nhập mà chỉ thực hiện đăng ký. Các báo cáo cũng bị hủy trong khi đăng ký báo cáo gửi liên tục. Báo cáo gửi được hiển thị bằng cách lựa chọn YES</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] Các báo cáo gửi đi sẽ được hiển thị
+[No] Các báo cáo gửi đi sẽ không được hiển thị
+</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I103">
+      <Message>Hoàn thành gửi batch
+ #s thông điệp đã được gửi đi</Message>
+      <Button>OK_ONLY</Button>
+      <Description></Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I104">
+      <Message>Hoàn thành gửi liên tục
+ #s báo cáo đã được gửi đi
+Bạn có muốn hiển thị các báo cáo gửi đi</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] Các báo cáo gửi đi sẽ được hiển thị
+[No] Các báo cáo gửi đi sẽ không được hiển thị
+</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I105">
+      <Message>Có một số thông điệp áp dụng chữ ký số
+Bạn có muốn ký chúng?</Message>
+      <Button>YES_NO</Button>
+      <Description>[Yes] :  Ký các thông điệp tương ứng áp dụng chữ ký số và gửi tất cả các thông điệp đi
+[No] :  Không gửi các thông điệp trừ khi những thông điệp này áp dụng chữ ký số
+</Description>
+      <Disposition>
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I106">
+      <Message>Qúa trình xác nhận chữ ký hoàn thành cho tất cả các thông điệp</Message>
+      <Button>OK_ONLY</Button>
+      <Description>
+
+</Description>
+      <Disposition></Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I501">
+      <Message>Tìm kiếm không có dữ liệu</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Hãy thay đổi các chuỗi tìm kiếm hoặc phát hành các bộ lọc hoặc tìm kiếm một lần nữa</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+    <TermMessageSet Code="I502">
+      <Message>Qúa trình phục hồi danh mục thông điệp đã hoàn tất. Đề nghị khởi động lại phần mềm đầu cuối hải quan</Message>
+      <Button>OK_ONLY</Button>
+      <Description>Đề nghị khởi động lại phần mềm đầu cuối quan</Description>
+      <Disposition>
+
+</Disposition>
+    </TermMessageSet>
+  </TermMessageSetList>
+</TermMessage>

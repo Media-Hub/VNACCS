@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CMF" jobname="Manifest correction A" display-name="Sea cancelled transship/transit notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0050.xml" item_attr_edit="False" />
+  <friday href="VAS0050.xml" revision="0000" />
+  <iteminfo>
+    <item id="A00" name="Carrier code" input_output="-" required="" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A01" name="Carrier name" input_output="-" required="" attribute="A" figure="70" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Vessel call sign (船舶コード)" input_output="-" required="" attribute="A" figure="9" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Vessel name (船舶名)" input_output="-" required="" attribute="A" figure="35" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="Z01" name="Voyage No. (航海番号)" input_output="-" required="" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Port of discharge code (船卸港)" input_output="-" required="" attribute="A" figure="5" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Port of discharge suffix (船卸港枝番)" input_output="-" required="" attribute="I" figure="1" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Submitter code (提出者)" input_output="-" required="" attribute="A" figure="5" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Submitter name (提出者名)" input_output="-" required="" attribute="A" figure="50" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="Master B/L No. (マスターB/L番号)" input_output="-" required="" attribute="A" figure="35" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="20">
+      <item id="A09" name="B/L No." input_output="-" required="" attribute="A" figure="35" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <label Location="19, 226" Size="55, 23" Font="Tahoma, 11pt" Text="B/L No." />
+      <label Location="210, 46" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="199, 156" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <pagelabel Location="0, 4" Size="718, 28" Font="Tahoma, 11pt" Text="Sea cancelled transship/transit notification" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label Location="19, 47" Size="86, 23" Font="Tahoma, 11pt" Text="Carrier code" />
+      <prttextbox Format="" Location="143, 50" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A00" input_output="-" name="Carrier code" order="1" required="" />
+      <label Location="19, 87" Size="47, 23" Font="Tahoma, 11pt" Text="Vessel" />
+      <prttextbox Format="" Multiline="True" Location="227, 50" Size="323, 34" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="A01" input_output="-" name="Carrier name" order="2" required="" />
+      <label Location="237, 87" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="143, 90" Size="89, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="A02" input_output="-" name="Vessel call sign (船舶コード)" order="3" required="" />
+      <label Location="19, 133" Size="118, 23" Font="Tahoma, 11pt" Text="Port of discharge" />
+      <prttextbox Format="" Location="251, 90" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A03" input_output="-" name="Vessel name (船舶名)" order="4" required="" />
+      <label Location="199, 133" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="143, 136" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A04" input_output="-" name="Port of discharge code (船卸港)" order="6" required="" />
+      <label Location="19, 156" Size="70, 23" Font="Tahoma, 11pt" Text="Submitter" />
+      <prttextbox Format="" Location="213, 136" Size="17, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A05" input_output="-" name="Port of discharge suffix (船卸港枝番)" order="7" required="" />
+      <label Location="19, 181" Size="105, 23" Font="Tahoma, 11pt" Text="Master B/L No." />
+      <prttextbox Format="" Location="143, 159" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A06" input_output="-" name="Submitter code (提出者)" order="8" required="" />
+      <prttextbox Format="" Location="213, 159" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A07" input_output="-" name="Submitter name (提出者名)" order="9" required="" />
+      <prttextbox Format="" Location="143, 184" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A08" input_output="-" name="Master B/L No. (マスターB/L番号)" order="10" required="" />
+      <label Location="19, 110" Size="82, 23" Font="Tahoma, 11pt" Text="Voyage No." />
+      <prttextbox Format="" Location="143, 113" Size="99, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="Z01" input_output="-" name="Voyage No. (航海番号)" order="5" required="" />
+      <ran Location="16, 249" Size="337, 33" Font="Tahoma, 11pt" Count="1" repetition_id="R01" repetition_max="20" RepX="2" RepY="10" SpaceX="10" SpaceY="0">
+        <prttextbox Format="" Location="3, 8" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A09" input_output="-" name="B/L No." order="11" required="" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ITI" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0003" name="Importer/Exporter code" id="UCD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="U0004" name="None&#xA;Importer/Exporter code" id="0000&#xA;UCD">
+    <description>Tờ khai tạm nhập tái xuất này đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Time limit of re-import/re-export" id="TED">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập ngày theo đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0008" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0010" name="Customs office" id="CH">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0011" name="Time limit of re-import/re-export" id="TED">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0900" name="Import/Export indication&#xA;Customs office&#xA;Time limit of re-import/re-export&#xA;Importer/Exporter code&#xA;Declaration No." id="IEI&#xA;CH&#xA;TED&#xA;UCD&#xA;ICN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0002" name="Import/Export indication&#xA;Declaration No." id="IEI&#xA;ICN">
+    <description>Cần nhập một trong hai giá trị
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0005" name="None" id="0000">
+    <description>Số tờ khai tạm nhập/xuất cần  phải trống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Customs office" id="CH">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0025" name="Declaration No." id="ICN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để  tham khảo.
+</description>
+    <disposition>Nhấn "Send" để có được thêm thông tin</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Không tìm thấy mục nào
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+</help>

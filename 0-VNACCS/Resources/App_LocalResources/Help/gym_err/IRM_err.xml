@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IRM" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng không có quyền tham khảo thông tin.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0003" name="Carrier code" id="SCA">
+    <description>Người sử dụng không có quyền tham khảo thông tin.
+</description>
+    <disposition>Nhập đúng Mã nhà vận chuyển.</disposition>
+  </response>
+  <response code="S0001" name="Reference type" id="KBN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Phân loại xem dữ liệu.
+</disposition>
+  </response>
+  <response code="S0002" name="Reference type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Phân loại xem dữ liệu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Reference No." id="REF">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số tham chiếu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Train registry No." id="TRN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số hiệu đoàn tàu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Arrival station code/Departure station code" id="ARD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Estimated date of arrival/Estimated date of departure" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Ngày dự kiến đến/Ngày xuất phát với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0008" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0009" name="Freight car No." id="FRN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu toa tầu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0010" name="Container/Transport equipment No." id="CGN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="Reference No." id="REF">
+    <description>Cờ báo nhập khẩu/xuất khẩu và Số tham chiếu đều không thể nhập.
+</description>
+    <disposition>Nhập cờ báo nhập khẩu/xuất khẩu hoặc Số tham chiếu.
+</disposition>
+  </response>
+  <response code="R0002" name="Reference No." id="REF">
+    <description>Yêu cầu phải nhập cờ báo nhập khẩu/xuất khẩu hoặc Số tham chiếu.
+</description>
+    <disposition>Nhập cờ báo nhập khẩu/xuất khẩu hoặc Số tham chiếu.
+</disposition>
+  </response>
+  <response code="R0003" name="Import/Export indication&#xA;Train registry No." id="IEI&#xA;TRN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0004" name="Import/Export indication&#xA;Arrival station code/Departure station code" id="IEI&#xA;ARD">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0005" name="Import/Export indication&#xA;Estimated date of arrival/Estimated date of departure" id="IEI&#xA;IDT">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0006" name="Import/Export indication&#xA;Carrier code" id="IEI&#xA;SCA">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0007" name="Reference type&#xA;Freight car No." id="KBN&#xA;FRN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="R0008" name="Reference type&#xA;Freight car No." id="KBN&#xA;FRN">
+    <description>Số hiệu toa tầu nên để trống.
+</description>
+    <disposition>Hủy nội dung nhập của số hiệu toa tầu.
+</disposition>
+  </response>
+  <response code="R0009" name="Reference type&#xA;Container/Transport equipment No." id="KBN&#xA;CGN">
+    <description>Số container nên để trống.
+</description>
+    <disposition>Hủy nội dung nhập của Số container.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Thông tin Manifest đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin Manifest.
+</disposition>
+  </response>
+  <response code="E0006" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0007" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0008" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0009" name="Freight car No." id="FRN">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="E0010" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="W0001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.
+</description>
+    <disposition>Nhấn nút "Send" để có được thêm thông tin.
+</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

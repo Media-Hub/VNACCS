@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="DMF" name="">
+  <item no="1" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn giá trị trong trình đơn:
+I: Import (nhập)
+E:Export (xuất)</item>
+  <item no="2" name="Vessel call sign" id="SEN" required="" code="">Nhập hô hiệu của tàu</item>
+  <item no="3" name="Port of discharge code/Port of loading code" id="DPR" required="" code="UN/LOCODE">Trường hợp manifest nhập, nhập Mã cảng dỡ hàng.
+Trường hợp manifest xuất, nhập Mã cảng xếp hàng.
+Nhập mã cảng theo bảng mã UNLOCODE</item>
+  <item no="4" name="Port of discharge suffix/Port of loading suffix" id="EDA" required="" code="">Nhập số trong khoảng từ 0 đến 9. 
+Trường hợp manifest nhập, nhập Số lần vào cảng dỡ hàng trong chuyến hành trình. 
+Trường hợp manifest xuất, nhập Số lần vào cảng xếp hàng trong chuyến hành trình.</item>
+  <item no="5" name="Voyage No." id="VOY" required="" code="">
+  </item>
+  <item no="6" name="Carrier code" id="SCA" required="" code="Carrier code">
+  </item>
+  <item no="7" name="Share slot (Joint-operation)" id="JOI" required="" code="">Trường hợp nhiều hãng vận tải cùng khai thác (Share-slot) thì nhập "J" vào mục này.</item>
+  <item no="8" name="Date of arrival/Date of departure" id="IDT" required="" code="">Ngày dự kiến đến/đi phải không sớm hơn 6 ngày so với ngày hệ thống và không muộn hơn 10 ngày so với ngày hệ thống.</item>
+  <item no="9" name="Submission to Immigration Bureau" id="SIM" required="" code="">Trường hợp cần khai báo thông tin manifest tới Cơ quan Biên phòng thì chọn vào ô check-box.</item>
+  <item no="10" name="Submission to Quarantine station" id="SQU" required="" code="">Trường hợp cần khai báo thông tin manifest tới Cơ quan Kiểm dịch thì chọn vào ô check-box.</item>
+  <item no="11" name="Submission to Port authority" id="SPO" required="" code="">Trường hợp cần khai báo thông tin manifest tới Cơ quan Cảng vụ thì chọn vào ô check-box.</item>
+  <item no="12" name="Customs office" id="CHC" required="" code="Customs office code">Nhập mã Cơ quan  Hải quan sẽ gửi thông tin đến. Trường hợp mục này không được nhập thì bản khai sẽ được gửi tới Cơ quan Hải quan quản lý Cảng dỡ hàng (đối với manifest nhập) hoặc Cơ quan Hải quan quản lý Cảng xếp hàng (đối với manifest xuất).</item>
+  <item no="13" name="User code of Immigration Bureau" id="IMG" required="" code="User code">Nhập mã người sử dụng của Cơ quan Biên phòng sẽ gửi thông tin đến trong trường hợp cần khai báo bản khai tới Cơ quan Biên phòng. Trường hợp mục này không được nhập thì bản khai sẽ được gửi tới Cơ quan Biên phòng quản lý Cảng dỡ hàng (đối với manifest nhập) hoặc Cơ quan Biên phòng quản lý Cảng xếp hàng (đối với manifest xuất).</item>
+  <item no="14" name="User code of Quarantine station" id="QUA" required="" code="User code">Nhập mã người sử dụng của Cơ quan Kiểm dịch sẽ gửi thông tin đến trong trường hợp cần khai báo bản khai tới Cơ quan  Kiểm dịch  Trường hợp mục này không được nhập thì bản khai sẽ được gửi tới Cơ quan  Kiểm dịch  quản lý Cảng dỡ hàng (đối với manifest nhập) hoặc Cơ quan  Kiểm dịch  quản lý Cảng xếp hàng (đối với manifest xuất).</item>
+  <item no="15" name="User code of Port authority" id="POA" required="" code="User code">Nhập mã người sử dụng của Cơ quan Cảng vụ sẽ gửi thông tin đến trong trường hợp cần khai báo bản khai tới Cơ quan   Cảng vụ.  Trường hợp mục này không được nhập thì bản khai sẽ được gửi tới Cơ quan  Cảng vụ  quản lý Cảng dỡ hàng (đối với manifest nhập) hoặc Cơ quan   Cảng vụ  quản lý Cảng xếp hàng (đối với manifest xuất).</item>
+  <item no="16" name="Remarks" id="NTE" required="" code=""> </item>
+</guide>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="NLR11" name="Report of crew list (Call up)">
+  <item no="1" name="Crew list No.&#xA;&#xA;" id="NUM" required="" code="">Người dùng nhập số tham chiéu danh sách thuyền viên để tìm kiếm</item>
+</guide>

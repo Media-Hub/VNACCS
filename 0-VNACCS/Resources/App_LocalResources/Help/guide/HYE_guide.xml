@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="HYE" name="Modification of application attached by electronic file">
+  <item no="1" name="Declaration No" id="ICN" required="" code="">Nhập số tờ khai cần thay đổi khai báo đình kèm tài liệu điện tử.</item>
+  <item no="2" name="Applicant telephone number" id="STL" required="" code="">Nhập số điện thoại người khai.</item>
+  <item no="3" name="Enterprise internal control number" id="REF" required="" code="">Nhập số quản lý của nội bộ doanh nghiệp trong trường hợp doanh nghiệp sử dụng tính năng này để quản lý nội bộ.</item>
+  <item no="4" name="Remarks " id="KIJ" required="" code="">Nhập ghi chú (nếu có).</item>
+</guide>

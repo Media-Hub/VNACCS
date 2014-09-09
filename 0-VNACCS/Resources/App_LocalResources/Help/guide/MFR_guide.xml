@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="MFR" name="">
+  <item no="1" name="Processing type" id="KND" required="" code="">Hệ thống mặc định giá trị là 9 (đăng ký trước thông tin manifest)</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn giá trị trong trình đơn:
+I: Import (nhập)
+E:Export (xuất)</item>
+  <item no="3" name="Vessel call sign" id="SEN" required="" code="">Nhập hô hiệu của tàu</item>
+  <item no="4" name="Vessel name" id="SNA" required="" code="">Trường hợp Hô hiệu chưa được đăng ký trong hệ thống thì yêu cầu phải nhập tên tàu biển.</item>
+  <item no="5" name="Voyage No." id="VOY" required="" code="">Khai báo số hiệu chuyến đi</item>
+  <item no="6" name="Carrier code" id="SCA" required="" code="Carrier code">Nhập mã của hãng vận tải</item>
+  <item no="7" name="Port of discharge code" id="DPR" required="" code="UN/LOCODE">Trường hợp manifest nhập,  Mã cảng dỡ hàng có thể là mã cảng nội địa của Việt Nam
+Trường hợp hàng hóa chuyển tải/quá cảnh, nhập mã cảng đến đầu tiên theo mã UN/LOCODE.</item>
+  <item no="8" name="Port of discharge suffix" id="EDA" required="" code="">Nhập số lần tàu biển vào Cảng dỡ hàng trong 1 hành trình. Có thể nhập  từ 0 đến 9.</item>
+  <item no="9" name="Port of loading code" id="LPR" required="" code="UN/LOCODE">Trường hợp manifest xuất,  Mã cảng xếp hàng có thể là mã cảng nội địa của Việt Nam.
+Trường hợp manifest nhập và số B/L đã được nhập thì yêu cầu nhập Mã cảng xếp hàng.
+Mã cảng nhập theo bảng mã UN/LOCODE</item>
+  <item no="10" name="Port of loading suffix" id="LPD" required="" code="">Nhập số làn tàu biển xuất ra khỏi Cảng xếp hàng trong 1 hành trình. Có thể nhập từ 0 đến 9.</item>
+  <item no="11" name="Estimated date of arrival/Estimated date of departure" id="IDT" required="" code="">Nhập ngày dự kiến đến (trường hợp manifest nhập) hoặc ngày dự kiến đi (trường hợp manifest xuất) sớm hơn ít nhất 4 ngày so với ngày hệ thống.
+Nhập ngày theo định dạng DDMMYYYY.</item>
+  <item no="12" name="B/L No." id="BLN" required="" code="">Yêu cầu nhập số B/L trong trường hợp khai báo cho container đầy. Trường hợp số B/L không chứa Mã hãng vận tải thì nhập thêm Mã hàng vận tải vào trước số B/L (không dùng dấu phẩy ",")</item>
+  <item no="13" name="Final destination code" id="DST" required="" code="UN/LOCODE">Nhập mã điểm đích cuối cùng theo bảng mã UN/LOCODE</item>
+  <item no="14" name="Final destination name" id="DSN" required="" code="">Trường hợp Tên điểm đích cuối cùng chưa được đăng ký trong hệ thống thì nhập Tên điểm đích cuối cùng vào mục này.</item>
+  <item no="15" name="Place of delivery code" id="DLP" required="" code="UN/LOCODE">Nhập Mã điểm giao hàng bảng mã UN/LOCODE</item>
+  <item no="16" name="Place of delivery name" id="DLN" required="" code="">Trường hợp Tên điểm giao hàng chưa được đăng ký trong hệ thống thì nhập Tên điểm giao hàng vào mục này</item>
+  <item no="17" name="Consignor code" id="SHS" required="" code="Importer/exporter code">
+  </item>
+  <item no="18" name="Consignor name" id="SHN" required="" code="">
+  </item>
+  <item no="19" name="Consignor postcode" id="SHP" required="" code="">
+  </item>
+  <item no="20" name="Consignor address 1 (Building name etc.)" id="SN1" required="" code="">It is required to enter either of following elements;
+- Consignor address 1 (Building name etc.)
+- Consignor address 2 (Street and number/P.O. Box)
+- Consignor address 3 (District/Commune name)
+- Consignor address 4 (City name)
+</item>
+  <item no="21" name="Consignor address 2 (Street and number/P.O. Box)" id="SN2" required="" code="">It is required to enter either of following elements;
+- Consignor address 1 (Building name etc.)
+- Consignor address 2 (Street and number/P.O. Box)
+- Consignor address 3 (District/Commune name)
+- Consignor address 4 (City name)
+</item>
+  <item no="22" name="Consignor address 3 (District/Commune name)" id="SN3" required="" code="">It is required to enter either of following elements;
+- Consignor address 1 (Building name etc.)
+- Consignor address 2 (Street and number/P.O. Box)
+- Consignor address 3 (District/Commune name)
+- Consignor address 4 (City name)
+</item>
+  <item no="23" name="Consignor address 4 (City name)" id="SN4" required="" code="">It is required to enter either of following elements;
+- Consignor address 1 (Building name etc.)
+- Consignor address 2 (Street and number/P.O. Box)
+- Consignor address 3 (District/Commune name)
+- Consignor address 4 (City name)
+</item>
+  <item no="24" name="Consignor address 5 (Country code)" id="SN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">
+  </item>
+  <item no="25" name="Consignor telephone No." id="SHT" required="" code="">
+  </item>
+  <item no="26" name="Consignee code" id="CNS" required="" code="Importer/exporter code">
+  </item>
+  <item no="27" name="Consignee name" id="CNN" required="" code="">
+  </item>
+  <item no="28" name="Consignee postcode" id="CNP" required="" code="">
+  </item>
+  <item no="29" name="Consignee address 1 (Building name etc.)" id="CN1" required="" code="">It is required to enter either of following elements;
+- Consignee address 1 (Building name etc.)
+- Consignee address 2 (Street and number/P.O. Box)
+- Consignee address 3 (District/Commune name)
+- Consignee address 4 (City name)
+</item>
+  <item no="30" name="Consignee address 2 (Street and number/P.O.Box)" id="CN2" required="" code="">It is required to enter either of following elements;
+- Consignee address 1 (Building name etc.)
+- Consignee address 2 (Street and number/P.O. Box)
+- Consignee address 3 (District/Commune name)
+- Consignee address 4 (City name)
+</item>
+  <item no="31" name="Consignee address 3 (District/Commune name)" id="CN3" required="" code="">It is required to enter either of following elements;
+- Consignee address 1 (Building name etc.)
+- Consignee address 2 (Street and number/P.O. Box)
+- Consignee address 3 (District/Commune name)
+- Consignee address 4 (City name)
+</item>
+  <item no="32" name="Consignee address 4 (City name)" id="CN4" required="" code="">It is required to enter either of following elements;
+- Consignee address 1 (Building name etc.)
+- Consignee address 2 (Street and number/P.O. Box)
+- Consignee address 3 (District/Commune name)
+- Consignee address 4 (City name)
+</item>
+  <item no="33" name="Consignee address 5 (Country code)" id="CN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="34" name="Consignee telephone No." id="CTL" required="" code="">
+  </item>
+  <item no="35" name="Notify party code" id="NS_" required="" code="Importer/exporter code">
+  </item>
+  <item no="36" name="Notify party name" id="NN_" required="" code="">Yêu cầu nhập ít nhất 1 Tên bên nhận thông báo hàng đến. Trường hợp không nhập Mã bên nhận thông báo hàng đến thì yêu cầu nhập Tên bên nhận thông báo hàng đến tại mục này.</item>
+  <item no="37" name="Notify party postcode" id="NP_" required="" code="">
+  </item>
+  <item no="38" name="Notify party address 1 (Building name etc.)" id="NE_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="39" name="Notify party address 2 (Street and number/P.O.Box)" id="NF_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="40" name="Notify party address 3 (District/Commune name)" id="NG_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="41" name="Notify party address 4 (City name)" id="NH_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="42" name="Notify party address 5 (Country code)" id="NC_" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="43" name="Notify party telephone No." id="NL_" required="" code="">
+  </item>
+  <item no="44" name="Freight" id="FRT" required="" code="">Trường hợp Mã phân loại tiền tệ cước vận chuyển không phải là VNĐ thì được phép nhập số thập phân với tối đa 15 ký tự nguyên và 4 ký tự sau dấu phẩy.
+Nếu Mã phân loại tiền tệ cước vận chuyển là VNĐ thì chỉ được nhập số nguyên (20 ký tự)</item>
+  <item no="45" name="Freight currency code" id="FRC" required="" code="Currency Code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ theo danh mục ISO4217</item>
+  <item no="46" name="Transship/Transit" id="KRR" required="" code="UN/EDIFACT code (7365)">Nhập giá trị 28 cho hàng chuyển tải/quá cảnh</item>
+  <item no="47" name="Transship/Transit reason" id="KRS" required="" code="Transship/Transit reason code">Nhập Mã lý do chuyển tải/quá cảnh theo danh mục hướng dẫn </item>
+  <item no="48" name="Transship/Transit duration" id="PRD" required="" code="">Thời hạn chuyển tải/quá cảnh tính từ ngày hàng hóa/container được dỡ xuống khỏi phương tiện. Không được nhập số 0</item>
+  <item no="49" name="Code of verification based on other laws and regulations (other than Customs laws)" id="OC_" required="" code="Code of verification based on other laws and regulations (other than Customs laws)">Nhập mã của các văn bản pháp quy khác quy định các vấn đề liên quan đến phương tiện, hàng hóa chuyên chở.</item>
+  <item no="50" name="Remarks" id="NTE" required="" code="">
+  </item>
+  <item no="51" name="Goods description" id="CM__" required="" code="">Yêu cầu nhập ít nhất 1 dòng hàng trên bản khai. 1 Master B/L được nhập tối đa 20 dòng hàng. </item>
+  <item no="52" name="HS code (First 4 digits)" id="HS__" required="" code="HS code (4-digit)">Nhập mã HS (4 ký tự) của hàng hóa</item>
+  <item no="53" name="Marks and Nos." id="MR__" required="" code="">
+  </item>
+  <item no="54" name="Number of packages" id="PC__" required="" code="">Chỉ nhập số nguyên. Trường hợp hàng không chia theo kiện (hàng rời, hàng xá) thì nhập số 1.</item>
+  <item no="55" name="Number of packages unit code" id="PU__" required="" code="Kinds of packages code (UN/ECE 21/alphabetic letter)">Nhập mã đơn vị kiện (3 ký tự) theo danh mục hướng dẫn số 21 của UN/ECE </item>
+  <item no="56" name="Gross weight" id="GW__" required="" code="">Nhập tổng trọng lượng của hàng hóa. Nhập số bao gồm tối đa 6 số nguyên và 3 số thập phân</item>
+  <item no="57" name="Weight unit code" id="1W__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị tính của trọng lượng trong trình đơn, gồm:
+KGM: Kilogram
+TNE: Metric Ton
+LBR: Pound</item>
+  <item no="58" name="Net weight" id="NW__" required="" code="">Nhập trọng lượng tịnh của hàng hóa. Nhập số bao gồm tối đa 6 số nguyên và 3 số thập phân</item>
+  <item no="59" name="Weight unit code" id="2W__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị tính của trọng lượng trong trình đơn, gồm:
+KGM: Kilogram
+TNE: Metric Ton
+LBR: Pound</item>
+  <item no="60" name="Capacity" id="VO__" required="" code="">Nhập thể tích của hàng hóa theo định dạng số thập phân với tối đa 6 ký tự phần nguyên và 3 ký tự phần sau dấu phẩy.</item>
+  <item no="61" name="Capacity unit code" id="VU__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị thể tích của hàng hóa trong trình đơn, gồm:
+MTQ: Cubic Meter
+FTQ: Cubic Feet
+BFT: Board Foot Measure (timber)</item>
+  <item no="62" name="Country of origin code" id="OR__" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="63" name="Special cargo sign" id="SP__" required="" code="Special cargo code">Nhập ký hiệu hàng hóa đặc biệt theo danh mục hướng dẫn</item>
+  <item no="64" name="Container No." id="CNO" required="" code="">Nhập số container trong trường hợp phương tiện chở theo container (đầy hoặc rỗng)
+Được nhập tối đa 100 container. Trường hợp không nhập số B/L thì phải nhập ít nhất 1 số container.</item>
+  <item no="65" name="Seal No." id="SL_" required="" code="">Nhập số seal của container</item>
+  <item no="66" name="Empty/Full container indication" id="EFS" required="" code="UN/EDIFACT code (8169)">Lựa chọn giá trị từ trình đơn, gồm:
+4: Empty (rỗng)
+5: Full (đầy)</item>
+  <item no="67" name="Container size" id="SIZ" required="" code="Container size code&#xA;(ISO6346)">Nhập mã kích thước của container (2 ký tự) theo danh mục ISO6346 như sau:
+Ký tự đầu tiên nhập mã độ dài của container như sau:
+1: 10' (feet)
+2: 20' (feet)
+4: 40' (feet)
+9: Other (loại khác)
+Ký tự thứ 2 nhập mã độ rộng của container như sau:
+ (feet)         (inch)
+0: 8'
+2: 8'            6"
+4: 9'
+5: 9'            6"
+6: &gt;9'          6"
+8: 4'            3"
+9: =&lt;4'       (loại khác))</item>
+  <item no="68" name="Container type" id="TYP" required="" code="Container type code&#xA;(ISO6346)">Lựa chọn loại container từ trình đơn (theo danh mục chuẩn ISO6346), gồm:
+GP: General purpose container (loại thông thường)
+RT: Thermal container - Refrigerated and heated (loại container nóng hoặc lạnh)
+UT: Open-top container (loại mở phía trên)
+PF: Platform-based containers with incomplete
+       superstructure: Fixed
+TN: Tank container - For nondangerous liquids (loại container thùng dùng để chứa chất lỏng không nguy hiểm)
+OT: Named cargo container (loại khác)</item>
+  <item no="69" name="Delivery type code" id="DLV" required="" code="">Lựa chọn Mã hình thức giao hàng từ trình đơn. Trường hợp là conatiner đầy thì bắt buộc phải nhập. Trường hợp container rỗng thì không phải nhập mục này.
+51: Delivery on CY (giao tại CY)
+52: Delivery on CSF (Giao tại CSF)
+53: Delivery on DOOR (Giao tại DOOR)
+54: Direct (Break bulk) delivery (Giao trực tiếp)
+55: Delivery on CY and CSF (Giao tại CY và CSF)
+AR: In case of air cargo (trường hợp là hàng hóa vận chuyển bằng đường không)
+OT: Other than above (loại khác)
+</item>
+  <item no="70" name="Container ownership type Code" id="COW" required="" code="UN/EDIFACT code (8077)">Lựa chọn giá trị từ trình đơn:
+1: Consignor supplied (container của người gửi hàng)
+2: Carrier supplied (container của hãng vận tải)
+3: Consolidator supplied (container của đơn vị gom hàng)
+4: Deconsolidator supplied
+5: Third party supplied (container của bên thứ 3)
+OT: Other than above (hình thức khác)
+</item>
+  <item no="71" name="Vanning type code" id="VAN" required="" code="UN/EDIFACT code (7273)">Lựa chọn Mã hình xếp hàng vào container từ trình đơn. Trường hợp là conatiner đầy thì bắt buộc phải nhập. Trường hợp container rỗng thì không phải nhập mục này.
+1: Carrier loads (hãng vận xếp hàng)
+4: Consignor loads (Người gửi hàng xếp hàng)
+16: Consignee loads (Người nhận hàng xếp hàng)
+OT: Other than above (Loại khác)</item>
+</guide>

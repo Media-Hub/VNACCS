@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IMF02" jobname="Reference of house manifest information B" display-name="Reference of house manifest information B">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_IMF02.xml" item_attr_edit="False" />
+  <friday href="CAM20_IMF02.xml" revision="0000" />
+  <iteminfo>
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="MAB" name="Master AWB No. (MAWB番号)" input_output="+" required="M" attribute="A" figure="20" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="100, 19" Location="189, 166" Text="Import / Export *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="93" TabIndex="1" Size="40, 22" Location="299, 165" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="104, 19" Location="189, 194" Text="Master AWB No. *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="153, 21" Location="299, 193" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Master AWB No. (MAWB番号)" check_attribute="*" attribute="A" id="MAB" figure="20" required="M" />
+  </layout>
+</jobform>

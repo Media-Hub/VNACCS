@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IVA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Import export classification" id="YNK">
+    <description>Phân loại xuất/nhập khẩu chưa được nhập.
+</description>
+    <disposition>Nhập Phân loại xuất/nhập khẩu.
+</disposition>
+  </response>
+  <response code="S0002" name="Import export classification" id="YNK">
+    <description>Giá trị nhập vào của Phân loại xuất / nhập khẩu chưa được xác định.
+</description>
+    <disposition>Nhập Phân loại xuất / nhập khẩu phù hợp.
+</disposition>
+  </response>
+  <response code="S0003" name="User code (VAN)" id="TII">
+    <description>Mã người sử dụng nhập vào "Mã đại lý Hải quan" không hợp lệ dành cho người sử dụng.
+</description>
+    <disposition>Nhập "Mã đại lý Hải quan" phù hợp.
+</disposition>
+  </response>
+  <response code="S0004" name="User code (VAN)" id="TII">
+    <description>1. Mã người sử dụng đã nhập không phải Công ty đại lý khai thuế.
+2. Mã người sử dụng đã nhập không phải Cơ quan vận chuyển hàng hóa bằng đường hàng không.
+</description>
+    <disposition>Nhập "Mã đại lý Hải quan" phù hợp cho Công ty đại lý khai thuế.
+Nhập "Mã đại lý Hải quan" phù hợp cho Cơ quan vận chuyển hàng hóa bằng đường hàng không.
+</disposition>
+  </response>
+  <response code="S0005" name="Invoice No." id="IVN">
+    <description>Số hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập Số hóa đơn
+</disposition>
+  </response>
+  <response code="S0006" name="Invoice No." id="IVN">
+    <description>Ký tự không được sử dụng đang được nhập vào Số hóa đơn
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0007" name="Invoice creation date" id="IVD">
+    <description>Ngày lập hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập Ngày lập hóa đơn.
+</disposition>
+  </response>
+  <response code="S0009" name="Invoice creation date" id="IVD">
+    <description>Chưa nhập Ngày lập hóa đơn hợp lệ.
+</description>
+    <disposition>Nhập Ngày lập hóa đơn hợp lệ.
+</disposition>
+  </response>
+  <response code="S0010" name="Invoice creation date" id="IVD">
+    <description>Ngày lập hóa đơn đang được nhập bằng ngày tương lai.
+</description>
+    <disposition>Nhập ngày hiện tại hoặc ngày trong quá khứ cho Ngày lập hóa đơn.
+</disposition>
+  </response>
+  <response code="S0011" name="Invoice creation location" id="IVB">
+    <description>Địa điểm lập hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập Địa điểm lập hóa đơn.
+</disposition>
+  </response>
+  <response code="S0012" name="Invoice creation location" id="IVB">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa điểm lập hóa đơn.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0013" name="Number classification" id="N01～N11">
+    <description>Giá trị nhập vào của Mã số phân loại chưa được xác định.
+</description>
+    <disposition>Nhập Mã số phân loại phù hợp.
+</disposition>
+  </response>
+  <response code="S0014" name="Number classification" id="N01～N11">
+    <description>Có nhiều hơn 5 [B/L] đang được nhập vào Mã số phân loại.
+</description>
+    <disposition>Chỉ định [B/L] vào Mã số phân loại cho tối đa là 5 mục.
+</disposition>
+  </response>
+  <response code="S0015" name="Number classification" id="N01～N11">
+    <description>Có nhiều hơn 3 [C/O] đang được nhập vào Mã số phân loại.
+</description>
+    <disposition>Chỉ định [C/O] vào Mã số phân loại cho tối đa là 3 mục.
+</disposition>
+  </response>
+  <response code="S0016" name="Number classification" id="N01～N11">
+    <description>Có nhiều hơn 1 [C/N] đang được nhập vào Mã số phân loại.
+</description>
+    <disposition>Chỉ định [C/N] vào Mã số phân loại cho 1 mục.
+</disposition>
+  </response>
+  <response code="S0017" name="Number classification" id="N01～N11">
+    <description>Có nhiều hơn 1 [L/C] đang được nhập vào Mã số phân loại.
+</description>
+    <disposition>Chỉ định [L/C] vào Mã số phân loại cho 1 mục.
+</disposition>
+  </response>
+  <response code="S0018" name="Number classification" id="N01～N11">
+    <description>Có nhiều hơn 1 [S/N] đang được nhập vào Mã số phân loại.
+</description>
+    <disposition>Chỉ định [S/N] vào Mã số phân loại cho 1 mục.
+</disposition>
+  </response>
+  <response code="S0019" name="Number" id="O01～O11">
+    <description>1.Mặc dù Số hiệu đã được nhập vào, nhưng Mã số phân loại vẫn chưa được nhập.
+2.Mặc dù Số hiệu chưa được nhập vào, nhưng Mã số phân loại đã được nhập.
+</description>
+    <disposition>1.Hủy nội dung nhập của Số hiệu hoặc nhập Mã số phân loại.
+2.Hủy nội dung nhập của Mã số phân loại hoặc nhập Số hiệu.
+</disposition>
+  </response>
+  <response code="S0020" name="Number" id="O01～O11">
+    <description>Ký tự không được sử dụng đang được nhập vào Số hiệu.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0021" name="Date" id="M01～M11">
+    <description>Chưa nhập ngày hợp lệ.
+</description>
+    <disposition>Nhập ngày hợp lệ vào mục Ngày tháng năm.
+</disposition>
+  </response>
+  <response code="S0022" name="Number classification" id="N01～N11">
+    <description>Có các cột chưa được thiết định Mã số phân loại.
+</description>
+    <disposition>Nhập Mã số phân loại.
+</disposition>
+  </response>
+  <response code="S0023" name="Term of payment" id="HOS">
+    <description>Ký tự không được sử dụng đang nhập vào Phương thức thanh toán.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0025" name="Importer/Exporter code" id="IMC">
+    <description>Mã người xuất nhập khẩu đã nhập chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã người xuất nhập khẩu phù hợp.
+</disposition>
+  </response>
+  <response code="S0026" name="Consignee (consignor) code" id="EPC">
+    <description>Mã người gửi (người nhận) chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Nhập Mã người gửi (người nhận) phù hợp.
+</disposition>
+  </response>
+  <response code="S0027" name="Importer/Exporter name" id="IMN">
+    <description>Tên người xuất nhập khẩu chưa được nhập.
+</description>
+    <disposition>Nhập Tên người xuất nhập khẩu.
+</disposition>
+  </response>
+  <response code="S0028" name="Importer/Exporter name" id="IMN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên người xuất nhập khẩu
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0029" name="Importer/Exporter postcode" id="IMY">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã bưu chính của người xuất nhập khẩu.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0034" name="Telephone number of Importer/Exporter " id="IMT">
+    <description>Ký tự không được sử dụng đang được nhập vào Số điện thoại của người xuất nhập khẩu.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0035" name="Address of Importer/Exporter" id="IMA">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa chỉ người xuất nhập khẩu.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0036" name="Consignee (consignor)'s resident country" id="EEE">
+    <description>Ký tự không được sử dụng đang được nhập vào Nước sở tại của người nhận (người gửi).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0037" name="Marks and numbers" id="KNO">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã ký hiệu.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0038" name="Transportation classification" id="TTP">
+    <description>Giá trị nhập vào của Phân loại vận chuyển chưa được xác định.
+</description>
+    <disposition>Nhập Phân loại vận chuyển
+</disposition>
+  </response>
+  <response code="S0039" name="Loading vessel/aircraft name" id="VSS">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên phương tiện vận chuyển.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0040" name="Voyage number" id="VNO">
+    <description>Ký tự không được sử dụng đang được nhập vào Số hiệu chuyến đi.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0041" name="Loading port code" id="PSC">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã cảng xếp hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0042" name="Loading port code" id="PSC">
+    <description>Định dạng Mã cảng xếp hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã cảng xếp hàng với 3 ký tự (Xuất khẩu)
+</disposition>
+  </response>
+  <response code="S0043" name="Loading port code" id="PSC">
+    <description>Định dạng Mã cảng xếp hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã địa cảng hàng với 5 ký tự (Nhập khẩu)
+</disposition>
+  </response>
+  <response code="S0044" name="Loading port name" id="PSN">
+    <description>Tên cảng xếp hàng chưa được nhập.
+</description>
+    <disposition>Nhập Tên cảng xếp hàng.
+</disposition>
+  </response>
+  <response code="S0045" name="Loading port name" id="PSN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên cảng xếp hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0046" name="Loading period" id="PSD">
+    <description>Chưa nhập thời gian xếp hàng hợp lệ.
+</description>
+    <disposition>Nhập ngày tháng năm phù hợp cho thời gian xếp hàng hợp lệ .
+</disposition>
+  </response>
+  <response code="S0047" name="Unloading port code" id="DST">
+    <description>Định dạng Mã cảng dỡ hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã cảng dỡ hàng với 3 ký tự (Nhập khẩu)
+</disposition>
+  </response>
+  <response code="S0048" name="Unloading port code" id="DST">
+    <description>Định dạng Mã cảng dỡ hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã cảng dỡ hàng với 5 ký tự (Xuất khẩu)
+</disposition>
+  </response>
+  <response code="S0049" name="Unloading port name" id="DCN">
+    <description>Tên cảng dỡ hàng chưa được nhập.
+</description>
+    <disposition>Nhập Tên cảng dỡ hàng.
+</disposition>
+  </response>
+  <response code="S0050" name="Unloading port name" id="DCN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên cảng dỡ hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0051" name="Transit location code" id="KYC">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã địa điểm trung chuyển.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0052" name="Transit location name" id="KYN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên địa điểm trung chuyển.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0053" name="Gross weight" id="GWJ">
+    <description>Định dạng Tổng trọng lượng hàng (Gross) không hợp lệ.
+</description>
+    <disposition>Sửa Tổng trọng lượng hàng (Gross) và nhập lại.
+</disposition>
+  </response>
+  <response code="S0054" name="Gross weight measure unit code" id="GWT">
+    <description>1. Mặc dù Mã đơn vị tính tổng trọng lượng đã được nhập, nhưng Tổng trọng lượng hàng (Gross) chưa được nhập.
+2. Mặc dù Mã đơn vị tính tổng trọng lượng chưa được nhập, nhưng Tổng trọng lượng hàng (Gross) đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã đơn vị tính tổng trọng lượng hoặc nhập Tổng trọng lượng hàng (Gross).
+2. Nhập Mã đơn vị tính tổng trọng lượng hoặc hủy nội dung nhập của Tổng trọng lượng hàng (Gross).
+</disposition>
+  </response>
+  <response code="S0055" name="Gross weight measure unit code" id="GWT">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính tổng trọng lượng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0056" name="Net weight" id="JWJ">
+    <description>Định dạng của Trọng lượng thuần đã nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Trọng lượng thuần và nhập lại.
+</disposition>
+  </response>
+  <response code="S0057" name="Net weight measure unit code" id="JWT">
+    <description>1. Mặc dù Mã đơn vị tính trọng lượng thuần đã được nhập, nhưng Trọng lượng thuần chưa được nhập.
+2. Mặc dù Mã đơn vị tính trọng lượng thuần chưa được nhập, nhưng Trọng lượng thuần đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã đơn vị tính trọng lượng thuần hoặc nhập Trọng lượng thuần.
+2. Nhập Mã đơn vị tính trọng lượng thuần hoặc Hủy nội dung nhập của Trọng lượng thuần.
+</disposition>
+  </response>
+  <response code="S0058" name="Net weight measure unit code" id="JWT">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính trọng lượng thuần.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0059" name="Gross cubic content" id="STJ">
+    <description>Định dạng Tổng thể tích đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Tổng thể tích và nhập lại.
+</disposition>
+  </response>
+  <response code="S0060" name="Gross cubic content measure unit code" id="STT">
+    <description>1. Mặc dù Mã đơn vị tính tổng thể tích đã được nhập, nhưng Tổng thể tích chưa được nhập.
+2. Mặc dù Mã đơn vị tính tổng thể tích chưa được nhập, nhưng Tổng thể tích đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã đơn vị tính tổng thể tích hoặc nhập Tổng thể tích.
+</disposition>
+  </response>
+  <response code="S0061" name="Gross cubic content measure unit code" id="STT">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính tổng thể tích.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0062" name="Total packages number" id="NOJ">
+    <description>Định dạng Tổng số kiện hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Tổng số kiện hàng và nhập lại.
+</disposition>
+  </response>
+  <response code="S0063" name="Total packages number measure unit code" id="NOT">
+    <description>1. Mặc dù Mã đơn vị tính tổng số kiện hàng đã được nhập, nhưng Tổng số kiện hàng chưa được nhập
+2.Mặc dù Mã đơn vị tính tổng số kiện hàng chưa được nhập, nhưng Tổng số kiện hàng đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã đơn vị tính tổng số kiện hàng hoặc nhập Tổng số kiện hàng.
+2. Nhập Mã đơn vị tính tổng số kiện hàng hoặc hủy nội dung nhập của Tổng số kiện hàng.
+</disposition>
+  </response>
+  <response code="S0064" name="Total packages number measure unit code" id="NOT">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính tổng số kiện hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0065" name="P/L number" id="PLN">
+    <description>Ký tự không phù hợp đang được nhập cho Số P/L.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0066" name="FOB price" id="FON">
+    <description>Định dạng Trị giá FOB đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Trị giá FOB và nhập lại.
+</disposition>
+  </response>
+  <response code="S0067" name="FOB price currency code" id="FOT">
+    <description>1. Mặc dù Mã tiền tệ của FOB đã được nhập, nhưng Trị giá FOB chưa được nhập
+2. Mặc dù Mã tiền tệ của FOB chưa được nhập, nhưng Trị giá FOB đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ của FOB hoặc nhập Trị giá FOB.
+2. Nhập Mã tiền tệ của FOB hoặc hủy nội dung nhập của Trị giá FOB.
+</disposition>
+  </response>
+  <response code="S0068" name="FOB price currency code" id="FOT">
+    <description>Mã tiền tệ của FOB nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ của FOB phù hợp.
+</disposition>
+  </response>
+  <response code="S0069" name="FOB price adjustment amount" id="FKK">
+    <description>Định dạng của Số tiền điều chỉnh FOB đã nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Số tiền điều chỉnh FOB và nhập lại.
+</disposition>
+  </response>
+  <response code="S0070" name="FOB price adjustment currency code" id="FKT">
+    <description>1. Mặc dù Mã tiền tệ số tiền điều chỉnh FOB đã được nhập, nhưng Số tiền điều chỉnh FOB chưa được nhập
+2. Mặc dù Mã tiền tệ số tiền điều chỉnh FOB chưa được nhập, nhưng Số tiền điều chỉnh FOB đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ số tiền điều chỉnh FOB hoặc nhập Số tiền điều chỉnh FOB.
+2. Nhập Mã tiền tệ số tiền điều chỉnh FOB hoặc hủy nội dung nhập của Số tiền điều chỉnh FOB.
+</disposition>
+  </response>
+  <response code="S0071" name="FOB price adjustment currency code" id="FKT">
+    <description>Mã tiền tệ số tiền điều chỉnh FOB nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ số tiền điều chỉnh FOB phù hợp.
+</disposition>
+  </response>
+  <response code="S0072" name="Freight" id="FR3">
+    <description>Định dạng Phí vận chuyển nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Phí vận chuyển và nhập lại.
+</disposition>
+  </response>
+  <response code="S0073" name="Freight currency code" id="FR2">
+    <description>1. Mặc dù Mã tiền tệ phí vận chuyển đã được nhập, nhưng Phí vận chuyển chưa được nhập.
+2. Mặc dù Mã tiền tệ phí vận chuyển chưa được nhập, nhưng Phí vận chuyển đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ phí vận chuyển hoặc nhập Phí vận chuyển.
+2. Nhập Mã tiền tệ phí vận chuyển hoặc hủy nội dung nhập của Phí vận chuyển.
+</disposition>
+  </response>
+  <response code="S0074" name="Freight currency code" id="FR2">
+    <description>Mã tiền tệ phí vận chuyển nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ phí vận chuyển phù hợp.
+</disposition>
+  </response>
+  <response code="S0075" name="Freight payment location" id="FR4">
+    <description>Ký tự không được sử dụng đang được nhập vào Nơi thanh toán phí vận chuyển.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0076" name="Loading charge 1" id="FS1">
+    <description>Định dạng Chi phí xếp hàng 1 đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Chi phí xếp hàng 1 và nhập lại
+</disposition>
+  </response>
+  <response code="S0077" name="Loading charge 1 currency code" id="FT1">
+    <description>1. Mặc dù Mã tiền tệ chi phí xếp hàng 1 đã được nhập, nhưng Chi phí xếp hàng 1 chưa được nhập.
+2. Mặc dù Mã tiền tệ chi phí xếp hàng 1 chưa được nhập, nhưng Chi phí xếp hàng 1 đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ chi phí xếp hàng 1 hoặc nhập loại Chi phí xếp hàng 1.
+2. Nhập Mã tiền tệ chi phí xếp hàng 1 hoặc hủy nội dung nhập của loại Chi phí xếp hàng 1.
+</disposition>
+  </response>
+  <response code="S0078" name="Loading charge 1 currency code" id="FT1">
+    <description>Mã tiền tệ chi phí xếp hàng 1 nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ chi phí xếp hàng 1 phù hợp.
+</disposition>
+  </response>
+  <response code="S0079" name="Loading charge 1's type" id="FH1">
+    <description>1. Mặc dù loại Chi phí xếp hàng 1 đã được nhập, nhưng loại Chi phí xếp hàng 1 chưa được nhập.
+2. Mặc dù loại Chi phí xếp hàng 1 chưa được nhập, nhưng loại Chi phí xếp hàng 1 đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của loại Chi phí xếp hàng 1 hoặc nhập loại Chi phí xếp hàng 1.
+2. Nhập loại Chi phí xếp hàng 1 hoặc hủy nội dung nhập của loại Chi phí xếp hàng 1.
+</disposition>
+  </response>
+  <response code="S0080" name="Loading charge 1's type" id="FH1">
+    <description>Ký tự không được sử dụng đang được nhập vào loại Chi phí xếp hàng 1.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0081" name="Loading charge 2" id="FS2">
+    <description>Định dạng Chi phí xếp hàng 2 đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Chi phí xếp hàng 2 và nhập lại
+</disposition>
+  </response>
+  <response code="S0082" name="Loading charge 2 currency code" id="FT2">
+    <description>1. Mặc dù Mã tiền tệ Chi phí xếp hàng 2 đã được nhập, nhưng Chi phí xếp hàng 2 chưa được nhập.
+2. Mặc dù Mã tiền tệ Chi phí xếp hàng 2 chưa được nhập, nhưng Chi phí xếp hàng 2 đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ Chi phí xếp hàng 2 hoặc nhập Chi phí xếp hàng 2.
+2. Nhập Mã tiền tệ Chi phí xếp hàng 2 hoặc hủy nội dung nhập của Chi phí xếp hàng 2.
+</disposition>
+  </response>
+  <response code="S0083" name="Loading charge 2 currency code" id="FT2">
+    <description>Mã tiền tệ Chi phí xếp hàng 2 chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ Chi phí xếp hàng 2 phù hợp.
+</disposition>
+  </response>
+  <response code="S0084" name="Loading charge 2's type" id="FH2">
+    <description>1. Mặc dù loại Chi phí xếp hàng 2 đã được nhập, nhưng Chi phí xếp hàng 2 chưa được nhập.
+2. Mặc dù loại Chi phí xếp hàng 2 chưa được nhập, nhưng Chi phí xếp hàng 2 đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của loại Chi phí xếp hàng 2 hoặc nhập Chi phí xếp hàng 2.
+2. Nhập loại Chi phí xếp hàng 2 hoặc Hủy nội dung nhập của Chi phí xếp hàng 2.
+</disposition>
+  </response>
+  <response code="S0085" name="Loading charge 2's type" id="FH2">
+    <description>Ký tự không được sử dụng đang được nhập vào loại Chi phí xếp hàng 2.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0086" name="Inland transportation charge" id="NUH">
+    <description>Định dạng Phí vận chuyển đường bộ nội địa đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Phí vận chuyển đường bộ nội địa và nhập lại
+</disposition>
+  </response>
+  <response code="S0087" name="Inland transportation charge currency code" id="NTK">
+    <description>1. Mặc dù Mã tiền tệ Phí vận chuyển đường bộ nội địa đã được nhập, nhưng Phí vận chuyển đường bộ nội địa chưa được nhập.
+2. Mặc dù Mã tiền tệ Phí vận chuyển đường bộ nội địa chưa được nhập, nhưng Phí vận chuyển đường bộ nội địa đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ Phí vận chuyển đường bộ nội địa hoặc nhập Phí vận chuyển đường bộ nội địa.
+2. Nhập Mã tiền tệ Phí vận chuyển đường bộ nội địa hoặc Hủy nội dung nhập của Phí vận chuyển đường bộ nội địa.
+</disposition>
+  </response>
+  <response code="S0088" name="Inland transportation charge currency code" id="NTK">
+    <description>Mã tiền tệ Phí vận chuyển đường bộ nội địa chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ Phí vận chuyển đường bộ nội địa phù hợp.
+</disposition>
+  </response>
+  <response code="S0089" name="Insurance cost" id="IN3">
+    <description>Định dạng Phí bảo hiểm nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Phí bảo hiểm và nhập lại.
+</disposition>
+  </response>
+  <response code="S0090" name="Insurance cost currency code" id="IN2">
+    <description>1. Mặc dù Mã tiền tệ của Phí bảo hiểm đã được nhập, nhưng Phí bảo hiểm chưa được nhập
+2. Mặc dù Mã tiền tệ Phí bảo hiểm chưa được nhập, nhưng Phí bảo hiểm đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ Phí bảo hiểm hoặc nhập Phí bảo hiểm.
+2. Nhập Mã tiền tệ Phí bảo hiểm hoặc hủy nội dung nhập Phí bảo hiểm.
+</disposition>
+  </response>
+  <response code="S0091" name="Insurance cost currency code" id="IN2">
+    <description>Mã tiền tệ của Phí bảo hiểm nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ của Phí bảo hiểm phù hợp.
+</disposition>
+  </response>
+  <response code="S0092" name="Insurance cost adjustment amount" id="IK1">
+    <description>Định dạng Số tiền điều chỉnh phí bảo hiểm nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Số tiền điều chỉnh phí bảo hiểm và nhập lại.
+</disposition>
+  </response>
+  <response code="S0093" name="Insurance cost adjustment currency code" id="IK2">
+    <description>1. Mặc dù Mã tiền tệ số tiền điều chỉnh phí bảo hiểm đã được nhập, nhưng Số tiền điều chỉnh phí bảo hiểm chưa được nhập.
+2. Mặc dù Mã tiền tệ số tiền điều chỉnh phí bảo hiểm chưa được nhập, nhưng Số tiền điều chỉnh phí bảo hiểm đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ số tiền điều chỉnh phí bảo hiểm hoặc nhập Số tiền điều chỉnh phí bảo hiểm.
+2. Nhập Mã tiền tệ số tiền điều chỉnh phí bảo hiểm hoặc hủy nội dung nhập Số tiền điều chỉnh phí bảo hiểm.
+</disposition>
+  </response>
+  <response code="S0094" name="Insurance cost adjustment currency code" id="IK2">
+    <description>Mã tiền tệ số tiền điều chỉnh phí bảo hiểm nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ số tiền điều chỉnh phí bảo hiểm phù hợp.
+</disposition>
+  </response>
+  <response code="S0095" name="Deduction amount" id="NBG">
+    <description>Định dạng số tiền khấu trừ nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa số tiền khấu trừ và nhập lại.
+</disposition>
+  </response>
+  <response code="S0096" name="Deduction currency code" id="NBC">
+    <description>1. Mặc dù Mã tiền tệ của số tiền khấu trừ đã được nhập, nhưng số tiền khấu trừ chưa được nhập.
+2. Mặc dù Mã tiền tệ của số tiền khấu trừ chưa được nhập, nhưng số tiền khấu trừ đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ của số tiền khấu trừ hoặc nhập số tiền khấu trừ.
+2. Nhập Mã tiền tệ của số tiền khấu trừ hoặc Hủy nội dung nhập của số tiền khấu trừ.
+</disposition>
+  </response>
+  <response code="S0097" name="Deduction currency code" id="NBC">
+    <description>Mã tiền tệ của số tiền khấu trừ nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ của số tiền khấu trừ phù hợp.
+</disposition>
+  </response>
+  <response code="S0098" name="Deduction type" id="NBS">
+    <description>Ký tự không được sử dụng đang được nhập vào loại khấu trừ.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0099" name="Other adjustment amount" id="SKG">
+    <description>Định dạng Số tiền điều chỉnh khác nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Số tiền điều chỉnh khác và nhập lại.
+</disposition>
+  </response>
+  <response code="S0100" name="Other adjustment currency code" id="SKC">
+    <description>1. Mặc dù Mã tiền tệ Số tiền điều chỉnh khác đã được nhập, nhưng Số tiền điều chỉnh khác chưa được nhập.
+2. Mặc dù Mã tiền tệ Số tiền điều chỉnh khác chưa được nhập, nhưng Số tiền điều chỉnh khác đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ Số tiền điều chỉnh khác hoặc nhập Số tiền điều chỉnh khác.
+2. Nhập Mã tiền tệ Số tiền điều chỉnh khác hoặc Hủy nội dung nhập của Số tiền điều chỉnh khác.
+</disposition>
+  </response>
+  <response code="S0101" name="Other adjustment currency code" id="SKC">
+    <description>Mã tiền tệ Số tiền điều chỉnh khác nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Số tiền điều chỉnh khác phù hợp.
+</disposition>
+  </response>
+  <response code="S0102" name="Other adjustment's type" id="SKS">
+    <description>1. Mặc dù Loại số tiền điều chỉnh khác đã được nhập, nhưng Số tiền điều chỉnh khác chưa được nhập.
+2. Mặc dù Loại số tiền điều chỉnh khác chưa được nhập, nhưng Số tiền điều chỉnh khác đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Loại số tiền điều chỉnh khác hoặc nhập Số tiền điều chỉnh khác.
+2. Nhập Loại số tiền điều chỉnh khác hoặc Hủy nội dung nhập của Số tiền điều chỉnh khác.
+</disposition>
+  </response>
+  <response code="S0103" name="Other adjustment's type" id="SKS">
+    <description>Ký tự không được sử dụng đang được nhập vào loại điều chỉnh khác 1.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0104" name="Total invoice amount" id="IP4">
+    <description>Tổng trị giá hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập Tổng trị giá hóa đơn.
+</disposition>
+  </response>
+  <response code="S0105" name="Total invoice amount" id="IP4">
+    <description>Định dạng Tổng trị giá hóa đơn nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Tổng trị giá hóa đơn và nhập lại.
+</disposition>
+  </response>
+  <response code="S0106" name="Total invoice amount currency code" id="IP3">
+    <description>Mã tiền tệ tổng trị giá hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập mã tiền tệ cho trị giá.
+</disposition>
+  </response>
+  <response code="S0107" name="Total invoice amount currency code" id="IP3">
+    <description>Mã tiền tệ tổng trị giá hóa đơn nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ tổng trị giá hóa đơn phù hợp.
+</disposition>
+  </response>
+  <response code="S0108" name="Invoice price condition" id="IP2">
+    <description>Điều kiện giá hóa đơn chưa được nhập.
+</description>
+    <disposition>Nhập Điều kiện giá hóa đơn
+</disposition>
+  </response>
+  <response code="S0109" name="Invoice price condition" id="IP2">
+    <description>Ký tự không được sử dụng đang được nhập vào Điều kiện giá hóa đơn.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0110" name="Delivery location" id="HWT">
+    <description>Địa điểm giao hàng chưa được nhập.
+</description>
+    <disposition>Nhập địa điểm giao hàng.
+</disposition>
+  </response>
+  <response code="S0111" name="Delivery location" id="HWT">
+    <description>Ký tự không được sử dụng đang được nhập vào địa điểm giao hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0112" name="Invoice creator (including title)" id="SAA">
+    <description>Ký tự không được sử dụng đang được nhập vào Người lập hóa đơn (bao gồm chức vụ).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0113" name="Total rows number" id="SNM">
+    <description>Định dạng Tổng số dòng hàng đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Tổng số dòng hàng và nhập lại (số nguyên &gt; 0)
+</disposition>
+  </response>
+  <response code="S0114" name="Item name/specification" id="CMN">
+    <description>Không có Mô tả hàng hóa nào được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa (từ 1 mục trở lên)
+</disposition>
+  </response>
+  <response code="S0115" name="Item name/specification" id="CMN">
+    <description>Mô tả hàng hóa chưa được nhập ở một số cột.
+</description>
+    <disposition>Nhập Mô tả hàng hóa.
+</disposition>
+  </response>
+  <response code="S0116" name="Field No." id="RNO">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Số dòng đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Số dòng
+</disposition>
+  </response>
+  <response code="S0119" name="Item number" id="SNO">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Mã hàng hóa đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Mã hàng hóa.
+</disposition>
+  </response>
+  <response code="S0120" name="Item number" id="SNO">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã hàng hóa.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0121" name="HS code" id="CMD">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Mã số hàng hóa đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Mã số hàng hóa.
+</disposition>
+  </response>
+  <response code="S0122" name="HS code" id="CMD">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã số hàng hóa.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0123" name="Item name/specification" id="CMN">
+    <description>Ký tự không được sử dụng đang được nhập vào Mô tả hàng hóa.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0124" name="Origin country code" id="ORC">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Mã nước xuất xứ đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Mã nước xuất xứ .
+</disposition>
+  </response>
+  <response code="S0125" name="Origin country code" id="ORC">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã nước xuất xứ .
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0126" name="Origin country name" id="ORN">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Tên nước xuất xứ đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Tên nước xuất xứ . 
+</disposition>
+  </response>
+  <response code="S0127" name="Origin country name" id="ORN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên nước xuất xứ.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0128" name="Package number" id="KBN">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Số kiện hàng đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Số kiện hàng.
+</disposition>
+  </response>
+  <response code="S0129" name="Package number" id="KBN">
+    <description>Ký tự không được sử dụng đang được nhập vào Số kiện hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0130" name="Quantity (1)" id="QN1">
+    <description>1. Mặc dù Số lượng (1) đang được nhập, nhưng Mô tả hàng hóa chưa được nhập.
+2. Mặc dù Số lượng (1) chưa được nhập, nhưng Mô tả hàng hóa đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Số lượng (1) hoặc nhập Mô tả hàng hóa.
+2. Nhập Số lượng (1) hoặc hủy nội dung nhập của Mô tả hàng hóa.
+</disposition>
+  </response>
+  <response code="S0131" name="Quantity (1)" id="QN1">
+    <description>Định dạng Số lượng (1) đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Số lượng (1)  và nhập lại
+</disposition>
+  </response>
+  <response code="S0132" name="Quantity measure unit code (1)" id="QT1">
+    <description>1. Mặc dù Mã đơn vị tính số lượng (1) đang được nhập, nhưng Mô tả hàng hóa chưa được nhập.
+2. Mặc dù Mã đơn vị tính số lượng (1) chưa được nhập, nhưng Mô tả hàng hóa đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã đơn vị tính số lượng (1) hoặc nhập Mô tả hàng hóa.
+2. Nhập Mã đơn vị tính số lượng (1) hoặc hủy nội dung nhập của Mô tả hàng hóa.
+</disposition>
+  </response>
+  <response code="S0133" name="Quantity measure unit code (1)" id="QT1">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính số lượng (1).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0134" name="Quantity (2)" id="QN2">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Số lượng (2) đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Số lượng (2).
+</disposition>
+  </response>
+  <response code="S0135" name="Quantity (2)" id="QN2">
+    <description>Định dạng Số lượng (2) đã nhập không hợp lệ.
+</description>
+    <disposition>Sửa Số lượng (2)  và nhập lại
+</disposition>
+  </response>
+  <response code="S0136" name="Quantity measure unit code (2)" id="QT2">
+    <description>1. Mặc dù Mã đơn vị tính số lượng (2) đang được nhập, nhưng số lượng (2) chưa được nhập.
+2. Mặc dù Mã đơn vị tính số lượng (2) chưa được nhập, nhưng số lượng (2) đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập Mã đơn vị tính số lượng (2) hoặc nhập số lượng (2).
+2. Nhập Mã đơn vị tính số lượng (2) hoặc hủy nội dung nhập của số lượng (2).
+</disposition>
+  </response>
+  <response code="S0137" name="Quantity measure unit code (2)" id="QT2">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã đơn vị tính số lượng (2).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0138" name="Unit price" id="TNK">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Đơn giá hóa đơn đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Đơn giá hóa đơn.
+</disposition>
+  </response>
+  <response code="S0139" name="Unit price" id="TNK">
+    <description>Định dạng của Đơn giá hóa đơn đã nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Đơn giá hóa đơn và nhập lại.
+</disposition>
+  </response>
+  <response code="S0140" name="Unit price currency code" id="TNC">
+    <description>1. Mặc dù Mã tiền tệ của Đơn giá hóa đơn đã được nhập, nhưng Đơn giá hóa đơn chưa được nhập.
+2. Mặc dù Mã tiền tệ của Đơn giá hóa đơn chưa được nhập, nhưng Đơn giá hóa đơn đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ của Đơn giá hóa đơn hoặc nhập Đơn giá hóa đơn.
+2. Nhập Mã tiền tệ của Đơn giá hóa đơn hoặc Hủy nội dung nhập của Đơn giá hóa đơn.
+</disposition>
+  </response>
+  <response code="S0141" name="Unit price currency code" id="TNC">
+    <description>Mã tiền tệ của Đơn giá hóa đơn nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ của Đơn giá hóa đơn phù hợp.
+</disposition>
+  </response>
+  <response code="S0142" name="Price quantity unit" id="TSC">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Đơn vị của đơn giá và số lượng đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Đơn vị của đơn giá và số lượng.
+</disposition>
+  </response>
+  <response code="S0143" name="Price quantity unit" id="TSC">
+    <description>Ký tự không được sử dụng đang được nhập vào Đơn vị của đơn giá và số lượng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0144" name="Price" id="KKT">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Trị giá hóa đơn đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Trị giá hóa đơn.
+</disposition>
+  </response>
+  <response code="S0145" name="Price" id="KKT">
+    <description>Định dạng Trị giá hóa đơn nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa Trị giá hóa đơn và nhập lại.
+</disposition>
+  </response>
+  <response code="S0146" name="Price currency code" id="KKC">
+    <description>1. Mặc dù Mã tiền tệ giá tiền đã được nhập, nhưng Trị giá hóa đơn chưa được nhập.
+2. Mặc dù Mã tiền tệ giá tiền chưa được nhập, nhưng Trị giá hóa đơn đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ giá tiền hoặc nhập Trị giá hóa đơn.
+2. Nhập Mã tiền tệ giá tiền hoặc Hủy nội dung nhập của Trị giá hóa đơn.
+</disposition>
+  </response>
+  <response code="S0147" name="Price currency code" id="KKC">
+    <description>Mã tiền tệ giá tiền nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ giá tiền phù hợp.
+</disposition>
+  </response>
+  <response code="S0148" name="Deduction type (including free-of-charge type)" id="NSR">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng Loại khấu trừ (bao gồm cả phân loại miễn trả tiền) đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập Loại khấu trừ (bao gồm cả phân loại miễn trả tiền).
+</disposition>
+  </response>
+  <response code="S0149" name="Deduction type (including free-of-charge type)" id="NSR">
+    <description>Ký tự không được sử dụng đang được nhập vào Loại khấu trừ (bao gồm cả phân loại miễn trả tiền).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0150" name="Deduction amount" id="NGA">
+    <description>Mặc dù Mô tả hàng hóa chưa được nhập, nhưng số tiền khấu trừ đã được nhập.
+</description>
+    <disposition>Nhập Mô tả hàng hóa hoặc không nhập số tiền khấu trừ.
+</disposition>
+  </response>
+  <response code="S0151" name="Deduction amount" id="NGA">
+    <description>Định dạng số tiền khấu trừ nhập vào không hợp lệ.
+</description>
+    <disposition>Sửa số tiền khấu trừ và nhập lại.
+</disposition>
+  </response>
+  <response code="S0152" name="Deduction currency code" id="NTC">
+    <description>1. Mặc dù Mã tiền tệ số tiền khấu trừ đã được nhập, nhưng số tiền khấu trừ chưa được nhập.
+2. Mặc dù Mã tiền tệ số tiền khấu trừ chưa được nhập, nhưng số tiền khấu trừ đã được nhập.
+</description>
+    <disposition>1. Hủy nội dung nhập của Mã tiền tệ số tiền khấu trừ hoặc nhập số tiền khấu trừ.
+2. Nhập Mã tiền tệ số tiền khấu trừ hoặc Hủy nội dung nhập của số tiền khấu trừ.
+</disposition>
+  </response>
+  <response code="S0153" name="Deduction currency code" id="NTC">
+    <description>Mã tiền tệ số tiền khấu trừ nhập vào chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Nhập Mã tiền tệ số tiền khấu trừ.
+</disposition>
+  </response>
+  <response code="S0155" name="Consignee (consignor) name" id="EPN">
+    <description>Tên người gửi (người nhận) chưa được nhập.
+</description>
+    <disposition>Nhập Tên người gửi (người nhận).
+</disposition>
+  </response>
+  <response code="S0156" name="Consignee (consignor) name" id="EPN">
+    <description>Ký tự không được sử dụng đang được nhập vào Tên người gửi (người nhận).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0157" name="Consignee (consignor) postcode identification" id="EP1">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã bưu chính của người gửi (người nhận).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0158" name="Consignee (consignor) address 1 (Street and number/P.O.Box)" id="EPA">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa chỉ người nhận (người gửi) 1 (Tên phố, số nhà, số hòm thư)
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0159" name="Consignee (consignor) address 2 (Street and number/P.O.Box)" id="EP2">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa chỉ người nhận (người gửi) 2 (Tên phố, số nhà, số hòm thư).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0160" name="Consignee (consignor) address 3 (City name)" id="EP3">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa chỉ người nhận (người gửi) 3 (Tên tỉnh, thành phố).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0161" name="Consignee (consignor) address 4 (Country sub-entity&#xA; name)" id="EP4">
+    <description>Ký tự không được sử dụng đang được nhập vào Địa chỉ  người nhận (người gửi) 4 (Tên quốc gia, vùng lãnh thổ).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0163" name="Consignee (consignor) telephone number" id="EP6">
+    <description>Ký tự không được sử dụng đang được nhập vào Số điện thoại người nhận (người gửi).
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0165" name="Date" id="M01～M11">
+    <description>Mặc dù số hiệu chưa được nhập, nhưng Ngày tháng năm đã được nhập vào.
+</description>
+    <disposition>Nhập số hiệu hoặc không nhập Ngày tháng năm.
+</disposition>
+  </response>
+  <response code="S0166" name="Unloading port code" id="DST">
+    <description>Ký tự không được sử dụng đang được nhập vào Mã cảng dỡ hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0169" name="Cargo owner's note" id="NT3">
+    <description>Ký tự không được sử dụng đang được nhập vào Ghi chú của chủ hàng.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0170" name="Special note" id="NT1">
+    <description>Ký tự không được sử dụng đang được nhập vào Ghi chú đặc biệt.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+  <response code="S0174" name="Bank of L/C" id="LCB">
+    <description>Ký tự không phù hợp đang được nhập cho ngân hàng L/C.
+</description>
+    <disposition>Nhập các ký tự cho phép sử dụng trong VNACCS. 
+</disposition>
+  </response>
+    <response code="S0999" name="Importer/Exporter name&#xA;Address of Importer/Exporter&#xA;Cargo owner's note&#xA;Special note" id="IMN&#xA;IMA&#xA;NT3&#xA;NT1">
+    <description>Nhập liệu quá độ dài cho phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0001" name="Number classification&#xA;Date" id="N01～N11&#xA;M01～M11">
+    <description>Mặc dù Mã số phân loại là [S/N] hoặc [NCO], nhưng Ngày tháng năm chưa được nhập.</description>
+    <disposition>Sửa Mã số phân loại hoặc không nhập Ngày tháng năm.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E1200" name="Electronic invoice receipt No." id="NIV">
+    <description>Thông tin danh sách hóa đơn/ kiện hàng tương ứng chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Sửa Số tiếp nhận hóa đơn điện tử và nhập lại.
+</disposition>
+  </response>
+  <response code="E1204" name="Electronic invoice receipt No." id="NIV">
+    <description>Không thể sử dụng thông tin mục danh sách hóa đơn/kiện hàng tương ứng do thông tin này đã được sử dụng cho tờ khai khác.
+</description>
+    <disposition>Sửa Số tiếp nhận hóa đơn điện tử và nhập lại.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0001" name="Electronic invoice receipt No." id="NIV">
+    <description>1. Mặc dù tồn tại cơ sở dữ  liệu Thông tin danh sách hóa đơn/ kiện hàng, nhưng cơ sở dữ liệu Thông tin chi tiết hóa đơn/ kiện hàng không tồn tại.
+2. Cơ sở dữ  liệu thông tin chi tiết danh sách hóa đơn/ kiện hàng đã vượt quá 800 mục.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

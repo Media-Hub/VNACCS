@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="DCL" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần.
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên hệ với người quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Submission No." id="DNO">
+    <description>Danh sách container dỡ hàng đã được gửi bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KND">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập phân loại xử lý.
+</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KND">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập phân loại xử lý với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Submission No." id="DNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số kê khai với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0004" name="Manifest type" id="TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập loại manifest.
+</disposition>
+  </response>
+  <response code="S0005" name="Manifest type" id="TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập loại Manifest với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0006" name="Reference No." id="REF">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số tham chiếu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Customs office" id="NZC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0008" name="Customs office" id="NZC">
+    <description>Mã cơ quan hải quan đã nhập không được đăng ký như là Mã Nộp cho cơ quan hải quan đối với Danh sách container dỡ hàng.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0009" name="Customs office" id="NZC">
+    <description>Mã cơ quan hải quan đã nhập không được đăng ký như là Mã Nộp cho cơ quan hải quan đối với Danh sách container dỡ hàng.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0010" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Vessel name" id="SNA">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Tên tàu chở hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0012" name="Berth code" id="BRT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0013" name="Voyage No." id="VOY">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số chuyến đi biển với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0014" name="Date of arrival" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập ngày đến với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Container manager code" id="CMC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0016" name="Container manager name" id="CMN">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập tên người quản lý container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0017" name="Container manager postcode" id="CMP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã bưu chính người quản lý container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0018" name="Container manager address 1 (Building name etc.)" id="CMB">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Địa chỉ người quản lý container 1 với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Container manager address 2 (Street and number/P.O. Box)" id="CMS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Địa chỉ người quản lý container 2 với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0020" name="Container manager address 3 (District/Commune name)" id="CMD">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Địa chỉ người quản lý container 3 với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Container manager address 4 (City name)" id="CMM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Địa chỉ người quản lý container 4 với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0022" name="Container manager address 5 (Country code)" id="CMK">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0023" name="Container manager telephone No." id="CMT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số điện thoại người quản lý container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0024" name="Container No./ULD No." id="CNO">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Số container/Số ULD với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0025" name="Empty/Full container indication" id="EFS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Biểu thị tình trạng container rỗng/có hàng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0026" name="Container size" id="SIZ">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã kích thước container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Container type" id="TYP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã Mã loại container với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0028" name="Stay-allowed duration" id="SAD">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Thời hạn được phép lưu trú với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="Submission No." id="DNO">
+    <description>Yêu cầu nhập Số kê khai trong trường hợp hủy.
+</description>
+    <disposition>Nhập Số kê khai.
+</disposition>
+  </response>
+  <response code="R0002" name="Submission No." id="DNO">
+    <description>Số kê khai nên để trống trong trường hợp đăng ký.
+</description>
+    <disposition>Kiểm tra nội dung nhập của phân loại xử lý, nếu cần, hủy nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="R0003" name="Customs office" id="NZC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="R0004" name="Transportation equipment code" id="EQP">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0005" name="Arrival place code" id="DPR">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0006" name="Container manager name" id="CMN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập tên người quản lý container.
+</disposition>
+  </response>
+  <response code="R0007" name="Container manager address 5 (Country code)" id="CMK">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Địa chỉ người quản lý container 5.
+</disposition>
+  </response>
+  <response code="R0008" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Trường hợp loại manifest là "S", nhập Hô hiệu của tầu trong vòng 9 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0009" name="Vessel name&#xA;Transportation equipment code" id="SNA&#xA;EQP">
+    <description>Yêu cầu nhập liệu trong trường hợp Hô hiệu của tầu chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Hô hiệu của tầu, nếu cần, nhập Tên tàu chở hàng.
+</disposition>
+  </response>
+  <response code="R0010" name="Arrival place code&#xA;Manifest type" id="DPR&#xA;TOM">
+    <description>Trường hợp loại manifest là "S", nhập Mã địa điểm đến trong vòng 5 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0011" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0012" name="Voyage No.&#xA;Manifest type" id="VOY&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập số chuyến đi biển.
+</disposition>
+  </response>
+  <response code="R0013" name="Carrier code&#xA;Manifest type" id="SCA&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0014" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0015" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Trường hợp loại manifest là "A", nhập số hiệu chuyến bay 1 và 2 trong vòng 12 ký tự. 
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0016" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="R0017" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="R0018" name="Transportation equipment code" id="EQP">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập số hiệu chuyến bay 1 và 2 với định dạng hợp lệ. 
+</disposition>
+  </response>
+  <response code="R0019" name="Arrival place code&#xA;Manifest type" id="DPR&#xA;TOM">
+    <description>Trường hợp loại manifest là "A", nhập Mã địa điểm đến trong vòng 3 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0020" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0021" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Trường hợp loại manifest là "R", nhập Số hiệu đoàn tàu trong vòng 10 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0022" name="Arrival place code&#xA;Manifest type" id="DPR&#xA;TOM">
+    <description>Trường hợp loại manifest là "R", nhập Mã địa điểm đến trong vòng 6 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0023" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0024" name="Date of arrival&#xA;Manifest type" id="IDT&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập ngày đến.
+</disposition>
+  </response>
+  <response code="R0025" name="Carrier code&#xA;Manifest type" id="SCA&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã nhà vận chuyển.
+</disposition>
+  </response>
+  <response code="R0026" name="Carrier code" id="SCA">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0027" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Trường hợp loại manifest là "V", nhập biển số xe từ 3 ký tự trở lên.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và mã phương tiện vận chuyển.
+</disposition>
+  </response>
+  <response code="R0028" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0029" name="Transportation equipment code&#xA;Manifest type" id="EQP&#xA;TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập biển số xe với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="R0030" name="Arrival place code&#xA;Manifest type" id="DPR&#xA;TOM">
+    <description>Trường hợp loại manifest là "V", nhập Mã địa điểm đến trong vòng 6 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã địa điểm đến.
+</disposition>
+  </response>
+  <response code="R0031" name="Arrival place code" id="DPR">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0032" name="Date of arrival&#xA;Manifest type" id="IDT&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập ngày đến.
+</disposition>
+  </response>
+  <response code="R0033" name="Container manager address 1 (Building name etc.)&#xA;Container manager address 2 (Street and number/P.O. Box)&#xA;Container manager address 3 (District/Commune name)&#xA;Container manager address 4 (City name)" id="CMB&#xA;CMS&#xA;CMD&#xA;CMM">
+    <description>Phải nhập ít nhất một địa chỉ.
+</description>
+    <disposition>Nhập địa chỉ 1, 2, 3, hoặc 4
+</disposition>
+  </response>
+  <response code="R0034" name="Container No./ULD No." id="CNO">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập Số container/Số ULD.
+</disposition>
+  </response>
+  <response code="R0035" name="Container No./ULD No." id="CNO">
+    <description>Giá trị đã nhập bị trùng lặp.
+</description>
+    <disposition>Nhập Số container/Số ULD khác.
+</disposition>
+  </response>
+  <response code="R0036" name="Empty/Full container indication&#xA;Manifest type" id="EFS&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Biểu thị tình trạng container rỗng/có hàng.
+</disposition>
+  </response>
+  <response code="R0037" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0038" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Trường hợp loại manifest là "S", Mã kích thước container cần nhập trong vòng 2 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0039" name="Container size" id="SIZ">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0040" name="Container type&#xA;Manifest type" id="TYP&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã loại container.
+</disposition>
+  </response>
+  <response code="R0041" name="Empty/Full container indication&#xA;Manifest type" id="EFS&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Biểu thị tình trạng container rỗng/có hàng.
+</disposition>
+  </response>
+  <response code="R0042" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0043" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0044" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0045" name="Empty/Full container indication&#xA;Manifest type" id="EFS&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Biểu thị tình trạng container rỗng/có hàng.
+</disposition>
+  </response>
+  <response code="R0046" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0047" name="Container size&#xA;Manifest type" id="SIZ&#xA;TOM">
+    <description>Trường hợp loại manifest là "V", Mã kích thước container cần nhập trong vòng 2 ký tự.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest và Mã kích thước container.
+</disposition>
+  </response>
+  <response code="R0048" name="Container size" id="SIZ">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0049" name="Container type&#xA;Manifest type" id="TYP&#xA;TOM">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Mã loại container.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Submission No." id="DNO">
+    <description>Số kê khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="E0003" name="Submission No." id="DNO">
+    <description>Số kê khai đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Số kê khai.
+</disposition>
+  </response>
+  <response code="E0004" name="Manifest type" id="TOM">
+    <description>Loại Manifest đã nhập và loại manifest đã đăng ký khác nhau.
+</description>
+    <disposition>Kiểm tra nội dung nhập của loại manifest.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên hệ với người quản trị hệ thống.
+</disposition>
+  </response>
+</help>

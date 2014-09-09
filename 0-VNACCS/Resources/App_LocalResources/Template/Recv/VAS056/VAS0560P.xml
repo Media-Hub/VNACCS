@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_DCL" jobname="Submission of unloaded containers list" display-name="Unloaded containers list information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0560.xml" item_attr_edit="False" />
+  <friday href="VAS0560.xml" revision="0000" />
+  <iteminfo>
+    <item id="00A" name="Date of submission (提出日)" input_output="-" required="" attribute="A" figure="8" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="08A" name="Submitter code (提出者)" input_output="-" required="" attribute="A" figure="5" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="09A" name="Submitter name (提出者名)" input_output="-" required="" attribute="A" figure="50" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="01A" name="Submission No. (提出番号)" input_output="-" required="" attribute="I" figure="12" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B07" name="Manifest type (マニフェストタイプ)" input_output="-" required="" attribute="A" figure="1" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B08" name="Reference No. (照会番号)" input_output="-" required="" attribute="I" figure="12" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B01" name="Customs office (税関官署コード)" input_output="-" required="" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="02A" name="Transportation equipment code (運送具コード)" input_output="-" required="" attribute="A" figure="38" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="03A" name="Vessel name (船舶名)" input_output="-" required="" attribute="A" figure="35" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="04A" name="Arrival place code (到着地)" input_output="-" required="" attribute="A" figure="6" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="06A" name="Arrival place name (到着地名)" input_output="-" required="" attribute="A" figure="35" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B05" name="Berth code (バースコード)" input_output="-" required="" attribute="A" figure="6" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B02" name="Voyage No. (航海番号)" input_output="-" required="" attribute="A" figure="10" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="07A" name="Carrier code (キャリアコード)" input_output="-" required="" attribute="A" figure="6" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="10A" name="Container manager code (コンテナ管理者コード)" input_output="-" required="" attribute="A" figure="13" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="11A" name="Container manager name (コンテナ管理者名)" input_output="-" required="" attribute="A" figure="70" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="15A" name="Container manager postcode (コンテナ管理者郵便番号)" input_output="-" required="" attribute="A" figure="9" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="16A" name="Container manager address 1 (Building name etc.) (コンテナ管理者住所１&#xD;&#xA;（ビル名等）)" input_output="-" required="" attribute="A" figure="35" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="17A" name="Container manager address 2 (Street and number/P.O. Box) (コンテナ管理者住所２&#xD;&#xA;（番地）)" input_output="-" required="" attribute="A" figure="105" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="18A" name="Container manager address 3 (District/Commune name) (コンテナ管理者住所３&#xD;&#xA;（地区名）)" input_output="-" required="" attribute="A" figure="35" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="19A" name="Container manager address 4 (City name) (コンテナ管理者住所４&#xD;&#xA;（市）)" input_output="-" required="" attribute="A" figure="35" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B03" name="Container manager address 5 (Country code) (コンテナ管理者住所５&#xD;&#xA;（国）)" input_output="-" required="" attribute="A" figure="2" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B04" name="Container manager telephone No. (コンテナ管理者電話番号)" input_output="-" required="" attribute="A" figure="14" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="14A" name="Number of containers (コンテナ本数)" input_output="-" required="" attribute="I" figure="4" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="1000">
+      <item id="20A" name="Container No./ULD No. (コンテナ番号／ULD番号)" input_output="-" required="" attribute="A" figure="12" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="21A" name="Empty/Full container indication (空／実入り)" input_output="-" required="" attribute="A" figure="3" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="22A" name="Container size (コンテナサイズ)" input_output="-" required="" attribute="A" figure="4" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="23A" name="Container type (コンテナタイプ)" input_output="-" required="" attribute="A" figure="2" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="B06" name="Stay-allowed duration (滞在可能期間)" input_output="-" required="" attribute="I" figure="3" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <line LineStyle="Center, Black, Solid, 1" Location="453, 644" Size="0, 397" />
+      <line LineStyle="Center, Black, Solid, 1" Location="228, 644" Size="0, 397" />
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label AutoSize="False" Location="24, 30" Size="109, 30" Font="Tahoma, 9pt" Text="Date of submission&#xD;&#xA;(Ngày nộp)" />
+      <prttextbox Format="dd/MM/yyyy" Location="139, 46" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="00A" input_output="-" name="Date of submission (提出日)" order="1" required="" />
+      <label AutoSize="False" Location="24, 100" Size="90, 30" Font="Tahoma, 9pt" Text="Submission No.&#xD;&#xA;(Số kê khai)" />
+      <prttextbox Format="" Location="120, 116" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="01A" input_output="-" name="Submission No. (提出番号)" order="4" required="" />
+      <label AutoSize="False" Location="24, 133" Size="153, 30" Font="Tahoma, 9pt" Text="Transportation equipment&#xD;&#xA;(Phương tiện chuyên chở)" />
+      <prttextbox Format="" Location="183, 141" Size="289, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="38" form="" id="02A" input_output="-" name="Transportation equipment code (運送具コード)" order="8" required="" />
+      <label AutoSize="False" Location="24, 168" Size="121, 30" Font="Tahoma, 9pt" Text="Vessel name&#xD;&#xA;(Tên tàu chở hàng)" />
+      <prttextbox Format="" Location="183, 176" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="03A" input_output="-" name="Vessel name (船舶名)" order="9" required="" />
+      <label AutoSize="False" Location="24, 203" Size="87, 30" Font="Tahoma, 9pt" Text="Arrival place&#xD;&#xA;(Địa điểm đến)" />
+      <prttextbox Format="" Location="117, 219" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="04A" input_output="-" name="Arrival place code (到着地)" order="10" required="" />
+      <label AutoSize="False" Location="175, 203" Size="112, 30" Font="Tahoma, 9pt" Text="Arrival place name&#xD;&#xA;(Tên địa điểm đến)" />
+      <prttextbox Format="" Location="293, 219" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="06A" input_output="-" name="Arrival place name (到着地名)" order="11" required="" />
+      <label AutoSize="False" Location="380, 238" Size="120, 30" Font="Tahoma, 9pt" Text="Carrier code&#xD;&#xA;(Mã nhà vận chuyển)" />
+      <prttextbox Format="" Location="506, 254" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="07A" input_output="-" name="Carrier code (キャリアコード)" order="14" required="" />
+      <label AutoSize="False" Location="24, 65" Size="71, 30" Font="Tahoma, 9pt" Text="Submitter&#xD;&#xA;(Người nộp)" />
+      <prttextbox Format="" Location="120, 81" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="08A" input_output="-" name="Submitter code (提出者)" order="2" required="" />
+      <label Location="167, 79" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="179, 81" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="09A" input_output="-" name="Submitter name (提出者名)" order="3" required="" />
+      <label Location="24, 268" Size="145, 34" Font="Tahoma, 9pt" Text="Container manager&#xD;&#xA;(Người quản lý container)" />
+      <prttextbox Format="9999999999-999" Location="189, 278" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="10A" input_output="-" name="Container manager code (コンテナ管理者コード)" order="15" required="" />
+      <prttextbox Format="" Multiline="True" Location="320, 278" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="11A" input_output="-" name="Container manager name (コンテナ管理者名)" order="16" required="" />
+      <label Location="24, 518" Size="118, 34" Font="Tahoma, 9pt" Text="Containers&#xD;&#xA;(Tổng số containers)" />
+      <prttextbox Format="" Location="175, 538" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="14A" input_output="-" name="Number of containers (コンテナ本数)" order="24" required="" />
+      <label AutoSize="False" Location="43, 332" Size="88, 30" Font="Tahoma, 9pt" Text="Postcode&#xD;&#xA;(Mã bưu chính)" />
+      <prttextbox Format="" Location="177, 348" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="15A" input_output="-" name="Container manager postcode (コンテナ管理者郵便番号)" order="17" required="" />
+      <label AutoSize="False" Location="259, 332" Size="80, 30" Font="Tahoma, 9pt" Text="Building etc.&#xD;&#xA;(Tên tòa nhà)" />
+      <prttextbox Format="" Location="345, 348" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="16A" input_output="-" name="Container manager address 1 (Building name etc.) (コンテナ管理者住所１&#xD;&#xA;（ビル名等）)" order="18" required="" />
+      <label AutoSize="False" Location="43, 367" Size="128, 41" Font="Tahoma, 9pt" Text="St. and No. / P.O. Box&#xD;&#xA;(Số nhà, tên đường, &#xD;&#xA;phường/xã)" />
+      <prttextbox Format="" Multiline="True" Location="175, 378" Size="399, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="105" form="" id="17A" input_output="-" name="Container manager address 2 (Street and number/P.O. Box) (コンテナ管理者住所２&#xD;&#xA;（番地）)" order="19" required="" />
+      <label AutoSize="False" Location="43, 413" Size="117, 30" Font="Tahoma, 9pt" Text="District / Commune&#xD;&#xA;(Quận / huyện)" />
+      <prttextbox Format="" Location="175, 429" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="18A" input_output="-" name="Container manager address 3 (District/Commune name) (コンテナ管理者住所３&#xD;&#xA;（地区名）)" order="20" required="" />
+      <label AutoSize="False" Location="43, 448" Size="101, 30" Font="Tahoma, 9pt" Text="City&#xD;&#xA;(Tỉnh, thành phố)" />
+      <prttextbox Format="" Location="175, 461" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="19A" input_output="-" name="Container manager address 4 (City name) (コンテナ管理者住所４&#xD;&#xA;（市）)" order="21" required="" />
+      <pagelabel Location="0, 0" Size="718, 20" Font="Tahoma, 11pt" Text="Unloaded containers list information / Thông tin danh sách container đã được dỡ" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <label AutoSize="False" Location="533, 100" Size="118, 30" Font="Tahoma, 9pt" Text="Customs office&#xD;&#xA;(Cơ quan Hải quan)" />
+      <prttextbox Format="" Location="650, 116" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="B01" input_output="-" name="Customs office (税関官署コード)" order="7" required="" />
+      <label AutoSize="False" Location="175, 238" Size="111, 30" Font="Tahoma, 9pt" Text="Voyage No.&#xD;&#xA;(Số chuyến đi biển)" />
+      <prttextbox Format="" Location="293, 254" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="B02" input_output="-" name="Voyage No. (航海番号)" order="13" required="" />
+      <label Location="305, 276" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="24, 312" Size="338, 19" Font="Tahoma, 9pt" Text="Container manager address (Địa chỉ người quản lý container)" />
+      <label AutoSize="False" Location="448, 448" Size="62, 30" Font="Tahoma, 9pt" Text="Country&#xD;&#xA;(Quốc gia)" />
+      <prttextbox Format="" Location="516, 461" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="B03" input_output="-" name="Container manager address 5 (Country code) (コンテナ管理者住所５&#xD;&#xA;（国）)" order="22" required="" />
+      <label AutoSize="False" Location="43, 483" Size="86, 30" Font="Tahoma, 9pt" Text="Telephone&#xD;&#xA;(Số điện thoại)" />
+      <prttextbox Format="" Location="175, 499" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="14" form="" id="B04" input_output="-" name="Container manager telephone No. (コンテナ管理者電話番号)" order="23" required="" />
+      <label AutoSize="False" Location="24, 238" Size="65, 30" Font="Tahoma, 9pt" Text="Berth&#xD;&#xA;(Cầu cảng)" />
+      <container type="TitlePanel" Location="4, 576" Size="218, 65" Font="Tahoma, 11pt" RepX="3" SpaceX="9">
+        <label AutoSize="False" Location="40, 0" Size="118, 30" Font="Tahoma, 9pt" Text="Container / ULD No.&#xD;&#xA;(Số container / ULD)" />
+        <label AutoSize="False" Location="103, 32" Size="38, 30" Font="Tahoma, 9pt" Text="Type&#xD;&#xA;(Loại)" />
+        <label AutoSize="False" Location="165, 0" Size="100, 30" Font="Tahoma, 9pt" Text="Empty / Full&#xD;&#xA;(Rỗng / Có hàng)" />
+        <label AutoSize="False" Location="40, 32" Size="53, 30" Font="Tahoma, 9pt" Text="Size&#xD;&#xA;(Kích cỡ)" />
+        <label AutoSize="False" Location="165, 32" Size="62, 30" Font="Tahoma, 9pt" Text="Duration&#xD;&#xA;(Thời hạn)" />
+      </container>
+      <prttextbox Format="" Location="117, 254" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="B05" input_output="-" name="Berth code (バースコード)" order="12" required="" />
+      <label AutoSize="False" Location="222, 100" Size="86, 30" Font="Tahoma, 9pt" Text="Manifest type&#xD;&#xA;(Loại Manifest)" />
+      <prttextbox Format="" Location="314, 116" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="B07" input_output="-" name="Manifest type (マニフェストタイプ)" order="5" required="" />
+      <label AutoSize="False" Location="334, 100" Size="92, 30" Font="Tahoma, 9pt" Text="Reference No.&#xD;&#xA;(Số tham chiếu)" />
+      <prttextbox Format="" Location="432, 116" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="B08" input_output="-" name="Reference No. (照会番号)" order="6" required="" />
+      <ran Location="4, 644" Size="218, 33" Font="Tahoma, 11pt" Count="80" repetition_id="R01" repetition_max="1000" RepX="3" RepY="12" SpaceX="12" SpaceY="0">
+        <ranlabel AutoSize="False" Location="0, 0" Size="40, 15" Font="Tahoma, 9pt" TextAlign="TopRight" figure="1" repetition_id="R01" Value="0" PadLeft="True" />
+        <prttextbox Format="" Location="40, 1" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="20A" input_output="-" name="Container No./ULD No. (コンテナ番号／ULD番号)" order="25" required="" />
+        <prttextbox Format="" Location="165, 1" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="21A" input_output="-" name="Empty/Full container indication (空／実入り)" order="26" required="" />
+        <prttextbox Format="" Location="40, 16" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="22A" input_output="-" name="Container size (コンテナサイズ)" order="27" required="" />
+        <prttextbox Format="" Location="103, 16" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="23A" input_output="-" name="Container type (コンテナタイプ)" order="28" required="" />
+        <prttextbox Format="" Location="163, 16" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="B06" input_output="-" name="Stay-allowed duration (滞在可能期間)" order="29" required="" />
+      </ran>
+    </page>
+    <page Font="Courier New, 11pt" MaxOccurs="12">
+      <line LineStyle="Center, Black, Solid, 1" Location="446, 203" Size="0, 836" />
+      <line LineStyle="Center, Black, Solid, 1" Location="226, 203" Size="0, 836" />
+      <container type="TitlePanel" Location="19, 135" Size="212, 67" Font="Tahoma, 11pt" RepX="3" SpaceX="9">
+        <label AutoSize="False" Location="22, 0" Size="119, 30" Font="Tahoma, 9pt" Text="Container / ULD No.&#xD;&#xA;(Số container / ULD)" />
+        <label AutoSize="False" Location="143, 32" Size="62, 30" Font="Tahoma, 9pt" Text="Duration&#xD;&#xA;(Thời hạn)" />
+        <label AutoSize="False" Location="22, 32" Size="53, 30" Font="Tahoma, 9pt" Text="Size&#xD;&#xA;(Kích cỡ)" />
+        <label AutoSize="False" Location="81, 32" Size="38, 30" Font="Tahoma, 9pt" Text="Type&#xD;&#xA;(Loại)" />
+        <label AutoSize="False" Location="143, 0" Size="100, 30" Font="Tahoma, 9pt" Text="Empty / Full&#xD;&#xA;(Rỗng / Có hàng)" />
+      </container>
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label AutoSize="False" Location="24, 30" Size="109, 30" Font="Tahoma, 9pt" Text="Date of submission&#xD;&#xA;(Ngày nộp)" />
+      <prttextbox Format="dd/MM/yyyy" Location="139, 46" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="00A" input_output="-" name="Date of submission (提出日)" order="1" required="" />
+      <label AutoSize="False" Location="24, 100" Size="95, 30" Font="Tahoma, 9pt" Text="Submission No.&#xD;&#xA;(Số kê khai)" />
+      <prttextbox Format="" Location="120, 116" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="01A" input_output="-" name="Submission No. (提出番号)" order="4" required="" />
+      <pagelabel Location="0, 0" Size="718, 20" Font="Tahoma, 11pt" Text="Unloaded containers list information / Thông tin danh sách container đã được dỡ" TextAlign="MiddleCenter" PageFormat="PageTitle2" />
+      <label AutoSize="False" Location="24, 65" Size="71, 30" Font="Tahoma, 9pt" Text="Submitter&#xD;&#xA;(Người nộp)" />
+      <prttextbox Format="" Location="120, 81" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="08A" input_output="-" name="Submitter code (提出者)" order="2" required="" />
+      <label Location="167, 79" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="179, 81" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="09A" input_output="-" name="Submitter name (提出者名)" order="3" required="" />
+      <ran Location="4, 203" Size="209, 28" Font="Tahoma, 11pt" Count="120" Offset="80" repetition_id="R01" repetition_max="1000" RepX="3" RepY="30" SpaceX="10" SpaceY="0">
+        <ranlabel AutoSize="False" Location="0, 0" Size="40, 15" Font="Tahoma, 9pt" TextAlign="TopRight" figure="1" repetition_id="R01" Value="0" PadLeft="True" />
+        <prttextbox Format="" Location="40, 1" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="20A" input_output="-" name="Container No./ULD No. (コンテナ番号／ULD番号)" order="25" required="" />
+        <prttextbox Format="" Location="165, 1" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="21A" input_output="-" name="Empty/Full container indication (空／実入り)" order="26" required="" />
+        <prttextbox Format="" Location="40, 14" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="22A" input_output="-" name="Container size (コンテナサイズ)" order="27" required="" />
+        <prttextbox Format="" Location="99, 14" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="23A" input_output="-" name="Container type (コンテナタイプ)" order="28" required="" />
+        <prttextbox Format="" Location="163, 14" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="B06" input_output="-" name="Stay-allowed duration (滞在可能期間)" order="29" required="" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_IRD" jobname="Reference of arrival/departure notification C" display-name="Reference of arrival/departure notification C">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_IRD.xml" item_attr_edit="False" />
+  <friday href="CAM10_IRD.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="A,Reference of arrival notification,B,Reference of departure notification" out_flg="0" in_flg="1" />
+    <item id="INN" name="Arrival notification number / &#xD;&#xA;Departure notification number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TRN" name="Train registry No." input_output="+" required="C" attribute="A" figure="10" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ARS" name="Arrival station /Departure station" input_output="+" required="C" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ADT" name="Date of arrival /Date of departure" input_output="+" required="C" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="133, 19" Location="186, 251" Text="Phân loại xem dữ liệu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="308" TabIndex="3" Size="36, 22" Location="345, 250" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,Reference of arrival notification&#xD;&#xA;B,Reference of departure notification&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="MDC" figure="1" required="M" />
+    <label Size="153, 34" Location="186, 278" Text="Số thông báo nhập cảnh /&#xD;&#xA;Số thông báo xuất cảnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="97, 21" Location="345, 285" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number / &#xD;&#xA;Departure notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="C" />
+    <label Size="97, 19" Location="186, 323" Text="Số hiệu đoàn tầu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="83, 21" Location="345, 322" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Train registry No." check_attribute="*" attribute="A" id="TRN" figure="10" required="C" />
+    <label Size="93, 34" Location="186, 353" Text="Mã ga đến /&#xD;&#xA;Mã ga xuất phát" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="55, 21" Location="345, 360" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Arrival station /Departure station" check_attribute="*" attribute="A" id="ARS" figure="6" required="C" />
+    <label Size="92, 34" Location="186, 396" Text="Ngày đến /&#xD;&#xA;Ngày xuất phát " Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="11" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="345, 403" BackColor="Window" Font="Courier New, 9pt" form="" order="5" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Date of arrival /Date of departure" check_attribute="*" attribute="A" id="ADT" figure="8" AutoComplete="False" required="C" />
+  </layout>
+</jobform>

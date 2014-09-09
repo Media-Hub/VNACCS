@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM40_IBA" jobname="CAM40_IBA" display-name="IBA Reference of bank payment information">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM40_IBA.xml" item_attr_edit="False" />
+  <friday href="CAM40_IBA.xml" revision="0000" />
+  <iteminfo>
+    <item id="BRC" name="Bank payment code" input_output="+" required="M" attribute="A" figure="11" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="UBP" name="Code of user who uses Bank Payment" input_output="+" required="C" attribute="A" figure="13" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="RYA" name="Issued year" input_output="+" required="M" attribute="I" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BPS" name="Bank Payment sign" input_output="+" required="M" attribute="A" figure="10" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BPN" name="Bank Payment No." input_output="+" required="M" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CCC" name="Currency Code" input_output="+" required="M" attribute="A" figure="3" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="140, 19" Location="139, 68" Text="Mã ngân hàng trả thay *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="90, 21" Location="318, 68" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Bank payment code" check_attribute="*" attribute="A" id="BRC" figure="11" required="M" />
+    <label Size="158, 19" Location="139, 97" Text="Mã đơn vị sử dụng hạn mức" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="2" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="318, 97" BackColor="Window" Font="Courier New, 9pt" form="" order="2" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Code of user who uses Bank Payment" check_attribute="*" attribute="A" id="UBP" figure="13" AutoComplete="False" required="C" />
+    <label Size="157, 19" Location="140, 156" Text="Kí hiệu chứng từ hạn mức *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="83, 21" Location="318, 156" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Bank Payment sign" check_attribute="*" attribute="A" id="BPS" figure="10" required="M" />
+    <label Size="107, 19" Location="140, 185" Text="Số hiệu hạn mức *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="83, 21" Location="318, 185" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Bank Payment No." check_attribute="*" attribute="A" id="BPN" figure="10" required="M" />
+    <label Size="70, 19" Location="140, 215" Text="Mã tiền tệ *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="34, 21" Location="318, 214" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Currency Code" check_attribute="*" attribute="A" id="CCC" figure="3" required="M" />
+    <label Size="99, 19" Location="140, 126" Text="Năm phát hành *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="41, 21" Location="318, 126" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Issued year" check_attribute="*" attribute="I" id="RYA" figure="4" required="M" />
+  </layout>
+</jobform>

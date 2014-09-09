@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="INP" name="Reference of passengers/crew information">
+  <item no="1" name="Reference type" id="MDC" required="" code="">Người dùng nhập chỉ tiêu thông tin do hệ thống cung cấp theo các ký tự như sau để thực hiện tìm kiếm: 
+A: Thông tin danh sách hành khách
+B: Thông tin danh sách thuyền viên</item>
+  <item no="2" name="Passenger / crew list No." id="NUM" required="" code="">Người dùng nhập số danh sách hành khách hoặc số danh sách thuyền viên để tìm kiếm. 
+Số này tối đa 12 ký tự.</item>
+  <item no="3" name="Transportation type" id="OPT" required="" code="">Hệ thống cho phép người dùng nhập loại phương tiện vận chuyển để thực hiện tìm kiếm theo các ký hiệu sau:
+S: Vận chuyển đường biển
+ A: Vận chuyển đường không
+ R: Vận chuyển đường sắt
+ V: Vận chuyển đường bộ
+2. Trường hợp đã nhập tìm kiếm theo số danh sách hành khách/thuyền viên thì hệ thống sẽ không cho nhập loại vận chuyển</item>
+  <item no="4" name="Arrival/departure indication&#xA;" id="IOK" required="" code="">Người dùng được yêu cầu nhập chỉ tiêu tìm kiếm đến hoặc đi.
+A: Danh sách Hành khách/ thuyền viên đến
+D: Danh sách Hành khách/ thuyền viên đi</item>
+  <item no="5" name="Transportation equipment code&#xA;(Vessel call sign, Flight No. etc....)" id="OPC" required="" code="">Người dùng nhập mã của phương tiện vận tải, tuỳ theo từng loại phương tiện vận tải thì người dùng nhập các thông tin như sau: 
+1. Trường hợp vận chuyển đường biển, nhập hô hiệu tàu
+2. Trường hợp vận chuyển đường không, nhập chuyến bay số 1 và số 2 theo định dạng sau:
+"Chuyến bay số 1" + "/" + Chuyến bay số 2
+3.Trường hợp vận chuyển đường sắt, nhập số tàu 
+4. Trường hợp vận chuyển đường bộ, nhập tên nước đăng ký và số giấy phép theo định dạng:
+  AA-BBBBB...BBBBB
+   A: Nước đăng ký (2digits)
+   B: Số giấy phép. (35digits)
+</item>
+  <item no="6" name="Arrival place code / Departure place code&#xA;" id="PRT" required="" code="(Sea)&#xA;UN/LOCODE&#xA;(Air)&#xA;IATA airport code&#xA;(Railway)&#xA;Station code&#xA;(Vehicle)&#xA;Border gate code">Người dùng nhập mã cửa khẩu đến/đi theo bộ mã UN/LOCODE hoặc IATA như sau:
+1. Trường hợp vận chuyển đường biển (đến), Nhập mã cảng đến
+2. Trường hợp vận chuyển đường biển (đi), Nhập mã cảng đi.
+3. Trường hợp vận chuyển đường không (đến), Nhập mã sân bay đến
+4. Trường hợp vận chuyển đường không (đi), Nhập mã sân bay đi
+5. Trường hợp vận chuyển đường sắt (đến), Nhập mã nhà ga đến.
+6. Trường hợp vận chuyển đường sắt (đi), Nhập mã nhà ga đi.
+7. Trường hợp vận chuyển đường bộ (đến), Nhập mã cổng đến.
+8. Trường hợp vận chuyển đường bộ (đi), Nhập mã cổng đi.</item>
+  <item no="7" name="Arrival place suffix / Departure place suffix&#xA;&#xA;" id="LPD" required="" code="">Ô này thể hiện số lượt vào cảng của phương tiện trong một hành trình
+1. Trường hợp vận chuyển đường biển (đến), nhập số lượt vào cảng đến
+2. Trường hợp vận chuyển đường biển (đi), nhập số lượt vào cảng đi
+3. Trường hợp vận chuyển đường không/sắt/bộ, hệ thống không yêu cầu nhập nội dung này.</item>
+  <item no="8" name="Voyage No.&#xA;&#xA;" id="KBF" required="" code="">Ô này chỉ dùng cho người khai nhập số hiệu chuyến tàu khi vận chuyển bằng đường biển</item>
+  <item no="9" name="Estimated date of arrival /Estimated date of departure&#xA;" id="FDT" required="" code="">1. Trường hợp đên, hệ thống yêu cầu nhập ngày (dự kiến) đến
+2. Trường hợp đi, hệ thống yêu cầu nhập ngày (dự kiến) đi
+
+Vận chuyển đường biển hoặc đường không không yêu cầu nhập nội dung này.</item>
+</guide>

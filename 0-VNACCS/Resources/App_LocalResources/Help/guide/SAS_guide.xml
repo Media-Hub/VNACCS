@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SAS" name="Assignment of examiner/inspector (Application for Quarantine certificate of import animals/ animal products)">
+  <item no="1" name="OGA Application No." id="APN" required="" code="">
+  </item>
+  <item no="2" name="Function code" id="KBN" required="" code="Function code list">Sẽ nhận một trong những giá trị sau:
+1 : Đăng ký
+2 : Chỉnh sửa</item>
+  <item no="3" name="Examiner/inspector code" id="EXM" required="" code="User ID">Nhập mã người dùng của cán bộ kiểm tra</item>
+  <item no="4" name="Contents of indication" id="RMK" required="" code="">1.Nhập nội dung giao việc cho cán bộ kiểm tra.
+2. Trường hợp có chỉnh sửa, nội dung giao việc mới sẽ được ghi đè lên nội dung giao việc cũ.</item>
+</guide>

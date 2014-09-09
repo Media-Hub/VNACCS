@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SAB" name="Application for Quarantine certificate of import animals/ animal products (Call up)">
+  <item no="1" name="OGA Application No./Permit/license No." id="APN" required="" code="">Trường hợp xem nội dung đơn xin cấp phép, nhập Số đơn xin cấp phép.
+Trường hợp xem nội dung cấp phép, nhập Số giấy phép.</item>
+  <item no="2" name="Call up type" id="KBN" required="" code="">Sẽ nhận một trong những giá trị sau:
+"A" : Tham chiếu tới nội dung của đơn xin cấp phép 
+"B" : Tham chiếu tới nội dung của giấy phép</item>
+</guide>

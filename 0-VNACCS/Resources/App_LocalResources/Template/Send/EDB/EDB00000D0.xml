@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM32_EDB" jobname="CAM32_EDB" display-name="EDB Pre-registration of export declaration (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM32_EDB.xml" item_attr_edit="False" />
+  <friday href="CAM32_EDB.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="C" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IVU" name="Electronic Invoice Receipt No." input_output="+" required="C" attribute="I" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="59, 19" Location="207, 184" Text="Số tờ khai" Font="Tahoma, 9pt" />
+    <label Size="165, 19" Location="207, 220" Text="Số tiếp nhận hóa đơn điện tử" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="384, 183" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="384, 219" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Electronic Invoice Receipt No." check_attribute="*" attribute="I" id="IVU" figure="12" required="C" />
+  </layout>
+</jobform>

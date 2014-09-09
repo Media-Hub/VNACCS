@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM83_HYE" jobname="汎用申請変更" display-name="Modification of application attached by electronic file">
+<meta_info format_Version="1.0" revision="0000" friday="CAM83_HYE.xml" item_attr_edit="False" />
+  <friday href="CAM83_HYE.xml" revision="0000" />
+  <iteminfo>
+    <item id="ICN" name="Declaration No" input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="STL" name="Applicant telephone number" input_output="+" required="C" attribute="A" figure="20" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="REF" name="Enterprise internal control number" input_output="+" required="C" attribute="A" figure="20" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KIJ" name="Remarks " input_output="+" required="C" attribute="W" figure="996" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="74, 122" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="241, 121" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="*" check_time="" check_date="" name="Declaration No" check_attribute="*" attribute="I" id="ICN" figure="12" required="M" />
+    <label Size="161, 19" Location="74, 161" Text="Số điện thoại người khai báo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="153, 21" Location="241, 160" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Applicant telephone number" check_attribute="*" attribute="A" id="STL" figure="20" required="C" />
+    <label Size="79, 19" Location="74, 220" Text="doanh nghiệp" Font="Tahoma, 9pt" />
+    <label Size="132, 19" Location="74, 203" Text="Số quản lý trong nội bộ" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="153, 21" Location="241, 202" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Enterprise internal control number" check_attribute="*" attribute="A" id="REF" figure="20" required="C" />
+    <label Size="46, 19" Location="74, 254" Text="Ghi chú" Font="Tahoma, 9pt" />
+    <textbox TabIndex="7" Multiline="True" Size="433, 96" Location="241, 254" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Remarks " check_attribute="*" attribute="W" id="KIJ" figure="996" required="C" />
+  </layout>
+</jobform>

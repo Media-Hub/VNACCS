@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="HCH11" name="House manifest registration B (call up)">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn yêu cầu cần thực hiện
+5: Sửa
+1: Xóa/Hủy
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E:Xuất khẩu
+</item>
+  <item no="3" name="Master AWB No." id="MAB" required="" code="">Nhập số vận đơn chủ của vận đơn cần sửa/xóa</item>
+  <item no="4" name="House AWB No." id="HAB" required="" code="">Nhập số vận đơn cần sửa/xóa</item>
+</guide>

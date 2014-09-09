@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IVS" name="Reference of arrival/departure notification A">
+  <item no="1" name="Reference type" id="MDC" required="" code="">Lựa chọn loại tham chiếu:
+A: Vessel basic information (thông tin chung của con tàu)
+B: Information of sea arrival notification (thông báo tàu đến)
+C: Information of sea departure notification (thông báo tàu đi)</item>
+  <item no="2" name="Arrival notification No. / &#xA;Departure notification No." id="INN" required="" code="">Trường hợp tham chiếu loại B thì nhập Số thông báo tàu đến
+Trường hợp tham chiếu loại C thì nhập Số thông báo tàu đi
+Trường hợp đã nhập Hô hiệu tàu vào chỉ tiêu số 3 thì không nhập được thông tin vào mục này.</item>
+  <item no="3" name="Vessel call sign" id="VEC" required="" code="">Trường hợp chỉ tiêu số 2 đã được nhập thì không nhập được thông tin vào mục này.</item>
+  <item no="4" name="Arrival port code / Departure port code&#xA;" id="NMC" required="" code="UN/LOCODE">Nhập mã cảng nhập trong trường hợp tham chiếu loại B
+Nhập mã cảng xuất trong trường hợp tham chiếu loại C</item>
+  <item no="5" name="Arrival port suffix / Departure port suffix&#xA;" id="NMS" required="" code="">Nhập Số lần vào cảng trong trường hợp tham chiếu loại B
+Nhập Số lần xuất cảng trong trường hợp tham chiếu loại C</item>
+  <item no="6" name="Voyage No.&#xA;&#xA;" id="KBF" required="" code="">Nhập số hiệu hành trình/chuyến đi biển</item>
+</guide>

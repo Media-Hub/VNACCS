@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CRM11" jobname="Manifest correction C (call up)" display-name="Manifest Correction C (call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_CRM11.xml" item_attr_edit="False" />
+  <friday href="CAM20_CRM11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KND" name="Processing type (処理区分)" input_output="+" required="M" attribute="I" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,2,Addition,5,Alteration,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="TRN" name="Train registry No. (鉄道登録番号)" input_output="+" required="M" attribute="A" figure="10" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCA" name="Carrier code (キャリアコード)" input_output="+" required="M" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ARD" name="Arrival station code/Departure station code (到着駅／出発駅)" input_output="+" required="M" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IDT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="+" required="M" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BLN" name="B/L No. (B/L番号)" input_output="+" required="C" attribute="A" figure="35" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <ranContainer repetition_max="50">
+      <item id="FRN" name="Freight car No. (貨車番号)" input_output="+" required="C" attribute="A" figure="17" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="88, 19" Location="165, 142" Text="Số hiệu toa tàu" Font="Tahoma, 9pt" />
+    <label Size="95, 19" Location="37, 30" Text="Phân loại xử lý *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="41, 22" Location="165, 29" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;2,Addition&#xD;&#xA;5,Alteration&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type (処理区分)" check_attribute="*" attribute="I" id="KND" figure="1" required="M" />
+    <combobox DropDownWidth="93" TabIndex="2" Size="41, 22" Location="358, 29" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="141, 19" Location="211, 30" Text="Nhập khẩu / Xuất khẩu *" Font="Tahoma, 9pt" />
+    <label Size="108, 19" Location="37, 58" Text="Số hiệu đoàn tàu *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="83, 21" Location="165, 57" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Train registry No. (鉄道登録番号)" check_attribute="*" attribute="A" id="TRN" figure="10" required="M" />
+    <label Size="112, 19" Location="226, 85" Text="Mã ga đến / ga đi *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="344, 84" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Arrival station code/Departure station code (到着駅／出発駅)" check_attribute="*" attribute="A" id="ARD" figure="6" required="M" />
+    <label Size="40, 19" Location="37, 112" Text="Số B/L" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="258, 21" Location="165, 111" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="B/L No. (B/L番号)" check_attribute="*" attribute="A" id="BLN" figure="35" required="C" />
+    <navigator Visible="False" TabIndex="16" Location="537, 3" repetition_id="R01" repetition_max="1" />
+    <container type="Panel" TabIndex="17" Size="165, 23" Location="131, 163" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="25" RepX="2" repetition_id="R01" repetition_max="50">
+      <ranlabel Size="21, 14" Location="6, 4" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <textbox CharacterCasing="Upper" TabIndex="8" Size="132, 21" Location="29, 1" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Freight car No. (貨車番号)" check_attribute="*" attribute="A" id="FRN" figure="17" required="C" />
+    </container>
+    <label Size="122, 19" Location="37, 86" Text="Mã nhà vận chuyển *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="55, 21" Location="165, 84" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Carrier code (キャリアコード)" check_attribute="*" attribute="A" id="SCA" figure="6" required="M" />
+    <label Size="134, 19" Location="407, 85" Text="Ngày dự kiến đến / đi *" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="6" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="547, 83" BackColor="LightCyan" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="M" />
+  </layout>
+</jobform>

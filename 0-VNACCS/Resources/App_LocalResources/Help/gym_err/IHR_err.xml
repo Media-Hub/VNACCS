@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IHR" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng không có quyền tham khảo thông tin.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="S0001" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0002" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Master B/L No." id="OBL">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0003" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0004" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống như là vận đơn chủ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.
+</description>
+    <disposition>Nhấn nút "Send" để lấy thêm thông tin.
+</disposition>
+  </response>
+  <response code="L0001" name="Master B/L No." id="OBL">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="Master B/L No." id="OBL">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

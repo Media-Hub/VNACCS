@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IMF02" name="Reference of house manifest information B">
+  <item no="1" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E: Xuất khẩu
+</item>
+  <item no="2" name="Master AWB No." id="MAB" required="" code="">Nhập số vận đơn chủ của vận đơn cần tham chiếu thông tin</item>
+</guide>

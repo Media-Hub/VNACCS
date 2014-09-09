@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM33_TIA" jobname="CAM33_TIA" display-name="Receipt of tentative import/export declaration management">
+  <meta_info format_Version="1.0" revision="0000" friday="VAL8110.xml" item_attr_edit="False" />
+  <friday href="VAL8110.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Declaration No." input_output="-" required="C" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Import/Export indication" input_output="-" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Customs office" input_output="-" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Date of declaration" input_output="-" required="C" attribute="A" figure="8" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="User code of first declarant" input_output="-" required="C" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="User name of first declarant" input_output="-" required="C" attribute="A" figure="50" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Importer/Exporter code" input_output="-" required="C" attribute="A" figure="13" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Importer/Exporter name" input_output="-" required="C" attribute="W" figure="300" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="First permit date" input_output="-" required="C" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Time limit of re-import/re-export" input_output="-" required="C" attribute="A" figure="8" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Remarks (for Customs officials use)" input_output="-" required="C" attribute="W" figure="420" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="50">
+      <item id="D01" name="HS code" input_output="-" required="C" attribute="A" figure="12" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D02" name="Original quantity" input_output="-" required="C" attribute="F" figure="15" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D03" name="Original quantity unit code" input_output="-" required="C" attribute="A" figure="4" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D04" name="Re-imported/re-exported quantity" input_output="-" required="C" attribute="F" figure="15" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D05" name="Re-imported/re-exported  quantity unit" input_output="-" required="C" attribute="A" figure="4" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D06" name="Remain quantity" input_output="-" required="C" attribute="F" figure="15" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="D07" name="Remain quantity unit" input_output="-" required="C" attribute="A" figure="4" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 9pt" MinOccurs="1">
+      <pagelabel Location="643, 0" Size="75, 14" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 30" Font="Tahoma, 12pt, style=Bold" Text="Tờ khai bổ sung thông tin quản lý hàng TNTX, TXTN" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="539, 36" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Customs office" order="3" required="C" />
+      <prttextbox Format="" Location="154, 36" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="A01" input_output="-" name="Declaration No." order="1" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="154, 55" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A03" input_output="-" name="Date of declaration" order="4" required="C" />
+      <label Location="17, 53" Size="80, 19" Font="Tahoma, 9pt" Text="Ngày đăng ký" />
+      <label Location="17, 34" Size="59, 19" Font="Tahoma, 9pt" Text="Số tờ khai" />
+      <label Location="314, 34" Size="217, 19" Font="Tahoma, 9pt" Text="Mã cơ quan Hải quan tiếp nhận tờ khai" />
+      <prttextbox Format="" Location="154, 75" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A04" input_output="-" name="User code of first declarant" order="5" required="C" />
+      <label Location="17, 73" Size="112, 19" Font="Tahoma, 9pt" Text="Người khai đầu tiên" />
+      <prttextbox Format="" Location="215, 75" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A05" input_output="-" name="User name of first declarant" order="6" required="C" />
+      <label Location="269, 102" Size="9, 19" Font="Microsoft Sans Serif, 9pt" Text="-" TextAlign="TopLeft" />
+      <label Location="202, 73" Size="9, 19" Font="Microsoft Sans Serif, 9pt" Text="-" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="154, 102" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A06" input_output="-" name="Importer/Exporter code" order="7" required="C" />
+      <label Location="17, 100" Size="126, 19" Font="Tahoma, 9pt" Text="Người xuất nhập khẩu" />
+      <prttextbox Format="" Multiline="True" Location="282, 102" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A07" input_output="-" name="Importer/Exporter name" order="8" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="254, 155" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A09" input_output="-" name="Time limit of re-import/re-export" order="10" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="254, 135" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A08" input_output="-" name="First permit date" order="9" required="C" />
+      <label Location="17, 133" Size="223, 19" Font="Tahoma, 9pt" Text="Ngày cấp phép xuất nhập khẩu đầu tiên" />
+      <label Location="17, 152" Size="129, 19" Font="Tahoma, 9pt" Text="Thời hạn tái xuất/nhập" />
+      <label Location="17, 172" Size="131, 19" Font="Tahoma, 9pt" Text="Ghi chú (của Hải quan)" />
+      <prttextbox Format="" Multiline="True" Location="154, 172" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="420" form="" id="A10" input_output="-" name="Remarks (for Customs officials use)" order="11" required="C" />
+      <label Location="314, 53" Size="163, 19" Font="Tahoma, 9pt" Text="Cờ báo nhập khẩu/xuất khẩu" />
+      <prttextbox Format="" Location="480, 55" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A11" input_output="-" name="Import/Export indication" order="2" required="C" />
+      <ran Location="17, 213" Size="668, 63" Font="Tahoma, 11pt" Count="8" repetition_id="R01" repetition_max="50" RepX="1" RepY="13" SpaceX="0" SpaceY="0">
+        <prttextbox Format="###,###,###,###,###" Location="437, 46" Size="148, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D06" input_output="-" name="Remain quantity" order="17" required="C" />
+        <prttextbox Format="" Location="621, 46" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D07" input_output="-" name="Remain quantity unit" order="18" required="C" />
+        <prttextbox Format="" Location="621, 27" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D05" input_output="-" name="Re-imported/re-exported  quantity unit" order="16" required="C" />
+        <prttextbox Format="###,###,###,###,###" Location="437, 27" Size="148, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D04" input_output="-" name="Re-imported/re-exported quantity" order="15" required="C" />
+        <prttextbox Format="" Location="621, 8" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D03" input_output="-" name="Original quantity unit code" order="14" required="C" />
+        <prttextbox Format="###,###,###,###,###" Location="437, 8" Size="148, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D02" input_output="-" name="Original quantity" order="13" required="C" />
+        <prttextbox Format="9999.99.99.9999" Location="125, 8" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="D01" input_output="-" name="HS code" order="12" required="C" />
+        <ranlabel Location="6, 8" Size="21, 15" Font="Courier New, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <label Location="31, 6" Size="91, 19" Font="Tahoma, 9pt" Text="Mã số hàng hóa" />
+        <label Location="265, 6" Size="101, 19" Font="Tahoma, 9pt" Text="Số lượng ban đầu" />
+        <label Location="598, 6" Size="9, 19" Font="Microsoft Sans Serif, 9pt" Text="-" />
+        <label Location="265, 25" Size="164, 19" Font="Tahoma, 9pt" Text="Số lượng đã tái nhập/tái xuất" />
+        <label Location="598, 25" Size="9, 19" Font="Microsoft Sans Serif, 9pt" Text="-" />
+        <label Location="265, 44" Size="92, 19" Font="Tahoma, 9pt" Text="Số lượng còn lại" />
+        <label Location="598, 44" Size="9, 19" Font="Microsoft Sans Serif, 9pt" Text="-" />
+        <rectangle Location="0, 0" Size="668, 63" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+    <page Font="Tahoma, 9pt" MaxOccurs="5">
+      <pagelabel Location="643, 3" Size="75, 14" Font="Tahoma, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 30" Font="Tahoma, 12pt, style=Bold" Text="Tờ khai bổ sung thông tin quản lý hàng TNTX, TXTN" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <ran Location="17, 33" Size="668, 63" Font="Tahoma, 11pt" Count="9" Offset="8" repetition_id="R01" repetition_max="50" RepX="1" RepY="16" SpaceX="0" SpaceY="0">
+        <prttextbox Format="###,###,###,###,###" Location="426, 25" Size="147, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D04" input_output="-" name="Re-imported/re-exported quantity" order="15" required="C" />
+        <prttextbox Format="" Location="613, 25" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D05" input_output="-" name="Re-imported/re-exported  quantity unit" order="16" required="C" />
+        <prttextbox Format="###,###,###,###,###" Location="426, 44" Size="147, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D06" input_output="-" name="Remain quantity" order="17" required="C" />
+        <prttextbox Format="" Location="613, 44" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D07" input_output="-" name="Remain quantity unit" order="18" required="C" />
+        <prttextbox Format="" Location="126, 6" Size="119, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="D01" input_output="-" name="HS code" order="12" required="C" />
+        <prttextbox Format="###,###,###,###,###" Location="426, 6" Size="147, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="D02" input_output="-" name="Original quantity" order="13" required="C" />
+        <prttextbox Format="" Location="613, 6" Size="43, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="D03" input_output="-" name="Original quantity unit code" order="14" required="C" />
+        <ranlabel Location="4, 6" Size="21, 15" Font="Courier New, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <label Location="29, 4" Size="91, 19" Font="Tahoma, 9pt" Text="Mã số hàng hóa" />
+        <label Location="261, 4" Size="101, 19" Font="Tahoma, 9pt" Text="Số lượng ban đầu" />
+        <label Location="590, 4" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <label Location="261, 23" Size="164, 19" Font="Tahoma, 9pt" Text="Số lượng đã tái xuất/tái nhập" />
+        <label Location="590, 23" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <label Location="261, 42" Size="92, 19" Font="Tahoma, 9pt" Text="Số lượng còn lại" />
+        <label Location="590, 42" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <rectangle Location="0, 0" Size="668, 63" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

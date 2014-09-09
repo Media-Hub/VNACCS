@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="MSB" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Customs Office" id="CHN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cơ quan hải quan.</disposition>
+  </response>
+  <response code="S0002" name="Customs Office" id="CHN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Customs Sub-section" id="CHB">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nhóm xử lý hồ sơ .</disposition>
+  </response>
+  <response code="S0004" name="Customs Sub-section" id="CHB">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Subject" id="SUB">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Remarks" id="TUS">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0007" name="Declaration No" id="ICN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0999" name="Subject&#xA;Remarks" id="SUB&#xA;TUS">
+    <description>Nhập liệu quá độ dài cho phép.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Nhóm xử lý hồ sơ đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Nhóm xử lý hồ sơ .</disposition>
+  </response>
+  <response code="E0006" name="None" id="0000">
+    <description>Xảy ra lỗi trong quá trình đăng ký các tập tin đính kèm trong hệ thống.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CRM11" name="Manifest correction C (call up)">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn Phân loại xử lý
+2: Thêm vào
+5: Thay đổi
+1: Hủy bỏ</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E: Xuất khẩu</item>
+  <item no="3" name="Train registry No." id="TRN" required="" code="">Nhập số hiệu đoàn tàu</item>
+  <item no="4" name="Carrier code" id="SCA" required="" code="Carrier code">Nhập mã nhà vận chuyển (công ty đường sắt)</item>
+  <item no="5" name="Arrival station code/Departure station code" id="ARD" required="" code="Station code">1. Trường hợp manifest nhập, nhập vào mã ga đến
+2. Trường hợp manifest xuất, nhập vào mã ga khởi hành</item>
+  <item no="6" name="Estimated date of arrival/Estimated date of departure" id="IDT" required="" code="">Nhập ngày dự kiến đến theo định dạng DDMMYYYY</item>
+  <item no="7" name="B/L No." id="BLN" required="" code="">1. Trường hợp số hiệu toa tầu đã được nhập, thì không nhập số B/L
+2. Trường hợp số B/L không bao gồm mã nhà vận chuyển, thì thêm vào mã nhà vận chuyển vào trước số B/L</item>
+  <item no="8" name="Freight car No." id="FRN" required="" code="">1. Trường hợp có sự thay đổi hoặc hủy bỏ của toa tầu/container trống, yêu cầu nhập vào số hiệu toa tầu
+2. Trường hợp số B/L đã được nhập, thì không nhập số hiệu toa tầu</item>
+</guide>

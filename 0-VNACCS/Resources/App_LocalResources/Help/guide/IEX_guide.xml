@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IEX" name="Reference of export declaration">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai cần tham chiếu.</item>
+</guide>

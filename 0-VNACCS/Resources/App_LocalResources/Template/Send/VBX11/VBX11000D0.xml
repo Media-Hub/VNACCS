@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VBX11" jobname="Registration of vessel information (call up)" display-name="VBX Correction of vessel basic information (call up)">
+<meta_info format_Version="1.0" revision="0000" friday="CAM10_VBX11.xml" item_attr_edit="False" />
+  <friday href="CAM10_VBX11.xml" revision="0000" />
+  <iteminfo>
+    <item id="VEC" name="Vessel call sign" input_output="+" required="M" attribute="A" figure="9" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=" ,入港情報ＤＢから呼び出す場合,A,検疫前通報ＤＢから呼び出す場合,B,乗員上陸許可申請ＤＢから呼び出す場合" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="97, 19" Location="250, 288" Text="Vessel call sign *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="76, 21" Location="361, 287" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue=" ,入港情報ＤＢから呼び出す場合,A,検疫前通報ＤＢから呼び出す場合,B,乗員上陸許可申請ＤＢから呼び出す場合" order="1" input_output="+" check_full="" check_time="" check_date="" name="Vessel call sign" check_attribute="*" attribute="A" id="VEC" figure="9" required="M" />
+  </layout>
+</jobform>

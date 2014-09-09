@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="GIR" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Số thông báo này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập liệu của Số thông báo.</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Arrival notification number" id="AND">
+    <description>Không thể nhập liệu vào mục này.</description>
+    <disposition>Hủy việc nhập Số thông báo nhập cảnh.</disposition>
+  </response>
+  <response code="S0004" name="Submission to Immigration Bureau" id="TON">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="S0005" name="Submission to Immigration Bureau" id="TON">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cục quản lý nhập cảnh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Submission to Quarantine station" id="TOK">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="S0007" name="Submission to Quarantine station" id="TOK">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0008" name="Submission to Airport Authority" id="TOA">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cảng vụ sân bay.</disposition>
+  </response>
+  <response code="S0009" name="Submission to Airport Authority" id="TOA">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cảng vụ sân bay với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0010" name="Arrival notification number" id="AND">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số thông báo nhập cảnh.</disposition>
+  </response>
+  <response code="S0011" name="Owner or operator" id="OWN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0012" name="Airline name" id="KOU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0013" name="Aircraft(Marks of Nationality and Registration)" id="REG">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số hiệu đăng ký máy bay.</disposition>
+  </response>
+  <response code="S0014" name="Aircraft(Marks of Nationality and Registration)" id="REG">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0015" name="Nationality" id="FLG">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã quốc tịch.</disposition>
+  </response>
+  <response code="S0016" name="Nationality" id="FLG">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0017" name="Main arriving flight number 1 (flight number)" id="FL1">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Chuyến bay hạ cánh chính số 1 (Mã chuyến bay).</disposition>
+  </response>
+  <response code="S0018" name="Main arriving flight number 1 (flight number)" id="FL1">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0019" name="Main arriving flight number 2 (date)" id="FL2">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Chuyến bay hạ cánh chính số 2 (ngày tháng).</disposition>
+  </response>
+  <response code="S0020" name="Main arriving flight number 1 (flight number)" id="FL1">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0021" name="Main arriving flight number 2 (date)" id="FL2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0022" name="Main arriving flight number 1 (flight number)&#xA;Main arriving flight number 2 (date)" id="FL1&#xA;FL2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1, 2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0024" name="Arriving flight number 1 (for code-share flight) (flight number)" id="A01～A10">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0025" name="Arriving flight number 1 (for code-share flight) (flight number)" id="A01～A10">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0026" name="Arriving flight number 2 (for code-share flight) (date)" id="B01～B10">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0027" name="Arriving flight number 1 (for code-share flight) (flight number)&#xA;Arriving flight number 2 (for code-share flight) (date)" id="A01～A10&#xA;B01～B10">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1, 2 với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0028" name="Departure airport" id="DEP">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Sân bay cất cánh.</disposition>
+  </response>
+  <response code="S0029" name="Departure airport" id="DEP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0031" name="Departure date" id="DDT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Ngày cất cánh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0032" name="Departure time" id="DMT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Thời gian cất cánh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0033" name="Port of call after departure" id="VI1～VI2">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0034" name="Departure date at port after departure" id="VD1～VD2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Thời gian cất cánh tại sân bay sau khi xuất phát khỏi sân bay hiện tại với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0035" name="Departure time at port after departure" id="VM1～VM2">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Ngày cất cánh tại sân bay sau khi xuất phát khỏi sân bay hiện tại với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0036" name="Arrival airport" id="ARP">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Sân bay hạ cánh.</disposition>
+  </response>
+  <response code="S0037" name="Arrival airport" id="ARP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0038" name="Arrival airport" id="ARP">
+    <description>Sân bay đã nhập không phải là sân bay nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập mã sân bay nội địa.</disposition>
+  </response>
+  <response code="S0039" name="Date of arrival" id="ADT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Ngày hạ cánh.</disposition>
+  </response>
+  <response code="S0040" name="Date of arrival" id="ADT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Ngày hạ cánh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0041" name="Date of arrival" id="ADT">
+    <description>Ngày đã nhập không nằm trong phạm vi quy định.</description>
+    <disposition>Kiểm tra giá trị và nhập ngày nằm trong phạm vi quy định.</disposition>
+  </response>
+  <response code="S0042" name="Actual time of arrival" id="AMT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thời gian đến.</disposition>
+  </response>
+  <response code="S0043" name="Actual time of arrival" id="AMT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Thời gian đến với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0044" name="Aircraft type" id="SHP">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại máy bay.</disposition>
+  </response>
+  <response code="S0045" name="Aircraft type" id="SHP">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại máy bay với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0046" name="Aircraft type" id="SHP">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại máy bay với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0047" name="Aircraft type" id="SHP">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại máy bay với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0048" name="Aircraft type" id="SHP">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại máy bay với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0049" name="Aircraft parking spot" id="SPO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0050" name="Number of Vietnamese crew landing at arrival airport" id="NIH">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0051" name="Number of foreigner crew landing at arrival airport" id="GAI">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0052" name="Number of crew members passing through at arrival airport" id="TUU">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0053" name="Number of crew members" id="CRW">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số lượng phi hành đoàn.</disposition>
+  </response>
+  <response code="S0054" name="Number of crew members" id="CRW">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0055" name="Number of passengers landing at arrival airport" id="JYO">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số lượng hành khách hạ cánh tại sân bay đến.</disposition>
+  </response>
+  <response code="S0056" name="Number of passengers landing at arrival airport" id="JYO">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0057" name="Number of passengers passing through at arrival airport" id="NOR">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số lượng hành khách quá cảnh.</disposition>
+  </response>
+  <response code="S0058" name="Number of passengers passing through at arrival airport" id="NOR">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0059" name="Authorized agent or pilot-in-command" id="SIG">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên phi cơ trưởng hoặc người đại diện.</disposition>
+  </response>
+  <response code="S0060" name="Authorized agent or pilot-in-command" id="SIG">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0061" name="Remarks" id="KIJ">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0062" name="Presence of person who may be suffering from communicable disease" id="KAN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Có hay không người được xác nhận là có bệnh truyền nhiễm.</disposition>
+  </response>
+  <response code="S0063" name="Presence of person who may be suffering from communicable disease" id="KAN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Có hay không người được xác nhận là có bệnh truyền nhiễm với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0065" name="Last name" id="C01～C10">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0066" name="First name" id="D01～D10">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0067" name="Middle name" id="E01～E10">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0068" name="Seat number" id="F01～F10">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0069" name="Official title" id="G01～G10">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0070" name="Presence of deceased during the flight" id="SHI">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Có người chết hay không trong chuyến đi.</disposition>
+  </response>
+  <response code="S0071" name="Presence of deceased during the flight" id="SHI">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Có người chết hay không trong chuyến đi với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0073" name="Presence of disinsecting or sanitary treatment" id="KUJ">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thực hiện khử trùng hoặc xử lý vệ sinh trong hành trình bay (có/không).</disposition>
+  </response>
+  <response code="S0074" name="Presence of disinsecting or sanitary treatment" id="KUJ">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Thực hiện khử trùng hoặc xử lý vệ sinh trong hành trình bay (có/không) với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0075" name="Place" id="PL1～PL5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0076" name="Date of disinsecting or sanitary treatment" id="DT1～DT5">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Ngày thực hiện kiểm soát dịch hại hoặc các biện pháp vệ sinh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0077" name="Expected duration" id="TM1～TM5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0078" name="Method" id="HW1～HW5">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0079" name="Last name of concerned crew member" id="LNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0080" name="First name of concerned crew member" id="FNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0081" name="Middle name of concerned crew member" id="MNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="Owner or operator&#xA;Airline name" id="OWN&#xA;KOU">
+    <description>Mặc dù Người sở hữu hoặc người chuyên chở không được nhập nhưng Tên hãng hàng không không được nhập.</description>
+    <disposition>Kiểm tra nội dung nhập của Người sở hữu hoặc người chuyên chở và Tên hãng hàng không.</disposition>
+  </response>
+  <response code="R0002" name="Departure date&#xA;Departure time" id="DDT&#xA;DMT">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.</description>
+    <disposition>Nhập cả hai giá trị hoặc hủy nội dung nhập.</disposition>
+  </response>
+  <response code="R0003" name="Port of call after departure" id="VI1～VI2">
+    <description>Giá trị đã nhập đang bị lặp.</description>
+    <disposition>Nhập giá trị khác của Sân bay ghé qua sau khi xuất phát khỏi sân bay hiện tại.</disposition>
+  </response>
+  <response code="R0004" name="Departure date at port after departure&#xA;Departure time at port after departure" id="VD1～VD2&#xA;VM1～VM2">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.</description>
+    <disposition>Nhập cả hai giá trị hoặc hủy nội dung nhập.</disposition>
+  </response>
+  <response code="R0005" name="Arriving flight number 1 (for code-share flight) (flight number)&#xA;Arriving flight number 2 (for code-share flight) (date)" id="A01～A10&#xA;B01～B10">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.</description>
+    <disposition>Nhập cả hai giá trị hoặc hủy nội dung nhập.</disposition>
+  </response>
+  <response code="R0006" name="Number of passengers landing at arrival airport&#xA;Number of passengers passing through at arrival airport" id="JYO&#xA;NOR">
+    <description>Tổng số hành khách vượt quá 999 người.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Số lượng hành khách hạ cánh tại sân bay đến và Số lượng hành khách quá cảnh.</disposition>
+  </response>
+  <response code="R0007" name="Presence of person who may be suffering from communicable disease&#xA;Number of person who may be suffering from communicable disease" id="KAN&#xA;KAS">
+    <description>Mặc dù giá trị được nhập vào mục  Có hay không người được xác nhận là có bệnh truyền nhiễm là 1 nhưng Số lượng người được xác nhận là có bệnh truyền nhiễm lại không được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Có hay không người được xác nhận là có bệnh truyền nhiễm và Số lượng người được xác nhận là có bệnh truyền nhiễm.</disposition>
+  </response>
+  <response code="R0008" name="Presence of person who may be suffering from communicable disease&#xA;Number of person who may be suffering from communicable disease" id="KAN&#xA;KAS">
+    <description>Mặc dù mục Có hay không người được xác nhận là có bệnh truyền nhiễm không được nhập, nhưng Số lượng người được xác nhận là có bệnh truyền nhiễm lại được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Có hay không người được xác nhận là có bệnh truyền nhiễm và Số lượng người được xác nhận là có bệnh truyền nhiễm.</disposition>
+  </response>
+  <response code="R0009" name="Presence of person who may be suffering from communicable disease&#xA;Last name" id="KAN&#xA;C01～C10">
+    <description>Phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Họ.</disposition>
+  </response>
+  <response code="R0010" name="Presence of deceased during the flight&#xA;Number of deceased during the flight" id="SHI&#xA;SIS">
+    <description>Mặc dù giá trị được nhập vào Có người chết hay không trong chuyến đi  là 1 nhưng Số người chết trong chuyến đi lại không được nhập. </description>
+    <disposition>Kiểm tra nội dung đã nhập của Có người chết hay không trong chuyến đi và Số người chết trong chuyến đi.</disposition>
+  </response>
+  <response code="R0011" name="Presence of deceased during the flight&#xA;Number of deceased during the flight" id="SHI&#xA;SIS">
+    <description>Mặc dù mục Có người chết hay không trong chuyến đi không được nhập nhưng Số người chết trong chuyến đi lại được nhập. </description>
+    <disposition>Kiểm tra nội dung đã nhập của Có người chết hay không trong chuyến đi và Số người chết trong chuyến đi.</disposition>
+  </response>
+  <response code="R0012" name="Presence of disinsecting or sanitary treatment&#xA;Place" id="KUJ&#xA;PL1～PL5">
+    <description>Khi Thực hiện khử trùng hoặc xử lý vệ sinh trong hành trình bay (có/không) được nhập là 1 thì phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Địa điểm.</disposition>
+  </response>
+  <response code="R0013" name="Place&#xA;Date of disinsecting or sanitary treatment" id="PL1～PL5&#xA;DT1～DT5">
+    <description>Mặc dù Địa điểm được nhập nhưng Ngày thực hiện kiểm soát dịch hại hoặc các biện pháp vệ sinh lại không được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Ngày thực hiện kiểm soát dịch hại hoặc các biện pháp vệ sinh.</disposition>
+  </response>
+  <response code="R0014" name="Place&#xA;Expected duration" id="PL1～PL5&#xA;TM1～TM5">
+    <description>Mặc dù Địa điểm được nhập nhưng Thời gian cần thiết lại không được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Thời gian cần thiết.</disposition>
+  </response>
+  <response code="R0015" name="Place&#xA;Method" id="PL1～PL5&#xA;HW1～HW5">
+    <description>Mặc dù Địa điểm được nhập nhưng Phương pháp lại không được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Phương pháp.</disposition>
+  </response>
+  <response code="R0016" name="Place&#xA;Date of disinsecting or sanitary treatment" id="PL1～PL5&#xA;DT1～DT5">
+    <description>Mặc dù Địa điểm không được nhập nhưng Ngày thực hiện kiểm soát dịch hại hoặc các biện pháp vệ sinh lại được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Ngày thực hiện kiểm soát dịch hại hoặc các biện pháp vệ sinh.</disposition>
+  </response>
+  <response code="R0017" name="Place&#xA;Expected duration" id="PL1～PL5&#xA;TM1～TM5">
+    <description>Mặc dù Địa điểm không được nhập nhưng Thời gian cần thiết lại được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Thời gian cần thiết.</disposition>
+  </response>
+  <response code="R0018" name="Place&#xA;Method" id="PL1～PL5&#xA;HW1～HW5">
+    <description>Mặc dù Địa điểm không được nhập nhưng Phương pháp lại được nhập.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Địa điểm, Phương pháp.</disposition>
+  </response>
+  <response code="R0019" name="Presence of person who may be suffering from communicable disease&#xA;Number of person who may be suffering from communicable disease" id="KAN&#xA;KAS">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="R0020" name="Presence of deceased during the flight&#xA;Number of deceased during the flight" id="SHI&#xA;SIS">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+
+</disposition>
+  </response>
+  <response code="E0002" name="Arrival notification number" id="AND">
+    <description>Số thông báo nhập cảnh này chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0003" name="Arrival notification number" id="AND">
+    <description>Số thông báo nhập cảnh này đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0004" name="Arrival notification number" id="AND">
+    <description>Số thông báo nhập cảnh này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0005" name="Arrival notification number" id="AND">
+    <description>Thông báo đến này đã bị sửa 9 lần.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0006" name="Main arriving flight number 1 (flight number)" id="FL1">
+    <description>Không được thay đổi Số chuyến bay</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0007" name="Main arriving flight number 2 (date)" id="FL2">
+    <description>Không được thay đổi Số chuyến bay</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0008" name="Arrival airport" id="ARP">
+    <description>Không được thay đổi Sân bay hạ cánh</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến.</disposition>
+  </response>
+  <response code="E0009" name="None" id="0000">
+    <description>Thông báo đến này đã được đăng ký từ hơn 2 ngày trước.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin thông báo đến. Nếu cần thiết, hãy sửa hay hủy khai báo bằng tay.</disposition>
+  </response>
+  <response code="E0010" name="Submission to Immigration Bureau" id="TON">
+    <description>Sân bay hạ cánh đã nhập sẽ được thiết lập là "Không thể nộp thông báo nhập cảnh cho Cục quản lý nhập cảnh" vào trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="E0011" name="Submission to Quarantine station" id="TOK">
+    <description>Sân bay hạ cánh đã nhập sẽ được thiết lập là "Không thể nộp thông báo nhập cảnh cho Cơ quan kiểm dịch" vào trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="E0012" name="Submission to Airport Authority" id="TOA">
+    <description>Sân bay hạ cánh đã nhập sẽ được thiết lập là "Không thể nộp thông báo nhập cảnh cho Cảng vụ sân bay" vào trong hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập của Nộp cho cảng vụ sân bay.</disposition>
+  </response>
+  <response code="E0013" name="Main arriving flight number 1 (flight number)&#xA;Main arriving flight number 2 (date)&#xA;Arrival airport" id="FL1&#xA;FL2&#xA;ARP">
+    <description>Thông tin đến này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai đến.</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.</description>
+    <disposition>Đính kèm chữ ký điện tử và thực hiện lại nghiệp vụ.</disposition>
+  </response>
+  <response code="W0001" name="None" id="0000">
+    <description>Người dùng của chi cục hải quan không hợp lệ.  Thông tin xuất ra không được gửi đến Hải quan.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0002" name="None" id="0000">
+    <description>Người dùng của Cục quản lý nhập cảnh không hợp lệ.  Thông tin xuất ra không được gửi đến Cục quản lý nhập cảnh.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0003" name="None" id="0000">
+    <description>Người dùng của cơ quan kiểm dịch không hợp lệ.  Thông tin xuất ra không được gửi đến cơ quan kiểm dịch.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0004" name="None" id="0000">
+    <description>Người dùng của cảng vụ sân bay không hợp lệ.  Thông tin xuất ra không được gửi đến cảng vụ sân bay.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="Arrival airport" id="ARP">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0007" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

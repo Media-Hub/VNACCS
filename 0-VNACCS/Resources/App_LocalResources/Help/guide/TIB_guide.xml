@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TIB" name="Correction of the information of tentative export and import (Call up)">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập vào số tờ khai</item>
+</guide>

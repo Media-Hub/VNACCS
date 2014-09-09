@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CAW11" jobname="Manifest correction B (call up)" display-name="Manifest correction B (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_CAW11.xml" item_attr_edit="False" />
+  <friday href="CAM20_CAW11.xml" revision="0000" />
+  <iteminfo>
+    <item id="KND" name="Processing type (処理区分)" input_output="+" required="M" attribute="I" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,2,Addition,5,Alteration,1,Cancellation" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="FL1" name="Flight No. 1 (flight number) (便名１)" input_output="+" required="M" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FL2" name="Flight No. 2 (date) (便名２)" input_output="+" required="M" attribute="A" figure="5" form="" order="4" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DPR" name="Port of discharge code/Port of loading code (船卸港／船積港)" input_output="+" required="M" attribute="A" figure="3" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <ranContainer repetition_max="10">
+      <item id="AWB" name="AWB No. (AWB番号)" input_output="+" required="C" attribute="A" figure="20" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="9, 19" Location="381, 181" Text="/" Font="Tahoma, 9pt" />
+    <label Size="159, 19" Location="158, 208" Text="Port of discharge / loading *" Font="Tahoma, 9pt" />
+    <label Size="68, 19" Location="158, 181" Text="Flight No. *" Font="Tahoma, 9pt" />
+    <label Size="64, 19" Location="158, 237" Text="AWB No. *" Font="Tahoma, 9pt" />
+    <navigator Visible="False" TabIndex="0" Location="520, 16" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="12" Size="188, 37" Location="129, 259" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="5" RepX="2" repetition_id="R01" repetition_max="10">
+      <ranlabel Size="21, 14" Location="4, 14" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <textbox CharacterCasing="Upper" TabIndex="0" Size="153, 21" Location="31, 11" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="AWB No. (AWB番号)" check_attribute="*" attribute="A" id="AWB" figure="20" required="C" />
+    </container>
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="323, 180" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Flight No. 1 (flight number) (便名１)" check_attribute="*" attribute="A" id="FL1" figure="6" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="48, 21" Location="393, 180" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="*" check_time="" check_date="" name="Flight No. 2 (date) (便名２)" check_attribute="*" attribute="A" id="FL2" figure="5" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="34, 21" Location="323, 207" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Port of discharge code/Port of loading code (船卸港／船積港)" check_attribute="*" attribute="A" id="DPR" figure="3" required="M" />
+    <label Size="100, 19" Location="158, 125" Text="Processing type *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="138" TabIndex="1" Size="40, 22" Location="323, 124" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;2,Addition&#xD;&#xA;5,Alteration&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type (処理区分)" check_attribute="*" attribute="I" id="KND" figure="1" required="M" />
+    <combobox DropDownWidth="93" TabIndex="2" Size="40, 22" Location="323, 152" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="100, 19" Location="158, 153" Text="Import / Export *" Font="Tahoma, 9pt" />
+  </layout>
+</jobform>

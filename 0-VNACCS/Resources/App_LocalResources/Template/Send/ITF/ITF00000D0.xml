@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM21_ITF" jobname="保税運送申告(一般)" display-name="ITF　Reference of declaration on transportation">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_ITF.xml" item_attr_edit="False" />
+  <friday href="CAM20_ITF.xml" revision="0000" />
+  <iteminfo>
+    <item id="OLT" name="Bonded transportation declaration number" input_output="+" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="EDT" name="Finish date of transportation " input_output="+" required="C" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DEC" name="Submitting Customs office " input_output="+" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ARV" name="Customs office at arrival place" input_output="+" required="C" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="126, 19" Location="140, 147" Text="Số tờ khai vận chuyển" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="354, 146" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Bonded transportation declaration number" check_attribute="*" attribute="A" id="OLT" figure="12" required="C" />
+    <label Size="191, 19" Location="140, 174" Text="Ngày dự kiến kết thúc vận chuyển" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="3" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="354, 173" BackColor="Window" Font="Courier New, 9pt" form="" order="2" choice_keyvalue="" input_output="+" check_full="" check_time="" check_date="" name="Finish date of transportation " check_attribute="*" attribute="A" id="EDT" figure="8" AutoComplete="False" required="C" />
+    <label Size="199, 19" Location="140, 200" Text="Cơ quan Hải quan tiếp nhận tờ khai" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="355, 199" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Submitting Customs office " check_attribute="*" attribute="A" id="DEC" figure="6" required="C" />
+    <label Size="180, 19" Location="140, 227" Text="Cơ quan Hải quan địa điểm đích" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="55, 21" Location="354, 226" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Customs office at arrival place" check_attribute="*" attribute="A" id="ARV" figure="6" required="C" />
+  </layout>
+</jobform>

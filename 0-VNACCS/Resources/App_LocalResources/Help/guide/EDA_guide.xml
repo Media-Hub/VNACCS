@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="EDA" name="Pre-registration of export declaration">
+	<item no="1" name="Declaration No." id="ECN" required="" code="">Không phải nhập liệu, hệ thống tự động cấp số tờ khai.</item>
+	<item no="2" name="First declaration No." id="FIC" required="" code="">Nhập số tờ khai đầu tiên.
+Trường hợp lô hàng có nhiều hơn 50 dòng hàng thì phải nhập liệu như sau:
+(1) Tờ khai đầu tiên: nhập vào chữ  “F”;
+(2) Từ tờ khai thứ 2 trở đi thì khai như sau:
+Ô 2: Nhập số thứ tự trên tổng số tờ khai.
+Ô 3: Nhập tổng số tờ khai
+</item>
+	<item no="3" name="Branch number of divided Declaration" id="BNO" required="" code="">Nhập số thứ tự trên tổng số tờ khai</item>
+	<item no="4" name="Number of divisions of divided Declaration" id="DNO" required="" code="">Nhập tổng số tờ khai</item>
+	<item no="5" name="Declaration No. of Tentative import export declaration" id="TDN" required="" code="">Chỉ nhập liệu ô này trong các trường hợp sau:
+(1) Trường hợp tái xuất của lô hàng tạm nhập thì nhập số tờ khai tạm nhập tương ứng.
+(2) Trường hợp xuất khẩu của lô hàng tạm xuất thì nhập số tờ khai tạm xuất tương ứng. Nếu không phải là xuất khẩu của lô hàng tạm xuất hoặc tái xuất sau khi tạm nhập thì không phải nhập liệu ô này.
+(3) Người mở tờ khai tái xuất và người mở tờ khai tạm nhập phải là một.
+(4) Hàng hóa thuộc tờ khai ban đầu phải còn trong thời hạn tạm nhập - tạm xuất.
+(5) Không được sử dụng cho tờ khai khác chưa thông quan/hoàn thành thủ tục hải quan.</item>
+	<item no="6" name="Declaration Kind Code" id="ECB" required="" code="">Người xuất khẩu theo hồ sơ, mục đích xuất khẩu của lô hàng để chọn một trong các loại hình xuất khẩu sau đây:
+“B11”: Xuất kinh doanh, Xuất khẩu của doanh nghiệp đầu tư
+“B12”: Xuất sau khi đã tạm xuất
+“B13”:  Xuất trả hàng nhập khẩu
+“E42”: Xuất sản phẩm của DNCX
+“E46”: Hàng của DNCX vào nội địa để GC
+“E52”: Xuất sản phẩm GC cho thương nhân nước ngoài
+“E54”: Xuất nguyên liệu GC sang hợp đồng khác
+“E56”: Xuất sản phẩm GC vào nội địa
+“E62”: Xuất sản phẩm SXXK
+“E82”: Xuất nguyên liệu thuê GC ở nước  ngoài
+“G21”: Tái xuất hàng kinh doanh TNTX
+“G22”: Tái xuất thiết bị, máy móc thuê phục vụ dự án có thời hạn
+“G23”: Tái xuất hàng miễn thuế tạm nhập
+“G24”: Tái xuất khác
+“G61”: Tạm xuất hàng hóa
+“C12”: Hàng xuất kho ngoại quan
+“C22”: Hàng đưa ra khỏi khu phi thuế quan
+“AEO”: Doanh nghiệp ưu tiên AEO
+Tham khảo bảng so sánh mã loại hình xuất khẩu trên hệ thống VNACCS và E-CUS trên website Hải quan: www.customs.gov.vn 
+</item>
+	<item no="7" name="Cargo classification code" id="CCC" required="" code="">Tùy theo tính chất hàng hóa, nhập một trong các mã sau: 
+“A”: Hàng quà biếu, quà tặng
+“B”: Hàng an ninh, quốc phòng
+“C”: Hàng cứu trợ khẩn cấp
+“D”: Hàng phòng chống thiên tai, dịch bệnh.
+“E”: Hàng viện trợ nhân đạo
+“F”: Hàng bưu chính, chuyển phát nhanh
+“G”: Hàng tài sản di chuyển 
+“H”: Hàng hóa được sử dụng cho PTVT xuất nhập cảnh
+“I”: Hàng ngoại giao
+“J”: Hàng khác theo quy định của Chính phủ
+“K”: Hàng bảo quản đặc biệt</item>
+	<item no="8" name="Means of transportation code" id="MTC" required="" code="">Căn cứ phương thức vận chuyển để lựa chọn một trong các mã sau: 
+1: Đường không
+2: Đường biển (container)
+3: Đường biển (hàng rời, lỏng...)
+4: Đường bộ (xe tải)
+5: Đường sắt
+6: Đường sông
+9: Khác</item>
+	<item no="9" name="Time limit of re-import" id="RID" required="" code="">Trường hợp mở tờ khai theo loại hình tạm xuất thì người khai căn cứ quy định về thời hạn hàng tạm xuất để nhập ngày hết hạn theo định dạng ngày/tháng/năm.</item>
+	<item no="10" name="Customs Office" id="CH" required="" code="Customs office code">(1) Dựa trên địa điểm lưu giữ hàng chờ thông quan, hệ thống sẽ tự động xác định mã Chi cục Hải quan đăng ký tờ khai.
+(2) Trường hợp hệ thống không xác định hoặc xác định không chính xác, phải nhập mã Chi cục Hải quan.
+(3) Tham khảo mã các Chi cục Hải quan trên website Hải quan: www.customs.gov.vn</item>
+	<item no="11" name="Customs Sub-section" id="CHB" required="" code="Customs Sub-section">(1) Hệ thống sẽ tự động xác định mã Đội thủ tục xử lý tờ khai dựa trên mã HS. 
+(2) Trường hợp hệ thống không hỗ trợ xác định, phải nhập mã Đội thủ tục xử lý tờ khai.  
+(3) Tham khảo mã các Đội thủ tục xử lý tờ khai trên website Hải quan: www.customs.gov.vn</item>
+	<item no="12" name="Declaration Planned Date" id="ECD" required="" code="">Nhập ngày ngày/tháng/năm dự kiến thực hiện nghiệp vụ EDC.
+Trường hợp không nhập, hệ thống sẽ tự động lấy ngày thực hiện nghiệp vụ này.</item>
+	<item no="13" name="Exporter Code&#xA;" id="EPC" required="" code="Importer/Exporter code">Nhập mã số thuế của người xuất khẩu.
+Trường hợp người xuất khẩu đã đăng ký sử dụng VNACCS và là người thực hiện EDA thì hệ thống sẽ tự động xuất ra mã người xuất khẩu.</item>
+	<item no="14" name="Exporter Name" id="EPN" required="" code="">Nhập tên của người xuất khẩu.
+Trường hợp người xuất khẩu đã đăng ký sử dụng VNACCS hoặc đã nhập “mã người xuất khẩu” thì hệ thống sẽ tự động xuất ra tên người xuất khẩu.</item>
+	<item no="15" name="Postcode" id="EPP" required="" code="">13 Mã bưu chính (1) Nhập mã bưu chính (trường hợp hệ thống tự động xuất ra thì không cần nhập).
+(2) Nhập mã bưu chính chính xác trong trường hợp mã bưu chính hệ thống xuất ra chưa đúng.</item>
+	<item no="16" name="Address of Exporter" id="EPA" required="" code="">(1) Nhập địa chỉ của người xuất khẩu, không cần nhập trong trường hợp hệ thống tự động hiển thị.
+(2) Trường hợp địa chỉ của người xuất khẩu mà hệ thống hiển thị không đúng, thì nhập vào địa chỉ chính xác.
+(3) Trường hợp người xuất khẩu đã đăng ký sử dụng VNACCS và là người thực hiện EDA thì không cần nhập liệu.</item>
+	<item no="17" name="Telephone number of Exporter" id="EPT" required="" code="">(1) Nhập số điện thoại của người xuất khẩu (không sử dụng dấu gạch ngang). Nếu hệ thống tự động hiển thị, không cần nhập liệu.
+(2) Trường hợp số điện thoại của người xuất khẩu mà hệ thống hiển thị không đúng, thì nhập vào số điện thoại chính xác.
+(3) Trường hợp người xuất khẩu đã đăng ký sử dụng VNACCS và là người thực hiện IDA thì không cần nhập liệu.</item>
+	<item no="18" name="Export contractor code" id="EXC" required="" code="Importer/Exporter code">Nhập mã số thuế của người ủy thác xuất khẩu.</item>
+	<item no="19" name="Export contractor name" id="EXN" required="" code="">Nhập tên người ủy thác xuất khẩu.</item>
+	<item no="20" name="Consignee Code" id="CGC" required="" code="Consignee/Consignor Code">Nhập mã người nhập khẩu (nếu có).</item>
+	<item no="21" name="Consignee Name" id="CGN" required="" code="">(1) Nhập tên người nhập khẩu nếu chưa đăng kí vào hệ thống.
+(2) Trường hợp đã đăng kí, hệ thống sẽ tự động xuất ra.
+Lưu ý: nhập đầy đủ tên người nhập khẩu theo các chứng từ thương mại (hóa đơn, hợp đồng, vận đơn…)</item>
+	<item no="22" name="Postcode identification&#xA;" id="CGP" required="" code="">(1) Nhập mã bưu chính của người nhập khẩu, nếu hệ thống tự động hiển thị thì không cần nhập.
+(2) Nhập mã bưu chính chính xác của người nhập khẩu nếu thông tin do hệ thống hiển thị không chính xác.</item>
+	<item no="23" name="Address 1 (Street and number/P.O.BOX)&#xA;" id="CGA" required="" code="">Nhập tên đường và số nhà/số hòm thư bưu điện (P.O.BOX). Người khai chỉ phải nhập liệu nếu hệ thống không tự động hỗ trợ.
+Nhập vào tên đường và số nhà/số hòm thư bưu điện chính xác nếu thông tin do hệ thống hiển thị không chính xác.</item>
+	<item no="24" name="Address 2 (Street and number/P.O.BOX)&#xA;" id="CAT" required="" code="">Nhập tiếp tên đường và số nhà/số hòm thư bưu điện (P.O.BOX).</item>
+	<item no="25" name="Address 3(City name)&#xA;" id="CAC" required="" code="">Nhập tên thành phố. Người khai chỉ phải nhập liệu nếu hệ thống không tự động hỗ trợ. Nhập vào tên thành phố chính xác nếu thông tin do hệ thống hiển thị không đúng.</item>
+	<item no="26" name="Address 4(Country sub-entity, name)&#xA;" id="CAS" required="" code="">Nhập tên nước. Người khai chỉ phải nhập liệu nếu hệ thống không tự động hỗ trợ. Nhập vào tên nước chính xác nếu thông tin do hệ thống hiển thị không đúng.</item>
+	<item no="27" name="Country Code&#xA;(Country, coded)" id="CGK" required="" code="UN/LOCODE&#xA;(2 digit country code)">(1) Nhập mã nước gồm 02 kí tự theo bảng mã UN LOCODE (tham khảo tại website Hải quan: www.customs.gov.vn)
+(2) Nhập mã nước chính xác nếu hệ thống hiển thị không đúng.
+(3) Không phải nhập liệu trong trường hợp không xác định được nước xuất khẩu hoặc không có trong bảng mã UN LOCODE.</item>
+	<item no="28" name="Planned Declarant Code" id="ECC" required="" code="User code">(1) Trường hợp đại lý hải quan thực hiện nghiệp vụ EDA và các nghiệp vụ tiếp theo thì không phải nhập liệu.
+(2) Trường hợp người khai thực hiện nghiệp vụ EDA khác với người khai thực hiện nghiệp vụ EDC thì nhập mã người sử dụng thực hiện nghiệp vụ EDC.</item>
+	<item no="29" name="Cargo No. (B/L No., AWB No. etc....)" id="EKN" required="" code="">(1) Nhập số vận đơn (số B/L, AWB, vận đơn đường sắt) như sau: “Mã SCAC CODE” + “Số vận đơn”
+(tham khảo bảng mã hãng vận chuyển SCAC CODE trên website Hải quan: www.customs.gov.vn)
+- Đối với B/L và AWB có thể nhập đến 05 số vận đơn. 
+- Số AWB không được vượt quá 20 ký tự.
+(2) Chỉ tiêu này không bắt buộc đối với các phương thức vận chuyển khác.</item>
+	<item no="30" name="Cargo Piece" id="NO" required="" code="">Số lượng: 
+- Nhập tổng số lượng kiện hàng hóa (căn cứ vào hóa đơn thương mại, phiếu đóng gói, vận đơn,…)
+- Không nhập phần thập phân
+- Nhập là “1” đối với hàng hóa không thể thể hiện bằng đơn vị tính (kiện, thùng,…)</item>
+	<item no="31" name="Piece Unit Code" id="NOT" required="" code="Kinds of packages code&#xA;(UN/ECE 21/alphabetic letter)&#xA;">Nhập mã đơn vị tính Ví dụ: CS: thùng, BX: hộp,….
+(Tham khảo mã đơn vị tính trên website Hải quan: www.customs.gov.vn)</item>
+	<item no="32" name="Cargo Weight (Gross)" id="GW" required="" code="">Nhập tổng trọng lượng hàng (căn cứ vào phiếu đóng gói, hóa đơn thương mại)
+- Có thể nhập 06 ký tự cho phần nguyên và 03 ký tự cho phần thập phân.
+- Trường hợp mã của tổng trọng lượng hàng là “LBR” (pound), hệ thống sẽ tự động chuyển đổi sang KGM (kilogram).
+- Không phải nhập trong trường hợp tại chỉ tiêu thông tin “Mã phương thức vận chuyển” người khai chọn mã “9”.</item>
+	<item no="33" name="Weight Unit Code (Gross)" id="GWT" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)&#xA;">Nhập mã đơn vị tính của tổng trọng lượng hàng theo chuẩn UN/ECE 
+Ví dụ:
+KGM: kilogram
+TNE: tấn
+LBR: pound
+(Tham khảo bảng mã đơn vị tính trọng lượng trên website Hải quan: www.customs.gov.vn)
+- Trường hợp nhập mã đơn vị tính khác LBR, xuất ra mã trọng lượng đơn vị tính.
+- Trường hợp nhập là “LBR” (pound), xuất ra KGM.</item>
+	<item no="34" name="Customs Warehouse Code" id="ST" required="" code="Bonded area code">(1) Nhập mã địa điểm lưu giữ hàng hóa chờ thông quan dự kiến.
+(2) Không phải nhập liệu trong trường hợp tại chỉ tiêu “Mã hiệu phương thức vận chuyển”, người khai chọn mã “9”.</item>
+	<item no="35" name="The final Destination Code" id="DSC" required="" code="UN/LOCODE">Nhập mã địa điểm nhận hàng cuối cùng theo UN LOCODE (tham khảo bảng mã trên website Hải quan: www.customs.gov.vn)
+(1) Trường hợp mã địa điểm nhận hàng cuối cùng không có trong bảng mã UN LOCODE thì nhập “ZZZ”.
+(2) Trường hợp không xác định được mã địa điểm nhận hàng cuối cùng (tương ứng với mã “UNKNOWN” trong bảng mã) thì không cần nhập.</item>
+	<item no="36" name="The final Destination  Name" id="DSN" required="" code="">Nhập tên địa điểm nhận hàng cuối cùng (không cần nhập trong trường hợp hệ thống tự động hỗ trợ).
+(1) Nếu địa điểm nhận hàng cuối cùng chưa được mã hóa thì bắt buộc phải nhập ô này.
+(2) Trường hợp vận chuyển đường sắt, nhập tên ga tàu.</item>
+	<item no="37" name="Loading Port Code" id="PSC" required="" code="UN/LOCODE(3 digits without 2 digits of country code)&#xA;Station code&#xA;Border gate code">Nhập mã địa điểm xếp hàng theo UN LOCODE. (Tham khảo bảng mã địa điểm xếp hàng trên website Hải quan: www.customs.gov.vn)
+(1) Nhập mã cảng dỡ hàng (đường không, đường biển);
+(2) Nhập mã ga (đường sắt);
+(3) Nhập mã cửa khẩu (đường bộ, đường sông);
+(4) Bắt buộc nhập liệu trừ trường hợp tại chỉ tiêu “Mã hiệu phương thức vận chuyển”, người khai chọn mã “9”.</item>
+	<item no="38" name="Loading Port Name" id="PSN" required="" code="">Nhập tên địa điểm xếp hàng (Không bắt buộc trong trường hợp hệ thống hỗ trợ tự động).</item>
+	<item no="39" name="Loading Planned Vessel Code&#xA;" id="VSC" required="" code="Call sign">Nhập hô hiệu (call sign) trong trường hợp vận chuyển bằng đường biển/sông. Nếu thông tin cơ bản của tàu chưa được đăng kí vào hệ thống thì nhập “9999”.</item>
+	<item no="40" name="Loading Planned Vessel(aircraft) Name&#xA;" id="VSN" required="" code="">Nhập tên phương tiện vận chuyển (căn cứ vào chứng từ vận tải: B/L, AWB,…)
+(1) Nhập tên tàu trong trường hợp vận chuyển bằng đường biển/sông.
+(2) Nếu không nhập liệu, hệ thống sẽ tự động xuất ra tên tàu đã đăng kí trên hệ thống dựa trên hô hiệu đã nhập ở ô 1.
+(3) Trường hợp vận chuyển hàng không: nhập mã hãng hàng không (02 kí tự), số chuyến bay (04 kí tự), gạch chéo (01 kí tự), ngày/tháng (ngày: 02 kí tự, tháng 03 kí tự viết tắt của các tháng bằng tiếng Anh).
+Ví dụ: AB0001/01JAN
+(4) Trường hợp vận chuyển đường bộ: nhập số xe tải. 
+(5) Trường hợp vận chuyển đường sắt: nhạp số tàu.
+(6) Không phải nhập trong trường hợp tại chỉ tiêu “Mã hiệu phương thức vận chuyển”, người khai chọn mã “9” và trong trường hợp hệ thống hỗ trợ tự động xuất ra tên phương tiện vận chuyển.</item>
+	<item no="41" name="Departure Planned Date&#xA;" id="SYM" required="" code="">Nhập ngày hàng đi dự kiến (ngày/tháng/năm)</item>
+	<item no="42" name="Marks and numbers" id="MRK" required="" code="">Nhập ký hiệu và số hiệu của bao bì đóng gói hàng hóa (thể hiện trên kiện, thùng,…).</item>
+	<item no="43" name="Permit type" id="SS_" required="" code="Permit type">Nhập mã phân loại giấy phép xuất khẩu trường hợp hàng hóa phải có giấy phép xuất khẩu hoặc kết quả kiểm tra chuyên ngành trước khi thông quan; hoặc mã hợp đồng gia công.
+(tham khảo mã giấy phép xuất khẩu trên website Hải quan: www.customs.gov.vn)</item>
+	<item no="44" name="Permit/license No." id="SN_" required="" code="">Nhập số giấy phép xuất khẩu hoặc số văn bản thông báo kết quả kiểm tra chuyên ngành; hoặc số hợp đồng gia công (nhập tối đa 05 loại giấy phép)
+Lưu ý: Đây là chỉ tiêu thông tin bắt buộc đối với trường hợp khai mã loại hình là “E52” (Xuất sản phẩm GC cho thương nhân nước ngoài).</item>
+	<item no="45" name="Invoice Classification Code&#xA;" id="IV1" required="" code="">Nhập vào một trong các mã phân loại hình thức hóa đơn sau đây:
+“A”: hóa đơn
+“B”: Chứng từ thay thế hóa đơn
+“D”: hóa đơn điện tử (trong trường hợp đăng kí hóa đơn điện tử trên VNACCS.</item>
+	<item no="46" name="Electronic invoice receipt No.&#xA;" id="IV2" required="" code="">(1) Nếu Phân loại hình thức hóa đơn là "D" thì bắt buộc phải nhập Số tiếp nhận hóa đơn điện tử.
+(2) Nếu Phân loại hình thức hóa đơn không phải là "D" thì không thể nhập được chỉ tiêu thông tin này.</item>
+	<item no="47" name="Invoice No.&#xA;" id="IV3" required="" code="">Nhập vào số hóa đơn hoặc số của Chứng từ thay thế hóa đơn</item>
+	<item no="48" name="Invoice date" id="IVD" required="" code="">Nhập vào ngày phát hành hóa đơn hoặc chứng từ thay thế hóa đơn (Ngày/tháng/năm).</item>
+	<item no="49" name="Term of payment" id="IVP" required="" code="">Nhập vào một trong các mã phương thức thanh toán sau:
+“BIENMAU”: Biên mậu
+“DA”: Nhờ thu chấp nhận chứng từ
+“CAD”: Trả tiền lấy chứng từ
+“CANTRU”: Cấn trừ
+“CASH”: Tiền mặt
+“CHEQUE”: Séc
+“DP”: Nhờ thu kèm chứng từ
+“GV”: Góp vốn
+“H-D-H”: Hàng đổi hang
+“H-T-N”: Hàng trả nợ
+“HPH”: Hối phiếu
+“KHONGTT”: Không thanh toán
+“LC”: Tín dụng thư
+“LDDT”: Liên doanh đầu tư
+“OA”: Mở tài khoản thanh toán
+“TTR”: Điện chuyển tiền
+“KC”: Khác</item>
+	<item no="50" name="Invoice price condition code&#xA;" id="IP2" required="" code="Invoice Price Condition Code&#xA;">Ô 1: Nhập một trong các điều kiện giao hàng theo Incoterms:
+(1) CIF
+(2) CIP
+(3) FOB
+(4) FCA
+(5) FAS
+(6) EXW
+(7) C&amp;F
+(8) CFR
+(9) CPT
+(10) DDP
+(11) DAP
+(12) DAT
+(13) C&amp;I
+(14) DAF
+(15) DDU
+(16) DES
+(17) DEQ</item>
+	<item no="51" name="Invoice Currency Code&#xA;" id="IP3" required="" code="Currency code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ của hóa đơn theo chuẩn UN/LOCODE (tham khảo bảng mã đơn vị tiền tệ trên website Hải quan: www.customs.gov.vn)</item>
+	<item no="52" name="Total Invoice Price&#xA;" id="IP4" required="" code="">Nhập tổng trị giá trên hóa đơn:
+(1) Có thể nhập đến 04 chữ số sau dấu phẩy nếu mã đồng tiền không phải là “VND”.
+(2) Nếu mã đồng tiền là “VND” thì không thể nhập các số sau dấu phẩy thập phân.</item>
+	<item no="53" name="Invoice Price Kind Code&#xA;" id="IP1" required="" code="">Nhập mã phân loại giá hóa đơn/ chứng từ thay thế hóa đơn:
+“A”: Giá hóa đơn cho hàng hóa phải trả tiền
+“B”: Giá hóa đơn cho hàng hóa không phải trả tiền (F.O.C)
+“C”: Giá hóa đơn cho hàng hóa bao gồm phải trả tiền và không phải trả tiền
+“D”: Các trường hợp khác</item>
+	<item no="54" name="Currency Code of total of tax value" id="FCD" required="" code="Currency code (ISO4217/alphabet)">(1) Nếu Mã điều kiện giá hóa đơn là FOB, DAP, DAF thì không cần nhập các ô này.
+(2) Nếu Mã điều kiện giá hóa đơn khác FOB, DAP, DAF thì nhập các ô này như sau:
+Ô 1: Nhập mã đơn vị tiền tệ của trị giá tính thuế.
+Ô 2: Nhập tổng trị giá tính thuế.
+- Trường hợp mã đơn vị tiền tệ không phải là “VND” thì có thể nhập đến 04 số sau dấu thập phân.
+- Trường hợp mã đơn vị tiền tệ là “VND” thì không được nhập số thập phân.</item>
+	<item no="55" name="Total of tax value" id="FKK" required="" code="">(1)Input Invoice (FOB price or DAF price)
+(2)If Invoice Price Condition Code is FOB or DAF, can omit inputting
+(3)If FOB Currency Code or DAF Currency Code is not "VND", can input 4 digits to decimal part
+(4)If FOB Currency Code or DAF Currency Code is "VND", can not input decimal part</item>
+	<item no="56" name="Classification of non-converting into VND&#xA;" id="CNV" required="" code="">Nhập “N” nếu số tiền thuế và trị giá hải quan không cần chuyển đổi sang VND.</item>
+	<item no="57" name="Total of proportional distribution on Tax value" id="TP" required="" code="">(1) Nhập tổng trị giá hóa đơn trước khi điều chỉnh.
+(2) Có thể nhập đến 04 chữ số tại phần thập phân.
+(3) Trường hợp một hóa đơn - nhiều tờ khai, bắt buộc nhập vào ô này.
+(4) Trường hợp không nhập, hệ thống sẽ tự động tính giá trị của ô này bằng cách cộng tất cả trị giá hóa đơn của các dòng hàng trên tờ khai.</item>
+	<item no="58" name="Tax payer" id="TPM" required="" code="">Nhập một trong các mã sau:
+“1”: người nộp thuế là người nhập khẩu
+“2”: người nộp thuế là đại lý hải quan</item>
+	<item no="59" name="Bank payment code" id="BRC" required="" code="">Nhập mã ngân hàng trả thuế thay, trường hợp ký hiệu và số chứng từ hạn mức đã được đăng ký, hệ thống sẽ kiểm tra những thông tin sau:
+(1) Người sử dụng hạn mức phải là người xuất khẩu hoặc hạn mức được cấp đích danh cho đại lý hải quan.
+(2) Ngày tiến hành nghiệp vụ này phải thuộc thời hạn còn hiệu lực của hạn mức ngân hàng đã đăng ký.</item>
+	<item no="60" name="Bank payment Issued year" id="BYA" required="" code="">Nhập năm phát hành của chứng từ hạn mức. Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".</item>
+	<item no="61" name="Bank Payment sign" id="BCM" required="" code="">Nhập ký hiệu của chứng từ hạn mức trên chứng thư hạn mức do ngân hàng cấp. Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".</item>
+	<item no="62" name="Bank Payment No." id="BCN" required="" code="">Nhập số chứng từ hạn mức trên chứng thư hạn mức do ngân hàng cung cấp.
+Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".</item>
+	<item no="63" name="Code of extending due date for payment" id="ENC" required="" code="">Nhập một trong các mã tương ứng như sau:
+“A”: trường hợp được áp dụng thời hạn nộp thuế do sử dụng bảo lãnh riêng.
+“B”: trường hợp được áp dụng thời hạn nộp thuế do sử dụng bảo lãnh chung.
+“C”: trường hợp được áp dụng thời hạn nộp thuế mà không sử dụng bảo lãnh.
+“D”: trong trường hợp nộp thuế ngay.</item>
+	<item no="64" name="Security supplier Bank code" id="SBC" required="" code="">Nhập mã ngân hàng cung cấp bảo lãnh, trường hợp ký hiệu và số chứng từ hạn mức đã được đăng ký, hệ thống sẽ kiểm tra những thông tin sau:
+(1) Người sử dụng chứng từ bảo lãnh phải là người xuất khẩu hoặc là chứng từ bảo lãnh được cấp đích danh cho đại lý hải quan.
+(2) Ngày tiến hành nghiệp vụ này phải thuộc thời hạn còn hiệu lực của chứng từ bảo lãnh đã đăng ký.
+(3) Trường hợp sử dụng chứng từ bảo lãnh riêng, chứng từ phải được sử dụng tại Chi cục Hải quan đã đăng ký.
+(4) Nếu không thuộc trường hợp (1), mã của người được phép sử dụng chứng từ bảo lãnh đã đăng ký trong cơ sở dữ liệu phải khớp với mã của người đăng nhập sử dụng nghiệp vụ này. 
+(5) Trường hợp đăng ký chứng từ bảo lãnh riêng trước khi có tờ khai dựa trên số vận đơn hoặc/và số hóa đơn, số vận đơn hoặc/và số hóa đơn phải tồn tại trong cơ sở dữ liệu bảo lãnh riêng.
+(6) Mã loại hình đã được đăng ký trong dữ liệu chứng từ bảo lãnh riêng phải khớp với mã loại hình khai báo.
+(7) Ngày khai báo dự kiến nếu đã được đăng ký trong dữ liệu chứng từ bảo lãnh riêng phải khớp với ngày đăng ký khai báo dự kiến.
+(8) Trường hợp đăng ký chứng từ bảo lãnh riêng sau khi hệ thống cấp số tờ khai, số tờ khai đã đăng ký trong cơ sở dữ liệu của bảo lãnh phải khớp với số tờ khai hệ thống đã cấp.</item>
+	<item no="65" name="Issued year" id="RYA" required="" code="">Nhập năm phát hành của chứng từ bảo lãnh (bao gồm 04 ký tự).
+Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".</item>
+	<item no="66" name="Security bank sign" id="SCM" required="" code="">Nhập ký hiệu của chứng từ bảo lãnh do ngân hàng cung cấp trên chứng thư bảo lãnh.
+Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".</item>
+	<item no="67" name="Security No." id="SCN" required="" code="">Nhập số của chứng từ bảo lãnh do ngân hàng cung cấp trên chứng thư bảo lãnh.
+Là chỉ tiêu bắt buộc nếu người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".</item>
+	<item no="68" name="Classification of  dossiers attachment" id="EA_" required="" code="">Khi cơ quan Hải quan có yêu cầu gửi chứng từ đính kèm, người khai sử dụng nghiệp vụ HYS và nhập mã phân loại đính kèm khai báo điện tử:
+“INV”: Hóa đơn
+“BOL”: B/L
+“AWB”: AWB
+“INS”: Bảo hiểm
+“CON”: Hợp đồng 
+“DM”: Định mức nguyên vật liệu
+“ALL”: Tất cả hồ sơ
+“ETC”: Loại khác</item>
+	<item no="69" name="Electronic Declaration No. for attached document" id="EB_" required="" code="">Nhập số đính kèm khai báo điện tử do hệ thống cấp tại nghiệp vụ HYS.</item>
+	<item no="70" name="Start date of transport" id="DPD" required="" code="">Nhập ngày khởi hành vận chuyển hàng hóa chịu sự giám sát hải quan (Ngày/tháng/năm).</item>
+	<item no="71" name="Transit location for bonded transport (simultaneous declaration)" id="ST_" required="" code="Bonded area code">Nhập địa điểm trung chuyển cho vận chuyển hàng hóa đang chịu sự giám sát của Hải quan (áp dụng khi khai báo gộp).</item>
+	<item no="72" name="Arrival date of transport&#xA; (transit location)" id="AD_" required="" code="">Nhập ngày đến địa điểm trung chuyển.</item>
+	<item no="73" name="Start date of transport (transit location)" id="SD_" required="" code="">Nhập ngày rời khỏi địa điểm trung chuyển.</item>
+	<item no="74" name="Destination location for bonded transport (simultaneous declaration)" id="ARP" required="" code="Bonded area code">Nhập địa điểm đích cho vận chuyển hàng hóa đang chịu sự giám sát của Hải quan (áp dụng khi khai báo gộp).</item>
+	<item no="75" name="Arrival date of transport&#xA;" id="ADT" required="" code="">Nhập ngày dự kiến đến địa điểm đích.</item>
+	<item no="76" name="Notes" id="NT2" required="" code="">(1) Trường hợp có thông báo từ phía cơ quan Hải quan thì nhập thông tin cần thiết ở đây.
+(2) Trường hợp đã đăng kí hợp đồng gia công thì nhập số hợp đồng.
+(3) Nhập số thông báo kết quả xác định trước (trị giá, mã số,...)
+(4) Trường hợp chuyển xuất khẩu của những lô hàng thuê gia công nước ngoài thì nhập số tờ khai xuất gia công ban đầu.</item>
+	<item no="77" name="Enterprise internal control number" id="REF" required="" code="">Nhập số quản lý của nội bộ doanh nghiệp trong trường hợp doanh nghiệp sử dụng tính năng này để quản lý nội bộ.</item>
+	<item no="78" name="Vanning Place Code&#xA;" id="VC_" required="" code="Bonded area code">Mã (05 ô): Nhập mã địa điểm xếp hàng lên xe chở hàng.
+Trường hợp địa điểm xếp hàng lên xe chở hàng là khu vực giám sát hải quan thì nhập mã khu vực giám sát hải quan. (Không cần nhập liệu nếu địa điểm xếp hàng không thuộc khu vực giám sát hải quan)</item>
+	<item no="79" name="Vanning Place Name&#xA;" id="VN" required="" code="">Tên: Nhập tên địa điểm xếp hàng lên xe chở hàng
+(Không cần nhập trong trường hợp hệ thống tự động hỗ trợ)</item>
+	<item no="80" name="Vanning Place Address&#xA;" id="VA" required="" code="">Địa chỉ: Nhập địa chỉ của địa điểm xếp hàng lên xe chở hàng.</item>
+	<item no="81" name="Container No." id="C__" required="" code="">Nhập số container trong trường hợp hàng hóa vận chuyển bằng đường biển được đóng trong container.</item>
+	<item no="82" name="Customs instruction classification" id="CCM" required="" code="">Nhập mã phân loại thông báo của cán bộ Hải quan: 
+“A”: Hướng dẫn sửa đổi
+“B”: Thay đổi khai báo xuất khẩu</item>
+	<item no="83" name="Date of customs instruction" id="D__" required="" code="">Nhập ngày/tháng/năm cán bộ hải quan thông báo tới người khai hải quan.</item>
+	<item no="84" name="Case title of customs instruction" id="T__" required="" code="">Nhập trích yếu thông báo của Hải quan.</item>
+	<item no="85" name="Content of customs instruction&#xA;" id="I__" required="" code="">Nhập nội dung thông báo của Hải quan.</item>
+	<item no="86" name="HS code&#xA;" id="CMD" required="" code="HS code">Nhập đầy đủ mã số hàng hóa quy định tại Danh mục hàng hóa xuất nhập khẩu Việt Nam và Biểu thuế xuất khẩu, nhập khẩu Việt Nam hiện hành của Bộ Tài chính.
+Lưu ý:
+(1) Không khai mặt hàng dầu thô cùng các mặt hàng khác trên một tờ khai.
+(2) Không khai các mặt hàng có số tiền thuế và tiền phí phải nộp bằng các đơn vị tiền tệ khác nhau trên cùng một tờ khai. (Ví dụ: Thuế nộp bằng “USD”, phí nộp bằng “VND”)</item>
+	<item no="87" name="Code of commodity&#xA;" id="COC" required="" code="">Nhập mã nguyên phụ liệu xuất khẩu đã đăng ký với cơ quan Hải quan.
+Lưu ý: Đây là chỉ tiêu thông tin bắt buộc khi khai mã loại hình là “E52” (Xuất sản phẩm GC cho thương nhân nước ngoài) hoặc “E56” (Xuất sản phẩm GC vào nội địa) hoặc “E62” (Xuất sản phẩm SXXK) hoặc “E42” (Xuất sản phẩm của DNCX).</item>
+	<item no="88" name="Duty rate" id="TXA" required="" code="">Hệ thống tự động xác định mức thuế suất thuế xuất khẩu tương ứng với mã số hàng. Trường hợp không tự động xác định được thuế suất, người khai hải quan có thể nhập thủ công mức thuế suất thuế xuất khẩu vào ô này.
+* Trường hợp Doanh nghiệp AEO thì không bắt buộc phải khai báo chỉ tiêu này tại thời điểm thực hiện EDA.</item>
+	<item no="89" name="Absolute tariff rate&#xA;" id="TXB" required="" code="">Nhập mức thuế tuyệt đối: 
+Hệ thống tự động xác định mức thuế tuyệt đối tương ứng với mã số hàng hóa. Trường hợp hệ thống không tự xác định, người khai hải quan có thể nhập thủ công mức thuế tuyệt đối vào ô này.</item>
+	<item no="90" name="Unit code of determination of absolute duty rate&#xA;" id="TXC" required="" code="Quantity Unit Code">Nhập mã đơn vị tính thuế tuyệt đối: 
+(1) Trường hợp đã nhập mức thuế tuyệt đối thì phải nhập mã đơn vị tính thuế tuyệt đối tương ứng với đơn vị tính thuế tuyệt đối quy định tại văn bản hiện hành. 
+(2) Mã đơn vị tính thuế tuyệt đối (tham khảo mã đơn vị tính trên website Hải quan: www.customs.gov.vn)</item>
+	<item no="91" name="Currency code of absolute duty rate" id="TXD" required="" code="Currency code (ISO4217/alphabet)">Nhập mã đồng tiền của mức thuế tuyệt đối.
+Lưu ý: Trường hợp Doanh nghiệp AEO thì không bắt buộc phải khai báo chỉ tiêu này tại thời điểm thực hiện EDA.</item>
+	<item no="92" name="Item Name&#xA;" id="CMN" required="" code="">(1) Ghi rõ tên hàng, quy cách phẩm chất, thông số kĩ thuật, thành phần cấu tạo, model, kí/mã hiệu, đặc tính, công dụng của hàng hoá theo hợp đồng thương mại và tài liệu khác liên quan đến lô hàng.
+(2) Trường hợp người khai xuất khẩu theo loại hình GC, SXXK, chế xuất thì khai tên hàng kèm mã nguyênphụ liệu, mã sản phẩm theo quy tắc: mã nguyên phụ liệu, sản phẩm#&amp;mô tả hàng hóa. Trong đó:
+- Mã nguyên phụ liệu, sản phẩm: tối đa 48 ký tự
+- Mô tả hàng hóa: tối đa 51 ký tự</item>
+	<item no="93" name="Exemption/Reduction code for Export tax" id="RE" required="" code="Exemption/Reduction 
+code for Export tax">Nhập mã miễn/giảm/không chịu thuế xuất khẩu trong trường hợp hàng hóa thuộc đối tượng miễn/giảm /không chịu thuế xuất khẩu. 
+Lưu ý:
+(1) Ngày đăng kí tờ khai hàng hóa được miễn/giảm/không 
+chịu thuế xuất khẩu là ngày còn trong thời hạn hiệu lực áp dụng.
+(2) Trường hợp thuộc đối tượng phải 
+đăng ký DMMT trên VNACCS thì phải nhập ô này và các ô tại chỉ tiêu “Danh mục miễn thuế xuất khẩu”.
+(3) Trường hợp không thuộc đối tượng phải đăng ký DMMT trên VNACCS thì không phải nhập vào các ô tại chỉ tiêu “Danh mục miễn thuế xuất khẩu”.</item>
+	<item no="94" name="Exemption/Reduction amount for Export tax" id="REG" required="" code="">Nhập số tiền giảm thuế xuất khẩu.</item>
+	<item no="95" name="Quantity (1)&#xA;&#xA;" id="QN1" required="" code="">Nhập số lượng hàng hóa xuất khẩu của từng dòng hàng theo đơn vị tính trong Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam.
+(1) Trường hợp hàng hóa chịu thuế tuyệt đối, nhập số lượng theo đơn vị tính thuế tuyệt đối theo quy định.
+(2) Có thể nhập đến 02 số sau dấu thập phân.
+(3) Trường hợp hàng hóa phải nộp phí cà phê, hồ tiêu, hạt điều, bảo hiểm cà phê, nhập số lượng theo đơn vị tính phí/bảo hiểm theo quy định.</item>
+	<item no="96" name="Quantity Unit Code (1)&#xA;" id="QT1" required="" code="Quantity Unit Code">Nhập mã đơn vị tính theo Danh mục hàng hóa xuất khẩu, nhập khẩu.
+Trường hợp hàng hóa chịu thuế tuyệt đối, nhập mã đơn vị tính thuế tuyệt đối theo quy định.</item>
+	<item no="97" name="Quantity (2)&#xA;&#xA;" id="QN2" required="" code="">Nhập trọng lượng hàng hóa xuất khẩu của từng dòng hàng.
+Có thể nhập đến 02 số sau dấu thập phân.</item>
+	<item no="98" name="Quantity Unit Code (2)&#xA;" id="QT2" required="" code="Quantity Unit Code">Nhập mã đơn vị tính.</item>
+	<item no="99" name="Invoice Value&#xA;" id="BPR" required="" code="">Nhập trị giá hóa đơn cho từng dòng hàng.
+Có thể nhập đến 04 số sau dấu thập phân.</item>
+	<item no="100" name="Customs value currency code&#xA;" id="BPC" required="" code="Currency code (ISO4217/alphabet)">(1) 
+Trường hợp hệ thống tự động phân bổ, tính toán trị giá trính thuế thì không cần nhập các ô này.
+(2) Trường hợp phân bổ, tính toán trị giá tính thuế thủ công thì nhập như sau: 
+Ô 1: Nhập mã đơn vị tiền tệ của trị giá tính thuế.
+Ô 2: Nhập trị giá tính thuế của dòng hàng
+- Trường hợp mã đơn vị tiền tệ không phải là “VND” thì có thể nhập đến 04 số sau dấu thập phân.
+- Trường hợp mã đơn vị tiền tệ là “VND” thì không được nhập số thập phân.
+(3) Hệ thống ưu tiên trị giá được nhập bằng tay.</item>
+	<item no="101" name="Customs Value" id="DPR" required="" code="">(1)Input in case of inputting the customs value calculated by hand 
+(2) In case of code of currency is other than "VND" can input 4 digits after decimal point
+(3) In case of currency is "VND" can not input any digit after decimal point</item>
+	<item no="102" name="Invoice Unit price" id="UPR" required="" code="">Nhập đơn giá hóa đơn.
+Lưu ý: đơn giá hóa đơn x số lượng = trị giá hóa đơn ± 1</item>
+	<item no="103" name="Unit price currency code&#xA;" id="UPC" required="" code="Currency code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ của đơn giá hóa đơn.</item>
+	<item no="104" name="Price quantity unit" id="TSC" required="" code="Quantity Unit Code">Nhập mã đơn vị tính số lượng của đơn giá hóa đơn.</item>
+	<item no="105" name="Corresponded line number for Tentative import export declaration" id="TDL" required="" code="">Nhập số thứ tự của dòng hàng trên tờ khai đã tạm nhập, tạm xuất tương ứng.
+Lưu ý: Số lượng của dòng hàng trên tờ khai phải ≤ số lượng còn lại trên CSDL quản lý tờ khai tạm xuất, tạm nhập tương ứng.</item>
+	<item no="106" name="Tax exemption list No." id="TXN" required="" code="">Nhập số Danh mục miễn thuế xuất khẩu đã được đăng ký vào hệ thống VNACCS.
+Lưu ý:
+(1) Danh mục miễn thuế phải trong thời hạn hiệu lực áp dụng (nếu có).
+(2) Không nhập số Danh mục miễn thuế khi Danh mục này đang được sử dụng cho tờ khai khác chưa thông quan/hoàn thành thủ tục hải quan.
+(3) Phải nhập đồng thời mã  miễn thuế xuất khẩu vào ô "mã miễn/giảm/không chịu thuế xuất khẩu".
+(4) Người xuất khẩu phải được đăng ký trong Danh mục miễn thuế.
+(5) Nếu hàng hóa xuất khẩu miễn thuế không thuộc đối tượng phải đăng ký Danh mục trên VNACCS thì không phải nhập ô  này.</item>
+	<item no="107" name="Target line number within tax exemption list" id="TXR" required="" code="">Nhập số thứ tự của dòng hàng tương ứng đã được đăng kí trong Danh mục miễn thuế.
+Lưu ý: Số lượng hàng hóa xuất khẩu trong tờ khai xuất khẩu ≤ số lượng hàng hóa còn lại trong Danh mục miễn thuế đã được đăng ký trong hệ thống VNACCS.</item>
+	<item no="108" name="Other Law code&#xA;" id="OL_" required="" code="Other Law Code&#xA;">(1) Nhập mã văn bản pháp luật về quản lý xuất khẩu, kiểm tra chuyên ngành: giấy phép xuất khẩu, kiểm dịch, an toàn thực phẩm, kiểm tra chất lượng (tham khảo mã văn bản pháp luật trên website Hải quan: www.customs.gov.vn)
+(2) Có thể nhập được tối đa 05 mã (tương ứng với 05 ô) nhưng không được trùng nhau.</item>
+</guide>

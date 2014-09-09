@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM32_EDC" jobname="CAM32_EDC" display-name="Notification of Fee statement">
+  <meta_info format_Version="1.0" revision="0000" friday="VAF8040.xml" item_attr_edit="False" />
+  <friday href="VAF8040.xml" revision="0000" />
+  <iteminfo>
+    <item id="CSM" name="Customs office name" input_output="-" required="" attribute="W" figure="210" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CBN" name="Customs Branch Name" input_output="-" required="" attribute="W" figure="210" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SPN" name="Payment statement No." input_output="-" required="" attribute="I" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IEN" name="Importer/Exporter Name" input_output="-" required="" attribute="W" figure="300" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IEC" name="Importer/Exporter Code" input_output="-" required="" attribute="A" figure="13" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="PCD" name="Postcode" input_output="-" required="" attribute="A" figure="7" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ADB" name="Address of Importer/Exporter" input_output="-" required="" attribute="W" figure="300" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TEL" name="Telephone number of Importer/Exporter" input_output="-" required="" attribute="A" figure="20" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ICN" name="Declaration No." input_output="-" required="" attribute="I" figure="12" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DDC" name="Declaration date (Efficient date)" input_output="-" required="" attribute="A" figure="8" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DKC" name="Declaration Kind Code" input_output="-" required="" attribute="A" figure="3" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BNM" name="Bank Payment Name" input_output="-" required="" attribute="W" figure="210" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BCD" name="Bank Payment Code" input_output="-" required="" attribute="A" figure="11" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BYA" name="Bank Payment Issued year" input_output="-" required="" attribute="I" figure="4" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BPS" name="Bank Payment sign" input_output="-" required="" attribute="A" figure="10" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BPN" name="Bank Payment No." input_output="-" required="" attribute="A" figure="10" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CC1" name="Fee subject name" input_output="-" required="" attribute="W" figure="27" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IM1" name="Fee should be paid" input_output="-" required="" attribute="I" figure="12" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CC2" name="Fee subject name" input_output="-" required="" attribute="W" figure="27" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IM2" name="Fee should be paid" input_output="-" required="" attribute="I" figure="12" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CC3" name="Fee subject name" input_output="-" required="" attribute="W" figure="27" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IM3" name="Fee should be paid" input_output="-" required="" attribute="I" figure="12" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CC4" name="Fee subject name" input_output="-" required="" attribute="W" figure="27" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IM4" name="Fee should be paid" input_output="-" required="" attribute="I" figure="12" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DTM" name="Total of Fee should be paid" input_output="-" required="" attribute="I" figure="12" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TAN" name="Treasury Account No." input_output="-" required="" attribute="A" figure="15" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TNM" name="Treasury Name" input_output="-" required="" attribute="W" figure="210" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DOP" name="Date of Issued Statement" input_output="-" required="" attribute="A" figure="8" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 9pt" MinOccurs="1">
+      <label Location="17, 336" Size="87, 19" Font="Tahoma, 9pt" Text="Mã ngân hàng:" />
+      <label Location="477, 639" Size="32, 19" Font="Tahoma, 9pt" Text="Ngày" />
+      <label Location="200, 106" Size="309, 25" Font="Tahoma, 12pt, style=Bold" Text="CHỨNG TỪ GHI SỐ LỆ PHÍ PHẢI THU" />
+      <label Location="112, 391" Size="26, 19" Font="Tahoma, 9pt" Text="STT" />
+      <label Location="120, 481" Size="11, 19" Font="Tahoma, 9pt" Text="4" />
+      <label Location="120, 461" Size="11, 19" Font="Tahoma, 9pt" Text="3" />
+      <label Location="120, 441" Size="11, 19" Font="Tahoma, 9pt" Text="2" />
+      <label Location="120, 421" Size="11, 19" Font="Tahoma, 9pt" Text="1" />
+      <line LineStyle="Center, Black, Solid, 1" Location="554, 381" Size="0, 146" />
+      <line LineStyle="Center, Black, Solid, 1" Location="363, 381" Size="0, 146" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 381" Size="0, 146" />
+      <line LineStyle="Center, Black, Solid, 1" Location="141, 381" Size="0, 146" />
+      <label Location="419, 400" Size="87, 19" Font="Tahoma, 9pt" Text="phải thu (VND)" />
+      <label Location="443, 382" Size="38, 19" Font="Tahoma, 9pt" Text="Lệ phí" />
+      <label Location="165, 505" Size="69, 19" Font="Tahoma, 9pt, style=Bold, Italic" Text="Tổng cộng" />
+      <label Location="228, 392" Size="54, 19" Font="Tahoma, 9pt" Text="Nội dung" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 526" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 500" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 479" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 459" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 439" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 419" Size="446, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="108, 381" Size="446, 0" />
+      <label Location="474, 679" Size="152, 19" Font="Tahoma, 9pt, style=Italic" Text="(Ký, ghi rõ họ tên chức vụ)" />
+      <label Location="546, 586" Size="119, 19" Font="Tahoma, 9pt" Text="trước khi thông quan" />
+      <label Location="17, 605" Size="59, 19" Font="Tahoma, 9pt" Text="hàng hóa." />
+      <label Location="477, 660" Size="147, 19" Font="Tahoma, 9pt, style=Bold" Text="NGƯỜI LẬP CHỨNG TỪ" />
+      <label Location="34, 995" Size="174, 18" Font="Tahoma, 8.25pt" Text="- Lưu: VT, đơn vị soạn thảo (...b)." />
+      <label Location="34, 974" Size="71, 18" Font="Tahoma, 8.25pt" Text="- Cục HQ.....;" />
+      <label Location="36, 955" Size="89, 18" Font="Tahoma, 8.25pt" Text="- Người khai HQ;" />
+      <label Location="34, 931" Size="65, 19" Font="Tahoma, 9pt, style=Bold, Italic" Text="Nơi nhận:" />
+      <label Location="410, 566" Size="122, 19" Font="Tahoma, 9pt" Text="tại Kho bạc Nhà nước" />
+      <label Location="52, 594" Size="0, 21" Font="Tahoma, 11pt" />
+      <label Location="17, 566" Size="267, 19" Font="Tahoma, 9pt" Text="làm thủ tục Hải quan hoặc nộp vào tài khoản số" />
+      <label Location="17, 284" Size="118, 19" Font="Tahoma, 9pt" Text="Tờ khai Hải quan số:" />
+      <label Location="17, 212" Size="83, 19" Font="Tahoma, 9pt" Text="Mã bưu chính:" />
+      <label Location="17, 228" Size="50, 19" Font="Tahoma, 9pt" Text="Địa chỉ: " />
+      <label Location="17, 195" Size="73, 19" Font="Tahoma, 9pt" Text="Mã số thuế: " />
+      <label Location="17, 162" Size="138, 19" Font="Tahoma, 9pt" Text="Đơn vị xuất/nhập khẩu: " />
+      <label Location="119, 72" Size="41, 19" Font="Tahoma, 9pt" Text="/CT-LP" />
+      <label Location="3, 72" Size="26, 19" Font="Tahoma, 9pt" Text="Số: " />
+      <line LineStyle="Center, Black, Solid, 1" Location="288, 134" Size="126, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="484, 46" Size="126, 0" />
+      <label Location="465, 24" Size="161, 19" Font="Tahoma, 9pt" Text="Độc lập - Tự do - Hạnh phúc" />
+      <label Location="418, 6" Size="237, 19" Font="Tahoma, 9pt" Text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" />
+      <label Location="3, 5" Size="81, 19" Font="Tahoma, 9pt" Text="CQ HẢI QUAN" />
+      <label Location="17, 264" Size="84, 19" Font="Tahoma, 9pt" Text="Số điện thoại: " />
+      <label Location="398, 284" Size="125, 19" Font="Tahoma, 9pt" Text="Ngày đăng ký tờ khai:" />
+      <prttextbox Format="" Location="165, 286" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="ICN" input_output="-" name="Declaration No." order="9" required="" />
+      <prttextbox Format="" Location="28, 74" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="SPN" input_output="-" name="Payment statement No." order="3" required="" />
+      <prttextbox Format="" Multiline="True" Location="165, 164" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="IEN" input_output="-" name="Importer/Exporter Name" order="4" required="" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="165, 197" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="IEC" input_output="-" name="Importer/Exporter Code" order="5" required="" />
+      <prttextbox Format="" Location="165, 214" Size="59, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="PCD" input_output="-" name="Postcode" order="6" required="" />
+      <prttextbox Format="" Multiline="True" Location="165, 230" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="ADB" input_output="-" name="Address of Importer/Exporter" order="7" required="" />
+      <prttextbox Format="" Location="165, 266" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="TEL" input_output="-" name="Telephone number of Importer/Exporter" order="8" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="529, 286" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DDC" input_output="-" name="Declaration date (Efficient date)" order="10" required="" />
+      <prttextbox Format="" Location="286, 568" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="TAN" input_output="-" name="Treasury Account No." order="26" required="" />
+      <prttextbox Format="" Location="19, 588" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="TNM" input_output="-" name="Treasury Name" order="27" required="" />
+      <prttextbox Format="" Multiline="True" Location="97, 7" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="CSM" input_output="-" name="Customs office name" order="1" required="" />
+      <label Location="17, 300" Size="75, 19" Font="Tahoma, 9pt" Text="Mã loại hình:" />
+      <prttextbox Format="" Location="165, 302" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="DKC" input_output="-" name="Declaration Kind Code" order="11" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="510, 641" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt, style=Italic" TextAlign="Center" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DOP" input_output="-" name="Date of Issued Statement" order="28" required="" />
+      <prttextbox Format="" Location="165, 322" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="BNM" input_output="-" name="Bank Payment Name" order="12" required="" />
+      <label Location="17, 320" Size="115, 19" Font="Tahoma, 9pt" Text="Ngân hàng trả thay:" />
+      <prttextbox Format="" Location="165, 338" Size="89, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="11" form="" id="BCD" input_output="-" name="Bank Payment Code" order="13" required="" />
+      <prttextbox Format="" Location="252, 355" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="BPN" input_output="-" name="Bank Payment No." order="16" required="" />
+      <label Location="17, 353" Size="127, 19" Font="Tahoma, 9pt" Text="Số chứng từ hạn mức:" />
+      <prttextbox Format="" Location="165, 355" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="BPS" input_output="-" name="Bank Payment sign" order="15" required="" />
+      <prttextbox Format="" Location="165, 423" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="27" form="" id="CC1" input_output="-" name="Fee subject name" order="17" required="" />
+      <label Location="39, 547" Size="614, 19" Font="Tahoma, 9pt" Text="Đơn vị/ngân hàng có trách nhiệm nộp đủ số tiền lệ phí phải nộp tại bộ phận thu thuế của cơ quan Hải quan nơi" />
+      <prttextbox Format="" Location="165, 443" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="27" form="" id="CC2" input_output="-" name="Fee subject name" order="19" required="" />
+      <prttextbox Format="" Location="165, 463" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="27" form="" id="CC3" input_output="-" name="Fee subject name" order="21" required="" />
+      <prttextbox Format="" Location="165, 483" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="27" form="" id="CC4" input_output="-" name="Fee subject name" order="23" required="" />
+      <prttextbox Format="##,###,###,###" Location="401, 507" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="DTM" input_output="-" name="Total of Fee should be paid" order="25" required="" />
+      <prttextbox Format="##,###,###,###" Location="401, 423" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="IM1" input_output="-" name="Fee should be paid" order="18" required="" />
+      <prttextbox Format="##,###,###,###" Location="401, 443" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="IM2" input_output="-" name="Fee should be paid" order="20" required="" />
+      <prttextbox Format="##,###,###,###" Location="401, 463" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="IM3" input_output="-" name="Fee should be paid" order="22" required="" />
+      <prttextbox Format="##,###,###,###" Location="401, 483" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="IM4" input_output="-" name="Fee should be paid" order="24" required="" />
+      <label Location="3, 37" Size="73, 19" Font="Tahoma, 9pt" Text="CHI CỤC HQ" />
+      <prttextbox Format="" Multiline="True" Location="97, 39" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="210" form="" id="CBN" input_output="-" name="Customs Branch Name" order="2" required="" />
+      <label Location="378, 336" Size="145, 19" Font="Tahoma, 9pt" Text="Năm phát hành hạn mức:" />
+      <prttextbox Format="" Location="529, 338" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="BYA" input_output="-" name="Bank Payment Issued year" order="14" required="" />
+    </page>
+  </layout>
+</jobform>

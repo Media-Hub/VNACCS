@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="SYS" name="">
+  <response code="A0001" name="Service code" id="0000">
+    <description>Nghiệp vụ đã nhập không tồn tại trong bảng Mã nghiệp vụ hoặc chương trình nghiệp vụ này không tồn tại.</description>
+    <disposition>Nhập mã nghiệp vụ chính xác.</disposition>
+  </response>
+  <response code="A0002" name="Service code" id="0000">
+    <description>Nghiệp vụ này hiện đang bị hạn chế.</description>
+    <disposition>Chờ đến khi nghiệp vụ được hủy bỏ hạn chế.</disposition>
+  </response>
+  <response code="A0003" name="User code" id="0000">
+    <description>Mã người sử dụng không hợp lệ.</description>
+    <disposition>Nhập mã người sử dụng chính xác .</disposition>
+  </response>
+  <response code="A0004" name="Password" id="0000">
+    <description>Mật khẩu không hợp lệ.</description>
+    <disposition>Nhập mật khẩu chính xác.</disposition>
+  </response>
+  <response code="A0005" name="User code /ID number" id="0000">
+    <description>Mã người sử dụng/Số ID không tồn tại.</description>
+    <disposition>Nhập mã người sử dụng/số ID chính xác.</disposition>
+  </response>
+  <response code="A0006" name="None" id="0000">
+    <description>Nghiệp vụ vẫn chưa được khởi động.</description>
+    <disposition>Chờ đến khi nghiệp vụ khởi động.</disposition>
+  </response>
+  <response code="A0007" name="None" id="0000">
+    <description>Xử lý kết thúc bất thường tại trung tâm.</description>
+    <disposition>Thông báo cho Hải quan Việt Nam.</disposition>
+  </response>
+  <response code="A0008" name="None" id="0000">
+    <description>Độ dài thông điệp không hợp lệ.</description>
+    <disposition>Điều tra nguyên nhân.</disposition>
+  </response>
+  <response code="A0009" name="None" id="0000">
+    <description>Có ký tự không hợp lệ trong phần tiêu đề của thông điệp.</description>
+    <disposition>Điều tra nguyên nhân.</disposition>
+  </response>
+  <response code="A0010" name="None" id="0000">
+    <description>Nghiệp vụ hiện tại đang bị đóng.</description>
+    <disposition>Chờ đến khi nghiệp vụ khởi động.</disposition>
+  </response>
+  <response code="A0011" name="None" id="0000">
+    <description>Trung tâm đang bận.</description>
+    <disposition>Chờ trong giây lát và gửi lại.</disposition>
+  </response>
+  <response code="A0012" name="User code /ID number" id="0000">
+    <description>Không có quyền thực hiện nghiệp vụ này.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="A0013" name="None" id="0000">
+    <description>Thông tin người sử dụng không khớp với thông tin phần tiêu đề của thông điệp (mục nhập liệu chung).</description>
+    <disposition>Thông báo cho Hải quan Việt Nam.</disposition>
+  </response>
+  <response code="A0014" name="None" id="0000">
+    <description>Người sử dụng này bị cấm sử dụng hệ thống.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="A0015" name="None" id="0000">
+    <description>Nghiệp vụ hiện tại đang trong "Khoảng thời gian hạn chế thực hiện nghiệp vụ"</description>
+    <disposition>Chờ đến khi kết thúc Khoảng thời gian hạn chế thực hiện nghiệp vụ.</disposition>
+  </response>
+  <response code="A0016" name="None" id="0000">
+    <description>Định dạng của tiêu đề thông điệp (mục nhập liệu chung) không hợp lệ. Có ký tự không hợp lệ trong phần tiêu đề của thông điệp.  Có "" (Khoảng trắng) trong "System ID" của tiêu đề thông điệp (mục nhập liệu chung).</description>
+    <disposition>Tạo thông điệp với phần tiêu đề thông điệp (mục nhập liệu chung) chính xác và gửi.</disposition>
+  </response>
+  <response code="A0017" name="None" id="0000">
+    <description>Định dạng của tiêu đề giao thức hoặc thông điệp không hợp lệ.</description>
+    <disposition>Tạo thông điệp với định dạng của phần tiêu đề giao thức và thông điệp chính xác rồi gửi.</disposition>
+  </response>
+  <response code="A0018" name="Access key" id="0000">
+    <description>Khóa truy cập không hợp lệ trong phương thức xử lý tương tác.</description>
+    <disposition>Nhập giá trị chính xác.</disposition>
+  </response>
+  <response code="A0019" name="Terminal name" id="0000">
+    <description>Tên thiết bị đầu cuối không hợp lệ.</description>
+    <disposition>Nhập tên thiết bị đầu cuối chính xác.</disposition>
+  </response>
+  <response code="A0020" name="acquisition key for the attached file" id="0000">
+    <description>Tập tin đính kèm đã chỉ định không tồn tại khi xử lý lấy tập tin đính kèm.</description>
+    <disposition>Nhập chính xác khóa lấy tập tin cho tập tin đính kèm.</disposition>
+  </response>
+  <response code="A0021" name="acquisition key for the attached file" id="0000">
+    <description>Không có quyền lấy tập tin đính kèm chỉ định.</description>
+    <disposition>Nhập chính xác khóa lấy tập tin cho tập tin đính kèm.</disposition>
+  </response>
+  <response code="A0022" name="None" id="0000">
+    <description>Nội dung của thông điệp định dạng XML không hợp lệ.</description>
+    <disposition>Nhập thông điệp định dạng XML chính xác.</disposition>
+  </response>
+  <response code="A0023" name="None" id="0000">
+    <description>Nghiệp vụ ứng dụng dịch XML hiện tại không hoạt động.</description>
+    <disposition>Chờ trong giây lát và gửi lại.</disposition>
+  </response>
+  <response code="A0034" name="None" id="0000">
+    <description>Xuất hiện lỗi trong Quá trình xử lý Chứng thực chữ ký điện tử.</description>
+    <disposition>Kiểm tra thông điệp đã gửi.</disposition>
+  </response>
+  <response code="A0035" name="None" id="0000">
+    <description>Tên CA đăng ký cho thiết bị đầu cuối không khớp với tên CA đăng ký trong hệ thống.</description>
+    <disposition>Chọn Giấy chứng nhận chính xác.</disposition>
+  </response>
+  <response code="A0036" name="None" id="0000">
+    <description>Serial ID đăng ký cho thiết bị đầu cuối không khớp với Serial ID đăng ký trong hệ thống.</description>
+    <disposition>Chọn Giấy chứng nhận chính xác.</disposition>
+  </response>
+  <response code="A0070" name="None" id="0000">
+    <description>Đang lấy thông điệp đầu ra (để báo cáo) đã lưu trong thiết bị đầu cuối tương ứng.</description>
+    <disposition>Chờ trong giây lát để lấy thông điệp báo cáo.</disposition>
+  </response>
+  <response code="A0071" name="None" id="0000">
+    <description>Thông điệp đầu ra (để báo cáo) cho thiết bị đầu cuối tương ứng chưa được lưu.</description>
+    <disposition>Chờ trong giây lát để lấy thông điệp báo cáo.</disposition>
+  </response>
+</help>

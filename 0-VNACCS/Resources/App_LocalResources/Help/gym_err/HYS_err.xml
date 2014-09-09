@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="HYS" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện dịch vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Customs Office" id="CH">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cơ quan hải quan.</disposition>
+  </response>
+  <response code="S0002" name="Customs Office" id="CH">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Customs Sub-section" id="CHB">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0004" name="Application procedure type" id="TSB">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại thủ tục khai báo.</disposition>
+  </response>
+  <response code="S0005" name="Application procedure type" id="TSB">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Applicant telephone number" id="STL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0007" name="Enterprise internal control number" id="REF">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0008" name="Remarks" id="KIJ">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0999" name="Remarks" id="KIJ">
+    <description>Nhập liệu quá độ dài cho phép.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0004" name="None" id="0000">
+    <description>Không có tập tin đính kèm.</description>
+    <disposition>Đính kèm tập tin và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="E0005" name="Customs Office&#xA;Application procedure type" id="CH&#xA;TSB">
+    <description>Thủ tục hải quan đã thực hiện  không được chấp nhận tại cơ quan Hải quan đã chỉ định.</description>
+    <disposition>Kiểm tra nội dung nhập của cơ quan Hải quan, nhập cơ quan Hải quan nơi có thể chấp nhận tờ khai.</disposition>
+  </response>
+  <response code="E0006" name="None&#xA;Customs Office&#xA;Application procedure type" id="0000&#xA;CH&#xA;TSB">
+    <description>Thủ tục hải quan đã thực hiện  không được chấp nhận tại cơ quan Hải quan đã chỉ định.</description>
+    <disposition>Kiểm tra nội dung nhập của cơ quan Hải quan, nhập cơ quan Hải quan nơi có thể chấp nhận tờ khai.</disposition>
+  </response>
+  <response code="E0007" name="Application procedure type" id="TSB">
+    <description>Phân loại thủ tục khai báo đã nhập đã bị hủy bỏ.</description>
+    <disposition>Kiểm tra nội dung nhập của Phân loại thủ tục khai báo.</disposition>
+  </response>
+  <response code="E0008" name="None" id="0000">
+    <description>Xảy ra lỗi trong quá trình đăng ký các tập tin đính kèm trong hệ thống.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ này.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

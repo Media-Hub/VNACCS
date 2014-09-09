@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_RIR" jobname="Registration of arrival notification C" display-name="RIR Registration of arrival notification C">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA2410_1.xml" item_attr_edit="True" />
+  <friday href="VAA2410_1.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Processing type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="9,Registration,5,Correction,1,Cancellation" out_flg="1" in_flg="1" />
+    <item id="INN" name="Arrival notification number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="NNU" name="Submission to Immigration Bureau" input_output="+" required="C" attribute="A" figure="1" form="0" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="KIU" name="Submission to Quarantine station" input_output="+" required="C" attribute="A" figure="1" form="0" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="HNU" name="Submission to Railway station authority" input_output="+" required="C" attribute="A" figure="1" form="0" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+  </iteminfo>
+  <layout UseDefaultSize="True" Size="718, 110">
+    <combobox DropDownWidth="138" TabIndex="108" Size="36, 22" Location="124, 19" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="9,Registration&#xD;&#xA;5,Correction&#xD;&#xA;1,Cancellation&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Processing type" check_attribute="*" attribute="A" id="MDC" figure="1" required="M" />
+    <checkbox TabIndex="116" Size="147, 18" AutoSize="True" Location="373, 73" Text="Cảng vụ ga đường sắt" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" name="Submission to Railway station authority" check_attribute="*" check_date="" id="HNU" figure="1" required="C" />
+    <label Size="91, 19" Location="22, 20" Text="Phân loại xử lý*" Font="Tahoma, 9pt" />
+    <checkbox TabIndex="114" Size="126, 18" AutoSize="True" Location="223, 73" Text="Cơ quan kiểm dịch" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" name="Submission to Quarantine station" check_attribute="*" check_date="" id="KIU" figure="1" required="C" />
+    <label Size="138, 19" Location="232, 20" Text="Số thông báo nhập cảnh" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="110" Size="97, 21" Location="387, 19" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="C" />
+    <label Size="49, 19" Location="22, 51" Text="Nộp cho" Font="Tahoma, 9pt" />
+    <checkbox TabIndex="112" Size="150, 18" AutoSize="True" Location="67, 73" Text="Cục quản lý nhập cảnh" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="A" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" name="Submission to Immigration Bureau" check_attribute="*" check_date="" id="NNU" figure="1" required="C" />
+  </layout>
+</jobform>

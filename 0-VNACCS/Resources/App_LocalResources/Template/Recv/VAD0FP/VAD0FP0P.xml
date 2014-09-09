@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM31_IID" jobname="CAM31_IID" display-name="IID Reference of import declaration">
+  <meta_info format_Version="1.0" revision="0000" friday="VAD0FP0.xml" item_attr_edit="False" />
+  <friday href="VAD0FP0.xml" revision="0000" />
+  <iteminfo>
+    <item id="ICN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="A02" name="Classification of Individual/Organization" input_output="-" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Inspection Kind Classification Code" input_output="-" required="C" attribute="A" figure="3" form="" order="4" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Customs Office Name" input_output="-" required="C" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Customs Sub-section" input_output="-" required="C" attribute="A" figure="2" form="" order="6" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Registered date" input_output="-" required="C" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD1" name="Registered time" input_output="-" required="C" attribute="A" figure="6" form="" order="8" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD2" name="Registered date of Correction" input_output="-" required="C" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD3" name="Registered time of Correction" input_output="-" required="C" attribute="A" figure="6" form="" order="10" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Importer Code" input_output="-" required="C" attribute="A" figure="13" form="" order="11" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A11" name="Importer Name" input_output="-" required="C" attribute="W" figure="300" form="" order="12" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Postcode" input_output="-" required="C" attribute="A" figure="7" form="" order="13" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A13" name="Address of Importer" input_output="-" required="C" attribute="W" figure="300" form="" order="14" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A18" name="Telephone number of Importer" input_output="-" required="C" attribute="A" figure="20" form="" order="15" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A19" name="Consignor code" input_output="-" required="C" attribute="A" figure="13" form="" order="16" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A20" name="Consignor name" input_output="-" required="C" attribute="A" figure="70" form="" order="17" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A21" name="Postcode identification" input_output="-" required="C" attribute="A" figure="9" form="" order="18" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A22" name="Address 1 (Street and number/P.O.BOX)" input_output="-" required="C" attribute="A" figure="35" form="" order="19" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A23" name="Address 2 (Street and number/P.O.BOX)" input_output="-" required="C" attribute="A" figure="35" form="" order="20" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A24" name="Address 3(City name)" input_output="-" required="C" attribute="A" figure="35" form="" order="21" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A25" name="Address 4(Country sub-entity, name)" input_output="-" required="C" attribute="A" figure="35" form="" order="22" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A26" name="Country Code(Country, coded)" input_output="-" required="C" attribute="A" figure="2" form="" order="23" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A28" name="Agent Code" input_output="-" required="C" attribute="A" figure="5" form="" order="24" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A29" name="Agent Name" input_output="-" required="C" attribute="A" figure="50" form="" order="25" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A30" name="Customs Broker Code" input_output="-" required="C" attribute="A" figure="5" form="" order="26" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A31" name="House AWB No." input_output="-" required="C" attribute="A" figure="20" form="" order="27" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A32" name="Master AWB No." input_output="-" required="C" attribute="A" figure="20" form="" order="28" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A33" name="Unloading port code" input_output="-" required="C" attribute="A" figure="5" form="" order="29" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A34" name="Unloading port name" input_output="-" required="C" attribute="A" figure="20" form="" order="30" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A35" name="Loading location code" input_output="-" required="C" attribute="A" figure="5" form="" order="31" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A36" name="Loading location name" input_output="-" required="C" attribute="A" figure="20" form="" order="32" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A37" name="Flight number" input_output="-" required="C" attribute="A" figure="12" form="" order="33" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A38" name="Arrival date" input_output="-" required="C" attribute="A" figure="8" form="" order="34" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A39" name="Cargo Piece" input_output="-" required="C" attribute="I" figure="6" form="" order="35" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A40" name="Cargo Weight (Gross)" input_output="-" required="C" attribute="F" figure="8" form="" order="36" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A41" name="Customs Warehouse Code" input_output="-" required="C" attribute="A" figure="7" form="" order="37" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A42" name="Customs Clearance Warehouse Name" input_output="-" required="C" attribute="A" figure="20" form="" order="38" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KA1" name="Currency Code" input_output="-" required="C" attribute="A" figure="3" form="" order="39" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KB1" name="Currency Exchange Rate " input_output="-" required="C" attribute="F" figure="9" form="" order="40" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KA2" name="Currency Code" input_output="-" required="C" attribute="A" figure="3" form="" order="41" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KB2" name="Currency Exchange Rate " input_output="-" required="C" attribute="F" figure="9" form="" order="42" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KA3" name="Currency Code" input_output="-" required="C" attribute="A" figure="3" form="" order="43" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="KB3" name="Currency Exchange Rate " input_output="-" required="C" attribute="F" figure="9" form="" order="44" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A43" name="Invoice Price Kind Code" input_output="-" required="C" attribute="A" figure="1" form="" order="45" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A44" name="Invoice price condition code" input_output="-" required="C" attribute="A" figure="3" form="" order="46" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A45" name="Invoice Currency Code" input_output="-" required="C" attribute="A" figure="3" form="" order="47" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A46" name="Total Invoice Price" input_output="-" required="C" attribute="F" figure="20" form="" order="48" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A47" name="Freight demarcation code" input_output="-" required="C" attribute="A" figure="1" form="" order="49" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A48" name="Freight currency code" input_output="-" required="C" attribute="A" figure="3" form="" order="50" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A49" name="Freight" input_output="-" required="C" attribute="F" figure="18" form="" order="51" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A50" name="Insurance demarcation code" input_output="-" required="C" attribute="A" figure="1" form="" order="52" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A51" name="Insurance currency code" input_output="-" required="C" attribute="A" figure="3" form="" order="53" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A52" name="Insurance amount" input_output="-" required="C" attribute="F" figure="16" form="" order="54" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A59" name="Item Name" input_output="-" required="C" attribute="W" figure="600" form="" order="55" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A60" name="Customs value" input_output="-" required="C" attribute="F" figure="8" form="" order="56" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A61" name="Input classification of Customs value" input_output="-" required="C" attribute="A" figure="1" form="" order="57" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A62" name="Place of origin code" input_output="-" required="C" attribute="A" figure="2" form="" order="58" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A63" name="Original place name" input_output="-" required="C" attribute="A" figure="7" form="" order="59" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A64" name="Notes" input_output="-" required="C" attribute="W" figure="300" form="" order="60" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A65" name="Enterprise internal control number" input_output="-" required="C" attribute="A" figure="20" form="" order="61" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A53" name="Date of permit" input_output="-" required="C" attribute="A" figure="8" form="" order="62" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD4" name="Time of permit" input_output="-" required="C" attribute="A" figure="6" form="" order="63" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A54" name="Date of completion of inspection" input_output="-" required="C" attribute="A" figure="8" form="" order="64" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD5" name="Time of completion of inspection" input_output="-" required="C" attribute="A" figure="6" form="" order="65" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A55" name="Classification of post inspection" input_output="-" required="C" attribute="A" figure="2" form="" order="66" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A57" name="Date of Import declaration cancellation" input_output="-" required="C" attribute="A" figure="8" form="" order="67" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD6" name="Time of Import declaration cancellation" input_output="-" required="C" attribute="A" figure="6" form="" order="68" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A58" name="Date of transfer to manual processing of Import declaration" input_output="-" required="C" attribute="A" figure="8" form="" order="69" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="AD7" name="Time of transfer to manual processing of Import declaration" input_output="-" required="C" attribute="A" figure="6" form="" order="70" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 9pt" MinOccurs="1">
+      <container type="TitlePanel" Location="461, 902" Size="17, 8" Font="Tahoma, 11pt" RepX="1" SpaceX="0" />
+      <label Location="106, 712" Size="29, 19" Font="Tahoma, 9pt" Text="VND" />
+      <label AutoSize="False" Location="5, 554" Size="98, 14" Font="Tahoma, 9pt" Text="Tỷ giá tính thuế" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 395" Size="718, 0" />
+      <label AutoSize="False" Location="42, 320" Size="79, 14" Font="Tahoma, 9pt" Text="Mã bưu chính" />
+      <label AutoSize="False" Location="42, 303" Size="25, 14" Font="Tahoma, 9pt" Text="Tên" />
+      <label AutoSize="False" Location="42, 287" Size="21, 14" Font="Tahoma, 9pt" Text="Mã" />
+      <line LineStyle="Center, Black, Solid, 1" Location="1, 264" Size="717, 0" />
+      <label AutoSize="False" Location="42, 195" Size="79, 14" Font="Tahoma, 9pt" Text="Mã bưu chính" />
+      <label AutoSize="False" Location="42, 163" Size="25, 14" Font="Tahoma, 9pt" Text="Tên" />
+      <label AutoSize="False" Location="3, 130" Size="98, 14" Font="Tahoma, 9pt" Text="Người nhập khẩu" />
+      <label AutoSize="False" Location="6, 768" Size="210, 14" Font="Tahoma, 9pt" Text="Số quản lý của nội bộ doanh nghiệp" />
+      <label AutoSize="False" Location="679, 471" Size="35, 14" Font="Tahoma, 9pt" Text="KGM" />
+      <label AutoSize="False" Location="569, 455" Size="23, 14" Font="Tahoma, 9pt" Text="Gói" />
+      <label AutoSize="False" Location="4, 69" Size="153, 14" Font="Tahoma, 9pt" Text="Phân loại cá nhân/tổ chức" />
+      <label AutoSize="False" Location="233, 715" Size="11, 14" Font="Tahoma, 9pt" Text="[" />
+      <label AutoSize="False" Location="6, 715" Size="97, 14" Font="Tahoma, 9pt" Text="Trị giá tính thuế" />
+      <prttextbox Format="###,###" Location="140, 715" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A60" input_output="-" name="Customs value" order="56" required="C" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 657" Size="718, 0" />
+      <pagelabel Location="0, 15" Size="718, 31" Font="Tahoma, 12pt, style=Bold" Text="Quyết định thông quan hàng hóa nhập khẩu (hàng trị giá thấp miễn thuế)" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 126" Size="718, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 425" Size="718, 0" />
+      <prttextbox Format="" Multiline="True" Location="126, 165" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A11" input_output="-" name="Importer Name" order="12" required="C" />
+      <prttextbox Format="###,###.###" Location="151, 554" Size="89, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="KB1" input_output="-" name="Currency Exchange Rate " order="40" required="C" />
+      <label AutoSize="False" Location="139, 555" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="109, 554" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="KA1" input_output="-" name="Currency Code" order="39" required="C" />
+      <label AutoSize="False" Location="175, 69" Size="12, 14" Font="Tahoma, 9pt" Text="]" />
+      <label AutoSize="False" Location="156, 69" Size="12, 14" Font="Tahoma, 9pt" Text="[" />
+      <prttextbox Format="" Location="219, 768" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A65" input_output="-" name="Enterprise internal control number" order="61" required="C" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 796" Size="717, 0" />
+      <prttextbox Format="###,###,###" Location="251, 634" Size="163, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="16" form="" id="A52" input_output="-" name="Insurance amount" order="54" required="C" />
+      <prttextbox Format="AAA-AAAAAAAAAAAAAAAAA" Location="148, 455" Size="163, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A32" input_output="-" name="Master AWB No." order="28" required="C" />
+      <prttextbox Format="AAA-AAAAAAAAAAAAAAAAA" Location="148, 439" Size="163, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A31" input_output="-" name="House AWB No." order="27" required="C" />
+      <label AutoSize="False" Location="42, 245" Size="61, 14" Font="Tahoma, 9pt" Text="Điện thoại" />
+      <prttextbox Format="" Location="126, 373" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A26" input_output="-" name="Country Code(Country, coded)" order="23" required="C" />
+      <label AutoSize="False" Location="42, 374" Size="54, 14" Font="Tahoma, 9pt" Text="Mã nước" />
+      <label AutoSize="False" Location="4, 440" Size="91, 14" Font="Tahoma, 9pt" Text="Số House AWB" />
+      <label AutoSize="False" Location="4, 456" Size="91, 14" Font="Tahoma, 9pt" Text="Số Master AWB" />
+      <label AutoSize="False" Location="4, 472" Size="102, 14" Font="Tahoma, 9pt" Text="Địa điểm dỡ hàng" />
+      <label AutoSize="False" Location="4, 488" Size="116, 14" Font="Tahoma, 9pt" Text="Địa điểm xếp hàng" />
+      <label AutoSize="False" Location="4, 504" Size="136, 14" Font="Tahoma, 9pt" Text="Tên máy bay chở hàng" />
+      <label AutoSize="False" Location="4, 520" Size="97, 14" Font="Tahoma, 9pt" Text="Ngày hàng đến" />
+      <label AutoSize="False" Location="395, 455" Size="53, 14" Font="Tahoma, 9pt" Text="Số lượng" />
+      <label AutoSize="False" Location="395, 471" Size="175, 14" Font="Tahoma, 9pt" Text="Tổng trọng lượng hàng (Gross)" />
+      <label AutoSize="False" Location="5, 634" Size="90, 14" Font="Tahoma, 9pt" Text="Phí bảo hiểm" />
+      <label AutoSize="False" Location="5, 618" Size="98, 14" Font="Tahoma, 9pt" Text="Phí vận chuyển" />
+      <label AutoSize="False" Location="5, 602" Size="90, 14" Font="Tahoma, 9pt" Text="Trị giá hóa đơn" />
+      <prttextbox Format="" Location="126, 197" Size="59, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="A12" input_output="-" name="Postcode" order="13" required="C" />
+      <prttextbox Format="" Multiline="True" Location="106, 734" Size="357, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A64" input_output="-" name="Notes" order="60" required="C" />
+      <label AutoSize="False" Location="6, 734" Size="75, 12" Font="Tahoma, 9pt" Text="Phần ghi chú" />
+      <label AutoSize="False" Location="371, 69" Size="248, 14" Font="Tahoma, 9pt" Text="Phân loại kiểm tra tài liệu/kiểm tra hàng hóa" />
+      <prttextbox Format="AA A" Location="626, 69" Size="37, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A03" input_output="-" name="Inspection Kind Classification Code" order="4" required="C" />
+      <label AutoSize="False" Location="2, 86" Size="232, 14" Font="Tahoma, 9pt" Text="Tên cơ quan Hải quan tiếp nhận tờ khai" />
+      <prttextbox Format="" Location="235, 86" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="A04" input_output="-" name="Customs Office Name" order="5" required="C" />
+      <label AutoSize="False" Location="371, 86" Size="147, 14" Font="Tahoma, 9pt" Text="Mã bộ phận xử lý tờ khai" />
+      <prttextbox Format="" Location="626, 86" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A05" input_output="-" name="Customs Sub-section" order="6" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="125, 106" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A06" input_output="-" name="Registered date" order="7" required="C" />
+      <label AutoSize="False" Location="3, 106" Size="86, 14" Font="Tahoma, 9pt" Text="Ngày đăng ký" />
+      <label AutoSize="False" Location="3, 51" Size="74, 14" Font="Tahoma, 9pt" Text="Số tờ khai" />
+      <prttextbox Format="" Location="125, 51" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="ICN" input_output="+" name="Declaration No." order="2" required="M" />
+      <label AutoSize="False" Location="139, 585" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <label AutoSize="False" Location="42, 149" Size="22, 14" Font="Tahoma, 9pt" Text="Mã" />
+      <prttextbox Format="AAAAAAAAAA-AAAA" Location="126, 149" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A10" input_output="-" name="Importer Code" order="11" required="C" />
+      <label AutoSize="False" Location="224, 715" Size="11, 14" Font="Tahoma, 9pt" Text="-" />
+      <label AutoSize="False" Location="139, 570" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <label AutoSize="False" Location="42, 213" Size="42, 14" Font="Tahoma, 9pt" Text="Địa chỉ" />
+      <prttextbox Format="" Location="126, 322" Size="74, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="A21" input_output="-" name="Postcode identification" order="18" required="C" />
+      <prttextbox Format="" Location="126, 245" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A18" input_output="-" name="Telephone number of Importer" order="15" required="C" />
+      <label AutoSize="False" Location="3, 273" Size="100, 14" Font="Tahoma, 9pt" Text="Người xuất khẩu" />
+      <prttextbox Format="AAAAAAAAAA-AAAA" Location="126, 289" Size="118, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="A19" input_output="-" name="Consignor code" order="16" required="C" />
+      <prttextbox Format="" Location="126, 305" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="A20" input_output="-" name="Consignor name" order="17" required="C" />
+      <label AutoSize="False" Location="42, 340" Size="45, 14" Font="Tahoma, 9pt" Text="Địa chỉ" />
+      <prttextbox Format="" Location="401, 339" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A23" input_output="-" name="Address 2 (Street and number/P.O.BOX)" order="20" required="C" />
+      <prttextbox Format="" Location="126, 339" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A22" input_output="-" name="Address 1 (Street and number/P.O.BOX)" order="19" required="C" />
+      <prttextbox Format="" Location="125, 355" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A24" input_output="-" name="Address 3(City name)" order="21" required="C" />
+      <prttextbox Format="" Location="401, 355" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A25" input_output="-" name="Address 4(Country sub-entity, name)" order="22" required="C" />
+      <label AutoSize="False" Location="6, 405" Size="90, 14" Font="Tahoma, 9pt" Text="Đại lý Hải quan" />
+      <prttextbox Format="" Location="105, 405" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A28" input_output="-" name="Agent Code" order="24" required="C" />
+      <prttextbox Format="" Location="155, 405" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A29" input_output="-" name="Agent Name" order="25" required="C" />
+      <label AutoSize="False" Location="538, 405" Size="130, 14" Font="Tahoma, 9pt" Text="Mã nhân viên Hải quan" />
+      <prttextbox Format="" Location="672, 405" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A30" input_output="-" name="Customs Broker Code" order="26" required="C" />
+      <prttextbox Format="" Location="148, 471" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A33" input_output="-" name="Unloading port code" order="29" required="C" />
+      <prttextbox Format="" Location="201, 471" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A34" input_output="-" name="Unloading port name" order="30" required="C" />
+      <prttextbox Format="" Location="148, 488" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A35" input_output="-" name="Loading location code" order="31" required="C" />
+      <prttextbox Format="" Location="201, 488" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A36" input_output="-" name="Loading location name" order="32" required="C" />
+      <prttextbox Format="" Location="148, 504" Size="96, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="A37" input_output="-" name="Flight number" order="33" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="148, 520" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A38" input_output="-" name="Arrival date" order="34" required="C" />
+      <label AutoSize="False" Location="395, 488" Size="98, 14" Font="Tahoma, 9pt" Text="Địa điểm lưu kho" />
+      <prttextbox Format="" Location="498, 488" Size="59, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="A41" input_output="-" name="Customs Warehouse Code" order="37" required="C" />
+      <prttextbox Format="" Location="561, 488" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A42" input_output="-" name="Customs Clearance Warehouse Name" order="38" required="C" />
+      <label AutoSize="False" Location="163, 635" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="134, 634" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A51" input_output="-" name="Insurance currency code" order="53" required="C" />
+      <label AutoSize="False" Location="451, 715" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <label AutoSize="False" Location="123, 635" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="109, 634" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A50" input_output="-" name="Insurance demarcation code" order="52" required="C" />
+      <prttextbox Format="##,###,###,###" Location="236, 618" Size="178, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="18" form="" id="A49" input_output="-" name="Freight" order="51" required="C" />
+      <label AutoSize="False" Location="163, 619" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="134, 618" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A48" input_output="-" name="Freight currency code" order="50" required="C" />
+      <label AutoSize="False" Location="123, 619" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="109, 618" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A47" input_output="-" name="Freight demarcation code" order="49" required="C" />
+      <prttextbox Format="#,###,###,###,###" Location="214, 602" Size="200, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="A46" input_output="-" name="Total Invoice Price" order="48" required="C" />
+      <label AutoSize="False" Location="203, 603" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="174, 602" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A45" input_output="-" name="Invoice Currency Code" order="47" required="C" />
+      <label AutoSize="False" Location="163, 603" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="134, 602" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A44" input_output="-" name="Invoice price condition code" order="46" required="C" />
+      <label AutoSize="False" Location="123, 603" Size="11, 12" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="#,###,###.###" Location="596, 471" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A40" input_output="-" name="Cargo Weight (Gross)" order="36" required="C" />
+      <prttextbox Format="##,###.###" Location="498, 455" Size="59, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A39" input_output="-" name="Cargo Piece" order="35" required="C" />
+      <label AutoSize="False" Location="7, 808" Size="151, 14" Font="Tahoma, 9pt" Text="Ngày cấp phép nhập khẩu" />
+      <label AutoSize="False" Location="7, 825" Size="156, 14" Font="Tahoma, 9pt" Text="Ngày hoàn thành kiểm tra" />
+      <prttextbox Format="dd/MM/yyyy" Location="280, 808" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A53" input_output="-" name="Date of permit" order="62" required="C" />
+      <label AutoSize="False" Location="7, 842" Size="199, 14" Font="Tahoma, 9pt" Text="Phân loại thẩm tra sau thông quan" />
+      <label Location="0, 0" Size="68, 19" Font="Tahoma, 9pt" Text="&lt;AIR/IMP&gt;" />
+      <prttextbox Format="" Location="165, 69" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A02" input_output="-" name="Classification of Individual/Organization" order="3" required="C" />
+      <line LineStyle="Center, Black, Solid, 1" Location="-1, 541" Size="718, 0" />
+      <label AutoSize="False" Location="6, 667" Size="97, 14" Font="Tahoma, 9pt" Text="Mô tả hàng hóa" />
+      <prttextbox Format="" Multiline="True" Location="106, 667" Size="497, 45" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="600" form="" id="A59" input_output="-" name="Item Name" order="55" required="C" />
+      <prttextbox Format="" Location="241, 715" Size="12, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A61" input_output="-" name="Input classification of Customs value" order="57" required="C" />
+      <label AutoSize="False" Location="337, 715" Size="85, 14" Font="Tahoma, 9pt" Text="Nước xuất xứ" />
+      <prttextbox Format="" Location="428, 715" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A62" input_output="-" name="Place of origin code" order="58" required="C" />
+      <label AutoSize="False" Location="251, 715" Size="11, 14" Font="Tahoma, 9pt" Text="]" />
+      <prttextbox Format="" Location="462, 715" Size="61, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="A63" input_output="-" name="Original place name" order="59" required="C" />
+      <prttextbox Format="" Location="280, 842" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="A55" input_output="-" name="Classification of post inspection" order="66" required="C" />
+      <line LineStyle="Center, Black, Solid, 1" Location="381, 425" Size="0, 116" />
+      <prttextbox Format="hh:mm:ss" Location="208, 106" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD1" input_output="-" name="Registered time" order="8" required="C" />
+      <label AutoSize="False" Location="371, 106" Size="128, 14" Font="Tahoma, 9pt" Text="Ngày thay đổi đăng ký" />
+      <prttextbox Format="dd/MM/yyyy" Location="543, 106" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="AD2" input_output="-" name="Registered date of Correction" order="9" required="C" />
+      <prttextbox Format="hh:mm:ss" Location="626, 106" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD3" input_output="-" name="Registered time of Correction" order="10" required="C" />
+      <prttextbox Format="hh:mm:ss" Location="363, 808" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD4" input_output="-" name="Time of permit" order="63" required="C" />
+      <prttextbox Format="hh:mm:ss" Location="363, 825" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD5" input_output="-" name="Time of completion of inspection" order="65" required="C" />
+      <prttextbox Format="" Location="109, 569" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="KA2" input_output="-" name="Currency Code" order="41" required="C" />
+      <prttextbox Format="###,###.###" Location="151, 569" Size="89, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="KB2" input_output="-" name="Currency Exchange Rate " order="42" required="C" />
+      <prttextbox Format="" Location="109, 584" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="KA3" input_output="-" name="Currency Code" order="43" required="C" />
+      <prttextbox Format="###,###.###" Location="151, 584" Size="89, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="KB3" input_output="-" name="Currency Exchange Rate " order="44" required="C" />
+      <prttextbox Format="" Location="109, 602" Size="14, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="A43" input_output="-" name="Invoice Price Kind Code" order="45" required="C" />
+      <prttextbox Format="dd/MM/yyyy" Location="280, 825" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A54" input_output="-" name="Date of completion of inspection" order="64" required="C" />
+      <prttextbox Format="" Multiline="True" Location="126, 213" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="W" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="300" form="" id="A13" input_output="-" name="Address of Importer" order="14" required="C" />
+      <prttextbox Format="hh:mm:ss" Location="363, 859" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD6" input_output="-" name="Time of Import declaration cancellation" order="68" required="C" />
+      <label AutoSize="False" Location="7, 859" Size="159, 14" Font="Tahoma, 9pt" Text="Ngày hủy khai báo Hải quan" />
+      <prttextbox Format="dd/MM/yyyy" Location="280, 859" Size="83, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A57" input_output="-" name="Date of Import declaration cancellation" order="67" required="C" />
+      <label AutoSize="False" Location="7, 876" Size="268, 14" Font="Tahoma, 9pt" Text="Ngày chuyển xử lý khai báo nhập khẩu bằng tay" />
+      <prttextbox Format="dd/MM/yyyy" Location="280, 876" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="A58" input_output="-" name="Date of transfer to manual processing of Import declaration" order="69" required="C" />
+      <prttextbox Format="hh:mm:ss" Location="363, 876" Size="66, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="AD7" input_output="-" name="Time of transfer to manual processing of Import declaration" order="70" required="C" />
+    </page>
+  </layout>
+</jobform>

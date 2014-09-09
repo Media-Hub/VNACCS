@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_DRM" jobname="Manifest submission C" display-name="Manifest submission C">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_DRM.xml" item_attr_edit="False" />
+  <friday href="CAM20_DRM.xml" revision="0000" />
+  <iteminfo>
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="TRN" name="Train registry No. (鉄道登録番号)" input_output="+" required="M" attribute="A" figure="10" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ARD" name="Arrival station code/Departure station code (到着駅／出発駅)" input_output="+" required="M" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCA" name="Carrier code (キャリアコード)" input_output="+" required="M" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IDT" name="Date of arrival/Date of departure" input_output="+" required="M" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SIM" name="Submission to Immigration Bureau (入管提出表示)" input_output="+" required="C" attribute="I" figure="1" form="0" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SQU" name="Submission to Quarantine station (検疫提出表示)" input_output="+" required="C" attribute="I" figure="1" form="0" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SPO" name="Submission to Railway station authority (駅管理者提出表示)" input_output="+" required="C" attribute="I" figure="1" form="0" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="NTE" name="Remarks (記事)" input_output="+" required="C" attribute="A" figure="140" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="10" Size="462, 53" Location="120, 306" Text="Nộp cho" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <checkbox TabIndex="1" Size="126, 18" AutoSize="True" Location="170, 21" Text="Cơ quan kiểm dịch" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="I" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" name="Submission to Quarantine station (検疫提出表示)" check_attribute="*" check_date="" id="SQU" figure="1" required="C" />
+      <checkbox TabIndex="2" Size="147, 18" AutoSize="True" Location="310, 21" Text="Cảng vụ ga đường sắt" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="I" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" name="Submission to Railway station authority (駅管理者提出表示)" check_attribute="*" check_date="" id="SPO" figure="1" required="C" />
+      <checkbox TabIndex="0" Size="150, 18" AutoSize="True" Location="9, 21" Text="Cục quản lý nhập cảnh" TextAlign="TopLeft" Font="Tahoma, 9pt" form="0" attribute="I" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" name="Submission to Immigration Bureau (入管提出表示)" check_attribute="*" check_date="" id="SIM" figure="1" required="C" />
+    </container>
+    <label Size="141, 19" Location="128, 169" Text="Nhập khẩu / Xuất khẩu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="93" TabIndex="1" Size="39, 22" Location="309, 169" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="108, 19" Location="128, 197" Text="Số hiệu đoàn tàu *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="83, 21" Location="309, 196" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Train registry No. (鉄道登録番号)" check_attribute="*" attribute="A" id="TRN" figure="10" required="M" />
+    <label Size="112, 19" Location="128, 223" Text="Mã ga đến / ga đi *" Font="Tahoma, 9pt" />
+    <label Size="155, 19" Location="128, 278" Text="Ngày đến/Ngày xuất phát *" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="8" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="78, 21" Location="309, 277" BackColor="LightCyan" Font="Courier New, 9pt" form="" order="5" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Date of arrival/Date of departure" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="M" />
+    <label Size="46, 19" Location="128, 366" Text="Ghi chú" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Multiline="True" Size="503, 36" Location="180, 365" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Remarks (記事)" check_attribute="*" attribute="A" id="NTE" figure="140" required="C" />
+    <label Size="122, 19" Location="128, 252" Text="Mã nhà vận chuyển *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="55, 21" Location="309, 250" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Carrier code (キャリアコード)" check_attribute="*" attribute="A" id="SCA" figure="6" required="M" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="309, 223" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Arrival station code/Departure station code (到着駅／出発駅)" check_attribute="*" attribute="A" id="ARD" figure="6" required="M" />
+  </layout>
+</jobform>

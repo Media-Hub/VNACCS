@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference of cargo information">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_ICG.xml" item_attr_edit="False" />
+  <friday href="CAM20_ICG.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type (照会種別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea cargo (B/L) information,A,Air cargo (AWB) information,R,Railway cargo (B/L) information" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="CGN" name="(House) B/L No./(House) AWB No. (（ハウス）B/L番号／（ハウス）AWB番号)" input_output="+" required="M" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="134, 34" AutoSize="False" Location="167, 213" Text="Reference type *&#xD;&#xA;(Phân loại xem dữ liệu)" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="279" TabIndex="1" Size="38, 22" Location="320, 225" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea cargo (B/L) information&#xD;&#xA;A,Air cargo (AWB) information&#xD;&#xA;R,Railway cargo (B/L) information&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type (照会種別)" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <combobox DropDownWidth="93" TabIndex="3" Size="38, 22" Location="320, 263" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="2" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="142, 33" AutoSize="False" Location="167, 252" Text="Import / Export *&#xD;&#xA;(Nhập khẩu / Xuất khẩu)" Font="Tahoma, 9pt" />
+    <label Size="147, 27" AutoSize="False" Location="167, 290" Text="(House) B/L  / AWB No. *&#xD;&#xA;(Số (House) B/L / AWB)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="258, 21" Location="320, 297" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="(House) B/L No./(House) AWB No. (（ハウス）B/L番号／（ハウス）AWB番号)" check_attribute="*" attribute="A" id="CGN" figure="35" required="M" />
+  </layout>
+</jobform>

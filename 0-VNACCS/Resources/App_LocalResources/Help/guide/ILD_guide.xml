@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ILD" name="Reference of Arrival/ Departure declaration D">
+  <item no="1" name="Reference type" id="KBN" required="" code="">Người dùng nhập chỉ số do hệ thống cung cấp để thực hiện tác vụ tương ứng
+A: Tham chiếu của khai báo nhập cảnh
+B: Tham chiếu của khai báo đi
+C: Tham chiếu của thông tin phương tiện không đi</item>
+  <item no="2" name="Arrival/Departure declaration No.&#xA;&#xA;" id="NTN" required="" code="">1. Trường hợp tham chiếu đến việc khai báo đến, hệ thống sẽ yêu cầu nhập các thông tin sau:
+ - Số tờ khai đến.
+ - Số giấy phép.
+2. Trường hợp tham chiếu đến khai báo đi, hệ thống sẽ yêu cầu nhập các thông tin sau;
+ - Số tờ khai đi.
+ - Số giấy phép.
+3. Trong trường hợp tham chiếu đến không có thông tin phương tiện, hệ thống sẽ không cho nhập.</item>
+  <item no="3" name="License plate No.&#xA;&#xA;" id="LPN" required="" code="">1. Trường hợp tham chiếu đến khai báo đến, hệ thống sẽ yêu cầu nhập các tiêu chí sau;
+ - Số khai báo đến.
+ - Số giấy phép.
+2. Trường hợp tham chiếu đến khai báo đi, hệ thống sẽ yêu cầu nhập tiêu chí sau;
+ - Số khai báo đi.
+ - Số giấy phép.
+3. Trường hợp tham chiếu đến không có thông tin phương tiện đến, hệ thống sẽ không cho nhập dữ liệu.</item>
+  <item no="4" name="Registering Country&#xA;&#xA;&#xA;" id="REC" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">
+  </item>
+  <item no="5" name="Arrival border gate /&#xA;Departure border gate&#xA;&#xA;" id="BG1" required="" code="Border gate code">
+  </item>
+  <item no="6" name="Date of arrival /&#xA;Date of departure&#xA;" id="DAT" required="" code="">
+  </item>
+  <item no="7" name="Expiry before" id="EXD" required="" code="">1. Trường hợp tham chiếu đến phương tiện chưa xuất phát, hệ thống có thể cho nhập ngày hết hạn lưu trú
+2. Trường hợp tham chiếu đến phương tiện chưa xuất phát, và trong trường hợp ngày hết hạn lưu trú không được nhập thì ngày trước ngày hệ thống sẽ là ngày hết hạn lưu trú.
+3. Trường hợp tham chiếu đến khai báo dến/đi, hệ thống sẽ không cho nhập ngày quá hạn lưu trú.</item>
+  <item no="8" name="Arrival border gate&#xA;&#xA;" id="BG2" required="" code="Border gate code">1. Trường hợp tham chiếu đến thông tin phương tiện chưa xuất phát, hệ thống sẽ yêu cầu nhập thông tin cửa khẩu đến. 
+Thông tin cửa khẩu đến sẽ được nhập theo mã cửa khẩu.
+2. Trường hợp khác, hệ thống sẽ không cho nhập dữ liệu.</item>
+  <item no="9" name="Intended departure border gate" id="ROB" required="" code="Border gate code">1. Trường hợp tham chiếu đến thông tin phương tiện chưa xuất, hệ thống cho phép nhập mã cửa khấu xuất cảnh dự kiến. 
+Mã cửa khẩu là mã  theo quy định gồm 6 ký tự.
+
+2. Trong trường hợp khác, hệ thống không cho nhập dữ liệu.</item>
+</guide>

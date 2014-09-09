@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IRM" jobname="Reference of manifest information C" display-name="Reference of manifest information C">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_IRM.xml" item_attr_edit="False" />
+  <friday href="CAM20_IRM.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type (照会種別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,A,Manifest summary information,B,Main information on B/L,C,Main information on Freight car,D,Manifest Freight car information" out_flg="0" in_flg="1" />
+    <item id="REF" name="Reference No. (照会番号)" input_output="+" required="C" attribute="I" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="TRN" name="Train registry No. (鉄道登録番号)" input_output="+" required="C" attribute="A" figure="10" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ARD" name="Arrival station code/Departure station code (到着駅／出発駅)" input_output="+" required="C" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IDT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="+" required="C" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCA" name="Carrier code (キャリアコード)" input_output="+" required="C" attribute="A" figure="6" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FRN" name="Freight car No. (貨車番号)" input_output="+" required="C" attribute="A" figure="17" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CGN" name="Container/Transport equipment No. (コンテナ番号／運送具番号)" input_output="+" required="C" attribute="A" figure="12" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="133, 19" Location="198, 216" Text="Phân loại xem dữ liệu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="286" TabIndex="1" Size="37, 22" Location="362, 215" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;A,Manifest summary information&#xD;&#xA;B,Main information on B/L&#xD;&#xA;C,Main information on Freight car&#xD;&#xA;D,Manifest Freight car information&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type (照会種別)" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <combobox DropDownWidth="93" TabIndex="5" Size="37, 22" Location="362, 270" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="3" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <label Size="83, 19" Location="198, 244" Text="Số tham chiếu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="362, 243" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Reference No. (照会番号)" check_attribute="*" attribute="I" id="REF" figure="12" required="C" />
+    <label Size="131, 19" Location="198, 271" Text="Nhập khẩu / Xuất khẩu" Font="Tahoma, 9pt" />
+    <label Size="97, 19" Location="198, 299" Text="Số hiệu đoàn tàu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="83, 21" Location="362, 298" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Train registry No. (鉄道登録番号)" check_attribute="*" attribute="A" id="TRN" figure="10" required="C" />
+    <label Size="102, 19" Location="198, 326" Text="Mã ga đến / ga đi" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="55, 21" Location="362, 325" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Arrival station code/Departure station code (到着駅／出発駅)" check_attribute="*" attribute="A" id="ARD" figure="6" required="C" />
+    <label Size="123, 19" Location="198, 353" Text="Ngày dự kiến đến / đi" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="12" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="362, 352" BackColor="Window" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="C" />
+    <label Size="111, 19" Location="198, 380" Text="Mã nhà vận chuyển" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="14" Size="55, 21" Location="362, 379" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="Carrier code (キャリアコード)" check_attribute="*" attribute="A" id="SCA" figure="6" required="C" />
+    <label Size="88, 19" Location="198, 407" Text="Số hiệu toa tàu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="16" Size="132, 21" Location="362, 406" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Freight car No. (貨車番号)" check_attribute="*" attribute="A" id="FRN" figure="17" required="C" />
+    <label Size="158, 28" AutoSize="False" Location="198, 433" Text="Số container/&#xD;&#xA;số hiệu dụng cụ chuyên chở" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="18" Size="97, 21" Location="362, 440" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Container/Transport equipment No. (コンテナ番号／運送具番号)" check_attribute="*" attribute="A" id="CGN" figure="12" required="C" />
+  </layout>
+</jobform>

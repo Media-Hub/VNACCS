@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IVA" name="Registration of invoice/packing list information">
+  <item no="1" name="Electronic invoice receipt No." id="NIV" required="" code="">(1) Không thể đăng ký trong trường hợp đăng ký lần đầu.
+(2) Nhập trong trường hợp sửa đăng ký Hóa đơn/Bản kê đóng gói hàng hóa.</item>
+  <item no="2" name="Import export classification" id="YNK" required="" code="">E: Hóa đơn xuất khẩu
+I: Hóa đơn nhập khẩu</item>
+  <item no="3" name="User code (VAN)" id="TII" required="" code="User code">Nhập mã người sử dụng của Đại lý khai thuê</item>
+  <item no="4" name="Invoice No." id="IVN" required="" code="">
+  </item>
+  <item no="5" name="Invoice creation date" id="IVD" required="" code="">Phải thỏa mãn điều kiện dưới đây: 
+Ngày tạo Hóa đơn  ≦ Ngày hệ thống</item>
+  <item no="6" name="Invoice creation location" id="IVB" required="" code="">Phải nhập tên nước, tên thành phố vào vị trí người xuất hóa đơn.</item>
+  <item no="7" name="Number classification" id="N__" required="" code="">(1)Nhập mã dưới đây: 
+ 1. C/N: Số Hợp đồng 
+ 2. B/L: Số vận đơn (B/L), số Không vận đơn AWB hoặc số House AWB 
+ 3. L/C: Số thư tín dụng
+ 4. C/O: Số giấy chứng nhận xuất xứ
+ 5. S/N: Mã nội bộ của chủ hàng
+(2) Trường hợp là Số giấy chứng nhận xuất xứ, có thể nhập tối đa 3 số. 
+(3) Trường hợp là Số Hợp đồng, Số thư tín dụng hoặc Mã nội bộ của chủ hàng, chỉ có thể nhập 1 số.
+</item>
+  <item no="8" name="Number" id="O__" required="" code="">(1) Trường hợp phân biệt số là C/N: Nhập "Số Hợp đồng"
+(2) Trường hợp phân biệt số là B/L:Nhập "Số vận đơn (B/L), số Không vận đơn AWB hoặc số House AWB" (có thể nhập tối đa 5 số)]
+(3) Trường hợp phân biệt số là L/C: Nhập "Số thư tín dụng"
+(4) Trường hợp phân biệt số là C/O: Nhập "Số giấy chứng nhận xuất xứ" (có thể nhập tối đa 3 số)
+(5) Trường hợp phân biệt số là S/N: Nhập "Mã nội bộ của chủ hàng"
+
+</item>
+  <item no="9" name="Date" id="M__" required="" code="">(1) Trường hợp phân biệt số là C/N: Nhập "Ngày Hợp đồng (Năm Tháng Ngày)"
+(2) Trường hợp phân biệt số là B/L: Nhập "Ngày phát hành (Năm Tháng Ngày) Số vận đơn (B/L), số Không vận đơn AWB hoặc số House AWB (có thể nhập tối đa 5 ngày)" 
+(3) Trường hợp phân biệt số là L/C: Nhập "Ngày phát hành (Năm Tháng Ngày) thư tín dụng" 
+(4) Trường hợp phân biệt số là C/O: Nhập "Ngày phát hành (Năm Tháng Ngày) Số giấy chứng nhận xuất xứ (có thể nhập tối đa 3 ngày)"</item>
+  <item no="10" name="Term of payment" id="HOS" required="" code="">Nhập phương pháp thanh toán ghi trên Hợp đồng (Bao gồm cả bảo đảm nếu có)
+(Ví dụ nhập)
+"TT REMITANCE"
+"D/P AT SIGHT" (Thanh toán trả tiền ngay)</item>
+  <item no="11" name="Party type classification" id="AT_" required="" code="">(1)Trường hợp định dạng dữ liệu là XML, sử dụng tiêu chí sau để nhập như dưới đây:
+SELLER:Đơn vị xuất khẩu
+BUYER:Đơn vị nhập khẩu
+(2)Trường hợp nhập cả 2 vị trí, nhập kết hợp cả SELLER và BUYER. 
+(3)Trường hợp dạng dữ liệu không phải là XML, không cần nhập tiêu chí này.</item>
+  <item no="12" name="Importer/Exporter code" id="IMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="13" name="Importer/Exporter name" id="IMN" required="" code="">
+  </item>
+  <item no="14" name="Importer/Exporter postcode" id="IMY" required="" code="">
+  </item>
+  <item no="15" name="Address of Importer/Exporter" id="IMA" required="" code="">
+  </item>
+  <item no="16" name="Telephone number of Importer/Exporter " id="IMT" required="" code="">
+  </item>
+  <item no="17" name="Invoice creator (including title)&#xA;" id="SAA" required="" code="">Nhập tên và chức vụ của người phát hành Hóa đơn</item>
+  <item no="18" name="Consignee (consignor) code&#xA;" id="EPC" required="" code="Consignee/Consignor Code">
+  </item>
+  <item no="19" name="Consignee (consignor) name&#xA;" id="EPN" required="" code="">
+  </item>
+  <item no="20" name="Consignee (consignor) postcode identification&#xA;" id="EP1" required="" code="">
+  </item>
+  <item no="21" name="Consignee (consignor) address 1 (Street and number/P.O.Box)&#xA;" id="EPA" required="" code="">
+  </item>
+  <item no="22" name="Consignee (consignor) address 2 (Street and number/P.O.Box)&#xA;" id="EP2" required="" code="">
+  </item>
+  <item no="23" name="Consignee (consignor) address 3 (City name)&#xA;" id="EP3" required="" code="">
+  </item>
+  <item no="24" name="Consignee (consignor) address 4 (Country sub-entity, name)&#xA;" id="EP4" required="" code="">
+  </item>
+  <item no="25" name="Consignee (consignor) telephone number&#xA;" id="EP6" required="" code="">
+  </item>
+  <item no="26" name="Consignee (consignor)'s resident country&#xA;" id="EEE" required="" code="">
+  </item>
+  <item no="27" name="Marks and numbers" id="KNO" required="" code="">(1) Nhập ký hiệu và số hiệu phân loại trên bao bì.
+(2)Trường hợp khó nhập, chỉ nhập "AS PER ATTCHED SHEET" (Như trên trang đính kèm) và chuyển mẫu có ghi ký  hiệu, số hiệu cho Đại lý khai thuê.</item>
+  <item no="28" name="Transportation classification" id="TTP" required="" code="">(1)Trường hợp định dạng dữ liệu là XML, sử dụng tiêu chí này để nhập như dưới đây:
+AIR: Vận chuyển đường hàng không
+SEA: Vận chuyển đường biển
+RAIL: Vận chuyển đường sắt
+LAND: Vận chuyển đường bộ
+(2)Trường hợp định dạng dữ liệu không phải là XML, không cần nhập tiêu chí này.</item>
+  <item no="29" name="Loading vessel/aircraft name" id="VSS" required="" code="">
+  </item>
+  <item no="30" name="Voyage number" id="VNO" required="" code="">
+  </item>
+  <item no="31" name="Loading port code" id="PSC" required="" code="">Trường hợp phân loại xuất nhập khẩu là "E", không nhập 2 chữ số tên nước, chỉ nhập 3 chữ số còn lại. 
+Trường hợp là "I", nhập cả 5 chữ số</item>
+  <item no="32" name="Loading port name" id="PSN" required="" code="">
+  </item>
+  <item no="33" name="Loading period" id="PSD" required="" code="">Nhập ngày dự kiến xếp hàng lên tàu (Năm Tháng Ngày)</item>
+  <item no="34" name="Unloading port code" id="DST" required="" code="">Trường hợp phân loại xuất nhập khẩu là "E", nhập cả 5 chữ số.
+Trường hợp là "I", không nhập 2 chữ số mã nước, chỉ nhập 3 chữ số còn lại.</item>
+  <item no="35" name="Unloading port name" id="DCN" required="" code="">
+  </item>
+  <item no="36" name="Transit location code" id="KYC" required="" code="">Nhập Mã số địa điểm Liên Hợp Quốc vào địa điểm trung chuyển sang tàu khác, máy bay khác. </item>
+  <item no="37" name="Transit location name" id="KYN" required="" code="">Nhập tên địa điểm trung chuyển sang tàu khác, máy bay khác.</item>
+  <item no="38" name="Gross weight" id="GWJ" required="" code="">Nhập tổng trọng lượng hàng. Có thể nhập đến chữ số đầu tiên sau dấu chấm phẩy. </item>
+  <item no="39" name="Gross weight measure unit code" id="GWT" required="" code="">-Kilogram    KGM
+-Tấn    TNE
+-Pound    LBR</item>
+  <item no="40" name="Net weight" id="JWJ" required="" code="">Nhập trọng lượng thuần hàng hóa chưa đóng bao. Có thể nhập đến chữ số thứ 3 sau dấu phẩy. </item>
+  <item no="41" name="Net weight measure unit code" id="JWT" required="" code="">-Kilogram    KGM
+-Tấn    TNE
+- Pound    LBR</item>
+  <item no="42" name="Gross cubic content" id="STJ" required="" code="">Nhập tổng thể tích hàng hóa bao gồm vỏ bọc. Có thể nhập đến chữ số thứ 3 sau dấu phẩy.</item>
+  <item no="43" name="Gross cubic content measure unit code" id="STT" required="" code="">- Mét khối    MTQ
+- Fut khối    TNE
+. Đo thể tích gỗ bằng fut    BFT</item>
+  <item no="44" name="Total packages number" id="NOJ" required="" code="">Nhập tổng số kiện hàng </item>
+  <item no="45" name="Total packages number measure unit code" id="NOT" required="" code="">CS: Thùng, hộp
+CT: Thùng các-tông, hộp giấy</item>
+  <item no="46" name="Cargo owner's note" id="NT3" required="" code="">Nhập ghi chú cần thiết của chủ hàng…</item>
+  <item no="47" name="P/L number" id="PLN" required="" code="">Nhập số mà bên bán gắn vào Bảng kê đóng gói hàng hóa.
+
+</item>
+  <item no="48" name="Bank of L/C" id="LCB" required="" code="">
+  </item>
+  <item no="49" name="FOB price" id="FON" required="" code="">Nhập giá bao gồm tất cả các chi phí cho đến khi hàng hóa được chất lên tàu hoặc máy bay.</item>
+  <item no="50" name="FOB price Mã tiền tệ" id="FOT" required="" code="Mã tiền tệ (ISO4217/alphabet)">
+  </item>
+  <item no="51" name="FOB price adjustment amount" id="FKK" required="" code="">Trường hợp cần điều chỉnh giá FOB, nhập số tiền điều chỉnh.</item>
+  <item no="52" name="FOB price adjustment Mã tiền tệ" id="FKT" required="" code="Mã tiền tệ (ISO4217/alphabet)">
+  </item>
+  <item no="53" name="Freight" id="FR3" required="" code="">(1) Nhập chi phí người gửi hàng chi trả trong trường hợp chuyển hàng tới càng nhập khẩu hoặc địa điểm nhập khẩu.
+(2) Phí vận chuyển bao gồm các chi phí trong phạm vi liên quan đến chi phí vận chuyển như phí đóng gói, làm giấy tờ, chất hàng, bảo hiểm…</item>
+  <item no="54" name="Freight Mã tiền tệ" id="FR2" required="" code="Mã tiền tệ (ISO4217/alphabet)">
+  </item>
+  <item no="55" name="Freight payment location" id="FR4" required="" code="">Nhập phân loại thanh toán (bởi người gửi hoặc bởi người nhận), địa điểm thanh toán phí vận chuyển và các loại phí khác.
+(Ví dụ)
+"Prepaid Tokyo"
+"Collect Shanghai"</item>
+  <item no="56" name="Loading charge 1" id="FS1" required="" code="">Nhập các loại chi phí để xếp hàng (phí không phụ thuộc vào trọng lượng và giá trị), bao gồm:
+1. BAF (Cộng thêm)
+Là từ viết tắt của “Bunker Adjustment Factor”. 
+Phụ phí nhiên liệu. Cộng thêm vào cước vận chuyển đường biển tương ứng với giá nhiên liệu. 
+2. Phí B/L (Khấu trừ)
+Là từ viết tắt của “Bill of Lading”. Lệ phí phát hành B/L. Phát sinh theo lộ trình.
+3. CHC (Khấu trừ)
+Là từ viết tắt của “Container Handling Charge”. Chi phí cho việc xử lý container tại bến bãi.
+4. Doc. Fee (Khấu trừ)
+Là từ viết tắt của “Documentation Fee” ⇒ Đồng nghĩa với Phí B/L và cũng được gọi là D/F
+5. EBS (Cộng thêm)
+Là từ viết tắt của “Abbrev. of Emergency Bunker Surcharge”. Phụ phí nhiên liệu khẩn cấp.
+6. FAF (Cộng thêm)
+Là từ viết tắt của “Fuel Adjustment Factor” ⇒ Đồng nghĩa với BAF
+7. YAS (Cộng thêm)
+Là từ viết tắt của “Yen Appreciation Surcharge”. Lệ phí điều chỉnh tiền tệ. Trường hợp cước vận chuyển trên biển trên các tuyến đường vận tải biển Đông Nam Á quy đổi sang tiền Yên, nó sẽ được điều chỉnh theo biến đổi tỉ giá đối với đồng Đô la và khoản phí này sẽ được cộng thêm vào cước vận chuyển đường biển. 
+</item>
+  <item no="57" name="Loading charge 1 Mã tiền tệ" id="FT1" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="58" name="Loading charge 1's type" id="FH1" required="" code="">
+  </item>
+  <item no="59" name="Loading charge 2" id="FS2" required="" code="">
+  </item>
+  <item no="60" name="Loading charge 2 Mã tiền tệ" id="FT2" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="61" name="Loading charge 2's type" id="FH2" required="" code="">
+  </item>
+  <item no="62" name="Inland transportation charge" id="NUH" required="" code="">Trường hợp phát sinh phí vận chuyển đường bộ nội địa trong nước, nhập phí đó.</item>
+  <item no="63" name="Inland transportation charge Mã tiền tệ" id="NTK" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="64" name="Insurance cost" id="IN3" required="" code="">Nhập bao gồm phí bảo hiểm</item>
+  <item no="65" name="Insurance cost Mã tiền tệ" id="IN2" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="66" name="Insurance cost adjustment amount" id="IK1" required="" code="">Trường hợp cần điều chỉnh phí bảo hiểm, nhập số tiền điền chỉnh</item>
+  <item no="67" name="Insurance cost adjustment Mã tiền tệ" id="IK2" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="68" name="Deduction amount" id="NBG" required="" code="">Nhập số tiền khấu trừ trong toàn bộ giao dịch</item>
+  <item no="69" name="Deduction Mã tiền tệ" id="NBC" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="70" name="Deduction type" id="NBS" required="" code="">Nhập loại khấu trừ như khấu trừ số lượng, khấu trừ giao dịch dài hạn…</item>
+  <item no="71" name="Other adjustment amount" id="SKG" required="" code="">Nhập số tiền điều chỉnh trong toàn bộ giao dịch ngoài số tiền đã khấu trừ trong cột "Số tiền khấu trừ" bên trái.</item>
+  <item no="72" name="Other adjustment Mã tiền tệ" id="SKC" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="73" name="Other adjustment's type" id="SKS" required="" code="">Nhập loại số tiền điều chỉnh trong toàn bộ giao dịch ngoài số tiền đã khấu trừ trong cột "Số tiền khấu trừ" bên trái.</item>
+  <item no="74" name="Total invoice amount" id="IP4" required="" code="">Mục không thể thiếu. Đây là tổng số tiền của một hóa đơn phù hợp với điều kiện giao hàng</item>
+  <item no="75" name="Total invoice amount Mã tiền tệ" id="IP3" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="76" name="Invoice price condition" id="IP2" required="" code="">Phải nhập điều kiện giá chẳng hạn như giá hóa đơn. 
+Nhập điều kiện giá theo Incoterms
+Ví dụ: FOB, C&amp;I, C&amp;F, CIF</item>
+  <item no="77" name="Delivery location" id="HWT" required="" code="">Phải nhập vị trí chuyển giao rủi ro trên Hợp đồng (cảng chất hàng hoặc cảng đích cuối cùng hoặc tên địa danh)</item>
+  <item no="78" name="Special note" id="NT1" required="" code="">Đại lý khai thuê nhập ghi chú cần thiết cho thủ tục thông quan.</item>
+  <item no="79" name="Total rows number" id="SNM" required="" code="">Nhập tổng số dòng hàng trong trường hợp có hơn 800 dòng.</item>
+  <item no="80" name="Field No." id="RNO" required="" code="">(1) Trường hợp định dạng dữ liệu là XML, sử dụng tiêu chí này.
+(2) Trường hợp định dạng dữ liệu không phải là XML, không cần nhập tiêu chí này.
+(3)Phải nhập theo thứ tự từ 1.</item>
+  <item no="81" name="Item number" id="SNO" required="" code="">Nhập mã trong trường hợp có dữ liệu riêng cho mỗi hàng hóa (mã hàng của các doanh nghiệp, số quản lý hàng hóa…)</item>
+  <item no="82" name="HS code" id="CMD" required="" code="">
+  </item>
+  <item no="83" name="Item name/specification" id="CMN" required="" code="">Phải nhập tên hàng đã được ghi trên Hóa đơn (tên hàng chi tiết, quy cách, loại…)</item>
+  <item no="84" name="Origin country code" id="ORC" required="" code="">Nhập mã nước sản xuất hoặc chế tạo hàng hóa</item>
+  <item no="85" name="Origin country name" id="ORN" required="" code="">Nhập tên nước sản xuất hoặc chế tạo hàng hóa
+</item>
+  <item no="86" name="Package number" id="KBN" required="" code="">Nhập số đơn vị kiện hàng tương ứng với tình trạng đóng gói hàng hóa.
+(Ví dụ)
+1. Trường hợp hàng hóa được đóng gói vào thùng các-tông số 1: "CTNO.1"
+2.Trường hợp hàng hóa được đóng gói riêng vào hộp số 1 và 3:  "CSNO.1,3"
+3. Trường hợp hàng hóa được đóng gói riêng vào các cuộn từ 1 đến 5: "RONO.1-5"</item>
+  <item no="87" name="Quantity (1)" id="QN1" required="" code="">Phải nhập số lượng hàng cần thiết phải hiển thị cho quá trình tính thuế, xử lý thống kê hoặc xử lý tài chính theo quy định Hải quan.</item>
+  <item no="88" name="Quantity measure unit code (1)" id="QT1" required="" code="">Phải nhập mã đơn vị đo lường quy đổi số lượng thông quan đối với đơn vị số lượng trong cột "Số lượng (1)"</item>
+  <item no="89" name="Quantity (2)" id="QN2" required="" code="">
+  </item>
+  <item no="90" name="Quantity measure unit code (2)&#xA;" id="QT2" required="" code="">
+  </item>
+  <item no="91" name="Unit price" id="TNK" required="" code="">Nhập đơn giá của mỗi đơn vị hàng hóa</item>
+  <item no="92" name="Unit price Mã tiền tệ" id="TNC" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="93" name="Price quantity unit" id="TSC" required="" code="">Phải nhập mã đơn vị đo lường quy đổi số lượng thông quan đối với đơn vị số lượng tương ứng với mỗi đơn vị hàng hóa trong cột "Đơn giá". </item>
+  <item no="94" name="Price" id="KKT" required="" code="">Nhập số tiền cần thanh toán cho bên bán đối với mỗi loại hàng hóa trên Hóa đơn.</item>
+  <item no="95" name="Price Mã tiền tệ" id="KKC" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+  <item no="96" name="Deduction type (including free-of-charge type)" id="NSR" required="" code="">Trường hợp có khấu trừ cho mỗi đơn vị hàng hóa riêng, nhập loại khấu trừ.</item>
+  <item no="97" name="Deduction amount" id="NGA" required="" code="">Trường hợp có khấu trừ cho mỗi đơn vị hàng hóa riêng, nhập số tiền khấu trừ.</item>
+  <item no="98" name="Deduction Mã tiền tệ" id="NTC" required="" code="Mã tiền tệ (ISO4217/alphabet)">Mã tiền tệ</item>
+</guide>

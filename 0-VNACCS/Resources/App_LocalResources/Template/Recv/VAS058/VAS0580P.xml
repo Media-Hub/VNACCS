@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_OLC" jobname="Declaration on transportation" display-name="Vehicle transship/transit notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0580.xml" item_attr_edit="False" />
+  <friday href="VAS0580.xml" revision="0000" />
+  <iteminfo>
+    <item id="A01" name="Transportation equipment code" input_output="-" required="" attribute="A" figure="38" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Arrival location of bonded transportation" input_output="-" required="" attribute="A" figure="6" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Submitter code" input_output="-" required="" attribute="A" figure="5" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Submitter name" input_output="-" required="" attribute="A" figure="50" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Cargo No." input_output="-" required="" attribute="A" figure="35" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Transship/Transit management No." input_output="-" required="" attribute="A" figure="12" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Courier New, 11pt" MinOccurs="1">
+      <label AutoSize="False" Location="25, 200" Size="101, 34" Font="Tahoma, 11pt" Text="Cargo No.&#xD;&#xA;(Số hàng hóa)" />
+      <label AutoSize="False" Location="396, 200" Size="184, 34" Font="Tahoma, 11pt" Text="Transship / Transit No.&#xD;&#xA;(Số chuyến tải / quá cảnh)" />
+      <pagelabel Location="0, 0" Size="718, 25" Font="Tahoma, 11pt" Text="Vehicle transship/transit notification / Thông báo chuyển tải/quá cảnh đường bộ" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="214, 67" Size="352, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="38" form="" id="A01" input_output="-" name="Transportation equipment code" order="1" required="" />
+      <label AutoSize="False" Location="25, 50" Size="183, 34" Font="Tahoma, 11pt" Text="Transportation equipment&#xD;&#xA;(Phương tiện chuyên chở)" />
+      <prttextbox Format="" Location="142, 155" Size="53, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A03" input_output="-" name="Submitter code" order="3" required="" />
+      <prttextbox Format="" Location="142, 111" Size="62, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Arrival location of bonded transportation" order="2" required="" />
+      <label AutoSize="False" Location="25, 94" Size="111, 34" Font="Tahoma, 11pt" Text="Arrival location&#xD;&#xA;(Địa điểm đích)" />
+      <label AutoSize="False" Location="25, 138" Size="88, 34" Font="Tahoma, 11pt" Text="Submitter&#xD;&#xA;(Người nộp)" />
+      <prttextbox Format="" Location="212, 155" Size="461, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A04" input_output="-" name="Submitter name" order="4" required="" />
+      <label Location="198, 151" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <prttextbox Format="" Location="25, 247" Size="325, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="A05" input_output="-" name="Cargo No." order="5" required="" />
+      <prttextbox Format="" Location="396, 247" Size="117, 17" BorderStyle="None" Font="Courier New, 11pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="A06" input_output="-" name="Transship/Transit management No." order="6" required="" />
+    </page>
+  </layout>
+</jobform>

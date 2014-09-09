@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="IRM (Reference information of main information on B/L (Rail))" system="NACCS" jobcode="IRM" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="TRN" from_source="COM" to="TRN" to_source="COM" />
+        <item from="ARD" from_source="COM" to="ARD" to_source="COM" />
+        <item from="IDT" from_source="COM" to="IDT" to_source="COM" />
+        <item from="SCA" from_source="R01" to="SCA" to_source="COM" />
+    </destination>
+    <destination no="2" text="IRM (Reference information of main information on Freight car (Rail))" system="NACCS" jobcode="IRM" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="TRN" from_source="COM" to="TRN" to_source="COM" />
+        <item from="ARD" from_source="COM" to="ARD" to_source="COM" />
+        <item from="IDT" from_source="COM" to="IDT" to_source="COM" />
+        <item from="SCA" from_source="R01" to="SCA" to_source="COM" />
+    </destination>
+</link>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="IMI (Reference information of main information on B/L (Sea))" system="NACCS" jobcode="IMI" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="SEN" from_source="COM" to="SEN" to_source="COM" />
+        <item from="DPR" from_source="COM" to="DPR" to_source="COM" />
+        <item from="EDA" from_source="COM" to="EDA" to_source="COM" />
+        <item from="VOY" from_source="COM" to="VOY" to_source="COM" />
+        <item from="SCA" from_source="R01" to="SCA" to_source="COM" />
+    </destination>
+    <destination no="2" text="IMI (Reference information of main information on container (Sea))" system="NACCS" jobcode="IMI" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="SEN" from_source="COM" to="SEN" to_source="COM" />
+        <item from="DPR" from_source="COM" to="DPR" to_source="COM" />
+        <item from="EDA" from_source="COM" to="EDA" to_source="COM" />
+        <item from="VOY" from_source="COM" to="VOY" to_source="COM" />
+        <item from="SCA" from_source="R01" to="SCA" to_source="COM" />
+    </destination>
+</link>

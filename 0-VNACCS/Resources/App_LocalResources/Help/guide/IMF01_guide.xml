@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IMF01" name="Reference of manifest information B">
+  <item no="1" name="Reference No." id="REF" required="" code="">Nhập số tham chiếu của manifest
+Nếu đã nhập Cờ báo xuất nhập khẩu, không cần nhập Số tham chiếu.
+</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Nếu đã nhập số tham chiếu, không cần nhập Cờ báo xuất nhập khẩu.
+I: Nhập khẩu
+E: Xuất khẩu
+</item>
+  <item no="3" name="Flight No. 1 (flight number)" id="FL1" required="" code="">Nhập số hiệu chuyến bay gồm 6 ký tự</item>
+  <item no="4" name="Flight No. 2 (date)" id="FL2" required="" code="">Nhập ngày chuyến bay theo định dạng DDMMM</item>
+  <item no="5" name="Port of discharge code/Port of loading code" id="DPR" required="" code="IATA airport code and IATA city code">Trường hợp hàng chuyển tải/quá cảnh, nhập mã UN/LOCODE của sân bay đến đầu tiên (3 ký tự).</item>
+</guide>

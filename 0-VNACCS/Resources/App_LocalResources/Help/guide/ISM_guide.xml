@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ISM" name="Reference of Application/Permit for importation of medicine product">
+  <item no="1" name="OGA Application No./Permit/license No." id="APN" required="" code="">Trường hợp xem nội dung đơn xin cấp phép, nhập Số đơn xin cấp phép.
+Trường hợp xem nội dung cấp phép, nhập Số giấy phép.</item>
+  <item no="2" name="Reference type" id="KBN" required="" code="">Giá trị phải như sau:
+"A" : Tra cứu nội dung của đơn xin cấp phép 
+"B" : Tra cứu nội dung của giấy phép</item>
+</guide>

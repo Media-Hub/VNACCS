@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IID" name="Reference of import declaration">
+  <item no="1" name="Declaration No." id="ICN" required="" code="">Nhập số tờ khai cần tham chiếu.</item>
+</guide>

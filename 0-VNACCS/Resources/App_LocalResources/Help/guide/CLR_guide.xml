@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="CLR" name="Registration of cargo loaded confirmation">
+  <item no="1" name="Transship/Transit management No." id="CTP" required="" code="">Ô này đề người dùng nhập số quản lý chuyển tải/quá cảnh 
+Số này được nhập tối đa 12 ký tự</item>
+  <item no="2" name="Select containers/transport equipment" id="SCT" required="" code="">Theo số quản lý chuyển tải/quá cảnh nhập bên trên, hệ thống sẽ hiển thị danh sách cont/phương tiện/dụng cụ chuyên chở để người dùng lựa chọn cont/phương tiện/dụng cụ chuyên chở chuyển tải/quá cảnh. 
+
+Người dùng phải chọn tối thiểu một cont/phương tiện/dụng cụ chuyên chở.</item>
+  <item no="3" name="Container No./Transport equipment No." id="CON" required="" code="">
+  </item>
+</guide>

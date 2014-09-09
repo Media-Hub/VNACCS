@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VOT11" jobname="入港届等B呼出し" display-name="Correction of departure notification A (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="VOT11.xml" item_attr_edit="False" />
+  <friday href="VOT11.xml" revision="0000" />
+  <iteminfo>
+    <item id="ONN" name="Departure notification number&#xD;&#xA;" input_output="+" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="INN" name="Arrival notification number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="VEC" name="Vessel call sign" input_output="+" required="C" attribute="A" figure="9" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="146, 19" Location="235, 201" Text="Departure notification No." Font="Tahoma, 9pt" />
+    <label Size="86, 19" Location="235, 283" Text="Vessel call sign" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="76, 21" Location="387, 282" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Vessel call sign" check_attribute="*" attribute="A" id="VEC" figure="9" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="387, 200" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Departure notification number&#xD;&#xA;" check_attribute="*" attribute="A" id="ONN" figure="12" required="C" />
+    <label Size="126, 19" Location="235, 242" Text="Arrival notification No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="387, 242" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival notification number" check_attribute="*" attribute="A" id="INN" figure="12" required="C" />
+  </layout>
+</jobform>

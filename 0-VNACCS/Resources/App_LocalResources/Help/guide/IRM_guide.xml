@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IRM" name="Reference of manifest information C">
+  <item no="1" name="Reference type" id="KBN" required="" code="">Lựa chọn thông tin cần tham chiếu
+A: Thông tin trên manifest
+B: Thông tin chính trên B/L
+C: Thông tin chính trên container
+D: Thông tin manifest theo số hiệu toa tầu</item>
+  <item no="2" name="Reference No." id="REF" required="" code="">Nhập số tham chiếu manifest
+Trường hợp cờ nhập khẩu/ xuất khẩu đã được nhập, thì không nhập vào số tham chiếu</item>
+  <item no="3" name="Import/Export indication" id="IEI" required="" code="">Trường hợp số tham chiếu đã được nhập, thì không nhập vào cờ nhập khẩu/xuất khẩu
+I: Nhập khẩu
+E: Xuất khẩu</item>
+  <item no="4" name="Train registry No." id="TRN" required="" code="">Nhập số hiệu đoàn tàu</item>
+  <item no="5" name="Arrival station code/Departure station code" id="ARD" required="" code="Station code">1. Trường hợp manifest nhập, nhập vào mã ga đến
+2. Trường hợp manifest xuất, nhập vào mã ga khởi hành</item>
+  <item no="6" name="Estimated date of arrival/Estimated date of departure" id="IDT" required="" code="">Nhập ngày dự kiến đến/đi theo định dạng DDMMYYYY</item>
+  <item no="7" name="Carrier code" id="SCA" required="" code="Carrier code">Nhập mã hãng vận tải (Mã hãng đường sắt)</item>
+  <item no="8" name="Freight car No." id="FRN" required="" code="">Nhập số hiệu toa tàu</item>
+  <item no="9" name="Container/Transport equipment No." id="CGN" required="" code="">Trường hợp số container/dụng cụ chuyển chở chưa được đăng ký với số hiệu toa tầu, thì yêu cầu nhập vào số container/dụng cụ chuyên chở</item>
+</guide>

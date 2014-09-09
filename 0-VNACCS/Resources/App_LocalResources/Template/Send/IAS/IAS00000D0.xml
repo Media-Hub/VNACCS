@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM40_IAS" jobname="CAM40_IAS" display-name="IAS Reference of security information">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM40_IAS.xml" item_attr_edit="False" />
+  <friday href="CAM40_IAS.xml" revision="0000" />
+  <iteminfo>
+    <item id="TYS" name="Type of security" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SBC" name="Security supplier Bank code" input_output="+" required="M" attribute="A" figure="11" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="RYA" name="Issued year" input_output="+" required="M" attribute="I" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCM" name="Security bank sign" input_output="+" required="M" attribute="A" figure="10" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="SCN" name="Security No." input_output="+" required="M" attribute="A" figure="10" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CCC" name="Currency Code" input_output="+" required="C" attribute="A" figure="3" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="197, 19" Location="140, 100" Text="Mã ngân hàng cung cấp bảo lãnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="90, 21" Location="346, 100" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Security supplier Bank code" check_attribute="*" attribute="A" id="SBC" figure="11" required="M" />
+    <label Size="99, 19" Location="140, 129" Text="Năm phát hành *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="41, 21" Location="346, 129" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Issued year" check_attribute="*" attribute="I" id="RYA" figure="4" required="M" />
+    <label Size="156, 19" Location="140, 158" Text="Kí hiệu chứng từ bảo lãnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="83, 21" Location="346, 158" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Security bank sign" check_attribute="*" attribute="A" id="SCM" figure="10" required="M" />
+    <label Size="133, 19" Location="140, 187" Text="Số chứng từ bảo lãnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="83, 21" Location="346, 187" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Security No." check_attribute="*" attribute="A" id="SCN" figure="10" required="M" />
+    <label Size="115, 19" Location="140, 71" Text="Loại hình bảo lãnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="20, 21" Location="346, 70" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="True" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Type of security" check_attribute="*" attribute="A" id="TYS" figure="1" required="M" />
+    <label Size="59, 19" Location="140, 216" Text="Mã tiền tệ" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="34, 21" Location="346, 215" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Currency Code" check_attribute="*" attribute="A" id="CCC" figure="3" required="C" />
+  </layout>
+</jobform>

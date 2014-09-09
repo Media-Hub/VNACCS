@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SMB" name="Application for Permission for importation of medicine product  (Call up)">
+  <item no="1" name="OGA Application No." id="APN" required="" code="">
+  </item>
+</guide>

@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="HRM" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện dịch vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Vận đơn chủ đã nhập đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Vận đơn chủ đã nhập đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Vận đơn người gom hàng đã nhập đã được đăng ký bởi người sử dụng khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KND">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập phân loại xử lý.
+</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KND">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập phân loại xử lý với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0003" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu.
+</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập cờ báo Nhập khẩu/Xuất khẩu với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Master B/L No." id="OBL">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập Vận đơn chủ
+</disposition>
+  </response>
+  <response code="S0006" name="Master B/L No." id="OBL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0007" name="Customs office" id="CHC">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0008" name="Customs office" id="CHC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0009" name="Customs office" id="CHC">
+    <description>Mã cơ quan hải quan đã nhập chưa được đăng ký như là Mã Nộp cho cơ quan hải quan đối với thông tin liên quan đến Manifest.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="S0010" name="House B/L No." id="CBL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0011" name="Final destination code" id="DST">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0012" name="Final destination code" id="DST">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0013" name="Final destination code" id="DST">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0014" name="Final destination name" id="DSN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0015" name="Place of delivery code" id="DLP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0016" name="Place of delivery code" id="DLP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0017" name="Place of delivery code" id="DLP">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0018" name="Place of delivery name" id="DLN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0019" name="Consignor code" id="SHS">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0020" name="Consignor name" id="SHN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0021" name="Consignor postcode" id="SHP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0022" name="Consignor address 1 (Building name etc.)" id="SN1">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0023" name="Consignor address 2 (Street and number/P.O. Box)" id="SN2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0024" name="Consignor address 3 (District/Commune name)" id="SN3">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0025" name="Consignor address 4 (City name)" id="SN4">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0026" name="Consignor address 5 (Country code)" id="SN5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0027" name="Consignor telephone No." id="SHT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0028" name="Consignee code" id="CNS">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0029" name="Consignee name" id="CNN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0030" name="Consignee postcode" id="CNP">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0031" name="Consignee address 1 (Building name etc.)" id="CN1">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0032" name="Consignee address 2 (Street and number/P.O.Box)" id="CN2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0033" name="Consignee address 3 (District/Commune name)" id="CN3">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0034" name="Consignee address 4 (City name)" id="CN4">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0035" name="Consignee address 5 (Country code)" id="CN5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0036" name="Consignee telephone No." id="CTL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0037" name="Notify party code" id="NS1～NS2">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0038" name="Notify party name" id="NN1～NN2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0039" name="Notify party postcode" id="NP1～NP2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0040" name="Notify party address 1 (Building name etc.)" id="NE1～NE2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0041" name="Notify party address 2 (Street and number/P.O.Box)" id="NF1～NF2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0042" name="Notify party address 3 (District/Commune name)" id="NG1～NG2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0043" name="Notify party address 4 (City name)" id="NH1～NH2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0044" name="Notify party address 5 (Country code)" id="NC1～NC2">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0045" name="Notify party telephone No." id="NL1～NL2">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0046" name="Transportation charge" id="FRT">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0047" name="Transportation charge currency code" id="FRC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0048" name="Transship/Transit" id="KRR">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Phân loại chuyển tải với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0049" name="Transship/Transit reason" id="KRS">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0050" name="Transship/Transit duration" id="PRD">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0051" name="Transship/Transit duration" id="PRD">
+    <description>Thời gian đã nhập không nằm trong phạm vi quy định.
+</description>
+    <disposition>Kiểm tra giá trị và nhập thời gian trong phạm vi quy định.
+</disposition>
+  </response>
+  <response code="S0052" name="Code of verification based on other laws and regulations (other than Customs laws)" id="OC1～OC5">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0053" name="Goods price" id="VAL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0054" name="Currency code" id="CRC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0055" name="Remarks" id="NTE">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0056" name="Goods description" id="CM01～CM30">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0057" name="HS code (First 4 digits)" id="HS01～HS30">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0058" name="Type of packing" id="TO01～TO30">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0059" name="Marks and Nos." id="MR01～MR30">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0060" name="Number of packages" id="PC01～PC30">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="S0061" name="Number of packages unit code" id="PU01～PU30">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0062" name="Gross weight" id="GW01～GW30">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập dữ liệu theo định dạng sau: 6 chữ số phần nguyên, 3 chữ số phần thập phân</disposition>
+  </response>
+  <response code="S0063" name="Weight unit code" id="WU01～WU30">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã đơn vị trọng lượng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0064" name="Net weight" id="NW01～NW30">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập dữ liệu theo định dạng sau: 6 chữ số phần nguyên, 3 chữ số phần thập phân</disposition>
+  </response>
+  <response code="S0065" name="Weight unit code" id="3W01～3W30">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã đơn vị trọng lượng với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0066" name="Capacity" id="VO01～VO30">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Nhập dữ liệu theo định dạng sau: 6 chữ số phần nguyên, 3 chữ số phần thập phân</disposition>
+  </response>
+  <response code="S0067" name="Capacity unit code" id="VU01～VU30">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập Mã đơn vị thể tích với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0068" name="Country of origin code" id="OR01～OR30">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="S0069" name="Special cargo sign" id="SP01～SP30">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="House B/L No." id="CBL">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="R0002" name="House B/L No." id="CBL">
+    <description>Giá trị nhập đã bị trùng lặp.
+</description>
+    <disposition>Nhập Vận đơn người gom hàng khác.
+</disposition>
+  </response>
+  <response code="R0003" name="Master B/L No.&#xA;House B/L No." id="OBL&#xA;CBL">
+    <description>Mã Vận đơn chủ và mã Vận đơn người gom hàng được nhập với cùng một giá trị.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ và Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="R0004" name="House B/L No.&#xA;Consignor name" id="CBL&#xA;SHN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0005" name="House B/L No.&#xA;Consignor address 5 (Country code)" id="CBL&#xA;SN5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0006" name="House B/L No.&#xA;Consignee name" id="CBL&#xA;CNN">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0007" name="House B/L No.&#xA;Consignee address 5 (Country code)" id="CBL&#xA;CN5">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0008" name="Final destination code&#xA;Final destination name" id="DST&#xA;DSN">
+    <description>Yêu cầu nhập liệu trong trường hợp Mã địa điểm đích cuối cùng chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm đích cuối cùng, nếu cần, nhập Tên địa điểm đích cuối cùng.
+</disposition>
+  </response>
+  <response code="R0009" name="Final destination code&#xA;Final destination name" id="DST&#xA;DSN">
+    <description>Yêu cầu nhập liệu trong trường hợp Mã địa điểm đích cuối cùng chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã địa điểm đích cuối cùng, nếu cần, nhập Tên địa điểm đích cuối cùng.
+</disposition>
+  </response>
+  <response code="R0010" name="Place of delivery code&#xA;Place of delivery name" id="DLP&#xA;DLN">
+    <description>Yêu cầu nhập liệu trong trường hợp mã địa điểm giao hàng chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của mã địa điểm giao hàng, nếu cần, nhập tên địa điểm giao hàng.
+</disposition>
+  </response>
+  <response code="R0011" name="Place of delivery code&#xA;Place of delivery name" id="DLP&#xA;DLN">
+    <description>Yêu cầu nhập liệu trong trường hợp mã địa điểm giao hàng chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của mã địa điểm giao hàng, nếu cần, nhập tên địa điểm giao hàng.
+</disposition>
+  </response>
+  <response code="R0012" name="Consignor address 1 (Building name etc.)&#xA;Consignor address 2 (Street and number/P.O. Box)&#xA;Consignor address 3 (District/Commune name)&#xA;Consignor address 4 (City name)" id="SN1&#xA;SN2&#xA;SN3&#xA;SN4">
+    <description>Phải nhập ít nhất một địa chỉ.
+</description>
+    <disposition>Nhập địa chỉ 1, 2, 3, hoặc 4
+</disposition>
+  </response>
+  <response code="R0013" name="Consignee address 1 (Building name etc.)&#xA;Consignee address 2 (Street and number/P.O.Box)&#xA;Consignee address 3 (District/Commune name)&#xA;Consignee address 4 (City name)" id="CN1&#xA;CN2&#xA;CN3&#xA;CN4">
+    <description>Phải nhập ít nhất một địa chỉ.
+</description>
+    <disposition>Nhập địa chỉ 1, 2, 3, hoặc 4
+</disposition>
+  </response>
+  <response code="R0014" name="Notify party name" id="NN1～NN2">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập tên bên nhận thông báo hàng đến.
+</disposition>
+  </response>
+  <response code="R0015" name="Notify party code&#xA;Notify party name" id="NS1～NS2&#xA;NN1～NN2">
+    <description>Yêu cầu nhập liệu trong trường hợp mã bên nhận thông báo hàng đến được nhập.
+</description>
+    <disposition>Nhập tên bên nhận thông báo hàng đến.
+</disposition>
+  </response>
+  <response code="R0016" name="Notify party name&#xA;Notify party address 5 (Country code)" id="NN1～NN2&#xA;NC1～NC2">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0017" name="Notify party address 1 (Building name etc.)&#xA;Notify party address 2 (Street and number/P.O.Box)&#xA;Notify party address 3 (District/Commune name)&#xA;Notify party address 4 (City name)" id="NE1～NE2&#xA;NF1～NF2&#xA;NG1～NG2&#xA;NH1～NH2">
+    <description>Phải nhập ít nhất một địa chỉ.
+</description>
+    <disposition>Nhập địa chỉ 1, 2, 3, hoặc 4
+</disposition>
+  </response>
+  <response code="R0018" name="Transportation charge&#xA;Transportation charge currency code" id="FRT&#xA;FRC">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0019" name="Transportation charge&#xA;Transportation charge currency code" id="FRT&#xA;FRC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0020" name="Transportation charge&#xA;Transportation charge currency code" id="FRT&#xA;FRC">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Trường hợp sử dụng có sử dụng ngoại tệ, nhập dữ liệu theo định dạng: 15 chữ số phần nguyên, 4 chữ số phần thập phân</disposition>
+  </response>
+  <response code="R0021" name="Transship/Transit&#xA;Transship/Transit reason" id="KRR&#xA;KRS">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0022" name="Transship/Transit&#xA;Transship/Transit duration" id="KRR&#xA;PRD">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0023" name="Code of verification based on other laws and regulations (other than Customs laws)" id="OC1～OC5">
+    <description>Giá trị nhập đã bị trùng lặp.
+</description>
+    <disposition>Nhập mã văn bản pháp quy khác.
+</disposition>
+  </response>
+  <response code="R0024" name="Goods price&#xA;Currency code" id="VAL&#xA;CRC">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0025" name="Goods price&#xA;Currency code" id="VAL&#xA;CRC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0026" name="Goods price&#xA;Currency code" id="VAL&#xA;CRC">
+    <description>Định dạng đã nhập không hợp lệ.
+
+</description>
+    <disposition>Trường hợp sử dụng có sử dụng ngoại tệ, nhập dữ liệu theo định dạng: 15 chữ số phần nguyên, 4 chữ số phần thập phân</disposition>
+  </response>
+  <response code="R0027" name="Goods description" id="CM01～CM30">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.
+</description>
+    <disposition>Nhập tên hàng.
+</disposition>
+  </response>
+  <response code="R0028" name="Goods description&#xA;Marks and Nos." id="CM01～CM30&#xA;MR01～MR30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0029" name="Goods description&#xA;Number of packages" id="CM01～CM30&#xA;PC01～PC30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0030" name="Goods description&#xA;Number of packages unit code" id="CM01～CM30&#xA;PU01～PU30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0031" name="Goods description&#xA;Gross weight" id="CM01～CM30&#xA;GW01～GW30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0032" name="Goods description&#xA;Weight unit code" id="CM01～CM30&#xA;WU01～WU30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0033" name="Net weight&#xA;Weight unit code" id="NW01～NW30&#xA;3W01～3W30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0034" name="Capacity&#xA;Capacity unit code" id="VO01～VO30&#xA;VU01～VU30">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả 2 giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Master B/L No." id="OBL">
+    <description>Trường hợp đăng ký thông tin nhập khẩu Vận đơn người gom hàng, thông tin vận đơn chủ phải được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0003" name="Master B/L No." id="OBL">
+    <description>Trường hợp Vận đơn chủ nhập đã được đăng ký vào hệ thống, phải đăng ký như là hàng hóa phân loại chuyển tải.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0004" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0005" name="Customs office&#xA;Master B/L No." id="CHC&#xA;OBL">
+    <description>Mã cơ quan hải quan đã nhập không giống với Mã cơ quan hải quan đã đăng ký với cùng một Vận đơn chủ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="E0006" name="Master B/L No." id="OBL">
+    <description>99 Thông tin Vận đơn người gom hàng đã được đăng ký với cùng một Vận đơn chủ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0007" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0008" name="Customs office" id="CHC">
+    <description>Mã cơ quan hải quan đã nhập không giống với Mã cơ quan hải quan đăng ký.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Mã cơ quan hải quan.
+</disposition>
+  </response>
+  <response code="E0009" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng được nhập đã được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0010" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng được nhập đã được đăng ký vào hệ thống như là một  manifest xuất khẩu.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0011" name="House B/L No." id="CBL">
+    <description>Trường hợp Vận đơn người gom hàng nhập vào đã được đăng ký vào hệ thống, phải đăng ký như là hàng hóa phân loại chuyển tải.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0012" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0013" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0014" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống như là Vận đơn người gom hàng.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.
+</disposition>
+  </response>
+  <response code="E0015" name="Master B/L No." id="OBL">
+    <description>99 Thông tin Vận đơn người gom hàng đã được đăng ký với cùng một Vận đơn chủ.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E0016" name="Master B/L No." id="OBL">
+    <description>Vận đơn người gom hàng đã nhập đã được đăng ký với Vận đơn chủ khác.
+</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="W0002" name="None" id="0000">
+    <description>Thông tin chưa được gửi đến Cơ quan hải quan do không tìm thấy nơi gửi đến.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0001" name="Transship/Transit duration" id="PRD">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

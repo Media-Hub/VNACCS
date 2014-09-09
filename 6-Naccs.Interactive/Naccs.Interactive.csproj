@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22CB3C74-0403-4E6D-B535-F06A3BA04E24}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Naccs.Interactive</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Naccs.Core">
+      <HintPath>..\Naccs.Core\bin\Debug\Naccs.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="Naccs.Net">
+      <HintPath>..\Naccs.Net\bin\Debug\Naccs.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Naccs\Interactive\InteractiveMain.cs" />
+    <Compile Include="Naccs\Interactive\Classes\KioskUserCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Interactive\Classes\AccumulateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Interactive\Classes\AccumulateReceivedHandler.cs" />
+    <Compile Include="Naccs\Interactive\Classes\AccumulateNetworkErrorHandler.cs" />
+    <Compile Include="Naccs\Interactive\Classes\AtOnceData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naccs\Interactive\Classes\AtonceReceivedHandler.cs" />
+    <Compile Include="Naccs\Interactive\Classes\AtonceNetworkErrorHandler.cs" />
+    <Compile Include="Naccs\Interactive\Properties\Resources.cs" />
+    <Compile Include="Naccs\Interactive\Classes\KioskLink.cs" />
+    <EmbeddedResource Include="Naccs.Interactive.Classes.AtOnceData.resources" />
+    <EmbeddedResource Include="Naccs.Interactive.Classes.AccumulateData.resources" />
+    <EmbeddedResource Include="Naccs.Interactive.Classes.KioskUserCode.resources" />
+    <EmbeddedResource Include="Naccs.Interactive.InteractiveMain.resources" />
+    <EmbeddedResource Include="Naccs.Interactive.Properties.Resources.resources" />
+  </ItemGroup>
+</Project>

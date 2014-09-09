@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ITF" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Tờ khai này sẽ được nộp cho cơ quan Hải quan khác.
+</description>
+    <disposition>Kiểm tra số tờ khai.
+</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Tờ khai này được nộp cho Hải quan tỉnh khác.
+</description>
+    <disposition>Kiểm tra số tờ khai.
+</disposition>
+  </response>
+  <response code="R0001" name="Bonded transportation declaration No.&#xA;Finish date of transportation" id="OLT&#xA;EDT">
+    <description>Mặc dù đã nhập số tờ khai, nhưng vẫn nhập Ngày dự kiến kết thúc vận chuyển.
+</description>
+    <disposition>Xóa số tờ khai đã nhập hoặc ngày kết thúc vận chuyển.
+</disposition>
+  </response>
+  <response code="R0002" name="Bonded transportation declaration No.&#xA;Submitting Customs office " id="OLT&#xA;DEC">
+    <description>Mặc dù đã nhập số tờ khai, nhưng vẫn nhập cơ quan Hải quan tiếp nhận tờ khai.
+</description>
+    <disposition>Xóa số tờ khai đã nhập hoặc cơ quan Hải quan tiếp nhận tờ khai.</disposition>
+  </response>
+  <response code="R0003" name="Bonded transportation declaration No.&#xA;Customs office at arrival place" id="OLT&#xA;ARV">
+    <description>Mặc dù đã nhập số tờ khai, nhưng vẫn nhập cơ quan Hải quan địa điểm đích.</description>
+    <disposition>Xóa số tờ khai đã nhập hoặc cơ quan Hải quan địa điểm đích. 
+</disposition>
+  </response>
+  <response code="R0004" name="Submitting Customs office &#xA;Customs office at arrival place" id="DEC&#xA;ARV">
+    <description>Yêu cầu nhập 1 trong 2.
+</description>
+    <disposition>Nhập cơ quan Hải quan tiếp nhận tờ khai hoặc cơ quan Hải quan địa điểm đích.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài của thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Bonded transportation declaration No." id="OLT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Không có thông tin nào được đăng ký trong hệ thống để tham khảo.
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.
+</description>
+    <disposition>Nhấn nút "Send" để lấy thêm thông tin.
+</disposition>
+  </response>
+</help>

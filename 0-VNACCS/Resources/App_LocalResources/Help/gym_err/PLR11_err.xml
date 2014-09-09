@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="PLR11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="U0003" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="U0004" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Passenger list number" id="NUM">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="S0004" name="Volume No." id="VOL">
+    <description>Bắt buộc phải nhập trong trường hợp sửa.</description>
+    <disposition>Nhập Khối lượng</disposition>
+  </response>
+  <response code="S0005" name="Volume No." id="VOL">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Khối lượng với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Volume No." id="VOL">
+    <description>Không thể nhập liệu vào mục này trong trường hợp hủy.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0007" name="Passenger list number" id="NUM">
+    <description>Thông tin danh sách hành khách đã bị sửa 9 lần.</description>
+    <disposition>Nếu cần thì hủy danh sách khách hàng, rồi đăng ký lại.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Passenger list number" id="NUM">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0004" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0005" name="Passenger list number&#xA;Volume No." id="NUM&#xA;VOL">
+    <description>Số lượng thứ nhất trong Số tham chiếu danh sách hành khách này chưa được sửa.</description>
+    <disposition>Đầu tiên sửa số lượng thứ nhất, sau đó sửa số lượng thứ 2</disposition>
+  </response>
+  <response code="E0006" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách (số nhánh tiếp theo) chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0007" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách (số nhánh tiếp theo) đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0008" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách (số nhánh tiếp theo) đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0009" name="Passenger list number" id="NUM">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0010" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0011" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách</disposition>
+  </response>
+  <response code="E0012" name="Passenger list number" id="NUM">
+    <description>Số lượng lần 2 đã được sửa trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tham chiếu danh sách hành khách.</disposition>
+  </response>
+</help>

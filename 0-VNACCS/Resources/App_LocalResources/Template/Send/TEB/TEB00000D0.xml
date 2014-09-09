@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM33_TEB" jobname="CAM33_TEB" display-name="TEB Registration of the list of tax exemption (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM33_TEB.xml" item_attr_edit="False" />
+  <friday href="CAM33_TEB.xml" revision="0000" />
+  <iteminfo>
+    <item id="TEN" name="Tax exemption list No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="145, 19" Location="225, 188" Text="Số danh mục miễn thuế *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="379, 187" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Tax exemption list No." check_attribute="*" attribute="I" id="TEN" figure="12" required="M" />
+  </layout>
+</jobform>

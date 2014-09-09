@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ICG" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng không có quyền tham khảo thông tin.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Người sử dụng không có quyền tham khảo thông tin.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Người sử dụng không có quyền tham khảo thông tin.</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="S0001" name="Reference type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xem dữ liệu.</disposition>
+  </response>
+  <response code="S0002" name="Reference type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xem dữ liệu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu.</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số (House) vận đơn (B/L)/Số (House) Không vận đơn AWB</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0003" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0004" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0005" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0006" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số không vận đơn (House) AWB đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) không vận đơn AWB.</disposition>
+  </response>
+  <response code="E0007" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số không vận đơn (House) AWB đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) không vận đơn AWB.</disposition>
+  </response>
+  <response code="E0008" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số không vận đơn (House) AWB đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) không vận đơn AWB.</disposition>
+  </response>
+  <response code="E0009" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0010" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0011" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="E0012" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Số (House) vận đơn (B/L) (B/L) đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của số (House) vận đơn .</disposition>
+  </response>
+  <response code="L0001" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0004" name="(House) B/L No./(House) AWB No." id="CGN">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

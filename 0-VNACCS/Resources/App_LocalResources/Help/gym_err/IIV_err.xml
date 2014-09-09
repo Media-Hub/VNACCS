@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IIV" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Người sử dụng tương ứng không có quyền truy cập vào cơ sở dữ liệu thông tin danh sách hóa đơn/Kiện hàng đối tượng.
+</description>
+    <disposition>Thực hiện bởi Người sử dụng được cấp quyền hoặc nhập Số tiếp nhận hóa đơn điện tử.
+</disposition>
+  </response>
+  <response code="S0001" name="Electronic invoice receipt No." id="NIV">
+    <description>Số tiếp nhận hóa đơn điện tử chưa được nhập.
+</description>
+    <disposition>Nhập Số tiếp nhận hóa đơn điện tử.
+</disposition>
+  </response>
+  <response code="S0900" name="Electronic invoice receipt No." id="NIV">
+    <description>Không thể sử dụng (các) ký tự này. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Electronic invoice receipt No." id="NIV">
+    <description>Số tiếp nhận hóa đơn điện tử đã nhập chưa được đăng ký vào hệ thống (Cơ sở dữ liệu thông tin danh sách hóa đơn/Kiện hàng)
+</description>
+    <disposition>Nhập Số tiếp nhận hóa đơn điện tử phù hợp.
+</disposition>
+  </response>
+  <response code="L0001" name="Electronic invoice receipt No." id="NIV">
+    <description>Nội bộ xảy ra lỗi không tương thích trên cơ sở dữ liệu thông tin danh sách hóa đơn/Kiện hàng. (Không có cơ sở dữ liệu thông tin cho mục danh sách hóa đơn/Kiện hàng)
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

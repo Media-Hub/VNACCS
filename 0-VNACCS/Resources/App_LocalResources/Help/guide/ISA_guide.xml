@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ISA" name="Reference of Application/Permit for Quarantine certificate of import animals/ animal products">
+  <item no="1" name="Office of application code" id="APP" required="" code="OGA's Office Code">Nhập mã đơn vị mà người nhập trực thuộc.</item>
+  <item no="2" name="Status information on examination/inspection&#xA;" id="STS" required="" code="">01: Hoạt động sau chưa được thực hiện.
+02: Đã chỉ định Cán bộ.
+03: Cán bộ đã đăng ký kết quả kiểm tra. 
+04: Đã hoàn thành kiểm tra/kiểm hóa.</item>
+  <item no="3" name="OGA Application No./Permit/license No." id="APN" required="" code="">Trường hợp tham chiếu nội dung đơn xin cấp phép, hãy nhập Số đơn xin cấp phép.
+Trường hợp tham chiếu nội dung giấy phép, hãy nhập Số giấy phép.</item>
+  <item no="4" name="Reference type" id="KBN" required="" code="">Sẽ nhận một trong những giá trị sau:
+"A" : Tra cứu nội dung đơn xin cấp phép 
+"B" : Tra cứu nội dung giấy phép</item>
+</guide>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="AMA" name="Pre-registration of amended tax information">
+  <item no="1" name="Amendment Declaration No." id="SYN" required="" code="">Không cần nhập do hệ thống tự động hỗ trợ.</item>
+  <item no="2" name="Customs Office" id="CHS" required="" code="Customs office code">Nhập mã cơ quan Hải quan nơi đăng kí tờ khai ban đầu.
+(tham khảo bảng mã cơ quan Hải quan trên website Hải quan: www.customs.gov.vn)
+
+</item>
+  <item no="3" name="Customs Sub-section" id="CHB" required="" code="Customs Sub-section">Nhập mã Đội thủ tục xử lý hồ sơ có liên quan. 
+(Tham khảo mã các Đội thủ tục trên website Hải quan: www.customs.gov.vn)
+
+</item>
+  <item no="4" name="Import/Export classification" id="YNK" required="" code="">Nhập một trong hai mã phân loại xuất nhập khẩu sau:
+“E”: Xuất khẩu
+“I”: Nhập khẩu
+</item>
+  <item no="5" name="Import/Export Declaration No." id="ICN" required="" code="">Nhập số tờ khai xuất khẩu/nhập khẩu ban đầu.</item>
+  <item no="6" name="Declaration Kind Code" id="ICB" required="" code="">Nhập mã loại hình của tờ khai xuất khẩu/nhập khẩu ban đầu.</item>
+  <item no="7" name="Import/Export declaration date" id="IDD" required="" code="">Nhập ngày khai báo nhập khẩu/xuất khẩu của tờ khai ban đầu.</item>
+  <item no="8" name="Import/Export permit date" id="IPD" required="" code="">Nhập ngày thông quan của tờ khai nhập khẩu/xuất khẩu ban đầu.</item>
+  <item no="9" name="Time limit of re-import/re-export" id="RED" required="" code="">Nhập thời hạn tái xuất/ tái nhập trong trường hợp tạm nhập/ tạm xuất.</item>
+  <item no="10" name="Declarant code" id="IMC" required="" code="Importer/Exporter code">Nhập mã số thuế của người khai.</item>
+  <item no="11" name="Declarant name" id="IMN" required="" code="">Nhập tên người khai trong trường hợp chưa được đăng ký vào hệ thống.</item>
+  <item no="12" name="Declarant post code" id="IMY" required="" code="">(1) Nhập mã bưu chính (không phải nhập trong trường hợp hệ thống tự động hiển thị).
+(2) Trong trường hợp mã bưu chính tự động hiển thị khác với mã bưu chính khai báo thì nhập lại mã bưu chính đúng. 
+</item>
+  <item no="13" name="Address of Declarant" id="IMA" required="" code="">(1) Nhập địa chỉ của người khai (Không phải nhập trong trường hợp hệ thống tự động hiển thị).
+(2) Trong trường hợp hệ thống tự động hiển thị địa chỉ khác với khai báo, nhập lại địa chỉ đúng.
+</item>
+  <item no="14" name="Declarant telephone number" id="IMT" required="" code="">(1) Nhập số điện thoại của người khai.
+(2) Không phải nhập trong trường hợp hệ thống tự động hiển thị.
+(3) Trong trường hợp số điện thoại tự động hiển thị không đúng, nhập lại số điện thoại đúng.
+</item>
+  <item no="15" name="Amendment declaration reason code" id="REC" required="" code="">Nhập một trong các mã lý do khai bổ sung sau:
+“1”: Sai sót về tính thuế
+“2”: Sai sót về trị giá hải quan
+“3”: Sai sót về thuế suất
+“4”: Sai sót về mã HS
+“5”: Sai sót về số lượng
+“6”: Các lý do khác
+</item>
+  <item no="16" name="Currency code of tax amount" id="TTC" required="" code="Currency code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ của tiền thuế theo chuẩn UN/LOCODE
+(tham khảo bảng mã đơn vị tiền tệ trên website Hải quan: www.customs.gov.vn)
+</item>
+  <item no="17" name="Bank payment code" id="BRC" required="" code="">Nhập mã ngân hàng trả thuế thay, trường hợp ký hiệu và số chứng từ hạn mức đã được đăng ký, hệ thống sẽ kiểm tra những thông tin sau:
+(1) Người sử dụng hạn mức phải là người nhập khẩu/xuất khẩu hoặc hạn mức được cấp đích danh cho đại lý hải quan.
+(2) Ngày tiến hành nghiệp vụ này phải thuộc thời hạn còn hiệu lực của hạn mức ngân hàng đã đăng ký.
+</item>
+  <item no="18" name="Bank payment Issued year" id="BYA" required="" code="">Nhập năm phát hành hạn mức.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".
+</item>
+  <item no="19" name="Bank Payment sign" id="BCM" required="" code="">Nhập ký hiệu của chứng từ hạn mức trên chứng thư hạn mức do ngân hàng cấp.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".
+</item>
+  <item no="20" name="Bank Payment No." id="BCN" required="" code="">Nhập số chứng từ hạn mức.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng trả thuế thay".
+</item>
+  <item no="21" name="Code of extending due date for payment&#xA;" id="ENC" required="" code="">Nhập một trong các mã tương ứng như sau:
+“A”: trường hợp được áp dụng thời hạn nộp thuế do sử dụng bảo lãnh riêng
+“B”: trường hợp được áp dụng thời hạn nộp thuế do sử dụng bảo lãnh chung
+“C”: trường hợp được áp dụng thời hạn nộp thuế mà không sử dụng bảo lãnh
+“D”: trong trường hợp nộp thuế ngay
+
+</item>
+  <item no="22" name="Security supplier Bank code" id="SBC" required="" code="">Nhập mã ngân hàng cung cấp bảo lãnh, trường hợp ký hiệu và số chứng từ hạn mức đã được đăng ký, hệ thống sẽ kiểm tra những thông tin sau:
+(1) Người sử dụng chứng từ bảo lãnh phải là người nhập khẩu hoặc là chứng từ bảo lãnh được cấp đích danh cho đại lý hải quan.
+(2) Ngày tiến hành nghiệp vụ này phải thuộc thời hạn còn hiệu lực của chứng từ bảo lãnh đã đăng ký.
+(3) Trường hợp sử dụng chứng từ bảo lãnh riêng, chứng từ phải được sử dụng tại Chi cục Hải quan đã đăng ký.
+(4) Nếu không thuộc trường hợp (1), mã của người được phép sử dụng chứng từ bảo lãnh đã đăng ký trong cơ sở dữ liệu phải khớp với mã của người đăng nhập sử dụng nghiệp vụ này. 
+(5) Trường hợp đăng ký chứng từ bảo lãnh riêng sau khi hệ thống cấp số tờ khai, số tờ khai đã đăng ký trong cơ sở dữ liệu của bảo lãnh phải khớp với số tờ khai hệ thống đã cấp.
+</item>
+  <item no="23" name="Issued year" id="RYA" required="" code="">Nhập năm phát hành của chứng từ bảo lãnh do ngân hàng cấp.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="24" name="Security bank sign" id="SCM" required="" code="">Nhập ký hiệu của chứng từ bảo lãnh do Ngân hàng cung cấp.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="25" name="Security No." id="SCN" required="" code="">Nhập số của chứng từ bảo lãnh (do Ngân hàng cung cấp).
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="26" name="Currency code before tax amendment" id="CDB" required="" code="Currency code (ISO4217/alphabet)">Nhập mã tiền tệ trước khi khai bổ sung.</item>
+  <item no="27" name="Currency exchange rate before tax amendment" id="RTB" required="" code="">Nhập tỉ giá tính thuế trước khi khai bổ sung.</item>
+  <item no="28" name="Currency code after tax amendment" id="CDA" required="" code="Currency code (ISO4217/alphabet)">Nhập mã tiền tệ sau khi khai bổ sung.</item>
+  <item no="29" name="Currency exchange rate after tax amendment" id="RTA" required="" code="">Nhập tỉ giá tính thuế sau khi khai bổ sung.</item>
+  <item no="30" name="Enterprise internal control number" id="REF" required="" code="">Nhập số quản lý của nội bộ doanh nghiệp trong trường hợp doanh nghiệp sử dụng tính năng này để quản lý nội bộ.</item>
+  <item no="31" name="Notes before tax amendment" id="NTB" required="" code="">Nhập nội dung liên quan trước khi khai bổ sung trong trường hợp nội dung này không phù hợp để nhập vào các ô khác.</item>
+  <item no="32" name="Notes after tax amendment" id="NTA" required="" code="">Nhập nội dung liên quan sau khi khai bổ sung trong trường hợp nội dung này không phù hợp để nhập vào các ô khác.</item>
+  <item no="33" name="Field No. of original declaration" id="RAN" required="" code="">Nhập số thứ tự của dòng hàng trên tờ khai gốc.</item>
+  <item no="34" name="Item name before tax amendment" id="CMB" required="" code="">Nhập mô tả hàng hóa trước khi khai bổ sung.</item>
+  <item no="35" name="Item name after tax amendment" id="CMA" required="" code="">Nhập mô tả hàng hóa sau khi khai bổ sung.</item>
+  <item no="36" name="Place of origin code before tax amendment" id="ORB" required="" code="United Nations LOCODE (Country code, 2 digits)&#xA;">Nhập mã nước xuất xứ trước khi khai bổ sung.</item>
+  <item no="37" name="Place of origin code after tax amendment" id="ORA" required="" code="United Nations LOCODE (Country code, 2 digits)&#xA;">Nhập mã nước xuất xứ sau khi khai bổ sung.</item>
+  <item no="38" name="Standard tax value before tax amendment" id="MKB" required="" code="">(1) Nhập trị giá tính thuế trước khi khai bổ sung.
+(2) Trong trường hợp khai bổ sung thêm dòng hàng mới thì nhập số “0” vào ô này.
+</item>
+  <item no="39" name="Standard quantity before tax amendment" id="MKQ" required="" code="">(1) Nhập số lượng trước khi khai bổ sung.
+(2) Trường hợp khai bổ sung dòng hàng mới thì nhập số “0”.
+</item>
+  <item no="40" name="Measure unit code of standard quantity before tax amendment" id="MKC" required="" code="Quantity Unit Code">Nhập mã đơn vị tính của số lượng hàng hóa tính thuế trước khai bổ sung.</item>
+  <item no="41" name="HS code before tax amendment" id="MKT" required="" code="HS code">(1) Nhập mã số hàng hóa trước khai bổ sung.
+(2) Trường hợp khai bổ sung dòng hàng mới thì nhập số “0”. 
+</item>
+  <item no="42" name="Tax rate before tax amendment" id="MKR" required="" code="">(1) Nhập thuế suất trước khai bổ sung.
+(2) Nhập “KCT” trong trường hợp thuộc đối tượng không chịu thuế.
+(3) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới.
+</item>
+  <item no="43" name="Tax amount before tax amendment" id="MKA" required="" code="">(1) Nhập số tiền thuế trước khai bổ sung.
+(2) Nhập ký tự “*” sau đó nhập số tiền được miễn trong trường hợp được miễn thuế.
+(3) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới. 
+</item>
+  <item no="44" name="Standard tax value after tax amendment" id="AKB" required="" code="">Nhập trị giá tính thuế sau khai bổ sung.
+
+</item>
+  <item no="45" name="Standard quantity after tax amendment" id="AKQ" required="" code="">(1) Nhập số lượng tính thuế sau khai bổ sung
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ đi một dòng hàng.
+</item>
+  <item no="46" name="Measure unit code of standard quantity after tax amendment" id="AKC" required="" code="Quantity Unit Code">Nhập mã đơn vị tính số lượng tính thuế sau khai bổ sung.</item>
+  <item no="47" name="HS code after tax amendment" id="AKT" required="" code="HS code">(1) Nhập mã số hàng hóa sau khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng. 
+</item>
+  <item no="48" name="Tax rate after tax amendment" id="AKR" required="" code="">(1) Nhập thuế suất sau khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+  <item no="49" name="Tax amount after tax amendment" id="AKA" required="" code="">(1) Nhập số tiền thuế sau khai bổ sung.
+Nhập ký tự “*”, sau đó nhập số tiền miễn thuế trong trường hợp được miễn thuế.
+(2) Trong trường hợp khai bổ sung bỏ đi một dòng hàng thì nhập số “0” vào ô này.
+</item>
+  <item no="50" name="Standard tax value before other tax and collection amendment" id="MB_" required="" code="">(1) Nhập trị giá tính thuế trước khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới.
+</item>
+  <item no="51" name="Standard quantity before other tax and collection amendment" id="MQ_" required="" code="">(1) Nhập số lượng tính thuế trước khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới. 
+</item>
+  <item no="52" name="Measure unit code of standard quantity before other tax and collection amendment" id="MC_" required="" code="Quantity Unit Code">Nhập mã đơn vị tính số lượng tính thuế trước khai bổ sung.</item>
+  <item no="53" name="Classification code before other tax and collection amendment&#xA;&#xA;" id="MK_" required="" code="">(1) Nhập mã áp dụng thuế suất.
+(2) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới. 
+</item>
+  <item no="54" name="Tax rate before other tax and collection amendment" id="MR_" required="" code="">(1) Nhập thuế suất trước khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới. 
+</item>
+  <item no="55" name="Tax amount before other tax and collection amendment" id="MA_" required="" code="">(1) Nhập số tiền thuế trước khai bổ sung
+(2) Nhập ký tự “*” sau đó nhập số tiền được miễn trong trường hợp được miễn thuế.
+(3) Nhập số “0” trong trường hợp khai bổ sung dòng hàng mới. 
+</item>
+  <item no="56" name="Standard tax value after other tax and collection amendment" id="AB_" required="" code="">(1) Nhập trị giá tính thuế sau khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+  <item no="57" name="Standard quantity after other tax and collection amendment" id="AQ_" required="" code="">(1) Nhập số lượng tính thuế sau khai bổ sung
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+  <item no="58" name="Measure unit code of standard quantity after other tax and collection amendment" id="AC_" required="" code="Quantity Unit Code">Nhập mã đơn vị tính số lượng tính thuế sau khai bổ sung.
+
+</item>
+  <item no="59" name="Classification code after other tax and collection amendment" id="AK_" required="" code="">(1) Nhập mã áp dụng thuế suất sau khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+  <item no="60" name="Tax rate after other tax and collection amendment" id="AR_" required="" code="">(1) Nhập thuế suất sau khai bổ sung.
+(2) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+  <item no="61" name="Tax amount after other tax and collection amendment" id="AA_" required="" code="">(1) Nhập số tiền thuế sau khai bổ sung.
+(2) Nhập ký tự “*” sau đó nhập số tiền được miễn trong trường hợp được miễn thuế.
+(3) Nhập số “0” trong trường hợp khai bổ sung bỏ dòng hàng.
+</item>
+</guide>

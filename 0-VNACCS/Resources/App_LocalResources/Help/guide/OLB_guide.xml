@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="OLB" name="Pre-registration of declaration on transportation (call up)">
+  <item no="1" name="Bonded transportation declaration No." id="OLT" required="" code="">Người khai nhập số của tờ khai vận chuyển đã được hệ thống cấp trước đó bởi nghiệp vụ OLA</item>
+  <item no="2" name="Type of manifest(cargo)" id="TM_" required="" code="">- Người khai có thể khai báo tối đa 05 manifest cho mỗi lần sử dụng nghiệp vụ này.
+- Trường hợp hàng hóa có lược khai hàng hóa bằng đường biển (sea manifest), người khai lựa chọn S từ màn hình của hệ thống để khai báo.
+- Trường hợp hàng hóa có lược khai hàng hóa bằng đường hàng không (air manifest), người khai lựa chọn A từ màn hình của hệ thống để khai báo.
+- Trường hợp hàng hóa có lược khai hàng hóa bằng đường sắt (railway manifest), người khai lựa chọn R từ màn hình của hệ thống để khai báo.
+</item>
+  <item no="3" name="Cargo No. (B/L No., AWB No. etc....)" id="CG_" required="" code="">Trường hợp gọi ra một số thông tin lược khai hàng hóa nhập khẩu từ hệ thống người sử dụng phải nhập số quản lý hàng hóa như sau:
+- Đối với lược khai hàng hóa bằng đường biển/đường sắt: 
++ Nhập số vận đơn thứ cấp (House B/L)
++ Trường hợp số vận đơn không có mã người vận chuyển/mã người giao vận, nhập “Mã người vận chuyển/người giao vận” + “Số vận đơn thứ cấp”
+- Đối với lược khai hàng hóa bằng đường hàng không: Nhập số vận đơn thứ cấp ((House AWB).
+- Chức năng này không sử dụng được cho việc gọi ra thông tin lược khai hàng hóa xuất khẩu.
+</item>
+</guide>

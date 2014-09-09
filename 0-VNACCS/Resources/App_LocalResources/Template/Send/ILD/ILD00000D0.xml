@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_ILD" jobname="Reference of Arrival/ Departure declaration D" display-name="Reference of Arrival/ Departure declaration D">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_ILD.xml" item_attr_edit="False" />
+  <friday href="CAM10_ILD.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="A,Reference of arrival declaration,B,Reference of departure declaration,C,Reference of non-departing vehicle information" out_flg="0" in_flg="1" />
+    <item id="NTN" name="Arrival/Departure declaration number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="LPN" name="License plate No." input_output="+" required="C" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="REC" name="Registering Country" input_output="+" required="C" attribute="A" figure="2" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BG1" name="Arrival border gate /Departure border gate" input_output="+" required="C" attribute="A" figure="6" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="DAT" name="Date of arrival /Date of departure" input_output="+" required="C" attribute="A" figure="8" form="" order="6" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="EXD" name="Expiry before" input_output="+" required="C" attribute="A" figure="8" form="" order="7" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BG2" name="Arrival border gate" input_output="+" required="C" attribute="A" figure="6" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="ROB" name="Intended departure border gate" input_output="+" required="C" attribute="A" figure="6" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="132, 34" Location="105, 113" Text="Reference type *&#xD;&#xA;(Phân loại xem dữ liệu)" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="390" TabIndex="1" Size="34, 22" Location="327, 120" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,Reference of arrival declaration&#xD;&#xA;B,Reference of departure declaration&#xD;&#xA;C,Reference of non-departing vehicle information&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="KBN" figure="1" required="M" />
+    <container type="GroupBox" TabIndex="2" Size="514, 215" Location="100, 174" Text="Arrival / Departure (Nhập khẩu / Xuất khẩu)" Font="Tahoma, 11.25pt, style=Underline" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <textbox CharacterCasing="Upper" TabIndex="4" Size="258, 21" Location="227, 63" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="License plate No." check_attribute="*" attribute="A" id="LPN" figure="35" required="C" />
+      <label Size="198, 34" Location="17, 172" Text="Date of arrival / Date of departure&#xD;&#xA;(Ngày đến / Ngày đi)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="227, 30" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Arrival/Departure declaration number" check_attribute="*" attribute="A" id="NTN" figure="12" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="5" Size="27, 21" Location="227, 96" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Registering Country" check_attribute="*" attribute="A" id="REC" figure="2" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="6" Size="55, 21" Location="227, 136" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Arrival border gate /Departure border gate" check_attribute="*" attribute="A" id="BG1" figure="6" required="C" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="7" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="227, 179" BackColor="Window" Font="Courier New, 9pt" form="" order="6" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Date of arrival /Date of departure" check_attribute="*" attribute="A" id="DAT" figure="8" AutoComplete="False" required="C" />
+      <label Size="199, 34" Location="17, 23" Text="Arrival / Departure declaration No.&#xD;&#xA;(Số tờ khai nhập khẩu / xuất khẩu)" Font="Tahoma, 9pt" />
+      <label Size="105, 34" Location="17, 56" Text="License plate No.&#xD;&#xA;(Biển số)" Font="Tahoma, 9pt" />
+      <label Size="168, 48" Location="17, 122" Text="Arrival border gate /&#xD;&#xA;Departure border gate&#xD;&#xA;(Cửa khẩu đến / Cửa khẩu đi)" Font="Tahoma, 9pt" />
+      <label Size="144, 34" Location="17, 89" Text="Registering Country&#xD;&#xA;(Mã quốc gia đăng ký xe)" Font="Tahoma, 9pt" />
+    </container>
+    <container type="GroupBox" TabIndex="8" Size="514, 136" Location="100, 395" Text="Non-Arrival (Chưa đến)" Font="Tahoma, 11.25pt, style=Underline" SpaceX="0" SpaceY="0" Max="0" RepY="1" RepX="1" repetition_id="" repetition_max="1">
+      <label Size="83, 34" Location="17, 26" Text="Expiry before&#xD;&#xA;(Thời hạn)" Font="Tahoma, 9pt" />
+      <label Size="113, 34" Location="17, 59" Text="Arrival border gate&#xD;&#xA;(Cửa khẩu đến)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="55, 21" Location="227, 99" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="+" check_full="" check_time="" check_date="" name="Intended departure border gate" check_attribute="*" attribute="A" id="ROB" figure="6" required="C" />
+      <label Size="185, 34" Location="17, 92" Text="Intended departure border gate&#xD;&#xA;(Cửa khẩu dự kiến ​​đi)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="55, 21" Location="227, 66" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Arrival border gate" check_attribute="*" attribute="A" id="BG2" figure="6" required="C" />
+      <maskedtextbox Mask="99/99/9999" TabIndex="9" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="227, 33" BackColor="Window" Font="Courier New, 9pt" form="" order="7" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Expiry before" check_attribute="*" attribute="A" id="EXD" figure="8" AutoComplete="False" required="C" />
+    </container>
+  </layout>
+</jobform>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_ROR11" jobname="Correction of departure notification C (Call up)" display-name="ROR11 Correction of departure notification C (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_ROR11.xml" item_attr_edit="False" />
+  <friday href="CAM10_ROR11.xml" revision="0000" />
+  <iteminfo>
+    <item id="ONN" name="Departure notification number" input_output="+" required="M" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="145, 19" Location="235, 200" Text="Số thông báo xuất cảnh *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="386, 199" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Departure notification number" check_attribute="*" attribute="A" id="ONN" figure="12" required="M" />
+  </layout>
+</jobform>

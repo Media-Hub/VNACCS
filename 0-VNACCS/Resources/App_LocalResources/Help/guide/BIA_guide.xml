@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="BIA" name="Registration of notification on arrival regarding transportation">
+  <item no="1" name="Declaration No." id="OLT" required="" code="">Nhập số tờ khai vận chuyển của hàng hóa được vận chuyển đến đích</item>
+  <item no="2" name="Bonded transportation type indication" id="TRT" required="" code="">Tùy từng loại vận chuyển mà người sử dụng nhập một trong các thông tin sau:
+- A:  Vận chuyển hàng hóa chịu sự giám sát hải quan (khai báo bằng nghiệp vụ OLC)
+- B: Hàng hóa đưa vào kho ngoại quan/ hàng hóa được phép đưa vào nhà máy sản xuất hàng xuất khẩu (Đăng ký bằng nghiệp vụ IDC)
+- C: Hàng xuất khẩu (Đăng ký bằng nghiệp vụ EDC)
+</item>
+  <item no="3" name="Departure location of bonded transportation (Bonded area)&#xA;" id="DPR" required="" code="Bonded area code">Trường hợp khai báo đồng thời xuất khẩu/nhập khẩu và vận chuyển, nhập địa điểm xếp hàng (khởi hành) hoặc địa điểm trung chuyển như sau:
+Ví dụ:
+Khởi hành: AAAA
+Trung chuyển: BBBB
+Điểm đích: CCCC
+(1) Trường hợp nghiệp vụ BIA làm tại BBBB, nhập AAAA vào mục này.
+(2) Trường hợp nghiệp vụ BIA làm tại CCCC, nhập BBBB vào mục này.
+</item>
+  <item no="4" name="Departure location of bonded transportation (Berth code)&#xA;" id="BRT" required="" code="Berth code">Khai báo giống như mục này của nghiệp vụ OLA</item>
+  <item no="5" name="Departure location of bonded transportation (Port of loading)" id="PRT" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Khai báo giống như mục này của nghiệp vụ OLA</item>
+  <item no="6" name="Arrival location of bonded transportation&#xA;(Bonded area)&#xA;" id="SOH" required="" code="Bonded area code">Trường hợp khai báo đồng thời xuất khẩu/nhập khẩu và vận chuyển, nhập địa điểm địa điểm trung chuyển hoặc địa điểm đích như sau:
+Ví dụ:
+Khởi hành: AAAA
+Trung chuyển: BBBB
+Điểm đích: CCCC
+(1) Trường hợp nghiệp vụ BIA làm tại BBBB, nhập BBBB vào mục này
+(2) Trường hợp nghiệp vụ BIA làm tại CCCC, nhập CCCC vào mục này
+</item>
+  <item no="7" name="Arrival location of bonded transportation&#xA;(Berth code)&#xA;" id="SOB" required="" code="Berth code">Khai báo giống như mục này của nghiệp vụ OLA</item>
+  <item no="8" name="Arrival location of bonded transportation&#xA;(Port of discharge)" id="SOP" required="" code="UN/LOCODE&#xA;IATA airport code&#xA;Station code&#xA;Border gate code&#xA;">Khai báo giống như mục này của nghiệp vụ OLA</item>
+  <item no="9" name="Date of arrival" id="DTM" required="" code="">Trường hợp ngày xác nhận đến khác với ngày hiện tại của hệ thống thì nhập ngày theo trình tự sau
+Ngày bắt đầu vận chuyển &lt;= Ngày đến &lt;= Ngày hệ thống
+Ngày đến được nhập theo định dạng DDMMYYY.
+</item>
+  <item no="10" name="Actual time of arrival" id="TIM" required="" code="">Nhập giờ thực tế hàng hóa được vận chuyển đến đích theo định dạng HHMM</item>
+  <item no="11" name="Remarks" id="RM1" required="" code="">Nhập các thông tin ghi chú cần thiết. Thông tin nhập tối đa 140 ký tự tiếng Việt.</item>
+  <item no="12" name="Executed action&#xA;&#xA;" id="EXE" required="" code="Executed action code">Chỉ có người sử dụng là công chức hải quan mới nhập được mục này. Thông tin được nhập dưới dạng mã theo Bảng mã được chuẩn hóa.</item>
+  <item no="13" name="Remarks&#xA;(for Customs use)&#xA;" id="RM2" required="" code="">Người sử dụng là cán bộ hải quan nhập các nội dung ghi chú cần thiết vào mục này. Thông tin nhập tối đa 140 ký tự tiếng Việt.</item>
+</guide>

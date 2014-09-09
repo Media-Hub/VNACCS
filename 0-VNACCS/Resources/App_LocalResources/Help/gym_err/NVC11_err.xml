@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="NVC11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.</disposition>
+  </response>
+  <response code="U0003" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KND">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KND">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Import/Export indication" id="IEI">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu.</disposition>
+  </response>
+  <response code="S0004" name="Import/Export indication" id="IEI">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Cờ báo nhập khẩu/xuất khẩu với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Master B/L No." id="OBL">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số vận đơn chủ.</disposition>
+  </response>
+  <response code="S0006" name="Master B/L No." id="OBL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0007" name="House B/L No." id="CBL">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ hoặc dấu phẩy.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="R0001" name="House B/L No." id="CBL">
+    <description>Yêu cầu phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Vận đơn người gom hàng.</disposition>
+  </response>
+  <response code="R0002" name="House B/L No." id="CBL">
+    <description>Giá trị đã nhập bị trùng lặp.</description>
+    <disposition>Nhập Vận đơn người gom hàng khác.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài của thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.</disposition>
+  </response>
+  <response code="E0003" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.</disposition>
+  </response>
+  <response code="E0004" name="Master B/L No." id="OBL">
+    <description>Vận đơn chủ đã nhập chưa được đăng ký vào hệ thống như là Vận đơn chủ.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.</disposition>
+  </response>
+  <response code="E0005" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.</disposition>
+  </response>
+  <response code="E0006" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.</disposition>
+  </response>
+  <response code="E0007" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập chưa được đăng ký vào hệ thống như là vận đơn người gom hàng.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn người gom hàng.</disposition>
+  </response>
+  <response code="E0008" name="House B/L No." id="CBL">
+    <description>Vận đơn người gom hàng đã nhập đã được đăng ký với Vận đơn chủ khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Vận đơn chủ.</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

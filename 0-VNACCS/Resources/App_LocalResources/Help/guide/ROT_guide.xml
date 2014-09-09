@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="ROT" name="Re-output">
+  <item no="1" name="Output message code" id="OCD" required="" code="">Nhập 6 kí tự đầu tiên của Mã thông điệp đầu ra (không nhập kí tự cuối cùng)</item>
+  <item no="2" name="Peculiar information 1" id="CM1" required="" code="">Nhập thông tin đặc thù 1 trong thông tin đầu ra.</item>
+  <item no="3" name="Peculiar information 2" id="CM2" required="" code="">Nhập thông tin đặc thù 2 trong thông tin đầu ra.</item>
+  <item no="4" name="Peculiar information 3" id="CM3" required="" code="">Nhập thông tin đặc thù 3 trong thông tin đầu ra.</item>
+</guide>

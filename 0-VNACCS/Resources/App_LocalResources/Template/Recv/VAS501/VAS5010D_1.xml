@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_OLC" jobname="保税運送申告" display-name="Copy of declaration on transportation information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5010_1.xml" item_attr_edit="True" />
+  <friday href="VAS5010_1.xml" revision="0000" />
+  <iteminfo>
+    <item id="OLT" name="運送申告番号" input_output="-" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="SCG" name="同じ貨物番号を使った申告の確認" input_output="+" required="C" attribute="A" figure="1" form="0" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+  </iteminfo>
+  <layout UseDefaultSize="True" Size="718, 60">
+    <label Size="126, 19" Location="20, 20" Text="Số tờ khai vận chuyển" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="152, 21" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="運送申告番号" check_attribute="*" attribute="A" id="OLT" figure="12" required="C" />
+    <checkbox TabIndex="3" Size="337, 18" AutoSize="True" Location="298, 21" Text="Xác nhận khai báo vận chuyển cùng số quản lý hàng hóa" Font="Tahoma, 9pt" form="" attribute="A" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" name="同じ貨物番号を使った申告の確認" check_attribute="*" check_date="" id="SCG" figure="1" required="C" />
+  </layout>
+</jobform>

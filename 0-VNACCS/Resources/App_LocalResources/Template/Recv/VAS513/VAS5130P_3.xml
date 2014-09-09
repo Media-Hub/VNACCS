@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_COT" jobname="Correction of declared information on transportation" display-name="Copy of corrected/cancelled declaration on transportation information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5130_3.xml" item_attr_edit="False" />
+  <friday href="VAS5130_3.xml" revision="0000" />
+  <iteminfo>
+    <item id="AC" name="Selected screening criteria" input_output="-" required="C" attribute="A" figure="2" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AD" name="Customs office name" input_output="-" required="C" attribute="A" figure="10" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AE" name="Bonded transportation declaration No." input_output="-" required="C" attribute="A" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ED" name="Import/Export indication" input_output="-" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="AF" name="Date of declaration" input_output="-" required="C" attribute="A" figure="8" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="100">
+      <item id="DA" name="Heading No." input_output="-" required="C" attribute="A" figure="3" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DB" name="Container/Freight Car/Package No." input_output="-" required="C" attribute="A" figure="17" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DC" name="Line No. on declaration" input_output="-" required="C" attribute="A" figure="5" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD1" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD2" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD3" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD4" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD5" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="DD6" name="Seal No." input_output="-" required="C" attribute="A" figure="15" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 11pt" MaxOccurs="12">
+      <pagelabel Location="642, 2" Size="75, 24" Font="Courier New, 11.25pt" Text="pp / mp" PageFormat="PageProgress" />
+      <pagelabel Location="11, 3" Size="644, 19" Font="Tahoma, 11.25pt" Text="(none)" TextAlign="TopCenter" PageFormat="PageTitle" />
+      <label Location="3, 75" Size="55, 18" Font="Tahoma, 8.25pt" Text="Số tiêu đề" />
+      <label Location="63, 62" Size="109, 45" Font="Tahoma, 8.25pt" Text="Số hiệu container / &#xD;&#xA;toa tàu / &#xD;&#xA;kiện hàng" />
+      <label Location="192, 75" Size="135, 18" Font="Tahoma, 8.25pt" Text="Số dòng hàng trên tờ khai" />
+      <label Location="338, 75" Size="40, 18" Font="Tahoma, 8.25pt" Text="Số seal" />
+      <label Location="28, 23" Size="195, 18" Font="Tahoma, 8.25pt" Text="Tiêu chuẩn kiểm tra đã được lựa chọn" />
+      <prttextbox Format="" Location="226, 26" Size="20, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="AC" input_output="-" name="Selected screening criteria" order="1" required="C" />
+      <label Location="272, 23" Size="94, 18" Font="Tahoma, 8.25pt" Text="Cơ quan Hải quan" />
+      <prttextbox Format="" Location="374, 26" Size="75, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="AD" input_output="-" name="Customs office name" order="2" required="C" />
+      <label Location="28, 39" Size="115, 18" Font="Tahoma, 8.25pt" Text="Số tờ khai vận chuyển" />
+      <prttextbox Format="" Location="158, 42" Size="88, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AE" input_output="-" name="Bonded transportation declaration No." order="3" required="C" />
+      <label Location="272, 39" Size="156, 18" Font="Tahoma, 8.25pt" Text="Cờ báo nhập khẩu / xuất khẩu" />
+      <prttextbox Format="" Location="436, 42" Size="13, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="ED" input_output="-" name="Import/Export indication" order="4" required="C" />
+      <label Location="483, 39" Size="86, 18" Font="Tahoma, 8.25pt" Text="Ngày lập tờ khai" />
+      <prttextbox Format="dd/MM/yyyy" Location="575, 42" Size="75, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="AF" input_output="-" name="Date of declaration" order="5" required="C" />
+      <label Visible="False" Location="189, 0" Size="366, 23" Font="Tahoma, 11.25pt" Text="Bản sao của khai báo vận chuyển chỉnh sửa / hủy bỏ" />
+      <label Visible="False" Location="663, 1" Size="52, 22" Font="Courier New, 11.25pt" Text="5 / 5" />
+      <ran Location="3, 110" Size="714, 45" Font="Tahoma, 11pt" Count="9" repetition_id="R01" repetition_max="100" RepX="1" RepY="20" SpaceX="0" SpaceY="0">
+        <prttextbox Format="" Location="4, 6" Size="27, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="DA" input_output="-" name="Heading No." order="6" required="C" />
+        <prttextbox Format="" Location="60, 6" Size="122, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="17" form="" id="DB" input_output="-" name="Container/Freight Car/Package No." order="7" required="C" />
+        <prttextbox Format="" Location="189, 6" Size="41, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="DC" input_output="-" name="Line No. on declaration" order="8" required="C" />
+        <prttextbox Format="" Location="339, 6" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD1" input_output="-" name="Seal No." order="9" required="C" />
+        <prttextbox Format="" Location="463, 6" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD2" input_output="-" name="Seal No." order="10" required="C" />
+        <prttextbox Format="" Location="587, 6" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD3" input_output="-" name="Seal No." order="11" required="C" />
+        <prttextbox Format="" Location="339, 26" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD4" input_output="-" name="Seal No." order="12" required="C" />
+        <prttextbox Format="" Location="463, 26" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD5" input_output="-" name="Seal No." order="13" required="C" />
+        <prttextbox Format="" Location="587, 26" Size="109, 13" BorderStyle="None" Font="Courier New, 8.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="DD6" input_output="-" name="Seal No." order="14" required="C" />
+        <rectangle Location="2, 0" Size="709, 45" LineStyle="Center, Black, Solid, 1" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

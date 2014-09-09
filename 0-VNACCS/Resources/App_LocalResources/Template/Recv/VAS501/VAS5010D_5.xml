@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_OLC" jobname="保税運送申告" display-name="Copy of declaration on transportation information">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS5010_5.xml" item_attr_edit="False" />
+  <friday href="VAS5010_5.xml" revision="0000" />
+  <iteminfo>
+    <ranContainer repetition_max="100">
+      <item id="DA" name="見出し番号" input_output="-" required="C" attribute="A" figure="3" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="CNO" name="収容先コンテナ番号" input_output="-" required="C" attribute="A" figure="17" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="RNO" name="申告欄番号" input_output="-" required="C" attribute="A" figure="5" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE1" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE2" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE3" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE4" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE5" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="SE6" name="シール番号" input_output="-" required="C" attribute="A" figure="15" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <container type="GroupBox" TabIndex="483" Size="692, 100" Location="13, 42" Font="Microsoft Sans Serif, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="25" RepX="1" repetition_id="R01" repetition_max="100">
+      <ranlabel Size="21, 14" Location="3, 16" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="216, 19" Location="31, 15" Text="Số hiệu container / toa tàu / kiện hàng" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="1" Size="132, 21" Location="254, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="収容先コンテナ番号" check_attribute="*" attribute="A" id="CNO" figure="17" required="C" />
+      <label Size="147, 19" Location="413, 16" Text="Số dòng hàng trên tờ khai" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="3" Size="48, 21" Location="567, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="申告欄番号" check_attribute="*" attribute="A" id="RNO" figure="5" required="C" />
+      <label Size="43, 19" Location="205, 43" Text="Số seal" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="5" Size="118, 21" Location="254, 42" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE1" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="7" Size="118, 21" Location="376, 42" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE2" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="9" Size="118, 21" Location="498, 42" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE3" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="118, 21" Location="254, 67" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE4" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="13" Size="118, 21" Location="376, 67" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE5" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="15" Size="118, 21" Location="498, 67" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="シール番号" check_attribute="*" attribute="A" id="SE6" figure="15" required="C" />
+      <textbox CharacterCasing="Upper" Visible="False" TabIndex="17" Size="34, 21" Location="31, 44" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="見出し番号" check_attribute="*" attribute="A" id="DA" figure="3" required="C" />
+    </container>
+    <navigator TabIndex="482" Location="13, 14" repetition_id="R01" repetition_max="1" />
+  </layout>
+</jobform>

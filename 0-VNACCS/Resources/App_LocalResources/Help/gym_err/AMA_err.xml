@@ -1,0 +1,1443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="AMA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="Amendment declaration number" id="SYN">
+    <description>Khác với người sử dụng đã đăng ký nghiệp vụ AMA.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0001" name="Customs Office" id="CHS">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0002" name="Customs Office" id="CHS">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0004" name="Customs Sub-section" id="CHB">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0007" name="Declarant code" id="IMC">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0008" name="Declarant name" id="IMN">
+    <description>1. Chưa được nhập.
+2.Tên người khai chưa được đăng ký trong mã người khai.
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0009" name="Address of Declarant" id="IMA">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0012" name="Declarant telephone number" id="IMT">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0014" name="Amendment declaration reason code" id="REC">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0015" name="Amendment declaration reason code" id="REC">
+    <description>Các số khác với "1", "2", "3", "4", "5" hoặc "6" đã được nhập vào Mã lý do khai bổ sung. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0024" name="Import/Export declaration date" id="IDD">
+    <description>Không phải là ngày thực tế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0025" name="Import/Export permit date" id="IPD">
+    <description>Không phải là ngày thực tế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0027" name="Measure unit code of standard quantity before tax amendment" id="MKC">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0028" name="HS code before tax amendment" id="MKT">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0030" name="Tax rate before tax amendment" id="MKR">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0031" name="Tax rate before tax amendment" id="MKR">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0032" name="Tax amount before tax amendment" id="MKA">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0033" name="Tax amount before tax amendment" id="MKA">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0034" name="Tax amount before tax amendment" id="MKA">
+    <description>Không phải giá trị phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0035" name="Measure unit code of standard quantity after tax amendment" id="AKC">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0037" name="Tax rate after tax amendment" id="AKR">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0038" name="Tax amount after tax amendment" id="AKA">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0039" name="Tax amount after tax amendment" id="AKA">
+    <description>Không phải giá trị phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0040" name="Measure unit code of standard quantity before other tax and collection amendment" id="MC1～MC5">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0041" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0042" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Mã thuế nhập khẩu hoặc mã thuế xuất khẩu đã được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0043" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0045" name="Tax rate before other tax and collection amendment" id="MR1～MR5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0046" name="Tax amount before other tax and collection amendment" id="MA1～MA5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0047" name="Tax amount before other tax and collection amendment" id="MA1～MA5">
+    <description>Không phải giá trị phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0048" name="Measure unit code of standard quantity after other tax and collection amendment" id="AC1～AC5">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0049" name="Classification code after other tax and collection amendment" id="AK1～AK5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0050" name="Classification code after other tax and collection amendment" id="AK1～AK5">
+    <description>Mã thuế nhập khẩu hoặc mã thuế xuất khẩu đã được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0051" name="Classification code after other tax and collection amendment" id="AK1～AK5">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0053" name="Tax rate after other tax and collection amendment" id="AR1～AR5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0054" name="Tax amount after other tax and collection amendment" id="AA1～AA5">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0055" name="Tax amount after other tax and collection amendment" id="AA1～AA5">
+    <description>Không phải giá trị phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0057" name="Amendment declaration number" id="SYN">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0058" name="Item name before tax amendment" id="CMB">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0063" name="Import/Export classification" id="YNK">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0064" name="Import/Export classification" id="YNK">
+    <description>Ký tự khác với "E" hoặc "I"  đã được nhập vào Phân loại xuất nhập khẩu. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0065" name="Import/Export declaration number" id="ICN">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0066" name="Import/Export declaration date" id="IDD">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0067" name="Import/Export permit date" id="IPD">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0068" name="Declarant code" id="IMC">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0069" name="Currency code of tax amount" id="TTC">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0070" name="Currency code of tax amount" id="TTC">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0071" name="Bank payment Issued year" id="BYA">
+    <description>Không phải là năm thực tế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0073" name="Issued year" id="RYA">
+    <description>Không phải là năm thực tế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0074" name="Code of extending due date for payment" id="ENC">
+    <description>Ký tự khác với "A", "B", "C" hoặc "D" đã được nhập vào Mã xác định thời hạn nộp thuế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0075" name="Currency code before tax amendment" id="CDB">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0076" name="Currency code after tax amendment" id="CDA">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0077" name="Place of origin code before tax amendment" id="ORB">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0078" name="Place of origin code before tax amendment" id="ORB">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0079" name="Place of origin code after tax amendment" id="ORA">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0080" name="HS code before tax amendment" id="MKT">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0081" name="HS code after tax amendment" id="AKT">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0082" name="Field No of original declaration" id="RAN">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0083" name="HS code after tax amendment" id="AKT">
+    <description>Các mục khác với OIL đang bị lẫn với các mục OIL.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0084" name="Declaration Kind Code" id="ICB">
+    <description>Chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="S0085" name="Declaration Kind Code" id="ICB">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0086" name="Time limit of re-import/re-export" id="RED">
+    <description>Không phải là ngày thực tế. 
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0088" name="Tax amount before tax amendment" id="MKA">
+    <description>Trị giá tính thuế trước khi khai bổ sung đã nhập là giá trị không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0089" name="Tax amount after tax amendment" id="AKA">
+    <description>Trị giá tính thuế sau khi khai bổ sung đã nhập là giá trị không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0090" name="Tax amount before other tax and collection amendment" id="MA1～MA5">
+    <description>Số tiền thuế trước khi khai bổ sung (thuế và thu khác) đã nhập là giá trị không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0091" name="Tax amount after other tax and collection amendment" id="AA1～AA5">
+    <description>Số tiền thuế sau khi khai bổ sung (thuế và thu khác) đã nhập là giá trị không hợp lệ.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0900" name="Amendment declaration number&#xA;Customs Office&#xA;Customs Sub-section&#xA;Import/Export classification&#xA;Import/Export declaration number&#xA;Declaration Kind Code&#xA;Import/Export declaration date&#xA;Import/Export permit date&#xA;Time limit of re-import/re-export&#xA;Declarant code&#xA;Declarant name&#xA;Declarant post code&#xA;Address of Declarant&#xA;Declarant telephone number&#xA;Amendment declaration reason code&#xA;Currency code of tax amount&#xA;Bank payment code&#xA;Bank payment Issued year&#xA;Bank Payment sign&#xA;Bank Payment No.&#xA;Code of extending due date for payment&#xA;Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No&#xA;Currency code before tax amendment&#xA;Currency exchange rate before tax amendment&#xA;Currency code after tax amendment&#xA;Currency exchange rate after tax amendment&#xA;Enterprise internal control number&#xA;Notes before tax amendment&#xA;Notes after tax amendment&#xA;Field No of original declaration&#xA;Item name before tax amendment&#xA;Item name after tax amendment&#xA;Place of origin code before tax amendment&#xA;Place of origin code after tax amendment&#xA;Standard tax value before tax amendment&#xA;Standard quantity before tax amendment&#xA;Measure unit code of standard quantity before tax amendment&#xA;HS code before tax amendment&#xA;Tax rate before tax amendment&#xA;Tax amount before tax amendment&#xA;Standard tax value after tax amendment&#xA;Standard quantity after tax amendment&#xA;Measure unit code of standard quantity after tax amendment&#xA;HS code after tax amendment&#xA;Tax rate after tax amendment&#xA;Tax amount after tax amendment&#xA;Standard tax value before other tax and collection amendment&#xA;Standard quantity before other tax and collection amendment&#xA;Measure unit code of standard quantity before other tax and collection amendment&#xA;Classification code before other tax and collection amendment&#xA;Tax rate before other tax and collection amendment&#xA;Tax amount before other tax and collection amendment&#xA;Standard tax value after other tax and collection amendment&#xA;Standard quantity after other tax and collection amendment&#xA;Measure unit code of standard quantity after other " id="SYN&#xA;CHS&#xA;CHB&#xA;YNK&#xA;ICN&#xA;ICB&#xA;IDD&#xA;IPD&#xA;RED&#xA;IMC&#xA;IMN&#xA;IMY&#xA;IMA&#xA;IMT&#xA;REC&#xA;TTC&#xA;BRC&#xA;BYA&#xA;BCM&#xA;BCN&#xA;ENC&#xA;SBC&#xA;RYA&#xA;SCM&#xA;SCN&#xA;CDB&#xA;RTB&#xA;CDA&#xA;RTA&#xA;REF&#xA;NTB&#xA;NTA&#xA;RAN&#xA;CMB&#xA;CMA&#xA;ORB&#xA;ORA&#xA;MKB&#xA;MKQ&#xA;MKC&#xA;MKT&#xA;MKR&#xA;MKA&#xA;AKB&#xA;AKQ&#xA;AKC&#xA;AKT&#xA;AKR&#xA;AKA&#xA;MB1～MB5&#xA;MQ1～MQ5&#xA;MC1～MC5&#xA;MK1～MK5&#xA;MR1～MR5&#xA;MA1～MA5&#xA;AB1～AB5&#xA;AQ1～AQ5&#xA;AC1～AC5&#xA;AK1～AK5&#xA;AR1～AR5&#xA;AA1～AA5">
+    <description>Không thể sử dụng (các) ký tự này. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="S0999" name="Declarant name&#xA;Address of Declarant&#xA;Notes before tax amendment&#xA;Notes after tax amendment&#xA;Item name before tax amendment&#xA;Item name after tax amendment" id="IMN&#xA;IMA&#xA;NTB&#xA;NTA&#xA;CMB&#xA;CMA">
+    <description>Nhập liệu quá độ dài cho phép.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0003" name="Import/Export permit date" id="IPD">
+    <description>Ngày cấp phép xuất nhập khẩu là ngày trong tương lai.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0004" name="Import/Export declaration date&#xA;Import/Export permit date" id="IDD&#xA;IPD">
+    <description>Ngày cấp phép xuất nhập khẩu &lt; Ngày khai báo xuất nhập khẩu
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0013" name="Standard tax value before tax amendment&#xA;Standard quantity before tax amendment&#xA;Measure unit code of standard quantity before tax amendment" id="MKB&#xA;MKQ&#xA;MKC">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0014" name="Standard tax value before tax amendment&#xA;Standard quantity before tax amendment" id="MKB&#xA;MKQ">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì Số lượng tính thuế trước khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0015" name="Standard tax value before tax amendment&#xA;Measure unit code of standard quantity before tax amendment" id="MKB&#xA;MKC">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì Mã đơn vị tính của số lượng tính thuế trước khai bổ sung đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0016" name="Standard tax value before tax amendment&#xA;HS code before tax amendment" id="MKB&#xA;MKT">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì Mã số hàng hóa trước khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0017" name="Standard tax value before tax amendment&#xA;Tax rate before tax amendment" id="MKB&#xA;MKR">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì Thuế suất trước khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0018" name="Standard tax value before tax amendment&#xA;Tax amount before tax amendment" id="MKB&#xA;MKA">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì Số tiền thuế trước khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0019" name="Standard tax value before tax amendment&#xA;HS code before tax amendment" id="MKB&#xA;MKT">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung là giá trị khác "0", thì "0" đang được nhập vào Mã số hàng hóa trước khi khai bổ sung.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0020" name="Standard tax value before tax amendment&#xA;Tax rate before tax amendment" id="MKB&#xA;MKR">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung là giá trị khác "0", thì "0" đang được nhập vào Thuế suất trước khi khai bổ sung.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0021" name="Standard tax value after tax amendment&#xA;Standard quantity after tax amendment&#xA;Measure unit code of standard quantity after tax amendment" id="AKB&#xA;AKQ&#xA;AKC">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0022" name="Standard tax value after tax amendment&#xA;Standard quantity after tax amendment" id="AKB&#xA;AKQ">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung bằng "0", thì Số lượng tính thuế sau khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0023" name="Standard tax value after tax amendment&#xA;Measure unit code of standard quantity after tax amendment" id="AKB&#xA;AKC">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung bằng "0", thì Mã đơn vị tính số lượng tính thuế sau khi khai bổ sung đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0024" name="Standard tax value after tax amendment&#xA;HS code after tax amendment" id="AKB&#xA;AKT">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung bằng "0", thì Mã số hàng hóa sau khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0025" name="Standard tax value after tax amendment&#xA;Tax rate after tax amendment" id="AKB&#xA;AKR">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung bằng "0", thì Thuế suất sau khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0026" name="Standard tax value after tax amendment&#xA;Tax amount after tax amendment" id="AKB&#xA;AKA">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung bằng "0", thì Số tiền thuế sau khi khai bổ sung là giá trị khác "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0027" name="Standard tax value after tax amendment&#xA;HS code after tax amendment" id="AKB&#xA;AKT">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung là giá trị khác "0", thì "0" đang được nhập vào Mã số hàng hóa sau khi khai bổ sung.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0028" name="Standard tax value after tax amendment&#xA;Tax rate after tax amendment" id="AKB&#xA;AKR">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung là giá trị khác "0", thì "0" đang được nhập vào Thuế suất sau khi khai bổ sung.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0029" name="Standard tax value before tax amendment&#xA;Standard tax value after tax amendment&#xA;Standard quantity after tax amendment&#xA;Measure unit code of standard quantity after tax amendment" id="MKB&#xA;AKB&#xA;AKQ&#xA;AKC">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung bằng "0", thì "0" đang được nhập vào Trị giá tính thuế sau khi khai bổ sung.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0030" name="Standard tax value before tax amendment&#xA;Standard tax value after tax amendment&#xA;Standard quantity after tax amendment&#xA;Measure unit code of standard quantity after tax amendment" id="MKB&#xA;AKB&#xA;AKQ&#xA;AKC">
+    <description>Trị giá tính thuế sau khi khai bổ sung và Số lượng tính thuế sau khi khai bổ sung đều chưa được nhập.
+
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0031" name="Standard tax value before tax amendment&#xA;HS code after tax amendment" id="MKB&#xA;AKT">
+    <description>Mã số hàng hóa sau khi khai bổ sung chưa được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0032" name="Standard tax value before tax amendment&#xA;Tax rate after tax amendment" id="MKB&#xA;AKR">
+    <description>Thuế suất sau khi khai bổ sung chưa được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0033" name="Standard tax value before tax amendment&#xA;Tax amount after tax amendment" id="MKB&#xA;AKA">
+    <description>Số tiền thuế sau khi khai bổ sung chưa được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0034" name="Standard tax value before other tax and collection amendment&#xA;Standard quantity before other tax and collection amendment&#xA;Measure unit code of standard quantity before other tax and collection amendment" id="MB1～MB5&#xA;MQ1～MQ5&#xA;MC1～MC5">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0035" name="Standard tax value before other tax and collection amendment&#xA;Classification code before other tax and collection amendment" id="MB1～MB5&#xA;MK1～MK5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập, nhưng Mã áp dụng thuế suất trước khi khai bổ sung (thuế và thu khác) đang được nhập. 
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0036" name="Standard tax value before other tax and collection amendment&#xA;Tax rate before other tax and collection amendment" id="MB1～MB5&#xA;MR1～MR5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập, nhưng Thuế suất trước khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0037" name="Standard tax value before other tax and collection amendment&#xA;Tax amount before other tax and collection amendment" id="MB1～MB5&#xA;MA1～MA5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập, nhưng Số tiền thuế trước khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0038" name="Standard tax value before other tax and collection amendment&#xA;Standard quantity before other tax and collection amendment" id="MB1～MB5&#xA;MQ1～MQ5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Số lượng tính thuế trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0039" name="Standard tax value before other tax and collection amendment&#xA;Measure unit code of standard quantity before other tax and collection amendment" id="MB1～MB5&#xA;MC1～MC5">
+    <description>Trong khi giá tính thuế trước khi khai bổ sung (thuế và thu khác) bằng "0", thì Mã đơn vị tính số lượng tính thuế trước khi khai bổ sung (thuế và thu khác) đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0040" name="Standard tax value before other tax and collection amendment&#xA;Classification code before other tax and collection amendment" id="MB1～MB5&#xA;MK1～MK5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Mã áp dụng thuế suất trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0041" name="Standard tax value before other tax and collection amendment&#xA;Tax rate before other tax and collection amendment" id="MB1～MB5&#xA;MR1～MR5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Thuế suất trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0042" name="Standard tax value before other tax and collection amendment&#xA;Tax amount before other tax and collection amendment" id="MB1～MB5&#xA;MA1～MA5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Số tiền thuế trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0043" name="Standard tax value before other tax and collection amendment&#xA;Classification code before other tax and collection amendment" id="MB1～MB5&#xA;MK1～MK5">
+    <description>Mã áp dụng thuế suất trước khi khai bổ sung (thuế và thu khác) chưa được nhập.
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0044" name="Standard tax value before other tax and collection amendment&#xA;Classification code before other tax and collection amendment" id="MB1～MB5&#xA;MK1～MK5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) là giá trị khác "0",  thì "0" đang được nhập vào Mã áp dụng thuế suất trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0045" name="Standard tax value before other tax and collection amendment&#xA;Tax rate before other tax and collection amendment" id="MB1～MB5&#xA;MR1～MR5">
+    <description>Thuế suất trước khi khai bổ sung (thuế và thu khác) chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0046" name="Standard tax value before other tax and collection amendment&#xA;Tax rate before other tax and collection amendment" id="MB1～MB5&#xA;MR1～MR5">
+    <description>Trong khi Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) là giá trị khác "0", thì "0" đang được nhập vào Thuế suất trước khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0047" name="Standard tax value before other tax and collection amendment&#xA;Tax amount before other tax and collection amendment" id="MB1～MB5&#xA;MA1～MA5">
+    <description>Số tiền thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0048" name="Standard tax value after other tax and collection amendment&#xA;Standard quantity after other tax and collection amendment&#xA;Measure unit code of standard quantity after other tax and collection amendment" id="AB1～AB5&#xA;AQ1～AQ5&#xA;AC1～AC5">
+    <description>Tổ hợp các giá trị nhập vào không phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0049" name="Standard tax value after other tax and collection amendment&#xA;Standard quantity after other tax and collection amendment" id="AB1～AB5&#xA;AQ1～AQ5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Số lượng tính thuế sau khi khai bổ sung ( thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0050" name="Standard tax value after other tax and collection amendment&#xA;Measure unit code of standard quantity after other tax and collection amendment" id="AB1～AB5&#xA;AC1～AC5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0", thì Mã đơn vị tính số lượng tính thuế sau khi khai bổ sung (thuế và thu khác) đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0051" name="Standard tax value after other tax and collection amendment&#xA;Classification code after other tax and collection amendment" id="AB1～AB5&#xA;AK1～AK5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Mã áp dụng thuế suất sau khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0052" name="Standard tax value after other tax and collection amendment&#xA;Tax rate after other tax and collection amendment" id="AB1～AB5&#xA;AR1～AR5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào Thuế suất sau khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0053" name="Standard tax value after other tax and collection amendment&#xA;Tax amount after other tax and collection amendment" id="AB1～AB5&#xA;AA1～AA5">
+    <description>Trong khi giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0", thì giá trị khác "0" đang được nhập vào
+Số tiền thuế sau khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0054" name="Standard tax value after other tax and collection amendment&#xA;Classification code after other tax and collection amendment" id="AB1～AB5&#xA;AK1～AK5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) là giá trị khác "0", thì "0" đang được nhập vào Mã áp dụng thuế suất sau khi khai bổ sung (thuế và thu khác).
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0055" name="Standard tax value after other tax and collection amendment&#xA;Tax rate after other tax and collection amendment" id="AB1～AB5&#xA;AR1～AR5">
+    <description>Trong khi Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) là giá trị khác "0",thì "0" đang được nhập vào Thuế suất sau khi khai bổ sung (thuế và thu khác).
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0056" name="Standard tax value before other tax and collection amendment&#xA;Standard tax value after other tax and collection amendment&#xA;Standard quantity after other tax and collection amendment&#xA;Measure unit code of standard quantity after other tax and collection amendment" id="MB1～MB5&#xA;AB1～AB5&#xA;AQ1～AQ5&#xA;AC1～AC5">
+    <description>Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) bằng "0".
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0057" name="Standard tax value before other tax and collection amendment&#xA;Standard tax value after other tax and collection amendment&#xA;Standard quantity after other tax and collection amendment&#xA;Measure unit code of standard quantity after other tax and collection amendment" id="MB1～MB5&#xA;AB1～AB5&#xA;AQ1～AQ5&#xA;AC1～AC5">
+    <description>Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác), Số lượng tính thuế sau khi khai bổ sung ( thuế và thu khác) đang không được nhập.
+
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0058" name="Standard tax value before other tax and collection amendment&#xA;Classification code after other tax and collection amendment" id="MB1～MB5&#xA;AK1～AK5">
+    <description>Mã áp dụng thuế suất sau khi khai bổ sung (thuế và thu khác) chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0059" name="Standard tax value before other tax and collection amendment&#xA;Tax rate after other tax and collection amendment" id="MB1～MB5&#xA;AR1～AR5">
+    <description>Thuế suất sau khi khai bổ sung (thuế và thu khác) chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0060" name="Standard tax value before other tax and collection amendment&#xA;Tax amount after other tax and collection amendment" id="MB1～MB5&#xA;AA1～AA5">
+    <description>Số tiền thuế sau khi khai bổ sung (thuế và thu khác) chưa được nhập.
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0061" name="Standard tax value before other tax and collection amendment&#xA;Standard tax value after other tax and collection amendment" id="MB1～MB5&#xA;AB1～AB5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập và Trị giá tính thuế sau khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0062" name="Standard tax value before other tax and collection amendment&#xA;Classification code after other tax and collection amendment" id="MB1～MB5&#xA;AK1～AK5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập và Mã áp dụng thuế suất sau khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0063" name="Standard tax value before other tax and collection amendment&#xA;Tax rate after other tax and collection amendment" id="MB1～MB5&#xA;AR1～AR5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập và Thuế suất sau khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0064" name="Standard tax value before other tax and collection amendment&#xA;Tax amount after other tax and collection amendment" id="MB1～MB5&#xA;AA1～AA5">
+    <description>Trị giá tính thuế trước khi khai bổ sung (thuế và thu khác) chưa được nhập và Số tiền thuế sau khi khai bổ sung (thuế và thu khác) đang được nhập. 
+
+</description>
+    <disposition>Nhập dữ liệu.
+
+</disposition>
+  </response>
+  <response code="R0065" name="Standard tax value before other tax and collection amendment" id="MB1～MB5">
+    <description>Chưa được nhập theo thứ tự phù hợp.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0066" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Mã thuế giống nhau và khoản trả thuế khác đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0067" name="Classification code after other tax and collection amendment&#xA;Classification code before other tax and collection amendment" id="AK1～AK5&#xA;MK1～MK5">
+    <description>Mã thuế giống nhau và khoản trả thuế khác đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0068" name="Classification code before other tax and collection amendment&#xA;Classification code after other tax and collection amendment" id="MK1～MK5&#xA;AK1～AK5">
+    <description>Mã thuế giống nhau và khoản trả thuế khác đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0069" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Trị giá thuế và khoản trả thuế khác đã nhập vào không thuộc khoảng thời gian áp dụng của ngày cấp phép.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0070" name="Classification code before other tax and collection amendment" id="MK1～MK5">
+    <description>Trị giá thuế và khoản trả thuế khác đã nhập vào không thuộc khoảng thời gian áp dụng của ngày cấp phép.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0071" name="Classification code after other tax and collection amendment" id="AK1～AK5">
+    <description>Trị giá thuế và khoản trả thuế khác đã nhập vào không thuộc khoảng thời gian áp dụng của ngày cấp phép.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0072" name="Classification code after other tax and collection amendment" id="AK1～AK5">
+    <description>Trị giá thuế và khoản trả thuế khác đã nhập vào không thuộc khoảng thời gian áp dụng của ngày cấp phép.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0075" name="None" id="0000">
+    <description>Mã số thuế vượt quá 7 mục.
+
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+
+</disposition>
+  </response>
+  <response code="R0076" name="Bank payment code&#xA;Bank payment Issued year" id="BRC&#xA;BYA">
+    <description>Mã ngân hàng trả thuế thay và Năm phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0077" name="Bank payment code&#xA;Bank Payment sign" id="BRC&#xA;BCM">
+    <description>Mã ngân hàng trả thuế thay và  Kí hiệu chứng từ phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0078" name="Bank payment code&#xA;Bank Payment No." id="BRC&#xA;BCN">
+    <description>Mã ngân hàng trả thuế thay và  Số chứng từ phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0079" name="Security supplier Bank code&#xA;Issued year" id="SBC&#xA;RYA">
+    <description>Mã ngân hàng bảo lãnh và Năm phát hành bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0080" name="Security supplier Bank code&#xA;Security bank sign" id="SBC&#xA;SCM">
+    <description>Mã ngân hàng bảo lãnh và Ký hiệu phát hành chứng từ bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0081" name="Security supplier Bank code&#xA;Security No" id="SBC&#xA;SCN">
+    <description>Mã ngân hàng bảo lãnh và Số phát hành chứng từ bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0084" name="Code of extending due date for payment&#xA;Security supplier Bank code" id="ENC&#xA;SBC">
+    <description>Trong khi "A" hoặc "B" đã được nhập vào Mã xác định thời hạn nộp thuế, thì Mã ngân hàng bảo lãnh chưa được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0085" name="Currency code before tax amendment&#xA;Currency exchange rate before tax amendment" id="CDB&#xA;RTB">
+    <description>Mã tiền tệ trước khi khai bổ sung và Tỷ giá hối đoái trước khi khai bổ sung chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0086" name="Currency code after tax amendment&#xA;Currency exchange rate after tax amendment" id="CDA&#xA;RTA">
+    <description>Mã tiền tệ sau khi khai bổ sung và Tỷ giá hối đoái sau khi khai bổ sung chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Nhập thành một bộ.
+</disposition>
+  </response>
+  <response code="R0089" name="Code of extending due date for payment&#xA;Bank payment code" id="ENC&#xA;BRC">
+    <description>Trong khi Mã xác định thời hạn nộp thuế khác "D", thì Mã ngân hàng trả thuế thay đang được nhập.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0090" name="Code of extending due date for payment&#xA;Security supplier Bank code" id="ENC&#xA;SBC">
+    <description>Trong khi Mã xác định thời hạn nộp thuế là "C" hoặc "D", thì Mã ngân hàng bảo lãnh đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0091" name="Code of extending due date for payment&#xA;Bank payment code" id="ENC&#xA;BRC">
+    <description>Trong khi Mã xác định thời hạn nộp thuế khác "D", thì Mã ngân hàng trả thuế thay đang được nhập.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0092" name="Bank payment code&#xA;Bank payment Issued year" id="BRC&#xA;BYA">
+    <description>Mã ngân hàng trả thuế thay và Năm phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0093" name="Bank payment code&#xA;Bank Payment sign" id="BRC&#xA;BCM">
+    <description>Mã ngân hàng trả thuế thay và  Kí hiệu chứng từ phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0094" name="Bank payment code&#xA;Bank Payment No." id="BRC&#xA;BCN">
+    <description>Mã ngân hàng trả thuế thay và  Số chứng từ phát hành hạn mức chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0095" name="Security supplier Bank code&#xA;Issued year" id="SBC&#xA;RYA">
+    <description>Mã ngân hàng bảo lãnh và Năm phát hành bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0096" name="Security supplier Bank code&#xA;Security bank sign" id="SBC&#xA;SCM">
+    <description>Mã ngân hàng bảo lãnh và Ký hiệu phát hành chứng từ bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0097" name="Security supplier Bank code&#xA;Security No" id="SBC&#xA;SCN">
+    <description>Mã ngân hàng bảo lãnh và Số phát hành chứng từ bảo lãnh chưa được nhập thành một bộ.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0098" name="Declaration Kind Code&#xA;Time limit of re-import/re-export" id="ICB&#xA;RED">
+    <description>Trong khi Mã loại hình là " Tờ khai tạm nhập/tạm xuất", thì Thời hạn tái nhập/ tái xuất đang không được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0099" name="Declaration Kind Code&#xA;Time limit of re-import/re-export" id="ICB&#xA;RED">
+    <description>Trong khi Mã loại hình không phải là "Tờ khai tạm nhập/ tái xuất", thì Thời hạn tái nhập/ tái xuất đang được nhập.
+
+</description>
+    <disposition>Hủy giá trị nhập.
+
+</disposition>
+  </response>
+  <response code="R0100" name="Import/Export classification&#xA;Declaration Kind Code&#xA;Code of extending due date for payment" id="YNK&#xA;ICB&#xA;ENC">
+    <description>Trong khi đang khai bổ sung cho tờ khai nhập khẩu AEO,
+thì "C" đang được nhập vào Mã xác định thời hạn nộp thuế.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0101" name="None" id="0000">
+    <description>Mặc dù là nhập khẩu, nhưng phần đối tượng nhập đã bị sai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0102" name="None" id="0000">
+    <description>Mặc dù là xuất khẩu, nhưng phần đối tượng nhập đã bị sai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="R0103" name="None" id="0000">
+    <description>Mặc dù Mã xác định thời hạn nộp thuế đang được nhập, nhưng chi phí vẫn được nhập.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0004" name="Amendment declaration number" id="SYN">
+    <description>Tờ khai bổ sung đã được gửi (AMC)
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0005" name="None" id="0000">
+    <description>Thông tin nhập không có phần chi tiết.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0006" name="Item name before tax amendment" id="CMB">
+    <description>Một số cột không có tên hàng hóa
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0008" name="Customs Office" id="CHS">
+    <description>Mã cơ quan Hải quan nơi nhận khác đang được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0009" name="Customs Sub-section" id="CHB">
+    <description>Chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0012" name="None" id="0000">
+    <description>Số ký tự của số tiền tăng và giảm thuế xuất nhập khẩu vượt quá giá trị quy định.
+
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+
+</disposition>
+  </response>
+  <response code="E0013" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền tăng và giảm thuế xuất nhập khẩu vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+
+</disposition>
+  </response>
+  <response code="E0015" name="None" id="0000">
+    <description>Số ký tự của tiền thuế và các khoản thanh toán khác vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+
+</disposition>
+  </response>
+  <response code="E0016" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền (VAT) vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+
+</disposition>
+  </response>
+  <response code="E0025" name="Declarant code" id="IMC">
+    <description>Mã người khai chưa được nhập.
+
+</description>
+    <disposition>Nhập nội dung.
+
+</disposition>
+  </response>
+  <response code="E0026" name="Amendment declaration number" id="SYN">
+    <description>Điều tra tờ khai bổ sung thuế (CAM) đã hoàn tất.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0027" name="Code of extending due date for payment" id="ENC">
+    <description>Trong khi số tiền thuế tăng, thì Mã xác định thời hạn nộp thuế chưa được nhập.
+
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0030" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền thuế xuất nhập khẩu vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0031" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền thuế và thu khác vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0032" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền (VAT) vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0033" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền (thuế và chi phí) vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0034" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền (thuế) vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0035" name="None" id="0000">
+    <description>Số ký tự của tổng số tiền (chi phí) vượt quá giá trị quy định.
+</description>
+    <disposition>Thực hiện thao tác bằng tay.
+</disposition>
+  </response>
+  <response code="E0036" name="Bank payment code" id="BRC">
+    <description>Trong khi tổng số tiền (thuế và chi phí) nhỏ hơn hoặc bằng 0, thì Mã ngân hàng trả thuế thay đang được nhập.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E0037" name="Currency code of tax amount" id="TTC">
+    <description>Các Mã khác với "VND" đã được nhập vào Mã tiền tệ của tiền thuế.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0038" name="Currency code of tax amount" id="TTC">
+    <description>Không phải giá trị phù hợp.</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E7000" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh riêng và Bảo lãnh chung không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7001" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh riêng không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7002" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số tờ khai" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7003" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Mã loại hình" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7004" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Cơ quan Hải quan" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7005" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Ngày đăng ký tờ khai (Dự kiến)" đã đăng ký trong bảo lãnh khác với nội dung của tờ khai. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7006" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đây là thông tin bảo lãnh mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7007" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Chưa tới "ngày bắt đầu hiệu lực" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7008" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đã qua "ngày hết hạn" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7009" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số tiền sử dụng để bảo lãnh" quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7010" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Mã tiền tệ của số tiền bảo lãnh được tính từ hệ thống và "mã tiền tệ" đã đăng ký trong bảo lãnh khác nhau. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7021" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh chung không tồn tại trong hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7022" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Bảo lãnh không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7023" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đây là thông tin bảo lãnh mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7024" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Chưa tới "ngày bắt đầu hiệu lực" đã đăng ký trong bảo lãnh.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7025" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Đã qua "Ngày hết hạn" đã đăng ký trong bảo lãnh. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7026" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>Số dư khả dụng quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7031" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7032" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" không hợp lệ. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7033" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Chưa tới "Ngày bắt đầu hiệu lực" đã đăng ký trong "Ngân hàng trả thuế thay". 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7034" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Đã qua "ngày hết hạn" đã đăng ký trong "Ngân hàng trả thuế thay".
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7035" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Số dư khả dụng quá ít.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7036" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Ngân hàng trả thuế thay" đã đạt đến con số tối đa được sử dụng trong hệ thống. 
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7037" name="None&#xA;Security supplier Bank code" id="0000&#xA;SBC">
+    <description>"Số I/V" và "Số vận đơn" đã được đăng ký trong bảo lãnh đều khác với nội dung của tờ khai.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7038" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Cơ quan Hải quan" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7039" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã lý do chưa nộp thuế" đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7040" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã sắc thuế/phí" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7041" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Loại tài khoản kho bạc" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7042" name="None&#xA;Security supplier Bank code&#xA;Bank payment code" id="0000&#xA;SBC&#xA;BRC">
+    <description>"Mã nhập phụ tham chiếu thông báo nộp thuế" chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E7043" name="None&#xA;Bank payment code" id="0000&#xA;BRC">
+    <description>Thông tin ngân hàng trả thuế thay mà người nhập không có quyền.
+</description>
+    <disposition>Kiểm tra nội dung đã nhập.
+</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.
+</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.
+</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>"Mã sắc thuế" của thuế nhập khẩu hoặc thuế xuất khẩu chưa được đăng ký vào hệ thống.
+
+</description>
+    <disposition>Vui lòng liên hệ đăng ký.
+</disposition>
+  </response>
+  <response code="L0990" name="None" id="0000">
+    <description>DB xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống (Hải quan Việt Nam).
+</disposition>
+  </response>
+  <response code="L0991" name="None" id="0000">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập với định dạng hợp lệ.
+</disposition>
+  </response>
+</help>

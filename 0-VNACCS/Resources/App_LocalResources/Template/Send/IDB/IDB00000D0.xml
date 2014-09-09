@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM31_IDB" jobname="CAM31_IDB" display-name="IDB Pre-registration of import declaration (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM31_IDB.xml" item_attr_edit="False" />
+  <friday href="CAM31_IDB.xml" revision="0000" />
+  <iteminfo>
+    <item id="ICN" name="Declaration No." input_output="+" required="C" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="TOM" name="Type of manifest(cargo)" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="BLN" name="Cargo No. (B/L No., AWB No. etc....)" input_output="+" required="C" attribute="A" figure="35" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="IVU" name="Electronic Invoice Receipt No." input_output="+" required="C" attribute="I" figure="12" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="9, 19" Location="345, 225" Text="-" Font="Tahoma, 9pt" />
+    <label Size="59, 19" Location="150, 201" Text="Số tờ khai" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="323, 200" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ICN" figure="12" required="C" />
+    <label Size="66, 19" Location="150, 226" Text="Số vận đơn" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="258, 21" Location="357, 225" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Cargo No. (B/L No., AWB No. etc....)" check_attribute="*" attribute="A" id="BLN" figure="35" required="C" />
+    <label Size="165, 19" Location="150, 251" Text="Số tiếp nhận hóa đơn điện tử" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="20, 21" Location="323, 225" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Type of manifest(cargo)" check_attribute="*" attribute="A" id="TOM" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="97, 21" Location="323, 250" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Electronic Invoice Receipt No." check_attribute="*" attribute="I" id="IVU" figure="12" required="C" />
+  </layout>
+</jobform>

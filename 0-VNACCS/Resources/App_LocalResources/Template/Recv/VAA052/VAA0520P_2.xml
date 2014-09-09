@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_VOT" jobname="Registration of departure notification A" display-name="Sea departure notification (on health)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA0520_2.xml" item_attr_edit="False" />
+  <friday href="VAA0520_2.xml" revision="0000" />
+  <iteminfo>
+    <item id="ONN" name="Departure notification number" input_output="-" required="C" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DRC" name="Date of registration / correction" input_output="-" required="C" attribute="A" figure="8" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRC" name="Time of registration / correction" input_output="-" required="C" attribute="A" figure="4" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="50">
+      <item id="PTA" name="Port type(for animals)" input_output="-" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="PCA" name="Port code(for animals)" input_output="-" required="C" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KOA" name="Kind of animals" input_output="-" required="C" attribute="A" figure="70" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KOP" name="Kind of animal products" input_output="-" required="C" attribute="A" figure="70" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 11pt" MaxOccurs="2">
+      <pagelabel Location="618, 0" Size="100, 23" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <label Location="32, 83" Size="64, 19" Font="Tahoma, 9pt" Text="Port(Cảng)" />
+      <label Location="15, 55" Size="203, 19" Font="Tahoma, 9pt" Text="Quarantine information(For animals)" />
+      <label Location="129, 83" Size="172, 19" Font="Tahoma, 9pt" Text="Kind of animals(Loại động vật)" />
+      <label Location="410, 83" Size="274, 19" Font="Tahoma, 9pt" Text="Kind of animal products(Loại sản phẩm động vật)" />
+      <prttextbox Format="dd/MM/yyyy" Location="475, 27" Size="81, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DRC" input_output="-" name="Date of registration / correction" order="2" required="C" />
+      <prttextbox Format="" Location="170, 27" Size="99, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="ONN" input_output="-" name="Departure notification number" order="1" required="C" />
+      <label Location="15, 25" Size="146, 19" Font="Tahoma, 9pt" Text="Departure notification No." />
+      <label Location="292, 25" Size="160, 19" Font="Tahoma, 9pt" Text="Registration/ correction date" />
+      <prttextbox Format="hh:mm" Location="577, 27" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TRC" input_output="-" name="Time of registration / correction" order="3" required="C" />
+      <label Location="562, 25" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <ran Location="2, 102" Size="714, 36" Font="Tahoma, 11pt" Count="25" repetition_id="R01" repetition_max="50" RepX="1" RepY="25" SpaceX="0" SpaceY="0">
+        <ranlabel Location="3, 3" Size="21, 14" Font="Tahoma, 9pt" figure="2" repetition_id="R01" Value="0" PadLeft="True" />
+        <prttextbox Format="" Location="30, 3" Size="15, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="PTA" input_output="-" name="Port type(for animals)" order="4" required="C" />
+        <label Location="51, 1" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+        <prttextbox Format="" Location="66, 3" Size="44, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="PCA" input_output="-" name="Port code(for animals)" order="5" required="C" />
+        <prttextbox Format="" Multiline="True" Location="127, 3" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KOA" input_output="-" name="Kind of animals" order="6" required="C" />
+        <prttextbox Format="" Multiline="True" Location="408, 3" Size="252, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KOP" input_output="-" name="Kind of animal products" order="7" required="C" />
+      </ran>
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 11pt" Text="Title1" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+    </page>
+  </layout>
+</jobform>

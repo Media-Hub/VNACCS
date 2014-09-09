@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_BIA11" jobname="Registration of notification on arrival regarding transportation (Call up)" display-name="Registration of notification on arrival regarding transportation (Call up)">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_BIA11.xml" item_attr_edit="False" />
+  <friday href="CAM20_BIA11.xml" revision="0000" />
+  <iteminfo>
+    <item id="OLT" name="Declaration No." input_output="+" required="M" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="258, 199" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="333, 198" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="A" id="OLT" figure="12" required="M" />
+  </layout>
+</jobform>

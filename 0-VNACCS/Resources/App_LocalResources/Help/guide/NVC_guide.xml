@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="NVC" name="House manifest registration A">
+  <item no="1" name="Processing type" id="KND" required="" code="">Lựa chọn giá trị từ trình đơn.
+9: Đăng ký
+5: Sửa đổi
+1: Hủy</item>
+  <item no="2" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn giá trị từ trình đơn:
+I: Import (nhập khẩu)
+E: Export (xuất khẩu)</item>
+  <item no="3" name="Master B/L No." id="OBL" required="" code="">Nhập số vận đơn chủ (Master B/L). Trường hợp số B/L không chứa Mã hãng vận tải thì nhập thêm Mã hàng vận tải vào trước số B/L.</item>
+  <item no="4" name="Customs office" id="CHC" required="" code="Customs office code">Nhập Mã cơ quan Hải quan nhận thông tin bản khai. Trường hợp sửa đổi hoặc hủy thì Mã cơ quan Hải quan không thể sửa chữa.</item>
+  <item no="5" name="House B/L No." id="CBL" required="" code="">Nhập số B/L thứ cấp.Trường hợp số B/L thứ cấp không chứa Mã hãng vận tải thì nhập thêm Mã hàng vận tải vào trước số B/L (không dùng dấu phẩy ",")</item>
+  <item no="6" name="Final destination code" id="DST" required="" code="UN/LOCODE">Nhập mã địa điểm đích theo mã UNLOCODE</item>
+  <item no="7" name="Final destination name" id="DSN" required="" code="">Trường hợp Tên điểm đích cuối cùng chưa được đăng ký trong hệ thống thì yêu cầu nhập vào mục này.</item>
+  <item no="8" name="Place of delivery code" id="DLP" required="" code="UN/LOCODE">Nhập mã địa điểm giao hàng theo UNLOCODE</item>
+  <item no="9" name="Place of delivery name" id="DLN" required="" code="">Trường hợp Tên điểm giao hàng chưa được đăng ký trong hệ thống thì yêu cầu nhập vào mục này.</item>
+  <item no="10" name="Consignor code" id="SHS" required="" code="Importer/exporter code">
+  </item>
+  <item no="11" name="Consignor name" id="SHN" required="" code="">
+  </item>
+  <item no="12" name="Consignor postcode" id="SHP" required="" code="">
+  </item>
+  <item no="13" name="Consignor address 1 (Building name etc.)" id="SN1" required="" code="">
+  </item>
+  <item no="14" name="Consignor address 2 (Street and number/P.O. Box)" id="SN2" required="" code="">
+  </item>
+  <item no="15" name="Consignor address 3 (District/Commune name)" id="SN3" required="" code="">
+  </item>
+  <item no="16" name="Consignor address 4 (City name)" id="SN4" required="" code="">
+  </item>
+  <item no="17" name="Consignor address 5 (Country code)" id="SN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="18" name="Consignor telephone No." id="SHT" required="" code="">
+  </item>
+  <item no="19" name="Consignee code" id="CNS" required="" code="Importer/exporter code">
+  </item>
+  <item no="20" name="Consignee name" id="CNN" required="" code="">
+  </item>
+  <item no="21" name="Consignee postcode" id="CNP" required="" code="">
+  </item>
+  <item no="22" name="Consignee address 1 (Building name etc.)" id="CN1" required="" code="">
+  </item>
+  <item no="23" name="Consignee address 2 (Street and number/P.O.Box)" id="CN2" required="" code="">
+  </item>
+  <item no="24" name="Consignee address 3 (District/Commune name)" id="CN3" required="" code="">
+  </item>
+  <item no="25" name="Consignee address 4 (City name)" id="CN4" required="" code="">
+  </item>
+  <item no="26" name="Consignee address 5 (Country code)" id="CN5" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="27" name="Consignee telephone No." id="CTL" required="" code="">
+  </item>
+  <item no="28" name="Notify party code" id="NS_" required="" code="Importer/exporter code">
+  </item>
+  <item no="29" name="Notify party name" id="NN_" required="" code="">Yêu cầu nhập ít nhất 1 Tên bên nhận thông báo hàng đến. Trường hợp không nhập Mã bên nhận thông báo hàng đến thì yêu cầu nhập Tên bên nhận thông báo hàng đến tại mục này.</item>
+  <item no="30" name="Notify party postcode" id="NP_" required="" code="">
+  </item>
+  <item no="31" name="Notify party address 1 (Building name etc.)" id="NE_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="32" name="Notify party address 2 (Street and number/P.O.Box)" id="NF_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="33" name="Notify party address 3 (District/Commune name)" id="NG_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="34" name="Notify party address 4 (City name)" id="NH_" required="" code="">Enter either of following elements;
+- Notify party address 1 (Building name etc.)
+- Notify party address 2 (Street and number/P.O. Box)
+- Notify party address 3 (District/Commune name)
+- Notify party address 4 (City name)
+</item>
+  <item no="35" name="Notify party address 5 (Country code)" id="NC_" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập mã quốc gia gồm 2 ký tự theo bảng mã UN/LOCODE</item>
+  <item no="36" name="Notify party telephone No." id="NL_" required="" code="">
+  </item>
+  <item no="37" name="Freight" id="FRT" required="" code="">Trường hợp Mã phân loại tiền tệ cước vận chuyển không phải là VNĐ thì được phép nhập số thập phân với tối đa 15 ký tự nguyên và 4 ký tự sau dấu phẩy.
+Nếu Mã phân loại tiền tệ cước vận chuyển là VNĐ thì chỉ được nhập số nguyên (20 ký tự)</item>
+  <item no="38" name="Freight currency code" id="FRC" required="" code="Currency Code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ theo danh mục ISO4217</item>
+  <item no="39" name="Transship/Transit" id="KRR" required="" code="UN/EDIFACT code (7365)">Nhập giá trị 28 cho hàng chuyển tải/quá cảnh</item>
+  <item no="40" name="Transship/Transit reason" id="KRS" required="" code="Transship/Transit reason code">Nhập Mã lý do chuyển tải/quá cảnh theo danh mục hướng dẫn (A303A)</item>
+  <item no="41" name="Transship/Transit duration" id="PRD" required="" code="">Thời hạn chuyển tải/quá cảnh tính từ ngày hàng hóa/container được dỡ xuống khỏi phương tiện. Không được nhập số 0</item>
+  <item no="42" name="Code of verification based on other laws and regulations (other than Customs laws)" id="OC_" required="" code="Code of verification based on other laws and regulations (other than Customs laws)">Nhập mã của các văn bản pháp quy khác quy định các vấn đề liên quan đến phương tiện, hàng hóa chuyên chở.</item>
+  <item no="43" name="Remarks" id="NTE" required="" code="">
+  </item>
+  <item no="44" name="Goods description" id="CM__" required="" code="">Nhập mô tả hàng hóa. Yêu cầu nhập ít nhất 1 dòng hàng trên bản khai. 1  Vận đơn thứ cấp được nhập tối đa 30 dòng hàng. </item>
+  <item no="45" name="HS code (First 4 digits)" id="HS__" required="" code="HS code (4-digit)">Nhập mã HS (4 ký tự) của hàng hóa</item>
+  <item no="46" name="Marks and Nos." id="MR__" required="" code="">
+  </item>
+  <item no="47" name="Number of packages" id="PC__" required="" code="">Chỉ nhập số nguyên. Trường hợp hàng không chia theo kiện (hàng rời, hàng xá) thì nhập số 1.</item>
+  <item no="48" name="Number of packages unit code" id="PU__" required="" code="Kinds of packages code (UN/ECE 21/alphabetic letter)">Nhập Mã đơn vị số kiện theo danh mục hướng dẫn (A316A)</item>
+  <item no="49" name="Gross weight" id="GW__" required="" code="">Nhập tổng trọng lượng của hàng hóa. Nhập số bao gồm tối đa 6 số nguyên và 3 số thập phân</item>
+  <item no="50" name="Weight unit code" id="1W__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị tính của trọng lượng trong trình đơn, gồm:
+KGM: Kilogram
+TNE: Metric Ton
+LBR: Pound</item>
+  <item no="51" name="Net weight" id="NW__" required="" code="">Nhập trọng lượng tịnh của hàng hóa. Nhập số bao gồm tối đa 6 số nguyên và 3 số thập phân</item>
+  <item no="52" name="Weight unit code" id="2W__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị tính của trọng lượng trong trình đơn, gồm:
+KGM: Kilogram
+TNE: Metric Ton
+LBR: Pound</item>
+  <item no="53" name="Capacity" id="VO__" required="" code="">Nhập thể tích của hàng hóa theo định dạng số thập phân với tối đa 6 ký tự phần nguyên và 3 ký tự phần sau dấu phẩy.</item>
+  <item no="54" name="Capacity unit code" id="VU__" required="" code="Quantity unit code (UN/ECE 20/alphabetic letter)">Lựa chọn đơn vị thể tích của hàng hóa trong trình đơn, gồm:
+MTQ: Cubic Meter
+FTQ: Cubic Feet
+BFT: Board Foot Measure (timber)</item>
+  <item no="55" name="Country of origin code" id="OR__" required="" code="UN/LOCODE&#xA;(2-digit country code)">Nhập Mã nước xuất xứ theo bảng mã UNLOCODE</item>
+  <item no="56" name="Special cargo sign" id="SP__" required="" code="Special cargo code">Nhập ký hiệu hàng hóa đặc biệt theo danh mục hướng dẫn</item>
+</guide>

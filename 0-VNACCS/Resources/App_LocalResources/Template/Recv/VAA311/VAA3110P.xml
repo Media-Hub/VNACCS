@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_TIR" jobname="Registration of arrival declaration D" display-name="Copy of registered information of vehicle arrival declaration">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA3110.xml" item_attr_edit="False" />
+  <friday href="VAA3110.xml" revision="0000" />
+  <iteminfo>
+    <item id="NPT" name="Name of processing type" input_output="-" required="" attribute="A" figure="7" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ADT" name="Arrival/Departure" input_output="-" required="" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DNO" name="Declaration number" input_output="-" required="" attribute="A" figure="12" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DDT" name="Declaration date" input_output="-" required="" attribute="A" figure="8" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DTM" name="Declaration time" input_output="-" required="" attribute="A" figure="4" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="LPN" name="License plate No." input_output="-" required="" attribute="A" figure="35" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="RCD" name="Registering country" input_output="-" required="" attribute="A" figure="2" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="RCN" name="Registering country name" input_output="-" required="" attribute="A" figure="7" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BGC" name="Border gate code" input_output="-" required="" attribute="A" figure="6" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="BGN" name="Border gate name" input_output="-" required="" attribute="A" figure="35" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DAD" name="Date of arrival / departure" input_output="-" required="" attribute="A" figure="8" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TAP" name="Time of arrival / departure" input_output="-" required="" attribute="A" figure="4" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 11pt" MinOccurs="1">
+      <pagelabel Location="0, 21" Size="718, 17" Font="Tahoma, 11.25pt" Text="Title2" TextAlign="MiddleCenter" PageFormat="PageTitle2" />
+      <pagelabel Location="0, 0" Size="718, 20" Font="Tahoma, 11.25pt" Text="Title1" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="260, 211" Size="17, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="ADT" input_output="-" name="Arrival/Departure" order="2" required="" />
+      <prttextbox Format="dd/MM/yyyy" Location="260, 294" Size="101, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DDT" input_output="-" name="Declaration date" order="4" required="" />
+      <prttextbox Format="hh:mm" Location="377, 294" Size="54, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="DTM" input_output="-" name="Declaration time" order="5" required="" />
+      <prttextbox Format="" Location="260, 253" Size="119, 17" BorderStyle="None" Font="Courier New, 11.25pt" TextAlign="Right" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="DNO" input_output="-" name="Declaration number" order="3" required="" />
+      <prttextbox Format="" Location="260, 169" Size="73, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="NPT" input_output="-" name="Name of processing type" order="1" required="" />
+      <label Location="364, 291" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <label Location="54, 281" Size="125, 42" Font="Tahoma, 11.25pt" Text="Declaration date&#xD;&#xA;(Ngày khai báo)" />
+      <label Location="54, 197" Size="141, 42" Font="Tahoma, 11.25pt" Text="Arrival / Departure&#xD;&#xA;(Đến / Đi)" />
+      <label Location="54, 239" Size="119, 42" Font="Tahoma, 11.25pt" Text="Declaration No.&#xD;&#xA;(Số tờ khai)" />
+      <label Location="54, 155" Size="120, 42" Font="Tahoma, 11.25pt" Text="Processing type&#xD;&#xA;(Phân loại xử lý)" />
+      <prttextbox Format="" Location="260, 379" Size="27, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="RCD" input_output="-" name="Registering country" order="7" required="" />
+      <prttextbox Format="" Location="306, 379" Size="73, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="7" form="" id="RCN" input_output="-" name="Registering country name" order="8" required="" />
+      <prttextbox Format="" Location="260, 335" Size="333, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="LPN" input_output="-" name="License plate No." order="6" required="" />
+      <label Location="54, 325" Size="131, 42" Font="Tahoma, 11.25pt" Text="License plate No.&#xD;&#xA;(Biển số xe)" />
+      <label Location="292, 376" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <label Location="54, 367" Size="157, 42" Font="Tahoma, 11.25pt" Text="Registering country&#xD;&#xA;(Quốc gia đăng ký xe)" />
+      <prttextbox Format="" Location="341, 421" Size="333, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="BGN" input_output="-" name="Border gate name" order="10" required="" />
+      <prttextbox Format="" Location="260, 421" Size="64, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="BGC" input_output="-" name="Border gate code" order="9" required="" />
+      <label Location="54, 409" Size="94, 42" Font="Tahoma, 11.25pt" Text="Border gate&#xD;&#xA;(Cửa khẩu)" />
+      <label Location="328, 418" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+      <prttextbox Format="dd/MM/yyyy" Location="260, 465" Size="101, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="DAD" input_output="-" name="Date of arrival / departure" order="11" required="" />
+      <prttextbox Format="hh:mm" Location="378, 465" Size="54, 17" BorderStyle="None" Font="Courier New, 11.25pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="TAP" input_output="-" name="Time of arrival / departure" order="12" required="" />
+      <label Location="54, 451" Size="193, 42" Font="Tahoma, 11.25pt" Text="Date of arrival / departure&#xD;&#xA;(Ngày đến / đi)" />
+      <label Location="365, 462" Size="11, 23" Font="Tahoma, 11.25pt" Text="-" />
+    </page>
+  </layout>
+</jobform>

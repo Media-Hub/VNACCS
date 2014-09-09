@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IAS" name="Reference of security information">
+  <item no="1" name="Type of security" id="TYS" required="" code="">Nhập một trong các mã sau:
+“A”: Bảo lãnh riêng
+“B”: Bảo lãnh chung
+“C”: Bảo lãnh riêng trong vận chuyển hàng hóa chịu sự giám sát hải quan
+“D”: Bảo lãnh chung trong vận chuyển hàng hóa chịu sự giám sát hải quan
+</item>
+  <item no="2" name="Security supplier Bank code" id="SBC" required="" code="">Nhập mã ngân hàng cung cấp bảo lãnh.
+
+</item>
+  <item no="3" name="Issued year" id="RYA" required="" code="">Nhập năm phát hành của chứng từ bảo lãnh.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="4" name="Security bank sign" id="SCM" required="" code="">Nhập ký hiệu của chứng từ bảo lãnh do ngân hàng cung cấp trên chứng thư bảo lãnh.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="5" name="Security No." id="SCN" required="" code="">Nhập số của chứng từ bảo lãnh do ngân hàng cung cấp trên chứng thư bảo lãnh.
+Bắt buộc nhập trong trường hợp người khai đã nhập liệu tại chỉ tiêu "Mã ngân hàng bảo lãnh".
+</item>
+  <item no="6" name="Currency Code" id="CCC" required="" code="Currency code (ISO4217/alphabet)">Nhập mã đơn vị tiền tệ của hóa đơn theo chuẩn UN/LOCODE.
+(tham khảo bảng mã đơn vị tiền tệ trên website Hải quan: www.customs.gov.vn)
+Lưu ý:
+Chỉ nhập chỉ tiêu này nếu loại bảo lãnh là B (Bảo lãnh chung).
+</item>
+</guide>

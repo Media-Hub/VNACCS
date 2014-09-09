@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IAS" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0002" name="None" id="0000">
+    <description>Thông tin này đã được người sử dụng khác đăng ký.
+</description>
+    <disposition>Kiểm tra việc nhập thông tin.
+</disposition>
+  </response>
+  <response code="S0001" name="Type of security" id="TYS">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị với định dạng hợp lệ.
+</disposition>
+  </response>
+  <response code="S0002" name="Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No." id="SBC&#xA;RYA&#xA;SCM&#xA;SCN">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0900" name="Type of security&#xA;Security supplier Bank code&#xA;Issued year&#xA;Security bank sign&#xA;Security No.&#xA;Currency Code" id="TYS&#xA;SBC&#xA;RYA&#xA;SCM&#xA;SCN&#xA;CCC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0001" name="Currency Code" id="CCC">
+    <description>Cần phải có Mã tiền tệ trong trường hợp là bảo lãnh chung.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="R0003" name="None" id="0000">
+    <description>Nhà vận chuyển chỉ có thể chọn Loại hình bảo lãnh là "C" hoặc "D".
+</description>
+    <disposition>Nhập giá trị không hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="None" id="0000">
+    <description>Thông tin bảo lãnh chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị, và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để tham khảo.</description>
+    <disposition>Nhấn nút "Send" để có được thêm thông tin.</disposition>
+  </response>
+  <response code="W1002" name="None" id="0000">
+    <description>Không có thông tin chi tiết sử dụng bảo lãnh.</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="L0002" name="Currency Code" id="CCC">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị, và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="L0990" name="None" id="0000">
+    <description>Cơ sở dữ liệu xảy ra lỗi không tương thích.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống (Hải quan Việt Nam).
+</disposition>
+  </response>
+  <response code="L0991" name="None" id="0000">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập với định dạng hợp lệ.
+</disposition>
+  </response>
+</help>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="TEB" name="Registration of the list of tax exemption (Call up)">
+  <item no="1" name="Tax exemption list No." id="TEN" required="" code="">Nhập số danh mục miễn thuế.</item>
+</guide>

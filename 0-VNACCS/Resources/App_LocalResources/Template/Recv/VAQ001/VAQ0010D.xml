@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM00_TCC" jobname="Establishment of communication channel check" display-name="Establishment of communication channel check">
+  <meta_info format_Version="1.0" revision="0000" friday="VAQ0010.xml" item_attr_edit="False" />
+  <friday href="VAQ0010.xml" revision="0000" />
+  <iteminfo>
+    <item id="O01" name="Output field 1" input_output="-" required="C" attribute="A" figure="50" form="" order="2" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="O02" name="Output field 2" input_output="-" required="C" attribute="A" figure="50" form="" order="3" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="I01" name="Input field 1" input_output="+" required="C" attribute="A" figure="50" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="I02" name="Input field 2" input_output="+" required="C" attribute="A" figure="50" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="PRT" name="Output report indication" input_output="+" required="C" attribute="A" figure="1" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="98, 19" Location="168, 178" Text="Trường nhập liệu" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="363, 21" Location="178, 347" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Output field 2" check_attribute="*" attribute="A" id="O02" figure="50" required="C" />
+    <label Size="208, 19" Location="168, 300" Text="Đã nhận thông điệp điện tử như sau:" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="363, 21" Location="178, 200" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Input field 1" check_attribute="*" attribute="A" id="I01" figure="50" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="363, 21" Location="178, 224" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Input field 2" check_attribute="*" attribute="A" id="I02" figure="50" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="363, 21" Location="178, 325" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Output field 1" check_attribute="*" attribute="A" id="O01" figure="50" required="C" />
+    <label Size="120, 19" Location="168, 255" Text="Chỉ dẫn xuất báo cáo" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="11" Size="20, 21" Location="294, 254" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Output report indication" check_attribute="*" attribute="A" id="PRT" figure="1" required="C" />
+  </layout>
+</jobform>

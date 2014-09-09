@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IMI" name="Reference of manifest information A">
+  <item no="1" name="Reference type" id="KBN" required="" code="">Lựa chọn loại tham chiếu thông tin theo danh mục:
+A: Manifest summary information (thông tin chung của manifest)
+B: Main information on B/L (Thông tin chính của B/L)
+C: Main information on container (Thông tin chính về container)
+D: Manifest container information (Thông tin về container trên manifest)</item>
+  <item no="2" name="Reference No." id="REF" required="" code="">In case Import/Export indication is entered, it is not available to enter Reference No.
+Nhập Số tham chiếu manifest do hệ thống cấp khi thực hiện nghiệp vụ DMF.
+Trường hợp chỉ tiêu số 3 (Cờ báo nhập khẩu/xuất khẩu) đã được lựa chọn thì không nhập được thông tin ở mục này.</item>
+  <item no="3" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn giá trị trong trình đơn:
+I: Import (nhập)
+E:Export (xuất)
+Trường hợp chỉ tiêu số 2 (Số tham chiếu) đã được nhập thì mục này không thể lựa chọn.</item>
+  <item no="4" name="Vessel call sign" id="SEN" required="" code="">
+  </item>
+  <item no="5" name="Port of discharge code/Port of loading code" id="DPR" required="" code="UN/LOCODE">Trường hợp hàng hóa chuyển tải/quá cảnh thì nhập Mã cảng đến đầu tiên.
+Nhập mã cảng theo bảng mã UNLOCODE</item>
+  <item no="6" name="Port of discharge suffix/Port of loading suffix" id="EDA" required="" code="">Nhập số trong khoảng từ 0 đến 9. Trường hợp manifest nhập, nhập Số lần vào cảng dỡ hàng trong chuyến hành trình. Trường hợp manifest xuất, nhập Số lần vào cảng xếp hàng trong chuyến hành trình.</item>
+  <item no="7" name="Voyage No." id="VOY" required="" code="">
+  </item>
+  <item no="8" name="Carrier code" id="SCA" required="" code="Carrier code">
+  </item>
+  <item no="9" name="Container No." id="CNO" required="" code="">
+  </item>
+</guide>

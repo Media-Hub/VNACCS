@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Rail)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0540_1.xml" item_attr_edit="False" />
+  <friday href="VAS0540_1.xml" revision="0000" />
+  <iteminfo />
+  <layout />
+</jobform>

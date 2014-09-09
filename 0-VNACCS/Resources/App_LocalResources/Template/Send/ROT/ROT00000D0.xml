@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM09_ROT" jobname="Re-output" display-name="Re-output">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM09_ROT.xml" item_attr_edit="False" />
+  <friday href="CAM09_ROT.xml" revision="0000" />
+  <iteminfo>
+    <item id="OCD" name="Output message code" input_output="+" required="M" attribute="A" figure="6" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CM1" name="Peculiar information 1" input_output="+" required="M" attribute="A" figure="20" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CM2" name="Peculiar information 2" input_output="+" required="C" attribute="A" figure="20" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="CM3" name="Peculiar information 3" input_output="+" required="C" attribute="A" figure="20" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="116, 19" Location="183, 201" Text="Mã số xuất dữ liệu *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="55, 21" Location="311, 200" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Output message code" check_attribute="*" attribute="A" id="OCD" figure="6" required="M" />
+    <label Size="123, 19" Location="183, 239" Text="Thông tin đặc thủ 1 *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="153, 21" Location="311, 238" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Peculiar information 1" check_attribute="*" attribute="A" id="CM1" figure="20" required="M" />
+    <label Size="11, 19" Location="286, 284" Text="2" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="153, 21" Location="311, 283" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="+" check_full="" check_time="" check_date="" name="Peculiar information 2" check_attribute="*" attribute="A" id="CM2" figure="20" required="C" />
+    <label Size="11, 19" Location="286, 331" Text="3" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="153, 21" Location="311, 330" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="+" check_full="" check_time="" check_date="" name="Peculiar information 3" check_attribute="*" attribute="A" id="CM3" figure="20" required="C" />
+  </layout>
+</jobform>

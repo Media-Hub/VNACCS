@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<link from_system="NACCS">
+    <destination no="1" text="ICG (Reference of cargo information(Sea,Air,Rail)(Master B/L))" system="NACCS" jobcode="ICG" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="OBL" from_source="COM" to="CGN" to_source="COM" />
+    </destination>
+    <destination no="2" text="ICG (Reference of cargo information(Sea,Air,Rail)(House B/L))" system="NACCS" jobcode="ICG" autosend="false">
+        <item from="IEI" from_source="COM" to="IEI" to_source="COM" />
+        <item from="CBL" from_source="R01" to="CGN" to_source="COM" />
+    </destination>
+</link>

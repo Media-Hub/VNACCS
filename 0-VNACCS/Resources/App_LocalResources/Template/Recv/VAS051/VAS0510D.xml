@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_CLR" jobname="Registration of cargo loaded confirmation" display-name="Registration of cargo loaded confirmation">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0510.xml" item_attr_edit="False" />
+  <friday href="VAS0510.xml" revision="0000" />
+  <iteminfo>
+    <item id="CTP" name="Transship/Transit management No. (仮陸番号)" input_output="-" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="TEC" name="Transportation equipment code (運送具コード)" input_output="-" required="C" attribute="A" figure="38" form="" order="2" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A00" name="Carrier code at entry (到着時のキャリアコード)" input_output="-" required="C" attribute="A" figure="6" form="" order="3" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A01" name="Carrier name at entry (到着時のキャリア名)" input_output="-" required="C" attribute="A" figure="70" form="" order="4" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="A02" name="B/L No./AWB No. (B/L番号／AWB番号)" input_output="-" required="C" attribute="A" figure="35" form="" order="5" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="100">
+      <item id="SCT" name="Select containers/transport equipment (選択)" input_output="+" required="C" attribute="I" figure="1" form="0" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+      <item id="CON" name="Container No./Transport equipment No. (コンテナ番号／運送具番号)" input_output="-" required="C" attribute="A" figure="12" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="150, 34" Location="8, 30" Text="Transship / Transit No. *&#xD;&#xA;(Số chuyến tải / quá cảnh)" Font="Tahoma, 9pt" />
+    <label Size="410, 19" Location="8, 139" Text="Container / Transport equipment No. (Số container / dụng cụ chuyên chở)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="164, 43" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="-" check_full="" check_time="" check_date="" name="Transship/Transit management No. (仮陸番号)" check_attribute="*" attribute="I" id="CTP" figure="12" required="M" />
+    <label Size="153, 34" Location="267, 30" Text="Transportation equipment&#xD;&#xA;(Phương tiện chuyên chở)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="279, 21" Location="426, 43" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Transportation equipment code (運送具コード)" check_attribute="*" attribute="A" id="TEC" figure="38" required="C" />
+    <label Size="135, 34" Location="8, 64" Text="Carrier at entry&#xD;&#xA;(Nhà vận chuyển (vào))" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="55, 21" Location="164, 66" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="3" input_output="-" check_full="" check_time="" check_date="" name="Carrier code at entry (到着時のキャリアコード)" check_attribute="*" attribute="A" id="A00" figure="6" required="C" />
+    <label Size="9, 19" Location="224, 67" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Multiline="True" Size="258, 36" Location="236, 66" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Carrier name at entry (到着時のキャリア名)" check_attribute="*" attribute="A" id="A01" figure="70" required="C" />
+    <label Size="171, 19" Location="8, 110" Text="B/L / AWB No. (Số B/L / AWB)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="258, 21" Location="185, 109" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="" check_time="" check_date="" name="B/L No./AWB No. (B/L番号／AWB番号)" check_attribute="*" attribute="A" id="A02" figure="35" required="C" />
+    <navigator Visible="False" TabIndex="10" Location="537, 0" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="11" Size="132, 38" Location="8, 159" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="20" RepX="5" repetition_id="R01" repetition_max="100">
+      <textbox CharacterCasing="Upper" TabIndex="3" Size="97, 21" Location="30, 11" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Container No./Transport equipment No. (コンテナ番号／運送具番号)" check_attribute="*" attribute="A" id="CON" figure="12" required="C" />
+      <checkbox TabIndex="1" Size="18, 19" Location="6, 13" Text=" " TextAlign="TopLeft" Font="Tahoma, 9pt" BackColor="Control" form="0" attribute="I" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" name="Select containers/transport equipment (選択)" check_attribute="*" check_date="" id="SCT" figure="1" required="C" />
+    </container>
+  </layout>
+</jobform>

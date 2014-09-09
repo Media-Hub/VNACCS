@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM32_IEX" jobname="CAM32_IEX" display-name="IEX Reference of export declaration">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM32_IEX.xml" item_attr_edit="False" />
+  <friday href="CAM32_IEX.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="257, 168" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="349, 167" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+  </layout>
+</jobform>

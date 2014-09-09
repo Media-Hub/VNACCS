@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_ICG" jobname="Reference of cargo information" display-name="Reference information on cargo (Rail)">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0540_2.xml" item_attr_edit="False" />
+  <friday href="VAS0540_2.xml" revision="0000" />
+  <iteminfo>
+    <item id="KBN" name="Reference type (照会種別)" input_output="-" required="" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Status indication (状況識別)" input_output="-" required="" attribute="A" figure="3" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C02" name="Indication of consolidation (混載識別)" input_output="-" required="" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="-" required="" attribute="A" figure="1" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SCA" name="Carrier code (キャリアコード)" input_output="-" required="" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CGN" name="B/L No. (B/L番号)" input_output="-" required="" attribute="A" figure="35" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="C01" name="Master B/L No. (マスターB/L番号)" input_output="-" required="" attribute="A" figure="35" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A12" name="Registrant code of manifest information (マニフェスト登録者)" input_output="-" required="" attribute="A" figure="5" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A13" name="Registrant name of manifest information (マニフェスト登録者名)" input_output="-" required="" attribute="A" figure="50" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TRN" name="Train registry No. (鉄道登録番号)" input_output="-" required="" attribute="A" figure="10" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARD" name="Arrival station code (到着駅コード)" input_output="-" required="" attribute="A" figure="6" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARN" name="Arrival station name (到着駅名)" input_output="-" required="" attribute="A" figure="35" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SCC" name="Departure station code (出発駅)" input_output="-" required="" attribute="A" figure="6" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SNA" name="Departure station name (出発駅名)" input_output="-" required="" attribute="A" figure="35" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IDT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="-" required="" attribute="A" figure="8" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DST" name="Final destination code (最終仕向地)" input_output="-" required="" attribute="A" figure="6" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DSN" name="Final destination name (最終仕向地名)" input_output="-" required="" attribute="A" figure="35" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SCR" name="Place of delivery code (荷渡地)" input_output="-" required="" attribute="A" figure="6" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SCN" name="Place of delivery name (荷渡地名)" input_output="-" required="" attribute="A" figure="35" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SR1" name="Station of routing (経由した駅)" input_output="-" required="" attribute="A" figure="35" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SR2" name="Station of routing (経由した駅)" input_output="-" required="" attribute="A" figure="35" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SR3" name="Station of routing (経由した駅)" input_output="-" required="" attribute="A" figure="35" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SR4" name="Station of routing (経由した駅)" input_output="-" required="" attribute="A" figure="35" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHS" name="Consignor code (荷送人)" input_output="-" required="" attribute="A" figure="13" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHN" name="Consignor name (荷送人名)" input_output="-" required="" attribute="A" figure="70" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHP" name="Consignor postcode (荷送人郵便番号)" input_output="-" required="" attribute="A" figure="9" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SN1" name="Consignor address 1 (Building name etc.) (荷送人住所１&#xD;&#xA;（ビル名等）)" input_output="-" required="" attribute="A" figure="35" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SN2" name="Consignor address 2 (Street and number/P.O. Box) (荷送人住所２&#xD;&#xA;（番地等）)" input_output="-" required="" attribute="A" figure="105" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SN3" name="Consignor address 3 (District/Commune name) (荷送人住所３&#xD;&#xA;（地区名）)" input_output="-" required="" attribute="A" figure="35" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SN4" name="Consignor address 4 (City name) (荷送人住所４&#xD;&#xA;（市）)" input_output="-" required="" attribute="A" figure="35" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SN5" name="Consignor address 5 (Country code) (荷送人住所５&#xD;&#xA;（国）)" input_output="-" required="" attribute="A" figure="2" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHT" name="Consignor telephone No. (荷送人電話番号)" input_output="-" required="" attribute="A" figure="14" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CNS" name="Consignee code (荷受人)" input_output="-" required="" attribute="A" figure="13" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CNN" name="Consignee name (荷受人名)" input_output="-" required="" attribute="A" figure="70" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CNP" name="Consignee postcode (荷受人郵便番号)" input_output="-" required="" attribute="A" figure="9" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CN1" name="Consignee address 1 (Building name etc.) (荷受人住所１&#xD;&#xA;（ビル名等）)" input_output="-" required="" attribute="A" figure="35" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CN2" name="Consignee address 2 (Street and number/P.O.Box) (荷受人住所２&#xD;&#xA;（番地等）)" input_output="-" required="" attribute="A" figure="105" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CN3" name="Consignee address 3 (District/Commune name) (荷受人住所３&#xD;&#xA;（地区名）)" input_output="-" required="" attribute="A" figure="35" form="" order="39" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CN4" name="Consignee address 4 (City name) (荷受人住所４&#xD;&#xA;（市）)" input_output="-" required="" attribute="A" figure="35" form="" order="40" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CN5" name="Consignee address 5 (Country code) (荷受人住所５&#xD;&#xA;（国）)" input_output="-" required="" attribute="A" figure="2" form="" order="41" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CTL" name="Consignee telephone No. (荷受人電話番号)" input_output="-" required="" attribute="A" figure="14" form="" order="42" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NS1" name="Notify party code (着荷通知先)" input_output="-" required="" attribute="A" figure="13" form="" order="43" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NN1" name="Notify party name (着荷通知先名)" input_output="-" required="" attribute="A" figure="70" form="" order="44" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NP1" name="Notify party postcode (着荷通知先郵便番号)" input_output="-" required="" attribute="A" figure="9" form="" order="45" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NE1" name="Notify party address 1 (Building name etc.) (着荷通知先住所１&#xD;&#xA;（ビル名等）)" input_output="-" required="" attribute="A" figure="35" form="" order="46" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NF1" name="Notify party address 2 (Street and number/P.O.Box) (着荷通知先住所２&#xD;&#xA;（番地等）)" input_output="-" required="" attribute="A" figure="105" form="" order="47" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NG1" name="Notify party address 3 (District/Commune name) (着荷通知先住所３&#xD;&#xA;（地区名）)" input_output="-" required="" attribute="A" figure="35" form="" order="48" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NH1" name="Notify party address 4 (City name) (着荷通知先住所４&#xD;&#xA;（市）)" input_output="-" required="" attribute="A" figure="35" form="" order="49" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NC1" name="Notify party address 5 (Country code) (着荷通知先住所５&#xD;&#xA;（国）)" input_output="-" required="" attribute="A" figure="2" form="" order="50" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NL1" name="Notify party telephone No. (着荷通知先電話番号)" input_output="-" required="" attribute="A" figure="14" form="" order="51" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NS2" name="Notify party code (着荷通知先)" input_output="-" required="" attribute="A" figure="13" form="" order="52" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NN2" name="Notify party name (着荷通知先名)" input_output="-" required="" attribute="A" figure="70" form="" order="53" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NP2" name="Notify party postcode (着荷通知先郵便番号)" input_output="-" required="" attribute="A" figure="9" form="" order="54" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NE2" name="Notify party address 1 (Building name etc.) (着荷通知先住所１&#xD;&#xA;（ビル名等）)" input_output="-" required="" attribute="A" figure="35" form="" order="55" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NF2" name="Notify party address 2 (Street and number/P.O.Box) (着荷通知先住所２&#xD;&#xA;（番地等）)" input_output="-" required="" attribute="A" figure="105" form="" order="56" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NG2" name="Notify party address 3 (District/Commune name) (着荷通知先住所３&#xD;&#xA;（地区名）)" input_output="-" required="" attribute="A" figure="35" form="" order="57" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NH2" name="Notify party address 4 (City name) (着荷通知先住所４&#xD;&#xA;（市）)" input_output="-" required="" attribute="A" figure="35" form="" order="58" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NC2" name="Notify party address 5 (Country code) (着荷通知先住所５&#xD;&#xA;（国）)" input_output="-" required="" attribute="A" figure="2" form="" order="59" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NL2" name="Notify party telephone No. (着荷通知先電話番号)" input_output="-" required="" attribute="A" figure="14" form="" order="60" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FRT" name="Transportation charge (輸送費)" input_output="-" required="" attribute="F" figure="20" form="" order="61" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FRC" name="Transportation charge currency code (輸送費通貨)" input_output="-" required="" attribute="A" figure="3" form="" order="62" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KRR" name="Transship/Transit (仮陸揚げ識別)" input_output="-" required="" attribute="A" figure="3" form="" order="63" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KRS" name="Transship/Transit reason (仮陸揚げ事由)" input_output="-" required="" attribute="A" figure="3" form="" order="64" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="PRD" name="Transship/Transit duration (仮陸揚げ期間)" input_output="-" required="" attribute="I" figure="2" form="" order="65" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OR1" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="" attribute="A" figure="2" form="" order="66" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OR2" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="" attribute="A" figure="2" form="" order="67" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OR3" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="" attribute="A" figure="2" form="" order="68" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OR4" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="" attribute="A" figure="2" form="" order="69" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OR5" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="" attribute="A" figure="2" form="" order="70" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SOW" name="Station code of weighing (計量駅)" input_output="-" required="" attribute="A" figure="6" form="" order="71" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SWN" name="Station name of weighing (計量駅)" input_output="-" required="" attribute="A" figure="35" form="" order="72" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="VAL" name="Goods price (貨物価格)" input_output="-" required="" attribute="F" figure="20" form="" order="73" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CRC" name="Currency code (通貨コード)" input_output="-" required="" attribute="A" figure="3" form="" order="74" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="END" name="Enclosed documents (同封書類)" input_output="-" required="" attribute="A" figure="250" form="" order="75" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="RM1" name="Remarks (Consignor) (記事（荷送人）)" input_output="-" required="" attribute="A" figure="140" form="" order="76" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="RM2" name="Remarks (Railway company) (記事（鉄道会社）)" input_output="-" required="" attribute="A" figure="140" form="" order="77" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+  </iteminfo>
+  <layout>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <pagelabel Location="653, 1024" Size="65, 23" Font="Tahoma, 9pt" Text="HH:mm:ss" TextAlign="BottomRight" PageFormat="PrintTime" />
+      <pagelabel Location="550, 1024" Size="100, 23" Font="Tahoma, 9pt" Text="yyyy/MM/dd" TextAlign="BottomRight" PageFormat="PrintDate" />
+      <label Location="438, 260" Size="11, 19" Font="Tahoma, 9pt" Text="2" />
+      <label Location="438, 282" Size="11, 19" Font="Tahoma, 9pt" Text="4" />
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 12pt" Text="Reference information on cargo (Rail)" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="375, 32" Size="20, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="C02" input_output="-" name="Indication of consolidation (混載識別)" order="4" required="" />
+      <prttextbox Format="" Location="241, 32" Size="34, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="A04" input_output="-" name="Status indication (状況識別)" order="3" required="" />
+      <prttextbox Format="" Location="502, 32" Size="20, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="IEI" input_output="-" name="Import/Export indication (輸出入識別)" order="5" required="" />
+      <prttextbox Format="" Location="644, 32" Size="55, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SCA" input_output="-" name="Carrier code (キャリアコード)" order="6" required="" />
+      <label Location="276, 29" Size="96, 19" Font="Tahoma, 9pt" Text="Hiển thị hỗn hợp" />
+      <prttextbox Format="" Location="142, 33" Size="20, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="KBN" input_output="-" name="Reference type (照会種別)" order="2" required="" />
+      <label Location="15, 30" Size="122, 19" Font="Tahoma, 9pt" Text="Phân loại xem dữ liệu" />
+      <label Location="163, 31" Size="76, 19" Font="Tahoma, 9pt" Text="Cờ trạng thái" />
+      <label Location="528, 31" Size="111, 19" Font="Tahoma, 9pt" Text="Mã nhà vận chuyển" />
+      <label Location="424, 18" Size="79, 34" Font="Tahoma, 9pt" Text="Nhập khẩu /&#xD;&#xA;Xuất khẩu" />
+      <label Location="15, 52" Size="40, 19" Font="Tahoma, 9pt" Text="Số B/L" />
+      <prttextbox Format="" Location="175, 56" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="CGN" input_output="-" name="B/L No. (B/L番号)" order="7" required="" />
+      <prttextbox Format="" Location="175, 79" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="C01" input_output="-" name="Master B/L No. (マスターB/L番号)" order="8" required="" />
+      <label Location="15, 76" Size="81, 19" Font="Tahoma, 9pt" Text="Số Master B/L" />
+      <prttextbox Format="" Location="175, 101" Size="48, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="A12" input_output="-" name="Registrant code of manifest information (マニフェスト登録者)" order="9" required="" />
+      <prttextbox Format="" Location="238, 101" Size="378, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="A13" input_output="-" name="Registrant name of manifest information (マニフェスト登録者名)" order="10" required="" />
+      <label Location="15, 99" Size="137, 19" Font="Tahoma, 9pt" Text="Người khai báo Manifest" />
+      <label Location="223, 99" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="175, 125" Size="83, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="TRN" input_output="-" name="Train registry No. (鉄道登録番号)" order="11" required="" />
+      <label Location="15, 124" Size="97, 19" Font="Tahoma, 9pt" Text="Số hiệu đoàn tàu" />
+      <prttextbox Format="" Location="175, 148" Size="55, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="ARD" input_output="-" name="Arrival station code (到着駅コード)" order="12" required="" />
+      <prttextbox Format="" Location="245, 148" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="ARN" input_output="-" name="Arrival station name (到着駅名)" order="13" required="" />
+      <label Location="15, 147" Size="44, 19" Font="Tahoma, 9pt" Text="Ga đến" />
+      <label Location="233, 147" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="175, 170" Size="55, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SCC" input_output="-" name="Departure station code (出発駅)" order="14" required="" />
+      <prttextbox Format="" Location="245, 170" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SNA" input_output="-" name="Departure station name (出発駅名)" order="15" required="" />
+      <label Location="233, 168" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="15, 169" Size="75, 19" Font="Tahoma, 9pt" Text="Ga xuất phát" />
+      <prttextbox Format="dd/MM/yyyy" Location="175, 193" Size="83, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="IDT" input_output="-" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" order="16" required="" />
+      <label Location="15, 191" Size="123, 19" Font="Tahoma, 9pt" Text="Ngày dự kiến đến / đi" />
+      <prttextbox Format="" Location="245, 216" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="DSN" input_output="-" name="Final destination name (最終仕向地名)" order="18" required="" />
+      <prttextbox Format="" Location="175, 216" Size="55, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="DST" input_output="-" name="Final destination code (最終仕向地)" order="17" required="" />
+      <label Location="233, 214" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="14, 215" Size="136, 19" Font="Tahoma, 9pt" Text="Địa điểm đích cuối cùng" />
+      <prttextbox Format="" Location="245, 239" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SCN" input_output="-" name="Place of delivery name (荷渡地名)" order="20" required="" />
+      <prttextbox Format="" Location="175, 239" Size="55, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SCR" input_output="-" name="Place of delivery code (荷渡地)" order="19" required="" />
+      <label Location="233, 237" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="14, 238" Size="111, 19" Font="Tahoma, 9pt" Text="Địa điểm giao hàng" />
+      <prttextbox Format="" Location="451, 263" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SR2" input_output="-" name="Station of routing (経由した駅)" order="22" required="" />
+      <prttextbox Format="" Location="175, 263" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SR1" input_output="-" name="Station of routing (経由した駅)" order="21" required="" />
+      <label Location="162, 260" Size="11, 19" Font="Tahoma, 9pt" Text="1" />
+      <label Location="14, 260" Size="146, 19" Font="Tahoma, 9pt" Text="Những ga biên giới đi qua" />
+      <prttextbox Format="" Location="175, 285" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SR3" input_output="-" name="Station of routing (経由した駅)" order="23" required="" />
+      <prttextbox Format="" Location="451, 285" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SR4" input_output="-" name="Station of routing (経由した駅)" order="24" required="" />
+      <label Location="162, 282" Size="11, 19" Font="Tahoma, 9pt" Text="3" />
+      <label Location="23, 301" Size="118, 25" BackColor="Window" Font="Tahoma, 12pt, style=Underline" Text="Người gửi hàng" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="150, 335" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="SHS" input_output="-" name="Consignor code (荷送人)" order="25" required="" />
+      <label Location="30, 333" Size="21, 19" Font="Tahoma, 9pt" Text="Mã" />
+      <prttextbox Format="" Location="150, 357" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SHN" input_output="-" name="Consignor name (荷送人名)" order="26" required="" />
+      <label Location="30, 355" Size="25, 19" Font="Tahoma, 9pt" Text="Tên" />
+      <prttextbox Format="" Location="306, 379" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SN1" input_output="-" name="Consignor address 1 (Building name etc.) (荷送人住所１&#xD;&#xA;（ビル名等）)" order="28" required="" />
+      <prttextbox Format="" Location="150, 379" Size="76, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="SHP" input_output="-" name="Consignor postcode (荷送人郵便番号)" order="27" required="" />
+      <label Location="30, 377" Size="83, 19" Font="Tahoma, 9pt" Text="Mã bưu chính " />
+      <label Location="230, 377" Size="70, 19" Font="Tahoma, 9pt" Text="Tên tòa nhà" />
+      <label AutoSize="False" Location="30, 401" Size="114, 25" Font="Tahoma, 9pt" Text="Số nhà, tên đường, &#xD;&#xA;phường/xã" />
+      <prttextbox Format="" Multiline="True" Location="150, 401" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="105" form="" id="SN2" input_output="-" name="Consignor address 2 (Street and number/P.O. Box) (荷送人住所２&#xD;&#xA;（番地等）)" order="29" required="" />
+      <prttextbox Format="" Location="150, 438" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SN3" input_output="-" name="Consignor address 3 (District/Commune name) (荷送人住所３&#xD;&#xA;（地区名）)" order="30" required="" />
+      <label Location="30, 436" Size="79, 19" Font="Tahoma, 9pt" Text="Quận / huyện" />
+      <prttextbox Format="" Location="469, 460" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="SN5" input_output="-" name="Consignor address 5 (Country code) (荷送人住所５&#xD;&#xA;（国）)" order="32" required="" />
+      <prttextbox Format="" Location="577, 460" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="14" form="" id="SHT" input_output="-" name="Consignor telephone No. (荷送人電話番号)" order="33" required="" />
+      <prttextbox Format="" Location="150, 460" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SN4" input_output="-" name="Consignor address 4 (City name) (荷送人住所４&#xD;&#xA;（市）)" order="31" required="" />
+      <label Location="497, 458" Size="76, 19" Font="Tahoma, 9pt" Text="Số điện thoại" />
+      <label Location="30, 458" Size="92, 19" Font="Tahoma, 9pt" Text="Tỉnh, thành phố" />
+      <label Location="414, 458" Size="53, 19" Font="Tahoma, 9pt" Text="Quốc gia" />
+      <rectangle Location="3, 309" Size="696, 177" LineStyle="Center, Black, Solid, 1" />
+      <label Location="23, 484" Size="132, 25" BackColor="Window" Font="Tahoma, 12pt, style=Underline" Text="Người nhận hàng" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="150, 518" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="CNS" input_output="-" name="Consignee code (荷受人)" order="34" required="" />
+      <label Location="30, 516" Size="21, 19" Font="Tahoma, 9pt" Text="Mã" />
+      <prttextbox Format="" Location="150, 540" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="CNN" input_output="-" name="Consignee name (荷受人名)" order="35" required="" />
+      <label Location="30, 538" Size="25, 19" Font="Tahoma, 9pt" Text="Tên" />
+      <prttextbox Format="" Location="306, 562" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="CN1" input_output="-" name="Consignee address 1 (Building name etc.) (荷受人住所１&#xD;&#xA;（ビル名等）)" order="37" required="" />
+      <prttextbox Format="" Location="150, 562" Size="76, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="CNP" input_output="-" name="Consignee postcode (荷受人郵便番号)" order="36" required="" />
+      <label Location="230, 560" Size="70, 19" Font="Tahoma, 9pt" Text="Tên tòa nhà" />
+      <label Location="30, 560" Size="83, 19" Font="Tahoma, 9pt" Text="Mã bưu chính " />
+      <label AutoSize="False" Location="30, 584" Size="114, 25" Font="Tahoma, 9pt" Text="Số nhà, tên đường, &#xD;&#xA;phường/xã" />
+      <prttextbox Format="" Multiline="True" Location="150, 584" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="105" form="" id="CN2" input_output="-" name="Consignee address 2 (Street and number/P.O.Box) (荷受人住所２&#xD;&#xA;（番地等）)" order="38" required="" />
+      <prttextbox Format="" Location="150, 621" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="CN3" input_output="-" name="Consignee address 3 (District/Commune name) (荷受人住所３&#xD;&#xA;（地区名）)" order="39" required="" />
+      <label Location="30, 619" Size="79, 19" Font="Tahoma, 9pt" Text="Quận / huyện" />
+      <prttextbox Format="" Location="469, 643" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="CN5" input_output="-" name="Consignee address 5 (Country code) (荷受人住所５&#xD;&#xA;（国）)" order="41" required="" />
+      <prttextbox Format="" Location="150, 643" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="CN4" input_output="-" name="Consignee address 4 (City name) (荷受人住所４&#xD;&#xA;（市）)" order="40" required="" />
+      <prttextbox Format="" Location="577, 643" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="14" form="" id="CTL" input_output="-" name="Consignee telephone No. (荷受人電話番号)" order="42" required="" />
+      <label Location="497, 641" Size="76, 19" Font="Tahoma, 9pt" Text="Số điện thoại" />
+      <label Location="414, 641" Size="53, 19" Font="Tahoma, 9pt" Text="Quốc gia" />
+      <label Location="30, 641" Size="92, 19" Font="Tahoma, 9pt" Text="Tỉnh, thành phố" />
+      <rectangle Location="3, 492" Size="696, 177" LineStyle="Center, Black, Solid, 1" />
+      <label Location="29, 667" Size="227, 25" BackColor="Window" Font="Tahoma, 12pt, style=Underline" Text="Bên nhận thông báo hàng đến" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="150, 701" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="NS1" input_output="-" name="Notify party code (着荷通知先)" order="43" required="" />
+      <label Location="29, 700" Size="21, 19" Font="Tahoma, 9pt" Text="Mã" />
+      <label Location="12, 700" Size="11, 19" Font="Tahoma, 9pt" Text="1" />
+      <prttextbox Format="" Location="150, 723" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="NN1" input_output="-" name="Notify party name (着荷通知先名)" order="44" required="" />
+      <label Location="29, 721" Size="25, 19" Font="Tahoma, 9pt" Text="Tên" />
+      <prttextbox Format="" Location="150, 745" Size="76, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="NP1" input_output="-" name="Notify party postcode (着荷通知先郵便番号)" order="45" required="" />
+      <prttextbox Format="" Location="306, 745" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NE1" input_output="-" name="Notify party address 1 (Building name etc.) (着荷通知先住所１&#xD;&#xA;（ビル名等）)" order="46" required="" />
+      <label Location="29, 743" Size="79, 19" Font="Tahoma, 9pt" Text="Mã bưu chính" />
+      <label Location="230, 743" Size="70, 19" Font="Tahoma, 9pt" Text="Tên tòa nhà" />
+      <label AutoSize="False" Location="30, 770" Size="114, 25" Font="Tahoma, 9pt" Text="Số nhà, tên đường, &#xD;&#xA;phường/xã" />
+      <prttextbox Format="" Multiline="True" Location="150, 767" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="105" form="" id="NF1" input_output="-" name="Notify party address 2 (Street and number/P.O.Box) (着荷通知先住所２&#xD;&#xA;（番地等）)" order="47" required="" />
+      <prttextbox Format="" Location="150, 804" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NG1" input_output="-" name="Notify party address 3 (District/Commune name) (着荷通知先住所３&#xD;&#xA;（地区名）)" order="48" required="" />
+      <label Location="29, 802" Size="79, 19" Font="Tahoma, 9pt" Text="Quận / huyện" />
+      <prttextbox Format="" Location="150, 826" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NH1" input_output="-" name="Notify party address 4 (City name) (着荷通知先住所４&#xD;&#xA;（市）)" order="49" required="" />
+      <prttextbox Format="" Location="577, 826" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="14" form="" id="NL1" input_output="-" name="Notify party telephone No. (着荷通知先電話番号)" order="51" required="" />
+      <prttextbox Format="" Location="469, 826" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NC1" input_output="-" name="Notify party address 5 (Country code) (着荷通知先住所５&#xD;&#xA;（国）)" order="50" required="" />
+      <label Location="497, 824" Size="76, 19" Font="Tahoma, 9pt" Text="Số điện thoại" />
+      <label Location="414, 824" Size="53, 19" Font="Tahoma, 9pt" Text="Quốc gia" />
+      <label Location="29, 824" Size="92, 19" Font="Tahoma, 9pt" Text="Tỉnh, thành phố" />
+      <prttextbox Format="&gt;AAAAAAAAAA-AAA" Location="150, 853" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="13" form="" id="NS2" input_output="-" name="Notify party code (着荷通知先)" order="52" required="" />
+      <label Location="12, 851" Size="11, 19" Font="Tahoma, 9pt" Text="2" />
+      <label Location="29, 851" Size="21, 19" Font="Tahoma, 9pt" Text="Mã" />
+      <prttextbox Format="" Location="150, 875" Size="526, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="NN2" input_output="-" name="Notify party name (着荷通知先名)" order="53" required="" />
+      <label Location="29, 873" Size="25, 19" Font="Tahoma, 9pt" Text="Tên" />
+      <prttextbox Format="" Location="306, 899" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NE2" input_output="-" name="Notify party address 1 (Building name etc.) (着荷通知先住所１&#xD;&#xA;（ビル名等）)" order="55" required="" />
+      <prttextbox Format="" Location="150, 899" Size="76, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="9" form="" id="NP2" input_output="-" name="Notify party postcode (着荷通知先郵便番号)" order="54" required="" />
+      <label Location="230, 897" Size="70, 19" Font="Tahoma, 9pt" Text="Tên tòa nhà" />
+      <label Location="29, 897" Size="79, 19" Font="Tahoma, 9pt" Text="Mã bưu chính" />
+      <label AutoSize="False" Location="30, 924" Size="114, 25" Font="Tahoma, 9pt" Text="Số nhà, tên đường, &#xD;&#xA;phường/xã" />
+      <prttextbox Format="" Multiline="True" Location="150, 921" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="105" form="" id="NF2" input_output="-" name="Notify party address 2 (Street and number/P.O.Box) (着荷通知先住所２&#xD;&#xA;（番地等）)" order="56" required="" />
+      <prttextbox Format="" Location="150, 958" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NG2" input_output="-" name="Notify party address 3 (District/Commune name) (着荷通知先住所３&#xD;&#xA;（地区名）)" order="57" required="" />
+      <label Location="29, 956" Size="79, 19" Font="Tahoma, 9pt" Text="Quận / huyện" />
+      <prttextbox Format="" Location="150, 980" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NH2" input_output="-" name="Notify party address 4 (City name) (着荷通知先住所４&#xD;&#xA;（市）)" order="58" required="" />
+      <prttextbox Format="" Location="469, 980" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="NC2" input_output="-" name="Notify party address 5 (Country code) (着荷通知先住所５&#xD;&#xA;（国）)" order="59" required="" />
+      <prttextbox Format="" Location="577, 980" Size="111, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="14" form="" id="NL2" input_output="-" name="Notify party telephone No. (着荷通知先電話番号)" order="60" required="" />
+      <label Location="497, 978" Size="76, 19" Font="Tahoma, 9pt" Text="Số điện thoại" />
+      <label Location="29, 978" Size="92, 19" Font="Tahoma, 9pt" Text="Tỉnh, thành phố" />
+      <label Location="414, 978" Size="53, 19" Font="Tahoma, 9pt" Text="Quốc gia" />
+      <rectangle Location="3, 675" Size="696, 334" LineStyle="Center, Black, Solid, 1" />
+    </page>
+    <page Font="Tahoma, 11pt" MinOccurs="1">
+      <pagelabel Location="653, 1024" Size="65, 23" Font="Tahoma, 9pt" Text="HH:mm:ss" TextAlign="BottomRight" PageFormat="PrintTime" />
+      <pagelabel Location="550, 1024" Size="100, 23" Font="Tahoma, 9pt" Text="yyyy/MM/dd" TextAlign="BottomRight" PageFormat="PrintDate" />
+      <pagelabel Location="643, 0" Size="75, 20" Font="Courier New, 11pt" Text="pp / mp" TextAlign="MiddleRight" PageFormat="PageProgress" />
+      <pagelabel Location="0, 0" Size="718, 17" Font="Tahoma, 12pt" Text="Reference information on cargo (Rail)" TextAlign="MiddleCenter" PageFormat="PageTitle" />
+      <prttextbox Format="" Location="528, 35" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="KRS" input_output="-" name="Transship/Transit reason (仮陸揚げ事由)" order="64" required="" />
+      <prttextbox Format="" Location="119, 35" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="FRT" input_output="-" name="Transportation charge (輸送費)" order="61" required="" />
+      <prttextbox Format="" Location="629, 35" Size="22, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="PRD" input_output="-" name="Transship/Transit duration (仮陸揚げ期間)" order="65" required="" />
+      <prttextbox Format="" Location="448, 35" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="KRR" input_output="-" name="Transship/Transit (仮陸揚げ識別)" order="63" required="" />
+      <prttextbox Format="" Location="288, 35" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="FRC" input_output="-" name="Transportation charge currency code (輸送費通貨)" order="62" required="" />
+      <label Location="488, 33" Size="34, 19" Font="Tahoma, 9pt" Text="Lý do" />
+      <label Location="15, 33" Size="98, 19" Font="Tahoma, 9pt" Text="Cước vận chuyển" />
+      <label Location="328, 33" Size="114, 19" Font="Tahoma, 9pt" Text="Phân loại chuyển tải" />
+      <label Location="276, 33" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="568, 33" Size="55, 19" Font="Tahoma, 9pt" Text="Thời gian" />
+      <prttextbox Format="" Location="386, 57" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR5" input_output="-" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" order="70" required="" />
+      <prttextbox Format="" Location="236, 57" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR2" input_output="-" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" order="67" required="" />
+      <prttextbox Format="" Location="286, 57" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR3" input_output="-" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" order="68" required="" />
+      <prttextbox Format="" Location="336, 57" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR4" input_output="-" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" order="69" required="" />
+      <prttextbox Format="" Location="185, 57" Size="27, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="OR1" input_output="-" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" order="66" required="" />
+      <label Location="369, 55" Size="11, 19" Font="Tahoma, 9pt" Text="5" />
+      <label Location="319, 55" Size="11, 19" Font="Tahoma, 9pt" Text="4" />
+      <label Location="219, 55" Size="11, 19" Font="Tahoma, 9pt" Text="2" />
+      <label Location="269, 55" Size="11, 19" Font="Tahoma, 9pt" Text="3" />
+      <label Location="171, 55" Size="11, 19" Font="Tahoma, 9pt" Text="1" />
+      <label Location="15, 56" Size="152, 19" Font="Tahoma, 9pt" Text="Mã văn bản pháp quy khác" />
+      <prttextbox Format="" Location="149, 81" Size="52, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="SOW" input_output="-" name="Station code of weighing (計量駅)" order="71" required="" />
+      <prttextbox Format="" Location="219, 81" Size="267, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="SWN" input_output="-" name="Station name of weighing (計量駅)" order="72" required="" />
+      <label Location="15, 79" Size="73, 19" Font="Tahoma, 9pt" Text="Ga cân hàng" />
+      <label Location="207, 79" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <prttextbox Format="" Location="149, 103" Size="155, 14" BorderStyle="None" Font="Courier New, 9pt" TextAlign="Right" attribute="F" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="20" form="" id="VAL" input_output="-" name="Goods price (貨物価格)" order="73" required="" />
+      <prttextbox Format="" Location="317, 103" Size="29, 14" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="CRC" input_output="-" name="Currency code (通貨コード)" order="74" required="" />
+      <label Location="305, 101" Size="9, 19" Font="Tahoma, 9pt" Text="-" />
+      <label Location="15, 101" Size="94, 19" Font="Tahoma, 9pt" Text="Trị giá hàng hoá" />
+      <label AutoSize="False" Location="15, 124" Size="113, 27" Font="Tahoma, 9pt" Text="Danh sách giấy tờ &#xD;&#xA;đính kèm" />
+      <prttextbox Format="" Multiline="True" Location="149, 125" Size="497, 60" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="250" form="" id="END" input_output="-" name="Enclosed documents (同封書類)" order="75" required="" />
+      <label Location="15, 190" Size="125, 19" Font="Tahoma, 9pt" Text="Ghi chú của người gửi" />
+      <prttextbox Format="" Multiline="True" Location="149, 192" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="140" form="" id="RM1" input_output="-" name="Remarks (Consignor) (記事（荷送人）)" order="76" required="" />
+      <label Location="15, 227" Size="128, 19" Font="Tahoma, 9pt" Text="Ghi chú của đường sắt" />
+      <prttextbox Format="" Multiline="True" Location="149, 229" Size="497, 30" BorderStyle="None" Font="Courier New, 9pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="140" form="" id="RM2" input_output="-" name="Remarks (Railway company) (記事（鉄道会社）)" order="77" required="" />
+    </page>
+  </layout>
+</jobform>

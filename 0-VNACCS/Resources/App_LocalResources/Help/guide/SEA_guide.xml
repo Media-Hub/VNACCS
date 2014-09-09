@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="SEA" name="Application for Permission to export/import industrial explosives">
+  <item no="1" name="Submitter code" id="SMC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="2" name="OGA Application No." id="APN" required="" code="">Số đơn xin cấp phép là số được hệ thống cấp để xác định cho một đơn xin cấp phép</item>
+  <item no="3" name="Function code" id="FNC" required="" code="Function code list">
+Sẽ nhận một trong những giá trị sau:
+1 : Đăng ký
+2 : Sửa đổi
+3 : Hủy bỏ</item>
+  <item no="4" name="Permit type" id="APT" required="" code="Permit type">
+  </item>
+  <item no="5" name="Import/Export classification" id="EIC" required="" code="">
+Sẽ nhận một trong những giá trị sau:
+I : Nhập khẩu
+E : Xuất khẩu</item>
+  <item no="6" name="Office of application code" id="APP" required="" code="OGA's Office Code">
+  </item>
+  <item no="7" name="Importer/Exporter code" id="ENC" required="" code="Importer/Exporter code">
+  </item>
+  <item no="8" name="Importer/Exporter name" id="ENN" required="" code="">Nhập "Tên doanh nghiệp xuất/nhập khẩu" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="9" name="Established decision No." id="EDN" required="" code="">
+  </item>
+  <item no="10" name="Business registration certificate No." id="RCN" required="" code="">
+  </item>
+  <item no="11" name="Issued place" id="IP" required="" code="">
+  </item>
+  <item no="12" name="Issued date" id="ID" required="" code="">
+  </item>
+  <item no="13" name="Business address (Post code)" id="BAP" required="" code="">
+  </item>
+  <item no="14" name="Business address (Building name etc. …)" id="IMA" required="" code="">Nhập "Địa chỉ của doanh nghiệp xuất/nhập khẩu (Số nhà, tên đường)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="15" name="Business address (Country code)" id="BCC" required="" code="UN/LOCODE&#xA;(2 digit country code)">
+  </item>
+  <item no="16" name="Business address (Phone number)" id="BAN" required="" code="">Nhập "Địa chỉ của doanh nghiệp xuất/nhập khẩu (Số điện thoại)" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="17" name="Business address (Facsimile)" id="BAF" required="" code="">
+  </item>
+  <item no="18" name="Business address (Email)" id="BAM" required="" code="">
+  </item>
+  <item no="19" name="Purchase contract No." id="PCN" required="" code="">
+  </item>
+  <item no="20" name="Purchase contract date" id="PCD" required="" code="">
+  </item>
+  <item no="21" name="Sales contract No." id="SCN" required="" code="">
+  </item>
+  <item no="22" name="Sales contract date" id="SCD" required="" code="">
+  </item>
+  <item no="23" name="Means of transport type" id="MTT" required="" code="">Sẽ nhận một trong những giá trị sau:
+01 : Đường biển
+02 : Đường hàng không
+03 : Đường sắt
+04 : Đường bộ
+05 : Vận tải đa phương tiện
+06 : Loại khác</item>
+  <item no="24" name="Port of importation/exportation code" id="IPC" required="" code="UN/LOCODEUN/LOCODE(3 digits without 2 digits of country code)&#xA;Station code&#xA;Border gate code">Nếu người dùng không nhập "Phương tiện vận chuyển" thì kiểm tra cơ sở dữ liệu theo thứ tự sau:
+1. UN/LOCODEUN/LOCODE(3 chữ số không có 2 chữ số của mã quốc gia)
+2. Mã nhà ga
+3. Mã cửa khẩu</item>
+  <item no="25" name="Port of importation/exportation name" id="IPN" required="" code="">Nhập "Tên cửa khẩu xuất/nhập hàng" (không cần nhập trong trường hợp được cung cấp bởi hệ thống)</item>
+  <item no="26" name="Estimate start date of importation/exportation" id="ESI" required="" code="">
+  </item>
+  <item no="27" name="Estimate end date of importation/exportation" id="EEI" required="" code="">
+  </item>
+  <item no="28" name="Enclosed documents" id="AD" required="" code="">
+  </item>
+  <item no="29" name="Remarks" id="RMK" required="" code="">
+  </item>
+  <item no="30" name="Person in charge name" id="PIC" required="" code="">
+  </item>
+  <item no="31" name="Goods description" id="GDN" required="" code="">
+  </item>
+  <item no="32" name="HS code" id="HSC" required="" code="HS code">
+  </item>
+  <item no="33" name="Gross weight/volume" id="GW" required="" code="">Có thể nhập tới 6 chữ số cho phần nguyên và đến 3 chữ số sau dấu thập phân.</item>
+  <item no="34" name="Gross weight/volume unit" id="GWU" required="" code="Quantity unit code&#xA;(UN/ECE 20/alphabetic letter)">"KGM" hoặc "TNE" hoặc "LBR"
+</item>
+</guide>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_INP" jobname="Reference of passengers/crew information" display-name="Reference of passengers/crew information">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM10_INP.xml" item_attr_edit="False" />
+  <friday href="CAM10_INP.xml" revision="0000" />
+  <iteminfo>
+    <item id="MDC" name="Reference type" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue="A,Passenger list information,B,Crew list information" out_flg="0" in_flg="1" />
+    <item id="NUM" name="Passenger / crew list number" input_output="+" required="C" attribute="A" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="OPT" name="Transportation type" input_output="+" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_keyvalue=",,S,Sea transportation,A,Air transportation,R,Railway transportation,V,Vehicle transportation" out_flg="0" in_flg="1" />
+    <item id="IOK" name="Arrival/departure indication" input_output="+" required="C" attribute="A" figure="1" form="" order="4" check_attribute="*" check_full="" choice_keyvalue=",,A,Passenger / crew list upon arrival,D,Passenger / crew list upon departure" out_flg="0" in_flg="1" />
+    <item id="OPC" name="Transportation equipment code(Vessel call sign, Flight number etc....)" input_output="+" required="C" attribute="A" figure="38" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="PRT" name="Arrival place code / Departure place code" input_output="+" required="C" attribute="A" figure="6" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="LPD" name="Arrival place suffix / Departure place suffix" input_output="+" required="C" attribute="A" figure="1" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="KBF" name="Voyage No." input_output="+" required="C" attribute="A" figure="10" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="FDT" name="Estimated date of arrival /Estimated date of departure" input_output="+" required="C" attribute="A" figure="8" form="" order="9" check_attribute="*" check_full="*" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="132, 34" Location="129, 37" Text="Reference type *&#xD;&#xA;(Phân loại xem dữ liệu)" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="242" TabIndex="1" Size="40, 22" Location="338, 44" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue="A,Passenger list information&#xD;&#xA;B,Crew list information&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Reference type" check_attribute="*" attribute="A" id="MDC" figure="1" required="M" />
+    <combobox DropDownWidth="212" TabIndex="3" Size="40, 22" Location="338, 132" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;S,Sea transportation&#xD;&#xA;A,Air transportation&#xD;&#xA;R,Railway transportation&#xD;&#xA;V,Vehicle transportation&#xD;&#xA;" order="3" input_output="+" check_full="" check_time="" check_date="" name="Transportation type" check_attribute="*" attribute="A" id="OPT" figure="1" required="C" />
+    <combobox DropDownWidth="316" TabIndex="4" Size="40, 22" Location="338, 166" BackColor="Window" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;A,Passenger / crew list upon arrival&#xD;&#xA;D,Passenger / crew list upon departure&#xD;&#xA;" order="4" input_output="+" check_full="" check_time="" check_date="" name="Arrival/departure indication" check_attribute="*" attribute="A" id="IOK" figure="1" required="C" />
+    <label Size="153, 48" Location="129, 76" Text="Passenger / crew list No.&#xD;&#xA;(Số tham chiếu danh sách&#xD;&#xA; hành khách / tàu viên)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="338, 90" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Passenger / crew list number" check_attribute="*" attribute="A" id="NUM" figure="12" required="C" />
+    <label Size="130, 34" Location="129, 123" Text="Transportation type &#xD;&#xA;(Loại hình vận chuyển)" Font="Tahoma, 9pt" />
+    <label Size="109, 34" Location="129, 157" Text="Arrival/Departure &#xD;&#xA;(Đến/Đi)" Font="Tahoma, 9pt" />
+    <label Size="186, 34" Location="129, 191" Text="Transportation equipment code &#xD;&#xA;(Mã phương tiện vận chuyển)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="279, 21" Location="338, 200" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="+" check_full="" check_time="" check_date="" name="Transportation equipment code(Vessel call sign, Flight number etc....)" check_attribute="*" attribute="A" id="OPC" figure="38" required="C" />
+    <label Size="157, 34" Location="129, 225" Text="Place of arrival/departure  &#xD;&#xA;(Nơi đến/đi)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="55, 21" Location="338, 234" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="+" check_full="" check_time="" check_date="" name="Arrival place code / Departure place code" check_attribute="*" attribute="A" id="PRT" figure="6" required="C" />
+    <label Size="9, 19" Location="399, 233" Text="-" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="20, 21" Location="414, 234" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="+" check_full="" check_time="" check_date="" name="Arrival place suffix / Departure place suffix" check_attribute="*" attribute="A" id="LPD" figure="1" required="C" />
+    <label Size="111, 34" Location="129, 259" Text="Voyage No. &#xD;&#xA;(Số chuyến đi biển)" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="8" Size="83, 21" Location="338, 268" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="8" input_output="+" check_full="" check_time="" check_date="" name="Voyage No." check_attribute="*" attribute="A" id="KBF" figure="10" required="C" />
+    <label Size="203, 34" Location="129, 293" Text="Estimated date of arrival/departure&#xD;&#xA;(Ngày dự kiến đến/đi)" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="9" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="338, 302" BackColor="Window" Font="Courier New, 9pt" form="" order="9" choice_keyvalue="" input_output="+" check_full="*" check_time="" check_date="" name="Estimated date of arrival /Estimated date of departure" check_attribute="*" attribute="A" id="FDT" figure="8" AutoComplete="False" required="C" />
+  </layout>
+</jobform>

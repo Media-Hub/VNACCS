@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="IVA01" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="S0001" name="Electronic invoice receipt No." id="NIV">
+    <description>Số tiếp nhận hóa đơn điện tử chưa được nhập.
+</description>
+    <disposition>Nhập Số tiếp nhận hóa đơn điện tử.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E1200" name="Electronic invoice receipt No." id="NIV">
+    <description>Thông tin danh sách hóa đơn/kiện hàng tương ứng chưa được đăng ký trong hệ thống.
+</description>
+    <disposition>Sửa Số tiếp nhận hóa đơn điện tử và nhập lại.
+</disposition>
+  </response>
+  <response code="E1204" name="Electronic invoice receipt No." id="NIV">
+    <description>Không thể sử dụng thông tin liên quan đến mục danh sách hóa đơn/kiện hàng tương ứng do thông tin này đã được sử dụng cho tờ khai khác.
+</description>
+    <disposition>Sửa Số tiếp nhận hóa đơn điện tử và nhập lại.
+</disposition>
+  </response>
+  <response code="L0001" name="Electronic invoice receipt No." id="NIV">
+    <description>Nội bộ xảy ra lỗi không tương thích trên Cơ sở dữ liệu thông tin mục danh sách hóa đơn/kiện hàng.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+</help>

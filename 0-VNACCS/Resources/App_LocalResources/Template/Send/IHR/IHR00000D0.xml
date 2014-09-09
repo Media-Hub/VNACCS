@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IHR" jobname="Reference of house manifest information C" display-name="Reference of house manifest information C">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM20_IHR.xml" item_attr_edit="False" />
+  <friday href="CAM20_IHR.xml" revision="0000" />
+  <iteminfo>
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="+" required="M" attribute="A" figure="1" form="" order="1" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="0" in_flg="1" />
+    <item id="OBL" name="Master B/L No. (マスターB/L番号)" input_output="+" required="M" attribute="A" figure="35" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="141, 19" Location="155, 189" Text="Nhập khẩu / Xuất khẩu *" Font="Tahoma, 9pt" />
+    <combobox DropDownWidth="93" TabIndex="1" Size="40, 22" Location="302, 188" BackColor="LightCyan" Font="Courier New, 9pt" form="" choice_keyvalue=",&#xD;&#xA;I,Import&#xD;&#xA;E,Export&#xD;&#xA;" order="1" input_output="+" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="M" />
+    <label Size="91, 19" Location="155, 216" Text="Số Master B/L *" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="258, 21" Location="302, 215" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Master B/L No. (マスターB/L番号)" check_attribute="*" attribute="A" id="OBL" figure="35" required="M" />
+  </layout>
+</jobform>

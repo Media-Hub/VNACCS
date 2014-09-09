@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM20_IMF01" jobname="Reference of manifest information B" display-name="Reference of manifest information B">
+  <meta_info format_Version="1.0" revision="0000" friday="VAS0260.xml" item_attr_edit="False" />
+  <friday href="VAS0260.xml" revision="0000" />
+  <iteminfo>
+    <item id="REF" name="Reference No. (照会番号)" input_output="-" required="C" attribute="I" figure="12" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="IEI" name="Import/Export indication (輸出入識別)" input_output="-" required="C" attribute="A" figure="1" form="" order="3" check_attribute="*" check_full="" choice_keyvalue=",,I,Import,E,Export" out_flg="1" in_flg="1" />
+    <item id="FL1" name="Flight No. 1 (flight number) (便名１)" input_output="-" required="C" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="FL2" name="Flight No. 2 (date) (便名２)" input_output="-" required="C" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="*" choice_table="" out_flg="1" in_flg="1" />
+    <item id="DPR" name="Port of discharge code/Port of loading code (船卸港／船積港)" input_output="-" required="C" attribute="A" figure="3" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="1" />
+    <item id="STS" name="Status indication (状況識別)" input_output="-" required="C" attribute="A" figure="3" form="" order="7" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="IDT" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" input_output="-" required="C" attribute="A" figure="8" form="" order="8" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <item id="NAW" name="Number of AWBs (AWB件数)" input_output="-" required="C" attribute="I" figure="4" form="" order="9" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="50">
+      <item id="AWB" name="AWB No. (AWB番号)" input_output="-" required="C" attribute="A" figure="20" form="" order="10" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="SPT" name="Split indication (スプリット表示)" input_output="-" required="C" attribute="A" figure="1" form="" order="11" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="ORG" name="Place of shipment code (仕出地)" input_output="-" required="C" attribute="A" figure="3" form="" order="12" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="DST" name="Place of destination code (仕向地)" input_output="-" required="C" attribute="A" figure="3" form="" order="13" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="KRR" name="Transship/Transit (仮陸揚げ識別)" input_output="-" required="C" attribute="A" figure="3" form="" order="14" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="OR1" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="C" attribute="A" figure="2" form="" order="15" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="OR2" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="C" attribute="A" figure="2" form="" order="16" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="OR3" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="C" attribute="A" figure="2" form="" order="17" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="OR4" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="C" attribute="A" figure="2" form="" order="18" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="OR5" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" input_output="-" required="C" attribute="A" figure="2" form="" order="19" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="SHS" name="Consignor code (荷送人)" input_output="-" required="C" attribute="A" figure="13" form="" order="20" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="SHN" name="Consignor name (荷送人名)" input_output="-" required="C" attribute="A" figure="70" form="" order="21" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="CNS" name="Consignee code (荷受人)" input_output="-" required="C" attribute="A" figure="13" form="" order="22" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="CNN" name="Consignee name (荷受人名)" input_output="-" required="C" attribute="A" figure="70" form="" order="23" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="A01" name="Number of registered goods information (登録品名情報数)" input_output="-" required="C" attribute="I" figure="2" form="" order="24" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="CMD" name="Goods description (品名)" input_output="-" required="C" attribute="A" figure="70" form="" order="25" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="HSC" name="HS code (First 4 digits) (HS)" input_output="-" required="C" attribute="A" figure="4" form="" order="26" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="PCS" name="Number of packages (個数)" input_output="-" required="C" attribute="I" figure="6" form="" order="27" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="WGT" name="Cargo weight (貨物重量)" input_output="-" required="C" attribute="F" figure="8" form="" order="28" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="JTC" name="Weight unit code (重量単位)" input_output="-" required="C" attribute="A" figure="3" form="" order="29" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+      <item id="SPC" name="Special cargo sign (危険貨物)" input_output="-" required="C" attribute="A" figure="3" form="" order="30" check_attribute="*" check_full="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <label Size="9, 19" Location="451, 17" Text="/" Font="Tahoma, 9pt" />
+    <label Size="57, 19" Location="330, 17" Text="Flight No." Font="Tahoma, 9pt" />
+    <navigator TabIndex="12" Location="14, 65" repetition_id="R01" repetition_max="1" />
+    <container type="GroupBox" TabIndex="13" Size="673, 255" Location="7, 99" Font="Tahoma, 9pt" SpaceX="0" SpaceY="0" Max="0" RepY="3" RepX="1" repetition_id="R01" repetition_max="50">
+      <textbox CharacterCasing="Upper" TabIndex="25" Size="503, 21" Location="40, 195" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="25" input_output="-" check_full="" check_time="" check_date="" name="Goods description (品名)" check_attribute="*" attribute="A" id="CMD" figure="70" required="C" />
+      <ranlabel Size="21, 14" Location="11, 20" Font="Tahoma, 9pt" Value="0" figure="2" repetition_id="R01" PadLeft="True" />
+      <label Size="90, 19" Location="40, 106" Text="Consignee code" Font="Tahoma, 9pt" />
+      <label Size="166, 19" Location="40, 173" Text="Goods description (Tên hàng)" Font="Tahoma, 9pt" />
+      <label Size="20, 19" Location="549, 173" Text="HS" Font="Tahoma, 9pt" />
+      <label Size="36, 19" Location="96, 129" Text="Name" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="26" Size="41, 21" Location="549, 195" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="26" input_output="-" check_full="" check_time="" check_date="" name="HS code (First 4 digits) (HS)" check_attribute="*" attribute="A" id="HSC" figure="4" required="C" />
+      <label Size="36, 19" Location="93, 85" Text="Name" Font="Tahoma, 9pt" />
+      <label Size="89, 26" AutoSize="False" Location="40, 219" Text="PCS &#xD;&#xA;(Số lượng kiện)" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="20" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="136, 61" BackColor="Control" Font="Courier New, 9pt" form="" order="20" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Consignor code (荷送人)" check_attribute="*" attribute="A" id="SHS" figure="13" AutoComplete="False" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="27" Size="55, 21" Location="135, 225" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="27" input_output="-" check_full="" check_time="" check_date="" name="Number of packages (個数)" check_attribute="*" attribute="I" id="PCS" figure="6" required="C" />
+      <label Size="88, 19" Location="40, 63" Text="Consignor code" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="21" Size="503, 21" Location="136, 83" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="21" input_output="-" check_full="" check_time="" check_date="" name="Consignor name (荷送人名)" check_attribute="*" attribute="A" id="SHN" figure="70" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="28" Size="69, 21" Location="338, 225" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="28" input_output="-" check_full="" check_time="" check_date="" name="Cargo weight (貨物重量)" check_attribute="*" attribute="F" id="WGT" figure="8" required="C" />
+      <label Size="53, 19" Location="40, 18" Text="AWB No." Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="23" Size="503, 21" Location="136, 127" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="23" input_output="-" check_full="" check_time="" check_date="" name="Consignee name (荷受人名)" check_attribute="*" attribute="A" id="CNN" figure="70" required="C" />
+      <label Size="9, 19" Location="410, 226" Text="-" Font="Tahoma, 9pt" />
+      <maskedtextbox Mask="&gt;AAAAAAAAAA-AAA" TabIndex="22" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="111, 21" Location="136, 105" BackColor="Control" Font="Courier New, 9pt" form="" order="22" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Consignee code (荷受人)" check_attribute="*" attribute="A" id="CNS" figure="13" AutoComplete="False" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="29" Size="34, 21" Location="422, 225" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="29" input_output="-" check_full="" check_time="" check_date="" name="Weight unit code (重量単位)" check_attribute="*" attribute="A" id="JTC" figure="3" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="30" Size="34, 21" Location="625, 225" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="30" input_output="-" check_full="" check_time="" check_date="" name="Special cargo sign (危険貨物)" check_attribute="*" attribute="A" id="SPC" figure="3" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="14" Size="34, 21" Location="362, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="14" input_output="-" check_full="" check_time="" check_date="" name="Transship/Transit (仮陸揚げ識別)" check_attribute="*" attribute="A" id="KRR" figure="3" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="13" Size="34, 21" Location="209, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="13" input_output="-" check_full="" check_time="" check_date="" name="Place of destination code (仕向地)" check_attribute="*" attribute="A" id="DST" figure="3" required="C" />
+      <label Size="11, 19" Location="409, 40" Text="1" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="12" Size="34, 21" Location="102, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="12" input_output="-" check_full="" check_time="" check_date="" name="Place of shipment code (仕出地)" check_attribute="*" attribute="A" id="ORG" figure="3" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="11" Size="20, 21" Location="293, 17" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="11" input_output="-" check_full="" check_time="" check_date="" name="Split indication (スプリット表示)" check_attribute="*" attribute="A" id="SPT" figure="1" required="C" />
+      <label Size="107, 19" Location="249, 40" Text="Transship / Transit" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="10" Size="153, 21" Location="102, 17" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="10" input_output="-" check_full="" check_time="" check_date="" name="AWB No. (AWB番号)" check_attribute="*" attribute="A" id="AWB" figure="20" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="15" Size="27, 21" Location="429, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="15" input_output="-" check_full="" check_time="" check_date="" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" check_attribute="*" attribute="A" id="OR1" figure="2" required="C" />
+      <label Size="28, 19" Location="259, 18" Text="Split" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="462, 40" Text="2" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="19" Size="27, 21" Location="629, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="19" input_output="-" check_full="" check_time="" check_date="" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" check_attribute="*" attribute="A" id="OR5" figure="2" required="C" />
+      <textbox CharacterCasing="Upper" TabIndex="16" Size="27, 21" Location="479, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="16" input_output="-" check_full="" check_time="" check_date="" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" check_attribute="*" attribute="A" id="OR2" figure="2" required="C" />
+      <label Size="11, 19" Location="612, 40" Text="5" Font="Tahoma, 9pt" />
+      <label Size="56, 19" Location="40, 40" Text="Shipment" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="512, 39" Text="3" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="18" Size="27, 21" Location="579, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="18" input_output="-" check_full="" check_time="" check_date="" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" check_attribute="*" attribute="A" id="OR4" figure="2" required="C" />
+      <label Size="66, 19" Location="139, 40" Text="Destination" Font="Tahoma, 9pt" />
+      <label Size="11, 19" Location="562, 40" Text="4" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="17" Size="27, 21" Location="529, 39" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="17" input_output="-" check_full="" check_time="" check_date="" name="Code of verification based on other laws and regulations (other than Customs laws) (他法令)" check_attribute="*" attribute="A" id="OR3" figure="2" required="C" />
+      <label Size="124, 19" Location="409, 18" Text="Other law (Luật khác)" Font="Tahoma, 9pt" />
+      <textbox CharacterCasing="Upper" TabIndex="24" Size="27, 21" Location="232, 149" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="24" input_output="-" check_full="" check_time="" check_date="" name="Number of registered goods information (登録品名情報数)" check_attribute="*" attribute="I" id="A01" figure="2" required="C" />
+      <label Size="136, 26" AutoSize="False" Location="196, 219" Text="WGT &#xD;&#xA;(Trọng lượng hàng hóa)" Font="Tahoma, 9pt" />
+      <label Size="157, 26" AutoSize="False" Location="462, 219" Text="SPC &#xD;&#xA;(Ký hiệu hàng hóa đặc biệt)" Font="Tahoma, 9pt" />
+      <label Size="186, 19" Location="40, 150" Text="Goods (Số mặt hàng đã đăng ký)" Font="Tahoma, 9pt" />
+    </container>
+    <textbox CharacterCasing="Upper" TabIndex="4" Size="55, 21" Location="393, 16" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="4" input_output="-" check_full="" check_time="" check_date="" name="Flight No. 1 (flight number) (便名１)" check_attribute="*" attribute="A" id="FL1" figure="6" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="5" Size="48, 21" Location="463, 16" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="5" input_output="-" check_full="*" check_time="" check_date="" name="Flight No. 2 (date) (便名２)" check_attribute="*" attribute="A" id="FL2" figure="5" required="C" />
+    <label Size="89, 19" Location="209, 17" Text="Import / Export" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="3" Size="20, 21" Location="304, 16" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue=",,I,Import,E,Export" order="3" input_output="-" check_full="" check_time="" check_date="" name="Import/Export indication (輸出入識別)" check_attribute="*" attribute="A" id="IEI" figure="1" required="C" />
+    <label Size="149, 19" Location="18, 39" Text="Port of discharge / loading" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="6" Size="34, 21" Location="173, 38" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="6" input_output="-" check_full="" check_time="" check_date="" name="Port of discharge code/Port of loading code (船卸港／船積港)" check_attribute="*" attribute="A" id="DPR" figure="3" required="C" />
+    <label Size="148, 19" Location="219, 39" Text="Date of arrival / departure" Font="Tahoma, 9pt" />
+    <label Size="30, 19" Location="547, 39" Text="AWB" Font="Tahoma, 9pt" />
+    <label Size="39, 19" Location="462, 39" Text="Status" Font="Tahoma, 9pt" />
+    <maskedtextbox Mask="99/99/9999" TabIndex="8" CutCopyMaskFormat="ExcludePromptAndLiterals" Size="83, 21" Location="373, 38" BackColor="Control" Font="Courier New, 9pt" form="" order="8" choice_keyvalue="" input_output="-" check_full="" check_time="" check_date="" name="Estimated date of arrival/Estimated date of departure (到着予定年月日／出発予定年月日)" check_attribute="*" attribute="A" id="IDT" figure="8" AutoComplete="False" required="C" />
+    <label Size="82, 19" Location="18, 17" Text="Reference No." Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="97, 21" Location="106, 15" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="-" check_full="" check_time="" check_date="" name="Reference No. (照会番号)" check_attribute="*" attribute="I" id="REF" figure="12" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="7" Size="34, 21" Location="507, 38" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="7" input_output="-" check_full="" check_time="" check_date="" name="Status indication (状況識別)" check_attribute="*" attribute="A" id="STS" figure="3" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="9" Size="41, 21" Location="584, 38" TextAlign="Right" BackColor="Control" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="9" input_output="-" check_full="" check_time="" check_date="" name="Number of AWBs (AWB件数)" check_attribute="*" attribute="I" id="NAW" figure="4" required="C" />
+  </layout>
+</jobform>

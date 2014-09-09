@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ITE" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường
+</description>
+    <disposition>Không cần
+</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.
+</description>
+    <disposition>Liên lạc với Quản trị hệ thống.
+</disposition>
+  </response>
+  <response code="U0003" name="Declarant code" id="UCD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="U0004" name="None&#xA;Declarant code" id="0000&#xA;UCD">
+    <description>Danh mục miễn thuế này đã được người dùng khác đăng ký.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="S0005" name="Date of declaration (from)" id="IDF">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập ngày theo đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0006" name="Date of declaration (to)" id="IDT">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập ngày theo đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0008" name="Import export classification" id="IED">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0009" name="Status indication" id="APC">
+    <description>Định dạng đã nhập không hợp lệ.
+</description>
+    <disposition>Nhập giá trị đúng định dạng.
+</disposition>
+  </response>
+  <response code="S0058" name="Import export classification" id="IED">
+    <description>Yêu cầu nhập liệu.
+</description>
+    <disposition>Nhập giá trị.
+</disposition>
+  </response>
+  <response code="S0900" name="Customs office&#xA;Import export classification&#xA;Declarant code&#xA;Date of declaration (from)&#xA;Date of declaration (to)&#xA;Common management code&#xA;Investment licence or Investment Certificate No.&#xA;Status indication&#xA;Tax exemption list No." id="CH&#xA;IED&#xA;UCD&#xA;IDF&#xA;IDT&#xA;CCN&#xA;ICN&#xA;APC&#xA;TEN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.
+</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.
+</disposition>
+  </response>
+  <response code="R0002" name="Customs office&#xA;Tax exemption list No." id="CH&#xA;TEN">
+    <description>Cần nhập một trong hai giá trị
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="R0004" name="Date of declaration (from)&#xA;Date of declaration (to)" id="IDF&#xA;IDT">
+    <description>Yêu cầu nhập cả 2 giá trị đồng thời.
+</description>
+    <disposition>Nhập cả hai giá trị hoặc hủy nội dung nhập.
+</disposition>
+  </response>
+  <response code="R0005" name="None" id="0000">
+    <description>Danh mục miễn thuế hoặc mục khác cần phải trống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.
+</description>
+    <disposition>Kiểm tra độ dài thông điệp.
+</disposition>
+  </response>
+  <response code="E0002" name="Customs office" id="CH">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0007" name="Date of declaration (from)&#xA;Date of declaration (to)" id="IDF&#xA;IDT">
+    <description>"Ngày khai báo từ" không được sau "Ngày khai báo đến"
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="E0025" name="Tax exemption list No." id="TEN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+  <response code="W1001" name="None" id="0000">
+    <description>Có nhiều thông tin có sẵn để  tham khảo.
+</description>
+    <disposition>Nhấn "Send" để có được thêm thông tin</disposition>
+  </response>
+  <response code="L0001" name="None" id="0000">
+    <description>Không tìm thấy mục
+</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.
+</disposition>
+  </response>
+</help>

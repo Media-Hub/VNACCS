@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM10_GOR" jobname="Registration of departure notification B" display-name="Air departure notification">
+  <meta_info format_Version="1.0" revision="0000" friday="VAA1510.xml" item_attr_edit="False" />
+  <friday href="VAA1510.xml" revision="0000" />
+  <iteminfo>
+    <item id="AND" name="Departure notification number" input_output="-" required="" attribute="A" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KOU" name="Owner or Operator" input_output="-" required="" attribute="A" figure="35" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="REG" name="Aircraft (Marks of Nationality and Registration)" input_output="-" required="" attribute="A" figure="10" form="" order="3" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL1" name="Main departing flight number 1 (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="4" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FL2" name="Main departing flight number 2 (date)" input_output="-" required="" attribute="A" figure="5" form="" order="5" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHU" name="Time and date of information output" input_output="-" required="" attribute="A" figure="16" form="" order="6" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DEP" name="Departure from" input_output="-" required="" attribute="A" figure="28" form="" order="7" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ARP" name="Arrival at" input_output="-" required="" attribute="A" figure="28" form="" order="8" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A01" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="9" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B01" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="10" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A02" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="11" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B02" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="12" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A03" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="13" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B03" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="14" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A04" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="15" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B04" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="16" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A05" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="17" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B05" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="18" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A06" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="19" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B06" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="20" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A07" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="21" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B07" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="22" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A08" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="23" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B08" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="24" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A09" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="25" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B09" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="26" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="A10" name="Departing flight number 1 (for code-share flight) (flight number)" input_output="-" required="" attribute="A" figure="6" form="" order="27" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="B10" name="Departing flight number 2 (for code-share flight) (date)" input_output="-" required="" attribute="A" figure="5" form="" order="28" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE01" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="29" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE02" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="30" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE03" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="31" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE04" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="32" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE05" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="33" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE06" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="34" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE07" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="35" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE08" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="36" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE09" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="37" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE10" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="38" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE11" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="39" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DE12" name="Airports" input_output="-" required="" attribute="A" figure="28" form="" order="40" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JYO1" name="Number of passengers embarking at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="41" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NOR1" name="Number of passengers passing through at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="42" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="OUP" name="Output information name" input_output="-" required="" attribute="A" figure="36" form="" order="43" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CON" name="Customs office name" input_output="-" required="" attribute="A" figure="15" form="" order="44" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NHC" name="Name of Head of Customs office" input_output="-" required="" attribute="A" figure="21" form="" order="45" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="DED" name="Departure date" input_output="-" required="" attribute="A" figure="11" form="" order="46" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="ETD" name="Estimated time of departure" input_output="-" required="" attribute="A" figure="4" form="" order="47" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SPO" name="Aircraft parking spot" input_output="-" required="" attribute="A" figure="5" form="" order="48" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="GAI" name="Number of crew embarking at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="49" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="TUU" name="Number of crew passing through at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="50" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="CRW" name="Number of crew members" input_output="-" required="" attribute="I" figure="3" form="" order="51" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="JYO2" name="Number of passengers embarking at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="52" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NOR2" name="Number of passengers passing through at departure airport" input_output="-" required="" attribute="I" figure="3" form="" order="53" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="NOB" name="Total number of passengers" input_output="-" required="" attribute="I" figure="3" form="" order="54" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SHP" name="Aircraft type" input_output="-" required="" attribute="A" figure="3" form="" order="55" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="FLG" name="Nationality" input_output="-" required="" attribute="A" figure="2" form="" order="56" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SGN" name="Input user" input_output="-" required="" attribute="A" figure="5" form="" order="57" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="IUN" name="Input user name" input_output="-" required="" attribute="A" figure="50" form="" order="58" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="SIG" name="Authorized agent or pilot-in-command" input_output="-" required="" attribute="A" figure="70" form="" order="59" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <item id="KIJ" name="Remarks" input_output="-" required="" attribute="A" figure="70" form="" order="60" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    <ranContainer repetition_max="150">
+      <item id="GAA" name="Official title" input_output="-" required="" attribute="A" figure="3" form="" order="61" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="HAA" name="Crew member name (Last name)" input_output="-" required="" attribute="A" figure="25" form="" order="62" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="IAA" name="Crew member name (First name)" input_output="-" required="" attribute="A" figure="22" form="" order="63" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="JAA" name="Crew member name (Middle name)" input_output="-" required="" attribute="A" figure="22" form="" order="64" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="KAA" name="Nationality of crew member" input_output="-" required="" attribute="A" figure="2" form="" order="65" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="LAA" name="Date of birth (crew)" input_output="-" required="" attribute="A" figure="8" form="" order="66" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="MAA" name="Crew member's sex" input_output="-" required="" attribute="A" figure="1" form="" order="67" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+      <item id="NAA" name="Crew member's identification document number" input_output="-" required="" attribute="A" figure="35" form="" order="68" check_attribute="*" check_full="" choice_table="" out_flg="1" in_flg="0" />
+    </ranContainer>
+  </iteminfo>
+  <layout>
+    <page Font="Microsoft Sans Serif, 8pt" MinOccurs="1">
+      <label Location="509, 693" Size="138, 19" Font="Tahoma, 9pt" Text="CLEARANCE(OUTWARD)" />
+      <label Location="289, 10" Size="147, 34" Font="Tahoma, 9pt" Text="GENERAL DECLARATION&#xD;&#xA;   (Outward / Inward)" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 638" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 610" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 582" Size="386, 0" />
+      <prttextbox Format="hh:mm" Location="544, 786" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="4" form="" id="ETD" input_output="-" name="Estimated time of departure" order="47" required="" />
+      <prttextbox Format="" Location="505, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B10" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="28" required="" />
+      <prttextbox Format="" Location="172, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B02" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="12" required="" />
+      <pagelabel AutoSize="True" Location="662, 1033" Size="56, 14" Font="Courier New, 8.25pt" Text="pp / mp" PageFormat="PageProgress" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="505, 689" Size="213, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 442" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 554" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 827" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 782" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="559, 80" Size="110, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="361, 80" Size="95, 0" />
+      <label Location="56, 83" Size="167, 16" Font="Tahoma, 7pt" Text="(Marks of Nationality and Registration)" />
+      <label Location="382, 119" Size="88, 16" Font="Tahoma, 7pt" Text="(Place and Country)" />
+      <label Location="143, 119" Size="88, 16" Font="Tahoma, 7pt" Text="(Place and Country)" />
+      <label Location="302, 935" Size="117, 16" Font="Tahoma, 7pt" Text="(Crew member concerned)" />
+      <label Location="20, 917" Size="167, 16" Font="Tahoma, 7pt" Text="Signed, if required, with time and date" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="651, 401" Size="60, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="651, 372" Size="60, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="651, 311" Size="60, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="651, 282" Size="60, 0" />
+      <label Location="566, 342" Size="59, 16" Font="Tahoma, 7pt" Text="Arrival place:" />
+      <label Location="566, 252" Size="75, 16" Font="Tahoma, 7pt" Text="Departure place:" />
+      <label Location="578, 269" Size="49, 16" Font="Tahoma, 7pt" Text="Embarking" />
+      <label Location="578, 358" Size="61, 16" Font="Tahoma, 7pt" Text="Disembarking" />
+      <label Location="578, 288" Size="58, 27" Font="Tahoma, 7pt" Text="Through on&#xD;&#xA;Same flight" />
+      <label Location="578, 378" Size="58, 27" Font="Tahoma, 7pt" Text="Through on&#xD;&#xA;Same flight" />
+      <label AutoSize="False" Location="1, 685" Size="502, 99" Font="Tahoma, 7.5pt" Text="Name and seat number or function of persons on board with illnesses other than airsickness&#xD;&#xA;or the effects of accidents, who may be suffering from a communicable disease(a fever-&#xD;&#xA;temperature 38℃/100°F or greater-associated with one or more of the following signs&#xD;&#xA;or symptoms, e.g. appearing obviously unwell; persistent coughing; impaired breathing;&#xD;&#xA;persistent diarrhoea; persistent vomiting; skin rash; bruising or bleeding without&#xD;&#xA;previous injury; or confusion of recent onset, increases the likelihood that the person&#xD;&#xA;is suffering a communicable disease) as well as such cases of illness disembarked&#xD;&#xA;during a previous stop." TextAlign="TopLeft" />
+      <label Location="551, 671" Size="86, 16" Font="Tahoma, 7pt" Text="For official use only" />
+      <label Location="391, 1011" Size="173, 16" Font="Tahoma, 7pt" Text="(Authorized Agent or Pilot-in-command)" />
+      <label AutoSize="False" Location="0, 957" Size="718, 34" Font="Tahoma, 7pt" Text="I declare that all statements and particulars contained in this General Declaration, and in any supplementary forms required&#xD;&#xA;to be presented with this General Declaration, are complete, exact and true to the best of my knowledge and that all through&#xD;&#xA;passengers will continue / have continued on the flight." />
+      <label AutoSize="False" Location="1, 836" Size="502, 38" Font="Tahoma, 7.5pt" Text="Details of each disinsecting or sanitary treatment (place, date, time, method) during&#xD;&#xA;the flight. If no disinsecting has been carried out during the flight, give details of&#xD;&#xA;most recent disinsecting." TextAlign="TopLeft" />
+      <label Location="190, 671" Size="118, 16" Font="Tahoma, 7pt" Text="DECLARATION OF HEALTH" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 526" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 386" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 414" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 498" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 470" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 358" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 330" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 302" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="175, 274" Size="386, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 666" Size="718, 0" />
+      <label Location="315, 214" Size="77, 16" Font="Tahoma, 7pt" Text="CREW MANIFEST" />
+      <label Location="148, 185" Size="318, 27" Font="Tahoma, 7pt" Text="FLIGHT ROUTING&#xD;&#xA;(&quot;Place&quot; Column always to list origin, every en-route stop and destination)" TextAlign="MiddleCenter" />
+      <label Location="580, 214" Size="121, 27" Font="Tahoma, 7pt" Text="NUMBER OF PASSENGERS&#xD;&#xA;ON THIS STAGE" TextAlign="MiddleCenter" />
+      <label Location="184, 232" Size="14, 14" Font="Tahoma, 6pt" Text="OT" />
+      <label Location="249, 232" Size="24, 14" Font="Tahoma, 6pt" Text="Name" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 184" Size="718, 0" />
+      <label Location="327, 233" Size="35, 12" Font="Tahoma, 5pt" Text="Nationality" />
+      <label Location="370, 233" Size="49, 14" Font="Tahoma, 6pt" Text="Date of Birth" />
+      <label Location="433, 232" Size="16, 14" Font="Tahoma, 6pt" Text="Sex" />
+      <label Location="469, 232" Size="65, 14" Font="Tahoma, 6pt" Text="Passport number" />
+      <label Location="475, 65" Size="66, 16" Font="Tahoma, 7pt" Text="Time and Date" />
+      <label Location="0, 44" Size="84, 16" Font="Tahoma, 7pt" Text="Owner or Operator" />
+      <label Location="294, 65" Size="44, 16" Font="Tahoma, 7pt" Text="Flight No." />
+      <label Location="0, 65" Size="34, 16" Font="Tahoma, 7pt" Text="Aircraft" />
+      <label Location="0, 101" Size="69, 16" Font="Tahoma, 7pt" Text="Departure from" />
+      <label Location="403, 66" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="112, 47" Size="208, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="KOU" input_output="-" name="Owner or Operator" order="2" required="" />
+      <label Location="0, 140" Size="96, 16" Font="Tahoma, 7pt" Text="Code Share Flight No." />
+      <label Location="294, 101" Size="42, 16" Font="Tahoma, 7pt" Text="Arrival at" />
+      <prttextbox Format="" Location="3, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A01" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="9" required="" />
+      <prttextbox Format="" Location="61, 68" Size="64, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="REG" input_output="-" name="Aircraft (Marks of Nationality and Registration)" order="3" required="" />
+      <label Location="50, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="112, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="11" required="" />
+      <prttextbox Format="" Location="361, 68" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="FL1" input_output="-" name="Main departing flight number 1 (flight number)" order="4" required="" />
+      <label Location="159, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="223, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A03" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="13" required="" />
+      <prttextbox Format="" Location="416, 68" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="FL2" input_output="-" name="Main departing flight number 2 (date)" order="5" required="" />
+      <label Location="270, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="334, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A04" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="15" required="" />
+      <prttextbox Format="" Location="561, 68" Size="98, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="16" form="" id="SHU" input_output="-" name="Time and date of information output" order="6" required="" />
+      <label Location="381, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="94, 104" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DEP" input_output="-" name="Departure from" order="7" required="" />
+      <prttextbox Format="" Location="445, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A05" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="17" required="" />
+      <label Location="492, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="364, 104" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="ARP" input_output="-" name="Arrival at" order="8" required="" />
+      <prttextbox Format="" Location="3, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A06" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="19" required="" />
+      <label Location="50, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="112, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A07" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="21" required="" />
+      <label Location="159, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="223, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A08" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="23" required="" />
+      <label Location="270, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="334, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A09" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="25" required="" />
+      <label Location="381, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="0, 248" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE01" input_output="-" name="Airports" order="29" required="" />
+      <prttextbox Format="" Location="445, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A10" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="27" required="" />
+      <label Location="492, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="61, 222" Size="31, 16" Font="Tahoma, 7pt" Text="PLACE" />
+      <prttextbox Format="" Location="0, 274" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE03" input_output="-" name="Airports" order="31" required="" />
+      <prttextbox Format="" Location="0, 261" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE02" input_output="-" name="Airports" order="30" required="" />
+      <prttextbox Format="" Location="0, 300" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE05" input_output="-" name="Airports" order="33" required="" />
+      <prttextbox Format="" Location="0, 287" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE04" input_output="-" name="Airports" order="32" required="" />
+      <prttextbox Format="" Location="0, 326" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE07" input_output="-" name="Airports" order="35" required="" />
+      <prttextbox Format="" Location="0, 313" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE06" input_output="-" name="Airports" order="34" required="" />
+      <prttextbox Format="" Location="0, 352" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE09" input_output="-" name="Airports" order="37" required="" />
+      <prttextbox Format="" Location="0, 339" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE08" input_output="-" name="Airports" order="36" required="" />
+      <prttextbox Format="" Location="0, 365" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE10" input_output="-" name="Airports" order="38" required="" />
+      <prttextbox Format="" Location="0, 378" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE11" input_output="-" name="Airports" order="39" required="" />
+      <prttextbox Format="" Location="0, 391" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DE12" input_output="-" name="Airports" order="40" required="" />
+      <label Location="507, 796" Size="33, 16" Font="Tahoma, 7pt" Text="SPOT :" />
+      <label Location="607, 818" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="506, 822" Size="36, 16" Font="Tahoma, 7pt" Text="CREW :" />
+      <label Location="573, 818" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="506, 835" Size="30, 16" Font="Tahoma, 7pt" Text="PAX  :" />
+      <label Location="507, 861" Size="29, 16" Font="Tahoma, 7pt" Text="FLG  :" />
+      <label Location="607, 830" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="573, 830" Size="11, 23" Font="Tahoma, 11pt" Text="-" />
+      <label Location="506, 848" Size="31, 16" Font="Tahoma, 7pt" Text="SHIP :" />
+      <label Location="507, 874" Size="32, 16" Font="Tahoma, 7pt" Text="SIGN :" />
+      <label Location="231, 993" Size="54, 16" Font="Tahoma, 7pt" Text="SIGNATURE" />
+      <label Location="0, 1026" Size="46, 16" Font="Tahoma, 7pt" Text="REMARK :" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="0, 214" Size="718, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="157, 229" Size="404, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="174, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 956" Size="718, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="250, 932" Size="239, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="299, 1008" Size="404, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="0, 137" Size="718, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="206, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="327, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="430, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="451, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="363, 248" Size="0, 418" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="90, 116" Size="191, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="56, 80" Size="225, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="361, 116" Size="170, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="514, 59" Size="91, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="101, 59" Size="225, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 812" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 893" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 797" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 878" Size="490, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="2, 908" Size="490, 0" />
+      <label Location="507, 783" Size="31, 16" Font="Tahoma, 7pt" Text="ETD  :" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="505, 667" Size="0, 289" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="561, 248" Size="0, 418" />
+      <prttextbox Format="" Location="61, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B01" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="10" required="" />
+      <prttextbox Format="" Location="283, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B03" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="14" required="" />
+      <prttextbox Format="" Location="394, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B04" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="16" required="" />
+      <prttextbox Format="" Location="505, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B05" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="18" required="" />
+      <prttextbox Format="" Location="61, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B06" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="20" required="" />
+      <prttextbox Format="" Location="172, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B07" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="22" required="" />
+      <prttextbox Format="" Location="283, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B08" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="24" required="" />
+      <prttextbox Format="" Location="394, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B09" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="26" required="" />
+      <prttextbox Format="" Location="653, 272" Size="29, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="JYO1" input_output="-" name="Number of passengers embarking at departure airport" order="41" required="" />
+      <prttextbox Format="" Location="653, 300" Size="29, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="NOR1" input_output="-" name="Number of passengers passing through at departure airport" order="42" required="" />
+      <prttextbox Format="" Multiline="True" Location="509, 714" Size="185, 24" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="36" form="" id="OUP" input_output="-" name="Output information name" order="43" required="" />
+      <prttextbox Format="" Location="509, 742" Size="93, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="15" form="" id="CON" input_output="-" name="Customs office name" order="44" required="" />
+      <prttextbox Format="" Location="524, 756" Size="127, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="21" form="" id="NHC" input_output="-" name="Name of Head of Customs office" order="45" required="" />
+      <prttextbox Format="" Location="513, 769" Size="70, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="11" form="" id="DED" input_output="-" name="Departure date" order="46" required="" />
+      <prttextbox Format="" Location="544, 799" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="SPO" input_output="-" name="Aircraft parking spot" order="48" required="" />
+      <prttextbox Format="" Location="549, 825" Size="23, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="GAI" input_output="-" name="Number of crew embarking at departure airport" order="49" required="" />
+      <prttextbox Format="" Location="584, 825" Size="23, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="TUU" input_output="-" name="Number of crew passing through at departure airport" order="50" required="" />
+      <prttextbox Format="" Location="622, 825" Size="29, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="CRW" input_output="-" name="Number of crew members" order="51" required="" />
+      <prttextbox Format="" Location="549, 837" Size="23, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="JYO2" input_output="-" name="Number of passengers embarking at departure airport" order="52" required="" />
+      <prttextbox Format="" Location="584, 837" Size="23, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="NOR2" input_output="-" name="Number of passengers passing through at departure airport" order="53" required="" />
+      <prttextbox Format="" Location="622, 837" Size="29, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="I" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="NOB" input_output="-" name="Total number of passengers" order="54" required="" />
+      <prttextbox Format="" Location="544, 851" Size="29, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="SHP" input_output="-" name="Aircraft type" order="55" required="" />
+      <prttextbox Format="" Location="544, 864" Size="21, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="FLG" input_output="-" name="Nationality" order="56" required="" />
+      <prttextbox Format="" Location="544, 877" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="SGN" input_output="-" name="Input user" order="57" required="" />
+      <prttextbox Format="" Multiline="True" Location="544, 891" Size="155, 24" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="50" form="" id="IUN" input_output="-" name="Input user name" order="58" required="" />
+      <prttextbox Format="" Location="296, 993" Size="410, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="SIG" input_output="-" name="Authorized agent or pilot-in-command" order="59" required="" />
+      <prttextbox Format="" Location="52, 1029" Size="410, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="70" form="" id="KIJ" input_output="-" name="Remarks" order="60" required="" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="0, 246" Size="718, 0" />
+      <label Location="382, 44" Size="113, 16" Font="Tahoma, 7pt" Text="Departure notification No." />
+      <prttextbox Format="" Location="518, 47" Size="75, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AND" input_output="-" name="Departure notification number" order="1" required="" />
+      <ran Location="174, 248" Size="386, 28" Font="Tahoma, 11pt" Count="15" repetition_id="R01" repetition_max="150" RepX="1" RepY="15" SpaceX="0" SpaceY="0">
+        <prttextbox Format="" Location="263, 7" Size="11, 10" BorderStyle="None" Font="Courier New, 6pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MAA" input_output="-" name="Crew member's sex" order="67" required="" />
+        <prttextbox Format="" Location="165, 7" Size="16, 10" BorderStyle="None" Font="Courier New, 6pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KAA" input_output="-" name="Nationality of crew member" order="65" required="" />
+        <prttextbox Format="" Location="40, 10" Size="96, 8" BorderStyle="None" Font="Courier New, 5pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="22" form="" id="IAA" input_output="-" name="Crew member name (First name)" order="63" required="" />
+        <prttextbox Format="" Location="40, 3" Size="108, 8" BorderStyle="None" Font="Courier New, 5pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="25" form="" id="HAA" input_output="-" name="Crew member name (Last name)" order="62" required="" />
+        <prttextbox Format="" Location="7, 7" Size="21, 10" BorderStyle="None" Font="Courier New, 6pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="GAA" input_output="-" name="Official title" order="61" required="" />
+        <prttextbox Format="" Location="40, 17" Size="96, 8" BorderStyle="None" Font="Courier New, 5pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="22" form="" id="JAA" input_output="-" name="Crew member name (Middle name)" order="64" required="" />
+        <prttextbox Format="dd/MM/yyyy" Location="195, 7" Size="55, 10" BorderStyle="None" Font="Courier New, 6pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="LAA" input_output="-" name="Date of birth (crew)" order="66" required="" />
+        <prttextbox Format="" Multiline="True" Location="284, 5" Size="95, 16" BorderStyle="None" Font="Courier New, 6pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NAA" input_output="-" name="Crew member's identification document number" order="68" required="" />
+      </ran>
+    </page>
+    <page Font="Microsoft Sans Serif, 8pt" MaxOccurs="9">
+      <line LineStyle="Center, Black, Solid, 0.5" Location="514, 59" Size="91, 0" />
+      <pagelabel AutoSize="True" Location="662, 1033" Size="56, 14" Font="Courier New, 8.25pt" Text="pp / mp" PageFormat="PageProgress" />
+      <label Location="492, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="381, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="270, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="159, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="50, 167" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="492, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="381, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="270, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="159, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="50, 154" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <label Location="0, 140" Size="96, 16" Font="Tahoma, 7pt" Text="Code Share Flight No." />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="0, 137" Size="718, 0" />
+      <label Location="0, 44" Size="84, 16" Font="Tahoma, 7pt" Text="Owner or Operator" />
+      <label Location="0, 65" Size="34, 16" Font="Tahoma, 7pt" Text="Aircraft" />
+      <label Location="294, 65" Size="44, 16" Font="Tahoma, 7pt" Text="Flight No." />
+      <label Location="475, 65" Size="66, 16" Font="Tahoma, 7pt" Text="Time and Date" />
+      <label Location="294, 101" Size="42, 16" Font="Tahoma, 7pt" Text="Arrival at" />
+      <label Location="0, 101" Size="69, 16" Font="Tahoma, 7pt" Text="Departure from" />
+      <label Location="56, 83" Size="167, 16" Font="Tahoma, 7pt" Text="(Marks of Nationality and Registration)" />
+      <label Location="382, 119" Size="88, 16" Font="Tahoma, 7pt" Text="(Place and Country)" />
+      <label Location="143, 119" Size="88, 16" Font="Tahoma, 7pt" Text="(Place and Country)" />
+      <label Location="31, 201" Size="72, 16" Font="Tahoma, 7pt" Text="OFFICIAL TITLE" />
+      <label Location="131, 201" Size="53, 16" Font="Tahoma, 7pt" Text="LAST NAME" />
+      <label Location="292, 201" Size="63, 16" Font="Tahoma, 7pt" Text="NATIONALITY" />
+      <label Location="472, 201" Size="20, 16" Font="Tahoma, 7pt" Text="SEX" />
+      <label Location="374, 201" Size="72, 16" Font="Tahoma, 7pt" Text="DATE OF BIRTH" />
+      <label Location="510, 201" Size="89, 16" Font="Tahoma, 7pt" Text="PASSPORT NUMBER" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="361, 116" Size="172, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="559, 80" Size="110, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="56, 80" Size="225, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="90, 116" Size="191, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="361, 80" Size="95, 0" />
+      <line LineStyle="Center, Black, Solid, 0.5" Location="101, 59" Size="225, 0" />
+      <line LineStyle="Center, Black, Solid, 1" Location="0, 184" Size="718, 0" />
+      <label Location="313, 2" Size="99, 19" Font="Tahoma, 9pt" Text="CREW MANIFEST" />
+      <label Location="131, 215" Size="57, 16" Font="Tahoma, 7pt" Text="FIRST NAME" />
+      <label Location="131, 229" Size="66, 16" Font="Tahoma, 7pt" Text="MIDDLE NAME" />
+      <label Location="403, 66" Size="7, 16" Font="Tahoma, 7pt" Text="/" />
+      <prttextbox Format="" Location="112, 47" Size="208, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="KOU" input_output="-" name="Owner or Operator" order="2" required="" />
+      <prttextbox Format="" Location="3, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A01" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="9" required="" />
+      <prttextbox Format="" Location="61, 68" Size="64, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="10" form="" id="REG" input_output="-" name="Aircraft (Marks of Nationality and Registration)" order="3" required="" />
+      <prttextbox Format="" Location="112, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A02" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="11" required="" />
+      <prttextbox Format="" Location="361, 68" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="FL1" input_output="-" name="Main departing flight number 1 (flight number)" order="4" required="" />
+      <prttextbox Format="" Location="223, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A03" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="13" required="" />
+      <prttextbox Format="" Location="416, 68" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="FL2" input_output="-" name="Main departing flight number 2 (date)" order="5" required="" />
+      <prttextbox Format="" Location="334, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A04" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="15" required="" />
+      <prttextbox Format="" Location="561, 68" Size="98, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="16" form="" id="SHU" input_output="-" name="Time and date of information output" order="6" required="" />
+      <prttextbox Format="" Location="445, 156" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A05" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="17" required="" />
+      <prttextbox Format="" Location="94, 104" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="DEP" input_output="-" name="Departure from" order="7" required="" />
+      <prttextbox Format="" Location="3, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A06" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="19" required="" />
+      <prttextbox Format="" Location="364, 104" Size="168, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="28" form="" id="ARP" input_output="-" name="Arrival at" order="8" required="" />
+      <prttextbox Format="" Location="112, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A07" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="21" required="" />
+      <prttextbox Format="" Location="223, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A08" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="23" required="" />
+      <prttextbox Format="" Location="334, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A09" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="25" required="" />
+      <prttextbox Format="" Location="445, 170" Size="41, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="6" form="" id="A10" input_output="-" name="Departing flight number 1 (for code-share flight) (flight number)" order="27" required="" />
+      <prttextbox Format="" Location="172, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B02" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="12" required="" />
+      <prttextbox Format="" Location="61, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B01" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="10" required="" />
+      <prttextbox Format="" Location="283, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B03" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="14" required="" />
+      <prttextbox Format="" Location="394, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B04" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="16" required="" />
+      <prttextbox Format="" Location="505, 156" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B05" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="18" required="" />
+      <prttextbox Format="" Location="61, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B06" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="20" required="" />
+      <prttextbox Format="" Location="172, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B07" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="22" required="" />
+      <prttextbox Format="" Location="283, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B08" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="24" required="" />
+      <prttextbox Format="" Location="394, 170" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B09" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="26" required="" />
+      <prttextbox Format="" Location="505, 169" Size="35, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="5" form="" id="B10" input_output="-" name="Departing flight number 2 (for code-share flight) (date)" order="28" required="" />
+      <label Location="382, 44" Size="113, 16" Font="Tahoma, 7pt" Text="Departure notification No." />
+      <prttextbox Format="" Location="518, 47" Size="75, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="12" form="" id="AND" input_output="-" name="Departure notification number" order="1" required="" />
+      <ran Location="0, 247" Size="718, 47" Font="Microsoft Sans Serif, 8pt" Count="15" Offset="15" repetition_id="R01" repetition_max="150" RepX="1" RepY="15" SpaceX="0" SpaceY="0">
+        <prttextbox Format="" Location="31, 3" Size="23, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="3" form="" id="GAA" input_output="-" name="Official title" order="61" required="" />
+        <prttextbox Format="" Location="122, 3" Size="150, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="25" form="" id="HAA" input_output="-" name="Crew member name (Last name)" order="62" required="" />
+        <prttextbox Format="" Location="122, 17" Size="133, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="22" form="" id="IAA" input_output="-" name="Crew member name (First name)" order="63" required="" />
+        <prttextbox Format="" Location="122, 31" Size="133, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="22" form="" id="JAA" input_output="-" name="Crew member name (Middle name)" order="64" required="" />
+        <prttextbox Format="" Location="294, 3" Size="18, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="2" form="" id="KAA" input_output="-" name="Nationality of crew member" order="65" required="" />
+        <prttextbox Format="dd/MM/yyyy" Location="374, 3" Size="64, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="8" form="" id="LAA" input_output="-" name="Date of birth (crew)" order="66" required="" />
+        <prttextbox Format="" Location="510, 3" Size="208, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="35" form="" id="NAA" input_output="-" name="Crew member's identification document number" order="68" required="" />
+        <prttextbox Format="" Location="475, 3" Size="12, 11" BorderStyle="None" Font="Courier New, 7pt" attribute="A" check_attribute="*" check_date="" check_full="" check_time="" choice_keyvalue="" figure="1" form="" id="MAA" input_output="-" name="Crew member's sex" order="67" required="" />
+        <ranlabel Location="2, 3" Size="23, 12" Font="Courier New, 7pt" figure="3" repetition_id="R01" Value="0" PadLeft="True" />
+        <line LineStyle="Center, Black, Solid, 0.5" Location="0, -1" Size="718, 0" />
+      </ran>
+    </page>
+  </layout>
+</jobform>

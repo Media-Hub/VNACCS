@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="HYS" name="Registration of application attached by electronic file">
+  <item no="1" name="Customs Office" id="CH" required="" code="Customs office　code&#xA;">Nhập mã cơ quan Hải quan (tham khảo bảng mã trên website Hải quan: www.customs.gov.vn)
+Lưu ý: Cơ quan Hải quan nơi đăng ký tờ khai nhập khẩu phải là đơn vị được áp dụng thủ tục này, và đã đăng ký trên hệ thống.
+</item>
+  <item no="2" name="Customs Sub-section" id="CHB" required="" code="Customs Sub-section ">Nhập mã đội thủ tục xử lý hồ sơ.
+(*) Nhập tiêu chí trong trường hợp là thủ tục thông quan .
+</item>
+  <item no="3" name="Application procedure type" id="TSB" required="" code="Application procedure type code">Nhập mã phân loại thủ tục khai báo.</item>
+  <item no="4" name="Applicant telephone number" id="STL" required="" code="">Nhập số điện thoại người khai hải quan.</item>
+  <item no="5" name="Enterprise internal control number" id="REF" required="" code="">Nhập số quản lý của nội bộ doanh nghiệp trong trường hợp doanh nghiệp sử dụng tính năng này để quản lý nội bộ.</item>
+  <item no="6" name="Remarks" id="KIJ" required="" code="">Nhập ghi chú (nếu có).</item>
+</guide>

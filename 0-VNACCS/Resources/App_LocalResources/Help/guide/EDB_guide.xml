@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="EDB" name="Pre-registration of export declaration (Call up)">
+  <item no="1" name="Declaration No." id="ECN" required="" code="">Nhập số tờ khai do hệ thống cấp sau khi thực hiện nghiệp vụ EDA</item>
+  <item no="2" name="Electronic Invoice Receipt No.&#xA;" id="IVU" required="" code="">Trường hợp sử dụng nghiệp vụ này để lấy các thông tin về hàng hóa từ dữ liệu hóa đơn đã được đăng kí trong hệ thống để thực hiện EDA thì nhập số tiếp nhận hóa đơn điện tử.
+Lưu ý: Hóa đơn điện tử phải thỏa mãn các điều kiện sau:
+(1) Là hóa đơn xuất khẩu.
+(2) Không được sử dụng trong bất kì hồ sơ xuất khẩu nào khác.
+</item>
+</guide>

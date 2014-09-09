@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="BIA" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể xử lý nghiệp vụ do mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0003" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã nhập được quản lý bởi Cơ quan hải quan khác.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="U0004" name="None" id="0000">
+    <description>Cầu cảng neo đậu đã nhập do Cơ quan hải quan khác quản lý</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="U0005" name="None" id="0000">
+    <description>Khu vực dỡ hàng đã nhập được quản lý bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="U0006" name="None" id="0000">
+    <description>Chỉ hải quan mới có thể sử dụng nghiệp vụ BIA trong trường hợp vị trí dỡ hàng là cầu cảng.</description>
+    <disposition>Kiểm tra thông tin tờ khai. Liên lạc với hải quan nếu vị trí dỡ hàng là cầu cảng.</disposition>
+  </response>
+  <response code="S0001" name="Declaration No." id="OLT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tờ khai.</disposition>
+  </response>
+  <response code="S0002" name="Bonded transportation type indication" id="TRT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Cờ báo phân loại vận chuyển.</disposition>
+  </response>
+  <response code="S0003" name="Bonded transportation type indication" id="TRT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Cờ báo phân loại vận chuyển với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0004" name="Departure location of bonded transportation (Bonded area)" id="DPR">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Departure location of bonded transportation (Berth code)" id="BRT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0007" name="Arrival location of bonded transportation&#xA;(Bonded area)" id="SOH">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0008" name="Arrival location of bonded transportation&#xA;(Berth code)" id="SOB">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0010" name="Date of arrival" id="DTM">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Ngày đến.</disposition>
+  </response>
+  <response code="S0011" name="Date of arrival" id="DTM">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Ngày đến với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0012" name="Actual time of arrival" id="TIM">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thời gian đến thực tế.</disposition>
+  </response>
+  <response code="S0013" name="Actual time of arrival" id="TIM">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Thời gian đến thực tế với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0014" name="Remarks" id="RM1">
+    <description>Giá trị nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ</disposition>
+  </response>
+  <response code="S0015" name="Executed action" id="EXE">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0016" name="Remarks (for Customs use)" id="RM2">
+    <description>Giá trị nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ</disposition>
+  </response>
+  <response code="S0017" name="Executed action" id="EXE">
+    <description>Không thể nhập liệu vào mục này.  (chỉ dành cho hải quan)</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="S0018" name="Remarks (for Customs use)" id="RM2">
+    <description>Không thể nhập liệu vào mục này. (chỉ dành cho hải quan)</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="S0999" name="Remarks&#xA;Remarks (for Customs use)" id="RM1&#xA;RM2">
+    <description>Nhập liệu quá độ dài cho phép</description>
+    <disposition>Kiểm tra nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Declaration No." id="OLT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="None" id="0000">
+    <description>Trạng thái (trong hệ thống) của tờ khai là không phải là đang được vận chuyển.</description>
+    <disposition>Kiểm tra thông tin tờ khai.</disposition>
+  </response>
+  <response code="E0004" name="Date of arrival" id="DTM">
+    <description>Ngày và giờ đã nhập phải trước ngày và giờ xuất cảng đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập ngày, giờ hợp lệ.</disposition>
+  </response>
+  <response code="E0005" name="Date of arrival" id="DTM">
+    <description>Ngày và giờ đã nhập phải sau ngày tháng và giờ hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0006" name="Arrival location of bonded transportation&#xA;(Bonded area)&#xA;Arrival location of bonded transportation&#xA;(Port of discharge)" id="SOH&#xA;SOP">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0007" name="Arrival location of bonded transportation&#xA;(Berth code)" id="SOB">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0008" name="Arrival location of bonded transportation&#xA;(Port of discharge)" id="SOP">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0009" name="Arrival location of bonded transportation&#xA;(Bonded area)" id="SOH">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0010" name="Arrival location of bonded transportation&#xA;(Berth code)" id="SOB">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0011" name="Arrival location of bonded transportation&#xA;(Port of discharge)" id="SOP">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0012" name="Departure location of bonded transportation (Bonded area)" id="DPR">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0013" name="Departure location of bonded transportation (Port of loading)" id="PRT">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0014" name="Departure location of bonded transportation (Berth code)" id="BRT">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0015" name="Departure location of bonded transportation (Port of loading)" id="PRT">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0016" name="Departure location of bonded transportation (Bonded area)" id="DPR">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0017" name="Departure location of bonded transportation (Berth code)" id="BRT">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0018" name="Departure location of bonded transportation (Port of loading)" id="PRT">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0019" name="Departure location of bonded transportation (Bonded area)" id="DPR">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0020" name="Departure location of bonded transportation (Berth code)" id="BRT">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0021" name="Departure location of bonded transportation (Bonded area)" id="DPR">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0022" name="Departure location of bonded transportation (Berth code)" id="BRT">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0023" name="Departure location of bonded transportation (Port of loading)" id="PRT">
+    <description>Không thể nhập liệu vào mục này trong trường hợp tờ khai nhập khẩu/xuất khẩu.</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0028" name="Bonded transportation type indication" id="TRT">
+    <description>Giá trị đã nhập không tương ứng với giá trị đã đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra thông tin tờ khai và nhập giá trị hợp lệ.</disposition>
+  </response>
+  <response code="E0029" name="None" id="0000">
+    <description>Nghiệp vụ BOA chưa được thực hiện.</description>
+    <disposition>Kiểm tra thông tin tờ khai.</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử.</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.</disposition>
+  </response>
+</help>

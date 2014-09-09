@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="ROT" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Kết thúc bình thường.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="S0001" name="Output message code" id="OCD">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã số xuất dữ liệu.</disposition>
+  </response>
+  <response code="S0002" name="Peculiar information 1" id="CM1">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thông tin đặc thù 1.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Output message code" id="OCD">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Peculiar information 2" id="CM2">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thông tin đặc thù 2.</disposition>
+  </response>
+  <response code="E0004" name="Peculiar information 3" id="CM3">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Thông tin đặc thù 3.</disposition>
+  </response>
+  <response code="E0005" name="Output message code" id="OCD">
+    <description>Mã số xuất dữ liệu đã nhập không phải là đối tượng để xuất lại.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="E0006" name="Output message code" id="OCD">
+    <description>Mã số xuất dữ liệu đã nhập chỉ có thể xuất lại cho Hải quan.</description>
+    <disposition>Kiểm tra giá trị và nhập mã hợp lệ.</disposition>
+  </response>
+  <response code="E0007" name="None" id="0000">
+    <description>Tổ hợp Mã số xuất dữ liệu, thông tin đặc thù 1, 2, 3 đã nhập chưa được đăng ký để xuất lại trong hệ thống.</description>
+    <disposition>Kiểm tra nhập Mã số xuất dữ liệu, thông tin đặc thù 1, 2, 3.</disposition>
+  </response>
+  <response code="E0008" name="None" id="0000">
+    <description>Người sử dụng không có quyền lấy thông tin xuất lại.</description>
+    <disposition>Kiểm tra Mã người sử dụng của người nhập.</disposition>
+  </response>
+</help>

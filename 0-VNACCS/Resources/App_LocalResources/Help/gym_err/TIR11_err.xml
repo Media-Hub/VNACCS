@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="TIR11" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Arrival declaration number" id="AND">
+    <description>Số tờ khai này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai nhập khẩu</disposition>
+  </response>
+  <response code="U0003" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Số tờ khai này đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập của Số khai báo xe đi.</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Arrival declaration number" id="AND">
+    <description>Không thể nhập liệu vào mục này trong trường hợp Phân loại xử lý là "9"</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="S0004" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Yêu cầu nhập liệu trong trường hợp Phân loại xử lý là "9".</description>
+    <disposition>Nhập Số khai báo xe đi trong trường hợp tạm xuất.</disposition>
+  </response>
+  <response code="S0005" name="Arrival declaration number" id="AND">
+    <description>Yêu cầu nhập liệu trong trường hợp Phân loại xử lý là "5" hoặc "1"</description>
+    <disposition>Nhập Số tờ khai nhập khẩu</disposition>
+  </response>
+  <response code="S0006" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Không thể nhập liệu vào mục này trong trường hợp Phân loại xử lý là "5" hoặc "1" .</description>
+    <disposition>Xóa nội dung nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống.</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Arrival declaration number" id="AND">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0003" name="Arrival declaration number" id="AND">
+    <description>Số tờ khai nhập khẩu đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai nhập khẩu</disposition>
+  </response>
+  <response code="E0004" name="Arrival declaration number" id="AND">
+    <description>Số tờ khai nhập khẩu này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai nhập khẩu</disposition>
+  </response>
+  <response code="E0005" name="Arrival declaration number" id="AND">
+    <description>Số tờ khai nhập khẩu này đã được chấp thuận hoặc không được phê duyệt.</description>
+    <disposition>Kiểm tra nội dung nhập của Số tờ khai nhập khẩu</disposition>
+  </response>
+  <response code="E0006" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0007" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Số khai báo xe đi này đã bị sửa.</description>
+    <disposition>Kiểm tra nội dung nhập của Số khai báo xe đi.</disposition>
+  </response>
+  <response code="E0008" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Số khai báo xe đi này đã bị hủy.</description>
+    <disposition>Kiểm tra nội dung nhập của Số khai báo xe đi.</disposition>
+  </response>
+  <response code="E0009" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Số khai báo xe đi này không được chấp thuận.</description>
+    <disposition>Kiểm tra nội dung nhập của Số khai báo xe đi.</disposition>
+  </response>
+  <response code="E0010" name="Departure declaration No. on temporary export" id="RDN">
+    <description>Số khai báo xe đi này không phải cho Tạm xuất.</description>
+    <disposition>Kiểm tra nội dung nhập của Số khai báo xe đi.</disposition>
+  </response>
+  <response code="E0011" name="Arrival declaration number" id="AND">
+    <description>Tờ khai nhập khẩu này đã bị sửa 9 lần.
+
+</description>
+    <disposition>Kiểm tra nội dung nhập của thông tin tờ khai nhập khẩu.
+
+</disposition>
+  </response>
+</help>

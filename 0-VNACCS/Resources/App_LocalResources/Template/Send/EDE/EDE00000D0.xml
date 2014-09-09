@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jobform jobcode="CAM32_EDE" jobname="CAM32_EDE" display-name="EDE Correction of export declaration">
+  <meta_info format_Version="1.0" revision="0000" friday="CAM32_EDE.xml" item_attr_edit="False" />
+  <friday href="CAM32_EDE.xml" revision="0000" />
+  <iteminfo>
+    <item id="ECN" name="Declaration No." input_output="+" required="M" attribute="I" figure="12" form="" order="1" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+    <item id="JKN" name="Classification of outputting corrected report" input_output="+" required="C" attribute="A" figure="1" form="" order="2" check_attribute="*" check_full="" choice_table="" out_flg="0" in_flg="1" />
+  </iteminfo>
+  <layout>
+    <label Size="70, 19" Location="167, 168" Text="Số tờ khai *" Font="Tahoma, 9pt" />
+    <label Size="172, 19" Location="167, 207" Text="Phân loại xuất báo cáo sửa đổi" Font="Tahoma, 9pt" />
+    <textbox CharacterCasing="Upper" TabIndex="2" Size="20, 21" Location="349, 207" BackColor="Window" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="2" input_output="+" check_full="" check_time="" check_date="" name="Classification of outputting corrected report" check_attribute="*" attribute="A" id="JKN" figure="1" required="C" />
+    <textbox CharacterCasing="Upper" TabIndex="1" Size="97, 21" Location="349, 167" BackColor="LightCyan" Font="Courier New, 9pt" form="" AutoComplete="False" choice_keyvalue="" order="1" input_output="+" check_full="" check_time="" check_date="" name="Declaration No." check_attribute="*" attribute="I" id="ECN" figure="12" required="M" />
+  </layout>
+</jobform>

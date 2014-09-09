@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="GIR" name="Registration of arrival notification B">
+  <item no="1" name="Processing type" id="KBN" required="" code="">Lựa chọn yêu cầu cần thực hiện
+9: Đăng ký
+5: Sửa
+1: Hủy/Xóa
+</item>
+  <item no="2" name="Arrival notification No." id="AND" required="" code="">Nhập số thông báo nhập cảng trong trường hợp sửa đổi/hủy bỏ</item>
+  <item no="3" name="Submission to Immigration Bureau" id="TON" required="" code="">0 (Không đánh dấu) : Không nộp
+1 (Đánh dấu) : Nộp
+</item>
+  <item no="4" name="Submission to Quarantine station" id="TOK" required="" code="">0 (Không đánh dấu) : Không nộp
+1 (Đánh dấu) : Nộp
+</item>
+  <item no="5" name="Submission to Airport Authority" id="TOA" required="" code="">0 (Không đánh dấu) : Không nộp
+1 (Đánh dấu) : Nộp
+</item>
+  <item no="6" name="Owner or operator" id="OWN" required="" code="Airline code">Nhập mã hãng hàng không sở hữu hoặc vận hành máy bay theo bảng mã hãng hàng không A214.</item>
+  <item no="7" name="Airline name" id="KOU" required="" code="">1. Nhập tên hãng hàng không
+2. Trường hợp mã hãng hàng không chưa đăng ký trên hệ thống, bắt buộc phải nhập tên.
+3. Trường hợp  không nhập mã hãng hàng không, bắt buộc phải nhập tên.</item>
+  <item no="8" name="Aircraft&#xA;(Marks of Nationality and Registration)" id="REG" required="" code="">Nhập số hiệu đăng ký máy bay gồm 10 ký tự</item>
+  <item no="9" name="Nationality" id="FLG" required="" code="UN/LOCODE&#xA;(2-digits country code)&#xA;">Nhập mã nước theo bảng mã UN/LOCODE (2 ký tự)</item>
+  <item no="10" name="Main arriving flight No. 1 (flight No.)" id="FL1" required="" code="">Nhập số hiệu chuyến bay gồm 6 ký tự1.  Nhập 2 ký tự mã hãng hàng không và 3 đến 4 ký tự số hiệu chuyến bay2.  Có thể nhập 3 đến 4 ký tự cho số hiệu chuyến bay. Đối với số hiệu chuyến bay có thể dùng chữ cái cho ký tự thứ 4, 3 ký tự còn lại chỉ có thể dùng chữ số.3. Trường hợp sửa, không thể thay đổi thông tin này.
+
+</item>
+  <item no="11" name="Main arriving flight No. 2 (date)" id="FL2" required="" code="">Nhập ngày chuyến bay theo định dạng DDMMM
+Trường hợp sửa, không thể thay đổi thông tin này.
+</item>
+  <item no="12" name="Arriving flight No. 1 (for code-share flight) (flight No.)" id="A__" required="" code="">Nhập số hiệu chuyến bay của chuyến bay liên danh gồm 6 ký tự
+1.  Nhập 2 ký tự mã hãng hàng không và 3 đến 4 ký tự số hiệu chuyến bay
+2.  Có thể nhập 3 đến 4 ký tự cho số hiệu chuyến bay. Đối với số hiệu chuyến bay có thể dùng chữ cái cho ký tự thứ 4, 3 ký tự còn lại chỉ có thể dùng chữ số.</item>
+  <item no="13" name="Arriving flight No. 2 (for code-share flight) (date)" id="B__" required="" code="">Nhập ngày chuyến bay liên danh theo định dạng DDMMM</item>
+  <item no="14" name="Departure airport" id="DEP" required="" code="IATA airport code&#xA;&#xA;">Nhập mã sân bay cất cánh 3 ký tự theo bảng mã sân bay, thành phố của IATA.</item>
+  <item no="15" name="Departure date" id="DDT" required="" code="">Nhập ngày cất cánh theo định dạng DDMMYYYY</item>
+  <item no="16" name="Departure time" id="DMT" required="" code="">Nhập thời gian cất cánh theo định dạng HHMM</item>
+  <item no="17" name="Port of call after departure" id="VI_" required="" code="IATA airport code&#xA;&#xA;">Nhập mã sân bay quá cảnh sau khi rời sân bay hiện tại theo bảng mã sân bay/thành phố của IATA (3 ký tự)</item>
+  <item no="18" name="Departure date at port after departure" id="VD_" required="" code="">Nhập ngày cất cánh tại sân bay quá cảnh theo định dạng DDMMYYYY</item>
+  <item no="19" name="Departure time at port after departure" id="VM_" required="" code="">Nhập thời gian cất cánh tại sân bay quá cảnh theo định dạng HHMM</item>
+  <item no="20" name="Arrival airport" id="ARP" required="" code="IATA airport code&#xA;&#xA;">Nhập mã sân bay hạ cánh theo bảng mã sân bay của IATA (3 ký tự)Trường hợp sửa, không thể thay đổi thông tin này.</item>
+  <item no="21" name="Date of arrival" id="ADT" required="" code="">Nhập ngày hạ cánh theo định dạng DDMMYYYY
+Ngày đến &gt; ngày hệ thống - 60 ngày (60 ngày trước ngày hệ thống)</item>
+  <item no="22" name="Actual time of arrival" id="AMT" required="" code="">Nhập thời gian hạ cánh theo định dạng HHMM</item>
+  <item no="23" name="Aircraft type" id="SHP" required="" code="">1. Nhập loại máy bay theo nguyên tắc;
+Ký tự đầu tiên
+     D: Chuyến bay thẳng
+     N: Chuyến bay quá cảnh
+Ký tự thứ hai 
+     T: Chuyến bay thương mại quốc tế
+     S: Chuyến bay đặc biệt
+Ký tự thứ ba
+     P: Chuyến bay chở khách
+     F: Chuyến bay chở hàng
+     O: Chuyến bay công vụ
+     K: Chuyến bay riêng
+     S: Loại khác
+2. Trong trường hợp ký tự thứ hai nhập là "T", ký tự thứ ba chỉ có thể nhập "P" hoặc "F".</item>
+  <item no="24" name="Aircraft parking spot" id="SPO" required="" code="">
+  </item>
+  <item no="25" name="Number of Vietnamese crew landing at arrival airport" id="NIH" required="" code="">1. Số phi hành đoàn người Việt Nam xuống máy bay tại sân bay đến.
+2. Trường hợp không có, nhập "0.
+
+</item>
+  <item no="26" name="Number of foreigner crew landing at arrival airport" id="GAI" required="" code="">1. Số phi hành đoàn người nước ngoài xuống máy bay tại sân bay đến.
+2. Trường hợp không có, nhập "0".
+
+</item>
+  <item no="27" name="Number of crew members passing through at arrival airport" id="TUU" required="" code="">1. Số phi hành đoàn quá cảnh tại sân bay đến.2. Trường hợp không có, nhập "0".
+
+
+</item>
+  <item no="28" name="Number of crew members" id="CRW" required="" code="">1. Nhập số lượng phi hành đoàn trên tàu.
+2. Trường hợp không có, nhập "0"
+
+
+</item>
+  <item no="29" name="Number of passengers landing at arrival airport" id="JYO" required="" code="">1. Số lượng hành khách xuống máy bay tại sân bay đến.
+2. Trường hợp không có, nhập "0".
+
+</item>
+  <item no="30" name="Number of passengers passing through at arrival airport" id="NOR" required="" code="">1. Số lượng hành khách quá cảnh tại sân bay đến.
+2. Trường hợp không có, nhập "0".
+</item>
+  <item no="31" name="Authorized agent or pilot-in-command" id="SIG" required="" code="">
+  </item>
+  <item no="32" name="Remarks" id="KIJ" required="" code="">1. Nhập các ghi chú của Cơ quan hải quan hoặc Cơ quan xuất nhập cảnh.
+2. Trong các trường hợp sau, nhập các ghi chú cần thông báo cho Cơ quan kiểm dịch;
+-  Có người mắc bệnh truyền nhiễm, nhập thông tin chi tiết.
+-  Có người chết trong quá trình bay, nhập thông tin chi tiết.
+-  Trong trường hợp có thực hiện các biện pháp vệ sinh, khử trùng trong quá trình bay (bao gồm cả việc thực hiện gần nhất), nhập thông tin chi tiết.</item>
+  <item no="33" name="Presence of person who may be suffering from communicable disease" id="KAN" required="" code="">Lựa chọn 
+0: Không có ( bao gồm cả các trước hợp không báo cáo cho Cơ quan kiểm dịch)
+1: Có xuất hiện
+</item>
+  <item no="34" name="Number of person who may be suffering from communicable disease" id="KAS" required="" code="">1. In case there are persons who may be suffering from communicable disease (presence), it is required to enter number of such persons(1 or more).
+2. In other case than above (absence), it is required to enter "0" or not enter.
+</item>
+  <item no="35" name="Last name" id="C__" required="" code="">Trường hợp có người mắc bệnh truyền nhiễm, phải nhập tên người đó.</item>
+  <item no="36" name="First name" id="D__" required="" code="">
+  </item>
+  <item no="37" name="Middle name" id="E__" required="" code="">
+  </item>
+  <item no="38" name="Seat No." id="F__" required="" code="">
+  </item>
+  <item no="39" name="Official title" id="G__" required="" code="Official title code">Nhập mã vị trí trong trường hợp là phi hành đoàn theo bảng mã vị trí làm việc A241.</item>
+  <item no="40" name="Presence of deceased during the flight" id="SHI" required="" code="">Lựa chọn
+0: Không có ( bao gồm cả các trước hợp không báo cáo cho Cơ quan kiểm dịch)
+1: Có xuất hiện
+</item>
+  <item no="41" name="Number of deceased during the flight" id="SIS" required="" code="">Nhập số người chết trong quá trình bay.</item>
+  <item no="42" name="Presence of disinsecting or sanitary treatment" id="KUJ" required="" code="">Lựa chọn
+0: Không có ( bao gồm cả các trước hợp không báo cáo cho Cơ quan kiểm dịch)
+1: Có xuất hiện</item>
+  <item no="43" name="Place" id="PL_" required="" code="">Trường hợp có thực hiện các biện pháp vệ sinh, khử trùng, phải nhập vị trí thực hiện.</item>
+  <item no="44" name="Date of disinsecting or sanitary treatment" id="DT_" required="" code="">Trường hợp có thực hiện các biện pháp vệ sinh, khử trùng, phải nhập ngày thực hiện theo định dạng DDMMYYYY.</item>
+  <item no="45" name="Expected duration" id="TM_" required="" code="">1. Trường hợp có thực hiện các biện pháp vệ sinh, khử trùng, phải nhập thời gian cần thiết để thực hiện.
+2. Thời gian được nhập theo phút.</item>
+  <item no="46" name="Method" id="HW_" required="" code="">Trường hợp có thực hiện các biện pháp vệ sinh, khử trùng, phải nhập phương thức thực hiện.</item>
+  <item no="47" name="Last name of concerned crew member" id="LNM" required="" code="">
+  </item>
+  <item no="48" name="First name of concerned crew member" id="FNM" required="" code="">
+  </item>
+  <item no="49" name="Middle name of concerned crew member" id="MNM" required="" code="">
+  </item>
+</guide>

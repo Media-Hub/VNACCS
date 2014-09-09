@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../ErrorHelp.xslt'?>
+<help jobcode="PLR02" name="">
+  <response code="00000" name="None" id="0000">
+    <description>Hoàn thành</description>
+    <disposition>Không cần</disposition>
+  </response>
+  <response code="U0001" name="None" id="0000">
+    <description>Không thể thực hiện nghiệp vụ do Mã người sử dụng không hợp lệ.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="U0002" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Danh sách hành khách đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập.</disposition>
+  </response>
+  <response code="U0003" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Danh sách hành khách đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập.</disposition>
+  </response>
+  <response code="U0004" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Danh sách hành khách đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập.</disposition>
+  </response>
+  <response code="U0005" name="Passenger list number" id="NUM">
+    <description>Danh sách hành khách đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập.</disposition>
+  </response>
+  <response code="U0006" name="Passenger list number" id="NUM">
+    <description>Danh sách hành khách đã được đăng ký bởi người sử dụng khác.</description>
+    <disposition>Kiểm tra nội dung nhập.</disposition>
+  </response>
+  <response code="S0001" name="Processing type" id="KBN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Phân loại xử lý.</disposition>
+  </response>
+  <response code="S0002" name="Processing type" id="KBN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Phân loại xử lý với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0003" name="Transportation type" id="OPT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Loại hình vận chuyển.</disposition>
+  </response>
+  <response code="S0004" name="Transportation type" id="OPT">
+    <description>Loại hình vận chuyển phải là "S" hoặc "A" hoặc "R" trong nghiệp vụ PLR01.</description>
+    <disposition>Nhập Loại hình vận chuyển với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0005" name="Transportation type" id="OPT">
+    <description>Loại hình vận chuyển phải là "V" trong nghiệp vụ PLR02.</description>
+    <disposition>Nhập Loại hình vận chuyển với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0006" name="Volume No." id="VOL">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Khối lượng.</disposition>
+  </response>
+  <response code="S0007" name="Volume No." id="VOL">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Khối lượng với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0009" name="Passenger list number" id="NUM">
+    <description>Không thể nhập vào mục này.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0010" name="Submission to Immigration Bureau" id="TON">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cục quản lý xuất nhập cảnh.</disposition>
+  </response>
+  <response code="S0011" name="Submission to Immigration Bureau" id="TON">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cục quản lý xuất nhập cảnh với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0012" name="Submission to Quarantine station" id="TOK">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="S0013" name="Submission to Quarantine station" id="TOK">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cơ quan kiểm dịch với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0014" name="Submission to Port authority(Airport authority / Railway station authority)" id="TOP">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Nộp cho cảng vụ (cảng vụ hàng không/ ga đường sắt).</disposition>
+  </response>
+  <response code="S0015" name="Submission to Port authority(Airport authority / Railway station authority)" id="TOP">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Nộp cho cảng vụ (cảng vụ hàng không/ ga đường sắt) với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0016" name="Customs office" id="NZC">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0017" name="Customs office" id="NZC">
+    <description>Cơ quan Hải quan này không thể giám sát nghiệp vụ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0018" name="User code of Immigration Bureau" id="KKK">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0019" name="User code of Immigration Bureau" id="KKK">
+    <description>Giá trị đã nhập không phải mã người dùng của Cục quản lý xuất nhập cảnh.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0020" name="User code of Immigration Bureau" id="KKK">
+    <description>Mã người nhập không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0021" name="User code of Quarantine station" id="KEK">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0022" name="User code of Quarantine station" id="KEK">
+    <description>Giá trị đã nhập không phải Mã người dùng của cơ quan kiểm dịch.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0023" name="User code of Quarantine station" id="KEK">
+    <description>Mã người nhập không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0024" name="User code of Port authority(Airport authority / Railway station authority)" id="KEP">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0025" name="User code of Port authority(Airport authority / Railway station authority)" id="KEP">
+    <description>Giá trị đã nhập không phải Mã người dùng của cảng vụ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0026" name="User code of Port authority(Airport authority / Railway station authority)" id="KEP">
+    <description>Giá trị đã nhập không phải Mã người dùng của cảng vụ hàng không.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0027" name="User code of Port authority(Airport authority / Railway station authority)" id="KEP">
+    <description>Giá trị đã nhập không phải Mã người dùng của cảng vụ ga đường sắt.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0028" name="User code of Port authority(Airport authority / Railway station authority)" id="KEP">
+    <description>Mã người nhập không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0029" name="Passenger list number" id="NUM">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số tham chiếu danh sách hành khách.</disposition>
+  </response>
+  <response code="S0030" name="Arrival/departure indication" id="IOK">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập cờ báo đến/đi.</disposition>
+  </response>
+  <response code="S0031" name="Arrival/departure indication" id="IOK">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập cờ báo đến/đi với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0032" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã phương tiện vận chuyển.</disposition>
+  </response>
+  <response code="S0033" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0034" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị đã nhập không chính xác trong trường hợp vận tải đường biển.</description>
+    <disposition>Kiểm tra độ dài của giá trị đã nhập và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0035" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị đã nhập không chính xác trong trường hợp vận tải đường hàng không.</description>
+    <disposition>Kiểm tra độ dài của giá trị đã nhập và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0036" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0037" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1 với định dạng hợp lệ. </disposition>
+  </response>
+  <response code="S0038" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 2 với định dạng hợp lệ. </disposition>
+  </response>
+  <response code="S0039" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Số hiệu chuyến bay 1, 2 với định dạng hợp lệ. </disposition>
+  </response>
+  <response code="S0040" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị đã nhập không chính xác trong trường hợp vận tải đường sắt.</description>
+    <disposition>Kiểm tra độ dài của giá trị đã nhập và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0041" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Giá trị đã nhập không chính xác trong trường hợp vận tải xe tải.</description>
+    <disposition>Kiểm tra độ dài của giá trị đã nhập và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0042" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Mã quốc gia đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0043" name="Arrival place code / Departure place code" id="PRT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Mã nơi đến/Mã nơi đi.</disposition>
+  </response>
+  <response code="S0044" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0045" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị đã nhập không phải là sân bay nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0046" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0047" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị đã nhập không phải là sân bay nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0048" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0049" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị đã nhập không phải là ga nội địa tại Việt Nam.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0050" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0051" name="Arrival place suffix / Departure place suffix" id="LPD">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số nhánh của nơi đến/nơi đi.</disposition>
+  </response>
+  <response code="S0052" name="Arrival place suffix / Departure place suffix" id="LPD">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0053" name="Arrival place suffix / Departure place suffix" id="LPD">
+    <description>Không thể nhập vào mục này.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0054" name="Voyage No." id="KBF">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Số chuyến đi biển</disposition>
+  </response>
+  <response code="S0055" name="Voyage No." id="KBF">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0056" name="Voyage No." id="KBF">
+    <description>Không thể nhập vào mục này.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0057" name="Estimated date of arrival /Estimated date of departure" id="FDT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập ngày dự kiến đến/ngày xuất phát.</disposition>
+  </response>
+  <response code="S0058" name="Estimated date of arrival /Estimated date of departure" id="FDT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập ngày tháng với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0059" name="Estimated date of arrival /Estimated date of departure" id="FDT">
+    <description>Không thể nhập vào mục này.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="S0060" name="Remarks" id="KIJ">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0061" name="Passengers type" id="CPK">
+    <description>Phải nhập ít nhất một giá trị.</description>
+    <disposition>Nhập Loại hành khách.</disposition>
+  </response>
+  <response code="S0062" name="Cancellation indication" id="CAN">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Hiển thị hủy bỏ với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0063" name="Passengers type" id="CPK">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Loại hành khách.</disposition>
+  </response>
+  <response code="S0064" name="Passengers type" id="CPK">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Loại hành khách với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0065" name="Last name of passenger" id="LNM">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên họ hành khách.</disposition>
+  </response>
+  <response code="S0066" name="Last name of passenger" id="LNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0067" name="First name of passenger" id="FNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0068" name="Middle name of passenger" id="MNM">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0069" name="Nationality code of passenger" id="NAT">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Quốc tịch hành khách.</disposition>
+  </response>
+  <response code="S0070" name="Nationality code of passenger" id="NAT">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0071" name="Date of birth of passenger" id="BRT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập ngày tháng với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0072" name="Date of birth of passenger" id="BRT">
+    <description>Ngày tháng đã nhập lớn hơn ngày tháng hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0073" name="Passenger sex" id="SEX">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Giới tính hành khách.</disposition>
+  </response>
+  <response code="S0074" name="Passenger sex" id="SEX">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Giới tính hành khách với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0075" name="Type of passenger's identifiation document" id="IDK">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập Loại giấy tờ tùy thân của hành khách với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0076" name="Passenger's identification document number" id="IDN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0077" name="First departure location code" id="ORG">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0078" name="First departure location code" id="ORG">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0079" name="First departure location code" id="ORG">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0080" name="First departure location name" id="ORN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0081" name="Final destination code" id="DST">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0082" name="Final destination code" id="DST">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0083" name="Final destination code" id="DST">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0084" name="Final destination name" id="DSN">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0085" name="Passport expiry date" id="PDT">
+    <description>Định dạng đã nhập không hợp lệ.</description>
+    <disposition>Nhập ngày tháng với định dạng hợp lệ.</disposition>
+  </response>
+  <response code="S0086" name="Place of issue of passport/visa" id="PIC">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0087" name="Remarks" id="KIZ">
+    <description>Giá trị đã nhập chứa ký tự không hợp lệ.</description>
+    <disposition>Kiểm tra giá trị và nhập ký tự hợp lệ.</disposition>
+  </response>
+  <response code="S0088" name="First departure location name" id="ORN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên địa điểm khởi hành đầu tiên.</disposition>
+  </response>
+  <response code="S0089" name="Final destination name" id="DSN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên địa điểm đích cuối cùng.</disposition>
+  </response>
+  <response code="S0090" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0091" name="Arrival place code / Departure place code" id="PRT">
+    <description>Giá trị đã nhập chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="S0093" name="First departure location name" id="ORN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên địa điểm khởi hành đầu tiên.</disposition>
+  </response>
+  <response code="S0094" name="Final destination name" id="DSN">
+    <description>Yêu cầu nhập liệu.</description>
+    <disposition>Nhập Tên địa điểm đích cuối cùng.</disposition>
+  </response>
+  <response code="R0001" name="Transportation type&#xA;Submission to Port authority(Airport authority / Railway station authority)" id="OPT&#xA;TOP">
+    <description>Không thể chọn Nộp cho cảng vụ trong trường hợp vận tải đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0002" name="Transportation type&#xA;User code of Port authority(Airport authority / Railway station authority)" id="OPT&#xA;KEP">
+    <description>Không thể nhập liệu Mã người dùng trong trường hợp vận tải đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0003" name="Transportation type&#xA;Customs office" id="OPT&#xA;NZC">
+    <description>Không thể nhập liệu Mã cơ quan hải quan trong trường hợp vận tải đường không/đường sắt/đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0004" name="Submission to Immigration Bureau&#xA;User code of Immigration Bureau" id="TON&#xA;KKK">
+    <description>Yêu cầu chọn Nộp cho cục quản lý nhập cảnh khi Mã người dùng của Cục quản lý nhập cảnh được nhập.</description>
+    <disposition>Chọn hộp đa hợp hoặc xóa nội dung đã nhập của Mã người dùng.</disposition>
+  </response>
+  <response code="R0005" name="Transportation type&#xA;User code of Immigration Bureau" id="OPT&#xA;KKK">
+    <description>Không thể nhập liệu Mã người dùng trong trường hợp vận tải đường không/đường sắt/đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0006" name="Submission to Quarantine station&#xA;User code of Quarantine station" id="TOK&#xA;KEK">
+    <description>Yêu cầu chọn Nộp cho cơ quan kiểm dịch khi Mã người dùng của Cơ quan kiểm dịch được nhập.</description>
+    <disposition>Chọn hộp đa hợp hoặc xóa nội dung đã nhập của Mã người sử dụng.</disposition>
+  </response>
+  <response code="R0007" name="Transportation type&#xA;User code of Quarantine station" id="OPT&#xA;KEK">
+    <description>Không thể nhập liệu Mã người dùng trong trường hợp vận tải đường không/đường sắt/đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="R0008" name="Submission to Port authority(Airport authority / Railway station authority)&#xA;User code of Port authority(Airport authority / Railway station authority)" id="TOP&#xA;KEP">
+    <description>Yêu cầu chọn Nộp cho cảng vụ (cảng vụ hàng không/ ga đường sắt) khi Mã người dùng của cảng vụ (cảng vụ hàng không/ ga đường sắt) được nhập</description>
+    <disposition>Chọn hộp đa hợp hoặc xóa nội dung đã nhập của Mã người sử dụng.</disposition>
+  </response>
+  <response code="R0009" name="Transportation type&#xA;User code of Port authority(Airport authority / Railway station authority)" id="OPT&#xA;KEP">
+    <description>Không thể nhập liệu Mã người dùng trong trường hợp vận tải đường không/đường sắt/đường bộ.</description>
+    <disposition>Xóa nội dung đã nhập.</disposition>
+  </response>
+  <response code="E0001" name="None" id="0000">
+    <description>Độ dài thông điệp đã nhập vượt quá độ dài tối đa trong hệ thống</description>
+    <disposition>Kiểm tra độ dài thông điệp.</disposition>
+  </response>
+  <response code="E0002" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Danh sách khách hàng có chứa những mục đã được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0003" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Danh sách khách hàng có chứa những mục đã được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0004" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Danh sách khách hàng có chứa những mục đã được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0005" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Danh sách khách hàng có chứa những mục chưa được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0006" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Số lượng lần 2 đã được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0007" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Thông tin danh sách khách hàng đã bị sửa.</description>
+    <disposition>Sử dụng nghiệp vụ PLR11 để lấy thông tin và sửa đổi danh sách hành khách.</disposition>
+  </response>
+  <response code="E0008" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Arrival place suffix / Departure place suffix&#xA;Voyage No." id="IOK&#xA;OPC&#xA;PRT&#xA;LPD&#xA;KBF">
+    <description>Danh sách khách hàng có chứa những mục đã bị hủy trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0009" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Danh sách khách hàng có chứa những mục chưa được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0010" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Số lượng lần 2 đã được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0011" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Thông tin danh sách khách hàng đã bị sửa.</description>
+    <disposition>Sử dụng nghiệp vụ PLR11 để lấy thông tin và sửa đổi danh sách hành khách.</disposition>
+  </response>
+  <response code="E0012" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code" id="IOK&#xA;OPC&#xA;PRT">
+    <description>Danh sách khách hàng có chứa những mục đã bị hủy trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0013" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Danh sách khách hàng có chứa những mục chưa được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0014" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Số lượng lần 2 đã được đăng ký vào hệ thống trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0015" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Thông tin danh sách khách hàng đã bị sửa.</description>
+    <disposition>Sử dụng nghiệp vụ PLR11 để lấy thông tin và sửa đổi danh sách hành khách.</disposition>
+  </response>
+  <response code="E0016" name="Arrival/departure indication&#xA;Transportation equipment code(Vessel call sign&#xA; Flight number etc....)&#xA;Arrival place code / Departure place code&#xA;Estimated date of arrival /Estimated date of departure" id="IOK&#xA;OPC&#xA;PRT&#xA;FDT">
+    <description>Danh sách khách hàng có chứa những mục đã bị hủy trong trường hợp đăng ký số lượng lần 2.</description>
+    <disposition>Kiểm tra nội dung đã nhập và thông tin danh sách hành khách đã đăng ký.</disposition>
+  </response>
+  <response code="E0017" name="Passenger list number" id="NUM">
+    <description>Giá trị nhập chưa được đăng ký trong hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0018" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị sửa trong trưởng hợp đăng ký số lượng lần 1.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0019" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị hủy.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0020" name="Passenger list number" id="NUM">
+    <description>Thông tin danh sách hành khách đã bị sửa 9 lần.</description>
+    <disposition>Nếu cần thì hủy danh sách khách hàng, rồi đăng ký lại.</disposition>
+  </response>
+  <response code="E0021" name="Transportation type" id="OPT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0022" name="Arrival/departure indication" id="IOK">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0023" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0024" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0025" name="Arrival place code / Departure place code" id="PRT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0026" name="Arrival place suffix / Departure place suffix" id="LPD">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0027" name="Voyage No." id="KBF">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0028" name="Estimated date of arrival /Estimated date of departure" id="FDT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0029" name="Passenger list number" id="NUM">
+    <description>Số tham chiếu danh sách hành khách đã bị hủy.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0030" name="Passenger list number" id="NUM">
+    <description>Số lượng thứ nhất chưa bị sửa.</description>
+    <disposition>Đầu tiên sửa số lượng thứ nhất, sau đó sửa số lượng thứ 2</disposition>
+  </response>
+  <response code="E0031" name="Passenger list number" id="NUM">
+    <description>Số nhánh tiếp theo chưa được đăng ký vào hệ thống.</description>
+    <disposition>Kiểm tra giá trị và nhập dữ liệu hợp lệ.</disposition>
+  </response>
+  <response code="E0032" name="Passenger list number" id="NUM">
+    <description>Số nhánh tiếp theo đã bị sửa.</description>
+    <disposition>Kiểm tra số nhánh nào là số mới nhất. Nếu số lượng thứ 2 chưa bị sửa, thì nhập mục trước số nhánh.</disposition>
+  </response>
+  <response code="E0033" name="Passenger list number" id="NUM">
+    <description>Số nhánh tiếp theo đã bị hủy.</description>
+    <disposition>Đăng ký danh sách hành khách mới.</disposition>
+  </response>
+  <response code="E0034" name="Transportation type" id="OPT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0035" name="Arrival/departure indication" id="IOK">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0036" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0037" name="Transportation equipment code(Vessel call sign&#xA; Flight number etc....)" id="OPC">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0038" name="Arrival place code / Departure place code" id="PRT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0039" name="Arrival place suffix / Departure place suffix" id="LPD">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0040" name="Voyage No." id="KBF">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0041" name="Estimated date of arrival /Estimated date of departure" id="FDT">
+    <description>Không thể thay đổi mục này ngoài giá trị đã đăng ký.</description>
+    <disposition>Giá trị đã nhập giống với giá trị đã đăng ký.</disposition>
+  </response>
+  <response code="E0042" name="Submission to Immigration Bureau&#xA;Arrival place code / Departure place code" id="TON&#xA;PRT">
+    <description>Cục quản lý nhập cảnh của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="E0043" name="Submission to Quarantine station&#xA;Arrival place code / Departure place code" id="TOK&#xA;PRT">
+    <description>Cơ quan kiểm dịch của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="E0044" name="Submission to Port authority(Airport authority / Railway station authority)&#xA;Arrival place code / Departure place code" id="TOP&#xA;PRT">
+    <description>Cảng vụ (cảng vụ hàng không/ga đường sắt) của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cảng vụ (cảng vụ hàng không/ga đường sắt)</disposition>
+  </response>
+  <response code="E0045" name="Submission to Immigration Bureau&#xA;Arrival place code / Departure place code" id="TON&#xA;PRT">
+    <description>Cục quản lý nhập cảnh của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="E0046" name="Submission to Quarantine station&#xA;Arrival place code / Departure place code" id="TOK&#xA;PRT">
+    <description>Cơ quan kiểm dịch của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="E0047" name="Submission to Port authority(Airport authority / Railway station authority)&#xA;Arrival place code / Departure place code" id="TOP&#xA;PRT">
+    <description>Cảng vụ (cảng vụ hàng không/ga đường sắt) của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cảng vụ (cảng vụ hàng không/ga đường sắt)</disposition>
+  </response>
+  <response code="E0048" name="Submission to Immigration Bureau&#xA;Arrival place code / Departure place code" id="TON&#xA;PRT">
+    <description>Cục quản lý nhập cảnh của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="E0049" name="Submission to Quarantine station&#xA;Arrival place code / Departure place code" id="TOK&#xA;PRT">
+    <description>Cơ quan kiểm dịch của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="E0050" name="Submission to Port authority(Airport authority / Railway station authority)&#xA;Arrival place code / Departure place code" id="TOP&#xA;PRT">
+    <description>Cảng vụ (cảng vụ hàng không/ga đường sắt) của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cảng vụ (cảng vụ hàng không/ga đường sắt)</disposition>
+  </response>
+  <response code="E0051" name="Submission to Immigration Bureau&#xA;Arrival place code / Departure place code" id="TON&#xA;PRT">
+    <description>Cục quản lý nhập cảnh của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cục quản lý nhập cảnh.</disposition>
+  </response>
+  <response code="E0052" name="Submission to Quarantine station&#xA;Arrival place code / Departure place code" id="TOK&#xA;PRT">
+    <description>Cơ quan kiểm dịch của Nơi đến không sẵn sàng nhận danh sách hành khách.</description>
+    <disposition>Bỏ chọn Nộp cho cơ quan kiểm dịch.</disposition>
+  </response>
+  <response code="E0053" name="Passenger list number" id="NUM">
+    <description>Số lượng lần 2 đã được sửa trong trường hợp sửa số lượng lần 2.</description>
+    <disposition>Kiểm tra Số tham chiếu danh sách hành khách đã nhập.</disposition>
+  </response>
+  <response code="E9990" name="None" id="0000">
+    <description>Nghiệp vụ này yêu cầu chữ ký điện tử</description>
+    <disposition>Thêm vào chữ ký điện tử và thực hiện lại nghiệp vụ.</disposition>
+  </response>
+  <response code="W0001" name="None" id="0000">
+    <description>Người dùng của Cơ quan Hải quan không hợp lệ. Thông tin xuất ra không được gửi đến hải quan.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0002" name="None" id="0000">
+    <description>Người dùng của Cục quản lý nhập cảnh không hợp lệ.  Thông tin xuất ra không được gửi đến Cục quản lý nhập cảnh.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0003" name="None" id="0000">
+    <description>Người dùng của cơ quan kiểm dịch không hợp lệ.Thông tin xuất ra không được gửi đến cơ quan kiểm dịch.</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="W0004" name="None" id="0000">
+    <description>Người dùng của cảng vụ (sân bay/ga đường sắt) không hợp lệ. Thông tin xuất ra không được gửi đến cảng vụ (cảng vụ hàng không/ga đường sắt).</description>
+    <disposition>Không cần.</disposition>
+  </response>
+  <response code="L0001" name="Arrival place code / Departure place code" id="PRT">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0002" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0003" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0004" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0005" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0006" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0007" name="Arrival place code / Departure place code" id="PRT">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0008" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0009" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0010" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0011" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0012" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0013" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0014" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0015" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0016" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0017" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0018" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0019" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0020" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+  <response code="L0021" name="None" id="0000">
+    <description>Hệ thống xảy ra lỗi không tương thích.</description>
+    <disposition>Liên lạc với Quản trị hệ thống.</disposition>
+  </response>
+</help>

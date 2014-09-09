@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guide jobcode="IHR" name="Reference of house manifest information C">
+  <item no="1" name="Import/Export indication" id="IEI" required="" code="">Lựa chọn loại hình
+I: Nhập khẩu
+E: Xuất khẩu</item>
+  <item no="2" name="Master B/L No." id="OBL" required="" code="">Nhập số vận đơn chủ
+Trương hợp số B/L không bao gồm mã nhà vận chuyển, thì thêm mã nhà vận chuyển vào trước số B/L</item>
+</guide>
